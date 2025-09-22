@@ -208,7 +208,6 @@ jobs:
           echo "shard_out=${SHARD_OUT}" >> $GITHUB_OUTPUT
 
       - name: (Optional) Commit results back to repo if PAT_TOKEN present
-        if: ${{ secrets.PAT_TOKEN != '' }}
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
