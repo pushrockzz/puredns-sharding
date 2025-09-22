@@ -1,0 +1,248 @@
+name: puredns-quick-test
+
+on:
+  workflow_dispatch:
+    inputs:
+      chunk_start:
+        description: 'First chunk index this run will process (integer)'
+        required: true
+        default: '0'
+      total_chunks:
+        description: 'Total number of wordlist chunks available (test default = 8)'
+        required: true
+        default: '8'
+      run_counter:
+        description: 'Automatic run counter for recursion (auto-incremented)'
+        required: false
+        default: '0'
+      max_runs:
+        description: 'Safety: stop after this many runs'
+        required: false
+        default: '10'
+      words_per_chunk:
+        description: 'Words to generate per chunk (test default = 100)'
+        required: false
+        default: '100'
+      domains_count:
+        description: 'How many test domains to generate (default = 10)'
+        required: false
+        default: '10'
+
+env:
+  WORKFLOW_FILE: puredns-quick-test.yml
+  MATRIX_SIZE: '4'
+
+jobs:
+  brute:
+    name: bruteforce-shard (shard ${{ matrix.shard }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3]
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Install puredns and utilities
+        run: |
+          set -euo pipefail
+          sudo apt-get update -y
+          sudo apt-get install -y jq ca-certificates curl
+          if ! command -v puredns >/dev/null 2>&1; then
+            curl -sL "https://github.com/flightlessmango/puredns/releases/latest/download/puredns_linux_amd64.tar.gz" | sudo tar -xz -C /usr/local/bin
+            sudo chmod +x /usr/local/bin/puredns || true
+          fi
+          puredns --version || true
+
+      - name: Prepare test domains, chunk and resolvers
+        id: prepare
+        run: |
+          set -euo pipefail
+          mkdir -p domains wordlists results
+
+          DOMAIN_FILE="domains/domains.txt"
+          DOM_COUNT="${{ github.event.inputs.domains_count }}"
+          if [ -f "$DOMAIN_FILE" ]; then
+            echo "Using existing $DOMAIN_FILE"
+          else
+            echo "Generating $DOM_COUNT test domains into $DOMAIN_FILE"
+            : > "$DOMAIN_FILE"
+            i=1
+            while [ $i -le "$DOM_COUNT" ]; do
+              echo "test${i}.example.com" >> "$DOMAIN_FILE"
+              i=$((i + 1))
+            done
+          fi
+
+          WORDS="${{ github.event.inputs.words_per_chunk }}"
+          SHARD=${{ matrix.shard }}
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + SHARD ))
+          CHUNK_FILE="wordlists/chunk-${CHUNK_INDEX}.txt"
+
+          if [ -f "$CHUNK_FILE" ]; then
+            echo "Chunk exists: $CHUNK_FILE"
+          else
+            echo "Generating $WORDS words into $CHUNK_FILE (shard $CHUNK_INDEX)"
+            : > "$CHUNK_FILE"
+            n=1
+            while [ $n -le "$WORDS" ]; do
+              echo "w${CHUNK_INDEX}_${n}" >> "$CHUNK_FILE"
+              n=$((n + 1))
+            done
+          fi
+
+          # create resolvers-trusted.txt for quick-test if missing
+          RES="resolvers-trusted.txt"
+          if [ -f "$RES" ]; then
+            echo "Using existing $RES"
+          else
+            cat > "$RES" <<'RESOLVERS'
+1.1.1.1
+8.8.8.8
+9.9.9.9
+RESOLVERS
+            echo "Created $RES with 3 trusted resolvers"
+          fi
+
+          echo "chunk_index=${CHUNK_INDEX}" >> $GITHUB_OUTPUT
+          echo "chunk_file=${CHUNK_FILE}" >> $GITHUB_OUTPUT
+          echo "domain_file=${DOMAIN_FILE}" >> $GITHUB_OUTPUT
+          echo "resolvers_file=${RES}" >> $GITHUB_OUTPUT
+
+      - name: Run puredns bruteforce for this shard (stdin wordlist)
+        id: run_puredns
+        run: |
+          set -euo pipefail
+          CHUNK_FILE="${{ steps.prepare.outputs.chunk_file }}"
+          DOMAIN_FILE="${{ steps.prepare.outputs.domain_file }}"
+          RESOLVERS="${{ steps.prepare.outputs.resolvers_file }}"
+          IDX="${{ steps.prepare.outputs.chunk_index }}"
+          SHARD_OUT="results/shard-${IDX}.txt"
+          : > "$SHARD_OUT"
+
+          while IFS= read -r domain || [ -n "$domain" ]; do
+            case "$domain" in
+              \#*|"") continue ;;
+            esac
+
+            # sanitize domain for filenames
+            SAN=$(printf '%s' "$domain" | tr '/:@' '_' | tr '.' '_')
+            PUREDNS_FILE="results/puredns-${IDX}-${SAN}.txt"
+            WILDCARD_FILE="results/wildcards-${IDX}-${SAN}.txt"
+            MASSDNS_FILE="results/massdns-${IDX}-${SAN}.txt"
+
+            echo "[shard $IDX] bruteforcing $domain with chunk $CHUNK_FILE"
+            # Use wordlist via stdin as you specified
+            cat "$CHUNK_FILE" | /usr/local/bin/puredns bruteforce "$domain" \
+              -r "$RESOLVERS" \
+              --rate-limit 5000 \
+              --skip-validation \
+              --wildcard-tests 300 \
+              --wildcard-batch 100000 \
+              --write "$PUREDNS_FILE" \
+              --write-wildcards "$WILDCARD_FILE" \
+              --write-massdns "$MASSDNS_FILE" \
+              --quiet
+
+            # append found entries to shard master file (if puredns wrote results)
+            if [ -s "$PUREDNS_FILE" ]; then
+              cat "$PUREDNS_FILE" >> "$SHARD_OUT"
+            fi
+          done < "$DOMAIN_FILE"
+
+          echo "shard_out=${SHARD_OUT}" >> $GITHUB_OUTPUT
+
+      - name: (Optional) Commit results back to repo if PAT_TOKEN present
+        if: ${{ secrets.PAT_TOKEN != '' }}
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          set -euo pipefail
+          IDX="${{ steps.prepare.outputs.chunk_index }}"
+          OUTFILE="results/shard-${IDX}.txt"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git remote set-url origin "https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}"
+
+          git add "$OUTFILE" || true
+          if git diff --staged --quiet; then
+            echo "No new results to commit for $OUTFILE"
+          else
+            git commit -m "Add quick-test puredns results: shard ${IDX}"
+            for try in 1 2 3; do
+              if git pull --rebase --autostash origin ${{ github.ref_name }}; then
+                if git push origin HEAD:${{ github.ref_name }}; then
+                  echo "Pushed results for $OUTFILE"
+                  break
+                fi
+              fi
+              echo "Push attempt $try failed; retrying..."
+              sleep $((try * 2))
+            done
+          fi
+
+  dispatch-next:
+    name: dispatch-next-run
+    runs-on: ubuntu-latest
+    needs: brute
+    if: always()
+    env:
+      PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      WORKFLOW_FILE: ${{ env.WORKFLOW_FILE }}
+      MATRIX_SIZE: ${{ env.MATRIX_SIZE }}
+    steps:
+      - name: Compute and dispatch next run
+        run: |
+          set -euo pipefail
+          CHUNK_START=${{ github.event.inputs.chunk_start }}
+          TOTAL=${{ github.event.inputs.total_chunks }}
+          RUN_COUNTER=${{ github.event.inputs.run_counter }}
+          MAX_RUNS=${{ github.event.inputs.max_runs }}
+          WORDS_PER_CHUNK=${{ github.event.inputs.words_per_chunk }}
+          DOMAINS_COUNT=${{ github.event.inputs.domains_count }}
+
+          MATRIX_SIZE=${MATRIX_SIZE:-4}
+          NEXT_START=$((CHUNK_START + MATRIX_SIZE))
+          NEXT_COUNTER=$((RUN_COUNTER + 1))
+
+          echo "current_start=${CHUNK_START} matrix_size=${MATRIX_SIZE} next_start=${NEXT_START} total=${TOTAL} run_counter=${RUN_COUNTER}"
+
+          if [ "$NEXT_START" -ge "$TOTAL" ]; then
+            echo "All chunks processed (next_start >= total_chunks). Terminating recursion."
+            exit 0
+          fi
+
+          if [ "$NEXT_COUNTER" -gt "$MAX_RUNS" ]; then
+            echo "Reached max_runs ($MAX_RUNS). Terminating recursion."
+            exit 0
+          fi
+
+          URL="https://api.github.com/repos/${{ github.repository }}/actions/workflows/${WORKFLOW_FILE}/dispatches"
+          BODY=$(printf '%s' "{\"ref\":\"${{ github.ref_name }}\",\"inputs\":{\"chunk_start\":\"${NEXT_START}\",\"total_chunks\":\"${TOTAL}\",\"run_counter\":\"${NEXT_COUNTER}\",\"max_runs\":\"${MAX_RUNS}\",\"words_per_chunk\":\"${WORDS_PER_CHUNK}\",\"domains_count\":\"${DOMAINS_COUNT}\"}}")
+
+          CURL_BASE=(-s -o /dev/null -w "%{http_code}" -X POST -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28")
+          if [ -n "${PAT_TOKEN:-}" ]; then
+            CURL_BASE+=(-H "Authorization: Bearer ${PAT_TOKEN}")
+          else
+            echo "PAT_TOKEN not provided; using GITHUB_TOKEN (might be blocked by repo settings)"
+            CURL_BASE+=(-H "Authorization: Bearer ${GITHUB_TOKEN}")
+          fi
+
+          echo "Dispatching next run: start=${NEXT_START} counter=${NEXT_COUNTER}"
+          for i in 1 2 3 4; do
+            HTTP=$("${CURL_BASE[@]}" "$URL" -d "$BODY")
+            if [ "$HTTP" -ge 200 ] && [ "$HTTP" -lt 300 ]; then
+              echo "Dispatch succeeded (HTTP $HTTP)"
+              exit 0
+            fi
+            echo "Dispatch attempt ${i} failed (HTTP ${HTTP}). Retrying..."
+            sleep $((i * 2))
+          done
+
+          echo "Failed to dispatch next run after retries. Exiting with non-zero."
+          exit 0
