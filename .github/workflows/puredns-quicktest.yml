@@ -192,7 +192,7 @@ RESOLVERS
     if: always()
     env:
       PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}
       WORKFLOW_FILE: ${{ env.WORKFLOW_FILE }}
       MATRIX_SIZE: ${{ env.MATRIX_SIZE }}
     steps:
