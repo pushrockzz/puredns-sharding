@@ -246,8 +246,8 @@ jobs:
     env:
       PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
       GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
-      WORKFLOW_FILE: ${{ env.WORKFLOW_FILE }}
-      MATRIX_SIZE: ${{ env.MATRIX_SIZE }}
+      WORKFLOW_FILE: puredns-quicktest.yml 
+      MATRIX_SIZE: 4
     steps:
       - name: Compute and dispatch next run
         run: |
