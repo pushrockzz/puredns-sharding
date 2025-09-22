@@ -32,38 +32,26 @@ env:
   WORKFLOW_FILE: puredns-quick-test.yml
   MATRIX_SIZE: '4'
 
+# PREPARE job: runs once, splits the wordlist into chunks and uploads as artifact
 jobs:
-  brute:
-    name: bruteforce-shard (shard ${{ matrix.shard }})
+  prepare:
+    name: prepare-wordlists-and-resolvers
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        shard: [0,1,2,3]
-
+    outputs:
+      artifact-name: wordlists-artifact
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           persist-credentials: false
 
-      - name: Install puredns and utilities
+      - name: Ensure directories and create/gather wordlist, domains
+        id: create_inputs
         run: |
           set -euo pipefail
-          sudo apt-get update -y
-          sudo apt-get install -y jq ca-certificates curl
-          if ! command -v puredns >/dev/null 2>&1; then
-            curl -sL "https://github.com/flightlessmango/puredns/releases/latest/download/puredns_linux_amd64.tar.gz" | sudo tar -xz -C /usr/local/bin
-            sudo chmod +x /usr/local/bin/puredns || true
-          fi
-          puredns --version || true
+          mkdir -p wordlists domains results
 
-      - name: Prepare test domains, chunk and resolvers
-        id: prepare
-        run: |
-          set -euo pipefail
-          mkdir -p domains wordlists results
-
+          # domains: prefer existing, otherwise generate small test list
           DOMAIN_FILE="domains/domains.txt"
           DOM_COUNT="${{ github.event.inputs.domains_count }}"
           if [ -f "$DOMAIN_FILE" ]; then
@@ -78,50 +66,115 @@ jobs:
             done
           fi
 
-          WORDS="${{ github.event.inputs.words_per_chunk }}"
-          SHARD=${{ matrix.shard }}
-          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + SHARD ))
-          CHUNK_FILE="wordlists/chunk-${CHUNK_INDEX}.txt"
-
-          if [ -f "$CHUNK_FILE" ]; then
-            echo "Chunk exists: $CHUNK_FILE"
+          # wordlist: prefer repo wordlist.txt, otherwise generate quick test wordlist
+          WORDLIST="wordlist.txt"
+          if [ -f "$WORDLIST" ]; then
+            echo "Using existing $WORDLIST in repo"
           else
-            echo "Generating $WORDS words into $CHUNK_FILE (shard $CHUNK_INDEX)"
-            : > "$CHUNK_FILE"
+            # generate a big wordlist equal to total_chunks * words_per_chunk for deterministic split
+            TOTAL_CHUNKS="${{ github.event.inputs.total_chunks }}"
+            WORDS_PER_CHUNK="${{ github.event.inputs.words_per_chunk }}"
+            TOTAL_WORDS=$(( TOTAL_CHUNKS * WORDS_PER_CHUNK ))
+            echo "Generating quick-test wordlist with $TOTAL_WORDS words into $WORDLIST"
+            : > "$WORDLIST"
             n=1
-            while [ $n -le "$WORDS" ]; do
-              echo "w${CHUNK_INDEX}_${n}" >> "$CHUNK_FILE"
+            while [ $n -le $TOTAL_WORDS ]; do
+              echo "w${n}" >> "$WORDLIST"
               n=$((n + 1))
             done
           fi
 
-          # create resolvers-trusted.txt for quick-test if missing
-          RES="resolvers-trusted.txt"
-          if [ -f "$RES" ]; then
-            echo "Using existing $RES"
+          # split wordlist into chunk files: wordlists/chunk-0000.txt ...
+          CHUNK_LINES="${{ github.event.inputs.words_per_chunk }}"
+          # remove any old chunks (safe)
+          rm -f wordlists/chunk-*.txt || true
+          split -l "${CHUNK_LINES}" -d -a 4 --additional-suffix=.txt "$WORDLIST" wordlists/chunk-
+          echo "Created chunk files:"
+          ls -1 wordlists || true
+
+          # Download resolvers via wget (your requested source)
+          RESOLVERS_FILE="resolvers.txt"
+          RES_URL="https://raw.githubusercontent.com/and0x00/resolvers.txt/main/resolvers.txt"
+          echo "Downloading resolvers from ${RES_URL}"
+          wget -qO "$RESOLVERS_FILE" "$RES_URL" || (echo "Failed to download resolvers; creating minimal fallback" && printf '1.1.1.1\n8.8.8.8\n9.9.9.9\n' > "$RESOLVERS_FILE")
+
+          # Debug listing
+          echo "artifact_paths=wordlists resolvers.txt domains/domains.txt" >> $GITHUB_OUTPUT
+
+      - name: Upload wordlists + resolvers + domains as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: wordlists-artifact
+          path: |
+            wordlists
+            resolvers.txt
+            domains/domains.txt
+
+  # BRUTE job: runs per matrix shard; depends on prepare; downloads artifact with chunks
+  brute:
+    name: bruteforce-shard (shard ${{ matrix.shard }})
+    runs-on: ubuntu-latest
+    needs: prepare
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0,1,2,3]   # static 4-entry matrix; keep in sync with MATRIX_SIZE
+
+    steps:
+      - name: Checkout repo (no credentials)
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Download pre-split wordlists/artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: wordlists-artifact
+          path: .
+
+      - name: Install puredns and utilities
+        run: |
+          set -euo pipefail
+          sudo apt-get update -y
+          sudo apt-get install -y jq ca-certificates curl wget
+          if ! command -v puredns >/dev/null 2>&1; then
+            curl -sL "https://github.com/flightlessmango/puredns/releases/latest/download/puredns_linux_amd64.tar.gz" | sudo tar -xz -C /usr/local/bin
+            sudo chmod +x /usr/local/bin/puredns || true
+          fi
+          puredns --version || true
+
+      - name: Compute local chunk file for this shard
+        id: vars
+        run: |
+          set -euo pipefail
+          SHARD=${{ matrix.shard }}
+          CHUNK_START=${{ github.event.inputs.chunk_start }}
+          CHUNK_INDEX=$(( CHUNK_START + SHARD ))
+          CHUNK_FILE="wordlists/chunk-$(printf '%04d' "$CHUNK_INDEX").txt"
+          # If split used -d with default file names chunk-00,chunk-01 with 2-digit indexes,
+          # but we used -a 4 so filenames are chunk-0000.txt etc. Use same pattern as prepare.
+          if [ ! -f "$CHUNK_FILE" ]; then
+            echo "chunk_missing=true" >> $GITHUB_OUTPUT
+            echo "chunk_file=$CHUNK_FILE" >> $GITHUB_OUTPUT
+            echo "CHUNK FILE MISSING: $CHUNK_FILE" >&2
           else
-            cat > "$RES" <<'RESOLVERS'
-1.1.1.1
-8.8.8.8
-9.9.9.9
-RESOLVERS
-            echo "Created $RES with 3 trusted resolvers"
+            echo "chunk_missing=false" >> $GITHUB_OUTPUT
+            echo "chunk_file=$CHUNK_FILE" >> $GITHUB_OUTPUT
+            echo "Using chunk: $CHUNK_FILE"
           fi
 
-          echo "chunk_index=${CHUNK_INDEX}" >> $GITHUB_OUTPUT
-          echo "chunk_file=${CHUNK_FILE}" >> $GITHUB_OUTPUT
-          echo "domain_file=${DOMAIN_FILE}" >> $GITHUB_OUTPUT
-          echo "resolvers_file=${RES}" >> $GITHUB_OUTPUT
-
       - name: Run puredns bruteforce for this shard (stdin wordlist)
+        if: steps.vars.outputs.chunk_missing == 'false'
         id: run_puredns
         run: |
           set -euo pipefail
-          CHUNK_FILE="${{ steps.prepare.outputs.chunk_file }}"
-          DOMAIN_FILE="${{ steps.prepare.outputs.domain_file }}"
-          RESOLVERS="${{ steps.prepare.outputs.resolvers_file }}"
-          IDX="${{ steps.prepare.outputs.chunk_index }}"
-          SHARD_OUT="results/shard-${IDX}.txt"
+          CHUNK_FILE="${{ steps.vars.outputs.chunk_file }}"
+          DOMAIN_FILE="domains/domains.txt"
+          RESOLVERS="resolvers.txt"
+          IDX="${{ github.event.inputs.chunk_start }}"  # base start (we will compute file index in filename)
+          SHARD=${{ matrix.shard }}
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + SHARD ))
+          SHARD_OUT="results/shard-${CHUNK_INDEX}.txt"
           : > "$SHARD_OUT"
 
           while IFS= read -r domain || [ -n "$domain" ]; do
@@ -129,14 +182,13 @@ RESOLVERS
               \#*|"") continue ;;
             esac
 
-            # sanitize domain for filenames
             SAN=$(printf '%s' "$domain" | tr '/:@' '_' | tr '.' '_')
-            PUREDNS_FILE="results/puredns-${IDX}-${SAN}.txt"
-            WILDCARD_FILE="results/wildcards-${IDX}-${SAN}.txt"
-            MASSDNS_FILE="results/massdns-${IDX}-${SAN}.txt"
+            PUREDNS_FILE="results/puredns-${CHUNK_INDEX}-${SAN}.txt"
+            WILDCARD_FILE="results/wildcards-${CHUNK_INDEX}-${SAN}.txt"
+            MASSDNS_FILE="results/massdns-${CHUNK_INDEX}-${SAN}.txt"
 
-            echo "[shard $IDX] bruteforcing $domain with chunk $CHUNK_FILE"
-            # Use wordlist via stdin as you specified
+            echo "[shard $CHUNK_INDEX] bruteforcing $domain using $CHUNK_FILE"
+            # wordlist piped via stdin as requested
             cat "$CHUNK_FILE" | /usr/local/bin/puredns bruteforce "$domain" \
               -r "$RESOLVERS" \
               --rate-limit 5000 \
@@ -148,7 +200,6 @@ RESOLVERS
               --write-massdns "$MASSDNS_FILE" \
               --quiet
 
-            # append found entries to shard master file (if puredns wrote results)
             if [ -s "$PUREDNS_FILE" ]; then
               cat "$PUREDNS_FILE" >> "$SHARD_OUT"
             fi
@@ -162,8 +213,11 @@ RESOLVERS
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           set -euo pipefail
-          IDX="${{ steps.prepare.outputs.chunk_index }}"
-          OUTFILE="results/shard-${IDX}.txt"
+          CHUNK_START=${{ github.event.inputs.chunk_start }}
+          SHARD=${{ matrix.shard }}
+          CHUNK_INDEX=$(( CHUNK_START + SHARD ))
+          OUTFILE="results/shard-${CHUNK_INDEX}.txt"
+
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git remote set-url origin "https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}"
@@ -172,7 +226,7 @@ RESOLVERS
           if git diff --staged --quiet; then
             echo "No new results to commit for $OUTFILE"
           else
-            git commit -m "Add quick-test puredns results: shard ${IDX}"
+            git commit -m "Add quick-test puredns results: shard ${CHUNK_INDEX}"
             for try in 1 2 3; do
               if git pull --rebase --autostash origin ${{ github.ref_name }}; then
                 if git push origin HEAD:${{ github.ref_name }}; then
@@ -192,7 +246,7 @@ RESOLVERS
     if: always()
     env:
       PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-      GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}
+      GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
       WORKFLOW_FILE: ${{ env.WORKFLOW_FILE }}
       MATRIX_SIZE: ${{ env.MATRIX_SIZE }}
     steps:
@@ -229,8 +283,8 @@ RESOLVERS
           if [ -n "${PAT_TOKEN:-}" ]; then
             CURL_BASE+=(-H "Authorization: Bearer ${PAT_TOKEN}")
           else
-            echo "PAT_TOKEN not provided; using GITHUB_TOKEN (might be blocked by repo settings)"
-            CURL_BASE+=(-H "Authorization: Bearer ${GITHUB_TOKEN}")
+            echo "PAT_TOKEN not provided; using GHCR_TOKEN (might be blocked by repo settings)"
+            CURL_BASE+=(-H "Authorization: Bearer ${GHCR_TOKEN}")
           fi
 
           echo "Dispatching next run: start=${NEXT_START} counter=${NEXT_COUNTER}"
