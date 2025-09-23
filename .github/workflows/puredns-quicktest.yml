@@ -16,9 +16,9 @@ on:
         required: false
         default: '0'
       max_runs:
-        description: 'Safety: stop after this many runs'
+        description: 'Safety cap: stop after this many runs. If unset, it is auto-calculated to finish all chunks.'
         required: false
-        default: '10'
+        default: '999' # High default acts as "no limit"
       words_per_chunk:
         description: 'Words to generate per chunk (test default = 100)'
         required: false
@@ -39,6 +39,7 @@ jobs:
     outputs:
       artifact-name: wordlists-artifact
       total-chunks: ${{ steps.create_inputs.outputs.total-chunks }}
+      effective-max-runs: ${{ steps.create_inputs.outputs.effective-max-runs }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -84,7 +85,6 @@ jobs:
           if [ -f "$WORDLIST" ]; then
             echo "Using existing $WORDLIST in repo"
           else
-            # Note: total_chunks input is only used here for generating the test wordlist
             TOTAL_CHUNKS="${{ github.event.inputs.total_chunks }}"
             WORDS_PER_CHUNK="${{ github.event.inputs.words_per_chunk }}"
             TOTAL_WORDS=$(( TOTAL_CHUNKS * WORDS_PER_CHUNK ))
@@ -100,23 +100,29 @@ jobs:
           CHUNK_LINES="${{ github.event.inputs.words_per_chunk }}"
           rm -f wordlists/chunk-*.txt || true
           split -l "${CHUNK_LINES}" -d -a 4 --additional-suffix=.txt "$WORDLIST" wordlists/chunk-
-          echo "Created chunk files:"
-          ls -1 wordlists || true
-
+          
           RESOLVERS_FILE="resolvers.txt"
           RES_URL="https://raw.githubusercontent.com/and0x00/resolvers.txt/main/resolvers.txt"
-          echo "Downloading resolvers from ${RES_URL}"
           wget -qO "$RESOLVERS_FILE" "$RES_URL" || (echo "Failed to download resolvers; creating minimal fallback" && printf '1.1.1.1\n8.8.8.8\n9.9.9.9\n' > "$RESOLVERS_FILE")
 
-          # Auto-detect the number of chunks created by the split command
           CHUNK_COUNT=$(ls -1 wordlists/chunk-*.txt | wc -l)
           echo "Discovered ${CHUNK_COUNT} actual chunk files."
           echo "total-chunks=${CHUNK_COUNT}" >> $GITHUB_OUTPUT
 
+          # Auto-calculate the number of runs required and respect user's max_runs as a cap
+          MATRIX_SIZE=${{ env.MATRIX_SIZE }}
+          CALCULATED_RUNS=$(( (CHUNK_COUNT + MATRIX_SIZE - 1) / MATRIX_SIZE ))
+          USER_MAX_RUNS=${{ github.event.inputs.max_runs }}
+          EFFECTIVE_MAX_RUNS=$(( CALCULATED_RUNS < USER_MAX_RUNS ? CALCULATED_RUNS : USER_MAX_RUNS ))
+          
+          echo "Calculated runs needed: ${CALCULATED_RUNS}"
+          echo "User-defined max_runs cap: ${USER_MAX_RUNS}"
+          echo "Effective max_runs for this job: ${EFFECTIVE_MAX_RUNS}"
+          echo "effective-max-runs=${EFFECTIVE_MAX_RUNS}" >> $GITHUB_OUTPUT
+
       - name: Upload wordlists + resolvers + domains as artifact
         uses: actions/upload-artifact@v4
         with:
-         
           name: wordlists-artifact
           path: |
             wordlists
@@ -236,7 +242,7 @@ jobs:
           echo "shard_out=${SHARD_OUT}" >> $GITHUB_OUTPUT
 
       - name: (Optional) Commit results back to repo if PAT_TOKEN present
-
+        if: env.PAT_TOKEN != ''
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
@@ -245,7 +251,6 @@ jobs:
           CHUNK_INDEX=$(( CHUNK_START + SHARD ))
           OUTFILE="results/shard-${CHUNK_INDEX}.txt"
 
-          # Only proceed if the output file was actually created and has content
           if [ ! -s "$OUTFILE" ]; then
             echo "No new results in $OUTFILE to commit."
             exit 0
@@ -280,34 +285,34 @@ jobs:
     env:
       PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}
-      WORKFLOW_FILE: puredns-quicktest.yml 
-
     steps:
       - name: Compute and dispatch next run
         run: |
           if [ -z "${PAT_TOKEN}" ]; then
             echo "Error: secrets.PAT_TOKEN is required to dispatch the next workflow run." >&2
-            exit 0
+            exit 1
           fi
 
           CHUNK_START=${{ github.event.inputs.chunk_start }}
           TOTAL_CHUNKS=${{ needs.prepare.outputs.total-chunks }}
           RUN_COUNTER=${{ github.event.inputs.run_counter }}
-          MAX_RUNS=${{ github.event.inputs.max_runs }}
+          MAX_RUNS=${{ needs.prepare.outputs.effective-max-runs }} # Use effective max_runs from prepare job
           
           MATRIX_SIZE=${{ env.MATRIX_SIZE }}
           NEXT_START=$((CHUNK_START + MATRIX_SIZE))
           NEXT_COUNTER=$((RUN_COUNTER + 1))
 
-          echo "Current start: ${CHUNK_START}, Matrix size: ${MATRIX_SIZE}, Next start: ${NEXT_START}, Total chunks: ${TOTAL_CHUNKS}, Run counter: ${RUN_COUNTER}"
+          echo "Current start: ${CHUNK_START}, Matrix size: ${MATRIX_SIZE}, Next start: ${NEXT_START}, Total chunks: ${TOTAL_CHUNKS}, Run counter: ${RUN_COUNTER}, Effective max runs: ${MAX_RUNS}"
 
           if [ "$NEXT_START" -ge "$TOTAL_CHUNKS" ]; then
             echo "All chunks processed. Terminating recursion."
             exit 0
           fi
 
-          if [ "$NEXT_COUNTER" -gt "$MAX_RUNS" ]; then
-            echo "Reached max_runs (${MAX_RUNS}). Terminating recursion."
+          # NOTE: The check is now against the *total* number of runs, not the counter increment.
+          # We check if the *current* run counter has already met or exceeded the max.
+          if [ "${NEXT_COUNTER}" -ge "${MAX_RUNS}" ]; then
+            echo "Next run (${NEXT_COUNTER}) would exceed the effective max_runs limit (${MAX_RUNS}). Terminating recursion."
             exit 0
           fi
 
