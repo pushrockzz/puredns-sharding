@@ -1,9 +1,9 @@
+tps.yahoo.com
 www.movies.yahoo.com
 cable.yahoo.com
-bid.yahoo.com
-classified.yahoo.com
-tps.yahoo.com
 ve.yahoo.com
-esp.dell.com
+classified.yahoo.com
+bid.yahoo.com
 parts.dell.com
+esp.dell.com
 mail20.redbull.com
