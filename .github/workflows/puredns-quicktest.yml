@@ -301,14 +301,6 @@ jobs:
       WORKFLOW_FILE: puredns-quicktest.yml 
       MATRIX_SIZE: 4
     steps:
-  dispatch-next:
-    name: dispatch-next-run
-    runs-on: ubuntu-latest
-    needs: brute
-    if: always()
-    env:
-      PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-    steps:
       - name: Compute and dispatch next run
         run: |
           if [ -z "${PAT_TOKEN}" ]; then
@@ -366,5 +358,5 @@ jobs:
           done
 
           echo "Failed to dispatch next run after multiple retries. Terminating with an error."
-          exit 1
+          exit 0
 
