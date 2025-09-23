@@ -210,14 +210,24 @@ jobs:
         id: run_puredns
         run: |
           set -euo pipefail
+
+          # Ensure results is a directory. If 'results' exists but is a file, move it out of the way.
+          if [ -e results ]; then
+            if [ ! -d results ]; then
+              echo "Path 'results' exists and is not a directory. Moving to results.file.bak.<ts>"
+              mv results "results.file.bak.$(date +%s)"
+            fi
+          fi
+          mkdir -p results
+
+          # now safe to create files under results/
           CHUNK_FILE="${{ steps.vars.outputs.chunk_file }}"
           DOMAIN_FILE="domains/domains.txt"
           RESOLVERS="resolvers.txt"
-          IDX="${{ github.event.inputs.chunk_start }}"  # base start (we will compute file index in filename)
-          SHARD=${{ matrix.shard }}
-          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + SHARD ))
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           SHARD_OUT="results/shard-${CHUNK_INDEX}.txt"
           : > "$SHARD_OUT"
+
 
           while IFS= read -r domain || [ -n "$domain" ]; do
             case "$domain" in
