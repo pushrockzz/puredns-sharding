@@ -116,7 +116,8 @@ jobs:
       - name: Upload wordlists + resolvers + domains as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ jobs.prepare.outputs.artifact-name }}
+         
+          name: wordlists-artifact
           path: |
             wordlists
             resolvers.txt
