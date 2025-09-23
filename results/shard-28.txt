@@ -1,0 +1,13 @@
+sentinel.navy.mil
+coupons.yahoo.com
+stores.yahoo.com
+websites.yahoo.com
+ecom.yahoo.com
+shine.yahoo.com
+technology.yahoo.com
+www.au.yahoo.com
+gitlab.dell.com
+documentation.redbull.com
+polls.redbull.com
+ecom.bmw.com
+vms.bmw.com
