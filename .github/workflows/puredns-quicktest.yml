@@ -209,7 +209,7 @@ jobs:
         if: steps.vars.outputs.chunk_missing == 'false'
         id: run_puredns
         run: |
-          set -euo pipefail
+          
 
           # Ensure results is a directory. If 'results' exists but is a file, move it out of the way.
           if [ -e results ]; then
@@ -241,7 +241,7 @@ jobs:
 
             echo "[shard $CHUNK_INDEX] bruteforcing $domain using $CHUNK_FILE"
             # wordlist piped via stdin as requested
-            cat "$CHUNK_FILE" | /usr/local/bin/puredns bruteforce "$domain" \
+            cat "$CHUNK_FILE" | puredns bruteforce "$domain" \
               -r "$RESOLVERS" \
               --rate-limit 5000 \
               --skip-validation \
@@ -263,7 +263,7 @@ jobs:
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          set -euo pipefail
+          
           CHUNK_START=${{ github.event.inputs.chunk_start }}
           SHARD=${{ matrix.shard }}
           CHUNK_INDEX=$(( CHUNK_START + SHARD ))
@@ -303,7 +303,7 @@ jobs:
     steps:
       - name: Compute and dispatch next run
         run: |
-          set -euo pipefail
+          
           CHUNK_START=${{ github.event.inputs.chunk_start }}
           TOTAL=${{ github.event.inputs.total_chunks }}
           RUN_COUNTER=${{ github.event.inputs.run_counter }}
