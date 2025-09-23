@@ -29,7 +29,7 @@ on:
         default: '10'
 
 env:
-  WORKFLOW_FILE: puredns-quick-test.yml
+  WORKFLOW_FILE: puredns-quicktest.yml
   MATRIX_SIZE: '4'
 
 jobs:
