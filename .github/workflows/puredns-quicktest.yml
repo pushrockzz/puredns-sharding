@@ -8,8 +8,8 @@ on:
         required: true
         default: '0'
       total_chunks:
-        description: 'Total number of wordlist chunks available (test default = 8)'
-        required: true
+        description: 'DEPRECATED: Total chunks is now auto-detected.'
+        required: false
         default: '8'
       run_counter:
         description: 'Automatic run counter for recursion (auto-incremented)'
@@ -32,13 +32,13 @@ env:
   WORKFLOW_FILE: puredns-quick-test.yml
   MATRIX_SIZE: '4'
 
-# PREPARE job: runs once, splits the wordlist into chunks and uploads as artifact
 jobs:
   prepare:
     name: prepare-wordlists-and-resolvers
     runs-on: ubuntu-latest
     outputs:
       artifact-name: wordlists-artifact
+      total-chunks: ${{ steps.create_inputs.outputs.total-chunks }}
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -48,29 +48,24 @@ jobs:
       - name: Ensure directories and create/gather wordlist, domains
         id: create_inputs
         run: |
-
           ensure_dir() {
             dir="$1"
             if [ -e "$dir" ]; then
               if [ -d "$dir" ]; then
-                # directory exists — fine
                 return 0
               else
-                # path exists but is a file — move it out of the way
                 timestamp=$(date +%s)
                 mv "$dir" "${dir}.bak.${timestamp}"
                 echo "Moved file '$dir' to '${dir}.bak.${timestamp}'"
               fi
             fi
             mkdir -p "$dir"
-          }          
-
+          }
 
           ensure_dir domains
           ensure_dir wordlists
           ensure_dir results
 
-          # domains: prefer existing, otherwise generate small test list
           DOMAIN_FILE="domains/domains.txt"
           DOM_COUNT="${{ github.event.inputs.domains_count }}"
           if [ -f "$DOMAIN_FILE" ]; then
@@ -85,12 +80,11 @@ jobs:
             done
           fi
 
-          # wordlist: prefer repo wordlist.txt, otherwise generate quick test wordlist
           WORDLIST="wordlist.txt"
           if [ -f "$WORDLIST" ]; then
             echo "Using existing $WORDLIST in repo"
           else
-            # generate a big wordlist equal to total_chunks * words_per_chunk for deterministic split
+            # Note: total_chunks input is only used here for generating the test wordlist
             TOTAL_CHUNKS="${{ github.event.inputs.total_chunks }}"
             WORDS_PER_CHUNK="${{ github.event.inputs.words_per_chunk }}"
             TOTAL_WORDS=$(( TOTAL_CHUNKS * WORDS_PER_CHUNK ))
@@ -103,33 +97,31 @@ jobs:
             done
           fi
 
-          # split wordlist into chunk files: wordlists/chunk-0000.txt ...
           CHUNK_LINES="${{ github.event.inputs.words_per_chunk }}"
-          # remove any old chunks (safe)
           rm -f wordlists/chunk-*.txt || true
           split -l "${CHUNK_LINES}" -d -a 4 --additional-suffix=.txt "$WORDLIST" wordlists/chunk-
           echo "Created chunk files:"
           ls -1 wordlists || true
 
-          # Download resolvers via wget (your requested source)
           RESOLVERS_FILE="resolvers.txt"
           RES_URL="https://raw.githubusercontent.com/and0x00/resolvers.txt/main/resolvers.txt"
           echo "Downloading resolvers from ${RES_URL}"
           wget -qO "$RESOLVERS_FILE" "$RES_URL" || (echo "Failed to download resolvers; creating minimal fallback" && printf '1.1.1.1\n8.8.8.8\n9.9.9.9\n' > "$RESOLVERS_FILE")
 
-          # Debug listing
-          echo "artifact_paths=wordlists resolvers.txt domains/domains.txt" >> $GITHUB_OUTPUT
+          # Auto-detect the number of chunks created by the split command
+          CHUNK_COUNT=$(ls -1 wordlists/chunk-*.txt | wc -l)
+          echo "Discovered ${CHUNK_COUNT} actual chunk files."
+          echo "total-chunks=${CHUNK_COUNT}" >> $GITHUB_OUTPUT
 
       - name: Upload wordlists + resolvers + domains as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: wordlists-artifact
+          name: ${{ jobs.prepare.outputs.artifact-name }}
           path: |
             wordlists
             resolvers.txt
             domains/domains.txt
 
-  # BRUTE job: runs per matrix shard; depends on prepare; downloads artifact with chunks
   brute:
     name: bruteforce-shard (shard ${{ matrix.shard }})
     runs-on: ubuntu-latest
@@ -137,8 +129,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        shard: [0,1,2,3]   # static 4-entry matrix; keep in sync with MATRIX_SIZE
-
+        shard: [0,1,2,3]
     steps:
       - name: Checkout repo (no credentials)
         uses: actions/checkout@v4
@@ -148,7 +139,7 @@ jobs:
       - name: Download pre-split wordlists/artifact
         uses: actions/download-artifact@v4
         with:
-          name: wordlists-artifact
+          name: ${{ needs.prepare.outputs.artifact-name }}
           path: .
 
       - name: Setup Go
@@ -166,35 +157,29 @@ jobs:
           key: ${{ runner.os }}-go-cache-${{ github.ref_name }}
           restore-keys: |
             ${{ runner.os }}-go-cache-
-          
-      
+
       - name: Install massdns
         run: |
           git clone https://github.com/blechschmidt/massdns.git
           cd massdns
           make
           sudo make install
-          cd ..      
-      
+          cd ..
+
       - name: Install puredns and utilities
         run: |
-         
           sudo apt-get update -y
           sudo apt-get install -y jq ca-certificates curl wget
           go install github.com/d3mondev/puredns/v2@latest
           puredns --help
 
-
       - name: Compute local chunk file for this shard
         id: vars
         run: |
-          
           SHARD=${{ matrix.shard }}
           CHUNK_START=${{ github.event.inputs.chunk_start }}
           CHUNK_INDEX=$(( CHUNK_START + SHARD ))
           CHUNK_FILE="wordlists/chunk-$(printf '%04d' "$CHUNK_INDEX").txt"
-          # If split used -d with default file names chunk-00,chunk-01 with 2-digit indexes,
-          # but we used -a 4 so filenames are chunk-0000.txt etc. Use same pattern as prepare.
           if [ ! -f "$CHUNK_FILE" ]; then
             echo "chunk_missing=true" >> $GITHUB_OUTPUT
             echo "chunk_file=$CHUNK_FILE" >> $GITHUB_OUTPUT
@@ -209,9 +194,6 @@ jobs:
         if: steps.vars.outputs.chunk_missing == 'false'
         id: run_puredns
         run: |
-          
-
-          # Ensure results is a directory. If 'results' exists but is a file, move it out of the way.
           if [ -e results ]; then
             if [ ! -d results ]; then
               echo "Path 'results' exists and is not a directory. Moving to results.file.bak.<ts>"
@@ -220,7 +202,6 @@ jobs:
           fi
           mkdir -p results
 
-          # now safe to create files under results/
           CHUNK_FILE="${{ steps.vars.outputs.chunk_file }}"
           DOMAIN_FILE="domains/domains.txt"
           RESOLVERS="resolvers.txt"
@@ -228,19 +209,15 @@ jobs:
           SHARD_OUT="results/shard-${CHUNK_INDEX}.txt"
           : > "$SHARD_OUT"
 
-
           while IFS= read -r domain || [ -n "$domain" ]; do
             case "$domain" in
               \#*|"") continue ;;
             esac
-
             SAN=$(printf '%s' "$domain" | tr '/:@' '_' | tr '.' '_')
             PUREDNS_FILE="results/puredns-${CHUNK_INDEX}-${SAN}.txt"
             WILDCARD_FILE="results/wildcards-${CHUNK_INDEX}-${SAN}.txt"
             MASSDNS_FILE="results/massdns-${CHUNK_INDEX}-${SAN}.txt"
-
             echo "[shard $CHUNK_INDEX] bruteforcing $domain using $CHUNK_FILE"
-            # wordlist piped via stdin as requested
             cat "$CHUNK_FILE" | puredns bruteforce "$domain" \
               -r "$RESOLVERS" \
               --rate-limit 5000 \
@@ -251,29 +228,33 @@ jobs:
               --write-wildcards "$WILDCARD_FILE" \
               --write-massdns "$MASSDNS_FILE" \
               --quiet
-
             if [ -s "$PUREDNS_FILE" ]; then
               cat "$PUREDNS_FILE" >> "$SHARD_OUT"
             fi
           done < "$DOMAIN_FILE"
-
           echo "shard_out=${SHARD_OUT}" >> $GITHUB_OUTPUT
 
       - name: (Optional) Commit results back to repo if PAT_TOKEN present
+
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          
           CHUNK_START=${{ github.event.inputs.chunk_start }}
           SHARD=${{ matrix.shard }}
           CHUNK_INDEX=$(( CHUNK_START + SHARD ))
           OUTFILE="results/shard-${CHUNK_INDEX}.txt"
 
+          # Only proceed if the output file was actually created and has content
+          if [ ! -s "$OUTFILE" ]; then
+            echo "No new results in $OUTFILE to commit."
+            exit 0
+          fi
+
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git remote set-url origin "https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}"
-
-          git add "$OUTFILE" || true
+          git add "$OUTFILE"
+          
           if git diff --staged --quiet; then
             echo "No new results to commit for $OUTFILE"
           else
@@ -282,7 +263,7 @@ jobs:
               if git pull --rebase --autostash origin ${{ github.ref_name }}; then
                 if git push origin HEAD:${{ github.ref_name }}; then
                   echo "Pushed results for $OUTFILE"
-                  break
+                  break 2
                 fi
               fi
               echo "Push attempt $try failed; retrying..."
@@ -293,23 +274,23 @@ jobs:
   dispatch-next:
     name: dispatch-next-run
     runs-on: ubuntu-latest
-    needs: brute
+    needs: [prepare, brute]
     if: always()
     env:
       PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
       GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}
       WORKFLOW_FILE: puredns-quicktest.yml 
-      MATRIX_SIZE: 4
+
     steps:
       - name: Compute and dispatch next run
         run: |
           if [ -z "${PAT_TOKEN}" ]; then
             echo "Error: secrets.PAT_TOKEN is required to dispatch the next workflow run." >&2
-            exit 1
+            exit 0
           fi
 
           CHUNK_START=${{ github.event.inputs.chunk_start }}
-          TOTAL_CHUNKS=${{ github.event.inputs.total_chunks }}
+          TOTAL_CHUNKS=${{ needs.prepare.outputs.total-chunks }}
           RUN_COUNTER=${{ github.event.inputs.run_counter }}
           MAX_RUNS=${{ github.event.inputs.max_runs }}
           
@@ -339,7 +320,7 @@ jobs:
             "${{ github.event.inputs.words_per_chunk }}" \
             "${{ github.event.inputs.domains_count }}")
 
-          echo "Dispatching next run to ${URL} with body: ${BODY}"
+          echo "Dispatching next run to ${URL}"
           for i in 1 2 3 4; do
             HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
               -X POST \
@@ -359,4 +340,3 @@ jobs:
 
           echo "Failed to dispatch next run after multiple retries. Terminating with an error."
           exit 0
-
