@@ -1,0 +1,8 @@
+auctions.yahoo.com
+www.tr.yahoo.com
+alliance.yahoo.com
+point.yahoo.com
+newsroom.yahoo.com
+pmo.dell.com
+watchdog.dell.com
+splunk.redbull.com
