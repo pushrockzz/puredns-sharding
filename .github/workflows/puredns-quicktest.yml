@@ -20,9 +20,9 @@ on:
         required: false
         default: '999' # High default acts as "no limit"
       words_per_chunk:
-        description: 'Words to generate per chunk (test default = 100)'
+        description: 'Words to generate per chunk (test default = 500)'
         required: false
-        default: '100'
+        default: '500'
       domains_count:
         description: 'How many test domains to generate (default = 10)'
         required: false
@@ -99,7 +99,7 @@ jobs:
 
           CHUNK_LINES="${{ github.event.inputs.words_per_chunk }}"
           rm -f wordlists/chunk-*.txt || true
-          split -l "${CHUNK_LINES}" -d -a 4 --additional-suffix=.txt "$WORDLIST" wordlists/chunk-
+          split -l "${CHUNK_LINES}" -d -a 5 --additional-suffix=.txt "$WORDLIST" wordlists/chunk-
           
           RESOLVERS_FILE="resolvers.txt"
           RES_URL="https://raw.githubusercontent.com/and0x00/resolvers.txt/main/resolvers.txt"
@@ -242,9 +242,10 @@ jobs:
           echo "shard_out=${SHARD_OUT}" >> $GITHUB_OUTPUT
 
       - name: (Optional) Commit results back to repo if PAT_TOKEN present
-        if: env.PAT_TOKEN != ''
+
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}
         run: |
           CHUNK_START=${{ github.event.inputs.chunk_start }}
           SHARD=${{ matrix.shard }}
