@@ -1,5 +1,5 @@
-odin.af.mil
 thor.af.mil
+odin.af.mil
 www.fr.yahoo.com
 group.yahoo.com
 payments.yahoo.com
@@ -15,5 +15,5 @@ mail10.redbull.com
 securemail.redbull.com
 smtp01.redbull.com
 com.bmw.com
-odin.af.mil
 thor.af.mil
+odin.af.mil
