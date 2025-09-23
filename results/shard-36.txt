@@ -1,9 +1,9 @@
-lotto.yahoo.com
-awards.yahoo.com
-add.yahoo.com
-discover.yahoo.com
-extern.yahoo.com
-pride.yahoo.com
-forward.yahoo.com
 bookmark.yahoo.com
+lotto.yahoo.com
+forward.yahoo.com
+awards.yahoo.com
+extern.yahoo.com
+discover.yahoo.com
+add.yahoo.com
+pride.yahoo.com
 mobility.dell.com
