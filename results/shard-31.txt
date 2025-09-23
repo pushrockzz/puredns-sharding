@@ -1,11 +1,11 @@
-redir.yahoo.com
 safe.yahoo.com
 toolbar.yahoo.com
+redir.yahoo.com
 hu.yahoo.com
 safe.dell.com
 dash.dell.com
-moss.dell.com
-win7.dell.com
 invoice.dell.com
-everest.bmw.com
+win7.dell.com
+moss.dell.com
 obs.bmw.com
+everest.bmw.com
