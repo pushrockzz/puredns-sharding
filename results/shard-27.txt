@@ -1,11 +1,11 @@
-gr.yahoo.com
 postoffice.yahoo.com
-il.yahoo.com
 cricket.yahoo.com
+gr.yahoo.com
 www.maps.yahoo.com
-webchat.dell.com
+il.yahoo.com
 csc.dell.com
+webchat.dell.com
 www.press.bmw.com
+csc.bmw.com
 dealers.bmw.com
 callisto.bmw.com
-csc.bmw.com
