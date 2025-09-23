@@ -48,8 +48,27 @@ jobs:
       - name: Ensure directories and create/gather wordlist, domains
         id: create_inputs
         run: |
-          
-          mkdir -p wordlists domains results
+
+          ensure_dir() {
+            dir="$1"
+            if [ -e "$dir" ]; then
+              if [ -d "$dir" ]; then
+                # directory exists — fine
+                return 0
+              else
+                # path exists but is a file — move it out of the way
+                timestamp=$(date +%s)
+                mv "$dir" "${dir}.bak.${timestamp}"
+                echo "Moved file '$dir' to '${dir}.bak.${timestamp}'"
+              fi
+            fi
+            mkdir -p "$dir"
+          }          
+
+
+          ensure_dir domains
+          ensure_dir wordlists
+          ensure_dir results
 
           # domains: prefer existing, otherwise generate small test list
           DOMAIN_FILE="domains/domains.txt"
