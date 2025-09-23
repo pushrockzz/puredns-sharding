@@ -48,7 +48,7 @@ jobs:
       - name: Ensure directories and create/gather wordlist, domains
         id: create_inputs
         run: |
-          set -euo pipefail
+          
           mkdir -p wordlists domains results
 
           # domains: prefer existing, otherwise generate small test list
