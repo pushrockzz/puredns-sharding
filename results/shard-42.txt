@@ -1,8 +1,8 @@
-everything.yahoo.com
-chinese.yahoo.com
 answers.yahoo.com
-att.yahoo.com
+everything.yahoo.com
 blogger.yahoo.com
+chinese.yahoo.com
+att.yahoo.com
 aim.dell.com
 logon.redbull.com
 att.redbull.com
