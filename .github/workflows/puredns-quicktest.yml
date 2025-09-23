@@ -297,57 +297,74 @@ jobs:
     if: always()
     env:
       PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
-      GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GHCR_TOKEN }}
       WORKFLOW_FILE: puredns-quicktest.yml 
       MATRIX_SIZE: 4
     steps:
+  dispatch-next:
+    name: dispatch-next-run
+    runs-on: ubuntu-latest
+    needs: brute
+    if: always()
+    env:
+      PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+    steps:
       - name: Compute and dispatch next run
         run: |
-          
+          if [ -z "${PAT_TOKEN}" ]; then
+            echo "Error: secrets.PAT_TOKEN is required to dispatch the next workflow run." >&2
+            exit 1
+          fi
+
           CHUNK_START=${{ github.event.inputs.chunk_start }}
-          TOTAL=${{ github.event.inputs.total_chunks }}
+          TOTAL_CHUNKS=${{ github.event.inputs.total_chunks }}
           RUN_COUNTER=${{ github.event.inputs.run_counter }}
           MAX_RUNS=${{ github.event.inputs.max_runs }}
-          WORDS_PER_CHUNK=${{ github.event.inputs.words_per_chunk }}
-          DOMAINS_COUNT=${{ github.event.inputs.domains_count }}
-
-          MATRIX_SIZE=${MATRIX_SIZE:-4}
+          
+          MATRIX_SIZE=${{ env.MATRIX_SIZE }}
           NEXT_START=$((CHUNK_START + MATRIX_SIZE))
           NEXT_COUNTER=$((RUN_COUNTER + 1))
 
-          echo "current_start=${CHUNK_START} matrix_size=${MATRIX_SIZE} next_start=${NEXT_START} total=${TOTAL} run_counter=${RUN_COUNTER}"
+          echo "Current start: ${CHUNK_START}, Matrix size: ${MATRIX_SIZE}, Next start: ${NEXT_START}, Total chunks: ${TOTAL_CHUNKS}, Run counter: ${RUN_COUNTER}"
 
-          if [ "$NEXT_START" -ge "$TOTAL" ]; then
-            echo "All chunks processed (next_start >= total_chunks). Terminating recursion."
+          if [ "$NEXT_START" -ge "$TOTAL_CHUNKS" ]; then
+            echo "All chunks processed. Terminating recursion."
             exit 0
           fi
 
           if [ "$NEXT_COUNTER" -gt "$MAX_RUNS" ]; then
-            echo "Reached max_runs ($MAX_RUNS). Terminating recursion."
+            echo "Reached max_runs (${MAX_RUNS}). Terminating recursion."
             exit 0
           fi
 
-          URL="https://api.github.com/repos/${{ github.repository }}/actions/workflows/${WORKFLOW_FILE}/dispatches"
-          BODY=$(printf '%s' "{\"ref\":\"${{ github.ref_name }}\",\"inputs\":{\"chunk_start\":\"${NEXT_START}\",\"total_chunks\":\"${TOTAL}\",\"run_counter\":\"${NEXT_COUNTER}\",\"max_runs\":\"${MAX_RUNS}\",\"words_per_chunk\":\"${WORDS_PER_CHUNK}\",\"domains_count\":\"${DOMAINS_COUNT}\"}}")
+          URL="https://api.github.com/repos/${{ github.repository }}/actions/workflows/${{ env.WORKFLOW_FILE }}/dispatches"
+          BODY=$(printf '{"ref":"%s","inputs":{"chunk_start":"%s","total_chunks":"%s","run_counter":"%s","max_runs":"%s","words_per_chunk":"%s","domains_count":"%s"}}' \
+            "${{ github.ref_name }}" \
+            "${NEXT_START}" \
+            "${TOTAL_CHUNKS}" \
+            "${NEXT_COUNTER}" \
+            "${MAX_RUNS}" \
+            "${{ github.event.inputs.words_per_chunk }}" \
+            "${{ github.event.inputs.domains_count }}")
 
-          CURL_BASE=(-s -o /dev/null -w "%{http_code}" -X POST -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28")
-          if [ -n "${PAT_TOKEN:-}" ]; then
-            CURL_BASE+=(-H "Authorization: Bearer ${PAT_TOKEN}")
-          else
-            echo "PAT_TOKEN not provided; using GHCR_TOKEN (might be blocked by repo settings)"
-            CURL_BASE+=(-H "Authorization: Bearer ${GHCR_TOKEN}")
-          fi
-
-          echo "Dispatching next run: start=${NEXT_START} counter=${NEXT_COUNTER}"
+          echo "Dispatching next run to ${URL} with body: ${BODY}"
           for i in 1 2 3 4; do
-            HTTP=$("${CURL_BASE[@]}" "$URL" -d "$BODY")
-            if [ "$HTTP" -ge 200 ] && [ "$HTTP" -lt 300 ]; then
-              echo "Dispatch succeeded (HTTP $HTTP)"
+            HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+              -X POST \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${PAT_TOKEN}" \
+              -H "X-GitHub-Api-Version: 2022-11-28" \
+              -d "$BODY" \
+              "$URL")
+            
+            if [ "$HTTP_STATUS" -ge 200 ] && [ "$HTTP_STATUS" -lt 300 ]; then
+              echo "Dispatch succeeded (HTTP ${HTTP_STATUS})"
               exit 0
             fi
-            echo "Dispatch attempt ${i} failed (HTTP ${HTTP}). Retrying..."
+            echo "Dispatch attempt ${i} failed (HTTP ${HTTP_STATUS}). Retrying in $((i*2)) seconds..."
             sleep $((i * 2))
           done
 
-          echo "Failed to dispatch next run after retries. Exiting with non-zero."
-          exit 0
+          echo "Failed to dispatch next run after multiple retries. Terminating with an error."
+          exit 1
+
