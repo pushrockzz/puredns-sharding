@@ -1,10 +1,10 @@
-mirrors.yahoo.com
-la.yahoo.com
-foundation.yahoo.com
-sk.yahoo.com
-cw.yahoo.com
 next.yahoo.com
+la.yahoo.com
+cw.yahoo.com
+sk.yahoo.com
 avatar.yahoo.com
+mirrors.yahoo.com
+foundation.yahoo.com
 delivery.dell.com
 euro.dell.com
 static3.bmw.com
