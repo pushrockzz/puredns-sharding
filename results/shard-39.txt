@@ -1,12 +1,12 @@
 www.data.af.mil
 ui.fintual.com
-pcs.yahoo.com
-panama.yahoo.com
-you.yahoo.com
 salud.yahoo.com
+panama.yahoo.com
 www.domain.yahoo.com
-drive.yahoo.com
+pcs.yahoo.com
 ns1a.yahoo.com
+you.yahoo.com
+drive.yahoo.com
 psp.dell.com
 psp.redbull.com
 drive.redbull.com
