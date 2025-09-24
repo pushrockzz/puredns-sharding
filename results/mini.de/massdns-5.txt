@@ -437,7 +437,6 @@
 
 
 
-mynewatthome.mini.de. A 74.220.199.6
 
 
 
@@ -524,7 +523,6 @@ mynewatthome.mini.de. A 74.220.199.6
 
 
 
-mylinux.mini.de. A 74.220.199.6
 
 
 
@@ -542,7 +540,6 @@ mylinux.mini.de. A 74.220.199.6
 
 
 
-navalandairwarfare.mini.de. A 0.0.0.0
 
 
 
@@ -1014,6 +1011,7 @@ navalandairwarfare.mini.de. A 0.0.0.0
 
 
 
+mye-supportcentre.mini.de. A 74.220.199.6
 
 
 
@@ -1341,7 +1339,6 @@ navalandairwarfare.mini.de. A 0.0.0.0
 
 
 
-myfocus-mdn.mini.de. A 0.0.0.0
 
 
 
@@ -1370,7 +1367,6 @@ myfocus-mdn.mini.de. A 0.0.0.0
 
 
 
-mydevid.mini.de. A 0.0.0.0
 
 
 
@@ -1410,7 +1406,7 @@ mydevid.mini.de. A 0.0.0.0
 
 
 
-mydesktop-west05u.mini.de. A 0.0.0.0
+nekka.mini.de. A 74.220.199.6
 
 
 
@@ -1859,6 +1855,7 @@ mydesktop-west05u.mini.de. A 0.0.0.0
 
 
 
+neo-mag.mini.de. A 2.18.188.209
 
 
 
@@ -1970,6 +1967,7 @@ mydesktop-west05u.mini.de. A 0.0.0.0
 
 
 
+myanmarpic.mini.de. A 0.0.0.0
 
 
 
@@ -2069,6 +2067,7 @@ mydesktop-west05u.mini.de. A 0.0.0.0
 
 
 
+nelsonapi.mini.de. A 2.18.188.209
 
 
 
@@ -2123,6 +2122,7 @@ mydesktop-west05u.mini.de. A 0.0.0.0
 
 
 
+nanochip-47.mini.de. A 74.220.199.6
 
 
 
@@ -2635,7 +2635,6 @@ mydesktop-west05u.mini.de. A 0.0.0.0
 
 
 
-mx2a.mini.de. A 74.220.199.6
 
 
 
@@ -2885,7 +2884,6 @@ mx2a.mini.de. A 74.220.199.6
 
 
 
-mwakahe.mini.de. A 74.220.199.6
 
 
 
@@ -3055,6 +3053,7 @@ mwakahe.mini.de. A 74.220.199.6
 
 
 
+n3rhngjmch04.mini.de. A 74.220.199.6
 
 
 
@@ -3302,6 +3301,7 @@ mwakahe.mini.de. A 74.220.199.6
 
 
 
+my16-stage.mini.de. A 2.18.188.209
 
 
 
@@ -3327,7 +3327,6 @@ mwakahe.mini.de. A 74.220.199.6
 
 
 
-mweoruu3fb-1.mini.de. A 0.0.0.0
 
 
 
@@ -3427,6 +3426,7 @@ mweoruu3fb-1.mini.de. A 0.0.0.0
 
 
 
+muvyib7tey-asset.mini.de. A 74.220.199.6
 
 
 
@@ -4197,7 +4197,6 @@ mweoruu3fb-1.mini.de. A 0.0.0.0
 
 
 
-musicaddictdesigner.mini.de. A 0.0.0.0
 
 
 
@@ -4360,6 +4359,7 @@ musicaddictdesigner.mini.de. A 0.0.0.0
 
 
 
+mvanderh.mini.de. A 2.18.188.209
 
 
 
@@ -5093,7 +5093,6 @@ musicaddictdesigner.mini.de. A 0.0.0.0
 
 
 
-mtvnjv9cbbf02.mini.de. A 0.0.0.0
 
 
 
@@ -5976,6 +5975,7 @@ mtvnjv9cbbf02.mini.de. A 0.0.0.0
 
 
 
+mtcnjv9aaas08.mini.de. A 0.0.0.0
 
 
 
@@ -6265,7 +6265,6 @@ mtvnjv9cbbf02.mini.de. A 0.0.0.0
 
 
 
-nakupuna.mini.de. A 74.220.199.6
 
 
 
@@ -6343,7 +6342,6 @@ nakupuna.mini.de. A 74.220.199.6
 
 
 
-mta4.mini.de. A 74.220.199.6
 
 
 
@@ -7077,7 +7075,6 @@ mta4.mini.de. A 74.220.199.6
 
 
 
-muvyib7tey5.mini.de. A 0.0.0.0
 
 
 
@@ -7139,6 +7136,7 @@ muvyib7tey5.mini.de. A 0.0.0.0
 
 
 
+mta01v47.mini.de. A 2.18.188.209
 
 
 
@@ -7170,7 +7168,6 @@ muvyib7tey5.mini.de. A 0.0.0.0
 
 
 
-msadev1.mini.de. A 0.0.0.0
 
 
 
@@ -7595,7 +7592,6 @@ msadev1.mini.de. A 0.0.0.0
 
 
 
-na63.mini.de. A 0.0.0.0
 
 
 
@@ -7741,7 +7737,6 @@ na63.mini.de. A 0.0.0.0
 
 
 
-ndianying.mini.de. A 74.220.199.6
 
 
 
@@ -7749,6 +7744,7 @@ ndianying.mini.de. A 74.220.199.6
 
 
 
+nesu-openapi.mini.de. A 74.220.199.6
 
 
 
@@ -8027,7 +8023,6 @@ ndianying.mini.de. A 74.220.199.6
 
 
 
-mrblonde.mini.de. A 0.0.0.0
 
 
 
@@ -8602,6 +8597,7 @@ mrblonde.mini.de. A 0.0.0.0
 
 
 
+msc-seedsales-prod.mini.de. A 2.18.188.209
 
 
 
@@ -9011,6 +9007,7 @@ mrblonde.mini.de. A 0.0.0.0
 
 
 
+movin.mini.de. A 0.0.0.0
 
 
 
@@ -9020,13 +9017,13 @@ mrblonde.mini.de. A 0.0.0.0
 
 
 
-muvyib7tey-beta.mini.de. A 0.0.0.0
 
 
 
 
 
 
+ncdeviceservices-external.mini.de. A 0.0.0.0
 
 
 
@@ -9581,6 +9578,7 @@ muvyib7tey-beta.mini.de. A 0.0.0.0
 
 
 
+mtsnjv9mlcb06.mini.de. A 74.220.199.6
 
 
 
@@ -9625,6 +9623,7 @@ muvyib7tey-beta.mini.de. A 0.0.0.0
 
 
 
+murray02.mini.de. A 74.220.199.6
 
 
 
@@ -10117,7 +10116,6 @@ muvyib7tey-beta.mini.de. A 0.0.0.0
 
 
 
-moneynet.mini.de. A 0.0.0.0
 
 
 
@@ -11716,7 +11714,6 @@ moneynet.mini.de. A 0.0.0.0
 
 
 
-mn64khvn4p-2.mini.de. A 74.220.199.6
 
 
 
@@ -11754,7 +11751,6 @@ mn64khvn4p-2.mini.de. A 74.220.199.6
 
 
 
-mmretail-out-205-56.mini.de. A 74.220.199.6
 
 
 
@@ -12850,6 +12846,7 @@ mmretail-out-205-56.mini.de. A 74.220.199.6
 
 
 
+misery.mini.de. A 74.220.199.6
 
 
 
@@ -13369,6 +13366,7 @@ mmretail-out-205-56.mini.de. A 74.220.199.6
 
 
 
+mizuho01tok.mini.de. A 2.18.188.209
 
 
 
@@ -14086,6 +14084,7 @@ mmretail-out-205-56.mini.de. A 74.220.199.6
 
 
 
+ncgi.mini.de. A 0.0.0.0
 
 
 
@@ -14255,6 +14254,7 @@ mmretail-out-205-56.mini.de. A 74.220.199.6
 
 
 
+mobilelmc.mini.de. A 2.18.188.209
 
 
 
@@ -14323,11 +14323,9 @@ mmretail-out-205-56.mini.de. A 74.220.199.6
 
 
 
-mingle2.mini.de. A 0.0.0.0
 
 
 
-mobilewebdevelopment.mini.de. A 0.0.0.0
 
 
 
@@ -14792,7 +14790,6 @@ mobilewebdevelopment.mini.de. A 0.0.0.0
 
 
 
-mickshobbyspul69.mini.de. A 74.220.199.6
 
 
 
@@ -15692,7 +15689,6 @@ mickshobbyspul69.mini.de. A 74.220.199.6
 
 
 
-michaelm.mini.de. A 74.220.199.6
 
 
 
@@ -16268,6 +16264,7 @@ michaelm.mini.de. A 74.220.199.6
 
 
 
+mgw-fb01.mini.de. A 2.18.188.209
 
 
 
@@ -16507,6 +16504,7 @@ michaelm.mini.de. A 74.220.199.6
 
 
 
+metrics-private.mini.de. A 2.18.188.209
 
 
 
@@ -16827,7 +16825,6 @@ michaelm.mini.de. A 74.220.199.6
 
 
 
-messagecenter-prd01.mini.de. A 74.220.199.6
 
 
 
@@ -17082,7 +17079,6 @@ messagecenter-prd01.mini.de. A 74.220.199.6
 
 
 
-navegandoenellenguaje.mini.de. A 0.0.0.0
 
 
 
@@ -17150,9 +17146,7 @@ navegandoenellenguaje.mini.de. A 0.0.0.0
 
 
 
-nanna.mini.de. A 0.0.0.0
 
-migrator.mini.de. A 0.0.0.0
 
 
 
@@ -17735,7 +17729,6 @@ migrator.mini.de. A 0.0.0.0
 
 
 
-mnasatistorage.mini.de. A 74.220.199.6
 
 
 
@@ -18203,6 +18196,7 @@ mnasatistorage.mini.de. A 74.220.199.6
 
 
 
+melkins.mini.de. A 0.0.0.0
 
 
 
@@ -18232,7 +18226,6 @@ mnasatistorage.mini.de. A 74.220.199.6
 
 
 
-meet2.mini.de. A 0.0.0.0
 
 
 
@@ -19099,7 +19092,6 @@ meet2.mini.de. A 0.0.0.0
 
 
 
-mocr.mini.de. A 0.0.0.0
 
 
 
@@ -19472,691 +19464,6 @@ mocr.mini.de. A 0.0.0.0
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-menokensa.mini.de. A 0.0.0.0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-mdmenroll.mini.de. A 0.0.0.0
 
 
 
@@ -20660,6 +19967,7 @@ metropolitan.mini.de. A 160.46.247.150
 
 
 
+mobile-apius.mini.de. A 74.220.199.6
 
 
 
@@ -22132,11 +21440,9 @@ metropolitan.mini.de. A 160.46.247.150
 
 
 
-matheus10.mini.de. A 0.0.0.0
 
 
 
-mdev-test.mini.de. A 0.0.0.0
 
 
 
@@ -22173,7 +21479,6 @@ mdev-test.mini.de. A 0.0.0.0
 
 
 
-maswhitelisting.mini.de. A 0.0.0.0
 
 
 
@@ -22198,7 +21503,6 @@ maswhitelisting.mini.de. A 0.0.0.0
 
 
 
-masterpass.mini.de. A 0.0.0.0
 
 
 
@@ -23140,6 +22444,7 @@ masterpass.mini.de. A 0.0.0.0
 
 
 
+medialogy.mini.de. A 2.18.188.209
 
 
 
@@ -23518,6 +22823,7 @@ masterpass.mini.de. A 0.0.0.0
 
 
 
+messaging-1.mini.de. A 74.220.199.6
 
 
 
@@ -23957,6 +23263,7 @@ masterpass.mini.de. A 0.0.0.0
 
 
 
+mifitness.mini.de. A 2.18.188.209
 
 
 
@@ -24530,6 +23837,7 @@ masterpass.mini.de. A 0.0.0.0
 
 
 
+mdec.mini.de. A 74.220.199.6
 
 
 
@@ -24799,6 +24107,7 @@ masterpass.mini.de. A 0.0.0.0
 
 
 
+mation.mini.de. A 0.0.0.0
 
 
 
@@ -24809,6 +24118,7 @@ masterpass.mini.de. A 0.0.0.0
 
 
 
+mathsotope-oldwebmail.mini.de. A 0.0.0.0
 
 
 
@@ -25178,7 +24488,6 @@ masterpass.mini.de. A 0.0.0.0
 
 
 
-masajistagaymadrid.mini.de. A 0.0.0.0
 
 
 
@@ -26470,7 +25779,6 @@ masajistagaymadrid.mini.de. A 0.0.0.0
 
 
 
-manufacturinghub-dev.mini.de. A 74.220.199.6
 
 
 
@@ -26767,7 +26075,6 @@ manufacturinghub-dev.mini.de. A 74.220.199.6
 
 
 
-map-webhook-stg.mini.de. A 0.0.0.0
 
 
 
@@ -26800,7 +26107,6 @@ map-webhook-stg.mini.de. A 0.0.0.0
 
 
 
-marketplaces.mini.de. A 0.0.0.0
 
 
 
@@ -27854,6 +27160,7 @@ marketplaces.mini.de. A 0.0.0.0
 
 
 
+mr-voldemortadm.mini.de. A 0.0.0.0
 
 
 
@@ -27905,6 +27212,7 @@ marketplaces.mini.de. A 0.0.0.0
 
 
 
+mailchimp-52.mini.de. A 0.0.0.0
 
 
 
@@ -27919,6 +27227,7 @@ marketplaces.mini.de. A 0.0.0.0
 
 
 
+manas3.mini.de. A 0.0.0.0
 
 
 
@@ -27929,6 +27238,7 @@ marketplaces.mini.de. A 0.0.0.0
 
 
 
+mast-alpha.mini.de. A 0.0.0.0
 
 
 
@@ -28484,6 +27794,7 @@ marketplaces.mini.de. A 0.0.0.0
 
 
 
+mahysegij.mini.de. A 2.18.188.209
 
 
 
@@ -28911,7 +28222,6 @@ marketplaces.mini.de. A 0.0.0.0
 
 
 
-ma-rdm-prod.mini.de. A 74.220.199.6
 
 
 
@@ -28955,7 +28265,6 @@ ma-rdm-prod.mini.de. A 74.220.199.6
 
 
 
-mail6-0-6-6.mini.de. A 74.220.199.6
 
 
 
@@ -29147,11 +28456,9 @@ mail6-0-6-6.mini.de. A 74.220.199.6
 
 
 
-mailchimp39.mini.de. A 0.0.0.0
 
 
 
-merchantcenter-prdf.mini.de. A 0.0.0.0
 
 
 
@@ -29226,7 +28533,6 @@ merchantcenter-prdf.mini.de. A 0.0.0.0
 
 
 
-mar24.mini.de. A 0.0.0.0
 
 
 
@@ -29255,7 +28561,6 @@ mar24.mini.de. A 0.0.0.0
 
 
 
-maxxie97-1.mini.de. A 0.0.0.0
 
 
 
@@ -29366,6 +28671,7 @@ maxxie97-1.mini.de. A 0.0.0.0
 
 
 
+martiancreativestudio.mini.de. A 2.18.188.209
 
 
 
@@ -29940,6 +29246,7 @@ maxxie97-1.mini.de. A 0.0.0.0
 
 
 
+mailchimp7-1.mini.de. A 0.0.0.0
 
 
 
@@ -30029,6 +29336,7 @@ maxxie97-1.mini.de. A 0.0.0.0
 
 
 
+mad-2.mini.de. A 2.18.188.209
 
 
 
@@ -30040,7 +29348,6 @@ maxxie97-1.mini.de. A 0.0.0.0
 
 
 
-lzumnwdtianfiles.mini.de. A 74.220.199.6
 
 
 
@@ -30349,7 +29656,6 @@ lzumnwdtianfiles.mini.de. A 74.220.199.6
 
 
 
-mcs-staging.mini.de. A 0.0.0.0
 
 
 
@@ -30631,6 +29937,7 @@ mcs-staging.mini.de. A 0.0.0.0
 
 
 
+magnitude.mini.de. A 74.220.199.6
 
 
 
@@ -30915,7 +30222,6 @@ mcs-staging.mini.de. A 0.0.0.0
 
 
 
-lucindaz.mini.de. A 74.220.199.6
 
 
 
@@ -30991,6 +30297,7 @@ lucindaz.mini.de. A 74.220.199.6
 
 
 
+ly34kt9h.mini.de. A 0.0.0.0
 
 
 
@@ -31258,7 +30565,6 @@ lucindaz.mini.de. A 74.220.199.6
 
 
 
-lulux1-swupd.mini.de. A 0.0.0.0
 
 
 
@@ -31632,7 +30938,6 @@ lulux1-swupd.mini.de. A 0.0.0.0
 
 
 
-mabconference17pic.mini.de. A 74.220.199.6
 
 
 
@@ -32305,7 +31610,6 @@ mabconference17pic.mini.de. A 74.220.199.6
 
 
 
-loveden.mini.de. A 0.0.0.0
 
 
 
@@ -32537,6 +31841,7 @@ loveden.mini.de. A 0.0.0.0
 
 
 
+m1-ise01.mini.de. A 74.220.199.6
 
 
 
@@ -32627,6 +31932,7 @@ loveden.mini.de. A 0.0.0.0
 
 
 
+mail8-5-4-9.mini.de. A 74.220.199.6
 
 
 
@@ -33253,7 +32559,6 @@ loveden.mini.de. A 0.0.0.0
 
 
 
-lyncpilotweb-ext.mini.de. A 0.0.0.0
 
 
 
@@ -33272,7 +32577,6 @@ lyncpilotweb-ext.mini.de. A 0.0.0.0
 
 
 
-lon3-babelfishcassandra-a3.mini.de. A 0.0.0.0
 
 
 
@@ -33286,7 +32590,6 @@ lon3-babelfishcassandra-a3.mini.de. A 0.0.0.0
 
 
 
-lon2-ucm4.mini.de. A 0.0.0.0
 
 
 
@@ -33405,7 +32708,6 @@ lon2-ucm4.mini.de. A 0.0.0.0
 
 
 
-mail-zr5eepmtug.mini.de. A 0.0.0.0
 
 
 
@@ -33605,6 +32907,7 @@ mail-zr5eepmtug.mini.de. A 0.0.0.0
 
 
 
+mahendracomputer.mini.de. A 2.18.188.209
 
 
 
@@ -33979,6 +33282,7 @@ mail-zr5eepmtug.mini.de. A 0.0.0.0
 
 
 
+lyubercy.mini.de. A 0.0.0.0
 
 
 
@@ -34306,7 +33610,6 @@ mail-zr5eepmtug.mini.de. A 0.0.0.0
 
 
 
-maila3.mini.de. A 0.0.0.0
 
 
 
@@ -34974,6 +34277,7 @@ maila3.mini.de. A 0.0.0.0
 
 
 
+mailhub2.mini.de. A 0.0.0.0
 
 
 
@@ -35126,6 +34430,7 @@ maila3.mini.de. A 0.0.0.0
 
 
 
+m5pwv1lpmx-1.mini.de. A 2.18.188.209
 
 
 
@@ -35273,7 +34578,6 @@ maila3.mini.de. A 0.0.0.0
 
 
 
-losmercen4ariospelis4kes.mini.de. A 0.0.0.0
 
 
 
@@ -35376,7 +34680,6 @@ losmercen4ariospelis4kes.mini.de. A 0.0.0.0
 
 
 
-lovewed.mini.de. A 0.0.0.0
 
 
 
@@ -35400,8 +34703,8 @@ lovewed.mini.de. A 0.0.0.0
 
 
 
-llxapi-test.mini.de. A 0.0.0.0
 
+login-83.mini.de. A 2.18.188.209
 
 
 
@@ -35675,6 +34978,7 @@ llxapi-test.mini.de. A 0.0.0.0
 
 
 
+lon3weblb-b3.mini.de. A 74.220.199.6
 
 
 
@@ -36026,6 +35330,7 @@ llxapi-test.mini.de. A 0.0.0.0
 
 
 
+lmt-mss-pvt.mini.de. A 0.0.0.0
 
 
 
@@ -36382,7 +35687,6 @@ llxapi-test.mini.de. A 0.0.0.0
 
 
 
-livedataservice-ty21.mini.de. A 0.0.0.0
 
 
 
@@ -36427,6 +35731,7 @@ livedataservice-ty21.mini.de. A 0.0.0.0
 
 
 
+livematches.mini.de. A 2.18.188.209
 
 
 
@@ -36883,7 +36188,6 @@ livedataservice-ty21.mini.de. A 0.0.0.0
 
 
 
-lqw01.mini.de. A 74.220.199.6
 
 
 
@@ -37300,7 +36604,6 @@ lqw01.mini.de. A 74.220.199.6
 
 
 
-loggingservice-prf.mini.de. A 0.0.0.0
 
 
 
@@ -37309,7 +36612,6 @@ loggingservice-prf.mini.de. A 0.0.0.0
 
 
 
-ma-b2bp-lweb02.mini.de. A 0.0.0.0
 
 
 
@@ -37948,7 +37250,6 @@ ma-b2bp-lweb02.mini.de. A 0.0.0.0
 
 
 
-lmt-pdc.mini.de. A 74.220.199.6
 
 
 
@@ -38064,7 +37365,6 @@ lmt-pdc.mini.de. A 74.220.199.6
 
 
 
-mailtrap.mini.de. A 74.220.199.6
 
 
 
@@ -38370,9 +37670,9 @@ mailtrap.mini.de. A 74.220.199.6
 
 
 
+locsubmit4.mini.de. A 2.18.188.209
 
 
-lgbfddhklcdg.mini.de. A 0.0.0.0
 
 
 
@@ -40030,6 +39330,7 @@ lgbfddhklcdg.mini.de. A 0.0.0.0
 
 
 
+liquidize.mini.de. A 0.0.0.0
 
 
 
@@ -40397,7 +39698,6 @@ lgbfddhklcdg.mini.de. A 0.0.0.0
 
 
 
-lefilmscarletbond.mini.de. A 0.0.0.0
 
 
 
@@ -41424,7 +40724,6 @@ lefilmscarletbond.mini.de. A 0.0.0.0
 
 
 
-lb-140-82-113-36-iad.mini.de. A 0.0.0.0
 
 
 
@@ -41981,7 +41280,6 @@ lb-140-82-113-36-iad.mini.de. A 0.0.0.0
 
 
 
-lawebquenuncaduerme.mini.de. A 74.220.199.6
 
 
 
@@ -42006,6 +41304,7 @@ lawebquenuncaduerme.mini.de. A 74.220.199.6
 
 
 
+lmwang.mini.de. A 0.0.0.0
 
 
 
@@ -42228,6 +41527,7 @@ lawebquenuncaduerme.mini.de. A 74.220.199.6
 
 
 
+logs-des1.mini.de. A 74.220.199.6
 
 
 
@@ -43069,6 +42369,7 @@ lawebquenuncaduerme.mini.de. A 74.220.199.6
 
 
 
+latrobe.mini.de. A 0.0.0.0
 
 
 
@@ -43392,7 +42693,6 @@ lawebquenuncaduerme.mini.de. A 74.220.199.6
 
 
 
-lef31-pdb.mini.de. A 0.0.0.0
 
 
 
@@ -43436,12 +42736,10 @@ lef31-pdb.mini.de. A 0.0.0.0
 
 
 
-lc-jobmanager.mini.de. A 0.0.0.0
 
 
 
 
-landlineage.mini.de. A 0.0.0.0
 
 
 
@@ -43715,6 +43013,7 @@ landlineage.mini.de. A 0.0.0.0
 
 
 
+lc-ru.mini.de. A 74.220.199.6
 
 
 
@@ -43967,7 +43266,6 @@ landlineage.mini.de. A 0.0.0.0
 
 
 
-ldap-c.mini.de. A 74.220.199.6
 
 
 
@@ -44172,6 +43470,7 @@ ldap-c.mini.de. A 74.220.199.6
 
 
 
+lae-patch06.mini.de. A 0.0.0.0
 
 
 
@@ -44390,7 +43689,6 @@ ldap-c.mini.de. A 74.220.199.6
 
 
 
-launchpad3-3.mini.de. A 0.0.0.0
 
 
 
@@ -44990,6 +44288,7 @@ launchpad3-3.mini.de. A 0.0.0.0
 
 
 
+lawson1.mini.de. A 0.0.0.0
 
 
 
@@ -45026,6 +44325,7 @@ launchpad3-3.mini.de. A 0.0.0.0
 
 
 
+lcoe-proxy.mini.de. A 0.0.0.0
 
 
 
@@ -45474,7 +44774,6 @@ launchpad3-3.mini.de. A 0.0.0.0
 
 
 
-kuching2.mini.de. A 0.0.0.0
 
 
 
@@ -45531,7 +44830,6 @@ kuching2.mini.de. A 0.0.0.0
 
 
 
-kstst07.mini.de. A 0.0.0.0
 
 
 
@@ -45540,7 +44838,6 @@ kstst07.mini.de. A 0.0.0.0
 
 
 
-kubrickgroup.mini.de. A 0.0.0.0
 
 
 
@@ -45591,6 +44888,7 @@ kubrickgroup.mini.de. A 0.0.0.0
 
 
 
+kwench-test2.mini.de. A 2.18.188.209
 
 
 
@@ -45934,6 +45232,7 @@ kubrickgroup.mini.de. A 0.0.0.0
 
 
 
+larrythefreesoftwareguy.mini.de. A 74.220.199.6
 
 
 
@@ -46260,7 +45559,6 @@ kubrickgroup.mini.de. A 0.0.0.0
 
 
 
-lair-of-doom.mini.de. A 0.0.0.0
 
 
 
@@ -46270,9 +45568,9 @@ lair-of-doom.mini.de. A 0.0.0.0
 
 
 
-laeuldkp-2.mini.de. A 0.0.0.0
 
 
+kudosfp.mini.de. A 2.18.188.209
 
 
 
@@ -46913,6 +46211,7 @@ laeuldkp-2.mini.de. A 0.0.0.0
 
 
 
+lakker.mini.de. A 0.0.0.0
 
 
 
@@ -47243,7 +46542,6 @@ laeuldkp-2.mini.de. A 0.0.0.0
 
 
 
-lab-fpyfmm37pg.mini.de. A 74.220.199.6
 
 
 
@@ -47616,7 +46914,6 @@ lab-fpyfmm37pg.mini.de. A 74.220.199.6
 
 
 
-l7p3.mini.de. A 0.0.0.0
 
 
 
@@ -47812,7 +47109,6 @@ l7p3.mini.de. A 0.0.0.0
 
 
 
-legallogik.mini.de. A 74.220.199.6
 
 
 
@@ -48633,7 +47929,6 @@ legallogik.mini.de. A 74.220.199.6
 
 
 
-ktmparts.mini.de. A 0.0.0.0
 
 
 
@@ -49270,7 +48565,689 @@ ktmparts.mini.de. A 0.0.0.0
 
 
 
-lakoo.mini.de. A 0.0.0.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,10 +1,8 @@
 label.bmwgroup.com
-livestreaming.bmwgroup.com
+mdm-dev.bmwgroup.com
+mail11.bmwgroup.com
 lisa.bmwgroup.com
-my-test.bmwgroup.com
+livestreaming.bmwgroup.com
+livestream.bmwgroup.com
 mxs1.bmwgroup.com
 mxs2.bmwgroup.com
-mail11.bmwgroup.com
-livestream.bmwgroup.com
-mail12.bmwgroup.com
-mdm-dev.bmwgroup.com
