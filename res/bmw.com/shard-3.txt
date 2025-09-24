@@ -1,0 +1,9 @@
+external.bmw.com
+tms.bmw.com
+gd.bmw.com
+lt.bmw.com
+audit.bmw.com
+delivery.bmw.com
+nic.bmw.com
+a3.bmw.com
+static3.bmw.com
