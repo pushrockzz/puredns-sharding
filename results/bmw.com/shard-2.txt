@@ -1,0 +1,7 @@
+com.bmw.com
+speed.bmw.com
+spider.bmw.com
+one.bmw.com
+dealer.bmw.com
+loki.bmw.com
+ocean.bmw.com
