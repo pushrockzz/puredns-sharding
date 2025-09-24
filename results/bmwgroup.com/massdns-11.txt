@@ -886,6 +886,7 @@
 
 
 
+antivirus-mail2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -1153,6 +1154,7 @@
 
 
 
+anipizzacompany.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -2926,6 +2928,7 @@
 
 
 
+angler-naumburg-ost.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -3095,6 +3098,7 @@
 
 
 
+andrewdc.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -3786,7 +3790,6 @@
 
 
 
-aoldc-awseast.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -4966,6 +4969,7 @@ aoldc-awseast.bmwgroup.com. A 74.220.199.6
 
 
 
+amr001-update.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -5977,7 +5981,6 @@ aoldc-awseast.bmwgroup.com. A 74.220.199.6
 
 
 
-apac-3-2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -6949,6 +6952,7 @@ apac-3-2.bmwgroup.com. A 74.220.199.6
 
 
 
+antonio-giachetti-art.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -7974,7 +7978,6 @@ apac-3-2.bmwgroup.com. A 74.220.199.6
 
 
 
-anime-information.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -8990,6 +8993,7 @@ anime-information.bmwgroup.com. A 74.220.199.6
 
 
 
+aol20qby.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -13416,6 +13420,7 @@ anime-information.bmwgroup.com. A 74.220.199.6
 
 
 
+alteryx-prd.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -13461,6 +13466,7 @@ anime-information.bmwgroup.com. A 74.220.199.6
 
 
 
+alldorahelpdesk.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -13476,6 +13482,7 @@ anime-information.bmwgroup.com. A 74.220.199.6
 
 
 
+albiononlinetools.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -13531,7 +13538,6 @@ anime-information.bmwgroup.com. A 74.220.199.6
 
 
 
-amindqal-lv.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -14962,6 +14968,7 @@ amindqal-lv.bmwgroup.com. A 74.220.199.6
 
 
 
+any7.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -16571,7 +16578,6 @@ amindqal-lv.bmwgroup.com. A 74.220.199.6
 
 
 
-andreasneuber-nikon.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -16998,12 +17004,6 @@ andreasneuber-nikon.bmwgroup.com. A 74.220.199.6
 
 
 
-aladin.bmwgroup.com. CNAME aladin-backend-prd.azurefd.net.
-aladin-backend-prd.azurefd.net. CNAME azurefd-t-prod.trafficmanager.net.
-azurefd-t-prod.trafficmanager.net. CNAME shed.dual-low.part-0012.t-0009.t-msedge.net.
-shed.dual-low.part-0012.t-0009.t-msedge.net. CNAME part-0012.t-0009.t-msedge.net.
-part-0012.t-0009.t-msedge.net. A 13.107.246.40
-part-0012.t-0009.t-msedge.net. A 13.107.213.40
 
 
 
@@ -17023,6 +17023,7 @@ part-0012.t-0009.t-msedge.net. A 13.107.213.40
 
 
 
+alphabet.bmwgroup.com. A 160.46.245.233
 
 
 
@@ -17973,6 +17974,7 @@ part-0012.t-0009.t-msedge.net. A 13.107.213.40
 
 
 
+americasav.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -18614,7 +18616,6 @@ part-0012.t-0009.t-msedge.net. A 13.107.213.40
 
 
 
-airlinestatus.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -19104,6 +19105,7 @@ airlinestatus.bmwgroup.com. A 74.220.199.6
 
 
 
+agdclubtv.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -21176,7 +21178,6 @@ airlinestatus.bmwgroup.com. A 74.220.199.6
 
 
 
-airydisk.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -22140,7 +22141,6 @@ airydisk.bmwgroup.com. A 74.220.199.6
 
 
 
-agendaslider-files.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -22655,6 +22655,7 @@ agendaslider-files.bmwgroup.com. A 74.220.199.6
 
 
 
+ahmad.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -23106,6 +23107,7 @@ agendaslider-files.bmwgroup.com. A 74.220.199.6
 
 
 
+admo.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -23177,7 +23179,6 @@ agendaslider-files.bmwgroup.com. A 74.220.199.6
 
 
 
-air2.bmwgroup.com. A 160.46.238.75
 
 
 
@@ -24690,6 +24691,7 @@ air2.bmwgroup.com. A 160.46.238.75
 
 
 
+andrew-woodside.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -27111,6 +27113,7 @@ air2.bmwgroup.com. A 160.46.238.75
 
 
 
+agen-ip.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -27641,6 +27644,7 @@ air2.bmwgroup.com. A 160.46.238.75
 
 
 
+adcpdub03.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -27650,7 +27654,6 @@ air2.bmwgroup.com. A 160.46.238.75
 
 
 
-adstudio-admin.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -28109,6 +28112,7 @@ adstudio-admin.bmwgroup.com. A 74.220.199.6
 
 
 
+aigakushachi.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -28618,8 +28622,10 @@ adstudio-admin.bmwgroup.com. A 74.220.199.6
 
 
 
+aegir-us-west-1.bmwgroup.com. A 74.220.199.6
 
 
+ada-sandbox.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -29208,6 +29214,7 @@ adstudio-admin.bmwgroup.com. A 74.220.199.6
 
 
 
+adventiste-draguignan.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -29247,7 +29254,6 @@ adstudio-admin.bmwgroup.com. A 74.220.199.6
 
 
 
-ae61.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -29731,7 +29737,6 @@ ae61.bmwgroup.com. A 74.220.199.6
 
 
 
-acrylicfrog-k8s.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -33707,7 +33712,6 @@ acrylicfrog-k8s.bmwgroup.com. A 74.220.199.6
 
 
 
-academico-7.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -34152,6 +34156,7 @@ academico-7.bmwgroup.com. A 74.220.199.6
 
 
 
+acheive.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -34213,7 +34218,6 @@ academico-7.bmwgroup.com. A 74.220.199.6
 
 
 
-actgov-pw-tmp-ws.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -34696,6 +34700,7 @@ actgov-pw-tmp-ws.bmwgroup.com. A 74.220.199.6
 
 
 
+aakamneva.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -34719,7 +34724,6 @@ actgov-pw-tmp-ws.bmwgroup.com. A 74.220.199.6
 
 
 
-absolutevintagestore.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -34742,7 +34746,6 @@ absolutevintagestore.bmwgroup.com. A 74.220.199.6
 
 
 
-aaaaaadlkkkk.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -36256,7 +36259,6 @@ aaaaaadlkkkk.bmwgroup.com. A 74.220.199.6
 
 
 
-a3cxkoqgf3.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -36279,7 +36281,6 @@ a3cxkoqgf3.bmwgroup.com. A 74.220.199.6
 
 
 
-a4pbio.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -36711,6 +36712,7 @@ a4pbio.bmwgroup.com. A 74.220.199.6
 
 
 
+abrahamtrading.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -36807,7 +36809,6 @@ a4pbio.bmwgroup.com. A 74.220.199.6
 
 
 
-a9a-local.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -37290,7 +37291,6 @@ a9a-local.bmwgroup.com. A 74.220.199.6
 
 
 
-a-ri-sha.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -37796,6 +37796,7 @@ a-ri-sha.bmwgroup.com. A 74.220.199.6
 
 
 
+aadhaarshila.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -38774,6 +38775,7 @@ a-ri-sha.bmwgroup.com. A 74.220.199.6
 
 
 
+acc-ordering.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -38786,7 +38788,6 @@ a-ri-sha.bmwgroup.com. A 74.220.199.6
 
 
 
-a26f.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -40264,6 +40265,7 @@ a26f.bmwgroup.com. A 74.220.199.6
 
 
 
+92msisuat.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -40275,6 +40277,7 @@ a26f.bmwgroup.com. A 74.220.199.6
 
 
 
+94-225-253-12.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -40282,6 +40285,7 @@ a26f.bmwgroup.com. A 74.220.199.6
 
 
 
+92mblog.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -40317,7 +40321,6 @@ a26f.bmwgroup.com. A 74.220.199.6
 
 
 
-93-89-46.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -43386,6 +43389,7 @@ a26f.bmwgroup.com. A 74.220.199.6
 
 
 
+abbysprojects.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -44448,6 +44452,7 @@ a26f.bmwgroup.com. A 74.220.199.6
 
 
 
+7wkci.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -45407,6 +45412,7 @@ a26f.bmwgroup.com. A 74.220.199.6
 
 
 
+928thave.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -45973,6 +45979,7 @@ a26f.bmwgroup.com. A 74.220.199.6
 
 
 
+aa-utkin.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -48612,7 +48619,6 @@ a26f.bmwgroup.com. A 74.220.199.6
 
 
 
-85-73.bmwgroup.com. A 74.220.199.6
 
 
 
