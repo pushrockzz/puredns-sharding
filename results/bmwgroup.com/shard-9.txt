@@ -1,6 +1,3 @@
-crowdinnovation.bmwgroup.com
-casa.bmwgroup.com
-cube.bmwgroup.com
-configure.bmwgroup.com
 datafox.bmwgroup.com
-charging.bmwgroup.com
+configure.bmwgroup.com
+cargo-auth.bmwgroup.com

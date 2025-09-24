@@ -99,7 +99,6 @@
 
 
 
-dealers.bmw.com. CNAME www.bmw-prod3.com.edgekey.net.
 
 
 
@@ -253,6 +252,7 @@ dealers.bmw.com. CNAME www.bmw-prod3.com.edgekey.net.
 
 
 
+dbmsminerva-pr.bmw.com. A 74.220.199.6
 
 
 
@@ -857,60 +857,6 @@ dealers.bmw.com. CNAME www.bmw-prod3.com.edgekey.net.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-dbmsbetamonitoring-live.bmw.com. A 74.220.199.6
 
 
 
@@ -1487,6 +1433,7 @@ dealer.bmw.com. A 160.46.226.143
 
 
 
+ddw-dev-duck-dev-w2.bmw.com. A 104.116.243.59
 
 
 
@@ -2383,6 +2330,7 @@ dealer.bmw.com. A 160.46.226.143
 
 
 
+dc4-iron09-e.bmw.com. A 74.220.199.6
 
 
 
@@ -3313,6 +3261,7 @@ dealer.bmw.com. A 160.46.226.143
 
 
 
+dawattch.bmw.com. A 74.220.199.6
 
 
 
@@ -3476,7 +3425,6 @@ dealer.bmw.com. A 160.46.226.143
 
 
 
-davejsbot.bmw.com. A 74.220.199.6
 
 
 
@@ -3691,6 +3639,7 @@ davejsbot.bmw.com. A 74.220.199.6
 
 
 
+ddcf.bmw.com. A 104.116.243.59
 
 
 
@@ -7431,8 +7380,10 @@ davejsbot.bmw.com. A 74.220.199.6
 
 
 
+cust865-70.bmw.com. A 74.220.199.6
 
 
+cust79.bmw.com. A 74.220.199.6
 
 
 
@@ -7555,7 +7506,6 @@ davejsbot.bmw.com. A 74.220.199.6
 
 
 
-d110-de-2.bmw.com. A 74.220.199.6
 
 
 
@@ -8669,7 +8619,6 @@ d110-de-2.bmw.com. A 74.220.199.6
 
 
 
-cuddle-aromatherapy-counseling.bmw.com. A 74.220.199.6
 
 
 
@@ -9506,6 +9455,7 @@ cuddle-aromatherapy-counseling.bmw.com. A 74.220.199.6
 
 
 
+cutandchicvintage.bmw.com. A 74.220.199.6
 
 
 
@@ -10079,6 +10029,7 @@ cuddle-aromatherapy-counseling.bmw.com. A 74.220.199.6
 
 
 
+d120-use-1.bmw.com. A 74.220.199.6
 
 
 
@@ -12081,6 +12032,7 @@ cuddle-aromatherapy-counseling.bmw.com. A 74.220.199.6
 
 
 
+crm-brok.bmw.com. A 74.220.199.6
 
 
 
@@ -12607,6 +12559,7 @@ cuddle-aromatherapy-counseling.bmw.com. A 74.220.199.6
 
 
 
+cshsepicsoap.bmw.com. A 74.220.199.6
 
 
 
@@ -14151,6 +14104,7 @@ cuddle-aromatherapy-counseling.bmw.com. A 74.220.199.6
 
 
 
+d61-use-1.bmw.com. A 104.116.243.59
 
 
 
@@ -16177,7 +16131,6 @@ cuddle-aromatherapy-counseling.bmw.com. A 74.220.199.6
 
 
 
-copilot-admin.bmw.com. A 74.220.199.6
 
 
 
@@ -19592,6 +19545,7 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
+concord-hr.bmw.com. A 74.220.199.6
 
 
 
@@ -19747,6 +19701,7 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
+cpp-prod.bmw.com. A 160.46.231.16
 
 
 
@@ -20170,6 +20125,7 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
+couponat-1.bmw.com. A 74.220.199.6
 
 
 
@@ -22164,6 +22120,7 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
+cpeprovdata-ist.bmw.com. A 74.220.199.6
 
 
 
@@ -23752,6 +23709,7 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
+connect-pwssapi.bmw.com. A 104.116.243.59
 
 
 
@@ -24889,6 +24847,7 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
+coinbasesupportphonenumbery6.bmw.com. A 104.116.243.59
 
 
 
@@ -26662,6 +26621,7 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
+collector-core6.bmw.com. A 74.220.199.6
 
 
 
@@ -26673,6 +26633,7 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
+colimalico.bmw.com. A 74.220.199.6
 
 
 
@@ -27684,6 +27645,7 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
+ckcoderouter-ic2.bmw.com. A 74.220.199.6
 
 
 
@@ -28319,6 +28281,7 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
+cnyobproxy2.bmw.com. A 74.220.199.6
 
 
 
@@ -28364,7 +28327,6 @@ copilot-admin.bmw.com. A 74.220.199.6
 
 
 
-connect-maplayerservice-eus.bmw.com. A 74.220.199.6
 
 
 
@@ -29258,9 +29220,11 @@ connect-maplayerservice-eus.bmw.com. A 74.220.199.6
 
 
 
+cig1w357-deposits.bmw.com. A 74.220.199.6
 
 
 
+cigna.bmw.com. A 74.220.199.6
 
 
 
@@ -29776,6 +29740,7 @@ connect-maplayerservice-eus.bmw.com. A 74.220.199.6
 
 
 
+codesuggestions.bmw.com. A 74.220.199.6
 
 
 
@@ -29804,7 +29769,6 @@ connect-maplayerservice-eus.bmw.com. A 74.220.199.6
 
 
 
-cig1w334-resources.bmw.com. A 74.220.199.6
 
 
 
@@ -30782,7 +30746,6 @@ cig1w334-resources.bmw.com. A 74.220.199.6
 
 
 
-cloud-x2p-edge-http-shv-02-kut2.bmw.com. A 74.220.199.6
 
 
 
@@ -30821,7 +30784,6 @@ cloud-x2p-edge-http-shv-02-kut2.bmw.com. A 74.220.199.6
 
 
 
-chuzhoushibaijiale.bmw.com. A 74.220.199.6
 
 
 
@@ -30854,7 +30816,6 @@ chuzhoushibaijiale.bmw.com. A 74.220.199.6
 
 
 
-cidns.bmw.com. A 74.220.199.6
 
 
 
@@ -31809,6 +31770,7 @@ cidns.bmw.com. A 74.220.199.6
 
 
 
+cinetonalapic.bmw.com. A 118.26.48.245
 
 
 
@@ -33184,6 +33146,7 @@ cidns.bmw.com. A 74.220.199.6
 
 
 
+checkcoverage-uat.bmw.com. A 74.220.199.6
 
 
 
@@ -35283,6 +35246,7 @@ cidns.bmw.com. A 74.220.199.6
 
 
 
+cig1w262-deposits.bmw.com. A 74.220.199.6
 
 
 
@@ -37282,6 +37246,7 @@ cidns.bmw.com. A 74.220.199.6
 
 
 
+cig1w356-banking.bmw.com. A 74.220.199.6
 
 
 
@@ -39330,6 +39295,7 @@ cidns.bmw.com. A 74.220.199.6
 
 
 
+celestial.bmw.com. A 74.220.199.6
 
 
 
@@ -40911,7 +40877,6 @@ cidns.bmw.com. A 74.220.199.6
 
 
 
-chd8s-dev.bmw.com. A 74.220.199.6
 
 
 
@@ -41372,6 +41337,7 @@ chd8s-dev.bmw.com. A 74.220.199.6
 
 
 
+caroline-web.bmw.com. A 74.220.199.6
 
 
 
@@ -42052,7 +42018,6 @@ chd8s-dev.bmw.com. A 74.220.199.6
 
 
 
-casa.bmw.com. A 160.46.243.81
 
 
 
@@ -46673,7 +46638,6 @@ casa.bmw.com. A 160.46.243.81
 
 
 
-ccare-out-ru.bmw.com. A 74.220.199.6
 
 
 
@@ -48523,6 +48487,7 @@ ccare-out-ru.bmw.com. A 74.220.199.6
 
 
 
+capital-federal.bmw.com. A 118.26.48.245
 
 
 
@@ -48919,7 +48884,6 @@ ccare-out-ru.bmw.com. A 74.220.199.6
 
 
 
-chimayo.bmw.com. A 74.220.199.6
 
 
 
@@ -49617,7 +49581,60 @@ chimayo.bmw.com. A 74.220.199.6
 
 
 
-callisto.bmw.com. A 20.103.233.217
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+calendar1-5.bmw.com. A 104.116.243.59
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
