@@ -1,0 +1,6 @@
+vpnweb.bmwgroup.com
+web-test.bmwgroup.com
+tron.bmwgroup.com
+webservice.bmwgroup.com
+vera.bmwgroup.com
+vecom.bmwgroup.com
