@@ -168,18 +168,21 @@ jobs:
           DOMAIN_FILE="domains/domains.txt"
           RESOLVERS="resolvers.txt"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
+          
           while IFS= read -r domain || [ -n "$domain" ]; do
             case "$domain" in \#*|"") continue ;; esac
             ROOT_DOMAIN_DIR="res/$domain"
             mkdir -p "$ROOT_DOMAIN_DIR"
             PUREDNS_FILE="${ROOT_DOMAIN_DIR}/shard-${CHUNK_INDEX}.txt"
+            WILDCARD_FILE="${ROOT_DOMAIN_DIR}/wildcards-${CHUNK_INDEX}.txt"
+            MASSDNS_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
+            
             echo "[shard $CHUNK_INDEX] bruteforcing $domain, outputting to $PUREDNS_FILE"
-            cat "$CHUNK_FILE" | puredns bruteforce "$domain" -r "$RESOLVERS" --rate-limit 5000 --skip-validation \
-              --wildcard-tests 300 --wildcard-batch 100000 --write "$PUREDNS_FILE" --quiet
+            cat "$CHUNK_FILE" | puredns bruteforce "$domain" -r "$RESOLVERS" --rate-limit 3000 \
+              --wildcard-tests 300 --wildcard-batch 100000 --write "$PUREDNS_FILE" --write-massdns "MASSDNS_FILE" --write-wildcards "$WILDCARD_FILE" --quiet
           done < "$DOMAIN_FILE"
 
       - name: (Optional) Commit res back to repo
-        if: env.PAT_TOKEN != ''
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
