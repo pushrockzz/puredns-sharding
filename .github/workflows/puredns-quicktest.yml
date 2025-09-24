@@ -133,7 +133,7 @@ jobs:
           if (( SHARDS_THIS_RUN <= 0 )); then
             echo "shard_matrix=[]" >> $GITHUB_OUTPUT
           else
-            MATRIX_JSON=$(jq -cn --argjson n "$SHARDS_THIS_RUN" 'range($n)')
+            MATRIX_JSON=$(jq -cn --argjson n "$SHARDS_THIS_RUN" '[range($n)]')
             echo "Generated matrix for ${SHARDS_THIS_RUN} shards: $MATRIX_JSON"
             echo "shard_matrix=$MATRIX_JSON" >> $GITHUB_OUTPUT
           fi
