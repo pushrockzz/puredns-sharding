@@ -148,6 +148,10 @@ jobs:
       matrix:
         shard: ${{ fromJson(needs.generate_matrix.outputs.shard_matrix) }}
     steps:
+      - name: Checkout repo (for committing results)
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false    
       - name: Download pre-split wordlists/artifact
         uses: actions/download-artifact@v4
         with:
