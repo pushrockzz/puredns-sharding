@@ -413,6 +413,7 @@
 
 
 
+scf1-ngeag-eit.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -1381,6 +1382,7 @@
 
 
 
+zs13-preprod-en.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -1533,6 +1535,7 @@
 
 
 
+zego-qa-van-ryq-integration.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -1635,6 +1638,7 @@
 
 
 
+tor432-495-pda.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -2349,6 +2353,7 @@
 
 
 
+https-es-m-wikipedia-org59.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -2398,6 +2403,7 @@
 
 
 
+http-m-olx-co-id-4-2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -2484,6 +2490,7 @@
 
 
 
+vnc-cd-ttlab.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -2848,7 +2855,6 @@
 
 
 
-34-0-98.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -3784,6 +3790,7 @@
 
 
 
+https-m-olx-ph5.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -5928,7 +5935,6 @@
 
 
 
-http-www-bing-com36.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -7603,6 +7609,7 @@ http-www-bing-com36.bmwgroup.com. A 74.220.199.6
 
 
 
+baiduspider-180-76-5-63.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -8003,7 +8010,6 @@ http-www-bing-com36.bmwgroup.com. A 74.220.199.6
 
 
 
-55-60-42.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -9930,11 +9936,9 @@ http-www-bing-com36.bmwgroup.com. A 74.220.199.6
 
 
 
-sjc1-weblogs-b2.bmwgroup.com. A 74.220.199.6
 
 
 
-cluster-cf3d017f-c91b-4.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -10416,7 +10420,6 @@ cluster-cf3d017f-c91b-4.bmwgroup.com. A 74.220.199.6
 
 
 
-zoomnym105mmr.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -10977,7 +10980,6 @@ zoomnym105mmr.bmwgroup.com. A 74.220.199.6
 
 
 
-pci-net-vpn-clients.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -11556,6 +11558,7 @@ pci-net-vpn-clients.bmwgroup.com. A 74.220.199.6
 
 
 
+ns28-sdk-01-8.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -12019,6 +12022,7 @@ pci-net-vpn-clients.bmwgroup.com. A 74.220.199.6
 
 
 
+sandbox-payroll-engine-api.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -14020,13 +14024,11 @@ pci-net-vpn-clients.bmwgroup.com. A 74.220.199.6
 
 
 
-http-uk-ask-com5-1.bmwgroup.com. A 74.220.199.6
 
 
 
 
 
-ash-jumphost-a1.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -15445,7 +15447,6 @@ ash-jumphost-a1.bmwgroup.com. A 74.220.199.6
 
 
 
-dex-admin-website-beta.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -15549,6 +15550,7 @@ dex-admin-website-beta.bmwgroup.com. A 74.220.199.6
 
 
 
+flnk1-1.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -16512,7 +16514,6 @@ dex-admin-website-beta.bmwgroup.com. A 74.220.199.6
 
 
 
-www-google-co-zm-07.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -16560,7 +16561,6 @@ www-google-co-zm-07.bmwgroup.com. A 74.220.199.6
 
 
 
-sl-name-es-la.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -17654,6 +17654,7 @@ sl-name-es-la.bmwgroup.com. A 74.220.199.6
 
 
 
+4fwww-0-8.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -18930,7 +18931,6 @@ sl-name-es-la.bmwgroup.com. A 74.220.199.6
 
 
 
-www1-57-9.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -19611,6 +19611,7 @@ www1-57-9.bmwgroup.com. A 74.220.199.6
 
 
 
+57-91-1.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -20080,7 +20081,6 @@ www1-57-9.bmwgroup.com. A 74.220.199.6
 
 
 
-5a-dcops-sfc.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -20546,7 +20546,6 @@ www1-57-9.bmwgroup.com. A 74.220.199.6
 
 
 
-ipv4-c007-bkk002-ais-isp.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -26745,7 +26744,6 @@ ipv4-c007-bkk002-ais-isp.bmwgroup.com. A 74.220.199.6
 
 
 
-ash1-accesspoint-a49.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -27260,6 +27258,7 @@ ash1-accesspoint-a49.bmwgroup.com. A 74.220.199.6
 
 
 
+ash2-heroiccassandra-a6.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -27374,6 +27373,7 @@ ash1-accesspoint-a49.bmwgroup.com. A 74.220.199.6
 
 
 
+af01p-cr-dr03.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -28349,6 +28349,7 @@ ash1-accesspoint-a49.bmwgroup.com. A 74.220.199.6
 
 
 
+www-7-4-2.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -29795,7 +29796,6 @@ ash1-accesspoint-a49.bmwgroup.com. A 74.220.199.6
 
 
 
-96-50-6.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -31365,6 +31365,7 @@ ash1-accesspoint-a49.bmwgroup.com. A 74.220.199.6
 
 
 
+daihatsu-tracker-8.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -33201,7 +33202,6 @@ ash1-accesspoint-a49.bmwgroup.com. A 74.220.199.6
 
 
 
-7t-47-staging.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -33611,7 +33611,6 @@ ash1-accesspoint-a49.bmwgroup.com. A 74.220.199.6
 
 
 
-tempolists-facebook-error2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -33854,6 +33853,7 @@ tempolists-facebook-error2.bmwgroup.com. A 74.220.199.6
 
 
 
+05-66-0.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -35184,7 +35184,6 @@ tempolists-facebook-error2.bmwgroup.com. A 74.220.199.6
 
 
 
-order-iso-qalap.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -35209,7 +35208,6 @@ order-iso-qalap.bmwgroup.com. A 74.220.199.6
 
 
 
-core-api-testaging-webmail02.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -36239,7 +36237,6 @@ core-api-testaging-webmail02.bmwgroup.com. A 74.220.199.6
 
 
 
-mx3-ph2-sp2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -37184,7 +37181,6 @@ mx3-ph2-sp2.bmwgroup.com. A 74.220.199.6
 
 
 
-bl1-cppm-02.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -37202,7 +37198,6 @@ bl1-cppm-02.bmwgroup.com. A 74.220.199.6
 
 
 
-register0-3-6.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -37392,6 +37387,7 @@ register0-3-6.bmwgroup.com. A 74.220.199.6
 
 
 
+dickens.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -37418,6 +37414,7 @@ register0-3-6.bmwgroup.com. A 74.220.199.6
 
 
 
+int-fca-gsdp.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -37755,7 +37752,6 @@ register0-3-6.bmwgroup.com. A 74.220.199.6
 
 
 
-dmre.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -38396,6 +38392,7 @@ dmre.bmwgroup.com. A 74.220.199.6
 
 
 
+borodin.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -39612,6 +39609,7 @@ dmre.bmwgroup.com. A 74.220.199.6
 
 
 
+positivegroupaustralia.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -40179,7 +40177,6 @@ dmre.bmwgroup.com. A 74.220.199.6
 
 
 
-66-4-8.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -41417,6 +41414,7 @@ dmre.bmwgroup.com. A 74.220.199.6
 
 
 
+ebdp-ch2-d874p.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -42312,7 +42310,6 @@ dmre.bmwgroup.com. A 74.220.199.6
 
 
 
-unitoring.bmwgroup.com. A 74.220.199.6
 
 
 
