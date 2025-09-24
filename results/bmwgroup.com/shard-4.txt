@@ -1,0 +1,5 @@
+opendev.bmwgroup.com
+pix3.bmwgroup.com
+pixi.bmwgroup.com
+ocr-prod.bmwgroup.com
+opus.bmwgroup.com
