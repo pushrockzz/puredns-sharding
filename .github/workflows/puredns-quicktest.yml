@@ -220,7 +220,7 @@ jobs:
           CHUNK_FILE="wordlists/chunk-$(printf '%05d' "$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))").txt"
           DOMAIN_FILE="domains/domains.txt"
           RESOLVERS="resolvers.txt"
-          RESOLVERS-TRUSTED="resolvers-trusted.txt"
+          RESOLVERS_TRUSTED="resolvers-trusted.txt"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           while IFS= read -r domain || [ -n "$domain" ]; do
             case "$domain" in \#*|"") continue ;; esac
@@ -233,7 +233,7 @@ jobs:
 
             echo "[shard $CHUNK_INDEX] bruteforcing $domain, outputting to $ROOT_DOMAIN_DIR/"
             cat "$CHUNK_FILE" | puredns bruteforce "$domain" -r "$RESOLVERS" --rate-limit 5000 --rate-limit-trusted 2000 \
-              --resolvers-truste "$RESOLVERS-TRUSTED"
+              --resolvers-trusted "RESOLVERS_TRUSTED"
               --wildcard-tests 300 --wildcard-batch 100000 \
               --write "$PUREDNS_FILE" \
               --write-wildcards "$WILDCARD_FILE" \
