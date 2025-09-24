@@ -143,7 +143,6 @@
 
 
 
-hellowatch.bmw.com. A 74.220.199.6
 
 
 
@@ -823,6 +822,7 @@ hellowatch.bmw.com. A 74.220.199.6
 
 
 
+h1base.bmw.com. A 74.220.199.6
 
 
 
@@ -922,7 +922,6 @@ hellowatch.bmw.com. A 74.220.199.6
 
 
 
-h-135-207-57-17.bmw.com. A 74.220.199.6
 
 
 
@@ -1998,6 +1997,7 @@ h-135-207-57-17.bmw.com. A 74.220.199.6
 
 
 
+gwd06nob5m-test.bmw.com. A 74.220.199.6
 
 
 
@@ -3596,6 +3596,7 @@ h-135-207-57-17.bmw.com. A 74.220.199.6
 
 
 
+gustestacm.bmw.com. A 104.117.182.91
 
 
 
@@ -3604,6 +3605,7 @@ h-135-207-57-17.bmw.com. A 74.220.199.6
 
 
 
+guyspic.bmw.com. A 104.117.182.91
 
 
 
@@ -9465,6 +9467,7 @@ h-135-207-57-17.bmw.com. A 74.220.199.6
 
 
 
+hdxplus-p2.bmw.com. A 74.220.199.6
 
 
 
@@ -11522,6 +11525,7 @@ h-135-207-57-17.bmw.com. A 74.220.199.6
 
 
 
+graph-12-5.bmw.com. A 74.220.199.6
 
 
 
@@ -12431,7 +12435,6 @@ h-135-207-57-17.bmw.com. A 74.220.199.6
 
 
 
-gra25.bmw.com. A 74.220.199.6
 
 
 
@@ -14028,6 +14031,7 @@ gra25.bmw.com. A 74.220.199.6
 
 
 
+graph-08-2.bmw.com. A 74.220.199.6
 
 
 
@@ -14988,7 +14992,6 @@ gra25.bmw.com. A 74.220.199.6
 
 
 
-goldenskale.bmw.com. A 74.220.199.6
 
 
 
@@ -15966,7 +15969,6 @@ goldenskale.bmw.com. A 74.220.199.6
 
 
 
-hc-starkoi-eu.bmw.com. A 74.220.199.6
 
 
 
@@ -16989,6 +16991,7 @@ hc-starkoi-eu.bmw.com. A 74.220.199.6
 
 
 
+google-drive9-5.bmw.com. A 74.220.199.6
 
 
 
@@ -20669,6 +20672,7 @@ hc-starkoi-eu.bmw.com. A 74.220.199.6
 
 
 
+github71.bmw.com. A 74.220.199.6
 
 
 
@@ -21109,7 +21113,6 @@ hc-starkoi-eu.bmw.com. A 74.220.199.6
 
 
 
-geo-server-cert.bmw.com. A 74.220.199.6
 
 
 
@@ -21117,7 +21120,6 @@ geo-server-cert.bmw.com. A 74.220.199.6
 
 
 
-gnfd-bsc-faucet.bmw.com. A 74.220.199.6
 
 
 
@@ -21610,6 +21612,7 @@ gnfd-bsc-faucet.bmw.com. A 74.220.199.6
 
 
 
+genet10.bmw.com. A 74.220.199.6
 
 
 
@@ -22618,6 +22621,7 @@ gnfd-bsc-faucet.bmw.com. A 74.220.199.6
 
 
 
+galionen.bmw.com. A 74.220.199.6
 
 
 
@@ -23146,7 +23150,6 @@ gnfd-bsc-faucet.bmw.com. A 74.220.199.6
 
 
 
-grandcentral.bmw.com. A 74.220.199.6
 
 
 
@@ -23169,6 +23172,7 @@ grandcentral.bmw.com. A 74.220.199.6
 
 
 
+getcli-temp.bmw.com. A 74.220.199.6
 
 
 
@@ -23180,6 +23184,7 @@ grandcentral.bmw.com. A 74.220.199.6
 
 
 
+gesundheitsoase-olivia-2.bmw.com. A 74.220.199.6
 
 
 
@@ -28168,6 +28173,7 @@ grandcentral.bmw.com. A 74.220.199.6
 
 
 
+freeconnectasia.bmw.com. A 74.220.199.6
 
 
 
@@ -30117,6 +30123,7 @@ grandcentral.bmw.com. A 74.220.199.6
 
 
 
+fpoa5-1.bmw.com. A 74.220.199.6
 
 
 
@@ -30144,6 +30151,7 @@ grandcentral.bmw.com. A 74.220.199.6
 
 
 
+fotp1-1.bmw.com. A 74.220.199.6
 
 
 
@@ -35216,11 +35224,9 @@ grandcentral.bmw.com. A 74.220.199.6
 
 
 
-fisb1-1.bmw.com. A 74.220.199.6
 
 
 
-fjrgcwbcbo-2.bmw.com. A 74.220.199.6
 
 
 
@@ -35877,6 +35883,7 @@ fjrgcwbcbo-2.bmw.com. A 74.220.199.6
 
 
 
+fjrs16-1.bmw.com. A 74.220.199.6
 
 
 
@@ -36746,6 +36753,7 @@ fjrgcwbcbo-2.bmw.com. A 74.220.199.6
 
 
 
+fq12isjr4b-dsn.bmw.com. A 74.220.199.6
 
 
 
@@ -36789,6 +36797,7 @@ fjrgcwbcbo-2.bmw.com. A 74.220.199.6
 
 
 
+flamenco.bmw.com. A 74.220.199.6
 
 
 
@@ -38173,7 +38182,6 @@ fjrgcwbcbo-2.bmw.com. A 74.220.199.6
 
 
 
-ffpv-messages.bmw.com. A 74.220.199.6
 
 
 
@@ -38768,6 +38776,7 @@ ffpv-messages.bmw.com. A 74.220.199.6
 
 
 
+flgq265n03.bmw.com. A 74.220.199.6
 
 
 
@@ -43840,7 +43849,6 @@ ffpv-messages.bmw.com. A 74.220.199.6
 
 
 
-factory7.bmw.com. A 74.220.199.6
 
 
 
@@ -44941,6 +44949,7 @@ factory7.bmw.com. A 74.220.199.6
 
 
 
+fa677j9qji-1.bmw.com. A 104.117.182.91
 
 
 
@@ -45967,6 +45976,7 @@ factory7.bmw.com. A 74.220.199.6
 
 
 
+fantadedalo.bmw.com. A 118.26.48.245
 
 
 
@@ -47622,7 +47632,6 @@ factory7.bmw.com. A 74.220.199.6
 
 
 
-facebook-sbjade.bmw.com. A 74.220.199.6
 
 
 
@@ -48893,6 +48902,7 @@ facebook-sbjade.bmw.com. A 74.220.199.6
 
 
 
+faq-abwe.bmw.com. A 74.220.199.6
 
 
 
