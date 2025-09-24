@@ -1,5 +1,5 @@
-vip-int.bmw.com
-vpn22.bmw.com
 www-jp.bmw.com
+vdms.bmw.com
+workflow-dev.bmw.com
 tracking-api.bmw.com
-vipweb.bmw.com
+vip-int.bmw.com

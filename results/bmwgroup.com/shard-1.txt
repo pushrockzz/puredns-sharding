@@ -1,6 +1,6 @@
+tracy.bmwgroup.com
 vpnweb.bmwgroup.com
-web-test.bmwgroup.com
-tron.bmwgroup.com
-webservice.bmwgroup.com
 vera.bmwgroup.com
+velocity.bmwgroup.com
+webservice.bmwgroup.com
 vecom.bmwgroup.com

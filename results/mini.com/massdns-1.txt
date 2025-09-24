@@ -1,10 +1,11 @@
-www3-53mel.mini.com. A 0.0.0.0
 
 
 
 
+www-9-4.mini.com. A 74.220.199.6
 
 
+www-reclamefilms.mini.com. A 0.0.0.0
 
 
 
@@ -20,6 +21,7 @@ www3-53mel.mini.com. A 0.0.0.0
 
 
 
+www5-96.mini.com. A 104.109.250.59
 
 
 
@@ -52,7 +54,6 @@ www3-53mel.mini.com. A 0.0.0.0
 
 
 
-www-kcloud.mini.com. A 0.0.0.0
 
 
 
@@ -224,7 +225,9 @@ www-kcloud.mini.com. A 0.0.0.0
 
 
 
+ww0dev.mini.com. A 74.220.199.6
 
+wsuniregadmin.mini.com. A 74.220.199.6
 
 
 
@@ -261,7 +264,6 @@ www-kcloud.mini.com. A 0.0.0.0
 
 
 
-www-1-08.mini.com. A 0.0.0.0
 
 
 
@@ -273,8 +275,8 @@ www-1-08.mini.com. A 0.0.0.0
 
 
 
+wranx.mini.com. A 0.0.0.0
 
-www45-2.mini.com. A 0.0.0.0
 
 
 
@@ -282,7 +284,6 @@ www45-2.mini.com. A 0.0.0.0
 
 
 
-www-5-3-0.mini.com. A 74.220.199.6
 
 
 
@@ -575,6 +576,7 @@ www-5-3-0.mini.com. A 74.220.199.6
 
 
 
+wstestmbr.mini.com. A 104.109.250.59
 
 
 
@@ -767,6 +769,7 @@ www-5-3-0.mini.com. A 74.220.199.6
 
 
 
+ws13.mini.com. A 104.109.250.59
 
 
 
@@ -1195,7 +1198,6 @@ www-5-3-0.mini.com. A 74.220.199.6
 
 
 
-wp-znxyiml4l4.mini.com. A 0.0.0.0
 
 
 
@@ -1649,6 +1651,7 @@ wp-znxyiml4l4.mini.com. A 0.0.0.0
 
 
 
+www37-7.mini.com. A 0.0.0.0
 
 
 
@@ -1657,7 +1660,6 @@ wp-znxyiml4l4.mini.com. A 0.0.0.0
 
 
 
-wordpresscluster.mini.com. A 0.0.0.0
 
 
 
@@ -1689,7 +1691,6 @@ wordpresscluster.mini.com. A 0.0.0.0
 
 
 
-www1-www.mini.com. A 74.220.199.6
 
 
 
@@ -1701,6 +1702,7 @@ www1-www.mini.com. A 74.220.199.6
 
 
 
+wonenenleven.mini.com. A 0.0.0.0
 
 
 
@@ -2264,7 +2266,6 @@ www1-www.mini.com. A 74.220.199.6
 
 
 
-wom-cl.mini.com. A 0.0.0.0
 
 
 
@@ -2301,7 +2302,6 @@ wom-cl.mini.com. A 0.0.0.0
 
 
 
-www-4-89.mini.com. A 74.220.199.6
 
 
 
@@ -2311,6 +2311,7 @@ www-4-89.mini.com. A 74.220.199.6
 
 
 
+www-detik-com.mini.com. A 74.220.199.6
 
 
 
@@ -2342,7 +2343,6 @@ www-4-89.mini.com. A 74.220.199.6
 
 
 
-www-cinaqq.mini.com. A 74.220.199.6
 
 
 
@@ -2362,7 +2362,6 @@ www-cinaqq.mini.com. A 74.220.199.6
 
 
 
-www-40-8.mini.com. A 74.220.199.6
 
 
 
@@ -2413,7 +2412,6 @@ www-40-8.mini.com. A 74.220.199.6
 
 
 
-wmlb.mini.com. A 0.0.0.0
 
 
 
@@ -3109,6 +3107,7 @@ wmlb.mini.com. A 0.0.0.0
 
 
 
+writeorread.mini.com. A 74.220.199.6
 
 
 
@@ -3299,6 +3298,7 @@ wmlb.mini.com. A 0.0.0.0
 
 
 
+www-3-0-1.mini.com. A 74.220.199.6
 
 
 
@@ -3323,7 +3323,6 @@ wmlb.mini.com. A 0.0.0.0
 
 
 
-www-06bluecoat.mini.com. A 0.0.0.0
 
 
 
@@ -3368,7 +3367,6 @@ www-06bluecoat.mini.com. A 0.0.0.0
 
 
 
-www5-1-0.mini.com. A 74.220.199.6
 
 
 
@@ -3450,7 +3448,6 @@ www5-1-0.mini.com. A 74.220.199.6
 
 
 
-wusfnews.mini.com. A 74.220.199.6
 
 
 
@@ -3477,6 +3474,7 @@ wusfnews.mini.com. A 74.220.199.6
 
 
 
+wjjcewdzfojntfbooias.mini.com. A 104.109.250.59
 
 
 
@@ -3747,6 +3745,7 @@ wusfnews.mini.com. A 74.220.199.6
 
 
 
+wiki-updatecsdevelip-git.mini.com. A 0.0.0.0
 
 
 
@@ -4260,6 +4259,7 @@ wusfnews.mini.com. A 74.220.199.6
 
 
 
+winkelen-dev.mini.com. A 104.109.250.59
 
 
 
@@ -4530,11 +4530,13 @@ wusfnews.mini.com. A 74.220.199.6
 
 
 
+www-qa1ori.mini.com. A 104.109.250.59
 
 
 
 
 
+ww1-launchpoint3.mini.com. A 104.109.250.59
 
 
 
@@ -4634,7 +4636,6 @@ wusfnews.mini.com. A 74.220.199.6
 
 
 
-whsmithpic.mini.com. A 0.0.0.0
 
 
 
@@ -4711,6 +4712,7 @@ whsmithpic.mini.com. A 0.0.0.0
 
 
 
+www-0-16.mini.com. A 104.109.250.59
 
 
 
@@ -6071,6 +6073,7 @@ whsmithpic.mini.com. A 0.0.0.0
 
 
 
+weejewel-5-5.mini.com. A 74.220.199.6
 
 
 
@@ -6161,7 +6164,6 @@ whsmithpic.mini.com. A 0.0.0.0
 
 
 
-wittenbach.mini.com. A 0.0.0.0
 
 
 
@@ -6298,6 +6300,7 @@ wittenbach.mini.com. A 0.0.0.0
 
 
 
+westpoint-emh1.mini.com. A 104.109.250.59
 
 
 
@@ -6346,7 +6349,6 @@ wittenbach.mini.com. A 0.0.0.0
 
 
 
-windchill11-sb.mini.com. A 0.0.0.0
 
 
 
@@ -6870,6 +6872,7 @@ windchill11-sb.mini.com. A 0.0.0.0
 
 
 
+wirelessguestauthentication.mini.com. A 104.109.250.59
 
 
 
@@ -7083,6 +7086,7 @@ windchill11-sb.mini.com. A 0.0.0.0
 
 
 
+webtrends.mini.com. CNAME statse.webtrendslive.com.
 
 
 
@@ -7242,6 +7246,7 @@ windchill11-sb.mini.com. A 0.0.0.0
 
 
 
+webhook-forwarder.mini.com. A 74.220.199.6
 
 
 
@@ -7463,7 +7468,6 @@ windchill11-sb.mini.com. A 0.0.0.0
 
 
 
-webnwsrtp34.mini.com. A 0.0.0.0
 
 
 
@@ -7483,7 +7487,6 @@ webnwsrtp34.mini.com. A 0.0.0.0
 
 
 
-webmail-api.mini.com. A 74.220.199.6
 
 
 
@@ -8155,6 +8158,7 @@ webmail-api.mini.com. A 74.220.199.6
 
 
 
+webappdm.mini.com. A 0.0.0.0
 
 
 
@@ -8200,7 +8204,6 @@ webmail-api.mini.com. A 74.220.199.6
 
 
 
-wmsjdj.mini.com. A 0.0.0.0
 
 
 
@@ -8276,7 +8279,6 @@ wmsjdj.mini.com. A 0.0.0.0
 
 
 
-webcast16-core-c-useast1a.mini.com. A 0.0.0.0
 
 
 
@@ -8537,7 +8539,6 @@ webcast16-core-c-useast1a.mini.com. A 0.0.0.0
 
 
 
-web02-kyiv-epaytest.mini.com. A 0.0.0.0
 
 
 
@@ -9228,9 +9229,7 @@ web02-kyiv-epaytest.mini.com. A 0.0.0.0
 
 
 
-webtest1f.mini.com. A 74.220.199.6
 
-wecook.mini.com. A 0.0.0.0
 
 
 
@@ -9240,7 +9239,6 @@ wecook.mini.com. A 0.0.0.0
 
 
 
-wildlifeusedom.mini.com. A 0.0.0.0
 
 
 
@@ -9310,7 +9308,6 @@ wildlifeusedom.mini.com. A 0.0.0.0
 
 
 
-wlph426-voice2.mini.com. A 0.0.0.0
 
 
 
@@ -9505,7 +9502,6 @@ wlph426-voice2.mini.com. A 0.0.0.0
 
 
 
-weitoule.mini.com. A 74.220.199.6
 
 
 
@@ -9997,6 +9993,7 @@ weitoule.mini.com. A 74.220.199.6
 
 
 
+webgis.mini.com. A 74.220.199.6
 
 
 
@@ -10315,7 +10312,6 @@ weitoule.mini.com. A 74.220.199.6
 
 
 
-workflowweb-uaefx.mini.com. A 0.0.0.0
 
 
 
@@ -10471,7 +10467,6 @@ workflowweb-uaefx.mini.com. A 0.0.0.0
 
 
 
-webib.mini.com. A 0.0.0.0
 
 
 
@@ -11301,7 +11296,6 @@ webib.mini.com. A 0.0.0.0
 
 
 
-web1-dev.mini.com. A 0.0.0.0
 
 
 
@@ -11318,7 +11312,6 @@ web1-dev.mini.com. A 0.0.0.0
 
 
 
-www10-5.mini.com. A 0.0.0.0
 
 
 
@@ -11522,11 +11515,13 @@ www10-5.mini.com. A 0.0.0.0
 
 
 
+w3-03preview-icw3.mini.com. A 74.220.199.6
 
 
 
 
 
+w297xvtvrz-1.mini.com. A 74.220.199.6
 
 
 
@@ -11680,6 +11675,7 @@ www10-5.mini.com. A 0.0.0.0
 
 
 
+weellysapparel.mini.com. A 74.220.199.6
 
 
 
@@ -11722,6 +11718,7 @@ www10-5.mini.com. A 0.0.0.0
 
 
 
+wa-sdsmt.mini.com. A 74.220.199.6
 
 
 
@@ -12007,6 +12004,7 @@ www10-5.mini.com. A 0.0.0.0
 
 
 
+w0lf.mini.com. A 104.109.250.59
 
 
 
@@ -12239,7 +12237,6 @@ www10-5.mini.com. A 0.0.0.0
 
 
 
-webmftpuat.mini.com. A 0.0.0.0
 
 
 
@@ -12465,7 +12462,6 @@ webmftpuat.mini.com. A 0.0.0.0
 
 
 
-vtwincatalog-uncover.mini.com. A 0.0.0.0
 
 
 
@@ -12528,7 +12524,6 @@ vtwincatalog-uncover.mini.com. A 0.0.0.0
 
 
 
-vtdev2.mini.com. A 0.0.0.0
 
 
 
@@ -13232,6 +13227,7 @@ vtdev2.mini.com. A 0.0.0.0
 
 
 
+webappsconfig-redirect.mini.com. A 74.220.199.6
 
 
 
@@ -13307,6 +13303,7 @@ vtdev2.mini.com. A 0.0.0.0
 
 
 
+vpobtabs-uat.mini.com. A 74.220.199.6
 
 
 
@@ -13353,7 +13350,6 @@ vtdev2.mini.com. A 0.0.0.0
 
 
 
-walker-ui-live-prd-lvdc.mini.com. A 74.220.199.6
 
 
 
@@ -13363,7 +13359,6 @@ walker-ui-live-prd-lvdc.mini.com. A 74.220.199.6
 
 
 
-webbo.mini.com. A 0.0.0.0
 
 
 
@@ -13371,7 +13366,6 @@ webbo.mini.com. A 0.0.0.0
 
 
 
-webinarwwrecruitment.mini.com. A 0.0.0.0
 
 
 
@@ -13435,7 +13429,6 @@ webinarwwrecruitment.mini.com. A 0.0.0.0
 
 
 
-wastedwords-0.mini.com. A 74.220.199.6
 
 
 
@@ -13467,7 +13460,6 @@ wastedwords-0.mini.com. A 74.220.199.6
 
 
 
-www3-92.mini.com. A 0.0.0.0
 
 
 
@@ -13741,7 +13733,9 @@ www3-92.mini.com. A 0.0.0.0
 
 
 
+www1-15.mini.com. A 0.0.0.0
 
+vpn-ebwtolhweu.mini.com. A 0.0.0.0
 
 
 
@@ -13824,6 +13818,7 @@ www3-92.mini.com. A 0.0.0.0
 
 
 
+vp3qkeiic5-3.mini.com. A 0.0.0.0
 
 
 
@@ -14323,7 +14318,6 @@ www3-92.mini.com. A 0.0.0.0
 
 
 
-wakeup.mini.com. A 74.220.199.6
 
 
 
@@ -14421,7 +14415,6 @@ wakeup.mini.com. A 74.220.199.6
 
 
 
-voting-8-3.mini.com. A 0.0.0.0
 
 
 
@@ -14775,6 +14768,7 @@ voting-8-3.mini.com. A 0.0.0.0
 
 
 
+vnsd96.mini.com. A 74.220.199.6
 
 
 
@@ -14788,6 +14782,7 @@ voting-8-3.mini.com. A 0.0.0.0
 
 
 
+waevinc.mini.com. A 74.220.199.6
 
 
 
@@ -15371,7 +15366,6 @@ voting-8-3.mini.com. A 0.0.0.0
 
 
 
-vtvkm5urpx.mini.com. A 0.0.0.0
 
 
 
@@ -15405,7 +15399,6 @@ vtvkm5urpx.mini.com. A 0.0.0.0
 
 
 
-vnusc01.mini.com. A 0.0.0.0
 
 
 
@@ -15474,7 +15467,6 @@ vnusc01.mini.com. A 0.0.0.0
 
 
 
-vusale16.mini.com. A 0.0.0.0
 
 
 
@@ -15615,7 +15607,6 @@ vusale16.mini.com. A 0.0.0.0
 
 
 
-vwcxb2nezi-dsn.mini.com. A 0.0.0.0
 
 
 
@@ -16394,7 +16385,6 @@ vwcxb2nezi-dsn.mini.com. A 0.0.0.0
 
 
 
-virus3.mini.com. A 74.220.199.6
 
 
 
@@ -16430,6 +16420,7 @@ virus3.mini.com. A 74.220.199.6
 
 
 
+wikidevaltproduction.mini.com. A 0.0.0.0
 
 
 
@@ -16526,7 +16517,6 @@ virus3.mini.com. A 74.220.199.6
 
 
 
-virtuacloud.mini.com. A 0.0.0.0
 
 
 
@@ -17330,7 +17320,6 @@ virtuacloud.mini.com. A 0.0.0.0
 
 
 
-viktorh.mini.com. A 0.0.0.0
 
 
 
@@ -17453,7 +17442,6 @@ viktorh.mini.com. A 0.0.0.0
 
 
 
-ville-saint-priest.mini.com. A 0.0.0.0
 
 
 
@@ -17655,6 +17643,7 @@ ville-saint-priest.mini.com. A 0.0.0.0
 
 
 
+wtaldi3y.mini.com. A 0.0.0.0
 
 
 
@@ -17737,7 +17726,6 @@ ville-saint-priest.mini.com. A 0.0.0.0
 
 
 
-winx-dvd-author.mini.com. A 0.0.0.0
 
 
 
@@ -18394,6 +18382,7 @@ winx-dvd-author.mini.com. A 0.0.0.0
 
 
 
+videov4-s3data.mini.com. A 74.220.199.6
 
 
 
@@ -18447,7 +18436,6 @@ winx-dvd-author.mini.com. A 0.0.0.0
 
 
 
-vhmuuatqci.mini.com. A 0.0.0.0
 
 
 
@@ -18465,7 +18453,6 @@ vhmuuatqci.mini.com. A 0.0.0.0
 
 
 
-vjptok1i.mini.com. A 74.220.199.6
 
 
 
@@ -18475,6 +18462,7 @@ vjptok1i.mini.com. A 74.220.199.6
 
 
 
+vl-71.mini.com. A 0.0.0.0
 
 
 
@@ -18764,6 +18752,7 @@ vjptok1i.mini.com. A 74.220.199.6
 
 
 
+vgblon2k.mini.com. A 0.0.0.0
 
 
 
@@ -18800,6 +18789,7 @@ vjptok1i.mini.com. A 74.220.199.6
 
 
 
+versatrans61.mini.com. A 0.0.0.0
 
 
 
@@ -19488,7 +19478,6 @@ vjptok1i.mini.com. A 74.220.199.6
 
 
 
-verification-i18n.mini.com. A 74.220.199.6
 
 
 
@@ -19541,7 +19530,6 @@ verification-i18n.mini.com. A 74.220.199.6
 
 
 
-vendorinventory.mini.com. A 0.0.0.0
 
 
 
@@ -19800,6 +19788,7 @@ vendorinventory.mini.com. A 0.0.0.0
 
 
 
+violet.mini.com. A 74.220.199.6
 
 
 
@@ -20338,7 +20327,6 @@ vendorinventory.mini.com. A 0.0.0.0
 
 
 
-vpngp-rnb01.mini.com. A 0.0.0.0
 
 
 
@@ -20380,7 +20368,6 @@ vpngp-rnb01.mini.com. A 0.0.0.0
 
 
 
-vpncoverednlove1.mini.com. A 0.0.0.0
 
 
 
@@ -20391,7 +20378,6 @@ vpncoverednlove1.mini.com. A 0.0.0.0
 
 
 
-vc-04.mini.com. A 0.0.0.0
 
 
 
@@ -20701,6 +20687,7 @@ vc-04.mini.com. A 0.0.0.0
 
 
 
+webber-beta.mini.com. A 0.0.0.0
 
 
 
@@ -20783,6 +20770,7 @@ vc-04.mini.com. A 0.0.0.0
 
 
 
+vancity-sit.mini.com. A 0.0.0.0
 
 
 
@@ -20819,6 +20807,7 @@ vc-04.mini.com. A 0.0.0.0
 
 
 
+valuecalculator.mini.com. A 0.0.0.0
 
 
 
@@ -20827,6 +20816,7 @@ vc-04.mini.com. A 0.0.0.0
 
 
 
+valuex-articles.mini.com. A 0.0.0.0
 
 
 
@@ -21496,6 +21486,7 @@ vc-04.mini.com. A 0.0.0.0
 
 
 
+virtualems.mini.com. A 74.220.199.6
 
 
 
@@ -21572,7 +21563,6 @@ vc-04.mini.com. A 0.0.0.0
 
 
 
-vacantspace.mini.com. A 0.0.0.0
 
 
 
@@ -21608,7 +21598,6 @@ vacantspace.mini.com. A 0.0.0.0
 
 
 
-viruswall-houston.mini.com. A 0.0.0.0
 
 
 
@@ -21732,6 +21721,7 @@ viruswall-houston.mini.com. A 0.0.0.0
 
 
 
+venbead.mini.com. A 0.0.0.0
 
 
 
@@ -21805,6 +21795,7 @@ viruswall-houston.mini.com. A 0.0.0.0
 
 
 
+v4access.mini.com. A 74.220.199.6
 
 
 
@@ -22524,7 +22515,6 @@ viruswall-houston.mini.com. A 0.0.0.0
 
 
 
-vault-certkeeper.mini.com. A 74.220.199.6
 
 
 
@@ -23506,6 +23496,7 @@ vault-certkeeper.mini.com. A 74.220.199.6
 
 
 
+vanhakirkko.mini.com. A 74.220.199.6
 
 
 
@@ -23578,7 +23569,6 @@ vault-certkeeper.mini.com. A 74.220.199.6
 
 
 
-uybkedgtdx.mini.com. A 0.0.0.0
 
 
 
@@ -23589,7 +23579,6 @@ uybkedgtdx.mini.com. A 0.0.0.0
 
 
 
-vcdzn8xvzp7w.mini.com. A 0.0.0.0
 
 
 
@@ -23614,7 +23603,6 @@ vcdzn8xvzp7w.mini.com. A 0.0.0.0
 
 
 
-vandam-filestage.mini.com. A 74.220.199.6
 
 
 
@@ -23625,7 +23613,6 @@ vandam-filestage.mini.com. A 74.220.199.6
 
 
 
-uxlabvid02.mini.com. A 0.0.0.0
 
 
 
@@ -23660,7 +23647,6 @@ uxlabvid02.mini.com. A 0.0.0.0
 
 
 
-vnotions.mini.com. A 0.0.0.0
 
 
 
@@ -23813,6 +23799,7 @@ vnotions.mini.com. A 0.0.0.0
 
 
 
+varia.mini.com. A 0.0.0.0
 
 
 
@@ -24614,6 +24601,7 @@ vnotions.mini.com. A 0.0.0.0
 
 
 
+v4preferencesauthrepository.mini.com. A 0.0.0.0
 
 
 
@@ -24731,7 +24719,6 @@ vnotions.mini.com. A 0.0.0.0
 
 
 
-vgblon13.mini.com. A 0.0.0.0
 
 
 
@@ -25076,6 +25063,7 @@ vgblon13.mini.com. A 0.0.0.0
 
 
 
+usw-dmc.mini.com. A 104.109.250.59
 
 
 
@@ -25476,6 +25464,7 @@ vgblon13.mini.com. A 0.0.0.0
 
 
 
+users-pc99.mini.com. A 0.0.0.0
 
 
 
@@ -25484,7 +25473,6 @@ vgblon13.mini.com. A 0.0.0.0
 
 
 
-v2-ca-2.mini.com. A 0.0.0.0
 
 
 
@@ -25571,7 +25559,6 @@ v2-ca-2.mini.com. A 0.0.0.0
 
 
 
-useraccountsnanotechnet2.mini.com. A 0.0.0.0
 
 
 
@@ -25767,6 +25754,7 @@ useraccountsnanotechnet2.mini.com. A 0.0.0.0
 
 
 
+userspc17.mini.com. A 104.109.250.59
 
 
 
@@ -26439,6 +26427,7 @@ useraccountsnanotechnet2.mini.com. A 0.0.0.0
 
 
 
+v14-eu-1.mini.com. A 74.220.199.6
 
 
 
@@ -26612,6 +26601,7 @@ useraccountsnanotechnet2.mini.com. A 0.0.0.0
 
 
 
+use1-helpapp-chatfacade-prod-ext.mini.com. A 104.109.250.59
 
 
 
@@ -27387,6 +27377,7 @@ useraccountsnanotechnet2.mini.com. A 0.0.0.0
 
 
 
+usa15.mini.com. A 0.0.0.0
 
 
 
@@ -27655,7 +27646,6 @@ useraccountsnanotechnet2.mini.com. A 0.0.0.0
 
 
 
-usr46.mini.com. A 0.0.0.0
 
 
 
@@ -27706,6 +27696,7 @@ usr46.mini.com. A 0.0.0.0
 
 
 
+us01spai3lb.mini.com. A 104.109.250.59
 
 
 
@@ -27921,6 +27912,7 @@ usr46.mini.com. A 0.0.0.0
 
 
 
+upxi-proxy-r.mini.com. A 74.220.199.6
 
 
 
@@ -28540,7 +28532,6 @@ usr46.mini.com. A 0.0.0.0
 
 
 
-validity.mini.com. A 0.0.0.0
 
 
 
@@ -28563,6 +28554,7 @@ validity.mini.com. A 0.0.0.0
 
 
 
+vodimage.mini.com. A 0.0.0.0
 
 
 
@@ -28570,7 +28562,6 @@ validity.mini.com. A 0.0.0.0
 
 
 
-vec01h.mini.com. A 0.0.0.0
 
 
 
@@ -28637,6 +28628,7 @@ vec01h.mini.com. A 0.0.0.0
 
 
 
+upliftmgmt.mini.com. A 0.0.0.0
 
 
 
@@ -28808,6 +28800,7 @@ vec01h.mini.com. A 0.0.0.0
 
 
 
+util28.mini.com. A 0.0.0.0
 
 
 
@@ -29254,7 +29247,6 @@ vec01h.mini.com. A 0.0.0.0
 
 
 
-usa63.mini.com. A 0.0.0.0
 
 
 
@@ -29729,7 +29721,6 @@ usa63.mini.com. A 0.0.0.0
 
 
 
-update-test1.mini.com. A 0.0.0.0
 
 
 
@@ -29990,6 +29981,7 @@ update-test1.mini.com. A 0.0.0.0
 
 
 
+us-11.mini.com. A 74.220.199.6
 
 
 
@@ -30174,13 +30166,11 @@ update-test1.mini.com. A 0.0.0.0
 
 
 
-usstaging.mini.com. A 0.0.0.0
 
 
 
 
 
-usivvmsnd07.mini.com. A 0.0.0.0
 
 
 
@@ -30564,7 +30554,6 @@ usivvmsnd07.mini.com. A 0.0.0.0
 
 
 
-urlula.mini.com. A 0.0.0.0
 
 
 
@@ -30576,7 +30565,6 @@ urlula.mini.com. A 0.0.0.0
 
 
 
-unitedpic.mini.com. A 0.0.0.0
 
 
 
@@ -30607,6 +30595,7 @@ unitedpic.mini.com. A 0.0.0.0
 
 
 
+uncoverbi4group.mini.com. A 74.220.199.6
 
 
 
@@ -30838,6 +30827,7 @@ unitedpic.mini.com. A 0.0.0.0
 
 
 
+upinot-rest-proxy-staging-dca1.mini.com. A 0.0.0.0
 
 
 
@@ -30941,6 +30931,7 @@ unitedpic.mini.com. A 0.0.0.0
 
 
 
+upgradeweb01backup.mini.com. A 0.0.0.0
 
 
 
@@ -31556,7 +31547,6 @@ unitedpic.mini.com. A 0.0.0.0
 
 
 
-uploadbackupmiembrostunnel-mx.mini.com. A 0.0.0.0
 
 
 
@@ -31572,11 +31562,11 @@ uploadbackupmiembrostunnel-mx.mini.com. A 0.0.0.0
 
 
 
-vi25rhbtim.mini.com. A 0.0.0.0
 
 
 
 
+ultimatemealplans.mini.com. A 74.220.199.6
 
 
 
@@ -31620,7 +31610,6 @@ vi25rhbtim.mini.com. A 0.0.0.0
 
 
 
-ukyt658xmb-1.mini.com. A 0.0.0.0
 
 
 
@@ -31655,7 +31644,6 @@ ukyt658xmb-1.mini.com. A 0.0.0.0
 
 
 
-ukashkartim.mini.com. A 74.220.199.6
 
 
 
@@ -32190,7 +32178,6 @@ ukashkartim.mini.com. A 74.220.199.6
 
 
 
-voyagerinnovation.mini.com. A 74.220.199.6
 
 
 
@@ -32206,7 +32193,6 @@ voyagerinnovation.mini.com. A 74.220.199.6
 
 
 
-uq5v1rcrhz-3.mini.com. A 74.220.199.6
 
 
 
@@ -32221,7 +32207,6 @@ uq5v1rcrhz-3.mini.com. A 74.220.199.6
 
 
 
-uhs-feed.mini.com. A 74.220.199.6
 
 
 
@@ -32545,6 +32530,7 @@ uhs-feed.mini.com. A 74.220.199.6
 
 
 
+us-44.mini.com. A 0.0.0.0
 
 
 
@@ -32580,6 +32566,7 @@ uhs-feed.mini.com. A 74.220.199.6
 
 
 
+ucraft.mini.com. A 74.220.199.6
 
 
 
@@ -32701,7 +32688,6 @@ uhs-feed.mini.com. A 74.220.199.6
 
 
 
-ufault.mini.com. A 0.0.0.0
 
 
 
@@ -32736,7 +32722,6 @@ ufault.mini.com. A 0.0.0.0
 
 
 
-uemexp.mini.com. A 0.0.0.0
 
 
 
@@ -33562,6 +33547,7 @@ uemexp.mini.com. A 0.0.0.0
 
 
 
+u2bcouponm.mini.com. A 0.0.0.0
 
 
 
@@ -33836,7 +33822,6 @@ uemexp.mini.com. A 0.0.0.0
 
 
 
-usersdebugdebug.mini.com. A 0.0.0.0
 
 
 
@@ -33886,7 +33871,6 @@ usersdebugdebug.mini.com. A 0.0.0.0
 
 
 
-u0rxngrk45-1.mini.com. A 0.0.0.0
 
 
 
@@ -33961,6 +33945,7 @@ u0rxngrk45-1.mini.com. A 0.0.0.0
 
 
 
+ukrface.mini.com. A 74.220.199.6
 
 
 
@@ -33994,6 +33979,7 @@ u0rxngrk45-1.mini.com. A 0.0.0.0
 
 
 
+uncoverlogin-mdev4.mini.com. A 0.0.0.0
 
 
 
@@ -34713,7 +34699,6 @@ u0rxngrk45-1.mini.com. A 0.0.0.0
 
 
 
-uatauthenticate.mini.com. A 74.220.199.6
 
 
 
@@ -34798,7 +34783,6 @@ uatauthenticate.mini.com. A 74.220.199.6
 
 
 
-tvpicking.mini.com. A 74.220.199.6
 
 
 
@@ -34950,6 +34934,7 @@ tvpicking.mini.com. A 74.220.199.6
 
 
 
+turkmankenlerinpornosu.mini.com. A 0.0.0.0
 
 
 
@@ -34991,6 +34976,7 @@ tvpicking.mini.com. A 74.220.199.6
 
 
 
+tunnistus-qatesti-yritys.mini.com. A 0.0.0.0
 
 
 
@@ -35711,7 +35697,6 @@ tvpicking.mini.com. A 74.220.199.6
 
 
 
-unclaimedmoneydb.mini.com. A 74.220.199.6
 
 
 
@@ -35766,7 +35751,6 @@ unclaimedmoneydb.mini.com. A 74.220.199.6
 
 
 
-uldericotestfrontendnpe.mini.com. A 74.220.199.6
 
 
 
@@ -35882,6 +35866,7 @@ uldericotestfrontendnpe.mini.com. A 74.220.199.6
 
 
 
+uat-oam.mini.com. A 0.0.0.0
 
 
 
@@ -35995,6 +35980,7 @@ uldericotestfrontendnpe.mini.com. A 74.220.199.6
 
 
 
+uploadsbucket.mini.com. A 0.0.0.0
 
 
 
@@ -36023,9 +36009,11 @@ uldericotestfrontendnpe.mini.com. A 74.220.199.6
 
 
 
+tst18.mini.com. A 74.220.199.6
 
 
 
+u0hr.mini.com. A 74.220.199.6
 
 
 
@@ -36608,6 +36596,7 @@ uldericotestfrontendnpe.mini.com. A 74.220.199.6
 
 
 
+tsftpint.mini.com. A 74.220.199.6
 
 
 
@@ -36619,6 +36608,7 @@ uldericotestfrontendnpe.mini.com. A 74.220.199.6
 
 
 
+ua10.mini.com. A 0.0.0.0
 
 
 
@@ -36724,7 +36714,6 @@ uldericotestfrontendnpe.mini.com. A 74.220.199.6
 
 
 
-truvintage66.mini.com. A 74.220.199.6
 
 
 
@@ -37602,6 +37591,7 @@ truvintage66.mini.com. A 74.220.199.6
 
 
 
+ueenfu9dajpiwots9.mini.com. A 0.0.0.0
 
 
 
@@ -37631,6 +37621,7 @@ truvintage66.mini.com. A 74.220.199.6
 
 
 
+turtuiweb.mini.com. A 0.0.0.0
 
 
 
@@ -37733,7 +37724,6 @@ truvintage66.mini.com. A 74.220.199.6
 
 
 
-trh11i.mini.com. A 0.0.0.0
 
 
 
@@ -38263,6 +38253,7 @@ trh11i.mini.com. A 0.0.0.0
 
 
 
+tunnistus-testi-yritys.mini.com. A 74.220.199.6
 
 
 
@@ -38563,7 +38554,6 @@ trh11i.mini.com. A 0.0.0.0
 
 
 
-turnup-graph.mini.com. A 0.0.0.0
 
 
 
@@ -38589,7 +38579,6 @@ turnup-graph.mini.com. A 0.0.0.0
 
 
 
-trafford-appid-3.mini.com. A 0.0.0.0
 
 
 
@@ -38695,6 +38684,7 @@ trafford-appid-3.mini.com. A 0.0.0.0
 
 
 
+ttforum17pic.mini.com. A 0.0.0.0
 
 
 
@@ -39847,7 +39837,6 @@ trafford-appid-3.mini.com. A 0.0.0.0
 
 
 
-ueg2aytx.mini.com. A 0.0.0.0
 
 
 
@@ -39967,6 +39956,7 @@ ueg2aytx.mini.com. A 0.0.0.0
 
 
 
+trinityu.mini.com. A 0.0.0.0
 
 
 
@@ -40271,7 +40261,6 @@ ueg2aytx.mini.com. A 0.0.0.0
 
 
 
-tos-maliva16-up.mini.com. A 0.0.0.0
 
 
 
@@ -40360,7 +40349,6 @@ tos-maliva16-up.mini.com. A 0.0.0.0
 
 
 
-tvm-internal.mini.com. A 0.0.0.0
 
 
 
@@ -40721,6 +40709,7 @@ tvm-internal.mini.com. A 0.0.0.0
 
 
 
+tor154-105-pda.mini.com. A 74.220.199.6
 
 
 
@@ -40824,7 +40813,6 @@ tvm-internal.mini.com. A 0.0.0.0
 
 
 
-tor204-128-pda.mini.com. A 0.0.0.0
 
 
 
@@ -40874,7 +40862,6 @@ tor204-128-pda.mini.com. A 0.0.0.0
 
 
 
-tor78-122-pdc.mini.com. A 0.0.0.0
 
 
 
@@ -40966,7 +40953,6 @@ tor78-122-pdc.mini.com. A 0.0.0.0
 
 
 
-travelaround.mini.com. A 0.0.0.0
 
 
 
@@ -41657,7 +41643,6 @@ travelaround.mini.com. A 0.0.0.0
 
 
 
-urldbtool.mini.com. A 0.0.0.0
 
 
 
@@ -41673,7 +41658,6 @@ urldbtool.mini.com. A 0.0.0.0
 
 
 
-travel-rule.mini.com. A 74.220.199.6
 
 
 
@@ -41812,7 +41796,6 @@ travel-rule.mini.com. A 74.220.199.6
 
 
 
-tnstate.mini.com. A 0.0.0.0
 
 
 
@@ -41856,7 +41839,6 @@ tnstate.mini.com. A 0.0.0.0
 
 
 
-tsnrui-beta.mini.com. A 0.0.0.0
 
 
 
@@ -41975,6 +41957,7 @@ tsnrui-beta.mini.com. A 0.0.0.0
 
 
 
+uat-upliftmgmt.mini.com. A 0.0.0.0
 
 
 
@@ -42183,6 +42166,7 @@ tsnrui-beta.mini.com. A 0.0.0.0
 
 
 
+towarzfitness.mini.com. A 74.220.199.6
 
 
 
@@ -42264,6 +42248,7 @@ tsnrui-beta.mini.com. A 0.0.0.0
 
 
 
+tokenexchange-api-eaaprod9.mini.com. A 104.109.250.59
 
 
 
@@ -42741,7 +42726,6 @@ tsnrui-beta.mini.com. A 0.0.0.0
 
 
 
-upgradevpnminervabeta.mini.com. A 74.220.199.6
 
 
 
@@ -42822,7 +42806,6 @@ upgradevpnminervabeta.mini.com. A 74.220.199.6
 
 
 
-tmk74.mini.com. A 0.0.0.0
 
 
 
@@ -42850,7 +42833,6 @@ tmk74.mini.com. A 0.0.0.0
 
 
 
-tripwire.mini.com. A 0.0.0.0
 
 
 
@@ -42924,7 +42906,6 @@ tripwire.mini.com. A 0.0.0.0
 
 
 
-tip-api.mini.com. A 0.0.0.0
 
 
 
@@ -43818,13 +43799,11 @@ tip-api.mini.com. A 0.0.0.0
 
 
 
-uncover-myinsurance70.mini.com. A 0.0.0.0
 
 
 
 
 
-tstmsgcntrdb02.mini.com. A 0.0.0.0
 
 
 
@@ -43926,6 +43905,7 @@ tstmsgcntrdb02.mini.com. A 0.0.0.0
 
 
 
+tom76npq59-1.mini.com. A 0.0.0.0
 
 
 
@@ -44023,6 +44003,7 @@ tstmsgcntrdb02.mini.com. A 0.0.0.0
 
 
 
+three-cc-nodes.mini.com. A 0.0.0.0
 
 
 
@@ -44691,7 +44672,6 @@ tstmsgcntrdb02.mini.com. A 0.0.0.0
 
 
 
-tomcatcombucky-repository.mini.com. A 0.0.0.0
 
 
 
@@ -44741,6 +44721,7 @@ tomcatcombucky-repository.mini.com. A 0.0.0.0
 
 
 
+tqmobile-latest.mini.com. A 74.220.199.6
 
 
 
@@ -45008,9 +44989,11 @@ tomcatcombucky-repository.mini.com. A 0.0.0.0
 
 
 
+themis-jsonquery.mini.com. A 0.0.0.0
 
 
 
+tkernel.mini.com. A 74.220.199.6
 
 
 
@@ -45680,10 +45663,8 @@ tomcatcombucky-repository.mini.com. A 0.0.0.0
 
 
 
-triomen.mini.com. A 0.0.0.0
 
 
-thegypsylounge.mini.com. A 0.0.0.0
 
 
 
@@ -45759,7 +45740,6 @@ thegypsylounge.mini.com. A 0.0.0.0
 
 
 
-theimpatientsnail.mini.com. A 0.0.0.0
 
 
 
@@ -45837,6 +45817,7 @@ theimpatientsnail.mini.com. A 0.0.0.0
 
 
 
+timeline2-new.mini.com. A 0.0.0.0
 
 
 
@@ -47828,7 +47809,6 @@ theimpatientsnail.mini.com. A 0.0.0.0
 
 
 
-thousandeyes.mini.com. A 0.0.0.0
 
 
 
@@ -48716,6 +48696,7 @@ thousandeyes.mini.com. A 0.0.0.0
 
 
 
+troubleshooting.mini.com. A 74.220.199.6
 
 
 
@@ -48819,6 +48800,7 @@ thousandeyes.mini.com. A 0.0.0.0
 
 
 
+theo.mini.com. A 104.109.250.59
 
 
 
@@ -50022,7 +50004,6 @@ thousandeyes.mini.com. A 0.0.0.0
 
 
 
-theoremtechnologies.mini.com. A 0.0.0.0
 
 
 
