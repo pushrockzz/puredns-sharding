@@ -124,6 +124,7 @@
 
 
 
+krotosaudio.bmw.com. A 74.220.199.6
 
 
 
@@ -2090,7 +2091,6 @@
 
 
 
-kamery.bmw.com. A 74.220.199.6
 
 
 
@@ -2748,7 +2748,6 @@ kamery.bmw.com. A 74.220.199.6
 
 
 
-kaayrecordstudio.bmw.com. A 74.220.199.6
 
 
 
@@ -5936,6 +5935,7 @@ kaayrecordstudio.bmw.com. A 74.220.199.6
 
 
 
+kr-4-3.bmw.com. A 74.220.199.6
 
 
 
@@ -6447,6 +6447,7 @@ kaayrecordstudio.bmw.com. A 74.220.199.6
 
 
 
+jvn5p22.bmw.com. A 74.220.199.6
 
 
 
@@ -9454,6 +9455,7 @@ kaayrecordstudio.bmw.com. A 74.220.199.6
 
 
 
+jfq7rsn4oa-1.bmw.com. A 74.220.199.6
 
 
 
@@ -9750,6 +9752,7 @@ kaayrecordstudio.bmw.com. A 74.220.199.6
 
 
 
+jp-unic.bmw.com. A 74.220.199.6
 
 
 
@@ -12456,7 +12459,6 @@ kaayrecordstudio.bmw.com. A 74.220.199.6
 
 
 
-j85uyejbpd-1.bmw.com. A 74.220.199.6
 
 
 
@@ -12984,7 +12986,6 @@ j85uyejbpd-1.bmw.com. A 74.220.199.6
 
 
 
-ixanycast-isp.bmw.com. A 74.220.199.6
 
 
 
@@ -13047,6 +13048,7 @@ ixanycast-isp.bmw.com. A 74.220.199.6
 
 
 
+jewel-skin-products-main.bmw.com. A 74.220.199.6
 
 
 
@@ -13472,6 +13474,7 @@ ixanycast-isp.bmw.com. A 74.220.199.6
 
 
 
+kinseyrealty.bmw.com. A 74.220.199.6
 
 
 
@@ -14638,6 +14641,7 @@ ixanycast-isp.bmw.com. A 74.220.199.6
 
 
 
+itemconfigurationintegration.bmw.com. A 74.220.199.6
 
 
 
@@ -14785,6 +14789,7 @@ ixanycast-isp.bmw.com. A 74.220.199.6
 
 
 
+itms.bmw.com. A 160.46.240.49
 
 
 
@@ -15052,6 +15057,7 @@ ixanycast-isp.bmw.com. A 74.220.199.6
 
 
 
+jenkins-secure.bmw.com. A 74.220.199.6
 
 
 
@@ -17484,7 +17490,6 @@ ixanycast-isp.bmw.com. A 74.220.199.6
 
 
 
-iphonesubmissionstest2.bmw.com. A 74.220.199.6
 
 
 
@@ -17529,6 +17534,7 @@ iphonesubmissionstest2.bmw.com. A 74.220.199.6
 
 
 
+ipv4accept-archivecorp.bmw.com. A 74.220.199.6
 
 
 
@@ -19099,6 +19105,7 @@ iphonesubmissionstest2.bmw.com. A 74.220.199.6
 
 
 
+iop-lvdc.bmw.com. A 74.220.199.6
 
 
 
@@ -20173,6 +20180,7 @@ iphonesubmissionstest2.bmw.com. A 74.220.199.6
 
 
 
+jakec.bmw.com. A 104.116.243.59
 
 
 
@@ -22172,6 +22180,7 @@ iphonesubmissionstest2.bmw.com. A 74.220.199.6
 
 
 
+ipv4-c089-ord003-ix.bmw.com. A 74.220.199.6
 
 
 
@@ -24086,7 +24095,6 @@ iphonesubmissionstest2.bmw.com. A 74.220.199.6
 
 
 
-infosys-search.bmw.com. A 74.220.199.6
 
 
 
@@ -24133,6 +24141,7 @@ infosys-search.bmw.com. A 74.220.199.6
 
 
 
+jasper68.bmw.com. A 74.220.199.6
 
 
 
@@ -24650,6 +24659,7 @@ infosys-search.bmw.com. A 74.220.199.6
 
 
 
+investorapp.bmw.com. A 74.220.199.6
 
 
 
@@ -25118,6 +25128,7 @@ infosys-search.bmw.com. A 74.220.199.6
 
 
 
+inbox-3.bmw.com. A 74.220.199.6
 
 
 
@@ -25634,6 +25645,7 @@ infosys-search.bmw.com. A 74.220.199.6
 
 
 
+imtc.bmw.com. A 74.220.199.6
 
 
 
@@ -27590,6 +27602,7 @@ infosys-search.bmw.com. A 74.220.199.6
 
 
 
+indianstocksmarket.bmw.com. A 74.220.199.6
 
 
 
@@ -28125,6 +28138,7 @@ infosys-search.bmw.com. A 74.220.199.6
 
 
 
+iisppduse2.bmw.com. A 74.220.199.6
 
 
 
@@ -28250,6 +28264,7 @@ infosys-search.bmw.com. A 74.220.199.6
 
 
 
+ikqzpe7jkq-3.bmw.com. A 104.116.243.59
 
 
 
@@ -29296,7 +29311,6 @@ infosys-search.bmw.com. A 74.220.199.6
 
 
 
-idp-refresh.bmw.com. A 74.220.199.6
 
 
 
@@ -29659,7 +29673,6 @@ idp-refresh.bmw.com. A 74.220.199.6
 
 
 
-indicadores.bmw.com. A 74.220.199.6
 
 
 
@@ -30202,6 +30215,7 @@ indicadores.bmw.com. A 74.220.199.6
 
 
 
+ii-logentries.bmw.com. A 74.220.199.6
 
 
 
@@ -30616,6 +30630,7 @@ indicadores.bmw.com. A 74.220.199.6
 
 
 
+ims-beta.bmw.com. A 74.220.199.6
 
 
 
@@ -30758,6 +30773,7 @@ indicadores.bmw.com. A 74.220.199.6
 
 
 
+installateur.bmw.com. A 104.116.243.59
 
 
 
@@ -31214,6 +31230,7 @@ indicadores.bmw.com. A 74.220.199.6
 
 
 
+imgzone.bmw.com. A 74.220.199.6
 
 
 
@@ -33135,7 +33152,6 @@ indicadores.bmw.com. A 74.220.199.6
 
 
 
-hybris-ext-it.bmw.com. A 74.220.199.6
 
 
 
@@ -33220,6 +33236,7 @@ hybris-ext-it.bmw.com. A 74.220.199.6
 
 
 
+hyperledger-09.bmw.com. A 74.220.199.6
 
 
 
@@ -33645,7 +33662,6 @@ hybris-ext-it.bmw.com. A 74.220.199.6
 
 
 
-inkling-news.bmw.com. A 74.220.199.6
 
 
 
@@ -33667,6 +33683,7 @@ inkling-news.bmw.com. A 74.220.199.6
 
 
 
+infra1.bmw.com. A 74.220.199.6
 
 
 
@@ -35062,7 +35079,6 @@ inkling-news.bmw.com. A 74.220.199.6
 
 
 
-ikegami-yohei-photo-web-site.bmw.com. A 74.220.199.6
 
 
 
@@ -37140,6 +37156,7 @@ ikegami-yohei-photo-web-site.bmw.com. A 74.220.199.6
 
 
 
+huntforanswer.bmw.com. A 74.220.199.6
 
 
 
@@ -37233,7 +37250,6 @@ ikegami-yohei-photo-web-site.bmw.com. A 74.220.199.6
 
 
 
-hoverflytech.bmw.com. A 74.220.199.6
 
 
 
@@ -37265,11 +37281,6 @@ hoverflytech.bmw.com. A 74.220.199.6
 
 
 
-individual.bmw.com. CNAME ep-fd-i8l-prod-dmckf8h3c5e8amc0.a03.azurefd.net.
-ep-fd-i8l-prod-dmckf8h3c5e8amc0.a03.azurefd.net. CNAME shed.dual-low.part-0017.t-0009.t-msedge.net.
-shed.dual-low.part-0017.t-0009.t-msedge.net. CNAME part-0017.t-0009.t-msedge.net.
-part-0017.t-0009.t-msedge.net. A 13.107.246.45
-part-0017.t-0009.t-msedge.net. A 13.107.213.45
 
 
 
@@ -37745,7 +37756,6 @@ part-0017.t-0009.t-msedge.net. A 13.107.213.45
 
 
 
-hou3-portal.bmw.com. A 74.220.199.6
 
 
 
@@ -38198,7 +38208,6 @@ hou3-portal.bmw.com. A 74.220.199.6
 
 
 
-hyperledger-08.bmw.com. A 74.220.199.6
 
 
 
@@ -40761,7 +40770,6 @@ hyperledger-08.bmw.com. A 74.220.199.6
 
 
 
-hotsiperaems1.bmw.com. A 74.220.199.6
 
 
 
@@ -40786,7 +40794,6 @@ hotsiperaems1.bmw.com. A 74.220.199.6
 
 
 
-host22.bmw.com. A 74.220.199.6
 
 
 
@@ -41254,7 +41261,6 @@ host22.bmw.com. A 74.220.199.6
 
 
 
-hospitalinc02.bmw.com. A 74.220.199.6
 
 
 
@@ -41283,7 +41289,6 @@ hospitalinc02.bmw.com. A 74.220.199.6
 
 
 
-hooha.bmw.com. A 74.220.199.6
 
 
 
@@ -41803,7 +41808,6 @@ hooha.bmw.com. A 74.220.199.6
 
 
 
-img5shopify.bmw.com. A 74.220.199.6
 
 
 
@@ -42300,6 +42304,7 @@ img5shopify.bmw.com. A 74.220.199.6
 
 
 
+homebakers.bmw.com. A 74.220.199.6
 
 
 
@@ -44258,7 +44263,6 @@ img5shopify.bmw.com. A 74.220.199.6
 
 
 
-horace-mix.bmw.com. A 74.220.199.6
 
 
 
@@ -44933,6 +44937,7 @@ horace-mix.bmw.com. A 74.220.199.6
 
 
 
+home-3.bmw.com. A 74.220.199.6
 
 
 
@@ -45810,6 +45815,7 @@ horace-mix.bmw.com. A 74.220.199.6
 
 
 
+http74.bmw.com. A 74.220.199.6
 
 
 
@@ -46663,7 +46669,6 @@ horace-mix.bmw.com. A 74.220.199.6
 
 
 
-hoperanchlearningacademy.bmw.com. A 74.220.199.6
 
 
 
@@ -47560,6 +47565,7 @@ hoperanchlearningacademy.bmw.com. A 74.220.199.6
 
 
 
+host-213-248-224-63.bmw.com. A 104.116.243.59
 
 
 
@@ -47931,6 +47937,7 @@ hoperanchlearningacademy.bmw.com. A 74.220.199.6
 
 
 
+holead-dancenter-no.bmw.com. A 74.220.199.6
 
 
 
@@ -49120,6 +49127,7 @@ hoperanchlearningacademy.bmw.com. A 74.220.199.6
 
 
 
+hoshia-dands-kitchen.bmw.com. A 74.220.199.6
 
 
 

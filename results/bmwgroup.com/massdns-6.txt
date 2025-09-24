@@ -244,6 +244,7 @@
 
 
 
+krispai.bmwgroup.com. A 2.16.182.145
 
 
 
@@ -443,7 +444,6 @@
 
 
 
-keyvalueservice.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -638,7 +638,6 @@ keyvalueservice.bmwgroup.com. A 74.220.199.6
 
 
 
-kbpt.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -714,6 +713,7 @@ kbpt.bmwgroup.com. A 74.220.199.6
 
 
 
+kguardcleveland.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -810,7 +810,6 @@ kbpt.bmwgroup.com. A 74.220.199.6
 
 
 
-kayro-music.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -999,6 +998,7 @@ kayro-music.bmwgroup.com. A 74.220.199.6
 
 
 
+kroonstad.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -1420,7 +1420,6 @@ kayro-music.bmwgroup.com. A 74.220.199.6
 
 
 
-karing.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -2931,6 +2930,7 @@ karing.bmwgroup.com. A 74.220.199.6
 
 
 
+kada.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -3071,7 +3071,6 @@ karing.bmwgroup.com. A 74.220.199.6
 
 
 
-k8-prd.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -3150,1408 +3149,6 @@ k8-prd.bmwgroup.com. A 74.220.199.6
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-junaid-moazzam-studio.bmwgroup.com. A 74.220.199.6
-
-
-
-
-
-june4-s2.bmwgroup.com. A 74.220.199.6
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-jumawa-hd-tw.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -6879,6 +5476,7 @@ karriere.bmwgroup.com. A 62.67.56.131
 
 
 
+jtest.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -7895,6 +6493,7 @@ karriere.bmwgroup.com. A 62.67.56.131
 
 
 
+krimpenaandenijssel.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -8555,7 +7154,6 @@ karriere.bmwgroup.com. A 62.67.56.131
 
 
 
-jqhwemybginfbq.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -9899,7 +8497,6 @@ jqhwemybginfbq.bmwgroup.com. A 74.220.199.6
 
 
 
-jenkinscmsvideo.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -11546,6 +10143,7 @@ jenkinscmsvideo.bmwgroup.com. A 74.220.199.6
 
 
 
+jenkinsboost.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -11973,6 +10571,7 @@ jenkinscmsvideo.bmwgroup.com. A 74.220.199.6
 
 
 
+jmfurr.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -12096,7 +10695,6 @@ jenkinscmsvideo.bmwgroup.com. A 74.220.199.6
 
 
 
-jamfrepo.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -12533,7 +11131,6 @@ jamfrepo.bmwgroup.com. A 74.220.199.6
 
 
 
-jfhhfjfhf.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -12541,7 +11138,6 @@ jfhhfjfhf.bmwgroup.com. A 74.220.199.6
 
 
 
-j4ckk.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -13522,7 +12118,6 @@ j4ckk.bmwgroup.com. A 74.220.199.6
 
 
 
-jj3-9.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -14004,6 +12599,7 @@ jj3-9.bmwgroup.com. A 74.220.199.6
 
 
 
+joe46.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -14560,6 +13156,7 @@ jj3-9.bmwgroup.com. A 74.220.199.6
 
 
 
+joegree.bmwgroup.com. A 2.16.182.145
 
 
 
@@ -14988,7 +13585,6 @@ jj3-9.bmwgroup.com. A 74.220.199.6
 
 
 
-jenkins-datapreferenceserp.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -15485,6 +14081,7 @@ jenkins-datapreferenceserp.bmwgroup.com. A 74.220.199.6
 
 
 
+jsbox.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -15903,6 +14500,7 @@ jenkins-datapreferenceserp.bmwgroup.com. A 74.220.199.6
 
 
 
+jfrailvkw04.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -15998,6 +14596,7 @@ jenkins-datapreferenceserp.bmwgroup.com. A 74.220.199.6
 
 
 
+kingdomstorageholdings.bmwgroup.com. A 2.16.182.145
 
 
 
@@ -16503,7 +15102,6 @@ jenkins-datapreferenceserp.bmwgroup.com. A 74.220.199.6
 
 
 
-kn1psd43rrjm.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -17585,7 +16183,6 @@ kn1psd43rrjm.bmwgroup.com. A 74.220.199.6
 
 
 
-jan10.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -17726,6 +16323,7 @@ jan10.bmwgroup.com. A 74.220.199.6
 
 
 
+kr-1-7.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -19047,7 +17645,6 @@ jan10.bmwgroup.com. A 74.220.199.6
 
 
 
-katiecouriccbdgummies.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -19063,10 +17660,8 @@ katiecouriccbdgummies.bmwgroup.com. A 74.220.199.6
 
 
 
-ios-58.bmwgroup.com. A 74.220.199.6
 
 
-ios-universallink.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -19634,6 +18229,7 @@ ios-universallink.bmwgroup.com. A 74.220.199.6
 
 
 
+isodimorphism.bmwgroup.com. A 2.16.182.145
 
 
 
@@ -20452,6 +19048,7 @@ ios-universallink.bmwgroup.com. A 74.220.199.6
 
 
 
+iqloop2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -20524,7 +19121,6 @@ ios-universallink.bmwgroup.com. A 74.220.199.6
 
 
 
-intgit.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -28179,9 +26775,7 @@ intgit.bmwgroup.com. A 74.220.199.6
 
 
 
-ihubmonitors-dev2.bmwgroup.com. A 74.220.199.6
 
-impressiontracking-master.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -28593,6 +27187,7 @@ impressiontracking-master.bmwgroup.com. A 74.220.199.6
 
 
 
+ipullrank.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -28604,7 +27199,6 @@ impressiontracking-master.bmwgroup.com. A 74.220.199.6
 
 
 
-ifsleasing.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -29282,7 +27876,6 @@ ifsleasing.bmwgroup.com. A 74.220.199.6
 
 
 
-idp-test.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -29757,7 +28350,6 @@ idp-test.bmwgroup.com. A 74.220.199.6
 
 
 
-ilockcard.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -30168,6 +28760,7 @@ ilockcard.bmwgroup.com. A 74.220.199.6
 
 
 
+ieodcc.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -32639,6 +31232,7 @@ ilockcard.bmwgroup.com. A 74.220.199.6
 
 
 
+ifcrj8qiajo-pnjm2zte3zt.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -34711,7 +33305,6 @@ ilockcard.bmwgroup.com. A 74.220.199.6
 
 
 
-https6-0.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -35722,6 +34315,7 @@ https6-0.bmwgroup.com. A 74.220.199.6
 
 
 
+hudu-functionblack.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -36752,7 +35346,6 @@ https6-0.bmwgroup.com. A 74.220.199.6
 
 
 
-imosphere-uk.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -39681,6 +38274,7 @@ imosphere-uk.bmwgroup.com. A 74.220.199.6
 
 
 
+hosted-cdn-backend-4-2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -40673,6 +39267,7 @@ imosphere-uk.bmwgroup.com. A 74.220.199.6
 
 
 
+host-213-248-213-20.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -40922,6 +39517,7 @@ imosphere-uk.bmwgroup.com. A 74.220.199.6
 
 
 
+host-213-248-215-11.bmwgroup.com. A 2.16.182.145
 
 
 
@@ -41308,6 +39904,7 @@ imosphere-uk.bmwgroup.com. A 74.220.199.6
 
 
 
+host-213-248-208-54.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -42249,10 +40846,10 @@ imosphere-uk.bmwgroup.com. A 74.220.199.6
 
 
 
+hosted-cdn-backend08.bmwgroup.com. A 74.220.199.6
 
 
 
-ifs-ic.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -43325,7 +41922,6 @@ ifs-ic.bmwgroup.com. A 74.220.199.6
 
 
 
-hoerwelt-infos.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -43982,6 +42578,7 @@ hoerwelt-infos.bmwgroup.com. A 74.220.199.6
 
 
 
+idturemoveh.bmwgroup.com. A 2.16.182.145
 
 
 
@@ -45787,6 +44384,7 @@ hoerwelt-infos.bmwgroup.com. A 74.220.199.6
 
 
 
+homer2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -45799,6 +44397,7 @@ hoerwelt-infos.bmwgroup.com. A 74.220.199.6
 
 
 
+historytrial.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -46361,6 +44960,7 @@ hoerwelt-infos.bmwgroup.com. A 74.220.199.6
 
 
 
+host-213-248-212-84.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -47318,6 +45918,7 @@ hoerwelt-infos.bmwgroup.com. A 74.220.199.6
 
 
 
+host95.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -48046,6 +46647,7 @@ hoerwelt-infos.bmwgroup.com. A 74.220.199.6
 
 
 
+hkbddfd.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -48201,6 +46803,7 @@ hoerwelt-infos.bmwgroup.com. A 74.220.199.6
 
 
 
+hn-st3-admconsole.bmwgroup.com. A 2.16.182.145
 
 
 
@@ -49502,6 +48105,7 @@ hoerwelt-infos.bmwgroup.com. A 74.220.199.6
 
 
 
+idss.bmwgroup.com. CNAME www.bmw-excellence-in-sales.com.
 
 
 
@@ -49610,6 +48214,1406 @@ hoerwelt-infos.bmwgroup.com. A 74.220.199.6
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hiro.bmwgroup.com. A 2.16.182.145
 
 
 
