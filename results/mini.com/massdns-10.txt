@@ -1,6 +1,6 @@
 
-c48c8d.mini.com. A 74.220.199.6
 
+c67-admin.mini.com. A 74.220.199.6
 
 
 
@@ -1164,6 +1164,7 @@ c48c8d.mini.com. A 74.220.199.6
 
 
 
+brokermodel.mini.com. A 74.220.199.6
 
 
 
@@ -1255,6 +1256,7 @@ c48c8d.mini.com. A 74.220.199.6
 
 
 
+brusselsfatshion.mini.com. A 103.21.25.245
 
 
 
@@ -1509,7 +1511,6 @@ c48c8d.mini.com. A 74.220.199.6
 
 
 
-c2c-fe.mini.com. A 0.0.0.0
 
 
 
@@ -1642,6 +1643,7 @@ c2c-fe.mini.com. A 0.0.0.0
 
 
 
+ca01sip0f.mini.com. A 103.21.25.245
 
 
 
@@ -2007,7 +2009,6 @@ c2c-fe.mini.com. A 0.0.0.0
 
 
 
-bridgeworld.mini.com. A 0.0.0.0
 
 
 
@@ -3141,14 +3142,12 @@ bridgeworld.mini.com. A 0.0.0.0
 
 
 
-build-zrhetyvhjf.mini.com. A 74.220.199.6
 
 
 
 
 
 
-bradprods.mini.com. A 74.220.199.6
 
 
 
@@ -3174,7 +3173,6 @@ bradprods.mini.com. A 74.220.199.6
 
 
 
-bucketfw01a.mini.com. A 74.220.199.6
 
 
 
@@ -3400,6 +3398,7 @@ bucketfw01a.mini.com. A 74.220.199.6
 
 
 
+brandingadmintool-preprd-lvdc.mini.com. A 103.21.25.245
 
 
 
@@ -3612,6 +3611,7 @@ bucketfw01a.mini.com. A 74.220.199.6
 
 
 
+buenso.mini.com. A 103.21.25.245
 
 
 
@@ -3692,12 +3692,10 @@ bucketfw01a.mini.com. A 74.220.199.6
 
 
 
-bp-printverzend.mini.com. A 0.0.0.0
 
 
 
 
-bungalow5.mini.com. A 0.0.0.0
 
 
 
@@ -3825,6 +3823,7 @@ bungalow5.mini.com. A 0.0.0.0
 
 
 
+bp-selfservice.mini.com. A 0.0.0.0
 
 
 
@@ -3936,7 +3935,6 @@ bungalow5.mini.com. A 0.0.0.0
 
 
 
-box0-6-7.mini.com. A 0.0.0.0
 
 
 
@@ -3982,7 +3980,6 @@ box0-6-7.mini.com. A 0.0.0.0
 
 
 
-boyulechengkaihuwangzhi.mini.com. A 0.0.0.0
 
 
 
@@ -4116,6 +4113,7 @@ boyulechengkaihuwangzhi.mini.com. A 0.0.0.0
 
 
 
+box97.mini.com. A 0.0.0.0
 
 
 
@@ -4403,6 +4401,7 @@ boyulechengkaihuwangzhi.mini.com. A 0.0.0.0
 
 
 
+bxtlsse03extweb.mini.com. A 103.21.25.245
 
 
 
@@ -4450,6 +4449,7 @@ boyulechengkaihuwangzhi.mini.com. A 0.0.0.0
 
 
 
+c75-admin.mini.com. A 103.21.25.245
 
 
 
@@ -4496,7 +4496,6 @@ boyulechengkaihuwangzhi.mini.com. A 0.0.0.0
 
 
 
-btc-storm-2k17.mini.com. A 0.0.0.0
 
 
 
@@ -4528,7 +4527,6 @@ btc-storm-2k17.mini.com. A 0.0.0.0
 
 
 
-box-09.mini.com. A 0.0.0.0
 
 
 
@@ -5379,7 +5377,6 @@ box-09.mini.com. A 0.0.0.0
 
 
 
-ca01siphw02.mini.com. A 74.220.199.6
 
 
 
@@ -5392,6 +5389,7 @@ ca01siphw02.mini.com. A 74.220.199.6
 
 
 
+c19-prod.mini.com. A 74.220.199.6
 
 
 
@@ -5403,7 +5401,6 @@ ca01siphw02.mini.com. A 74.220.199.6
 
 
 
-bsav4oa92w-1.mini.com. A 74.220.199.6
 
 
 
@@ -5968,14 +5965,11 @@ bsav4oa92w-1.mini.com. A 74.220.199.6
 
 
 
-buysellads.mini.com. A 0.0.0.0
 
-buymae.mini.com. A 0.0.0.0
 
 
 
 
-businesshub.mini.com. A 0.0.0.0
 
 
 
@@ -6069,6 +6063,7 @@ businesshub.mini.com. A 0.0.0.0
 
 
 
+boka.mini.com. A 103.21.25.245
 
 
 
@@ -6256,6 +6251,7 @@ businesshub.mini.com. A 0.0.0.0
 
 
 
+bob-18.mini.com. A 74.220.199.6
 
 
 
@@ -7118,6 +7114,7 @@ businesshub.mini.com. A 0.0.0.0
 
 
 
+blueice2n6.mini.com. A 0.0.0.0
 
 
 
@@ -7247,6 +7244,7 @@ businesshub.mini.com. A 0.0.0.0
 
 
 
+bluefs.mini.com. A 103.21.25.245
 
 
 
@@ -7987,7 +7985,6 @@ businesshub.mini.com. A 0.0.0.0
 
 
 
-boricua3.mini.com. A 0.0.0.0
 
 
 
@@ -8367,6 +8364,7 @@ boricua3.mini.com. A 0.0.0.0
 
 
 
+brianladin16.mini.com. A 74.220.199.6
 
 
 
@@ -8383,7 +8381,6 @@ boricua3.mini.com. A 0.0.0.0
 
 
 
-bolerocontent.mini.com. A 74.220.199.6
 
 
 
@@ -9192,6 +9189,7 @@ bolerocontent.mini.com. A 74.220.199.6
 
 
 
+bkkea.mini.com. A 103.21.25.245
 
 
 
@@ -9269,6 +9267,7 @@ bolerocontent.mini.com. A 74.220.199.6
 
 
 
+bjorncg.mini.com. A 74.220.199.6
 
 
 
@@ -9451,7 +9450,6 @@ bolerocontent.mini.com. A 74.220.199.6
 
 
 
-bitswifttechsolutions.mini.com. A 74.220.199.6
 
 
 
@@ -9466,7 +9464,6 @@ bitswifttechsolutions.mini.com. A 74.220.199.6
 
 
 
-box09.mini.com. A 0.0.0.0
 
 
 
@@ -10056,6 +10053,7 @@ box09.mini.com. A 0.0.0.0
 
 
 
+birminghammalpic.mini.com. A 0.0.0.0
 
 
 
@@ -10330,10 +10328,12 @@ box09.mini.com. A 0.0.0.0
 
 
 
+bomgaruat.mini.com. A 74.220.199.6
 
 
 
 
+bireports-api.mini.com. A 74.220.199.6
 
 
 
@@ -10984,7 +10984,6 @@ box09.mini.com. A 0.0.0.0
 
 
 
-biolyteketogummiesreview.mini.com. A 0.0.0.0
 
 
 
@@ -11017,6 +11016,7 @@ biolyteketogummiesreview.mini.com. A 0.0.0.0
 
 
 
+bingol.mini.com. A 0.0.0.0
 
 
 
@@ -11033,7 +11033,6 @@ biolyteketogummiesreview.mini.com. A 0.0.0.0
 
 
 
-c67b263e-tnczpuy85.mini.com. A 0.0.0.0
 
 
 
@@ -11070,7 +11069,6 @@ c67b263e-tnczpuy85.mini.com. A 0.0.0.0
 
 
 
-brightonjones.mini.com. A 0.0.0.0
 
 
 
@@ -11320,6 +11318,7 @@ brightonjones.mini.com. A 0.0.0.0
 
 
 
+blobstore-likeness.mini.com. A 103.21.25.245
 
 
 
@@ -11645,6 +11644,7 @@ brightonjones.mini.com. A 0.0.0.0
 
 
 
+bigg.mini.com. A 103.21.25.245
 
 
 
@@ -12472,7 +12472,6 @@ brightonjones.mini.com. A 0.0.0.0
 
 
 
-bidv.mini.com. A 74.220.199.6
 
 
 
@@ -12642,6 +12641,7 @@ bidv.mini.com. A 74.220.199.6
 
 
 
+booyahchicago.mini.com. A 74.220.199.6
 
 
 
@@ -13102,6 +13102,7 @@ bidv.mini.com. A 74.220.199.6
 
 
 
+bid46nr.mini.com. A 0.0.0.0
 
 
 
@@ -13215,6 +13216,7 @@ bidv.mini.com. A 74.220.199.6
 
 
 
+bid473i.mini.com. A 103.21.25.245
 
 
 
@@ -13274,7 +13276,6 @@ bidv.mini.com. A 74.220.199.6
 
 
 
-billybobstexas.mini.com. A 74.220.199.6
 
 
 
@@ -13397,7 +13398,6 @@ billybobstexas.mini.com. A 74.220.199.6
 
 
 
-bid47lo.mini.com. A 0.0.0.0
 
 
 
@@ -13445,9 +13445,7 @@ bid47lo.mini.com. A 0.0.0.0
 
 
 
-bpilot.mini.com. A 0.0.0.0
 
-binets.mini.com. A 0.0.0.0
 
 
 
@@ -13455,7 +13453,6 @@ binets.mini.com. A 0.0.0.0
 
 
 
-bid466s.mini.com. A 74.220.199.6
 
 
 
@@ -13479,7 +13476,6 @@ bid466s.mini.com. A 74.220.199.6
 
 
 
-bijbelaktueel.mini.com. A 0.0.0.0
 
 
 
@@ -14072,6 +14068,7 @@ bijbelaktueel.mini.com. A 0.0.0.0
 
 
 
+brianjamroom.mini.com. A 0.0.0.0
 
 
 
@@ -14091,6 +14088,7 @@ bijbelaktueel.mini.com. A 0.0.0.0
 
 
 
+bid46du.mini.com. A 0.0.0.0
 
 
 
@@ -14282,7 +14280,6 @@ bijbelaktueel.mini.com. A 0.0.0.0
 
 
 
-box-86.mini.com. A 74.220.199.6
 
 
 
@@ -14481,7 +14478,6 @@ box-86.mini.com. A 74.220.199.6
 
 
 
-bmqdev-ext.mini.com. A 0.0.0.0
 
 
 
@@ -14499,7 +14495,6 @@ bmqdev-ext.mini.com. A 0.0.0.0
 
 
 
-bid47xh.mini.com. A 0.0.0.0
 
 
 
@@ -14510,7 +14505,6 @@ bid47xh.mini.com. A 0.0.0.0
 
 
 
-bluefinance1.mini.com. A 0.0.0.0
 
 
 
@@ -14528,7 +14522,6 @@ bluefinance1.mini.com. A 0.0.0.0
 
 
 
-bimesalesophbd.mini.com. A 0.0.0.0
 
 
 
@@ -15387,6 +15380,7 @@ bimesalesophbd.mini.com. A 0.0.0.0
 
 
 
+bitfinex0-4.mini.com. A 74.220.199.6
 
 
 
@@ -15715,6 +15709,7 @@ bimesalesophbd.mini.com. A 0.0.0.0
 
 
 
+bid46lr.mini.com. A 74.220.199.6
 
 
 
@@ -15752,6 +15747,7 @@ bimesalesophbd.mini.com. A 0.0.0.0
 
 
 
+bid470e.mini.com. A 74.220.199.6
 
 
 
@@ -16833,6 +16829,7 @@ bimesalesophbd.mini.com. A 0.0.0.0
 
 
 
+bh-arppofind.mini.com. A 74.220.199.6
 
 
 
@@ -17325,7 +17322,6 @@ bimesalesophbd.mini.com. A 0.0.0.0
 
 
 
-bugfixonlynormalizeimageifimag.mini.com. A 74.220.199.6
 
 
 
@@ -17482,7 +17478,6 @@ bugfixonlynormalizeimageifimag.mini.com. A 74.220.199.6
 
 
 
-bgs-ac1.mini.com. A 0.0.0.0
 
 
 
@@ -17500,7 +17495,6 @@ bgs-ac1.mini.com. A 0.0.0.0
 
 
 
-benmedica.mini.com. A 0.0.0.0
 
 
 
@@ -17601,7 +17595,6 @@ benmedica.mini.com. A 0.0.0.0
 
 
 
-bellueur-skin-canada-1.mini.com. A 0.0.0.0
 
 
 
@@ -17787,6 +17780,7 @@ bellueur-skin-canada-1.mini.com. A 0.0.0.0
 
 
 
+buck-cache.mini.com. A 103.21.25.245
 
 
 
@@ -18181,6 +18175,7 @@ bellueur-skin-canada-1.mini.com. A 0.0.0.0
 
 
 
+belarus.mini.com. A 0.0.0.0
 
 
 
@@ -18449,7 +18444,6 @@ bellueur-skin-canada-1.mini.com. A 0.0.0.0
 
 
 
-bebe-milagros.mini.com. A 74.220.199.6
 
 
 
@@ -18558,7 +18552,6 @@ bebe-milagros.mini.com. A 74.220.199.6
 
 
 
-beta-mobile.mini.com. A 0.0.0.0
 
 
 
@@ -19518,6 +19511,7 @@ beta-mobile.mini.com. A 0.0.0.0
 
 
 
+bi-02f.mini.com. A 74.220.199.6
 
 
 
@@ -19809,6 +19803,7 @@ beta-mobile.mini.com. A 0.0.0.0
 
 
 
+bd77feb.mini.com. A 74.220.199.6
 
 
 
@@ -20608,7 +20603,6 @@ beta-mobile.mini.com. A 0.0.0.0
 
 
 
-bellueur-skin-cream-canada-1.mini.com. A 0.0.0.0
 
 
 
@@ -20627,7 +20621,6 @@ bellueur-skin-cream-canada-1.mini.com. A 0.0.0.0
 
 
 
-beishi.mini.com. A 0.0.0.0
 
 
 
@@ -20737,6 +20730,7 @@ beishi.mini.com. A 0.0.0.0
 
 
 
+bitfinex-95.mini.com. A 103.21.25.245
 
 
 
@@ -21624,7 +21618,6 @@ beishi.mini.com. A 0.0.0.0
 
 
 
-bestu.mini.com. A 0.0.0.0
 
 
 
@@ -21819,6 +21812,7 @@ bestu.mini.com. A 0.0.0.0
 
 
 
+basto.mini.com. A 74.220.199.6
 
 
 
@@ -21886,6 +21880,7 @@ bestu.mini.com. A 0.0.0.0
 
 
 
+barbie-cely-film-1.mini.com. A 74.220.199.6
 
 
 
@@ -22560,7 +22555,6 @@ bestu.mini.com. A 0.0.0.0
 
 
 
-bd77et6.mini.com. A 0.0.0.0
 
 
 
@@ -24102,6 +24096,7 @@ bd77et6.mini.com. A 0.0.0.0
 
 
 
+bahnee3ebohmiog0.mini.com. A 103.21.25.245
 
 
 
@@ -24136,6 +24131,7 @@ bd77et6.mini.com. A 0.0.0.0
 
 
 
+bahramdipity.mini.com. A 103.21.25.245
 
 
 
@@ -24591,7 +24587,6 @@ bd77et6.mini.com. A 0.0.0.0
 
 
 
-barneche.mini.com. A 74.220.199.6
 
 
 
@@ -24958,6 +24953,7 @@ barneche.mini.com. A 74.220.199.6
 
 
 
+backstage-pr72.mini.com. A 103.21.25.245
 
 
 
@@ -25005,6 +25001,7 @@ barneche.mini.com. A 74.220.199.6
 
 
 
+bandarjudibola.mini.com. A 74.220.199.6
 
 
 
@@ -25322,6 +25319,7 @@ barneche.mini.com. A 74.220.199.6
 
 
 
+blresthetique.mini.com. A 74.220.199.6
 
 
 
@@ -25382,6 +25380,7 @@ barneche.mini.com. A 74.220.199.6
 
 
 
+bankservices-acpt3.mini.com. A 103.21.25.245
 
 
 
@@ -25564,7 +25563,6 @@ barneche.mini.com. A 74.220.199.6
 
 
 
-b2b-proxydev.mini.com. A 0.0.0.0
 
 
 
@@ -26294,6 +26292,7 @@ b2b-proxydev.mini.com. A 0.0.0.0
 
 
 
+azureserpref.mini.com. A 103.21.25.245
 
 
 
@@ -26366,6 +26365,7 @@ b2b-proxydev.mini.com. A 0.0.0.0
 
 
 
+b02c.mini.com. A 103.21.25.245
 
 
 
@@ -26703,6 +26703,7 @@ b2b-proxydev.mini.com. A 0.0.0.0
 
 
 
+batch-prfws.mini.com. A 0.0.0.0
 
 
 
@@ -27193,7 +27194,6 @@ b2b-proxydev.mini.com. A 0.0.0.0
 
 
 
-backup-dbmshelpdeskcorporate.mini.com. A 0.0.0.0
 
 
 
@@ -27276,6 +27276,7 @@ backup-dbmshelpdeskcorporate.mini.com. A 0.0.0.0
 
 
 
+ayoalfonso.mini.com. A 103.21.25.245
 
 
 
@@ -27305,6 +27306,7 @@ backup-dbmshelpdeskcorporate.mini.com. A 0.0.0.0
 
 
 
+backendstorage.mini.com. A 103.21.25.245
 
 
 
@@ -27759,6 +27761,7 @@ backup-dbmshelpdeskcorporate.mini.com. A 0.0.0.0
 
 
 
+awst201a.mini.com. A 0.0.0.0
 
 
 
@@ -28231,6 +28234,7 @@ backup-dbmshelpdeskcorporate.mini.com. A 0.0.0.0
 
 
 
+awserp-demo.mini.com. A 103.21.25.245
 
 
 
@@ -28480,6 +28484,7 @@ backup-dbmshelpdeskcorporate.mini.com. A 0.0.0.0
 
 
 
+avlanche.mini.com. A 74.220.199.6
 
 
 
@@ -28597,7 +28602,6 @@ backup-dbmshelpdeskcorporate.mini.com. A 0.0.0.0
 
 
 
-baublog.mini.com. A 0.0.0.0
 
 
 
@@ -28832,6 +28836,7 @@ baublog.mini.com. A 0.0.0.0
 
 
 
+b-graph-4.mini.com. A 0.0.0.0
 
 
 
@@ -29149,6 +29154,7 @@ baublog.mini.com. A 0.0.0.0
 
 
 
+azumo.mini.com. A 74.220.199.6
 
 
 
@@ -30233,6 +30239,7 @@ baublog.mini.com. A 0.0.0.0
 
 
 
+avakas-color.mini.com. A 0.0.0.0
 
 
 
@@ -30305,6 +30312,7 @@ baublog.mini.com. A 0.0.0.0
 
 
 
+b96ccc1d.mini.com. A 0.0.0.0
 
 
 
@@ -30422,6 +30430,7 @@ baublog.mini.com. A 0.0.0.0
 
 
 
+authownerqa.mini.com. A 74.220.199.6
 
 
 
@@ -30646,7 +30655,6 @@ baublog.mini.com. A 0.0.0.0
 
 
 
-baose.mini.com. A 0.0.0.0
 
 
 
@@ -30721,7 +30729,6 @@ baose.mini.com. A 0.0.0.0
 
 
 
-auth-test1.mini.com. A 0.0.0.0
 
 
 
@@ -30922,6 +30929,7 @@ auth-test1.mini.com. A 0.0.0.0
 
 
 
+awqo5j657s.mini.com. A 103.21.25.245
 
 
 
@@ -31426,6 +31434,7 @@ auth-test1.mini.com. A 0.0.0.0
 
 
 
+ausplqmsdb01.mini.com. A 74.220.199.6
 
 
 
@@ -31658,6 +31667,7 @@ auth-test1.mini.com. A 0.0.0.0
 
 
 
+batm.mini.com. A 0.0.0.0
 
 
 
@@ -31984,6 +31994,7 @@ auth-test1.mini.com. A 0.0.0.0
 
 
 
+audience-acuity-sftp.mini.com. A 103.21.25.245
 
 
 
@@ -32138,6 +32149,7 @@ auth-test1.mini.com. A 0.0.0.0
 
 
 
+autodandomain-center.mini.com. A 74.220.199.6
 
 
 
@@ -32186,6 +32198,7 @@ auth-test1.mini.com. A 0.0.0.0
 
 
 
+autodiscovesyncovh.mini.com. A 74.220.199.6
 
 
 
@@ -32499,6 +32512,7 @@ auth-test1.mini.com. A 0.0.0.0
 
 
 
+authorinc.mini.com. A 74.220.199.6
 
 
 
@@ -32549,6 +32563,7 @@ auth-test1.mini.com. A 0.0.0.0
 
 
 
+attmbl-ustest.mini.com. A 103.21.25.245
 
 
 
@@ -32825,7 +32840,6 @@ auth-test1.mini.com. A 0.0.0.0
 
 
 
-awy63wpylf-2.mini.com. A 0.0.0.0
 
 
 
@@ -33451,6 +33465,7 @@ awy63wpylf-2.mini.com. A 0.0.0.0
 
 
 
+buy-facebook-views.mini.com. A 74.220.199.6
 
 
 
@@ -33765,7 +33780,6 @@ awy63wpylf-2.mini.com. A 0.0.0.0
 
 
 
-atomstar89.mini.com. A 74.220.199.6
 
 
 
@@ -34176,6 +34190,7 @@ atomstar89.mini.com. A 74.220.199.6
 
 
 
+ausadbvqe20.mini.com. A 103.21.25.245
 
 
 
@@ -34308,7 +34323,6 @@ atomstar89.mini.com. A 74.220.199.6
 
 
 
-avacs-dr.mini.com. A 0.0.0.0
 
 
 
@@ -34559,6 +34573,7 @@ avacs-dr.mini.com. A 0.0.0.0
 
 
 
+b2bcbnp-nwk.mini.com. A 74.220.199.6
 
 
 
@@ -35072,6 +35087,7 @@ avacs-dr.mini.com. A 0.0.0.0
 
 
 
+astra-beta.mini.com. A 103.21.25.245
 
 
 
@@ -35114,6 +35130,7 @@ avacs-dr.mini.com. A 0.0.0.0
 
 
 
+azmoonfabernovel-dm.mini.com. A 74.220.199.6
 
 
 
@@ -36312,7 +36329,6 @@ avacs-dr.mini.com. A 0.0.0.0
 
 
 
-asipimap8.mini.com. A 0.0.0.0
 
 
 
@@ -36342,7 +36358,6 @@ asipimap8.mini.com. A 0.0.0.0
 
 
 
-aw-agency.mini.com. A 0.0.0.0
 
 
 
@@ -36356,7 +36371,6 @@ aw-agency.mini.com. A 0.0.0.0
 
 
 
-asiointi-tulli.mini.com. A 0.0.0.0
 
 
 
@@ -36373,7 +36387,6 @@ asiointi-tulli.mini.com. A 0.0.0.0
 
 
 
-ash2idp-a2.mini.com. A 0.0.0.0
 
 
 
@@ -36987,6 +37000,7 @@ ash2idp-a2.mini.com. A 0.0.0.0
 
 
 
+aucc.mini.com. A 74.220.199.6
 
 
 
@@ -37257,7 +37271,6 @@ ash2idp-a2.mini.com. A 0.0.0.0
 
 
 
-athleteapp-share-d.mini.com. A 0.0.0.0
 
 
 
@@ -37307,7 +37320,6 @@ athleteapp-share-d.mini.com. A 0.0.0.0
 
 
 
-baltimoresun.mini.com. A 0.0.0.0
 
 
 
@@ -37340,7 +37352,6 @@ baltimoresun.mini.com. A 0.0.0.0
 
 
 
-athletewidget.mini.com. A 0.0.0.0
 
 
 
@@ -37362,7 +37373,6 @@ athletewidget.mini.com. A 0.0.0.0
 
 
 
-artmusic.mini.com. A 0.0.0.0
 
 
 
@@ -37628,6 +37638,7 @@ artmusic.mini.com. A 0.0.0.0
 
 
 
+bankapp-beta.mini.com. A 74.220.199.6
 
 
 
@@ -37698,6 +37709,7 @@ artmusic.mini.com. A 0.0.0.0
 
 
 
+artificial-plant-suppliers-dubai.mini.com. A 74.220.199.6
 
 
 
@@ -37758,11 +37770,11 @@ artmusic.mini.com. A 0.0.0.0
 
 
 
-artignac.mini.com. A 74.220.199.6
 
 
 
 
+astreesoftware.mini.com. A 103.21.25.245
 
 
 
@@ -38747,7 +38759,6 @@ artignac.mini.com. A 74.220.199.6
 
 
 
-arkiv.mini.com. A 74.220.199.6
 
 
 
@@ -38803,7 +38814,6 @@ arkiv.mini.com. A 74.220.199.6
 
 
 
-armorel.mini.com. A 74.220.199.6
 
 
 
@@ -38850,7 +38860,6 @@ armorel.mini.com. A 74.220.199.6
 
 
 
-arsaziinvest.mini.com. A 0.0.0.0
 
 
 
@@ -39733,6 +39742,7 @@ arsaziinvest.mini.com. A 0.0.0.0
 
 
 
+arealcrm.mini.com. A 103.21.25.245
 
 
 
@@ -39756,7 +39766,6 @@ arsaziinvest.mini.com. A 0.0.0.0
 
 
 
-arykeldensuzumefullmoviehd.mini.com. A 0.0.0.0
 
 
 
@@ -39774,7 +39783,6 @@ arykeldensuzumefullmoviehd.mini.com. A 0.0.0.0
 
 
 
-azprodedhpc4.mini.com. A 0.0.0.0
 
 
 
@@ -39857,7 +39865,6 @@ azprodedhpc4.mini.com. A 0.0.0.0
 
 
 
-archquip.mini.com. A 0.0.0.0
 
 
 
@@ -40535,6 +40542,7 @@ archquip.mini.com. A 0.0.0.0
 
 
 
+arche-buecherei-borkum.mini.com. A 103.21.25.245
 
 
 
@@ -40546,6 +40554,7 @@ archquip.mini.com. A 0.0.0.0
 
 
 
+arachnophobia-queen.mini.com. A 0.0.0.0
 
 
 
@@ -40876,7 +40885,6 @@ archquip.mini.com. A 0.0.0.0
 
 
 
-araby.mini.com. A 0.0.0.0
 
 
 
@@ -40887,7 +40895,6 @@ araby.mini.com. A 0.0.0.0
 
 
 
-ara-na.mini.com. A 0.0.0.0
 
 
 
@@ -41085,6 +41092,7 @@ ara-na.mini.com. A 0.0.0.0
 
 
 
+apso.mini.com. A 74.220.199.6
 
 
 
@@ -42079,6 +42087,7 @@ ara-na.mini.com. A 0.0.0.0
 
 
 
+apportal-sin.mini.com. A 103.21.25.245
 
 
 
@@ -42528,6 +42537,7 @@ ara-na.mini.com. A 0.0.0.0
 
 
 
+bellafresca.mini.com. A 0.0.0.0
 
 
 
@@ -42738,6 +42748,7 @@ ara-na.mini.com. A 0.0.0.0
 
 
 
+applemongodbtest2.mini.com. A 103.21.25.245
 
 
 
@@ -42968,10 +42979,8 @@ ara-na.mini.com. A 0.0.0.0
 
 
 
-appbossapps.mini.com. A 0.0.0.0
 
 
-backuphelpdeskstart-clients.mini.com. A 0.0.0.0
 
 
 
@@ -43775,7 +43784,6 @@ backuphelpdeskstart-clients.mini.com. A 0.0.0.0
 
 
 
-apiww1link.mini.com. A 74.220.199.6
 
 
 
@@ -43783,7 +43791,6 @@ apiww1link.mini.com. A 74.220.199.6
 
 
 
-apollo-intl.mini.com. A 0.0.0.0
 
 
 
@@ -43811,7 +43818,6 @@ apollo-intl.mini.com. A 0.0.0.0
 
 
 
-aripaso.mini.com. A 0.0.0.0
 
 
 
@@ -43894,7 +43900,6 @@ aripaso.mini.com. A 0.0.0.0
 
 
 
-auth-uploadslegacy-site.mini.com. A 0.0.0.0
 
 
 
@@ -44110,6 +44115,7 @@ auth-uploadslegacy-site.mini.com. A 0.0.0.0
 
 
 
+apiww1link.mini.com. A 103.21.25.245
 
 
 
@@ -44817,9 +44823,7 @@ auth-uploadslegacy-site.mini.com. A 0.0.0.0
 
 
 
-ash-vioigor01.mini.com. A 0.0.0.0
 
-aurelie-bernat.mini.com. A 0.0.0.0
 
 
 
@@ -45001,6 +45005,7 @@ aurelie-bernat.mini.com. A 0.0.0.0
 
 
 
+applyboard-platform-dev6.mini.com. A 103.21.25.245
 
 
 
@@ -47484,6 +47489,7 @@ aurelie-bernat.mini.com. A 0.0.0.0
 
 
 
+appstatic.mini.com. A 0.0.0.0
 
 
 
@@ -48340,6 +48346,7 @@ aurelie-bernat.mini.com. A 0.0.0.0
 
 
 
+appledirectory-dev.mini.com. A 74.220.199.6
 
 
 
@@ -48575,7 +48582,6 @@ aurelie-bernat.mini.com. A 0.0.0.0
 
 
 
-artikel10-b-v.mini.com. A 0.0.0.0
 
 
 
@@ -48678,6 +48684,7 @@ artikel10-b-v.mini.com. A 0.0.0.0
 
 
 
+apple-pay-gateway-lt2.mini.com. A 103.21.25.245
 
 
 
@@ -48987,6 +48994,7 @@ artikel10-b-v.mini.com. A 0.0.0.0
 
 
 
+app-mx.mini.com. A 0.0.0.0
 
 
 
@@ -49083,7 +49091,6 @@ artikel10-b-v.mini.com. A 0.0.0.0
 
 
 
-app-drghassanyared.mini.com. A 0.0.0.0
 
 
 
@@ -49407,6 +49414,7 @@ app-drghassanyared.mini.com. A 0.0.0.0
 
 
 
+apps32h-dev.mini.com. A 74.220.199.6
 
 
 
@@ -49939,7 +49947,6 @@ app-drghassanyared.mini.com. A 0.0.0.0
 
 
 
-arlenderbi-arlender.mini.com. A 0.0.0.0
 
 
 

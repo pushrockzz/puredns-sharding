@@ -1,5 +1,5 @@
-bremen.bmw-motorrad.de
 block.bmw-motorrad.de
-bayer.bmw-motorrad.de
+bremen.bmw-motorrad.de
 baptist.bmw-motorrad.de
 augsburg.bmw-motorrad.de
+bayer.bmw-motorrad.de

@@ -1,5 +1,5 @@
 app-int.bmwgroup.com
-apim-dev.bmwgroup.com
 b2bconnect.bmwgroup.com
+apim-dev.bmwgroup.com
 apiportal.bmwgroup.com
 auth-t.bmwgroup.com

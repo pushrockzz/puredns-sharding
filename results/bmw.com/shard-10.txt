@@ -1,3 +1,2 @@
-b2b-test.bmw.com
 api-uat.bmw.com
 auth-t.bmw.com
