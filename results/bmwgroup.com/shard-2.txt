@@ -1,3 +1,5 @@
-sgate.bmwgroup.com
+sms-int.bmwgroup.com
 star.bmwgroup.com
-techradar.bmwgroup.com
+testing-1.bmwgroup.com
+sgate.bmwgroup.com
+summary.bmwgroup.com

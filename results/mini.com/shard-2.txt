@@ -1,2 +1,2 @@
-testm.mini.com
 testssl.mini.com
+testm.mini.com

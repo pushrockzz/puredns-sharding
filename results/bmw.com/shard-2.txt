@@ -1,4 +1,3 @@
-tapi.bmw.com
+telex.bmw.com
+sftpcontent.bmw.com
 static4.bmw.com
-securelogin.bmw.com
-static3.bmw.com

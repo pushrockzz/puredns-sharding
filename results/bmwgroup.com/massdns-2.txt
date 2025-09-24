@@ -506,7 +506,6 @@
 
 
 
-test31.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -1154,7 +1153,6 @@ test31.bmwgroup.com. A 74.220.199.6
 
 
 
-temp-login-qa.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -1283,6 +1281,7 @@ temp-login-qa.bmwgroup.com. A 74.220.199.6
 
 
 
+teslawoocom.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -1661,6 +1660,7 @@ temp-login-qa.bmwgroup.com. A 74.220.199.6
 
 
 
+tesla-app.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -2018,7 +2018,6 @@ temp-login-qa.bmwgroup.com. A 74.220.199.6
 
 
 
-technicalpublications.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -2122,6 +2121,7 @@ technicalpublications.bmwgroup.com. A 74.220.199.6
 
 
 
+tease1.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -3188,7 +3188,6 @@ technicalpublications.bmwgroup.com. A 74.220.199.6
 
 
 
-techradar.bmwgroup.com. CNAME d36zav6jye5ume.cloudfront.net.
 
 
 
@@ -6539,7 +6538,6 @@ techradar.bmwgroup.com. CNAME d36zav6jye5ume.cloudfront.net.
 
 
 
-systemlogic.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -7539,7 +7537,6 @@ systemlogic.bmwgroup.com. A 74.220.199.6
 
 
 
-sw72.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -9220,6 +9217,7 @@ sw72.bmwgroup.com. A 74.220.199.6
 
 
 
+support8-dev.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -10324,6 +10322,7 @@ sw72.bmwgroup.com. A 74.220.199.6
 
 
 
+testing-1.bmwgroup.com. A 160.46.228.102
 
 
 
@@ -13187,7 +13186,6 @@ sw72.bmwgroup.com. A 74.220.199.6
 
 
 
-stl-dmz-t2-i9am.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -15022,6 +15020,9 @@ stl-dmz-t2-i9am.bmwgroup.com. A 74.220.199.6
 
 
 
+summary.bmwgroup.com. CNAME api5.creatoriq.com.
+api5.creatoriq.com. A 52.52.192.200
+api5.creatoriq.com. A 52.53.106.210
 
 
 
@@ -17199,6 +17200,467 @@ stl-dmz-t2-i9am.bmwgroup.com. A 74.220.199.6
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+stagetest.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -18602,7 +19064,6 @@ star.bmwgroup.com. A 160.46.233.40
 
 
 
-staginguploads.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -18617,7 +19078,6 @@ staginguploads.bmwgroup.com. A 74.220.199.6
 
 
 
-stagingauthbetaipv6.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -19772,6 +20232,7 @@ stagingauthbetaipv6.bmwgroup.com. A 74.220.199.6
 
 
 
+squeezepage.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -23193,7 +23654,6 @@ stagingauthbetaipv6.bmwgroup.com. A 74.220.199.6
 
 
 
-soshanguve.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -24203,7 +24663,6 @@ soshanguve.bmwgroup.com. A 74.220.199.6
 
 
 
-spider-100-43-91-24.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -27980,6 +28439,7 @@ spider-100-43-91-24.bmwgroup.com. A 74.220.199.6
 
 
 
+slack6-4-9.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -28690,7 +29150,6 @@ spider-100-43-91-24.bmwgroup.com. A 74.220.199.6
 
 
 
-sop-sox-playerdb-func.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -30434,6 +30893,7 @@ sop-sox-playerdb-func.bmwgroup.com. A 74.220.199.6
 
 
 
+slack-5-54.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -34985,6 +35445,7 @@ sop-sox-playerdb-func.bmwgroup.com. A 74.220.199.6
 
 
 
+smartforms.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -36860,13 +37321,11 @@ sop-sox-playerdb-func.bmwgroup.com. A 74.220.199.6
 
 
 
-sharedstreams-ic1.bmwgroup.com. A 74.220.199.6
 
 
 
 
 
-shappi.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -38369,6 +38828,7 @@ shappi.bmwgroup.com. A 74.220.199.6
 
 
 
+shrikant.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -38502,6 +38962,7 @@ shappi.bmwgroup.com. A 74.220.199.6
 
 
 
+services-prf.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -39340,6 +39801,7 @@ shappi.bmwgroup.com. A 74.220.199.6
 
 
 
+sms-int.bmwgroup.com. A 160.46.248.40
 
 
 
@@ -40665,6 +41127,7 @@ shappi.bmwgroup.com. A 74.220.199.6
 
 
 
+sensors9.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -41485,10 +41948,6 @@ shappi.bmwgroup.com. A 74.220.199.6
 
 
 
-sgate.bmwgroup.com. A 13.33.88.82
-sgate.bmwgroup.com. A 13.33.88.37
-sgate.bmwgroup.com. A 13.33.88.99
-sgate.bmwgroup.com. A 13.33.88.38
 
 
 
@@ -42990,6 +43449,7 @@ sgate.bmwgroup.com. A 13.33.88.38
 
 
 
+sic-c.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -43372,7 +43832,6 @@ sgate.bmwgroup.com. A 13.33.88.38
 
 
 
-snaptuservice-proxy-shv-05-frc3.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -44749,6 +45208,10 @@ snaptuservice-proxy-shv-05-frc3.bmwgroup.com. A 74.220.199.6
 
 
 
+sgate.bmwgroup.com. A 3.170.103.53
+sgate.bmwgroup.com. A 3.170.103.128
+sgate.bmwgroup.com. A 3.170.103.14
+sgate.bmwgroup.com. A 3.170.103.54
 
 
 
@@ -45685,6 +46148,7 @@ snaptuservice-proxy-shv-05-frc3.bmwgroup.com. A 74.220.199.6
 
 
 
+sdk13.bmwgroup.com. A 23.32.38.139
 
 
 
@@ -47698,7 +48162,6 @@ snaptuservice-proxy-shv-05-frc3.bmwgroup.com. A 74.220.199.6
 
 
 
-sdk53-2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -47829,467 +48292,6 @@ sdk53-2.bmwgroup.com. A 74.220.199.6
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-sdk3-7-6.bmwgroup.com. A 74.220.199.6
 
 
 
