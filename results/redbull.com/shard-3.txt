@@ -1,8 +1,0 @@
-qr.redbull.com
-academy.redbull.com
-rm.redbull.com
-spark.redbull.com
-ice.redbull.com
-discovery.redbull.com
-sap.redbull.com
-tms.redbull.com

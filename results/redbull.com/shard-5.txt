@@ -1,7 +1,0 @@
-fitness.redbull.com
-itsupport.redbull.com
-documentation.redbull.com
-issues.redbull.com
-eos.redbull.com
-polls.redbull.com
-cmc.redbull.com

@@ -1,7 +1,0 @@
-open.navy.mil
-poseidon.navy.mil
-history.navy.mil
-hq.navy.mil
-law.navy.mil
-digital.navy.mil
-pr.navy.mil

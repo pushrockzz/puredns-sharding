@@ -1,6 +1,0 @@
-smp.bmw.com
-www.b2b.bmw.com
-obs.bmw.com
-everest.bmw.com
-workflow.bmw.com
-static4.bmw.com

@@ -1,8 +1,0 @@
-postmaster.yahoo.com
-www.labs.yahoo.com
-yp.yahoo.com
-planning.yahoo.com
-migration.yahoo.com
-premier.dell.com
-tags.dell.com
-jordan.dell.com
