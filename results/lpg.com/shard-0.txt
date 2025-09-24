@@ -1,0 +1,10 @@
+autoconfig.lpg.com
+whm.lpg.com
+ftp.lpg.com
+autodiscover.lpg.com
+localhost.lpg.com
+cpanel.lpg.com
+webdisk.lpg.com
+mail.lpg.com
+www.lpg.com
+webmail.lpg.com

@@ -1,0 +1,15 @@
+my.navy.mil
+www.navy.mil
+autodiscover.navy.mil
+lyncdiscover.navy.mil
+search.navy.mil
+data.navy.mil
+ftp.navy.mil
+localhost.navy.mil
+sip.navy.mil
+cloud.navy.mil
+login.navy.mil
+www.my.navy.mil
+pop.navy.mil
+orion.navy.mil
+directory.navy.mil
