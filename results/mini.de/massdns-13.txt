@@ -1,6 +1,6 @@
 
-host-214-60-44-62.mini.de. A 0.0.0.0
 
+ipsadapter-itms5-inpartner-boku.mini.de. A 0.0.0.0
 
 
 
@@ -112,7 +112,6 @@ host-214-60-44-62.mini.de. A 0.0.0.0
 
 
 
-gsp64-st57a02-ssl.mini.de. A 0.0.0.0
 
 
 
@@ -660,7 +659,6 @@ gsp64-st57a02-ssl.mini.de. A 0.0.0.0
 
 
 
-tor214-248-pda.mini.de. A 0.0.0.0
 
 
 
@@ -836,9 +834,11 @@ tor214-248-pda.mini.de. A 0.0.0.0
 
 
 
+tor285-127-pda.mini.de. A 0.0.0.0
 
 
 
+slb3-1-lbd.mini.de. A 0.0.0.0
 
 
 
@@ -876,6 +876,7 @@ tor214-248-pda.mini.de. A 0.0.0.0
 
 
 
+atl-prd-motio-01a.mini.de. A 0.0.0.0
 
 
 
@@ -890,7 +891,6 @@ tor214-248-pda.mini.de. A 0.0.0.0
 
 
 
-jrss-215-72-246-82.mini.de. A 0.0.0.0
 
 
 
@@ -999,7 +999,6 @@ jrss-215-72-246-82.mini.de. A 0.0.0.0
 
 
 
-ipv4-c069-vie001-ix.mini.de. A 74.220.199.6
 
 
 
@@ -1087,6 +1086,7 @@ ipv4-c069-vie001-ix.mini.de. A 74.220.199.6
 
 
 
+ipv4-c059-stl001-ix.mini.de. A 0.0.0.0
 
 
 
@@ -1518,6 +1518,7 @@ ipv4-c069-vie001-ix.mini.de. A 74.220.199.6
 
 
 
+h-135-207-231-18.mini.de. A 0.0.0.0
 
 
 
@@ -1630,6 +1631,7 @@ ipv4-c069-vie001-ix.mini.de. A 74.220.199.6
 
 
 
+host-130-16-152-26.mini.de. A 104.109.250.59
 
 
 
@@ -2262,7 +2264,6 @@ ipv4-c069-vie001-ix.mini.de. A 74.220.199.6
 
 
 
-gsp45-st14-ssl.mini.de. A 74.220.199.6
 
 
 
@@ -2502,6 +2503,7 @@ gsp45-st14-ssl.mini.de. A 74.220.199.6
 
 
 
+debug-csacc-db2-corp.mini.de. A 104.109.250.59
 
 
 
@@ -2732,7 +2734,6 @@ gsp45-st14-ssl.mini.de. A 74.220.199.6
 
 
 
-vip-eng-myaws.mini.de. A 74.220.199.6
 
 
 
@@ -2950,6 +2951,7 @@ vip-eng-myaws.mini.de. A 74.220.199.6
 
 
 
+bucket-downloads-config.mini.de. A 74.220.199.6
 
 
 
@@ -3182,6 +3184,7 @@ vip-eng-myaws.mini.de. A 74.220.199.6
 
 
 
+stg-http-collector-observability.mini.de. A 74.220.199.6
 
 
 
@@ -3224,7 +3227,6 @@ vip-eng-myaws.mini.de. A 74.220.199.6
 
 
 
-cms-assets-cache-lbclients.mini.de. A 0.0.0.0
 
 
 
@@ -3403,6 +3405,7 @@ cms-assets-cache-lbclients.mini.de. A 0.0.0.0
 
 
 
+usw1-8-pda.mini.de. A 104.109.250.59
 
 
 
@@ -3766,6 +3769,7 @@ cms-assets-cache-lbclients.mini.de. A 0.0.0.0
 
 
 
+17-121-118-21.mini.de. A 74.220.199.6
 
 
 
@@ -3957,7 +3961,6 @@ cms-assets-cache-lbclients.mini.de. A 0.0.0.0
 
 
 
-wfs-all-ideas.mini.de. A 74.220.199.6
 
 
 
@@ -4012,7 +4015,6 @@ wfs-all-ideas.mini.de. A 74.220.199.6
 
 
 
-a23-1-126-38.mini.de. A 0.0.0.0
 
 
 
@@ -4240,7 +4242,6 @@ a23-1-126-38.mini.de. A 0.0.0.0
 
 
 
-rsw75-2-prd.mini.de. A 0.0.0.0
 
 
 
@@ -4816,6 +4817,7 @@ rsw75-2-prd.mini.de. A 0.0.0.0
 
 
 
+tor259-312-pda.mini.de. A 74.220.199.6
 
 
 
@@ -4871,7 +4873,6 @@ rsw75-2-prd.mini.de. A 0.0.0.0
 
 
 
-usw1-6-pdd.mini.de. A 0.0.0.0
 
 
 
@@ -6102,6 +6103,7 @@ usw1-6-pdd.mini.de. A 0.0.0.0
 
 
 
+system-confluence-appuser.mini.de. A 104.109.250.59
 
 
 
@@ -6644,7 +6646,6 @@ usw1-6-pdd.mini.de. A 0.0.0.0
 
 
 
-labmgmt03.mini.de. A 0.0.0.0
 
 
 
@@ -6679,6 +6680,7 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
+cf-test-yul.mini.de. A 74.220.199.6
 
 
 
@@ -6787,6 +6789,7 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
+host-214-18-26-67.mini.de. A 0.0.0.0
 
 
 
@@ -6897,6 +6900,7 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
+gcp-auth-partner.mini.de. A 104.109.250.59
 
 
 
@@ -6974,6 +6978,7 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
+jrss-215-73-154-46.mini.de. A 104.109.250.59
 
 
 
@@ -7268,6 +7273,7 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
+user-v3-remote-acc-db2-corp.mini.de. A 0.0.0.0
 
 
 
@@ -7672,6 +7678,7 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
+dev-stats-b2bmy-oceania.mini.de. A 0.0.0.0
 
 
 
@@ -7736,6 +7743,7 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
+17-121-122-75.mini.de. A 104.109.250.59
 
 
 
@@ -7912,6 +7920,7 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
+h-135-207-35-42.mini.de. A 74.220.199.6
 
 
 
@@ -8624,6 +8633,7 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
+config-bucket-customersdb2-corp.mini.de. A 0.0.0.0
 
 
 
@@ -8808,6 +8818,7 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
+engineering-originmeet-git.mini.de. A 104.109.250.59
 
 
 
@@ -8920,7 +8931,6 @@ labmgmt03.mini.de. A 0.0.0.0
 
 
 
-atl-prd-sums-01a-new.mini.de. A 0.0.0.0
 
 
 
@@ -8977,7 +8987,6 @@ atl-prd-sums-01a-new.mini.de. A 0.0.0.0
 
 
 
-dev-dns-site.mini.de. A 0.0.0.0
 
 
 
@@ -8987,13 +8996,11 @@ dev-dns-site.mini.de. A 0.0.0.0
 
 
 
-lef3-4-vzb.mini.de. A 0.0.0.0
 
 
 
 
 
-age-0-3-6.mini.de. A 0.0.0.0
 
 
 
@@ -9590,6 +9597,7 @@ age-0-3-6.mini.de. A 0.0.0.0
 
 
 
+17-121-127-51.mini.de. A 0.0.0.0
 
 
 
@@ -9679,6 +9687,7 @@ age-0-3-6.mini.de. A 0.0.0.0
 
 
 
+gsp81-sl81-ssl.mini.de. A 74.220.199.6
 
 
 
@@ -10621,7 +10630,6 @@ age-0-3-6.mini.de. A 0.0.0.0
 
 
 
-h-135-207-140-71.mini.de. A 0.0.0.0
 
 
 
@@ -10869,6 +10877,7 @@ h-135-207-140-71.mini.de. A 0.0.0.0
 
 
 
+sto3-pstorage-a7.mini.de. A 104.109.250.59
 
 
 
@@ -10996,6 +11005,7 @@ h-135-207-140-71.mini.de. A 0.0.0.0
 
 
 
+system-staff-new-corp.mini.de. A 104.109.250.59
 
 
 
@@ -11222,7 +11232,6 @@ h-135-207-140-71.mini.de. A 0.0.0.0
 
 
 
-3lewi-162-17.mini.de. A 74.220.199.6
 
 
 
@@ -11374,6 +11383,7 @@ h-135-207-140-71.mini.de. A 0.0.0.0
 
 
 
+aet-2-3-2.mini.de. A 0.0.0.0
 
 
 
@@ -11656,6 +11666,7 @@ h-135-207-140-71.mini.de. A 0.0.0.0
 
 
 
+75-0-8-3.mini.de. A 74.220.199.6
 
 
 
@@ -11859,6 +11870,7 @@ h-135-207-140-71.mini.de. A 0.0.0.0
 
 
 
+atl-prd-infwjmp-01a.mini.de. A 104.109.250.59
 
 
 
@@ -12381,6 +12393,7 @@ h-135-207-140-71.mini.de. A 0.0.0.0
 
 
 
+http-uk-ask-com32.mini.de. A 0.0.0.0
 
 
 
@@ -13725,9 +13738,11 @@ h-135-207-140-71.mini.de. A 0.0.0.0
 
 
 
+customers-temp-user.mini.de. A 0.0.0.0
 
 
 
+roma-tools-search-proxy.mini.de. A 0.0.0.0
 
 
 
@@ -14094,11 +14109,9 @@ h-135-207-140-71.mini.de. A 0.0.0.0
 
 
 
-debug-alphameet-git.mini.de. A 0.0.0.0
 
 
 
-bol2-3-9.mini.de. A 0.0.0.0
 
 
 
@@ -14128,13 +14141,11 @@ bol2-3-9.mini.de. A 0.0.0.0
 
 
 
-nwk-radarp-lapp39.mini.de. A 0.0.0.0
 
 
 
 
 
-cachev1v4pp-config-redirect.mini.de. A 0.0.0.0
 
 
 
@@ -14447,7 +14458,6 @@ cachev1v4pp-config-redirect.mini.de. A 0.0.0.0
 
 
 
-rsw25-1-rtm.mini.de. A 74.220.199.6
 
 
 
@@ -14635,6 +14645,7 @@ rsw25-1-rtm.mini.de. A 74.220.199.6
 
 
 
+update-alphalabs-develip-git.mini.de. A 0.0.0.0
 
 
 
@@ -14763,6 +14774,7 @@ rsw25-1-rtm.mini.de. A 74.220.199.6
 
 
 
+957-9-8-1.mini.de. A 74.220.199.6
 
 
 
@@ -15223,7 +15235,6 @@ rsw25-1-rtm.mini.de. A 74.220.199.6
 
 
 
-ydata-infra-b.mini.de. A 0.0.0.0
 
 
 
@@ -15422,10 +15433,12 @@ ydata-infra-b.mini.de. A 0.0.0.0
 
 
 
+vehiclerelay-gfs-br-2.mini.de. A 74.220.199.6
 
 
 
 
+exe-2-1-2.mini.de. A 74.220.199.6
 
 
 
@@ -15718,6 +15731,7 @@ ydata-infra-b.mini.de. A 0.0.0.0
 
 
 
+h-135-207-60-9.mini.de. A 74.220.199.6
 
 
 
@@ -15917,6 +15931,7 @@ ydata-infra-b.mini.de. A 0.0.0.0
 
 
 
+ipv4-c019-atl004-ix.mini.de. A 104.109.250.59
 
 
 
@@ -15932,6 +15947,7 @@ ydata-infra-b.mini.de. A 0.0.0.0
 
 
 
+v1-edgerayshv-01-vie1.mini.de. A 104.109.250.59
 
 
 
@@ -16195,7 +16211,6 @@ ydata-infra-b.mini.de. A 0.0.0.0
 
 
 
-gsp45-os32-ssl.mini.de. A 0.0.0.0
 
 
 
@@ -16439,6 +16454,7 @@ gsp45-os32-ssl.mini.de. A 0.0.0.0
 
 
 
+press-support-corp.mini.de. A 0.0.0.0
 
 
 
@@ -17145,7 +17161,6 @@ gsp45-os32-ssl.mini.de. A 0.0.0.0
 
 
 
-155-9-171-76.mini.de. A 0.0.0.0
 
 
 
@@ -17175,7 +17190,6 @@ gsp45-os32-ssl.mini.de. A 0.0.0.0
 
 
 
-monster-chase-lisboa.mini.de. A 0.0.0.0
 
 
 
@@ -17872,6 +17886,7 @@ monster-chase-lisboa.mini.de. A 0.0.0.0
 
 
 
+host-160-136-214-84.mini.de. A 104.109.250.59
 
 
 
@@ -18122,7 +18137,6 @@ monster-chase-lisboa.mini.de. A 0.0.0.0
 
 
 
-h-135-207-255-42.mini.de. A 0.0.0.0
 
 
 
@@ -18170,7 +18184,6 @@ h-135-207-255-42.mini.de. A 0.0.0.0
 
 
 
-host-134-205-125-50.mini.de. A 0.0.0.0
 
 
 
@@ -18503,7 +18516,6 @@ host-134-205-125-50.mini.de. A 0.0.0.0
 
 
 
-vms-sn-test.mini.de. A 74.220.199.6
 
 
 
@@ -18861,7 +18873,6 @@ vms-sn-test.mini.de. A 74.220.199.6
 
 
 
-h-135-207-248-29.mini.de. A 74.220.199.6
 
 
 
@@ -19155,7 +19166,6 @@ h-135-207-248-29.mini.de. A 74.220.199.6
 
 
 
-h-135-207-128-46.mini.de. A 0.0.0.0
 
 
 
@@ -20156,7 +20166,6 @@ h-135-207-128-46.mini.de. A 0.0.0.0
 
 
 
-cache-p2b-precitec-etl.mini.de. A 0.0.0.0
 
 
 
@@ -20553,6 +20562,7 @@ cache-p2b-precitec-etl.mini.de. A 0.0.0.0
 
 
 
+155-9-185-55.mini.de. A 0.0.0.0
 
 
 
@@ -20765,7 +20775,6 @@ cache-p2b-precitec-etl.mini.de. A 0.0.0.0
 
 
 
-h-135-207-254-92.mini.de. A 74.220.199.6
 
 
 
@@ -20834,6 +20843,7 @@ h-135-207-254-92.mini.de. A 74.220.199.6
 
 
 
+account-iso-prdws.mini.de. A 74.220.199.6
 
 
 
@@ -20886,6 +20896,7 @@ h-135-207-254-92.mini.de. A 74.220.199.6
 
 
 
+usersns-intwww-test.mini.de. A 104.109.250.59
 
 
 
@@ -20939,6 +20950,7 @@ h-135-207-254-92.mini.de. A 74.220.199.6
 
 
 
+205-185-203-10.mini.de. A 104.109.250.59
 
 
 
@@ -21102,7 +21114,6 @@ h-135-207-254-92.mini.de. A 74.220.199.6
 
 
 
-https-ar-m-wikipedia-org08.mini.de. A 0.0.0.0
 
 
 
@@ -21120,10 +21131,8 @@ https-ar-m-wikipedia-org08.mini.de. A 0.0.0.0
 
 
 
-ipv4-c001-mel002-telstra-isp.mini.de. A 0.0.0.0
 
 
-ip-150-36.mini.de. A 0.0.0.0
 
 
 
@@ -21680,6 +21689,7 @@ ip-150-36.mini.de. A 0.0.0.0
 
 
 
+atl-prd-esxb-01k.mini.de. A 0.0.0.0
 
 
 
@@ -21874,6 +21884,7 @@ ip-150-36.mini.de. A 0.0.0.0
 
 
 
+suzuki-civic-2.mini.de. A 74.220.199.6
 
 
 
@@ -22108,7 +22119,6 @@ ip-150-36.mini.de. A 0.0.0.0
 
 
 
-mtn21-dlp-vm04.mini.de. A 0.0.0.0
 
 
 
@@ -22153,7 +22163,6 @@ mtn21-dlp-vm04.mini.de. A 0.0.0.0
 
 
 
-gsp-sg34-ssl.mini.de. A 0.0.0.0
 
 
 
@@ -22171,7 +22180,6 @@ gsp-sg34-ssl.mini.de. A 0.0.0.0
 
 
 
-sto3-serverdb-a2.mini.de. A 0.0.0.0
 
 
 
@@ -23151,7 +23159,6 @@ sto3-serverdb-a2.mini.de. A 0.0.0.0
 
 
 
-ash1-twitter-a1.mini.de. A 0.0.0.0
 
 
 
@@ -23183,7 +23190,6 @@ ash1-twitter-a1.mini.de. A 0.0.0.0
 
 
 
-457-9-76.mini.de. A 0.0.0.0
 
 
 
@@ -23212,7 +23218,6 @@ ash1-twitter-a1.mini.de. A 0.0.0.0
 
 
 
-mycb-ml-13.mini.de. A 0.0.0.0
 
 
 
@@ -23261,7 +23266,6 @@ mycb-ml-13.mini.de. A 0.0.0.0
 
 
 
-ipv4-c004-bjx001-megacable-isp.mini.de. A 0.0.0.0
 
 
 
@@ -23422,6 +23426,7 @@ ipv4-c004-bjx001-megacable-isp.mini.de. A 0.0.0.0
 
 
 
+tor101-117-grc.mini.de. A 0.0.0.0
 
 
 
@@ -23911,7 +23916,6 @@ ipv4-c004-bjx001-megacable-isp.mini.de. A 0.0.0.0
 
 
 
-ip-150-28.mini.de. A 74.220.199.6
 
 
 
@@ -24220,7 +24224,6 @@ ip-150-28.mini.de. A 74.220.199.6
 
 
 
-uklon5-asavpn-fw2.mini.de. A 0.0.0.0
 
 
 
@@ -24485,6 +24488,7 @@ uklon5-asavpn-fw2.mini.de. A 0.0.0.0
 
 
 
+https-pt-m-wikipedia-org-5-8.mini.de. A 0.0.0.0
 
 
 
@@ -25210,7 +25214,6 @@ uklon5-asavpn-fw2.mini.de. A 0.0.0.0
 
 
 
-acc-lon6-cs5b02-1.mini.de. A 0.0.0.0
 
 
 
@@ -25804,8 +25807,10 @@ acc-lon6-cs5b02-1.mini.de. A 0.0.0.0
 
 
 
+upgrade-v2-labs-develip-git.mini.de. A 74.220.199.6
 
 
+identity-st-carry.mini.de. A 74.220.199.6
 
 
 
@@ -25955,7 +25960,6 @@ acc-lon6-cs5b02-1.mini.de. A 0.0.0.0
 
 
 
-https-es-m-wikipedia-org-08.mini.de. A 74.220.199.6
 
 
 
@@ -26258,7 +26262,6 @@ https-es-m-wikipedia-org-08.mini.de. A 74.220.199.6
 
 
 
-https-ar-m-wikipedia-org6.mini.de. A 0.0.0.0
 
 
 
@@ -26599,6 +26602,7 @@ https-ar-m-wikipedia-org6.mini.de. A 0.0.0.0
 
 
 
+ash2-accesspoint-a82.mini.de. A 74.220.199.6
 
 
 
@@ -26787,6 +26791,7 @@ https-ar-m-wikipedia-org6.mini.de. A 0.0.0.0
 
 
 
+sso-uat-west.mini.de. A 0.0.0.0
 
 
 
@@ -27046,7 +27051,6 @@ https-ar-m-wikipedia-org6.mini.de. A 0.0.0.0
 
 
 
-ipv4-c022-jnb001-ix.mini.de. A 74.220.199.6
 
 
 
@@ -27340,7 +27344,6 @@ ipv4-c022-jnb001-ix.mini.de. A 74.220.199.6
 
 
 
-94-77-8.mini.de. A 0.0.0.0
 
 
 
@@ -27594,7 +27597,6 @@ ipv4-c022-jnb001-ix.mini.de. A 74.220.199.6
 
 
 
-https-www-buzzfeed-com07.mini.de. A 74.220.199.6
 
 
 
@@ -27613,6 +27615,7 @@ https-www-buzzfeed-com07.mini.de. A 74.220.199.6
 
 
 
+sjc1-kafkamonitoring-a2.mini.de. A 0.0.0.0
 
 
 
@@ -28139,6 +28142,7 @@ https-www-buzzfeed-com07.mini.de. A 74.220.199.6
 
 
 
+ymoia45i-ios-4-3-2.mini.de. A 0.0.0.0
 
 
 
@@ -28636,7 +28640,6 @@ https-www-buzzfeed-com07.mini.de. A 74.220.199.6
 
 
 
-dev-parc-app-dashboard.mini.de. A 74.220.199.6
 
 
 
@@ -28662,7 +28665,6 @@ dev-parc-app-dashboard.mini.de. A 74.220.199.6
 
 
 
-www-6-0promo.mini.de. A 74.220.199.6
 
 
 
@@ -28899,6 +28901,7 @@ www-6-0promo.mini.de. A 74.220.199.6
 
 
 
+sto5-fantomextranscoder-b20.mini.de. A 74.220.199.6
 
 
 
@@ -30006,7 +30009,6 @@ www-6-0promo.mini.de. A 74.220.199.6
 
 
 
-35-8-94.mini.de. A 74.220.199.6
 
 
 
@@ -30594,6 +30596,7 @@ www-6-0promo.mini.de. A 74.220.199.6
 
 
 
+ma-sbstg-lapp15.mini.de. A 0.0.0.0
 
 
 
@@ -30784,6 +30787,7 @@ www-6-0promo.mini.de. A 74.220.199.6
 
 
 
+45-7-45.mini.de. A 74.220.199.6
 
 
 
@@ -30818,6 +30822,7 @@ www-6-0promo.mini.de. A 74.220.199.6
 
 
 
+5-2-4.mini.de. A 0.0.0.0
 
 
 
@@ -30832,6 +30837,7 @@ www-6-0promo.mini.de. A 74.220.199.6
 
 
 
+xe-0-3-0-0.mini.de. A 74.220.199.6
 
 
 
@@ -30893,7 +30899,6 @@ www-6-0promo.mini.de. A 74.220.199.6
 
 
 
-uat-esp-notifications-api.mini.de. A 74.220.199.6
 
 
 
@@ -31666,7 +31671,6 @@ uat-esp-notifications-api.mini.de. A 74.220.199.6
 
 
 
-rsw6-2-prd.mini.de. A 74.220.199.6
 
 
 
@@ -32168,7 +32172,6 @@ rsw6-2-prd.mini.de. A 74.220.199.6
 
 
 
-https-en-m-wikipedia-org5-8.mini.de. A 74.220.199.6
 
 
 
@@ -32354,7 +32357,6 @@ https-en-m-wikipedia-org5-8.mini.de. A 74.220.199.6
 
 
 
-accessupdate-api-cp-csimgshare.mini.de. A 0.0.0.0
 
 
 
@@ -32620,6 +32622,7 @@ accessupdate-api-cp-csimgshare.mini.de. A 0.0.0.0
 
 
 
+acc-sto3-z8r501-1.mini.de. A 74.220.199.6
 
 
 
@@ -32635,6 +32638,7 @@ accessupdate-api-cp-csimgshare.mini.de. A 0.0.0.0
 
 
 
+http-m-olx-co-id25.mini.de. A 74.220.199.6
 
 
 
@@ -32946,6 +32950,7 @@ accessupdate-api-cp-csimgshare.mini.de. A 0.0.0.0
 
 
 
+mail-backend-delivery-config.mini.de. A 0.0.0.0
 
 
 
@@ -33027,7 +33032,6 @@ accessupdate-api-cp-csimgshare.mini.de. A 0.0.0.0
 
 
 
-http-telenornews-pk47.mini.de. A 74.220.199.6
 
 
 
@@ -33130,6 +33134,7 @@ http-telenornews-pk47.mini.de. A 74.220.199.6
 
 
 
+http-www-rappler-com-6-5.mini.de. A 104.109.250.59
 
 
 
@@ -33666,7 +33671,6 @@ http-telenornews-pk47.mini.de. A 74.220.199.6
 
 
 
-triagetaxprofile-iso-prdws.mini.de. A 74.220.199.6
 
 
 
@@ -33708,6 +33712,7 @@ triagetaxprofile-iso-prdws.mini.de. A 74.220.199.6
 
 
 
+dllsosr01-gex3-1.mini.de. A 74.220.199.6
 
 
 
@@ -33983,7 +33988,6 @@ triagetaxprofile-iso-prdws.mini.de. A 74.220.199.6
 
 
 
-int-osb4-v-qa2.mini.de. A 74.220.199.6
 
 
 
@@ -34047,7 +34051,6 @@ int-osb4-v-qa2.mini.de. A 74.220.199.6
 
 
 
-cl-data-sg.mini.de. A 74.220.199.6
 
 
 
@@ -34284,7 +34287,6 @@ cl-data-sg.mini.de. A 74.220.199.6
 
 
 
-jrss-215-74-89-69.mini.de. A 0.0.0.0
 
 
 
@@ -34309,7 +34311,6 @@ jrss-215-74-89-69.mini.de. A 0.0.0.0
 
 
 
-ipv4-c001-oma002-centurylink-isp.mini.de. A 0.0.0.0
 
 
 
@@ -34319,7 +34320,6 @@ ipv4-c001-oma002-centurylink-isp.mini.de. A 0.0.0.0
 
 
 
-dcl15-ncg1-c3-itm3.mini.de. A 0.0.0.0
 
 
 
@@ -34402,7 +34402,6 @@ dcl15-ncg1-c3-itm3.mini.de. A 0.0.0.0
 
 
 
-caesar-e6-1-00.mini.de. A 0.0.0.0
 
 
 
@@ -34429,7 +34428,6 @@ caesar-e6-1-00.mini.de. A 0.0.0.0
 
 
 
-boost-web-forms-nonhex-prod-eu.mini.de. A 0.0.0.0
 
 
 
@@ -34874,6 +34872,7 @@ boost-web-forms-nonhex-prod-eu.mini.de. A 0.0.0.0
 
 
 
+lon2-appstore-a8.mini.de. A 0.0.0.0
 
 
 
@@ -34923,6 +34922,7 @@ boost-web-forms-nonhex-prod-eu.mini.de. A 0.0.0.0
 
 
 
+origin-test-business.mini.de. A 74.220.199.6
 
 
 
@@ -34965,7 +34965,6 @@ boost-web-forms-nonhex-prod-eu.mini.de. A 0.0.0.0
 
 
 
-65-2-9-1.mini.de. A 74.220.199.6
 
 
 
@@ -35088,7 +35087,6 @@ boost-web-forms-nonhex-prod-eu.mini.de. A 0.0.0.0
 
 
 
-ardo2.mini.de. A 74.220.199.6
 
 
 
@@ -35348,7 +35346,6 @@ ardo2.mini.de. A 74.220.199.6
 
 
 
-4-09-1.mini.de. A 0.0.0.0
 
 
 
@@ -35907,6 +35904,7 @@ ardo2.mini.de. A 74.220.199.6
 
 
 
+75-72-92.mini.de. A 0.0.0.0
 
 
 
@@ -35950,6 +35948,7 @@ ardo2.mini.de. A 74.220.199.6
 
 
 
+dev-database-antiviruspre.mini.de. A 74.220.199.6
 
 
 
@@ -36028,6 +36027,7 @@ ardo2.mini.de. A 74.220.199.6
 
 
 
+155-9-56-20.mini.de. A 0.0.0.0
 
 
 
@@ -36689,6 +36689,7 @@ ardo2.mini.de. A 74.220.199.6
 
 
 
+dbmsmail-105-use2.mini.de. A 74.220.199.6
 
 
 
@@ -36911,6 +36912,7 @@ ardo2.mini.de. A 74.220.199.6
 
 
 
+bigmango1.mini.de. A 74.220.199.6
 
 
 
@@ -36986,6 +36988,7 @@ ardo2.mini.de. A 74.220.199.6
 
 
 
+test-proj-qa-fsqxlu.mini.de. A 74.220.199.6
 
 
 
@@ -37366,7 +37369,6 @@ ardo2.mini.de. A 74.220.199.6
 
 
 
-taxspl.mini.de. A 0.0.0.0
 
 
 
@@ -38041,6 +38043,7 @@ taxspl.mini.de. A 0.0.0.0
 
 
 
+sto3-census-a4.mini.de. A 74.220.199.6
 
 
 
@@ -38470,7 +38473,6 @@ taxspl.mini.de. A 0.0.0.0
 
 
 
-sjc1-kafka-a2.mini.de. A 0.0.0.0
 
 
 
@@ -39141,6 +39143,7 @@ sjc1-kafka-a2.mini.de. A 0.0.0.0
 
 
 
+public-zbbpmlg6we56bueu.mini.de. A 104.109.250.59
 
 
 
@@ -39467,7 +39470,6 @@ sjc1-kafka-a2.mini.de. A 0.0.0.0
 
 
 
-www76sdk-0-7-4.mini.de. A 0.0.0.0
 
 
 
@@ -39656,6 +39658,7 @@ www76sdk-0-7-4.mini.de. A 0.0.0.0
 
 
 
+moloch-black-mtc04.mini.de. A 0.0.0.0
 
 
 
@@ -39735,6 +39738,7 @@ www76sdk-0-7-4.mini.de. A 0.0.0.0
 
 
 
+taxi-ge-phonereg1.mini.de. A 74.220.199.6
 
 
 
@@ -39751,6 +39755,7 @@ www76sdk-0-7-4.mini.de. A 0.0.0.0
 
 
 
+lon3-weblogin-a1.mini.de. A 0.0.0.0
 
 
 
@@ -40199,6 +40204,7 @@ www76sdk-0-7-4.mini.de. A 0.0.0.0
 
 
 
+tor271-327-gra.mini.de. A 104.109.250.59
 
 
 
@@ -40469,7 +40475,6 @@ www76sdk-0-7-4.mini.de. A 0.0.0.0
 
 
 
-iam-user-authn-feature-session-h.mini.de. A 0.0.0.0
 
 
 
@@ -40492,7 +40497,6 @@ iam-user-authn-feature-session-h.mini.de. A 0.0.0.0
 
 
 
-stag-v7-prometheus.mini.de. A 0.0.0.0
 
 
 
@@ -41388,7 +41392,6 @@ stag-v7-prometheus.mini.de. A 0.0.0.0
 
 
 
-24-02-1.mini.de. A 0.0.0.0
 
 
 
@@ -41447,7 +41450,6 @@ stag-v7-prometheus.mini.de. A 0.0.0.0
 
 
 
-ipv4-c002-den001-dev-ix.mini.de. A 0.0.0.0
 
 
 
@@ -42256,6 +42258,7 @@ ipv4-c002-den001-dev-ix.mini.de. A 0.0.0.0
 
 
 
+http-www-olx-co-za95.mini.de. A 104.109.250.59
 
 
 
@@ -43359,7 +43362,6 @@ ipv4-c002-den001-dev-ix.mini.de. A 0.0.0.0
 
 
 
-lon2-pstorage-a39.mini.de. A 0.0.0.0
 
 
 
@@ -43466,7 +43468,6 @@ lon2-pstorage-a39.mini.de. A 0.0.0.0
 
 
 
-dmp-dev-analyticsui-s3.mini.de. A 0.0.0.0
 
 
 
@@ -43551,6 +43552,7 @@ dmp-dev-analyticsui-s3.mini.de. A 0.0.0.0
 
 
 
+fremont-18-26.mini.de. A 104.109.250.59
 
 
 
@@ -43785,7 +43787,6 @@ dmp-dev-analyticsui-s3.mini.de. A 0.0.0.0
 
 
 
-cluster-71ac141e-1e17-4.mini.de. A 74.220.199.6
 
 
 
@@ -44024,6 +44025,7 @@ cluster-71ac141e-1e17-4.mini.de. A 74.220.199.6
 
 
 
+baiduspider-180-149-133-60.mini.de. A 0.0.0.0
 
 
 
@@ -44508,7 +44510,6 @@ cluster-71ac141e-1e17-4.mini.de. A 74.220.199.6
 
 
 
-baiduspider-116-179-32-7.mini.de. A 0.0.0.0
 
 
 
@@ -44713,10 +44714,12 @@ baiduspider-116-179-32-7.mini.de. A 0.0.0.0
 
 
 
+lon2-pstorage-a19.mini.de. A 74.220.199.6
 
 
 
 
+lon2-metadataproxy-a2.mini.de. A 74.220.199.6
 
 
 
@@ -45016,6 +45019,7 @@ baiduspider-116-179-32-7.mini.de. A 0.0.0.0
 
 
 
+fremont-13-14.mini.de. A 0.0.0.0
 
 
 
@@ -45091,6 +45095,7 @@ baiduspider-116-179-32-7.mini.de. A 0.0.0.0
 
 
 
+56-5-7-9.mini.de. A 0.0.0.0
 
 
 
@@ -45572,7 +45577,6 @@ baiduspider-116-179-32-7.mini.de. A 0.0.0.0
 
 
 
-tesla-740-5.mini.de. A 0.0.0.0
 
 
 
@@ -45686,15 +45690,18 @@ tesla-740-5.mini.de. A 0.0.0.0
 
 
 
+ash2-enapianalyzer-a2.mini.de. A 0.0.0.0
 
 
 
 
 
 
+es155-nb-17.mini.de. A 0.0.0.0
 
 
 
+fresh-https-en-m-wikipedia-org40.mini.de. A 0.0.0.0
 
 
 
@@ -45839,7 +45846,6 @@ tesla-740-5.mini.de. A 0.0.0.0
 
 
 
-s6-preprod-ru.mini.de. A 74.220.199.6
 
 
 
@@ -46428,7 +46434,6 @@ s6-preprod-ru.mini.de. A 74.220.199.6
 
 
 
-seats-ui-components.mini.de. A 0.0.0.0
 
 
 
@@ -47376,7 +47381,6 @@ seats-ui-components.mini.de. A 0.0.0.0
 
 
 
-www-1-85.mini.de. A 74.220.199.6
 
 
 
@@ -48790,7 +48794,6 @@ www-1-85.mini.de. A 74.220.199.6
 
 
 
-56-0-6.mini.de. A 0.0.0.0
 
 
 
@@ -49026,6 +49029,7 @@ www-1-85.mini.de. A 74.220.199.6
 
 
 
+51-7-5-7.mini.de. A 104.109.250.59
 
 
 
@@ -49125,7 +49129,6 @@ www-1-85.mini.de. A 74.220.199.6
 
 
 
-https-abs-twimg-com-1-3.mini.de. A 0.0.0.0
 
 
 
@@ -49362,6 +49365,7 @@ https-abs-twimg-com-1-3.mini.de. A 0.0.0.0
 
 
 
+acura-sentra-7.mini.de. A 104.109.250.59
 
 
 
@@ -49457,7 +49461,6 @@ https-abs-twimg-com-1-3.mini.de. A 0.0.0.0
 
 
 
-cluster-52fff824-c43f-4.mini.de. A 74.220.199.6
 
 
 
@@ -49599,6 +49602,7 @@ cluster-52fff824-c43f-4.mini.de. A 74.220.199.6
 
 
 
+ausdco-01-26.mini.de. A 74.220.199.6
 
 
 
@@ -49711,7 +49715,6 @@ cluster-52fff824-c43f-4.mini.de. A 74.220.199.6
 
 
 
-95-2-5.mini.de. A 0.0.0.0
 
 
 
@@ -49772,7 +49775,6 @@ cluster-52fff824-c43f-4.mini.de. A 74.220.199.6
 
 
 
-hstest-apigw-clin.mini.de. A 74.220.199.6
 
 
 
@@ -49961,6 +49963,7 @@ hstest-apigw-clin.mini.de. A 74.220.199.6
 
 
 
+moloch-egress-mil03.mini.de. A 104.109.250.59
 
 
 

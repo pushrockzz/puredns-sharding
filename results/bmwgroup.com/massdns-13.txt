@@ -1277,6 +1277,7 @@
 
 
 
+mss-fra02-ngw-11b-eth3.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -1290,7 +1291,6 @@
 
 
 
-idsru-preview-payment.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -2382,6 +2382,7 @@ idsru-preview-payment.bmwgroup.com. A 74.220.199.6
 
 
 
+error-s3-v4data-log-b2bsystem.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -3313,7 +3314,6 @@ idsru-preview-payment.bmwgroup.com. A 74.220.199.6
 
 
 
-17-58-97-18.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -3551,6 +3551,7 @@ idsru-preview-payment.bmwgroup.com. A 74.220.199.6
 
 
 
+332-5-5.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -4083,6 +4084,7 @@ idsru-preview-payment.bmwgroup.com. A 74.220.199.6
 
 
 
+user-chef-development.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -6063,6 +6065,7 @@ idsru-preview-payment.bmwgroup.com. A 74.220.199.6
 
 
 
+h-135-207-38-36.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -6446,6 +6449,7 @@ idsru-preview-payment.bmwgroup.com. A 74.220.199.6
 
 
 
+atl-stg-sjoyweb-01a.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -6926,6 +6930,7 @@ idsru-preview-payment.bmwgroup.com. A 74.220.199.6
 
 
 
+host-214-18-26-67.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -7831,6 +7836,7 @@ idsru-preview-payment.bmwgroup.com. A 74.220.199.6
 
 
 
+ccpdb-po-13p.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -8000,7 +8006,6 @@ idsru-preview-payment.bmwgroup.com. A 74.220.199.6
 
 
 
-host-214-60-124-30.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -9026,6 +9031,7 @@ host-214-60-124-30.bmwgroup.com. A 74.220.199.6
 
 
 
+p1-sy-iad-servlet-proxy.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -9499,6 +9505,7 @@ host-214-60-124-30.bmwgroup.com. A 74.220.199.6
 
 
 
+video-team-new-static.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -11547,7 +11554,6 @@ host-214-60-124-30.bmwgroup.com. A 74.220.199.6
 
 
 
-sjc1-bartenderservice-a4.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -13540,7 +13546,6 @@ sjc1-bartenderservice-a4.bmwgroup.com. A 74.220.199.6
 
 
 
-g-admin-api.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -13630,7 +13635,6 @@ g-admin-api.bmwgroup.com. A 74.220.199.6
 
 
 
-debug-jirav1-oceania-mx.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -13956,6 +13960,7 @@ debug-jirav1-oceania-mx.bmwgroup.com. A 74.220.199.6
 
 
 
+api-ause1b.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -14518,6 +14523,7 @@ debug-jirav1-oceania-mx.bmwgroup.com. A 74.220.199.6
 
 
 
+ipv6-c097-mia006-ix.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -14572,7 +14578,6 @@ debug-jirav1-oceania-mx.bmwgroup.com. A 74.220.199.6
 
 
 
-jenkins-sr-b-1-hsrp-20.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -15049,6 +15054,7 @@ jenkins-sr-b-1-hsrp-20.bmwgroup.com. A 74.220.199.6
 
 
 
+17-121-124-83.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -15079,6 +15085,7 @@ jenkins-sr-b-1-hsrp-20.bmwgroup.com. A 74.220.199.6
 
 
 
+www-8-2billing.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -15616,7 +15623,6 @@ jenkins-sr-b-1-hsrp-20.bmwgroup.com. A 74.220.199.6
 
 
 
-gsp-ssl-vb11.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -16585,7 +16591,6 @@ gsp-ssl-vb11.bmwgroup.com. A 74.220.199.6
 
 
 
-rcx-ise-02.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -17067,7 +17072,6 @@ rcx-ise-02.bmwgroup.com. A 74.220.199.6
 
 
 
-kibana-rezempledger.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -17086,7 +17090,6 @@ kibana-rezempledger.bmwgroup.com. A 74.220.199.6
 
 
 
-new-update-oceania-mx.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -17482,7 +17485,6 @@ new-update-oceania-mx.bmwgroup.com. A 74.220.199.6
 
 
 
-ie-choke-gw2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -17589,7 +17591,6 @@ ie-choke-gw2.bmwgroup.com. A 74.220.199.6
 
 
 
-milestone-matching-review.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -17604,7 +17605,6 @@ milestone-matching-review.bmwgroup.com. A 74.220.199.6
 
 
 
-wwww-staging-admin-ssp.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -18053,6 +18053,7 @@ wwww-staging-admin-ssp.bmwgroup.com. A 74.220.199.6
 
 
 
+tor838-pda.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -18537,9 +18538,9 @@ wwww-staging-admin-ssp.bmwgroup.com. A 74.220.199.6
 
 
 
+h135-197-236-51.bmwgroup.com. A 74.220.199.6
 
 
-https-universal-teachme-com-1-0.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -19110,7 +19111,6 @@ https-universal-teachme-com-1-0.bmwgroup.com. A 74.220.199.6
 
 
 
-h-135-207-176-99.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -19632,7 +19632,6 @@ h-135-207-176-99.bmwgroup.com. A 74.220.199.6
 
 
 
-wikimainegeneral.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -20097,6 +20096,7 @@ wikimainegeneral.bmwgroup.com. A 74.220.199.6
 
 
 
+dcae-ordi-ftl.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -21047,7 +21047,6 @@ wikimainegeneral.bmwgroup.com. A 74.220.199.6
 
 
 
-eth-0-1-p12.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -21628,6 +21627,7 @@ eth-0-1-p12.bmwgroup.com. A 74.220.199.6
 
 
 
+sto5-fantomextranscoder-b2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -21702,7 +21702,6 @@ eth-0-1-p12.bmwgroup.com. A 74.220.199.6
 
 
 
-system-customers-share.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -26097,6 +26096,7 @@ system-customers-share.bmwgroup.com. A 74.220.199.6
 
 
 
+redirect-container-www-test.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -26660,6 +26660,7 @@ system-customers-share.bmwgroup.com. A 74.220.199.6
 
 
 
+daewoo-leganza-9.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -28244,7 +28245,6 @@ system-customers-share.bmwgroup.com. A 74.220.199.6
 
 
 
-europe-environnement.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -28728,7 +28728,6 @@ europe-environnement.bmwgroup.com. A 74.220.199.6
 
 
 
-sto3-optout-a3.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -30782,7 +30781,6 @@ sto3-optout-a3.bmwgroup.com. A 74.220.199.6
 
 
 
-helpdesk-static-exchangedns.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -31231,7 +31229,6 @@ helpdesk-static-exchangedns.bmwgroup.com. A 74.220.199.6
 
 
 
-landrover-canyon-6.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -32166,7 +32163,6 @@ landrover-canyon-6.bmwgroup.com. A 74.220.199.6
 
 
 
-id-ds-m10.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -32736,6 +32732,7 @@ id-ds-m10.bmwgroup.com. A 74.220.199.6
 
 
 
+eth-5-20-bas2-1-apg.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -33782,6 +33779,7 @@ id-ds-m10.bmwgroup.com. A 74.220.199.6
 
 
 
+dq-qa-pod1.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -36247,7 +36245,6 @@ id-ds-m10.bmwgroup.com. A 74.220.199.6
 
 
 
-c-heatmap-test.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -37770,7 +37767,6 @@ c-heatmap-test.bmwgroup.com. A 74.220.199.6
 
 
 
-gsp97-kittyhawk-ci77-ssl.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -38717,6 +38713,7 @@ gsp97-kittyhawk-ci77-ssl.bmwgroup.com. A 74.220.199.6
 
 
 
+157-5-7.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -39266,7 +39263,6 @@ gsp97-kittyhawk-ci77-ssl.bmwgroup.com. A 74.220.199.6
 
 
 
-jrss-215-70-67-47.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -39283,7 +39279,6 @@ jrss-215-70-67-47.bmwgroup.com. A 74.220.199.6
 
 
 
-xe-2-3-2.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -39349,7 +39344,6 @@ xe-2-3-2.bmwgroup.com. A 74.220.199.6
 
 
 
-fra02-prd-kubmin-01b.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -40833,6 +40827,7 @@ fra02-prd-kubmin-01b.bmwgroup.com. A 74.220.199.6
 
 
 
+happywheels-unblocked.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -41633,6 +41628,7 @@ fra02-prd-kubmin-01b.bmwgroup.com. A 74.220.199.6
 
 
 
+sto3-pstorage-a3.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -42223,6 +42219,7 @@ fra02-prd-kubmin-01b.bmwgroup.com. A 74.220.199.6
 
 
 
+iiwc4-ui-da.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -43351,7 +43348,6 @@ fra02-prd-kubmin-01b.bmwgroup.com. A 74.220.199.6
 
 
 
-dv-acss-es-na.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -44274,7 +44270,6 @@ dv-acss-es-na.bmwgroup.com. A 74.220.199.6
 
 
 
-https-www-buzzfeed-com-31.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -44881,6 +44876,7 @@ https-www-buzzfeed-com-31.bmwgroup.com. A 74.220.199.6
 
 
 
+www-naij-com-15.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -45262,7 +45258,6 @@ https-www-buzzfeed-com-31.bmwgroup.com. A 74.220.199.6
 
 
 
-kotlin-bff-microservice-template.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -45385,6 +45380,7 @@ kotlin-bff-microservice-template.bmwgroup.com. A 74.220.199.6
 
 
 
+56-76-4.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -45837,7 +45833,6 @@ kotlin-bff-microservice-template.bmwgroup.com. A 74.220.199.6
 
 
 
-ipv4-c002-lcy004-talktalk-isp.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -46207,6 +46202,7 @@ ipv4-c002-lcy004-talktalk-isp.bmwgroup.com. A 74.220.199.6
 
 
 
+aeon-test-03.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -46703,7 +46699,6 @@ ipv4-c002-lcy004-talktalk-isp.bmwgroup.com. A 74.220.199.6
 
 
 
-cfserviceqa.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -47334,7 +47329,6 @@ cfserviceqa.bmwgroup.com. A 74.220.199.6
 
 
 
-mobile-qal-qydc.bmwgroup.com. A 74.220.199.6
 
 
 
@@ -47438,6 +47432,7 @@ mobile-qal-qydc.bmwgroup.com. A 74.220.199.6
 
 
 
+bcavett18.bmwgroup.com. A 104.109.250.59
 
 
 
@@ -47607,7 +47602,6 @@ mobile-qal-qydc.bmwgroup.com. A 74.220.199.6
 
 
 
-bwms.bmwgroup.com. A 160.46.244.26
 
 
 
@@ -48934,7 +48928,6 @@ bwms.bmwgroup.com. A 160.46.244.26
 
 
 
-aptera-rs-8.bmwgroup.com. A 74.220.199.6
 
 
 
