@@ -8,7 +8,7 @@ on:
         required: true
         default: '0'
       total_chunks:
-        description: 'DEPRECATED: Total chunks is now auto-detected.'
+        description: 'Total chunks is now auto-detected.'
         required: false
         default: '8'
       run_counter:
@@ -233,12 +233,11 @@ jobs:
 
             echo "[shard $CHUNK_INDEX] bruteforcing $domain, outputting to $ROOT_DOMAIN_DIR/"
             cat "$CHUNK_FILE" | puredns bruteforce "$domain" -r "$RESOLVERS" --rate-limit 5000 --rate-limit-trusted 2000 \
-              --resolvers-trusted "$RESOLVERS_TRUSTED"
+              --resolvers-trusted "$RESOLVERS_TRUSTED" \
               --wildcard-tests 300 --wildcard-batch 100000 \
               --write "$PUREDNS_FILE" \
               --write-wildcards "$WILDCARD_FILE" \
-              --write-massdns "$MASSDNS_FILE" \
-              --quiet
+              --write-massdns "$MASSDNS_FILE" 
           done < "$DOMAIN_FILE"
 
       - name: (Optional) Commit results back to repo
