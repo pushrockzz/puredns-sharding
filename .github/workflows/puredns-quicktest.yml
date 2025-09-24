@@ -24,9 +24,9 @@ on:
         required: false
         default: '50000'
       domains_count:
-        description: 'How many test domains to generate (default = 10)'
+        description: 'How many test domains to generate (default = 5)'
         required: false
-        default: '6'
+        default: '5'
 
 env:
   WORKFLOW_FILE: puredns-quicktest.yml
