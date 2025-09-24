@@ -629,6 +629,7 @@
 
 
 
+5o7brbeivd-dsn.bmw.com. A 23.213.186.155
 
 
 
@@ -1078,7 +1079,6 @@
 
 
 
-5bd2.bmw.com. A 74.220.199.6
 
 
 
@@ -1414,6 +1414,7 @@
 
 
 
+51fevernote.bmw.com. A 74.220.199.6
 
 
 
@@ -1607,6 +1608,7 @@
 
 
 
+5-23-58-61ss.bmw.com. A 74.220.199.6
 
 
 
@@ -1629,7 +1631,6 @@
 
 
 
-6eqiwq.bmw.com. A 74.220.199.6
 
 
 
@@ -3911,6 +3912,7 @@
 
 
 
+4c755f.bmw.com. A 23.213.186.155
 
 
 
@@ -5106,7 +5108,6 @@
 
 
 
-450-6.bmw.com. A 74.220.199.6
 
 
 
@@ -5780,6 +5781,7 @@
 
 
 
+40mwunan3m-dsn.bmw.com. A 23.213.186.155
 
 
 
@@ -5924,6 +5926,7 @@
 
 
 
+453fgraph.bmw.com. A 74.220.199.6
 
 
 
@@ -6420,6 +6423,7 @@
 
 
 
+4-58-7.bmw.com. A 23.213.186.155
 
 
 
@@ -7568,7 +7572,6 @@
 
 
 
-43global.bmw.com. A 74.220.199.6
 
 
 
@@ -7599,7 +7602,6 @@
 
 
 
-50five.bmw.com. A 74.220.199.6
 
 
 
@@ -9270,6 +9272,7 @@
 
 
 
+652f6-9.bmw.com. A 23.213.186.155
 
 
 
@@ -9881,6 +9884,7 @@
 
 
 
+3-29.bmw.com. A 23.213.186.155
 
 
 
@@ -10276,6 +10280,7 @@
 
 
 
+2lxnllupic.bmw.com. A 23.213.186.155
 
 
 
@@ -10334,6 +10339,7 @@
 
 
 
+2k2ajitpnu-3.bmw.com. A 74.220.199.6
 
 
 
@@ -10705,6 +10711,7 @@
 
 
 
+39da80bf.bmw.com. A 23.213.186.155
 
 
 
@@ -10984,6 +10991,7 @@
 
 
 
+2fmedium1.bmw.com. A 23.213.186.155
 
 
 
@@ -11136,7 +11144,6 @@
 
 
 
-4c6c.bmw.com. A 74.220.199.6
 
 
 
@@ -12671,7 +12678,6 @@
 
 
 
-431-26.bmw.com. A 74.220.199.6
 
 
 
@@ -14466,6 +14472,7 @@
 
 
 
+3starstudioarts.bmw.com. A 23.213.186.155
 
 
 
@@ -16659,7 +16666,6 @@
 
 
 
-752e.bmw.com. A 74.220.199.6
 
 
 
@@ -16994,6 +17000,7 @@
 
 
 
+650-1.bmw.com. A 23.213.186.155
 
 
 
@@ -17779,6 +17786,7 @@
 
 
 
+207-171-168-88.bmw.com. A 23.213.186.155
 
 
 
@@ -18245,6 +18253,7 @@
 
 
 
+2lxeil2.bmw.com. A 23.213.186.155
 
 
 
@@ -18752,7 +18761,6 @@
 
 
 
-178-119-254-1s.bmw.com. A 74.220.199.6
 
 
 
@@ -20202,7 +20210,6 @@
 
 
 
-1fgraph7.bmw.com. A 74.220.199.6
 
 
 
@@ -23435,6 +23442,7 @@
 
 
 
+100mile.bmw.com. A 23.213.186.155
 
 
 
@@ -23982,6 +23990,7 @@
 
 
 
+0patchhelp.bmw.com. A 23.213.186.155
 
 
 
@@ -26431,6 +26440,7 @@
 
 
 
+0mpany.bmw.com. A 23.213.186.155
 
 
 
@@ -26449,6 +26459,7 @@
 
 
 
+020f3bce.bmw.com. A 23.213.186.155
 
 
 
@@ -29332,6 +29343,7 @@
 
 
 
+146-static.bmw.com. A 74.220.199.6
 
 
 
@@ -31223,7 +31235,6 @@
 
 
 
-1-80-1.bmw.com. A 74.220.199.6
 
 
 
@@ -31577,6 +31588,7 @@
 
 
 
+p33-ckdatabasews-ds.bmw.com. A 23.213.186.155
 
 
 
@@ -32379,6 +32391,7 @@
 
 
 
+000pic.bmw.com. A 74.220.199.6
 
 
 
@@ -34692,6 +34705,7 @@
 
 
 
+tor190-215-pda.bmw.com. A 23.213.186.155
 
 
 
@@ -35915,7 +35929,6 @@
 
 
 
-beta-new-auth-devenv-miembros.bmw.com. A 74.220.199.6
 
 
 
@@ -36504,6 +36517,7 @@ beta-new-auth-devenv-miembros.bmw.com. A 74.220.199.6
 
 
 
+internal-sftpstart-clients.bmw.com. A 23.213.186.155
 
 
 
@@ -37929,7 +37943,6 @@ beta-new-auth-devenv-miembros.bmw.com. A 74.220.199.6
 
 
 
-user-api-statusapiconfig-share.bmw.com. A 74.220.199.6
 
 
 
@@ -38061,6 +38074,7 @@ user-api-statusapiconfig-share.bmw.com. A 74.220.199.6
 
 
 
+vm1-stt-win.bmw.com. A 23.213.186.155
 
 
 
@@ -38836,7 +38850,6 @@ user-api-statusapiconfig-share.bmw.com. A 74.220.199.6
 
 
 
-auth-accounts-sftp.bmw.com. A 74.220.199.6
 
 
 
@@ -40477,6 +40490,7 @@ auth-accounts-sftp.bmw.com. A 74.220.199.6
 
 
 
+155-9-191-77.bmw.com. A 23.213.186.155
 
 
 
@@ -40640,6 +40654,7 @@ auth-accounts-sftp.bmw.com. A 74.220.199.6
 
 
 
+spn1-4-gre.bmw.com. A 23.213.186.155
 
 
 
@@ -42880,7 +42895,6 @@ auth-accounts-sftp.bmw.com. A 74.220.199.6
 
 
 
-07-6.bmw.com. A 74.220.199.6
 
 
 
@@ -42962,7 +42976,6 @@ auth-accounts-sftp.bmw.com. A 74.220.199.6
 
 
 
-autodandomain-certlererfig-lab.bmw.com. A 74.220.199.6
 
 
 
@@ -44118,6 +44131,7 @@ autodandomain-certlererfig-lab.bmw.com. A 74.220.199.6
 
 
 
+lee-132-159-145-89.bmw.com. A 23.213.186.155
 
 
 
@@ -44499,6 +44513,7 @@ autodandomain-certlererfig-lab.bmw.com. A 74.220.199.6
 
 
 
+wrair-141-236-233-43.bmw.com. A 23.213.186.155
 
 
 
@@ -45990,6 +46005,7 @@ autodandomain-certlererfig-lab.bmw.com. A 74.220.199.6
 
 
 
+preferences-connect-dns.bmw.com. A 74.220.199.6
 
 
 
@@ -48121,6 +48137,7 @@ autodandomain-certlererfig-lab.bmw.com. A 74.220.199.6
 
 
 
+upgrade-backupweb01-p.bmw.com. A 74.220.199.6
 
 
 
