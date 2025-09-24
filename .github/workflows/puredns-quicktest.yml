@@ -184,7 +184,6 @@ jobs:
               --write "$PUREDNS_FILE" --write-wildcards "$WILDCARD_FILE" --write-massdns "$MASSDNS_FILE"
           done < "domains/domains.txt"
       - name: (Optional) Commit results back to repo
-        if: secrets.PAT_TOKEN != ''
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
