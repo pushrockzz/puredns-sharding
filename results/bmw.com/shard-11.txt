@@ -1,0 +1,6 @@
+aero.bmw.com
+amc-test.bmw.com
+api-dev2.bmw.com
+api-dev1.bmw.com
+amos.bmw.com
+api-int.bmw.com
