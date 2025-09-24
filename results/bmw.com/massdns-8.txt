@@ -216,7 +216,6 @@
 
 
 
-events19-stage.bmw.com. A 74.220.199.6
 
 
 
@@ -2332,7 +2331,6 @@ events19-stage.bmw.com. A 74.220.199.6
 
 
 
-exclusive-na.bmw.com. A 74.220.199.6
 
 
 
@@ -2631,6 +2629,7 @@ exclusive-na.bmw.com. A 74.220.199.6
 
 
 
+esgsts-qa.bmw.com. A 23.55.222.104
 
 
 
@@ -3980,6 +3979,7 @@ exclusive-na.bmw.com. A 74.220.199.6
 
 
 
+erp-uat-ext.bmw.com. A 23.55.222.104
 
 
 
@@ -4578,6 +4578,7 @@ exclusive-na.bmw.com. A 74.220.199.6
 
 
 
+evelynn43api-mirror.bmw.com. A 23.55.222.104
 
 
 
@@ -4710,6 +4711,7 @@ exclusive-na.bmw.com. A 74.220.199.6
 
 
 
+equipmentdevelopmentform-d.bmw.com. A 23.55.222.104
 
 
 
@@ -7399,7 +7401,6 @@ exclusive-na.bmw.com. A 74.220.199.6
 
 
 
-enablement-data-hub.bmw.com. A 74.220.199.6
 
 
 
@@ -7482,6 +7483,7 @@ enablement-data-hub.bmw.com. A 74.220.199.6
 
 
 
+emrose.bmw.com. A 74.220.199.6
 
 
 
@@ -7617,6 +7619,7 @@ enablement-data-hub.bmw.com. A 74.220.199.6
 
 
 
+etracsdevw.bmw.com. A 23.55.222.104
 
 
 
@@ -7675,6 +7678,7 @@ enablement-data-hub.bmw.com. A 74.220.199.6
 
 
 
+eoty72ere8-1.bmw.com. A 23.55.222.104
 
 
 
@@ -8504,7 +8508,6 @@ enablement-data-hub.bmw.com. A 74.220.199.6
 
 
 
-enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
@@ -8530,6 +8533,7 @@ enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
+enterprisabcd.bmw.com. A 74.220.199.6
 
 
 
@@ -9001,6 +9005,7 @@ enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
+euportal.bmw.com. A 74.220.199.6
 
 
 
@@ -9091,6 +9096,7 @@ enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
+enterprisehacker.bmw.com. A 118.26.48.245
 
 
 
@@ -9953,6 +9959,7 @@ enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
+exellia.bmw.com. A 74.220.199.6
 
 
 
@@ -10037,6 +10044,7 @@ enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
+epo1.bmw.com. A 23.55.222.104
 
 
 
@@ -11530,6 +11538,7 @@ enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
+em1x-42.bmw.com. A 74.220.199.6
 
 
 
@@ -11556,6 +11565,7 @@ enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
+eglisemaranatha.bmw.com. A 74.220.199.6
 
 
 
@@ -12034,6 +12044,7 @@ enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
+encrypted-tbn.bmw.com. A 74.220.199.6
 
 
 
@@ -12553,6 +12564,7 @@ enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
+eeregraduate.bmw.com. A 74.220.199.6
 
 
 
@@ -13952,7 +13964,6 @@ enterprise-myspace.bmw.com. A 74.220.199.6
 
 
 
-egeannaberg.bmw.com. A 74.220.199.6
 
 
 
@@ -15020,7 +15031,6 @@ egeannaberg.bmw.com. A 74.220.199.6
 
 
 
-edgeatlas-shv-01-lht6.bmw.com. A 74.220.199.6
 
 
 
@@ -16017,7 +16027,6 @@ edgeatlas-shv-01-lht6.bmw.com. A 74.220.199.6
 
 
 
-erpofapyde.bmw.com. A 74.220.199.6
 
 
 
@@ -17058,7 +17067,6 @@ erpofapyde.bmw.com. A 74.220.199.6
 
 
 
-edgeray-cloudgaming-shv-01-gua1.bmw.com. A 74.220.199.6
 
 
 
@@ -18573,7 +18581,6 @@ edgeray-cloudgaming-shv-01-gua1.bmw.com. A 74.220.199.6
 
 
 
-edge-z-p4-shv-01-lax3.bmw.com. A 74.220.199.6
 
 
 
@@ -21084,7 +21091,6 @@ edge-z-p4-shv-01-lax3.bmw.com. A 74.220.199.6
 
 
 
-ecommerce-sg.bmw.com. A 74.220.199.6
 
 
 
@@ -21096,7 +21102,6 @@ ecommerce-sg.bmw.com. A 74.220.199.6
 
 
 
-edge-fwdproxy-4-bgp-01-fco1.bmw.com. A 74.220.199.6
 
 
 
@@ -22570,6 +22575,7 @@ edge-fwdproxy-4-bgp-01-fco1.bmw.com. A 74.220.199.6
 
 
 
+edge-mqtt-shv-01-xsp1.bmw.com. A 74.220.199.6
 
 
 
@@ -22706,6 +22712,7 @@ edge-fwdproxy-4-bgp-01-fco1.bmw.com. A 74.220.199.6
 
 
 
+ec-6.bmw.com. A 23.55.222.104
 
 
 
@@ -23019,7 +23026,6 @@ edge-fwdproxy-4-bgp-01-fco1.bmw.com. A 74.220.199.6
 
 
 
-eb60b04c.bmw.com. A 74.220.199.6
 
 
 
@@ -23608,6 +23614,7 @@ eb60b04c.bmw.com. A 74.220.199.6
 
 
 
+eagle-black-cbd-gummies.bmw.com. A 74.220.199.6
 
 
 
@@ -24134,7 +24141,6 @@ eb60b04c.bmw.com. A 74.220.199.6
 
 
 
-es-api.bmw.com. A 74.220.199.6
 
 
 
@@ -25165,6 +25171,7 @@ es-api.bmw.com. A 74.220.199.6
 
 
 
+ec7b.bmw.com. A 74.220.199.6
 
 
 
@@ -26096,6 +26103,7 @@ es-api.bmw.com. A 74.220.199.6
 
 
 
+e5ld7vze.bmw.com. A 74.220.199.6
 
 
 
@@ -26125,7 +26133,6 @@ es-api.bmw.com. A 74.220.199.6
 
 
 
-ebhs-129-33-168-14.bmw.com. A 74.220.199.6
 
 
 
@@ -26214,6 +26221,7 @@ ebhs-129-33-168-14.bmw.com. A 74.220.199.6
 
 
 
+ecs-mishmish.bmw.com. A 23.55.222.104
 
 
 
@@ -28182,6 +28190,7 @@ ebhs-129-33-168-14.bmw.com. A 74.220.199.6
 
 
 
+eaitran4.bmw.com. A 74.220.199.6
 
 
 
@@ -29203,7 +29212,6 @@ ebhs-129-33-168-14.bmw.com. A 74.220.199.6
 
 
 
-e-horizon.bmw.com. A 74.220.199.6
 
 
 
@@ -30728,6 +30736,7 @@ e-horizon.bmw.com. A 74.220.199.6
 
 
 
+dsmon.bmw.com. A 160.46.238.123
 
 
 
@@ -33167,7 +33176,6 @@ e-horizon.bmw.com. A 74.220.199.6
 
 
 
-dnsph.bmw.com. A 74.220.199.6
 
 
 
@@ -33182,7 +33190,6 @@ dnsph.bmw.com. A 74.220.199.6
 
 
 
-dreamcatcher2.bmw.com. A 74.220.199.6
 
 
 
@@ -33200,7 +33207,6 @@ dreamcatcher2.bmw.com. A 74.220.199.6
 
 
 
-dpar.bmw.com. A 74.220.199.6
 
 
 
@@ -34154,7 +34160,6 @@ dpar.bmw.com. A 74.220.199.6
 
 
 
-dreamalittle7.bmw.com. A 74.220.199.6
 
 
 
@@ -34580,6 +34585,7 @@ dreamalittle7.bmw.com. A 74.220.199.6
 
 
 
+disstg.bmw.com. CNAME disstg.demandware.net.
 
 
 
@@ -36266,7 +36272,6 @@ dreamalittle7.bmw.com. A 74.220.199.6
 
 
 
-digitalshopcard-preprod.bmw.com. A 74.220.199.6
 
 
 
@@ -38727,6 +38732,7 @@ digitalshopcard-preprod.bmw.com. A 74.220.199.6
 
 
 
+donaldbforsythe.bmw.com. A 74.220.199.6
 
 
 
@@ -41223,7 +41229,6 @@ digitalshopcard-preprod.bmw.com. A 74.220.199.6
 
 
 
-dev-connect-processingservice.bmw.com. A 74.220.199.6
 
 
 
@@ -41396,6 +41401,7 @@ dev-connect-processingservice.bmw.com. A 74.220.199.6
 
 
 
+dropbox3-0-7.bmw.com. A 23.55.222.104
 
 
 
@@ -43313,7 +43319,6 @@ dev-connect-processingservice.bmw.com. A 74.220.199.6
 
 
 
-demoimg-link-tunnel-mx.bmw.com. A 74.220.199.6
 
 
 
@@ -43335,7 +43340,6 @@ demoimg-link-tunnel-mx.bmw.com. A 74.220.199.6
 
 
 
-demoauth.bmw.com. A 74.220.199.6
 
 
 
@@ -43415,6 +43419,7 @@ demoauth.bmw.com. A 74.220.199.6
 
 
 
+dev2-public-proxy.bmw.com. A 23.55.222.104
 
 
 
@@ -45958,7 +45963,6 @@ demoauth.bmw.com. A 74.220.199.6
 
 
 
-defisolutions.bmw.com. A 74.220.199.6
 
 
 
@@ -45986,6 +45990,7 @@ defisolutions.bmw.com. A 74.220.199.6
 
 
 
+delahaye-1.bmw.com. A 23.55.222.104
 
 
 
@@ -47603,7 +47608,6 @@ defisolutions.bmw.com. A 74.220.199.6
 
 
 
-deliver-mapmediacenterbbva.bmw.com. A 74.220.199.6
 
 
 
@@ -49792,7 +49796,6 @@ deliver-mapmediacenterbbva.bmw.com. A 74.220.199.6
 
 
 
-deck-mark-x.bmw.com. A 74.220.199.6
 
 
 
@@ -50014,7 +50017,6 @@ deck-mark-x.bmw.com. A 74.220.199.6
 
 
 
-dellta.bmw.com. A 74.220.199.6
 
 
 
