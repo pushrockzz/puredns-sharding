@@ -1,0 +1,4 @@
+tapi.bmw.com
+static4.bmw.com
+securelogin.bmw.com
+static3.bmw.com

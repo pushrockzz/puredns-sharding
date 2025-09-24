@@ -1,0 +1,3 @@
+tekken.mini.de
+testssl.mini.de
+testm.mini.de
