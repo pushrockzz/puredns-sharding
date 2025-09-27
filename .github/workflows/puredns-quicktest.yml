@@ -281,118 +281,59 @@ jobs:
       - name: Sanitize and Finalize Results
         shell: bash
         run: |
-          RESULTS_DIR="results"
-          if [ ! -d "$RESULTS_DIR" ]; then
-            echo "Results directory not found. Nothing to sanitize."
-            exit 0
-          fi
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           
-          echo "Sanitizing all result files in '$RESULTS_DIR'..."
-          # Find all text files produced by this shard and clean them in-place
-          find "$RESULTS_DIR" -type f -name '*-${{ matrix.shard }}.txt' -print0 | while IFS= read -r -d $'\0' file; do
-            echo "  -> Cleaning $file"
-            # Use sed to remove leading/trailing whitespace and delete empty lines
-            sed -i -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' -e '/^$/d' "$file"
+          echo "Sanitizing results for shard ${CHUNK_INDEX}..."
+          
+          find "results" -type f -name "*-${CHUNK_INDEX}.txt" | while read file; do
+            echo "  -> Processing $file"
+            TEMP_FILE=$(mktemp)
+            
+            if [[ "$file" == *"massdns-"* ]]; then
+              awk 'NF > 0 { $1=$1; print }' "$file" > "$TEMP_FILE"
+            else
+              awk 'NF > 0 { sub(/^[ \t]+/, ""); sub(/[ \t]+$/, ""); print }' "$file" > "$TEMP_FILE"
+            fi
+            
+            mv "$TEMP_FILE" "$file"
           done
-          echo "Sanitization complete."
+          echo "Sanitization complete for shard ${CHUNK_INDEX}."
 
-      - name: Organize and Consolidate Results
-        shell: bash
-        run: |
-          echo "Organizing and consolidating results..."
-          
-          # This function safely merges files and de-duplicates based on the file format
-          process_files() {
-            local domain="$1"
-            local pattern="$2"
-            local output_file="$3"
-            local dedup_method="$4"
-            
-            DEST_DIR="results/$domain"
-            mkdir -p "$DEST_DIR"
-            
-            TEMP_MERGED=$(mktemp)
-            
-            # Find all relevant shard files and append the existing consolidated file (if it exists)
-            find results -type f -name "$pattern" -print0 | xargs -0 -r cat > "$TEMP_MERGED"
-            if [ -f "$DEST_DIR/$output_file" ]; then
-              cat "$DEST_DIR/$output_file" >> "$TEMP_MERGED"
-            fi
-
-            # If we have data, de-duplicate it using the correct method
-            if [ -s "$TEMP_MERGED" ]; then
-              if [ "$dedup_method" == "awk" ]; then
-                # For massdns format: de-duplicate based on the whole line
-                awk '!seen[$0]++' "$TEMP_MERGED" > "$DEST_DIR/$output_file"
-              else
-                # For simple lists: sort and unique
-                sort -u "$TEMP_MERGED" > "$DEST_DIR/$output_file"
-              fi
-            fi
-            rm -f "$TEMP_MERGED"
-          }
-
-          while read -r domain; do
-            if [ -z "$domain" ]; then continue; fi
-            
-            echo "--> Processing domain: $domain"
-            
-            # Precisely filter and then process the results
-            # Create temporary files holding only the relevant lines for the current domain
-            RELEVANT_PUREDNS=$(mktemp)
-            RELEVANT_PORTS=$(mktemp)
-            RELEVANT_WILDCARDS=$(mktemp)
-            RELEVANT_MASSDNS=$(mktemp)
-
-            find results -type f -name "puredns-output-*.txt" -exec awk -v d="$domain" '$0 == d || $0 ~ "\\." d "$"' {} + > "$RELEVANT_PUREDNS"
-            find results -type f -name "subdomain_ports-*.txt" -exec awk -v d="$domain" '{line=$0; sub(/:[0-9]+$/,"",$1)} $1==d || $1 ~ "\\." d "$"{print line}' {} + > "$RELEVANT_PORTS"
-            find results -type f -name "wildcards-*.txt" -exec awk -v d="$domain" '$0 == d || $0 ~ "\\." d "$"' {} + > "$RELEVANT_WILDCARDS"
-            find results -type f -name "massdns-*.txt" -exec awk -v d="$domain" '{sub(/\.$/,"",$1)} $1==d || $1 ~ "\\." d "$"' {} + > "$RELEVANT_MASSDNS"
-
-            # Now, merge the filtered results into the final consolidated files
-            cat "$RELEVANT_PUREDNS" "results/$domain/all_subdomains.txt" 2>/dev/null | sort -u > "results/$domain/all_subdomains.txt.tmp" && mv "results/$domain/all_subdomains.txt.tmp" "results/$domain/all_subdomains.txt"
-            cat "$RELEVANT_PORTS" "results/$domain/subdomains_with_ports.txt" 2>/dev/null | sort -u > "results/$domain/subdomains_with_ports.txt.tmp" && mv "results/$domain/subdomains_with_ports.txt.tmp" "results/$domain/subdomains_with_ports.txt"
-            cat "$RELEVANT_WILDCARDS" "results/$domain/wildcards.txt" 2>/dev/null | sort -u > "results/$domain/wildcards.txt.tmp" && mv "results/$domain/wildcards.txt.tmp" "results/$domain/wildcards.txt"
-            cat "$RELEVANT_MASSDNS" "results/$domain/massdns_records.txt" 2>/dev/null | awk '!seen[$0]++' > "results/$domain/massdns_records.txt.tmp" && mv "results/$domain/massdns_records.txt.tmp" "results/$domain/massdns_records.txt"
-            
-            rm -f "$RELEVANT_PUREDNS" "$RELEVANT_PORTS" "$RELEVANT_WILDCARDS" "$RELEVANT_MASSDNS"
-          done < domains.txt
-          
-          echo "Cleaning up temporary shard files..."
-          find results -type f -name '*-*.txt' -delete
-
-      - name: Commit Consolidated Results
+      - name: Commit Shard-Specific Results
+        if: secrets.PAT_TOKEN != ''
         shell: bash
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
           GIT_REPO: ${{ github.repository }}
           GIT_BRANCH: ${{ github.ref_name }}
         run: |
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
+          
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git"
-          
-          git add results/
+
+          git add results/**/*-${CHUNK_INDEX}.txt
           
           if git diff --staged --quiet; then
-            echo "No new unique results to commit."
+            echo "No new results to commit for shard ${CHUNK_INDEX}."
             exit 0
           fi
           
-          git commit -m "feat: Consolidate puredns results (run ${{ github.run_id }})"
+          git commit -m "feat: Add results from shard ${CHUNK_INDEX}"
           
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
-            echo "[Attempt $i/$MAX_ATTEMPTS] Syncing with remote and pushing..."
+            echo "[Attempt $i/$MAX_ATTEMPTS] Pushing results for shard ${CHUNK_INDEX}..."
             if git pull --rebase --autostash origin "$GIT_BRANCH" && git push origin "$GIT_BRANCH"; then
-              echo "✅ Successfully pushed consolidated results on attempt $i."
+              echo "✅ Successfully pushed results for shard ${CHUNK_INDEX}."
               exit 0
             fi
             echo "Push failed. Retrying in $(( 5 * i )) seconds..."
             sleep $(( 5 * i ))
           done
 
-          echo "::error:: All push attempts failed after $MAX_ATTEMPTS retries."
+          echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."      
           exit 0
   
   dispatch-next:
