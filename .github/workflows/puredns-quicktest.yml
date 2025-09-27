@@ -278,62 +278,69 @@ jobs:
             rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY" "$TMP_NONCDN" "$TMP_CDN" "$TMP_NAABU_RUSTSCAN" "$FINAL_IP_LIST"
           done < "domains/domains.txt"
           
+      - name: Sanitize and Finalize Results
+        shell: bash
+        run: |
+          RESULTS_DIR="results"
+          if [ ! -d "$RESULTS_DIR" ]; then
+            echo "Results directory not found. Nothing to sanitize."
+            exit 0
+          fi
+          
+          echo "Sanitizing all result files in '$RESULTS_DIR'..."
+          # Find all text files produced by this shard and clean them in-place
+          find "$RESULTS_DIR" -type f -name '*-${{ matrix.shard }}.txt' -print0 | while IFS= read -r -d $'\0' file; do
+            echo "  -> Cleaning $file"
+            # Use sed to remove leading/trailing whitespace and delete empty lines
+            sed -i -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' -e '/^$/d' "$file"
+          done
+          echo "Sanitization complete."
+
       - name: Commit results with race condition handling
+        if: secrets.PAT_TOKEN != ''
         shell: bash
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
           GIT_REPO: ${{ github.repository }}
           GIT_BRANCH: ${{ github.ref_name }}
         run: |
-          # The robust commit logic remains the same
-          RESULTS_DIR="${GITHUB_WORKSPACE}/results"
+          RESULTS_DIR="results"
           if [ ! -d "$RESULTS_DIR" ] || [ -z "$(ls -A "$RESULTS_DIR")" ]; then
             echo "Results directory is empty. Nothing to commit."
             exit 0
           fi
           
-          TMP_DIR=$(mktemp -d)
-          echo "Cloning ${GIT_REPO} to a temporary directory..."
-          git clone "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" "$TMP_DIR"
-          cd "$TMP_DIR"
-          git checkout "$GIT_BRANCH"
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git"
 
-          merge_and_deduplicate() {
-            local source_glob_pattern="$1"
-            local destination_file="$2"
+          consolidate_and_cleanup() {
+            local domain_path="$1"
+            local source_glob="$2"
+            local dest_file="$3"
             
-            found_files=$(find "$RESULTS_DIR" -type f -name "$source_glob_pattern")
-            if [ -z "$found_files" ]; then return; fi
-            
-            echo "Merging files matching '$source_glob_pattern' into '$destination_file'..."
+            source_files=($(find "$domain_path" -maxdepth 1 -type f -name "$source_glob"))
+            if [ ${#source_files[@]} -eq 0 ]; then return; fi
+
+            echo "Consolidating ${#source_files[@]} files into $dest_file..."
             temp_merged=$(mktemp)
-            {
-              echo "$found_files" | xargs -r cat
-              if [ -f "$destination_file" ]; then cat "$destination_file"; fi
-            } | sort -u > "$temp_merged"
-            mv "$temp_merged" "$destination_file"
+            cat "${source_files[@]}" "$dest_file" 2>/dev/null | sort -u > "$temp_merged"
+            mv "$temp_merged" "$dest_file"
+            
+            rm -f "${source_files[@]}"
           }
 
-          run_merge_logic() {
-            echo "Applying merge logic..."
-            for domain_dir in "${RESULTS_DIR}"/*; do
-              if [ ! -d "$domain_dir" ]; then continue; fi
-              domain_name=$(basename "$domain_dir")
-              dest_repo_dir="results/$domain_name"
-              mkdir -p "$dest_repo_dir"
-              
-              merge_and_deduplicate "$domain_dir/puredns-output-*.txt" "$dest_repo_dir/all_subdomains.txt"
-              merge_and_deduplicate "$domain_dir/subdomain_ports-*.txt" "$dest_repo_dir/subdomains_with_ports.txt"
-              merge_and_deduplicate "$domain_dir/wildcards-*.txt" "$dest_repo_dir/wildcards.txt"
-              merge_and_deduplicate "$domain_dir/massdns-*.txt" "$dest_repo_dir/massdns_records.txt"
-            done
-            git add results/
-          }
-
-          run_merge_logic
-          if git diff --cached --quiet; then
+          for domain_dir in "${RESULTS_DIR}"/*/; do
+            domain_dir=${domain_dir%/}
+            consolidate_and_cleanup "$domain_dir" "puredns-output-*.txt" "$domain_dir/all_subdomains.txt"
+            consolidate_and_cleanup "$domain_dir" "subdomain_ports-*.txt" "$domain_dir/subdomains_with_ports.txt"
+            consolidate_and_cleanup "$domain_dir" "wildcards-*.txt" "$domain_dir/wildcards.txt"
+            consolidate_and_cleanup "$domain_dir" "massdns-*.txt" "$domain_dir/massdns_records.txt"
+          done
+          
+          git add results/
+          
+          if git diff --staged --quiet; then
             echo "No new unique data to commit from this shard."
             exit 0
           fi
@@ -342,25 +349,13 @@ jobs:
           
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
-            echo "[Attempt $i/$MAX_ATTEMPTS] Pushing changes..."
-            if git push -v origin "$GIT_BRANCH"; then
+            echo "[Attempt $i/$MAX_ATTEMPTS] Syncing with remote and pushing..."
+            if git pull --rebase --autostash origin "$GIT_BRANCH" && git push origin "$GIT_BRANCH"; then
               echo "✅ Successfully pushed results on attempt $i."
               exit 0
             fi
-            
-            echo "Push failed. Fetching, resetting, and re-applying changes."
-            git fetch origin "$GIT_BRANCH"
-            git reset --hard "origin/${GIT_BRANCH}"
-            
-            run_merge_logic
-            
-            if git diff --cached --quiet; then
-              echo "No net new changes to commit after syncing with remote."
-              exit 0
-            fi
-            
-            git commit -m "feat: Add puredns results from shard ${{ matrix.shard }} (run ${{ github.run_id }}, retry $i)"
-            sleep $(( 2 * i ))
+            echo "Push failed. Retrying in $(( 5 * i )) seconds..."
+            sleep $(( 5 * i ))
           done
 
           echo "::error:: All push attempts failed after $MAX_ATTEMPTS retries."
