@@ -182,6 +182,7 @@ jobs:
             ${{ runner.os }}-go-cache-
           
       - name: Run puredns bruteforce
+        shell: bash
         run: |
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           CHUNK_FILE="wordlists/chunk-$(printf '%05d' "$CHUNK_INDEX").txt"
@@ -198,6 +199,7 @@ jobs:
           done < "domains/domains.txt"
           
       - name: Perform Port Scanning
+        shell: bash
         run: |
           PORTS="80,443,8080,8443,8000" # Using a smaller list for example
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
@@ -228,7 +230,7 @@ jobs:
               naabu -l "$TMP_NONCDN" -passive -o "$TMP_NAABU" -no-color -silent || true
               
               # The rustscan command itself remains unchanged as requested              
-              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -t 5000 -b 300 -tries 1 -u 50000 --scan-order "Random" --greppable --accessible > "$TMP_RUSTSCAN" || true
+              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -T 5000 -b 300 -tries 1 -u 50000 --scan-order "Random" --greppable --accessible > "$TMP_RUSTSCAN" || true
               
               cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | anew -q "$TMP_NAABU" || true
               
@@ -241,6 +243,7 @@ jobs:
           done < "domains/domains.txt"
 
       - name: Commit results with race condition handling
+        shell: bash
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
           GIT_REPO: ${{ github.repository }}
@@ -260,20 +263,21 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
 
+
           merge_and_deduplicate() {
             local source_glob_pattern="$1"
             local destination_file="$2"
             
-            source_files=($(find "$RESULTS_DIR" -type f -name "$source_glob_pattern"))
-            if [ ${#source_files[@]} -eq 0 ]; then return; fi
+            # Use find with xargs for POSIX compliance
+            found_files=$(find "$RESULTS_DIR" -type f -name "$source_glob_pattern")
+            if [ -z "$found_files" ]; then return; fi
             
-            echo "Merging ${#source_files[@]} files matching '$source_glob_pattern' into '$destination_file'..."
+            echo "Merging files matching '$source_glob_pattern' into '$destination_file'..."
             temp_merged=$(mktemp)
-            if [ -f "$destination_file" ]; then
-              cat "${source_files[@]}" "$destination_file" | sort -u > "$temp_merged"
-            else
-              cat "${source_files[@]}" | sort -u > "$temp_merged"
-            fi
+            {
+              echo "$found_files" | xargs cat
+              if [ -f "$destination_file" ]; then cat "$destination_file"; fi
+            } | sort -u > "$temp_merged"
             mv "$temp_merged" "$destination_file"
           }
 
@@ -325,17 +329,20 @@ jobs:
           done
 
           echo "::error:: All push attempts failed after $MAX_ATTEMPTS retries."
+
           exit 0
   
   dispatch-next:
     name: dispatch-next-run
     runs-on: ubuntu-latest
+    
     needs: [prepare, brute]
     if: always()
     env:
       PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
     steps:
       - name: Compute and dispatch next run
+        shell: bash
         run: |
           if [ -z "${PAT_TOKEN}" ]; then echo "Error: secrets.PAT_TOKEN is required." >&2; exit 0; fi
           CHUNK_START=${{ github.event.inputs.chunk_start }}
