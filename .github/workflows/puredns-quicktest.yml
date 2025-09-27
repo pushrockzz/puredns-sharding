@@ -218,6 +218,9 @@ jobs:
             
             echo "▶ Cleaning & extracting A-records from $MASSDNS_INPUT_FILE..."
             awk '$2=="A" { sub(/\.$/,"",$1); print $3, $1 }' "$MASSDNS_INPUT_FILE" | sort -k1,1 > "$TMP_IP2SUB"
+
+            echo "Total contains $(wc -l < "$TMP_IP2SUB") IP"
+            cat "$TMP_IP2SUB"
             
             echo "▶ Pulling unique IPs..."
             cut -d' ' -f1 "$TMP_IP2SUB" | sort -u > "$TMP_IP_ONLY"
