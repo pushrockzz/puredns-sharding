@@ -296,74 +296,100 @@ jobs:
           done
           echo "Sanitization complete."
 
-      - name: Commit results with race condition handling
+      - name: Organize and Consolidate Results
+        shell: bash
+        run: |
+          echo "Organizing and consolidating results..."
+          
+          # This function safely merges files and de-duplicates based on the file format
+          process_files() {
+            local domain="$1"
+            local pattern="$2"
+            local output_file="$3"
+            local dedup_method="$4"
+            
+            DEST_DIR="results/$domain"
+            mkdir -p "$DEST_DIR"
+            
+            TEMP_MERGED=$(mktemp)
+            
+            # Find all relevant shard files and append the existing consolidated file (if it exists)
+            find results -type f -name "$pattern" -print0 | xargs -0 -r cat > "$TEMP_MERGED"
+            if [ -f "$DEST_DIR/$output_file" ]; then
+              cat "$DEST_DIR/$output_file" >> "$TEMP_MERGED"
+            fi
+
+            # If we have data, de-duplicate it using the correct method
+            if [ -s "$TEMP_MERGED" ]; then
+              if [ "$dedup_method" == "awk" ]; then
+                # For massdns format: de-duplicate based on the whole line
+                awk '!seen[$0]++' "$TEMP_MERGED" > "$DEST_DIR/$output_file"
+              else
+                # For simple lists: sort and unique
+                sort -u "$TEMP_MERGED" > "$DEST_DIR/$output_file"
+              fi
+            fi
+            rm -f "$TEMP_MERGED"
+          }
+
+          while read -r domain; do
+            if [ -z "$domain" ]; then continue; fi
+            
+            echo "--> Processing domain: $domain"
+            
+            # Precisely filter and then process the results
+            # Create temporary files holding only the relevant lines for the current domain
+            RELEVANT_PUREDNS=$(mktemp)
+            RELEVANT_PORTS=$(mktemp)
+            RELEVANT_WILDCARDS=$(mktemp)
+            RELEVANT_MASSDNS=$(mktemp)
+
+            find results -type f -name "puredns-output-*.txt" -exec awk -v d="$domain" '$0 == d || $0 ~ "\\." d "$"' {} + > "$RELEVANT_PUREDNS"
+            find results -type f -name "subdomain_ports-*.txt" -exec awk -v d="$domain" '{line=$0; sub(/:[0-9]+$/,"",$1)} $1==d || $1 ~ "\\." d "$"{print line}' {} + > "$RELEVANT_PORTS"
+            find results -type f -name "wildcards-*.txt" -exec awk -v d="$domain" '$0 == d || $0 ~ "\\." d "$"' {} + > "$RELEVANT_WILDCARDS"
+            find results -type f -name "massdns-*.txt" -exec awk -v d="$domain" '{sub(/\.$/,"",$1)} $1==d || $1 ~ "\\." d "$"' {} + > "$RELEVANT_MASSDNS"
+
+            # Now, merge the filtered results into the final consolidated files
+            cat "$RELEVANT_PUREDNS" "results/$domain/all_subdomains.txt" 2>/dev/null | sort -u > "results/$domain/all_subdomains.txt.tmp" && mv "results/$domain/all_subdomains.txt.tmp" "results/$domain/all_subdomains.txt"
+            cat "$RELEVANT_PORTS" "results/$domain/subdomains_with_ports.txt" 2>/dev/null | sort -u > "results/$domain/subdomains_with_ports.txt.tmp" && mv "results/$domain/subdomains_with_ports.txt.tmp" "results/$domain/subdomains_with_ports.txt"
+            cat "$RELEVANT_WILDCARDS" "results/$domain/wildcards.txt" 2>/dev/null | sort -u > "results/$domain/wildcards.txt.tmp" && mv "results/$domain/wildcards.txt.tmp" "results/$domain/wildcards.txt"
+            cat "$RELEVANT_MASSDNS" "results/$domain/massdns_records.txt" 2>/dev/null | awk '!seen[$0]++' > "results/$domain/massdns_records.txt.tmp" && mv "results/$domain/massdns_records.txt.tmp" "results/$domain/massdns_records.txt"
+            
+            rm -f "$RELEVANT_PUREDNS" "$RELEVANT_PORTS" "$RELEVANT_WILDCARDS" "$RELEVANT_MASSDNS"
+          done < domains.txt
+          
+          echo "Cleaning up temporary shard files..."
+          find results -type f -name '*-*.txt' -delete
+
+      - name: Commit Consolidated Results
         shell: bash
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
           GIT_REPO: ${{ github.repository }}
           GIT_BRANCH: ${{ github.ref_name }}
         run: |
-          SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
-          if [ ! -d "$SOURCE_RESULTS_DIR" ] || [ -z "$(ls -A "$SOURCE_RESULTS_DIR")" ]; then
-            echo "Source results directory is empty. Nothing to commit."
-            exit 0
-          fi
-          
-          TMP_DIR=$(mktemp -d)
-          echo "Cloning ${GIT_REPO} into ${TMP_DIR}..."
-          git clone "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" "$TMP_DIR"
-          cd "$TMP_DIR"
-          git checkout "$GIT_BRANCH"
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
-
-          # This function copies results from the workspace and merges them into the cloned repo
-          run_merge_logic() {
-            echo "Applying merge logic..."
-            for domain_dir in "${SOURCE_RESULTS_DIR}"/*; do
-              if [ ! -d "$domain_dir" ]; then continue; fi
-              domain_name=$(basename "$domain_dir")
-              dest_repo_dir="results/$domain_name"
-              mkdir -p "$dest_repo_dir"
-              
-              # Consolidate and merge each type of result file
-              find "$domain_dir" -type f -name "puredns-output-*.txt" -exec cat {} + | cat - "$dest_repo_dir/all_subdomains.txt" 2>/dev/null | sort -u > "$dest_repo_dir/all_subdomains.txt.tmp" && mv "$dest_repo_dir/all_subdomains.txt.tmp" "$dest_repo_dir/all_subdomains.txt"
-              find "$domain_dir" -type f -name "subdomain_ports-*.txt" -exec cat {} + | cat - "$dest_repo_dir/subdomains_with_ports.txt" 2>/dev/null | sort -u > "$dest_repo_dir/subdomains_with_ports.txt.tmp" && mv "$dest_repo_dir/subdomains_with_ports.txt.tmp" "$dest_repo_dir/subdomains_with_ports.txt"
-              find "$domain_dir" -type f -name "wildcards-*.txt" -exec cat {} + | cat - "$dest_repo_dir/wildcards.txt" 2>/dev/null | sort -u > "$dest_repo_dir/wildcards.txt.tmp" && mv "$dest_repo_dir/wildcards.txt.tmp" "$dest_repo_dir/wildcards.txt"
-              find "$domain_dir" -type f -name "massdns-*.txt" -exec cat {} + | cat - "$dest_repo_dir/massdns_records.txt" 2>/dev/null | sort -u > "$dest_repo_dir/massdns_records.txt.tmp" && mv "$dest_repo_dir/massdns_records.txt.tmp" "$dest_repo_dir/massdns_records.txt"
-            done
-            git add results/
-          }
-
-          run_merge_logic
-          if git diff --cached --quiet; then
-            echo "No new unique data to commit from this shard."
+          git remote set-url origin "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git"
+          
+          git add results/
+          
+          if git diff --staged --quiet; then
+            echo "No new unique results to commit."
             exit 0
           fi
           
-          git commit -m "feat: Add puredns results from shard ${{ matrix.shard }} (run ${{ github.run_id }})"
+          git commit -m "feat: Consolidate puredns results (run ${{ github.run_id }})"
           
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
-            echo "[Attempt $i/$MAX_ATTEMPTS] Pushing changes..."
-            if git push -v origin "$GIT_BRANCH"; then
-              echo "✅ Successfully pushed results on attempt $i."
+            echo "[Attempt $i/$MAX_ATTEMPTS] Syncing with remote and pushing..."
+            if git pull --rebase --autostash origin "$GIT_BRANCH" && git push origin "$GIT_BRANCH"; then
+              echo "✅ Successfully pushed consolidated results on attempt $i."
               exit 0
             fi
-            
-            echo "Push failed. Fetching, resetting, and re-applying changes."
-            git fetch origin "$GIT_BRANCH"
-            git reset --hard "origin/${GIT_BRANCH}"
-            
-            run_merge_logic
-            
-            if git diff --cached --quiet; then
-              echo "No net new changes to commit after syncing with remote."
-              exit 0
-            fi
-            
-            git commit -m "feat: Add puredns results from shard ${{ matrix.shard }} (run ${{ github.run_id }}, retry $i)"
-            sleep $(( 2 * i ))
+            echo "Push failed. Retrying in $(( 5 * i )) seconds..."
+            sleep $(( 5 * i ))
           done
 
           echo "::error:: All push attempts failed after $MAX_ATTEMPTS retries."
