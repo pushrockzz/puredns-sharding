@@ -1,0 +1,15 @@
+e25898.dsca.akamaiedge.net. A 95.101.116.37
+e25898.dsca.akamaiedge.net. A 95.101.116.6
+microservices.edgekey.net. CNAME e25898.dsca.akamaiedge.net.
+redirect.bmwgroup.com. A 160.46.244.54
+toad.bmw.com. A 118.26.48.245
+tracking-api.bmw.com. CNAME microservices.edgekey.net.
+videodb1static.bmw.com. A 125.235.4.59
+vip-int.bmw.com. A 160.48.213.171
+vpn22.bmw.com. A 193.23.39.12
+vpnposture.bmw.com. A 125.235.4.59
+vtx2-lnp-app.bmw.com. A 125.235.4.59
+w21-usc-1.bmw.com. A 125.235.4.59
+wikilinmou21.bmw.com. A 118.26.48.245
+workflow-dev.bmw.com. A 160.48.212.194
+www-jp.bmw.com. CNAME redirect.bmwgroup.com.
