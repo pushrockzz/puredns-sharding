@@ -145,6 +145,11 @@ jobs:
     runs-on: ubuntu-latest
     needs: [prepare, generate_matrix]
     if: needs.generate_matrix.outputs.shard_matrix != '[]'
+    container:
+      image: ghcr.io/pcoder7/spider-puredns-actions:latest
+      credentials:
+        username: ${{ secrets.GHCR_USER }}
+        password: ${{ secrets.GHCR_TOKEN }}    
     strategy:
       fail-fast: false
       matrix:
@@ -175,35 +180,6 @@ jobs:
           key: ${{ runner.os }}-go-cache-${{ github.ref_name }}
           restore-keys: |
             ${{ runner.os }}-go-cache-
-     
-      - name: Install Rust and Build Rustscan
-        run: |
-          echo "Installing Rust toolchain..."
-          curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-          source "$HOME/.cargo/env"
-          echo "Cloning rustscan repository..."
-          git clone https://github.com/RustScan/RustScan.git
-          cd RustScan
-          echo "Building rustscan from source (this may take a while on first run)..."
-          cargo build --release
-          echo "Build complete. Copying binary to workspace root."
-          cp target/release/rustscan ${{ github.workspace }}/rustscan    
-          cd ..
-          
-      - name: Install massdns and prepare binaries
-        run: |
-          git clone https://github.com/blechschmidt/massdns.git
-          cd massdns; make; sudo make install; cd ..
-          # Make rustscan executable and move to path
-          sudo chmod +x ./rustscan
-          sudo mv ./rustscan /usr/local/bin/rustscan
-     
-      - name: Install Go-based tools
-        run: |
-          go install github.com/d3mondev/puredns/v2@latest
-          go install github.com/ImAyrix/cut-cdn@latest
-          
-          go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
           
       - name: Run puredns bruteforce
         run: |
