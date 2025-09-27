@@ -1,5 +1,0 @@
-sms-int.bmwgroup.com
-star.bmwgroup.com
-testing-1.bmwgroup.com
-sgate.bmwgroup.com
-summary.bmwgroup.com

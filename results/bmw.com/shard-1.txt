@@ -1,5 +1,0 @@
-www-jp.bmw.com
-vdms.bmw.com
-workflow-dev.bmw.com
-tracking-api.bmw.com
-vip-int.bmw.com

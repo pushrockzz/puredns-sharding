@@ -1,3 +1,0 @@
-datafox.bmwgroup.com
-configure.bmwgroup.com
-cargo-auth.bmwgroup.com

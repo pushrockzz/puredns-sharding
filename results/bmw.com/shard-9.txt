@@ -1,2 +1,0 @@
-dealer.bmw.com
-cpp-prod.bmw.com

@@ -1,4 +1,0 @@
-amc-test.bmw.com
-api-sandbox-dev.bmw.com
-amos.bmw.com
-api-int.bmw.com

@@ -1,6 +1,0 @@
-tracy.bmwgroup.com
-vpnweb.bmwgroup.com
-vera.bmwgroup.com
-velocity.bmwgroup.com
-webservice.bmwgroup.com
-vecom.bmwgroup.com

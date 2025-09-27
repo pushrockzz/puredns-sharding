@@ -1,8 +1,0 @@
-label.bmwgroup.com
-mdm-dev.bmwgroup.com
-mail11.bmwgroup.com
-lisa.bmwgroup.com
-livestreaming.bmwgroup.com
-livestream.bmwgroup.com
-mxs1.bmwgroup.com
-mxs2.bmwgroup.com
