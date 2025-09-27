@@ -201,7 +201,7 @@ jobs:
       - name: Perform Port Scanning
         shell: bash
         run: |
-          PORTS="80,443,8080,8443,8000" # Using a smaller list for example
+          PORTS="80,443,8080,8443,8000"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           while IFS= read -r domain || [ -n "$domain" ]; do
             case "$domain" in \#*|"") continue ;; esac
@@ -209,46 +209,81 @@ jobs:
             MASSDNS_INPUT_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
             if [ ! -s "$MASSDNS_INPUT_FILE" ]; then continue; fi
             
+            # Using your exact variable names and logic
             TMP_IP2SUB=$(mktemp)
             TMP_IP_ONLY=$(mktemp)
             TMP_NONCDN=$(mktemp)
+            TMP_CDN=$(mktemp)
+            TMP_NAABU_RUSTSCAN=$(mktemp)
             
+            echo "▶ Cleaning & extracting A-records from $MASSDNS_INPUT_FILE..."
             awk '$2=="A" { sub(/\.$/,"",$1); print $3, $1 }' "$MASSDNS_INPUT_FILE" | sort -k1,1 > "$TMP_IP2SUB"
+            
+            echo "▶ Pulling unique IPs..."
             cut -d' ' -f1 "$TMP_IP2SUB" | sort -u > "$TMP_IP_ONLY"
-            if [ ! -s "$TMP_IP_ONLY" ]; then rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY"; continue; fi
             
-            echo "▶ Filtering non‑CDN IPs with cut-cdn…"
-            cat "$TMP_IP_ONLY" | cut-cdn -ua -t 50 -silent -o "$TMP_NONCDN"
+            echo "▶ Filtering non-CDN IPs with cut-cdn..."
+            cut-cdn -l "$TMP_IP_ONLY" -ua -t 50 -silent -o "$TMP_NONCDN" || true
+            echo "✅ TMP_IP_ONLY contains $(wc -l < "$TMP_IP_ONLY") IPs for $domain"
+            head -n5 "$TMP_IP_ONLY"
+            echo "==================================================================="
+            echo "✅ TMP_NONCDN contains $(wc -l < "$TMP_NONCDN") IPs for $domain"
+            head -n5 "$TMP_NONCDN"
+            echo "==================================================================="
             
+            echo "▶ Deriving CDN IP list for $domain..."
+            cat "$TMP_IP_ONLY" | PATH=$HOME/go/bin:$PATH anew -d "$TMP_NONCDN" > "$TMP_CDN"
+            echo "✅ TMP_CDN contains $(wc -l < "$TMP_CDN") IPs for $domain"
+            head -n5 "$TMP_CDN"
+            echo "==================================================================="
+            
+            echo "▶ Running naabu and rustscan on non-CDN IPs for $domain..."
             if [ -s "$TMP_NONCDN" ]; then
-              TMP_NAABU=$(mktemp)
               TMP_RUSTSCAN=$(mktemp)
-              
-              echo "==================================================================="
-              echo "▶ Running smap and rustscan on non‑CDN IPs…"
-          
-              naabu -l "$TMP_NONCDN" -passive -o "$TMP_NAABU" -no-color -silent || true
-              
-              # The rustscan command itself remains unchanged as requested              
-              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -t 5000 --tries 1 -u 50000 --scan-order "Random" -b 100 --greppable --accessible > "$TMP_RUSTSCAN" || true
-              
-              cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | anew -q "$TMP_NAABU" || true
-              
-              awk -F: 'NF==2{print $1, $2} NF==1{print $1, ""}' "$TMP_NAABU" | sort -k1,1 | join -t' ' -1 1 -2 1 - "$TMP_IP2SUB" \
-                | awk '{ if ($2 ~ /^[0-9]+$/) print $3":"$2; else print $3 }' > "${ROOT_DOMAIN_DIR}/subdomain_ports-${CHUNK_INDEX}.txt"
-              
-              rm -f "$TMP_NAABU" "$TMP_RUSTSCAN"
+              naabu -l "$TMP_NONCDN" -passive -o "$TMP_NAABU_RUSTSCAN" -no-color -silent || true
+              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -t 5000 -b 300 --greppable > "$TMP_RUSTSCAN" || true
+              cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | PATH=$HOME/go/bin:$PATH anew -q "$TMP_NAABU_RUSTSCAN" || true
+              rm -f "$TMP_RUSTSCAN"
             fi
-            rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY" "$TMP_NONCDN"
-          done < "domains/domains.txt"
+            echo "✅ Combined naabu/rustscan results for $domain contains $(wc -l < "$TMP_NAABU_RUSTSCAN") entries"
+            head -n20 "$TMP_NAABU_RUSTSCAN"
+            echo "==================================================================="
 
+            echo "▶ Merging CDN and non-CDN results..."
+            FINAL_IP_LIST=$(mktemp)
+            cat "$TMP_NAABU_RUSTSCAN" "$TMP_CDN" | sort -u > "$FINAL_IP_LIST"
+            echo "✅ Final IP/Port list for $domain contains $(wc -l < "$FINAL_IP_LIST") entries"
+            head -n20 "$FINAL_IP_LIST"
+            echo "==================================================================="
+
+            echo "▶ Joining to produce final subdomain:port list for $domain..."
+            OUTPUT_FILE="${ROOT_DOMAIN_DIR}/subdomain_ports-${CHUNK_INDEX}.txt"
+            awk -F: '
+              NF==2 { print $1, $2 }
+              NF==1 { print $1, ""  }
+            ' "$FINAL_IP_LIST" \
+              | sort -k1,1 \
+              | join -t' ' -1 1 -2 1 - "$TMP_IP2SUB" \
+              | awk '{ if ($2 ~ /^[0-9]+$/) print $3":"$2; else print $3 }' \
+              > "$OUTPUT_FILE"
+            
+            echo "✅ Generated $OUTPUT_FILE (first 20 lines):"
+            head -n20 "$OUTPUT_FILE"
+            echo "==================================================================="
+            
+            # Critical: Clean up all temporary files for this domain before the next loop iteration
+            rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY" "$TMP_NONCDN" "$TMP_CDN" "$TMP_NAABU_RUSTSCAN" "$FINAL_IP_LIST"
+          done < "domains/domains.txt"
+          
       - name: Commit results with race condition handling
+        if: secrets.PAT_TOKEN != ''
         shell: bash
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
           GIT_REPO: ${{ github.repository }}
           GIT_BRANCH: ${{ github.ref_name }}
         run: |
+          # The robust commit logic remains the same
           RESULTS_DIR="${GITHUB_WORKSPACE}/results"
           if [ ! -d "$RESULTS_DIR" ] || [ -z "$(ls -A "$RESULTS_DIR")" ]; then
             echo "Results directory is empty. Nothing to commit."
@@ -263,19 +298,17 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
 
-
           merge_and_deduplicate() {
             local source_glob_pattern="$1"
             local destination_file="$2"
             
-            # Use find with xargs for POSIX compliance
             found_files=$(find "$RESULTS_DIR" -type f -name "$source_glob_pattern")
             if [ -z "$found_files" ]; then return; fi
             
             echo "Merging files matching '$source_glob_pattern' into '$destination_file'..."
             temp_merged=$(mktemp)
             {
-              echo "$found_files" | xargs cat
+              echo "$found_files" | xargs -r cat
               if [ -f "$destination_file" ]; then cat "$destination_file"; fi
             } | sort -u > "$temp_merged"
             mv "$temp_merged" "$destination_file"
