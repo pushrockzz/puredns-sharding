@@ -300,7 +300,7 @@ jobs:
           echo "Sanitization complete for shard ${CHUNK_INDEX}."
 
       - name: Commit Shard-Specific Results
-        if: secrets.PAT_TOKEN != ''
+
         shell: bash
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
