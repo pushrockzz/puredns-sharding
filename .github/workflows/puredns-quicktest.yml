@@ -215,13 +215,21 @@ jobs:
             cut -d' ' -f1 "$TMP_IP2SUB" | sort -u > "$TMP_IP_ONLY"
             if [ ! -s "$TMP_IP_ONLY" ]; then rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY"; continue; fi
             
-            cut-cdn -l "$TMP_IP_ONLY" -ua -t 50 -silent -o "$TMP_NONCDN" || true
+            echo "▶ Filtering non‑CDN IPs with cut-cdn…"
+            cat "$TMP_IP_ONLY" | cut-cdn -ua -t 50 -silent -o "$TMP_NONCDN"
             
             if [ -s "$TMP_NONCDN" ]; then
               TMP_NAABU=$(mktemp)
               TMP_RUSTSCAN=$(mktemp)
+              
+              echo "==================================================================="
+              echo "▶ Running smap and rustscan on non‑CDN IPs…"
+          
               naabu -l "$TMP_NONCDN" -passive -o "$TMP_NAABU" -no-color -silent || true
-              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -t 5000 -b 300 --greppable > "$TMP_RUSTSCAN" || true
+              
+              # The rustscan command itself remains unchanged as requested              
+              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -t 5000 -b 300 -tries 1 -u 50000 --scan-order "Random" --greppable --accessible > "$TMP_RUSTSCAN" || true
+              
               cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | anew -q "$TMP_NAABU" || true
               
               awk -F: 'NF==2{print $1, $2} NF==1{print $1, ""}' "$TMP_NAABU" | sort -k1,1 | join -t' ' -1 1 -2 1 - "$TMP_IP2SUB" \
