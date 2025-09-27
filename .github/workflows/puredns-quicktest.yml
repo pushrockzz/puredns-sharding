@@ -297,7 +297,6 @@ jobs:
           echo "Sanitization complete."
 
       - name: Commit results with race condition handling
-        if: secrets.PAT_TOKEN != ''
         shell: bash
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
@@ -359,7 +358,6 @@ jobs:
           done
 
           echo "::error:: All push attempts failed after $MAX_ATTEMPTS retries."
-
           exit 0
   
   dispatch-next:
