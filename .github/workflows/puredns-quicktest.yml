@@ -201,8 +201,10 @@ jobs:
       - name: Install Go-based tools
         run: |
           go install github.com/d3mondev/puredns/v2@latest
-          go install github.com/michenriksen/cut-cdn@latest
-          go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+          go install github.com/ImAyrix/cut-cdn@latest
+          
+          go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+          
       - name: Run puredns bruteforce
         run: |
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
