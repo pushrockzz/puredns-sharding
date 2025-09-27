@@ -303,43 +303,40 @@ jobs:
           GIT_REPO: ${{ github.repository }}
           GIT_BRANCH: ${{ github.ref_name }}
         run: |
-          RESULTS_DIR="results"
-          if [ ! -d "$RESULTS_DIR" ] || [ -z "$(ls -A "$RESULTS_DIR")" ]; then
-            echo "Results directory is empty. Nothing to commit."
+          SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
+          if [ ! -d "$SOURCE_RESULTS_DIR" ] || [ -z "$(ls -A "$SOURCE_RESULTS_DIR")" ]; then
+            echo "Source results directory is empty. Nothing to commit."
             exit 0
           fi
           
+          TMP_DIR=$(mktemp -d)
+          echo "Cloning ${GIT_REPO} into ${TMP_DIR}..."
+          git clone "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" "$TMP_DIR"
+          cd "$TMP_DIR"
+          git checkout "$GIT_BRANCH"
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
-          git remote set-url origin "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git"
 
-          consolidate_and_cleanup() {
-            local domain_path="$1"
-            local source_glob="$2"
-            local dest_file="$3"
-            
-            source_files=($(find "$domain_path" -maxdepth 1 -type f -name "$source_glob"))
-            if [ ${#source_files[@]} -eq 0 ]; then return; fi
-
-            echo "Consolidating ${#source_files[@]} files into $dest_file..."
-            temp_merged=$(mktemp)
-            cat "${source_files[@]}" "$dest_file" 2>/dev/null | sort -u > "$temp_merged"
-            mv "$temp_merged" "$dest_file"
-            
-            rm -f "${source_files[@]}"
+          # This function copies results from the workspace and merges them into the cloned repo
+          run_merge_logic() {
+            echo "Applying merge logic..."
+            for domain_dir in "${SOURCE_RESULTS_DIR}"/*; do
+              if [ ! -d "$domain_dir" ]; then continue; fi
+              domain_name=$(basename "$domain_dir")
+              dest_repo_dir="results/$domain_name"
+              mkdir -p "$dest_repo_dir"
+              
+              # Consolidate and merge each type of result file
+              find "$domain_dir" -type f -name "puredns-output-*.txt" -exec cat {} + | cat - "$dest_repo_dir/all_subdomains.txt" 2>/dev/null | sort -u > "$dest_repo_dir/all_subdomains.txt.tmp" && mv "$dest_repo_dir/all_subdomains.txt.tmp" "$dest_repo_dir/all_subdomains.txt"
+              find "$domain_dir" -type f -name "subdomain_ports-*.txt" -exec cat {} + | cat - "$dest_repo_dir/subdomains_with_ports.txt" 2>/dev/null | sort -u > "$dest_repo_dir/subdomains_with_ports.txt.tmp" && mv "$dest_repo_dir/subdomains_with_ports.txt.tmp" "$dest_repo_dir/subdomains_with_ports.txt"
+              find "$domain_dir" -type f -name "wildcards-*.txt" -exec cat {} + | cat - "$dest_repo_dir/wildcards.txt" 2>/dev/null | sort -u > "$dest_repo_dir/wildcards.txt.tmp" && mv "$dest_repo_dir/wildcards.txt.tmp" "$dest_repo_dir/wildcards.txt"
+              find "$domain_dir" -type f -name "massdns-*.txt" -exec cat {} + | cat - "$dest_repo_dir/massdns_records.txt" 2>/dev/null | sort -u > "$dest_repo_dir/massdns_records.txt.tmp" && mv "$dest_repo_dir/massdns_records.txt.tmp" "$dest_repo_dir/massdns_records.txt"
+            done
+            git add results/
           }
 
-          for domain_dir in "${RESULTS_DIR}"/*/; do
-            domain_dir=${domain_dir%/}
-            consolidate_and_cleanup "$domain_dir" "puredns-output-*.txt" "$domain_dir/all_subdomains.txt"
-            consolidate_and_cleanup "$domain_dir" "subdomain_ports-*.txt" "$domain_dir/subdomains_with_ports.txt"
-            consolidate_and_cleanup "$domain_dir" "wildcards-*.txt" "$domain_dir/wildcards.txt"
-            consolidate_and_cleanup "$domain_dir" "massdns-*.txt" "$domain_dir/massdns_records.txt"
-          done
-          
-          git add results/
-          
-          if git diff --staged --quiet; then
+          run_merge_logic
+          if git diff --cached --quiet; then
             echo "No new unique data to commit from this shard."
             exit 0
           fi
@@ -348,13 +345,25 @@ jobs:
           
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
-            echo "[Attempt $i/$MAX_ATTEMPTS] Syncing with remote and pushing..."
-            if git pull --rebase --autostash origin "$GIT_BRANCH" && git push origin "$GIT_BRANCH"; then
+            echo "[Attempt $i/$MAX_ATTEMPTS] Pushing changes..."
+            if git push -v origin "$GIT_BRANCH"; then
               echo "✅ Successfully pushed results on attempt $i."
               exit 0
             fi
-            echo "Push failed. Retrying in $(( 5 * i )) seconds..."
-            sleep $(( 5 * i ))
+            
+            echo "Push failed. Fetching, resetting, and re-applying changes."
+            git fetch origin "$GIT_BRANCH"
+            git reset --hard "origin/${GIT_BRANCH}"
+            
+            run_merge_logic
+            
+            if git diff --cached --quiet; then
+              echo "No net new changes to commit after syncing with remote."
+              exit 0
+            fi
+            
+            git commit -m "feat: Add puredns results from shard ${{ matrix.shard }} (run ${{ github.run_id }}, retry $i)"
+            sleep $(( 2 * i ))
           done
 
           echo "::error:: All push attempts failed after $MAX_ATTEMPTS retries."
