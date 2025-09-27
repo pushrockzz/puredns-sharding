@@ -230,7 +230,7 @@ jobs:
               naabu -l "$TMP_NONCDN" -passive -o "$TMP_NAABU" -no-color -silent || true
               
               # The rustscan command itself remains unchanged as requested              
-              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -T 5000 -b 300 -tries 1 -u 50000 --scan-order "Random" --greppable --accessible > "$TMP_RUSTSCAN" || true
+              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -t 5000 --tries 1 -u 50000 --scan-order "Random" -b 100 --greppable --accessible > "$TMP_RUSTSCAN" || true
               
               cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | anew -q "$TMP_NAABU" || true
               
