@@ -211,7 +211,7 @@ jobs:
             TMP_IP_ONLY=$(mktemp)
             TMP_NONCDN=$(mktemp)
             
-            awk '$2=="A" { sub(/\.$/,"",$1); print $3, $1 }' "$MASSDNS_INPUT_FILE" | sort -k1,1u > "$TMP_IP2SUB"
+            awk '$2=="A" { sub(/\.$/,"",$1); print $3, $1 }' "$MASSDNS_INPUT_FILE" | sort -k1,1 > "$TMP_IP2SUB"
             cut -d' ' -f1 "$TMP_IP2SUB" | sort -u > "$TMP_IP_ONLY"
             if [ ! -s "$TMP_IP_ONLY" ]; then rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY"; continue; fi
             
