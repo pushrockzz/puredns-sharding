@@ -276,7 +276,6 @@ jobs:
           done < "domains/domains.txt"
           
       - name: Commit results with race condition handling
-        if: secrets.PAT_TOKEN != ''
         shell: bash
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
