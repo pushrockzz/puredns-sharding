@@ -223,7 +223,7 @@ jobs:
             cut -d' ' -f1 "$TMP_IP2SUB" | sort -u > "$TMP_IP_ONLY"
             
             echo "▶ Filtering non-CDN IPs with cut-cdn..."
-            cut-cdn -l "$TMP_IP_ONLY" -ua -t 50 -silent -o "$TMP_NONCDN" || true
+            cat "$TMP_IP_ONLY" | cut-cdn -ua -t 50 -silent -o "$TMP_NONCDN"
             echo "✅ TMP_IP_ONLY contains $(wc -l < "$TMP_IP_ONLY") IPs for $domain"
             head -n5 "$TMP_IP_ONLY"
             echo "==================================================================="
