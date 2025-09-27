@@ -309,33 +309,51 @@ jobs:
           SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           
-          # Find all result files for this shard
-          shard_files=$(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt")
-          
-          if [ -z "$shard_files" ]; then
+          if ! find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" | read; then
             echo "No result files found for shard ${CHUNK_INDEX}. Nothing to commit."
             exit 0
           fi
           
           TMP_DIR=$(mktemp -d)
-          echo "Cloning ${GIT_REPO} into ${TMP_DIR} for a safe commit..."
+          echo "Cloning ${GIT_REPO} into ${TMP_DIR} for a safe merge and commit..."
           git clone --depth 1 "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" --branch "$GIT_BRANCH" "$TMP_DIR"
           cd "$TMP_DIR"
-          
-          # Copy only the results from this shard into the cloned repo
-          echo "$shard_files" | xargs -I {} cp --parents {} .
           
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
           
+          # This function safely merges new data into existing files in the clone
+          merge_new_data() {
+            local source_file="$1"
+            local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
+            local dest_file="$TMP_DIR/$relative_path"
+            
+            # Ensure destination directory exists
+            mkdir -p "$(dirname "$dest_file")"
+            
+            # Combine new and existing data, then de-duplicate based on format
+            TEMP_MERGED=$(mktemp)
+            if [[ "$source_file" == *"massdns-"* ]]; then
+              cat "$source_file" "$dest_file" 2>/dev/null | awk '!seen[$0]++' > "$TEMP_MERGED"
+            else
+              cat "$source_file" "$dest_file" 2>/dev/null | sort -u > "$TEMP_MERGED"
+            fi
+            mv "$TEMP_MERGED" "$dest_file"
+          }
+          
+          # Find all result files for this shard and merge each one
+          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" | while read file; do
+            merge_new_data "$file"
+          done
+          
           git add results/
           
           if git diff --staged --quiet; then
-            echo "No new unique data to commit for shard ${CHUNK_INDEX}."
+            echo "No new unique data to commit for shard ${CHUNK_INDEX} after merging."
             exit 0
           fi
           
-          git commit -m "feat: Add results from shard ${CHUNK_INDEX}"
+          git commit -m "feat: Update results from shard ${CHUNK_INDEX}"
           
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
@@ -348,7 +366,7 @@ jobs:
             sleep $(( 5 * i ))
           done
 
-          echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}." 
+          echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."
           exit 0
   
   dispatch-next:
