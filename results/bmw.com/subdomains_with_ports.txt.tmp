@@ -1,9 +1,2 @@
-securelogin.bmw.com:443
-securelogin.bmw.com:80
-sera.bmw.com:80
-service-profile34.bmw.com:111
-service-profile34.bmw.com:22
-service-profile34.bmw.com:80
-service-profile34.bmw.com:9000
-strong.bmw.com:443
-strong.bmw.com:80
+cmp-test.bmw.com:443
+cmp-test.bmw.com:80

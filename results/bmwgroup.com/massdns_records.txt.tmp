@@ -1,9 +1,8 @@
-sdk4-8.bmwgroup.com. A 125.235.4.59
-sdk9-1.bmwgroup.com. A 125.235.4.59
-sender1-of-e62.bmwgroup.com. A 118.26.48.245
-sentry-conversion-events.bmwgroup.com. A 125.235.4.59
-server-ab3a837c-d9c0-4.bmwgroup.com. A 125.235.4.59
-simulator-0-4.bmwgroup.com. A 125.235.4.59
-sms-int.bmwgroup.com. A 160.46.248.40
-speedcol.bmwgroup.com. A 125.235.4.59
-techradar.bmwgroup.com. CNAME d36zav6jye5ume.cloudfront.net.
+candy.bmwgroup.com. A 125.235.4.59
+cargo-auth.bmwgroup.com. A 160.46.244.175
+casa.bmwgroup.com. A 160.46.243.83
+cianoc.bmwgroup.com. A 125.235.4.59
+connect-dataacquisitionsvc.bmwgroup.com. A 125.235.4.59
+datafox.aws.bmw.cloud. A 18.185.193.29
+datafox.aws.bmw.cloud. A 3.67.33.106
+datafox.bmwgroup.com. CNAME datafox.aws.bmw.cloud.
