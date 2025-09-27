@@ -21,7 +21,7 @@ on:
       words_per_chunk:
         description: 'Words per chunk file (lines_per_chunk).'
         required: false
-        default: '50000'
+        default: '5000'
       domains_count:
         description: 'How many test domains to generate (default = 5)'
         required: false
@@ -93,10 +93,10 @@ jobs:
             for i in $(seq 1 "${{ github.event.inputs.domains_count }}"); do echo "test${i}.example.com"; done > "domains/domains.txt"
           fi
           COMBINED_WORDLIST="${{ env.COMBINED_WORDLIST }}"
-          if [ ! -s "$COMBINED_WORDLIST" ]; then echo "::error:: Combined wordlist is empty."; exit 0; fi
+          if [ ! -s "$COMBINED_WORDLIST" ]; then echo "::error:: Combined wordlist is empty."; exit 1; fi
           rm -f wordlists/chunk-*.txt || true
           split -l "${{ github.event.inputs.words_per_chunk }}" -d -a 5 --additional-suffix=.txt "$COMBINED_WORDLIST" wordlists/chunk-
-          if [ -z "$(ls -A wordlists)" ]; then echo "::error:: Split failed to create chunks."; exit 0; fi
+          if [ -z "$(ls -A wordlists)" ]; then echo "::error:: Split failed to create chunks."; exit 1; fi
           CHUNK_COUNT=$(ls -1 wordlists/chunk-*.txt | wc -l)
           echo "total-chunks=${CHUNK_COUNT}" >> $GITHUB_OUTPUT
           MATRIX_SIZE=${{ env.MATRIX_SIZE }}
@@ -151,7 +151,7 @@ jobs:
       - name: Checkout repo (for committing results)
         uses: actions/checkout@v4
         with:
-          persist-credentials: false    
+          persist-credentials: false
       - name: Download pre-split wordlists/artifact
         uses: actions/download-artifact@v4
         with:
@@ -165,51 +165,153 @@ jobs:
         run: |
           git clone https://github.com/blechschmidt/massdns.git
           cd massdns; make; sudo make install; cd ..
-      - name: Install puredns
-        run: go install github.com/d3mondev/puredns/v2@latest
-      - name: Run puredns and organize results by domain
+      - name: Install puredns, cut-cdn, naabu, rustscan
+        run: |
+          sudo apt-get update -y && sudo apt-get install -y jq rustscan || { echo "rustscan apt install failed, attempting cargo..."; curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y; source "$HOME/.cargo/env"; cargo install rustscan; }
+          go install github.com/d3mondev/puredns/v2@latest
+          go install github.com/michenriksen/cut-cdn@latest
+          go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+      - name: Run puredns bruteforce
         run: |
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           CHUNK_FILE="wordlists/chunk-$(printf '%05d' "$CHUNK_INDEX").txt"
-          if [ ! -f "$CHUNK_FILE" ]; then
-            echo "Chunk file ${CHUNK_FILE} not found. Skipping."
-            exit 0
-          fi
+          if [ ! -f "$CHUNK_FILE" ]; then exit 0; fi
           while IFS= read -r domain || [ -n "$domain" ]; do
             case "$domain" in \#*|"") continue ;; esac
             ROOT_DOMAIN_DIR="results/$domain"
             mkdir -p "$ROOT_DOMAIN_DIR"
-            PUREDNS_FILE="${ROOT_DOMAIN_DIR}/shard-${CHUNK_INDEX}.txt"
-            WILDCARD_FILE="${ROOT_DOMAIN_DIR}/wildcards-${CHUNK_INDEX}.txt"
-            MASSDNS_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
-            echo "[shard $CHUNK_INDEX] bruteforcing $domain..."
-            cat "$CHUNK_FILE" | puredns bruteforce "$domain" -r "resolvers.txt" --rate-limit 5000 --rate-limit-trusted 2000 \
+            puredns bruteforce "$domain" -r "resolvers.txt" -w "$CHUNK_FILE" --rate-limit 5000 --rate-limit-trusted 2000 \
               --resolvers-trusted "resolvers-trusted.txt" --wildcard-tests 300 --wildcard-batch 100000 \
-              --write "$PUREDNS_FILE" --write-wildcards "$WILDCARD_FILE" --write-massdns "$MASSDNS_FILE"
+              --write "${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt" \
+              --write-wildcards "${ROOT_DOMAIN_DIR}/wildcards-${CHUNK_INDEX}.txt" \
+              --write-massdns "${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt" --quiet
           done < "domains/domains.txt"
-      - name: (Optional) Commit results back to repo
+      - name: Perform Port Scanning
+        run: |
+          PORTS="80,443,8080,8443,8000" # Using a smaller list for example
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
+          while IFS= read -r domain || [ -n "$domain" ]; do
+            case "$domain" in \#*|"") continue ;; esac
+            ROOT_DOMAIN_DIR="results/$domain"
+            MASSDNS_INPUT_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
+            if [ ! -s "$MASSDNS_INPUT_FILE" ]; then continue; fi
+            
+            TMP_IP2SUB=$(mktemp)
+            TMP_IP_ONLY=$(mktemp)
+            TMP_NONCDN=$(mktemp)
+            
+            awk '$2=="A" { sub(/\.$/,"",$1); print $3, $1 }' "$MASSDNS_INPUT_FILE" | sort -k1,1u > "$TMP_IP2SUB"
+            cut -d' ' -f1 "$TMP_IP2SUB" | sort -u > "$TMP_IP_ONLY"
+            if [ ! -s "$TMP_IP_ONLY" ]; then rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY"; continue; fi
+            
+            cut-cdn -l "$TMP_IP_ONLY" -ua -t 50 -silent -o "$TMP_NONCDN" || true
+            
+            if [ -s "$TMP_NONCDN" ]; then
+              TMP_NAABU=$(mktemp)
+              TMP_RUSTSCAN=$(mktemp)
+              naabu -l "$TMP_NONCDN" -passive -o "$TMP_NAABU" -no-color -silent || true
+              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -t 5000 -b 300 --greppable > "$TMP_RUSTSCAN" || true
+              cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | anew -q "$TMP_NAABU" || true
+              
+              awk -F: 'NF==2{print $1, $2} NF==1{print $1, ""}' "$TMP_NAABU" | sort -k1,1 | join -t' ' -1 1 -2 1 - "$TMP_IP2SUB" \
+                | awk '{ if ($2 ~ /^[0-9]+$/) print $3":"$2; else print $3 }' > "${ROOT_DOMAIN_DIR}/subdomain_ports-${CHUNK_INDEX}.txt"
+              
+              rm -f "$TMP_NAABU" "$TMP_RUSTSCAN"
+            fi
+            rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY" "$TMP_NONCDN"
+          done < "domains/domains.txt"
+
+      - name: Commit results with race condition handling
+        if: secrets.PAT_TOKEN != ''
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GIT_REPO: ${{ github.repository }}
+          GIT_BRANCH: ${{ github.ref_name }}
         run: |
-          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git remote set-url origin "https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}"
-          git add results/
-          if git diff --staged --quiet; then
-            echo "No new results to commit for shard ${CHUNK_INDEX}"
-          else
-            git commit -m "Add puredns results: shard ${CHUNK_INDEX}"
-            for try in 1 2 3; do
-              if git pull --rebase --autostash origin ${{ github.ref_name }} && git push origin HEAD:${{ github.ref_name }}; then
-                echo "Pushed results for shard ${CHUNK_INDEX}"; break
-              fi
-              echo "Push attempt $try failed; retrying..."
-              sleep $((try * 2))
-            done
+          RESULTS_DIR="${GITHUB_WORKSPACE}/results"
+          if [ ! -d "$RESULTS_DIR" ] || [ -z "$(ls -A "$RESULTS_DIR")" ]; then
+            echo "Results directory is empty. Nothing to commit."
+            exit 0
           fi
+          
+          TMP_DIR=$(mktemp -d)
+          echo "Cloning ${GIT_REPO} to a temporary directory..."
+          git clone "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" "$TMP_DIR"
+          cd "$TMP_DIR"
+          git checkout "$GIT_BRANCH"
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions-bot@users.noreply.github.com"
 
+          merge_and_deduplicate() {
+            local source_glob_pattern="$1"
+            local destination_file="$2"
+            
+            source_files=($(find "$RESULTS_DIR" -type f -name "$source_glob_pattern"))
+            if [ ${#source_files[@]} -eq 0 ]; then return; fi
+            
+            echo "Merging ${#source_files[@]} files matching '$source_glob_pattern' into '$destination_file'..."
+            temp_merged=$(mktemp)
+            if [ -f "$destination_file" ]; then
+              cat "${source_files[@]}" "$destination_file" | sort -u > "$temp_merged"
+            else
+              cat "${source_files[@]}" | sort -u > "$temp_merged"
+            fi
+            mv "$temp_merged" "$destination_file"
+          }
+
+          run_merge_logic() {
+            echo "Applying merge logic..."
+            for domain_dir in "${RESULTS_DIR}"/*; do
+              if [ ! -d "$domain_dir" ]; then continue; fi
+              domain_name=$(basename "$domain_dir")
+              dest_repo_dir="results/$domain_name"
+              mkdir -p "$dest_repo_dir"
+              
+              merge_and_deduplicate "$domain_dir/puredns-output-*.txt" "$dest_repo_dir/all_subdomains.txt"
+              merge_and_deduplicate "$domain_dir/subdomain_ports-*.txt" "$dest_repo_dir/subdomains_with_ports.txt"
+              merge_and_deduplicate "$domain_dir/wildcards-*.txt" "$dest_repo_dir/wildcards.txt"
+              merge_and_deduplicate "$domain_dir/massdns-*.txt" "$dest_repo_dir/massdns_records.txt"
+            done
+            git add results/
+          }
+
+          # --- Main Commit Loop ---
+          run_merge_logic
+          if git diff --cached --quiet; then
+            echo "No new unique data to commit from this shard."
+            exit 0
+          fi
+          
+          git commit -m "feat: Add puredns results from shard ${{ matrix.shard }} (run ${{ github.run_id }})"
+          
+          MAX_ATTEMPTS=5
+          for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
+            echo "[Attempt $i/$MAX_ATTEMPTS] Pushing changes..."
+            if git push -v origin "$GIT_BRANCH"; then
+              echo "✅ Successfully pushed results on attempt $i."
+              exit 0
+            fi
+            
+            echo "Push failed. Fetching, resetting, and re-applying changes."
+            git fetch origin "$GIT_BRANCH"
+            git reset --hard "origin/${GIT_BRANCH}"
+            
+            run_merge_logic
+            
+            if git diff --cached --quiet; then
+              echo "No net new changes to commit after syncing with remote."
+              exit 0
+            fi
+            
+            git commit -m "feat: Add puredns results from shard ${{ matrix.shard }} (run ${{ github.run_id }}, retry $i)"
+            sleep $(( 2 * i ))
+          done
+
+          echo "::error:: All push attempts failed after $MAX_ATTEMPTS retries."
+          exit 1
+  
   dispatch-next:
+    # This job remains unchanged
     name: dispatch-next-run
     runs-on: ubuntu-latest
     needs: [prepare, brute]
@@ -219,7 +321,7 @@ jobs:
     steps:
       - name: Compute and dispatch next run
         run: |
-          if [ -z "${PAT_TOKEN}" ]; then echo "Error: secrets.PAT_TOKEN is required." >&2; exit 0; fi
+          if [ -z "${PAT_TOKEN}" ]; then echo "Error: secrets.PAT_TOKEN is required." >&2; exit 1; fi
           CHUNK_START=${{ github.event.inputs.chunk_start }}
           TOTAL_CHUNKS=${{ needs.prepare.outputs.total-chunks }}
           RUN_COUNTER=${{ github.event.inputs.run_counter }}
