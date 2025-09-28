@@ -1,0 +1,10 @@
+itms.bmw.com:443
+itms.bmw.com:80
+kellergassenfest-1.bmw.com:111
+kellergassenfest-1.bmw.com:22
+kellergassenfest-1.bmw.com:80
+kellergassenfest-1.bmw.com:9000
+launchpad31.bmw.com:111
+launchpad31.bmw.com:22
+launchpad31.bmw.com:80
+launchpad31.bmw.com:9000
