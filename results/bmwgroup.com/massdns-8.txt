@@ -1,3 +1,5 @@
+heidi.bmwgroup.com. A 160.46.233.73
+hids.bmwgroup.com. A 118.26.48.245
 integratelecom.bmwgroup.com. A 74.220.199.6
 int-cm.bmwgroup.com. A 74.220.199.6
 inbox9-5.bmwgroup.com. A 74.220.199.6
