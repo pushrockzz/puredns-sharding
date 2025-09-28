@@ -224,7 +224,7 @@ jobs:
             ROOT_DOMAIN_DIR="results/$domain"
             MASSDNS_INPUT_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
             
-            if [ ! -s "$MASSD"NS_INPUT_FILE" ]; then
+            if [ ! -s "$MASSDNS_INPUT_FILE" ]; then
               echo "▶ Skipping $domain, no massdns file found or file is empty."
               continue
             fi
