@@ -7,6 +7,10 @@ bid46tn.bmw.com:80
 bid47p5.bmw.com:10050
 bid47p5.bmw.com:123
 bid47p5.bmw.com:80
+bjgw.bmw.com:111
+bjgw.bmw.com:22
+bjgw.bmw.com:80
+bjgw.bmw.com:9000
 blqs.bmw.com:10050
 blqs.bmw.com:123
 blqs.bmw.com:80
@@ -31,6 +35,10 @@ cachemedia.bmw.com:80
 candidatespic.bmw.com:10050
 candidatespic.bmw.com:123
 candidatespic.bmw.com:80
+carolina-farms-cbd-oil-reviews.bmw.com:111
+carolina-farms-cbd-oil-reviews.bmw.com:22
+carolina-farms-cbd-oil-reviews.bmw.com:80
+carolina-farms-cbd-oil-reviews.bmw.com:9000
 carolynsaucier.bmw.com:10050
 carolynsaucier.bmw.com:123
 carolynsaucier.bmw.com:80
