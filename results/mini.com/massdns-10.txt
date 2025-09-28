@@ -1,3 +1,12 @@
+exploreandlearn.mini.com. A 0.0.0.0
+essineocovidev.mini.com. A 0.0.0.0
+event08-4.mini.com. A 0.0.0.0
+entitlementreference.mini.com. A 0.0.0.0
+entidia.mini.com. A 0.0.0.0
+edirect.mini.com. A 0.0.0.0
+domain-svnpostgresgit.mini.com. A 0.0.0.0
+donatasbucinskas.mini.com. A 0.0.0.0
+dniuserportal.mini.com. A 0.0.0.0
 eu53.mini.com. A 0.0.0.0
 esb2.mini.com. A 0.0.0.0
 es-es-fr-ca.mini.com. A 74.220.199.6
