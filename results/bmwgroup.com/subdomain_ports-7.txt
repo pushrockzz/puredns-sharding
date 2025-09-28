@@ -1,0 +1,5 @@
+karriere.bmwgroup.com:443
+karriere.bmwgroup.com:80
+label.bmwgroup.com:443
+label.bmwgroup.com:80
+redirect.bmwgroup.com:80

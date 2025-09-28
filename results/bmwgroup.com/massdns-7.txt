@@ -1,3 +1,8 @@
+160.46.233.188 label.bmwgroup.com
+160.46.244.200 lisa.bmwgroup.com
+160.46.244.54 redirect.bmwgroup.com
+193.23.33.152 mail12.bmwgroup.com
+62.67.56.131 karriere.bmwgroup.com
 mail52-5radsch.bmwgroup.com. A 74.220.199.6
 ltip06.bmwgroup.com. A 74.220.199.6
 mail-78-use2.bmwgroup.com. A 74.220.199.6
