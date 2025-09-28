@@ -1,3 +1,16 @@
+authv4bucketsslvpn.mini.de. A 0.0.0.0
+avayalsp5utility.mini.de. A 0.0.0.0
+atbladte.mini.de. A 125.235.4.59
+asclepia.mini.de. A 125.235.4.59
+augsburg.mini.de. A 160.46.226.164
+artwork-apiorigin.mini.de. A 0.0.0.0
+ash2-lunalunaluna-a1.mini.de. A 0.0.0.0
+arnold.mini.de. A 160.46.226.164
+askveda.mini.de. A 0.0.0.0
+app-iad02-origin.mini.de. A 0.0.0.0
+apemobile.mini.de. A 0.0.0.0
+api-nrc-svc-ext-ac2b.mini.de. A 0.0.0.0
+android4-15.mini.de. A 0.0.0.0
 beta5-5.mini.de. A 74.220.199.6
 betaalverzoek.mini.de. A 74.220.199.6
 beta-alamode.mini.de. A 0.0.0.0
@@ -23,7 +36,6 @@ aws-us-east-2b-lms.mini.de. A 0.0.0.0
 aws-support-dashboard-mkii.mini.de. A 74.220.199.6
 aused15.mini.de. A 0.0.0.0
 aurangabad-escort.mini.de. A 0.0.0.0
-augsburg.mini.de. A 160.46.226.164
 bawcredit.mini.de. A 0.0.0.0
 authorisation-service.mini.de. A 0.0.0.0
 authoring-lite.mini.de. A 0.0.0.0
@@ -35,7 +47,6 @@ ascb5xmyf2-2.mini.de. A 74.220.199.6
 awinternal.mini.de. A 74.220.199.6
 authuat.mini.de. A 74.220.199.6
 ash1-pstorage-a23.mini.de. A 74.220.199.6
-arnold.mini.de. A 160.46.226.164
 arcijanzaria.mini.de. A 74.220.199.6
 arkindupic.mini.de. A 0.0.0.0
 applesac.mini.de. A 74.220.199.6

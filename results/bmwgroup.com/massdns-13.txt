@@ -1,3 +1,8 @@
+auth-t.bmwgroup.com. CNAME auth-t-next.bmwgroup.com.
+auth-t-next.bmwgroup.com. A 3.64.113.178
+auth-t-next.bmwgroup.com. A 35.157.13.209
+auth-t-next.bmwgroup.com. A 3.67.119.41
+analytics-debug-mr.bmwgroup.com. A 0.0.0.0
 bestow.bmwgroup.com. A 74.220.199.6
 beacon.bmwgroup.com. A 160.46.231.66
 beta-sellerflex.bmwgroup.com. A 74.220.199.6
@@ -5,10 +10,6 @@ beta-backyard3.bmwgroup.com. A 74.220.199.6
 b49dphlki4-dsn.bmwgroup.com. A 74.220.199.6
 axewi-6-7.bmwgroup.com. A 74.220.199.6
 b3u5piitcm-1.bmwgroup.com. A 74.220.199.6
-auth-t.bmwgroup.com. CNAME auth-t-next.bmwgroup.com.
-auth-t-next.bmwgroup.com. A 3.64.113.178
-auth-t-next.bmwgroup.com. A 35.157.13.209
-auth-t-next.bmwgroup.com. A 3.67.119.41
 athletesapp.bmwgroup.com. A 74.220.199.6
 assetbank.bmwgroup.com. A 74.220.199.6
 auctane.bmwgroup.com. A 74.220.199.6

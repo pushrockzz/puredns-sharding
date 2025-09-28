@@ -1,3 +1,11 @@
+belazy.mini.com. A 0.0.0.0
+banker29.mini.com. A 0.0.0.0
+bangaloreblog.mini.com. A 0.0.0.0
+auntbertha.mini.com. A 0.0.0.0
+asuka.mini.com. A 118.26.48.245
+awprdmix.mini.com. A 0.0.0.0
+apexchange.mini.com. A 0.0.0.0
+argentina6.mini.com. A 118.26.48.245
 beta-cw-api.mini.com. A 0.0.0.0
 bespinglobal1.mini.com. A 0.0.0.0
 beta02.mini.com. A 74.220.199.6
