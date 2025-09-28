@@ -21,7 +21,7 @@ on:
       words_per_chunk:
         description: 'Words per chunk file (lines_per_chunk).'
         required: false
-        default: '35000'
+        default: '40000'
       domains_count:
         description: 'How many test domains to generate (default = 5)'
         required: false
