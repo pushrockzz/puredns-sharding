@@ -1,3 +1,17 @@
+y07-f03.mini.com. A 0.0.0.0
+yss8.mini.com. A 0.0.0.0
+yitian2yulecheng.mini.com. A 0.0.0.0
+wmplmprsetvm.mini.com. A 0.0.0.0
+wuziqi.mini.com. A 0.0.0.0
+workspace-sjc13-int.mini.com. A 0.0.0.0
+xfacwps-cloudfront.mini.com. A 0.0.0.0
+wheresmyserver.mini.com. A 0.0.0.0
+workflowweb-jjbiq.mini.com. A 0.0.0.0
+webhnotifications-perf.mini.com. A 0.0.0.0
+webtrends.mini.com. CNAME statse.webtrendslive.com.
+wickedyarnsandwool.mini.com. A 0.0.0.0
+vpncloud-accounts.mini.com. A 0.0.0.0
+vadud-net.mini.com. A 0.0.0.0
 xraymarkerssite.mini.com. A 74.220.199.6
 xpaytelco.mini.com. A 74.220.199.6
 xpaydashboard.mini.com. A 74.220.199.6
@@ -14,7 +28,6 @@ wiki-errormonitor.mini.com. A 74.220.199.6
 weightlfg.mini.com. A 74.220.199.6
 wiki56hoenixuildasched1fec.mini.com. A 74.220.199.6
 weremit.mini.com. A 0.0.0.0
-webtrends.mini.com. CNAME statse.webtrendslive.com.
 whober-v2.mini.com. A 0.0.0.0
 workspacedev1.mini.com. A 0.0.0.0
 webip.mini.com. A 74.220.199.6
