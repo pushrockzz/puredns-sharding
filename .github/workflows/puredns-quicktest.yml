@@ -215,21 +215,21 @@ jobs:
         shell: bash
         run: |
           
-          PORTS="80,443,8080,8443,8000"
+          PORTS="80,443,8080,8443"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
-
+          
           while IFS= read -r domain || [ -n "$domain" ]; do
             case "$domain" in \#*|"") continue ;; esac
             
             ROOT_DOMAIN_DIR="results/$domain"
             MASSDNS_INPUT_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
             
-            if [ ! -s "$MASSDNS_INPUT_FILE" ]; then
+            if [ ! -s "$MASSD"NS_INPUT_FILE" ]; then
               echo "▶ Skipping $domain, no massdns file found or file is empty."
               continue
             fi
             
-            # --- DEFINE TEMPORARY FILES ---
+            # Using your exact variable names and logic
             TMP_IP2SUB=$(mktemp)
             TMP_IP_ONLY=$(mktemp)
             TMP_NONCDN=$(mktemp)
@@ -239,67 +239,72 @@ jobs:
             echo "▶ Processing domain: $domain"
             
             # --- FIX #1: VIGOROUSLY FILTER THE MASSDNS FILE ---
-            # This awk command is the most critical change.
-            # 1. `-v domain="$domain"`: Safely passes the current domain (e.g., "bmw.com") into awk.
-            # 2. `$1 ~ "\\." domain "\\.?$"`: Filters for lines where the first field ($1) is a subdomain of the current domain.
-            #    - This PREVENTS bmwgroup.com results from polluting the bmw.com directory.
-            # 3. `$2 == "A"`: Ensures we only process A-records.
-            # 4. `{ sub(/\.$/,"",$1); print $3, $1 }`: Prints the clean "IP subdomain" format.
+            # This awk command prevents cross-domain contamination (e.g., bmwgroup.com results in the bmw.com directory).
+            # It processes ONLY A-records matching the current root domain being looped over.
             awk -v domain="$domain" '
               $1 ~ "\\." domain "\\.?$" && $2 == "A" {
                 sub(/\.$/, "", $1);
                 print $3, $1
               }
-            ' "$MASSDNS_INPUT_FILE" | sort -u > "$TMP_IP2SUB"
+            ' "$MASSDNS_INPUT_FILE" | sort -u  > "$TMP_IP2SUB"
+             
 
             # Check if any valid A-records were found after filtering
             if [ ! -s "$TMP_IP2SUB" ]; then
-              echo "▶ No valid A-records found for $domain after filtering. Skipping further processing."
-              rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY" "$TMP_NONCDN" "$TMP_CDN" "$TMP_NAABU_RUSTSCAN"
+              echo "▶ No valid A-records found for $domain after filtering. Clearing original file and skipping."
               # --- FIX #2a: Overwrite with an empty file to signify no results ---
               > "$MASSDNS_INPUT_FILE"
+              # Clean up temporary files for this iteration
+              rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY" "$TMP_NONCDN" "$TMP_CDN" "$TMP_NAABU_RUSTSCAN"
               continue
             fi
 
-            echo "✅ Found $(wc -l < "$TMP_IP2SUB") filtered A-records for $domain (IP Subdomain format)."
-            head -n5 "$TMP_IP2SUB"
-            echo "==================================================================="
-
+            echo "✅ Found $(wc -l < "$TMP_IP2SUB") filtered A-records for $domain."
+            
             # --- FIX #2b: OVERWRITE THE ORIGINAL MASSDNS FILE WITH THE CLEAN DATA ---
-            # This ensures the final "commit" step will see and commit this clean data,
-            # not the raw data. We use `cat` instead of `mv` to preserve TMP_IP2SUB for later use.
-            cat "$TMP_IP2SUB" > "$MASSDNS_INPUT_FILE"
+            # This is the crucial step. It ensures the final "commit" job will see and commit
+            # the clean "IP subdomain" data instead of the raw data.
+            cat "$TMP_IP2SUB" | inscope -s .scope > "$MASSDNS_INPUT_FILE"
             echo "✅ Overwrote $MASSDNS_INPUT_FILE with clean, filtered data."
             
             echo "▶ Pulling unique IPs..."
             cut -d' ' -f1 "$TMP_IP2SUB" | sort -u > "$TMP_IP_ONLY"
             
             echo "▶ Filtering non-CDN IPs with cut-cdn..."
-            cut-cdn -ua -t 50 -silent -l "$TMP_IP_ONLY" -o "$TMP_NONCDN"
+            cat "$TMP_IP_ONLY" | cut-cdn -ua -t 50 -silent -o "$TMP_NONCDN"
+            echo "✅ TMP_IP_ONLY contains $(wc -l < "$TMP_IP_ONLY") IPs for $domain"
             
             echo "▶ Deriving CDN IP list for $domain..."
-            anew -d "$TMP_NONCDN" -q "$TMP_IP_ONLY" > "$TMP_CDN"
+            cat "$TMP_IP_ONLY" | anew -d "$TMP_NONCDN" > "$TMP_CDN"
+            echo "✅ TMP_CDN contains $(wc -l < "$TMP_CDN") IPs for $domain"
             
             echo "▶ Running naabu and rustscan on non-CDN IPs for $domain..."
             if [ -s "$TMP_NONCDN" ]; then
               TMP_RUSTSCAN=$(mktemp)
               naabu -l "$TMP_NONCDN" -passive -o "$TMP_NAABU_RUSTSCAN" -no-color -silent || true
               rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -t 5000 -b 300 --greppable > "$TMP_RUSTSCAN" || true
-              awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' "$TMP_RUSTSCAN" | anew -q "$TMP_NAABU_RUSTSCAN" || true
+              cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | anew -q "$TMP_NAABU_RUSTSCAN" || true
               rm -f "$TMP_RUSTSCAN"
             fi
-
+            
             echo "▶ Merging CDN and non-CDN results..."
             FINAL_IP_LIST=$(mktemp)
-            { cat "$TMP_NAABU_RUSTSCAN"; cat "$TMP_CDN"; } | sort -u > "$FINAL_IP_LIST"
+            cat "$TMP_NAABU_RUSTSCAN" "$TMP_CDN" | sort -u > "$FINAL_IP_LIST"
 
             echo "▶ Joining to produce final subdomain:port list for $domain..."
             OUTPUT_FILE="${ROOT_DOMAIN_DIR}/subdomain_ports-${CHUNK_INDEX}.txt"
-            join -t' ' -1 1 -2 1 <(sort -k1,1 "$TMP_IP2SUB") <(awk -F: 'NF==2 { print $1, $2 } NF==1 { print $1, "" }' "$FINAL_IP_LIST" | sort -k1,1) | awk '{ if ($3 ~ /^[0-9]+$/) print $2":"$3; else print $2 }' > "$OUTPUT_FILE"
+            awk -F: '
+              NF==2 { print $1, $2 }
+              NF==1 { print $1, ""  }
+            ' "$FINAL_IP_LIST" \
+              | sort -k1,1 \
+              | join -t' ' -1 1 -2 1 - "$TMP_IP2SUB" \
+              | awk '{ if ($2 ~ /^[0-9]+$/) print $3":"$2; else print $3 }' \
+              > "$OUTPUT_FILE"
             
             echo "✅ Generated $OUTPUT_FILE"
             
-            # Critical: Clean up all temporary files
+            # Critical: Clean up all temporary files for this domain
             rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY" "$TMP_NONCDN" "$TMP_CDN" "$TMP_NAABU_RUSTSCAN" "$FINAL_IP_LIST"
           done < "domains/domains.txt"
           
