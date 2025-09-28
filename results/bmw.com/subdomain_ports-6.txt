@@ -1,0 +1,5 @@
+oceppuirt.bmw.com:10000
+oceppuirt.bmw.com:22
+oceppuirt.bmw.com:443
+oceppuirt.bmw.com:53
+oceppuirt.bmw.com:80
