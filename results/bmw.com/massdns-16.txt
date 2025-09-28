@@ -1,3 +1,11 @@
+104.109.250.59 error-alphapress-uat.bmw.com
+104.109.250.59 foc-na-vp.bmw.com
+104.109.250.59 h-135-197-236-82.bmw.com
+104.109.250.59 h135-207-50-51.bmw.com
+118.26.48.245 https-th-m-wikipedia-org-7-7.bmw.com
+118.26.48.245 tor203-12-pda.bmw.com
+125.235.4.59 debug-internalsupport-corp.bmw.com
+125.235.4.59 usw1-88-gra.bmw.com
 154.72.193.28 155-9-192-35.bmw.com
 154.72.193.28 assetsaccount-nodetemp-storage.bmw.com
 154.72.193.28 cms-edge-mqtt-mini-shv-01-hbe1.bmw.com

@@ -1,3 +1,10 @@
+slb3-1-cld.bmwgroup.com. A 23.213.186.155
+thesourcebv.bmwgroup.com. A 23.213.186.155
+private-backup-dev-new-static.bmwgroup.com. A 23.213.186.155
+sevlab-cucm-pub.bmwgroup.com. A 23.213.186.155
+tor134-113-pda.bmwgroup.com. A 23.213.186.155
+moloch-util-mtc04.bmwgroup.com. A 125.235.4.59
+diymusician-account.bmwgroup.com. A 125.235.4.59
 tor154-31-pdc.bmwgroup.com. A 2.18.205.20
 h-135-207-134-42.bmwgroup.com. A 125.235.4.59
 h-135-207-103-97.bmwgroup.com. A 154.72.193.28

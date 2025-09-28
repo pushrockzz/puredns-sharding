@@ -33,6 +33,10 @@ https-pt-m-wikipedia-org43.bmw.com:22
 https-pt-m-wikipedia-org43.bmw.com:443
 https-pt-m-wikipedia-org43.bmw.com:53
 https-pt-m-wikipedia-org43.bmw.com:80
+https-th-m-wikipedia-org-7-7.bmw.com:111
+https-th-m-wikipedia-org-7-7.bmw.com:22
+https-th-m-wikipedia-org-7-7.bmw.com:80
+https-th-m-wikipedia-org-7-7.bmw.com:9000
 oxy-oxygen-74-6-44-75.bmw.com:10000
 oxy-oxygen-74-6-44-75.bmw.com:22
 oxy-oxygen-74-6-44-75.bmw.com:443
@@ -58,6 +62,10 @@ sto3-serverdb-a2.bmw.com:22
 sto3-serverdb-a2.bmw.com:443
 sto3-serverdb-a2.bmw.com:53
 sto3-serverdb-a2.bmw.com:80
+tor203-12-pda.bmw.com:111
+tor203-12-pda.bmw.com:22
+tor203-12-pda.bmw.com:80
+tor203-12-pda.bmw.com:9000
 tor27-39-vzb.bmw.com:10000
 tor27-39-vzb.bmw.com:22
 tor27-39-vzb.bmw.com:443
