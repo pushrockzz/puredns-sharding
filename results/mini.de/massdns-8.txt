@@ -1,0 +1,4 @@
+hering.mini.de. CNAME www.mini.com.edgesuite.net.
+www.mini.com.edgesuite.net. CNAME a1954.r.akamai.net.
+a1954.r.akamai.net. A 104.84.150.181
+a1954.r.akamai.net. A 104.84.150.166
