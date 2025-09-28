@@ -1,0 +1,6 @@
+uploadsusers-preferencesuserserp.bmwgroup.com. A 154.72.193.28
+thomasgoldkampinc.bmwgroup.com. A 154.72.193.28
+testing-1.bmwgroup.com. A 160.46.228.102
+stdm.bmwgroup.com. A 154.72.193.28
+stg1supplierws.bmwgroup.com. A 154.72.193.28
+stg-spglink.bmwgroup.com. A 154.72.193.28
