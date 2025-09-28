@@ -1,0 +1,14 @@
+160.46.233.226 strong.bmw.com
+160.46.240.127 tapi.bmw.com
+170.34.104.168 telex.bmw.com
+74.220.199.6 stefan9.bmw.com
+74.220.199.6 stg-wf.bmw.com
+74.220.199.6 syst-oracle-report.bmw.com
+74.220.199.6 systempanel-wwwm.bmw.com
+74.220.199.6 teamdev-betaslave.bmw.com
+74.220.199.6 thunkpic.bmw.com
+74.220.199.6 tibcf.bmw.com
+74.220.199.6 tina.bmw.com
+74.220.199.6 tonybear.bmw.com
+74.220.199.6 trcemanager.bmw.com
+74.220.199.6 upgradeconfluence.bmw.com
