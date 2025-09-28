@@ -1,8 +1,0 @@
-hartmann.mini.de:443
-hartmann.mini.de:80
-saarland.mini.de:443
-saarland.mini.de:80
-volvocarsapac.mini.de:111
-volvocarsapac.mini.de:22
-volvocarsapac.mini.de:80
-volvocarsapac.mini.de:9000

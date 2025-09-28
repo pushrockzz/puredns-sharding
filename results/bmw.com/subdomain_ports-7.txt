@@ -1,9 +1,0 @@
-jas-meetkour.bmw.com:10050
-jas-meetkour.bmw.com:123
-jas-meetkour.bmw.com:80
-knl1.bmw.com:10050
-knl1.bmw.com:123
-knl1.bmw.com:80
-lqb7roauut.bmw.com:10050
-lqb7roauut.bmw.com:123
-lqb7roauut.bmw.com:80

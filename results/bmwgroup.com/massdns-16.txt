@@ -1,5 +1,0 @@
-h-135-207-2-46.bmwgroup.com. A 74.220.199.6
-tor134-275-pdb.bmwgroup.com. A 74.220.199.6
-17-121-123-47.bmwgroup.com. A 74.220.199.6
-tor263-316-pda.bmwgroup.com. A 74.220.199.6
-rsw33-1-flk.bmwgroup.com. A 74.220.199.6

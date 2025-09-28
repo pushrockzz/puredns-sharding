@@ -1,6 +1,0 @@
-static3.bmw.com
-static4.bmw.com
-strong.bmw.com
-tapi.bmw.com
-telex.bmw.com
-tracking-api.bmw.com
