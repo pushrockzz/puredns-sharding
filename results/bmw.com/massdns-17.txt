@@ -1,3 +1,17 @@
+23.55.222.104 63-51-4.bmw.com
+23.55.222.104 app-dev-02.bmw.com
+23.55.222.104 baiduspider-116-179-37-24.bmw.com
+23.55.222.104 cms-wwwold-live.bmw.com
+23.55.222.104 controlsustat.bmw.com
+23.55.222.104 https-m-olx-ph26.bmw.com
+23.55.222.104 ipv4-c001-bma001-telenor-isp.bmw.com
+23.55.222.104 ipv4-c039-syd002-ix.bmw.com
+23.55.222.104 lw-dc5-core2.bmw.com
+23.55.222.104 p01-2-ag.bmw.com
+23.55.222.104 shs-seq-ca.bmw.com
+23.55.222.104 sjc1-plannotate-b1.bmw.com
+23.55.222.104 sto5-harvestertranscoder-a1.bmw.com
+23.55.222.104 vat-id-qal.bmw.com
 154.72.193.28 abc-9-10-3.bmw.com
 154.72.193.28 ash2-heroicconsumercs-a4.bmw.com
 154.72.193.28 chat-gateway159-prod.bmw.com
