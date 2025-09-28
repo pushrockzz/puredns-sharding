@@ -1,0 +1,15 @@
+78-21-198-123cess.bmwgroup.com:10000
+78-21-198-123cess.bmwgroup.com:22
+78-21-198-123cess.bmwgroup.com:443
+78-21-198-123cess.bmwgroup.com:53
+78-21-198-123cess.bmwgroup.com:80
+7fgithub-9.bmwgroup.com:10000
+7fgithub-9.bmwgroup.com:22
+7fgithub-9.bmwgroup.com:443
+7fgithub-9.bmwgroup.com:53
+7fgithub-9.bmwgroup.com:80
+8bpvjfiyno.bmwgroup.com:10000
+8bpvjfiyno.bmwgroup.com:22
+8bpvjfiyno.bmwgroup.com:443
+8bpvjfiyno.bmwgroup.com:53
+8bpvjfiyno.bmwgroup.com:80
