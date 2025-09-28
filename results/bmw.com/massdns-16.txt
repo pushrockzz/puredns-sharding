@@ -1,1 +1,0 @@
-api-edge.bmw.com. CNAME bmw-rampup2-prod.apigee.net.

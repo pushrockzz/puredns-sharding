@@ -1,2 +1,0 @@
-cmp-test.bmw.com
-cpp-prod.bmw.com

@@ -1,7 +1,0 @@
-ocr-prod.bmwgroup.com. A 122.200.104.201
-my-test.bmwgroup.com. A 160.46.249.179
-mwp5.bmwgroup.com. A 160.46.235.37
-mxs2.bmwgroup.com. A 195.190.135.12
-mdm-dev.bmwgroup.com. A 160.46.232.104
-mdm-int.bmwgroup.com. A 192.109.190.79
-marketingonsocialmedia.bmwgroup.com. A 118.26.48.245

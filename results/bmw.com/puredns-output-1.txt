@@ -1,3 +1,0 @@
-vip-int.bmw.com
-vpn12.bmw.com
-workflow-dev.bmw.com

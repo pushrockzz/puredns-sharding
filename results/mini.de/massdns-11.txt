@@ -1,9 +1,0 @@
-configure.mini.de. CNAME configure.mini.de.cf.conx.aws.bmw.cloud.
-configure.mini.de.cf.conx.aws.bmw.cloud. CNAME mini.configure.bmw.cloud.
-mini.configure.bmw.cloud. CNAME d1abrq7o7gina8.cloudfront.net.
-d1abrq7o7gina8.cloudfront.net. A 18.244.214.126
-d1abrq7o7gina8.cloudfront.net. A 18.244.214.4
-d1abrq7o7gina8.cloudfront.net. A 18.244.214.96
-d1abrq7o7gina8.cloudfront.net. A 18.244.214.106
-coinbasewalletcustomercare.mini.de. A 118.26.48.245
-cromstrijen.mini.de. A 118.26.48.245

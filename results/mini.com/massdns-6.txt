@@ -1,4 +1,0 @@
-minio.mini.com. CNAME www.mini.com.edgesuite.net.
-www.mini.com.edgesuite.net. CNAME a1954.r.akamai.net.
-a1954.r.akamai.net. A 195.12.179.17
-a1954.r.akamai.net. A 195.12.179.50

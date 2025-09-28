@@ -1,2 +1,0 @@
-cmp-test.bmw.com:443
-cmp-test.bmw.com:80

@@ -1,4 +1,0 @@
-perso.mini.de. A 160.46.247.211
-philipp.mini.de. A 160.46.226.164
-originwww.mini.de. A 160.46.244.134
-orspprmsp1.mini.de. A 118.26.48.245

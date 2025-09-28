@@ -1,9 +1,0 @@
-charging.bmwgroup.com. CNAME www.bmwgroup.com.
-www.bmwgroup.com. CNAME grpw-ion.bmw.com.edgekey.net.
-grpw-ion.bmw.com.edgekey.net. CNAME e26981.dsca.akamaiedge.net.
-e26981.dsca.akamaiedge.net. A 2.22.251.35
-e26981.dsca.akamaiedge.net. A 2.22.251.20
-breeze.bmwgroup.com. CNAME de.netdocuments.com.
-de.netdocuments.com. CNAME de.netdocuments.com.edgekey.net.
-de.netdocuments.com.edgekey.net. CNAME e8733.b.akamaiedge.net.
-e8733.b.akamaiedge.net. A 104.80.213.161

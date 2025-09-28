@@ -1,3 +1,0 @@
-perso.mini.com. A 160.46.247.211
-p38-iwmb7-china.mini.com. A 118.26.48.245
-originwww.mini.com. A 160.46.244.134

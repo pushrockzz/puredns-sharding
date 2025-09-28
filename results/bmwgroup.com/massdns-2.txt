@@ -1,6 +1,0 @@
-testing-1.bmwgroup.com. A 160.46.228.102
-techradar.bmwgroup.com. CNAME d36zav6jye5ume.cloudfront.net.
-sync-test.bmwgroup.com. A 192.109.190.93
-summary.bmwgroup.com. CNAME api5.creatoriq.com.
-api5.creatoriq.com. A 54.183.33.11
-api5.creatoriq.com. A 52.53.106.210

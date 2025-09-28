@@ -1,2 +1,0 @@
-cpp-prod.bmw.com. A 160.46.231.16
-cmp-test.bmw.com. A 160.46.228.49

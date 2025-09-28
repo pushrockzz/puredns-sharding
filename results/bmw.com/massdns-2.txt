@@ -1,7 +1,0 @@
-static3.bmw.com. CNAME bmwprod.edgekey.net.
-bmwprod.edgekey.net. CNAME e12267.dsca.akamaiedge.net.
-e12267.dsca.akamaiedge.net. A 23.0.162.15
-e12267.dsca.akamaiedge.net. A 23.0.162.7
-static4.bmw.com. CNAME bmwprod.edgekey.net.
-e12267.dsca.akamaiedge.net. A 23.194.127.146
-e12267.dsca.akamaiedge.net. A 23.194.127.141

@@ -1,3 +1,0 @@
-augsburg.mini.de. A 160.46.226.164
-backupgci.mini.de. A 118.26.48.245
-arnold.mini.de. A 160.46.226.164

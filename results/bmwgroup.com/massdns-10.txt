@@ -1,3 +1,0 @@
-elan.bmwgroup.com. A 160.46.231.65
-drift.bmwgroup.com. A 170.34.127.200
-dmp-test.bmwgroup.com. A 160.46.236.11
