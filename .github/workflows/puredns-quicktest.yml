@@ -309,15 +309,19 @@ jobs:
           GIT_BRANCH: ${{ github.ref_name }}
         run: |
 
+          set -e -o pipefail -x
+
           SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           
-          if ! find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" | read -r; then
+          # Use a safer method to check if files exist.
+          if ! find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print0 | read -d '' -r; then
             echo "No result files found for shard ${CHUNK_INDEX}. Nothing to commit."
+            # Deactivate command tracing before exiting cleanly.
+            set +x
             exit 0
           fi
           
-          # This temporary directory is just a workspace. It is NOT the final destination.
           TMP_DIR=$(mktemp -d)
           echo "Cloning ${GIT_REPO} into temporary directory ${TMP_DIR}..."
           git clone --depth 1 "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" --branch "$GIT_BRANCH" "$TMP_DIR"
@@ -329,13 +333,8 @@ jobs:
           merge_new_data() {
             local source_file="$1"
             local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
-            
-            # This line ensures the file is placed within the `results/` directory
-            # inside the clone, which becomes the final path in your repository.
             local dest_file="$TMP_DIR/results/$relative_path"
             
-            # This line creates the `results/` directory and any subdirectories
-            # (e.g., `bmw.com`) if they don't already exist in the clone.
             mkdir -p "$(dirname "$dest_file")"
             
             TEMP_MERGED=$(mktemp)
@@ -347,12 +346,14 @@ jobs:
             mv "$TEMP_MERGED" "$dest_file"
           }
           
+          # The robust loop for processing files.
           while IFS= read -r -d $'\0' file; do
-            echo "  -> Merging $file into repository's results/ directory"
             merge_new_data "$file"
           done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print0)
           
-          # Stage all changes within the 'results/' directory for the commit.
+          # --- Deactivate command tracing before performing git operations for cleaner logs ---
+          set +x
+          
           git add results/
           
           if git diff --staged --quiet; then
@@ -362,7 +363,6 @@ jobs:
           
           git commit -m "feat: Update results from shard ${CHUNK_INDEX}"
           
-          # Push the commit to your actual repository branch.
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
             echo "[Attempt $i/$MAX_ATTEMPTS] Pushing results for shard ${CHUNK_INDEX}..."
@@ -376,6 +376,7 @@ jobs:
           
           echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."
           exit 0
+
           
   
   dispatch-next:
