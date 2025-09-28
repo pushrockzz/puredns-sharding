@@ -1,5 +1,4 @@
 accessories.mini.com
-community.mini.com
 ecom.mini.com
 feedback.mini.com
 labs.mini.com
@@ -8,7 +7,6 @@ lyncdiscover.mini.com
 mail.mini.com
 maintenance.mini.com
 mobile.mini.com
-more.mini.com
 search.mini.com
 service.mini.com
 shop.mini.com
