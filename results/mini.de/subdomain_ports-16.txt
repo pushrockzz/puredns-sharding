@@ -1,0 +1,4 @@
+ipv4-c036-mia006-ix.mini.de:111
+ipv4-c036-mia006-ix.mini.de:22
+ipv4-c036-mia006-ix.mini.de:80
+ipv4-c036-mia006-ix.mini.de:9000
