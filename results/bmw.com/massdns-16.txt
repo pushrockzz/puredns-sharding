@@ -1,0 +1,9 @@
+74.220.199.6 17-121-121-44.bmw.com
+74.220.199.6 355-5-7.bmw.com
+74.220.199.6 acura-impala-9.bmw.com
+74.220.199.6 admin-ec1-ha.bmw.com
+74.220.199.6 fido-dev-onduo-https.bmw.com
+74.220.199.6 https-instabridge-com96.bmw.com
+74.220.199.6 ph-cmhs3-s2.bmw.com
+74.220.199.6 rsw82-2-prd.bmw.com
+74.220.199.6 sgsin3-extranet-gw2-v666-hsrp.bmw.com
