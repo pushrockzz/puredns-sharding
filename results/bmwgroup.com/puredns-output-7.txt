@@ -4,3 +4,4 @@ lisa.bmwgroup.com
 livestream.bmwgroup.com
 livestreaming.bmwgroup.com
 mail11.bmwgroup.com
+mail12.bmwgroup.com

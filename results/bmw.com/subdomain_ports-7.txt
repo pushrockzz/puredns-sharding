@@ -1,2 +1,6 @@
 itms.bmw.com:443
 itms.bmw.com:80
+jfxdnb.bmw.com:111
+jfxdnb.bmw.com:22
+jfxdnb.bmw.com:80
+jfxdnb.bmw.com:9000
