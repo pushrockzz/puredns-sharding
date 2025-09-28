@@ -1,0 +1,4 @@
+amos.bmw.com
+api-dev2.bmw.com
+api-uat.bmw.com
+auth-t.bmw.com

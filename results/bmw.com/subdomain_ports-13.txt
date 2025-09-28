@@ -1,0 +1,4 @@
+bak-student.bmw.com:111
+bak-student.bmw.com:22
+bak-student.bmw.com:80
+bak-student.bmw.com:9000
