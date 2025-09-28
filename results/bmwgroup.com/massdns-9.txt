@@ -1,45 +1,16 @@
-160.46.244.54 redirect.bmwgroup.com
-23.55.51.171 fdropbox-54.bmwgroup.com
-23.55.51.171 finances.bmwgroup.com
-23.55.51.171 fit-today-wellness-keto-gummies.bmwgroup.com
-23.55.51.171 footanalyticstom.bmwgroup.com
-23.55.51.171 fpmc3-1.bmwgroup.com
-23.55.51.171 ftp39.bmwgroup.com
-23.55.51.171 futp1-1.bmwgroup.com
-23.55.51.171 fwfd-use1-lb10.bmwgroup.com
-23.55.51.171 fznrqenqj5-1.bmwgroup.com
-23.55.51.171 gisele-richard.bmwgroup.com
-23.55.51.171 github0-07.bmwgroup.com
-23.55.51.171 go2bank-7.bmwgroup.com
-23.55.51.171 graph-74.bmwgroup.com
-grabouw.bmwgroup.com. A 104.109.250.59
-google-drive5.bmwgroup.com. A 104.109.250.59
-govops.bmwgroup.com. A 154.72.193.28
-graph1-95.bmwgroup.com. A 104.109.250.59
-governmentdigitalservice.bmwgroup.com. A 104.109.250.59
-gma-engineering.bmwgroup.com. A 104.109.250.59
+grdallegro.bmwgroup.com. A 154.72.193.28
+graph0-6-8.bmwgroup.com. A 154.72.193.28
+gofleet69.bmwgroup.com. A 154.72.193.28
+gmailtechsupport-helpdesk.bmwgroup.com. A 154.72.193.28
 googleplus.bmwgroup.com. CNAME redirect.bmwgroup.com.
 redirect.bmwgroup.com. A 160.46.244.54
-github96.bmwgroup.com. A 104.109.250.59
-geo5.bmwgroup.com. A 104.109.250.59
-gmsapi.bmwgroup.com. A 104.109.250.59
-germany-gold-care.bmwgroup.com. A 104.109.250.59
-g2s2-regional-na.bmwgroup.com. A 104.109.250.59
-fw1-lis.bmwgroup.com. A 104.109.250.59
-gmailcustomercare1.bmwgroup.com. A 104.109.250.59
-gcauldronloader.bmwgroup.com. A 104.109.250.59
-fundosemoldurasparafotos.bmwgroup.com. A 154.72.193.28
-foojee.bmwgroup.com. A 104.109.250.59
-gast-honderddrieentwintig.bmwgroup.com. A 104.109.250.59
-fnsku.bmwgroup.com. A 154.72.193.28
-fldb4-1.bmwgroup.com. A 104.109.250.59
-filmetillonlinesubtitrat.bmwgroup.com. A 104.109.250.59
-fehc-iaas.bmwgroup.com. A 104.109.250.59
-firewallvaccine-bc-huang.bmwgroup.com. A 104.109.250.59
-fawebhooks.bmwgroup.com. A 154.72.193.28
-fliegl-gewerbepark.bmwgroup.com. A 104.109.250.59
-fama.bmwgroup.com. A 154.72.193.28
+floorforce.bmwgroup.com. A 154.72.193.28
+finwil17.bmwgroup.com. A 154.72.193.28
+flhr6-1.bmwgroup.com. A 154.72.193.28
+fmoc.bmwgroup.com. A 154.72.193.28
+fortnite.bmwgroup.com. A 154.72.193.28
 figma.bmwgroup.com. CNAME scp-alb-public-293053490.eu-central-1.elb.amazonaws.com.
+scp-alb-public-293053490.eu-central-1.elb.amazonaws.com. A 3.69.36.122
 scp-alb-public-293053490.eu-central-1.elb.amazonaws.com. A 35.156.153.77
 scp-alb-public-293053490.eu-central-1.elb.amazonaws.com. A 18.194.21.35
-scp-alb-public-293053490.eu-central-1.elb.amazonaws.com. A 3.69.36.122
+featherhen.bmwgroup.com. A 154.72.193.28
