@@ -1,7 +1,4 @@
 vdms.bmw.com
 vip-int.bmw.com
-vipweb.bmw.com
-vpn12.bmw.com
-vpn22.bmw.com
 workflow-dev.bmw.com
 www-jp.bmw.com
