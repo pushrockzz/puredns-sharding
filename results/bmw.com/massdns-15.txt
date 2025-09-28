@@ -1,3 +1,6 @@
+118.26.48.245 191-91.bmw.com
+118.26.48.245 26-9.bmw.com
+118.26.48.245 ns-log-b2bsystem.bmw.com
 74.220.199.6 165-254-89-55.bmw.com
 74.220.199.6 16covid19-task-force.bmw.com
 74.220.199.6 17-58-102-1.bmw.com
