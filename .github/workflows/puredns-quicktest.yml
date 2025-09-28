@@ -329,53 +329,57 @@ jobs:
           git config user.email "actions-bot@users.noreply.github.com"
           
           merge_new_data() {
-            local source_file="$1"
-            local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
-            local dest_file="$TMP_DIR/results/$relative_path"
-            
-            mkdir -p "$(dirname "$dest_file")"
-            
-            TEMP_MERGED=$(mktemp)
+                    local source_file="$1"
+                    local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
+                    local dest_file="$TMP_DIR/results/$relative_path"
 
-            # --- FIX: Replaced the failing `cat` command with a safe merge pattern ---
-            # This robustly handles cases where the destination file may not exist yet.
-            if [[ "$source_file" == *"massdns-"* ]]; then
-              # Logic: 1. Output the new source file. 2. If the destination exists, output it too. 3. Pipe all output to awk for deduplication.
-              { cat "$source_file"; [ -f "$dest_file" ] && cat "$dest_file"; } | awk '!seen[$0]++' > "$TEMP_MERGED"
-            else
-              # Logic: 1. Output the new source file. 2. If the destination exists, output it too. 3. Pipe all output to sort for deduplication.
-              { cat "$source_file"; [ -f "$dest_file" ] && cat "$dest_file"; } | sort -u > "$TEMP_MERGED"
-            fi
-            mv "$TEMP_MERGED" "$dest_file"
+                    mkdir -p "$(dirname "$dest_file")"
+                    TEMP_MERGED=$(mktemp)
+
+                    if [[ "$source_file" == *"massdns-"* ]]; then
+                              if [ -f "$dest_file" ]; then
+                                        cat "$source_file" "$dest_file" | awk '!seen[$0]++' > "$TEMP_MERGED"
+                              else
+                                        awk '!seen[$0]++' "$source_file" > "$TEMP_MERGED"
+                              fi
+                    else
+                              if [ -f "$dest_file" ]; then
+                                        cat "$source_file" "$dest_file" | sort -u > "$TEMP_MERGED"
+                              else
+                                        sort -u "$source_file" > "$TEMP_MERGED"
+                              fi
+                    fi
+
+                    mv "$TEMP_MERGED" "$dest_file"
           }
-          
+
           while IFS= read -r -d $'\0' file; do
-            echo "  -> Merging $file into repository's results/ directory"
-            merge_new_data "$file"
+                    echo "  -> Merging $file into repository's results/ directory"
+                    merge_new_data "$file"
           done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print0)
-          
+
           set +x
-          
+
           git add results/
-          
+
           if git diff --staged --quiet; then
-            echo "No new unique data to commit for shard ${CHUNK_INDEX} after merging."
-            exit 0
+                    echo "No new unique data to commit for shard ${CHUNK_INDEX} after merging."
+                    exit 0
           fi
-          
+
           git commit -m "feat: Update results from shard ${CHUNK_INDEX}"
-          
+
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
-            echo "[Attempt $i/$MAX_ATTEMPTS] Pushing results for shard ${CHUNK_INDEX}..."
-            if git pull --rebase origin "$GIT_BRANCH" && git push origin "$GIT_BRANCH"; then
-              echo "✅ Successfully pushed results for shard ${CHUNK_INDEX}."
-              exit 0
-            fi
-            echo "Push failed. Retrying in $(( 5 * i )) seconds..."
-            sleep $(( 5 * i ))
+                    echo "[Attempt $i/$MAX_ATTEMPTS] Pushing results for shard ${CHUNK_INDEX}..."
+                    if git pull --rebase origin "$GIT_BRANCH" && git push origin "$GIT_BRANCH"; then
+                              echo "✅ Successfully pushed results for shard ${CHUNK_INDEX}."
+                              exit 0
+                    fi
+                    echo "Push failed. Retrying in $(( 5 * i )) seconds..."
+                    sleep $(( 5 * i ))
           done
-          
+
           echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."
           exit 0
   
