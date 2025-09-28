@@ -219,6 +219,12 @@ jobs:
 
           PORTS="80,443,8080,8443,8000"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
+
+          
+          echo "DEBUG: port-scan step CHUNK_INDEX=$CHUNK_INDEX"
+          find "results" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n" || \
+            find "results" -type f -name "*-${CHUNK_INDEX}.txt" -exec stat -c '%n %s bytes' {} +
+          
           
           while IFS= read -r domain || [ -n "$domain" ]; do
             case "$domain" in \#*|"") continue ;; esac
@@ -229,6 +235,41 @@ jobs:
             TMP_IP2SUB=$(mktemp)
             
             echo "▶ Reading RAW data from $MASSDNS_INPUT_FILE and cleaning it..."
+            # ---------- DIAGNOSTICS: head/tail and difference between massdns and puredns-output ----------
+            # show first/last 5 lines for any large chunk files (safe, null-delimited)
+            find "$ROOT_DOMAIN_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -size +1k -print0 | while IFS= read -r -d '' f; do
+                      echo "== $f (head) =="
+                      head -n5 "$f" || true
+                      echo "== $f (tail) =="
+                      tail -n5 "$f" || true
+            done
+
+            # compare normalized hostnames: massdns vs puredns-output for this domain & chunk
+            TMP_VALID=$(mktemp)
+            TMP_MASS=$(mktemp)
+            if [ -s "${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt" ]; then
+                      awk '{ gsub(/\.$/,"",$1); print tolower($1) }' "${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt" | sort -u > "$TMP_VALID"
+            else
+                      echo "DEBUG: no puredns-output for ${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt"
+                      rm -f "$TMP_VALID" "$TMP_MASS"
+                      # continue here would skip later code; we keep going because your script already handles empty massdns
+            fi
+
+            if [ -s "$MASSDNS_INPUT_FILE" ]; then
+                      awk '{ gsub(/\.$/,"",$1); print tolower($1) }' "$MASSDNS_INPUT_FILE" | sort -u > "$TMP_MASS"
+            else
+                      echo "DEBUG: no massdns file at $MASSDNS_INPUT_FILE"
+            fi
+
+            if [ -s "$TMP_MASS" ] && [ -s "$TMP_VALID" ]; then
+                      echo "DEBUG: hostnames in massdns but NOT in puredns-output (showing up to 50):"
+                      comm -23 "$TMP_MASS" "$TMP_VALID" | head -n 50 || true
+                      echo "DEBUG: counts - massdns unique hosts: $(wc -l < "$TMP_MASS" 2>/dev/null || echo 0), puredns validated: $(wc -l < "$TMP_VALID" 2>/dev/null || echo 0)"
+            fi
+
+            rm -f "$TMP_VALID" "$TMP_MASS"
+            # ---------- end diagnostics ----------
+            
             
             # --- THE FIX, PART 1: CONTEXT-AWARE FILTERING ---
             # This reads the large, raw massdns file (e.g., massdns-2.txt with 9000 lines).
@@ -293,7 +334,14 @@ jobs:
       - name: Sanitize and Finalize Results
         shell: bash
         run: |
+          
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
+
+          echo "DEBUG: matrix.shard='${{ matrix.shard }}' chunk_start='${{ github.event.inputs.chunk_start }}' CHUNK_INDEX=$CHUNK_INDEX"
+
+          # show any pre-existing result files for this chunk (if any)
+          find "results" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n" || \
+            find "results" -type f -name "*-${CHUNK_INDEX}.txt" -exec stat -c '%n %s bytes' {} +
           
           echo "Sanitizing results for shard ${CHUNK_INDEX}..."
           
@@ -334,6 +382,8 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
 
+          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n"
+
           merge_new_data() {
                     local source_file="$1"
                     local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
@@ -343,17 +393,12 @@ jobs:
                     TEMP_MERGED=$(mktemp)
 
                     if [[ "$source_file" == *"massdns-"* ]]; then
-                              if [ -f "$dest_file" ]; then
-                                        cat "$source_file" "$dest_file" | awk '!seen[$0]++' > "$TEMP_MERGED"
-                              else
-                                        awk '!seen[$0]++' "$source_file" > "$TEMP_MERGED"
-                              fi
+                              # For massdns: we expect the source to be already filtered (see bruteforce step).
+                              # Overwrite dest with the cleaned source (dedupe defensively).
+                              awk '!seen[$0]++' "$source_file" > "$TEMP_MERGED"
                     else
-                              if [ -f "$dest_file" ]; then
-                                        cat "$source_file" "$dest_file" | sort -u > "$TEMP_MERGED"
-                              else
-                                        sort -u "$source_file" > "$TEMP_MERGED"
-                              fi
+                              # For other result types, sort-unique the source and write it as authoritative.
+                              sort -u "$source_file" > "$TEMP_MERGED"
                     fi
 
                     mv "$TEMP_MERGED" "$dest_file"
@@ -363,6 +408,24 @@ jobs:
                     echo "  -> Merging $file into repository's results/ directory"
                     merge_new_data "$file"
           done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print0)
+
+          echo "DEBUG: Files found under SOURCE_RESULTS_DIR before merge:"
+          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n" || \
+            find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -exec stat -c '%n %s bytes' {} +
+
+          # show first/last 5 lines for large files to inspect unexpected content
+          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -size +1k -print0 | while IFS= read -r -d '' f; do
+                    echo "== $f (head) =="
+                    head -n5 "$f" || true
+                    echo "== $f (tail) =="
+                    tail -n5 "$f" || true
+          done
+
+          # repository-side view: what results/ files already exist in the cloned repo
+          echo "DEBUG: repository results/ tree (in $TMP_DIR) before merge (ls -l):"
+          ls -l "$TMP_DIR/results" 2>/dev/null || true
+          git -C "$TMP_DIR" status --porcelain --untracked-files=no || true
+          git -C "$TMP_DIR" ls-files -s results/** 2>/dev/null || true
 
           git add results/
 
