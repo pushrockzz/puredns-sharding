@@ -1,0 +1,7 @@
+154.72.193.28 izpack.bmw.com
+154.72.193.28 jaynaumeda.bmw.com
+154.72.193.28 jira-check.bmw.com
+154.72.193.28 joinslack1-9.bmw.com
+154.72.193.28 kjtop41.bmw.com
+154.72.193.28 kompressorydirect.bmw.com
+154.72.193.28 lama-storybook.bmw.com
