@@ -1,0 +1,2 @@
+webtrends.mini.com. CNAME statse.webtrendslive.com.
+usw5-cdsd.mini.com. A 118.26.48.245

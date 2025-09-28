@@ -1,0 +1,4 @@
+vecom.bmwgroup.com
+velocity.bmwgroup.com
+webservice.bmwgroup.com
+wwwtest.bmwgroup.com

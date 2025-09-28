@@ -1,0 +1,4 @@
+y6jchrltx.bmw.com. A 118.26.48.245
+workflow-dev.bmw.com. A 160.48.212.194
+vpn12.bmw.com. A 193.23.33.15
+vip-int.bmw.com. A 160.48.213.171

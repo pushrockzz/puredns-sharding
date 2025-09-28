@@ -1,0 +1,6 @@
+wwwtest.mini.de. CNAME www.mini.com.edgesuite-staging.net.
+www.mini.com.edgesuite-staging.net. CNAME a1954.r.akamai-staging.net.
+a1954.r.akamai-staging.net. A 23.50.57.227
+a1954.r.akamai-staging.net. A 23.50.57.235
+webservice.mini.de. A 80.146.253.174
+winter.mini.de. A 160.46.226.164
