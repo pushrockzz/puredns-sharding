@@ -1,0 +1,4 @@
+figma.bmwgroup.com. CNAME scp-alb-public-293053490.eu-central-1.elb.amazonaws.com.
+scp-alb-public-293053490.eu-central-1.elb.amazonaws.com. A 3.69.36.122
+scp-alb-public-293053490.eu-central-1.elb.amazonaws.com. A 35.156.153.77
+scp-alb-public-293053490.eu-central-1.elb.amazonaws.com. A 18.194.21.35
