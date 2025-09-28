@@ -1,0 +1,14 @@
+redirect.bmwgroup.com:80
+uservpn.bmw.com:10000
+uservpn.bmw.com:22
+uservpn.bmw.com:443
+uservpn.bmw.com:53
+uservpn.bmw.com:80
+uwma070e.bmw.com:10000
+uwma070e.bmw.com:22
+uwma070e.bmw.com:443
+uwma070e.bmw.com:53
+uwma070e.bmw.com:80
+vipweb.bmw.com:443
+vipweb.bmw.com:80
+vpn22.bmw.com:443
