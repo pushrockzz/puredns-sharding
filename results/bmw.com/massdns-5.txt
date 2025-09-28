@@ -1,0 +1,8 @@
+154.72.193.28 openbsd.bmw.com
+154.72.193.28 outbound-mail-209-74.bmw.com
+154.72.193.28 p142-fmipweb.bmw.com
+154.72.193.28 p144-escrowproxy-china.bmw.com
+154.72.193.28 p61-setup.bmw.com
+154.72.193.28 pgg4d4.bmw.com
+154.72.193.28 pixel6-4.bmw.com
+160.46.240.206 opal.bmw.com
