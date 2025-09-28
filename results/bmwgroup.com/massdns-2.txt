@@ -1,7 +1,15 @@
-usa48.bmwgroup.com. A 74.220.199.6
-tpainter.bmwgroup.com. A 74.220.199.6
 tracy.bmwgroup.com. CNAME tracy.edgekey.net.
 tracy.edgekey.net. CNAME e25631.dsca.akamaiedge.net.
+e25631.dsca.akamaiedge.net. A 23.211.15.135
+e25631.dsca.akamaiedge.net. A 23.211.15.134
+testing-1.bmwgroup.com. A 160.46.228.102
+techradar.bmwgroup.com. CNAME d36zav6jye5ume.cloudfront.net.
+sync-test.bmwgroup.com. A 192.109.190.93
+summary.bmwgroup.com. CNAME api5.creatoriq.com.
+api5.creatoriq.com. A 52.53.106.210
+api5.creatoriq.com. A 54.183.33.11
+usa48.bmwgroup.com. A 74.220.199.6
+tpainter.bmwgroup.com. A 74.220.199.6
 e25631.dsca.akamaiedge.net. A 95.100.104.6
 e25631.dsca.akamaiedge.net. A 95.100.104.28
 test-invoices.bmwgroup.com. A 74.220.199.6
@@ -9,7 +17,3 @@ test-frontend.bmwgroup.com. A 74.220.199.6
 tcchat.bmwgroup.com. A 74.220.199.6
 tesla-east.bmwgroup.com. A 74.220.199.6
 tier1test-emc-dm4.bmwgroup.com. A 74.220.199.6
-summary.bmwgroup.com. CNAME api5.creatoriq.com.
-api5.creatoriq.com. A 52.53.106.210
-api5.creatoriq.com. A 54.183.33.11
-techradar.bmwgroup.com. CNAME d36zav6jye5ume.cloudfront.net.

@@ -1,3 +1,5 @@
 summary.bmwgroup.com
+sync-test.bmwgroup.com
 techradar.bmwgroup.com
+testing-1.bmwgroup.com
 tracy.bmwgroup.com

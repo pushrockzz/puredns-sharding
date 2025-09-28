@@ -1,5 +1,5 @@
-160.46.233.226 strong.bmw.com
 160.46.240.127 tapi.bmw.com
+160.46.233.226 strong.bmw.com
 170.34.104.168 telex.bmw.com
 74.220.199.6 stefan9.bmw.com
 74.220.199.6 stg-wf.bmw.com
