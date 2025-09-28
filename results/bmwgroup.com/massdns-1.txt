@@ -1,0 +1,15 @@
+yusyutu.bmwgroup.com. A 74.220.199.6
+wwwtest.bmwgroup.com. CNAME origin.bmwgroup.com.
+origin.bmwgroup.com. A 160.46.244.133
+wwwbuild.bmwgroup.com. A 74.220.199.6
+www-46-5.bmwgroup.com. A 74.220.199.6
+webshop-test.bmwgroup.com. A 160.46.225.155
+web-test.bmwgroup.com. CNAME a8eea2c1733ec5550.awsglobalaccelerator.com.
+a8eea2c1733ec5550.awsglobalaccelerator.com. A 75.2.15.134
+a8eea2c1733ec5550.awsglobalaccelerator.com. A 99.83.248.216
+vusdal1c.bmwgroup.com. A 74.220.199.6
+vera.bmwgroup.com. A 160.46.240.67
+webservice.bmwgroup.com. CNAME bmw-wsc-redaktion.muc.interone.de.
+vpnweb.bmwgroup.com. A 160.46.231.45
+vecom.bmwgroup.com. CNAME ecom.bmwgroup.com.
+ecom.bmwgroup.com. A 160.46.244.105

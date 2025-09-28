@@ -1,0 +1,9 @@
+160.46.240.66 vipweb.bmw.com
+160.48.212.194 workflow-dev.bmw.com
+74.220.199.6 v3vipexample.bmw.com
+74.220.199.6 v5r1vpvmwc.bmw.com
+74.220.199.6 viewpointuat.bmw.com
+74.220.199.6 webdispqa03-ssg.bmw.com
+74.220.199.6 webserver80.bmw.com
+74.220.199.6 www-1-17.bmw.com
+74.220.199.6 ze81l.bmw.com
