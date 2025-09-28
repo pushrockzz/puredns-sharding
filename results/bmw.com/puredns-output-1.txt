@@ -1,4 +1,0 @@
-vdms.bmw.com
-vip-int.bmw.com
-workflow-dev.bmw.com
-www-jp.bmw.com

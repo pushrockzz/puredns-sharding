@@ -1,4 +1,0 @@
-plymouth-regency-8.bmwgroup.com. A 154.72.193.28
-lockbox-eks-us-west-2.bmwgroup.com. A 154.72.193.28
-35-7-08.bmwgroup.com. A 154.72.193.28
-www-3-22-8.bmwgroup.com. A 154.72.193.28

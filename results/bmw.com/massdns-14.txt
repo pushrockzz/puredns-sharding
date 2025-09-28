@@ -1,4 +1,0 @@
-154.72.193.28 accbackups.bmw.com
-154.72.193.28 alt2uat.bmw.com
-160.46.228.233 amc-test.bmw.com
-160.46.237.73 aero.bmw.com

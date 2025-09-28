@@ -1,2 +1,0 @@
-testm.mini.com
-testssl.mini.com

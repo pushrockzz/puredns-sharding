@@ -1,3 +1,0 @@
-plw-prod.bmwgroup.com
-pp-api.bmwgroup.com
-public-example.bmwgroup.com

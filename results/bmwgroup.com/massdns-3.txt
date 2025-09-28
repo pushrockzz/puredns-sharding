@@ -1,6 +1,0 @@
-star.bmwgroup.com. A 160.46.233.40
-sgate.bmwgroup.com. A 108.158.104.98
-sgate.bmwgroup.com. A 108.158.104.11
-sgate.bmwgroup.com. A 108.158.104.97
-sgate.bmwgroup.com. A 108.158.104.36
-scmbiprpt.bmwgroup.com. A 154.72.193.28

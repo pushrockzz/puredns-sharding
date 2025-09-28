@@ -1,7 +1,0 @@
-dies-bildnis-der-magie.bmwgroup.com. A 154.72.193.28
-dems.bmwgroup.com. A 170.34.104.169
-d-2-8.bmwgroup.com. A 154.72.193.28
-crochetbybrenda.bmwgroup.com. A 154.72.193.28
-cube.bmwgroup.com. CNAME hrnet.bmwgroup.com.
-hrnet.bmwgroup.com. A 160.46.244.54
-cn-stg-smp-device.bmwgroup.com. A 154.72.193.28

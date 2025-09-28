@@ -1,6 +1,0 @@
-154.72.193.28 p201-iwres-ic4.bmw.com
-154.72.193.28 p51-iwres-china.bmw.com
-154.72.193.28 p55-iwres.bmw.com
-154.72.193.28 paidtasks.bmw.com
-154.72.193.28 pixel-4-1.bmw.com
-154.72.193.28 pl-jenkins.bmw.com

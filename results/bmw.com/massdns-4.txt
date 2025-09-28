@@ -1,6 +1,0 @@
-154.72.193.28 pphotographybneocovidev.bmw.com
-154.72.193.28 prd4synccmp05.bmw.com
-154.72.193.28 pubmmr-zfvbgv3vqwun7rqh.bmw.com
-160.46.231.16 rema.bmw.com
-160.46.237.220 plw-prod.bmw.com
-193.23.33.28 redsquare.bmw.com

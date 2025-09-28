@@ -1,4 +1,0 @@
-154.72.193.28 cmsi-14.bmw.com
-154.72.193.28 de-sociologische-bril.bmw.com
-154.72.193.28 demo-accountmanager-lncn.bmw.com
-154.72.193.28 dignityhealth.bmw.com

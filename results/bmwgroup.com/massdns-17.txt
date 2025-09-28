@@ -1,2 +1,0 @@
-bwms.bmwgroup.com. A 160.46.244.26
-acc-lon3-s3g19.bmwgroup.com. A 154.72.193.28

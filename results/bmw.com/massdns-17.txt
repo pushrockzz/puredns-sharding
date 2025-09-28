@@ -1,4 +1,0 @@
-154.72.193.28 04-77-6-7.bmw.com
-154.72.193.28 45-75-08.bmw.com
-154.72.193.28 api-ncsp.bmw.com
-154.72.193.28 lon3-webapiprovisioning-a4.bmw.com

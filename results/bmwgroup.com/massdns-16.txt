@@ -1,3 +1,0 @@
-api-edge.bmwgroup.com. CNAME bmw-rampup2-prod.apigee.net.
-731-9-1.bmwgroup.com. A 154.72.193.28
-hideref01ht.bmwgroup.com. A 154.72.193.28

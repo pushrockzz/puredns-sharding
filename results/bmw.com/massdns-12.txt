@@ -1,7 +1,0 @@
-154.72.193.28 bitburger.bmw.com
-154.72.193.28 botornot.bmw.com
-154.72.193.28 cachei-postgresgit.bmw.com
-154.72.193.28 card-fields-30.bmw.com
-160.46.243.81 casa.bmw.com
-160.46.244.49 bike.bmw.com
-20.103.233.217 callisto.bmw.com

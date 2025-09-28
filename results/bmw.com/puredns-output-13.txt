@@ -1,6 +1,0 @@
-amos.bmw.com
-api-dev1.bmw.com
-api-dev2.bmw.com
-api-int.bmw.com
-auth-t.bmw.com
-b2b-test.bmw.com

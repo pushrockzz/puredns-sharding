@@ -1,2 +1,0 @@
-154.72.193.28 acc-ash2-dc10-410-1.bmw.com
-154.72.193.28 api-status-prod-db1site.bmw.com

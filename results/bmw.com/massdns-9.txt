@@ -1,7 +1,0 @@
-154.72.193.28 febb4-1.bmw.com
-154.72.193.28 filivru.bmw.com
-154.72.193.28 firewall3-testmbzvga.bmw.com
-154.72.193.28 fission-test.bmw.com
-154.72.193.28 fpcl1-1.bmw.com
-154.72.193.28 granddesignrv.bmw.com
-154.72.193.28 graph-2-24.bmw.com

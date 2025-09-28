@@ -1,5 +1,0 @@
-breeze.bmwgroup.com
-ca-prod.bmwgroup.com
-cargo-auth.bmwgroup.com
-casa.bmwgroup.com
-charging.bmwgroup.com

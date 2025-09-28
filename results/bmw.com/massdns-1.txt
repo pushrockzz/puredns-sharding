@@ -1,8 +1,0 @@
-154.72.193.28 v3houseofblues.bmw.com
-154.72.193.28 wimmel-85.bmw.com
-154.72.193.28 www-4-5-4.bmw.com
-154.72.193.28 xops-dash01.bmw.com
-154.72.193.28 zc-zxrpjcemzlm6lvtd.bmw.com
-160.46.243.208 vdms.bmw.com
-160.48.212.194 workflow-dev.bmw.com
-160.48.213.171 vip-int.bmw.com

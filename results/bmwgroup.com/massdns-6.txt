@@ -1,5 +1,0 @@
-mxs1.bmwgroup.com. A 195.190.135.11
-my-test.bmwgroup.com. A 160.46.249.179
-mdm-dev.bmwgroup.com. A 160.46.232.104
-mdm-int.bmwgroup.com. A 192.109.190.79
-maxdogfood.bmwgroup.com. A 154.72.193.28
