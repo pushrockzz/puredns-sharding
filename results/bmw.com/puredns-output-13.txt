@@ -1,3 +1,4 @@
+amos.bmw.com
 api-int.bmw.com
 api-sandbox-dev.bmw.com
 api-uat.bmw.com
