@@ -1,2 +1,4 @@
 opendev.bmwgroup.com
+opus.bmwgroup.com
+paints.bmwgroup.com
 pix3.bmwgroup.com

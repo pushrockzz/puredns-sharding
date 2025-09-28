@@ -1,3 +1,14 @@
+103.21.25.245 ondemand-edge-shv-01-lim1.bmw.com
+103.21.25.245 p11-iworkextstore.bmw.com
+103.21.25.245 p141-contacts-china.bmw.com
+103.21.25.245 p152-fmfmobile.bmw.com
+103.21.25.245 p17-escrowproxy-china.bmw.com
+103.21.25.245 p200-sharedstreams.bmw.com
+103.21.25.245 pc23-70.bmw.com
+103.21.25.245 pixel-8-1.bmw.com
+118.26.48.245 one2go.bmw.com
+125.235.4.59 otoken-timeout.bmw.com
+125.235.4.59 p105-notesws.bmw.com
 125.235.4.59 p02-iwmb-china-ic4.bmw.com
 125.235.4.59 p02-iwres-china-ic4.bmw.com
 154.72.193.28 opus-staging.bmw.com
