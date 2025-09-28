@@ -1,3 +1,11 @@
+github0-7.mini.com. A 0.0.0.0
+globalteleconference.mini.com. A 0.0.0.0
+geomed.mini.com. A 118.26.48.245
+graph-1-0-7.mini.com. A 0.0.0.0
+github-14.mini.com. A 118.26.48.245
+fotodesign-schmid.mini.com. A 0.0.0.0
+flightplushotels.mini.com. A 0.0.0.0
+fi-jobs.mini.com. A 0.0.0.0
 gridac.mini.com. A 74.220.199.6
 greece2-1.mini.com. A 0.0.0.0
 gravicapa03d.mini.com. A 74.220.199.6

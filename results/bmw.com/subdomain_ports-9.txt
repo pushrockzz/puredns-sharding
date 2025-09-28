@@ -16,6 +16,10 @@ floop.bmw.com:80
 fmr15.bmw.com:10050
 fmr15.bmw.com:123
 fmr15.bmw.com:80
+fms-device-cert.bmw.com:111
+fms-device-cert.bmw.com:22
+fms-device-cert.bmw.com:80
+fms-device-cert.bmw.com:9000
 fmststrms02.bmw.com:10050
 fmststrms02.bmw.com:123
 fmststrms02.bmw.com:80
