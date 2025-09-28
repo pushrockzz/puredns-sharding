@@ -1,0 +1,15 @@
+plw-prod.bmw.com:443
+plw-prod.bmw.com:80
+poc2.bmw.com:443
+poloweb-ist1.bmw.com:111
+poloweb-ist1.bmw.com:22
+poloweb-ist1.bmw.com:80
+poloweb-ist1.bmw.com:9000
+pusage-staging.bmw.com:111
+pusage-staging.bmw.com:22
+pusage-staging.bmw.com:80
+pusage-staging.bmw.com:9000
+qsport.bmw.com:111
+qsport.bmw.com:22
+qsport.bmw.com:80
+qsport.bmw.com:9000
