@@ -1,0 +1,15 @@
+24-379-2.bmw.com:10000
+24-379-2.bmw.com:22
+24-379-2.bmw.com:443
+24-379-2.bmw.com:53
+24-379-2.bmw.com:80
+af01p-png-dr01.bmw.com:10000
+af01p-png-dr01.bmw.com:22
+af01p-png-dr01.bmw.com:443
+af01p-png-dr01.bmw.com:53
+af01p-png-dr01.bmw.com:80
+lon3-radioapollo-a3.bmw.com:10000
+lon3-radioapollo-a3.bmw.com:22
+lon3-radioapollo-a3.bmw.com:443
+lon3-radioapollo-a3.bmw.com:53
+lon3-radioapollo-a3.bmw.com:80
