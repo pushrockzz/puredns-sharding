@@ -1,5 +1,14 @@
-pixel5-7.mini.com. A 0.0.0.0
+pixel-41.mini.com. A 0.0.0.0
 perso.mini.com. A 160.46.247.211
+p34-iworkpreviewapi.mini.com. A 0.0.0.0
+pdydalvd18p01.mini.com. A 0.0.0.0
+p31-fmfmail-china.mini.com. A 0.0.0.0
+p148-ckshare.mini.com. A 0.0.0.0
+p113-fmip.mini.com. A 0.0.0.0
+p04-exportws.mini.com. A 0.0.0.0
+originnikeplus.mini.com. A 0.0.0.0
+originwww.mini.com. A 160.46.244.134
+pixel5-7.mini.com. A 0.0.0.0
 pixel-79.mini.com. A 0.0.0.0
 pdxsix9im2-1.mini.com. A 74.220.199.6
 pixel-1-5.mini.com. A 74.220.199.6
@@ -29,7 +38,6 @@ originfs-fulfillment-lyn2.mini.com. A 74.220.199.6
 ordertool.mini.com. A 74.220.199.6
 overtur-uat.mini.com. A 0.0.0.0
 p01-ckdevice-china-ic3.mini.com. A 74.220.199.6
-originwww.mini.com. A 160.46.244.134
 origin-vend-aln.mini.com. A 74.220.199.6
 org-areariserprodv1.mini.com. A 74.220.199.6
 ops-portal.mini.com. A 0.0.0.0
