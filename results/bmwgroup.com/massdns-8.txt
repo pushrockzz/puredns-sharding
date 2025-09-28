@@ -1,0 +1,7 @@
+iktrust.bmwgroup.com. A 154.72.193.28
+image-va-pub-useast2a.bmwgroup.com. A 154.72.193.28
+idss.bmwgroup.com. CNAME www.bmw-excellence-in-sales.com.
+iconik.bmwgroup.com. A 154.72.193.28
+hq7cr22.bmwgroup.com. A 154.72.193.28
+heidi.bmwgroup.com. A 160.46.233.73
+helixsleep.bmwgroup.com. A 154.72.193.28
