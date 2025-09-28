@@ -1,4 +1,1 @@
-dmp-test.bmwgroup.com
-drift.bmwgroup.com
 einvoicing.bmwgroup.com
-elan.bmwgroup.com
