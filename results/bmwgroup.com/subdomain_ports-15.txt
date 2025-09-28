@@ -1,0 +1,4 @@
+tor44-136-pdb.bmwgroup.com:111
+tor44-136-pdb.bmwgroup.com:22
+tor44-136-pdb.bmwgroup.com:80
+tor44-136-pdb.bmwgroup.com:9000
