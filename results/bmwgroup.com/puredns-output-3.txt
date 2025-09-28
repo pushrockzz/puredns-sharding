@@ -1,1 +1,3 @@
 sgate.bmwgroup.com
+sms-int.bmwgroup.com
+star.bmwgroup.com

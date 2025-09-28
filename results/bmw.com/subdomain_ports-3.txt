@@ -38,6 +38,10 @@ simulator3-3.bmw.com:8080
 smirnoffcider.bmw.com:5555
 smirnoffcider.bmw.com:80
 smirnoffcider.bmw.com:8080
+smtp-out-188-28.bmw.com:111
+smtp-out-188-28.bmw.com:22
+smtp-out-188-28.bmw.com:80
+smtp-out-188-28.bmw.com:9000
 spencetestaccount.bmw.com:5555
 spencetestaccount.bmw.com:80
 spencetestaccount.bmw.com:8080
