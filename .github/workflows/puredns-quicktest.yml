@@ -182,6 +182,17 @@ jobs:
           key: ${{ runner.os }}-go-cache-${{ github.ref_name }}
           restore-keys: |
             ${{ runner.os }}-go-cache-
+
+      - name: Install Tools
+        run: |
+
+          # Installing inscope
+          if ! command -v inscope >/dev/null; then
+            echo "Installing inscope…"
+            go install -v github.com/tomnomnom/hacks/inscope@latest
+          else
+            echo "inscope already in cache"
+          fi    
           
       - name: Run puredns bruteforce
         shell: bash
@@ -219,7 +230,7 @@ jobs:
             TMP_NAABU_RUSTSCAN=$(mktemp)
             
             echo "▶ Cleaning & extracting A-records from $MASSDNS_INPUT_FILE..."
-            awk '$2=="A" { sub(/\.$/,"",$1); print $3, $1 }' "$MASSDNS_INPUT_FILE" | sort -k1,1 > "$TMP_IP2SUB"
+            awk '$2=="A" { sub(/\.$/,"",$1); print $3, $1 }' "$MASSDNS_INPUT_FILE" | sort -k1,1 | inscope -s .scope > "$TMP_IP2SUB"
 
             echo "Total contains $(wc -l < "$TMP_IP2SUB") IP"
             cat "$TMP_IP2SUB"
