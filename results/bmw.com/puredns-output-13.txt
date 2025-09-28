@@ -1,0 +1,4 @@
+amos.bmw.com
+api-sandbox-dev.bmw.com
+api-uat.bmw.com
+b2b-test.bmw.com
