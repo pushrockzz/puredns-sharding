@@ -1,0 +1,14 @@
+manager22-2.bmw.com:10050
+manager22-2.bmw.com:123
+manager22-2.bmw.com:80
+manager92-6.bmw.com:10050
+manager92-6.bmw.com:123
+manager92-6.bmw.com:80
+mauritius.bmw.com:10050
+mauritius.bmw.com:123
+mauritius.bmw.com:80
+maxxie19-01.bmw.com:10050
+maxxie19-01.bmw.com:123
+maxxie19-01.bmw.com:80
+ocean.bmw.com:443
+ocean.bmw.com:80
