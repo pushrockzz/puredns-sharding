@@ -15,6 +15,10 @@ concorde.bmw.com:80
 csde.bmw.com:10050
 csde.bmw.com:123
 csde.bmw.com:80
+datascience-datasets.bmw.com:111
+datascience-datasets.bmw.com:22
+datascience-datasets.bmw.com:80
+datascience-datasets.bmw.com:9000
 delhi-high-profile-escorts.bmw.com:10050
 delhi-high-profile-escorts.bmw.com:123
 delhi-high-profile-escorts.bmw.com:80
