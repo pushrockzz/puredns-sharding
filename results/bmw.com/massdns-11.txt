@@ -1,0 +1,5 @@
+154.72.193.28 contivio.bmw.com
+154.72.193.28 corp-zs4rslfejg.bmw.com
+154.72.193.28 correspondentuat02.bmw.com
+160.46.228.49 cmp-test.bmw.com
+160.46.231.16 cpp-prod.bmw.com
