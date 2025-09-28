@@ -1,3 +1,14 @@
+118.26.48.245 deploy-sslvpn.bmw.com
+118.26.48.245 digital-sales-marketing.bmw.com
+125.235.4.59 cygpol20.bmw.com
+160.46.228.49 cmp-test.bmw.com
+160.46.231.16 cpp-prod.bmw.com
+23.202.88.27 cloudhexa.bmw.com
+23.202.88.27 consumer-analytics.bmw.com
+23.202.88.27 d54c09cess.bmw.com
+23.202.88.27 darro.bmw.com
+23.202.88.27 datadiff-stg.bmw.com
+23.202.88.27 demodevenv.bmw.com
 154.72.193.28 cloudfastsystemstatus1.bmw.com
 154.72.193.28 community-review.bmw.com
 154.72.193.28 companyd.bmw.com
@@ -18,7 +29,6 @@
 154.72.193.28 dexter.bmw.com
 154.72.193.28 dgdkxb1l0xvm.bmw.com
 154.72.193.28 die-weisswursterei.bmw.com
-160.46.228.49 cmp-test.bmw.com
 198.18.1.129 credstore-zeta.bmw.com
 198.18.1.129 devp32-secure01a.bmw.com
 198.18.1.130 consentimentoparental.bmw.com

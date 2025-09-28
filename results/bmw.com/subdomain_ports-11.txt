@@ -70,6 +70,10 @@ demo92.bmw.com:22
 demo92.bmw.com:443
 demo92.bmw.com:53
 demo92.bmw.com:80
+deploy-sslvpn.bmw.com:111
+deploy-sslvpn.bmw.com:22
+deploy-sslvpn.bmw.com:80
+deploy-sslvpn.bmw.com:9000
 descript.bmw.com:10000
 descript.bmw.com:22
 descript.bmw.com:443
@@ -100,3 +104,7 @@ die-weisswursterei.bmw.com:22
 die-weisswursterei.bmw.com:443
 die-weisswursterei.bmw.com:53
 die-weisswursterei.bmw.com:80
+digital-sales-marketing.bmw.com:111
+digital-sales-marketing.bmw.com:22
+digital-sales-marketing.bmw.com:80
+digital-sales-marketing.bmw.com:9000
