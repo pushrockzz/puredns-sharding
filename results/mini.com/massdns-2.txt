@@ -1,0 +1,5 @@
+testssl.mini.com. A 160.46.251.150
+todaypage-uk.mini.com. A 125.235.4.59
+testm.mini.com. CNAME integ-n.mini.com.
+integ-n.mini.com. A 160.46.251.149
+sz-pl.mini.com. A 118.26.48.245
