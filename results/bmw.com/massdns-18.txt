@@ -1,0 +1,11 @@
+104.117.182.91 bigmac-mandark-prod-sin.bmw.com
+104.117.182.91 h69-16-131-68.bmw.com
+104.117.182.91 lon3-storm-a6.bmw.com
+104.117.182.91 sjc1-playcount-a1.bmw.com
+104.117.182.91 stage-ssdc.bmw.com
+104.117.182.91 starlogistique.bmw.com
+154.72.193.28 lockbox-pub-eks-us-east-1.bmw.com
+154.72.193.28 msavertack8.bmw.com
+154.72.193.28 mws-shizzle-beta.bmw.com
+154.72.193.28 thiaaccessoriesfiles.bmw.com
+198.18.1.90 3c5e.bmw.com

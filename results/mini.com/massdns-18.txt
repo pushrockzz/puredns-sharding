@@ -1,0 +1,9 @@
+portal-admin-staging-vkcanvas.mini.com. A 154.72.193.28
+pretrain-feb23-s576-test.mini.com. A 23.213.186.155
+smtp02-ukb-sp1.mini.com. A 154.72.193.28
+sjc1-kafkamonitoring-a9.mini.com. A 23.213.186.155
+www-5-45.mini.com. A 23.213.186.155
+https-www-buzzfeed-com-7-5.mini.com. A 23.213.186.155
+sto3-adexchangeproxy-a3.mini.com. A 23.213.186.155
+api-sm-840-1.mini.com. A 23.213.186.155
+https-fonts-googleapis-com-9-6.mini.com. A 23.213.186.155
