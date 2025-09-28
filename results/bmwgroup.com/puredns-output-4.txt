@@ -3,3 +3,4 @@ poc2.bmwgroup.com
 poma.bmwgroup.com
 pp-api.bmwgroup.com
 proxy11.bmwgroup.com
+public-example.bmwgroup.com

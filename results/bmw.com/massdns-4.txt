@@ -1,4 +1,6 @@
 160.46.225.65 poc2.bmw.com
+160.46.231.16 rema.bmw.com
+160.46.237.220 plw-prod.bmw.com
 74.220.199.6 preferencesvpnuploadaccount.bmw.com
 74.220.199.6 preprod-manufacturing.bmw.com
 74.220.199.6 private-v3engineering.bmw.com
