@@ -1,0 +1,10 @@
+154.72.193.28 sa-muying06.bmw.com
+154.72.193.28 sandbox-api-gateway.bmw.com
+154.72.193.28 sb-rest.bmw.com
+154.72.193.28 sdk23-0.bmw.com
+154.72.193.28 sdk31-7.bmw.com
+154.72.193.28 sjc1-weblb-a4.bmw.com
+154.72.193.28 slb3-1.bmw.com
+154.72.193.28 sragy.bmw.com
+154.72.193.28 stage2pph25.bmw.com
+160.46.233.155 sera.bmw.com
