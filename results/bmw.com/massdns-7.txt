@@ -1,0 +1,13 @@
+104.117.182.91 itcagmdp01.bmw.com
+104.117.182.91 ivpn01.bmw.com
+104.117.182.91 iwmb7.bmw.com
+104.117.182.91 iws01dbo001a.bmw.com
+104.117.182.91 juvenis-cantare-1.bmw.com
+104.117.182.91 k8s-zzlckzc4kz.bmw.com
+104.117.182.91 ks6kce.bmw.com
+104.117.182.91 leander.bmw.com
+104.117.182.91 lite-qa-preview.bmw.com
+104.117.182.91 ma-un4adm-lweb01.bmw.com
+104.117.182.91 machine-intl.bmw.com
+104.117.182.91 mail-6-21.bmw.com
+160.46.240.49 itms.bmw.com
