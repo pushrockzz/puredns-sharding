@@ -22,6 +22,8 @@ lima.bmw.com:443
 lima.bmw.com:80
 link.bmw.com:443
 link.bmw.com:80
+loki.bmw.com:443
+loki.bmw.com:80
 lyncdiscover.bmw.com:443
 lyncdiscover.bmw.com:80
 mysterio.bmw.com:10050

@@ -1,5 +1,6 @@
 berlin.bmw-motorrad.de
 ecom.bmw-motorrad.de
+email.bmw-motorrad.de
 frankfurt.bmw-motorrad.de
 hamburg.bmw-motorrad.de
 kassel.bmw-motorrad.de
