@@ -1,0 +1,6 @@
+mdm-dev.bmwgroup.com
+mdm-int.bmwgroup.com
+mwp5.bmwgroup.com
+mxs2.bmwgroup.com
+my-test.bmwgroup.com
+ocr-prod.bmwgroup.com

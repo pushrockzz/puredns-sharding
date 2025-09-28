@@ -1,0 +1,6 @@
+ocean.bmw.com. A 160.46.231.22
+motorsport.bmw.com. CNAME www.bmw-motorsport.com.
+www.bmw-motorsport.com. CNAME bmwprod.b.edgekey.net.
+bmwprod.b.edgekey.net. CNAME e25631.dsca.akamaiedge.net.
+e25631.dsca.akamaiedge.net. A 2.22.31.27
+e25631.dsca.akamaiedge.net. A 2.22.31.59
