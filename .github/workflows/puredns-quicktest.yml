@@ -347,10 +347,10 @@ jobs:
             mv "$TEMP_MERGED" "$dest_file"
           }
           
-          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" | while read file; do
+          while IFS= read -r -d $'\0' file; do
             echo "  -> Merging $file into repository's results/ directory"
             merge_new_data "$file"
-          done
+          done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print0)
           
           # Stage all changes within the 'results/' directory for the commit.
           git add results/
