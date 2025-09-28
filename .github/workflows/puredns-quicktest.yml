@@ -306,32 +306,36 @@ jobs:
           GIT_REPO: ${{ github.repository }}
           GIT_BRANCH: ${{ github.ref_name }}
         run: |
+
           SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           
-          if ! find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" | read; then
+          if ! find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" | read -r; then
             echo "No result files found for shard ${CHUNK_INDEX}. Nothing to commit."
             exit 0
           fi
           
+          # This temporary directory is just a workspace. It is NOT the final destination.
           TMP_DIR=$(mktemp -d)
-          echo "Cloning ${GIT_REPO} into ${TMP_DIR} for a safe merge and commit..."
+          echo "Cloning ${GIT_REPO} into temporary directory ${TMP_DIR}..."
           git clone --depth 1 "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" --branch "$GIT_BRANCH" "$TMP_DIR"
           cd "$TMP_DIR"
           
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
           
-          # This function safely merges new data into existing files in the clone
           merge_new_data() {
             local source_file="$1"
             local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
-            local dest_file="$TMP_DIR/$relative_path"
             
-            # Ensure destination directory exists
+            # This line ensures the file is placed within the `results/` directory
+            # inside the clone, which becomes the final path in your repository.
+            local dest_file="$TMP_DIR/results/$relative_path"
+            
+            # This line creates the `results/` directory and any subdirectories
+            # (e.g., `bmw.com`) if they don't already exist in the clone.
             mkdir -p "$(dirname "$dest_file")"
             
-            # Combine new and existing data, then de-duplicate based on format
             TEMP_MERGED=$(mktemp)
             if [[ "$source_file" == *"massdns-"* ]]; then
               cat "$source_file" "$dest_file" 2>/dev/null | awk '!seen[$0]++' > "$TEMP_MERGED"
@@ -341,11 +345,12 @@ jobs:
             mv "$TEMP_MERGED" "$dest_file"
           }
           
-          # Find all result files for this shard and merge each one
           find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" | while read file; do
+            echo "  -> Merging $file into repository's results/ directory"
             merge_new_data "$file"
           done
           
+          # Stage all changes within the 'results/' directory for the commit.
           git add results/
           
           if git diff --staged --quiet; then
@@ -355,6 +360,7 @@ jobs:
           
           git commit -m "feat: Update results from shard ${CHUNK_INDEX}"
           
+          # Push the commit to your actual repository branch.
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
             echo "[Attempt $i/$MAX_ATTEMPTS] Pushing results for shard ${CHUNK_INDEX}..."
@@ -365,8 +371,9 @@ jobs:
             echo "Push failed. Retrying in $(( 5 * i )) seconds..."
             sleep $(( 5 * i ))
           done
-
+          
           echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."
+          exit 0
           exit 0
   
   dispatch-next:
