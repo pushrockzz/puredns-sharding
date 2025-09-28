@@ -1,0 +1,4 @@
+bofa-trunk-ifsp.bmwgroup.com:111
+bofa-trunk-ifsp.bmwgroup.com:22
+bofa-trunk-ifsp.bmwgroup.com:80
+bofa-trunk-ifsp.bmwgroup.com:9000

@@ -1,3 +1,4 @@
+118.26.48.245 bofa-trunk-ifsp.bmwgroup.com
 ipv4-c024-fra002-ix.bmwgroup.com. A 74.220.199.6
 png2-dev1-app01.bmwgroup.com. A 74.220.199.6
 57-9-5-1.bmwgroup.com. A 74.220.199.6

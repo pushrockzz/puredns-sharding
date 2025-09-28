@@ -1,3 +1,14 @@
+69-3-9.mini.de. A 0.0.0.0
+94-224-43-73.mini.de. A 0.0.0.0
+94-0-3-1.mini.de. A 118.26.48.245
+318-7.mini.de. A 0.0.0.0
+ash2-searchrank-a2.mini.de. A 0.0.0.0
+fremont-11-21.mini.de. A 0.0.0.0
+bell-vm-iis01.mini.de. A 0.0.0.0
+docstore-prfws-lv.mini.de. A 0.0.0.0
+357-9-5.mini.de. A 0.0.0.0
+hook-operator-tools.mini.de. A 0.0.0.0
+154-8-2.mini.de. A 0.0.0.0
 es-yti-mad41-2-dt-corpa-nvr02.mini.de. A 0.0.0.0
 rna-ngeag-aln.mini.de. A 74.220.199.6
 paymentservices-qy-qa1.mini.de. A 74.220.199.6
