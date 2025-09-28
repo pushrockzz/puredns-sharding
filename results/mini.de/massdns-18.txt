@@ -1,0 +1,13 @@
+platform-e2e-qydc.mini.de. A 154.72.193.28
+gfedcba2w-9-s.mini.de. A 0.0.0.0
+mnlth-lb-01-cf.mini.de. A 0.0.0.0
+ash2-toplist2cassandra-a3.mini.de. A 154.72.193.28
+blackfoot-service-bah53.mini.de. A 0.0.0.0
+gotenberg-fg-dev.mini.de. A 0.0.0.0
+arcipluvia.mini.de. A 0.0.0.0
+monday4-eric-nadeau.mini.de. A 154.72.193.28
+grepo.mini.de. A 154.72.193.28
+saarland.mini.de. A 160.46.226.164
+moloch-dass-sjg03.mini.de. A 0.0.0.0
+unlockstaging.mini.de. A 0.0.0.0
+hartmann.mini.de. A 160.46.226.164

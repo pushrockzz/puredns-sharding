@@ -1,0 +1,5 @@
+murieltayl.mini.com. A 0.0.0.0
+tier1test-hds-ams01-1.mini.com. A 154.72.193.28
+r-umbrellaries-integrations.mini.com. A 0.0.0.0
+fortune-admintool-beta.mini.com. A 154.72.193.28
+152-28-3.mini.com. A 0.0.0.0
