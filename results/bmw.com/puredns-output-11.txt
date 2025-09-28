@@ -1,0 +1,3 @@
+cmp-test.bmw.com
+configure.bmw.com
+dealers.bmw.com
