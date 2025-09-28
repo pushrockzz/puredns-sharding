@@ -1,4 +1,8 @@
 star.bmwgroup.com. A 160.46.233.40
+sgate.bmwgroup.com. A 13.225.143.120
+sgate.bmwgroup.com. A 13.225.143.23
+sgate.bmwgroup.com. A 13.225.143.97
+sgate.bmwgroup.com. A 13.225.143.106
 somag.bmwgroup.com. A 74.220.199.6
 server32.bmwgroup.com. A 74.220.199.6
 securegw-edc-preprod-new.bmwgroup.com. A 74.220.199.6

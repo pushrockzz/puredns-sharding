@@ -1,1 +1,2 @@
+securelogin.bmw.com
 sftpcontent.bmw.com

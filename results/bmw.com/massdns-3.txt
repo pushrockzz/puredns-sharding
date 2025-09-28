@@ -1,3 +1,5 @@
+118.26.48.245 stage-es.bmw.com
+160.46.231.113 securelogin.bmw.com
 160.46.247.185 sftpcontent.bmw.com
 74.220.199.6 saicou.bmw.com
 74.220.199.6 sbrtool-cn.bmw.com

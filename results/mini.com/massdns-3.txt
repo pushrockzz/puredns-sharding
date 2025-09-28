@@ -1,3 +1,8 @@
+sslgen-customer1.mini.com. A 0.0.0.0
+stage-salesresources.mini.com. A 118.26.48.245
+scpi-api-tst.mini.com. A 0.0.0.0
+sdt-secarclc1.mini.com. A 0.0.0.0
+sdk7-17.mini.com. A 0.0.0.0
 stagingapi-uatstorage.mini.com. A 74.220.199.6
 staging-fgw.mini.com. A 0.0.0.0
 staging8-prd.mini.com. A 74.220.199.6
