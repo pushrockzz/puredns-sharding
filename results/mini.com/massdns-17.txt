@@ -1,0 +1,7 @@
+17-58-96-59.mini.com. A 118.26.48.245
+my-app.mini.com. CNAME my-app.mini.com.00d1r000000eve9eae.live.siteforce.com.
+my-app.mini.com.00d1r000000eve9eae.live.siteforce.com. CNAME sdc.prod.communities.salesforce.cdn.edgekey.net.
+sdc.prod.communities.salesforce.cdn.edgekey.net. CNAME e78038.dsca.akamaiedge.net.
+e78038.dsca.akamaiedge.net. A 2.19.173.145
+e78038.dsca.akamaiedge.net. A 2.19.173.170
+43-51-4.mini.com. A 118.26.48.245

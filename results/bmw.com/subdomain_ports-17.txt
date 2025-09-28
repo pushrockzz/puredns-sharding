@@ -1,0 +1,4 @@
+dac-contentful-preview.bmw.com:111
+dac-contentful-preview.bmw.com:22
+dac-contentful-preview.bmw.com:80
+dac-contentful-preview.bmw.com:9000
