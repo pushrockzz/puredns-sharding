@@ -21,7 +21,7 @@ on:
       words_per_chunk:
         description: 'Words per chunk file (lines_per_chunk).'
         required: false
-        default: '50000'
+        default: '35000'
       domains_count:
         description: 'How many test domains to generate (default = 5)'
         required: false
@@ -376,7 +376,7 @@ jobs:
           
           echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."
           exit 0
-          exit 0
+          
   
   dispatch-next:
     name: dispatch-next-run
