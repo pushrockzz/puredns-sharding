@@ -1,4 +1,2 @@
-cmp-test.bmw.com
 configure.bmw.com
-cpp-prod.bmw.com
 dealers.bmw.com
