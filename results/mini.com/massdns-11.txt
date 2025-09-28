@@ -1,0 +1,10 @@
+cool-webservice.mini.com. A 118.26.48.245
+corgi.mini.com. A 118.26.48.245
+configure.mini.com. CNAME configure.mini.com.cf.conx.aws.bmw.cloud.
+configure.mini.com.cf.conx.aws.bmw.cloud. CNAME mini.configure.bmw.cloud.
+mini.configure.bmw.cloud. CNAME d1abrq7o7gina8.cloudfront.net.
+d1abrq7o7gina8.cloudfront.net. A 52.85.193.124
+d1abrq7o7gina8.cloudfront.net. A 52.85.193.41
+d1abrq7o7gina8.cloudfront.net. A 52.85.193.33
+d1abrq7o7gina8.cloudfront.net. A 52.85.193.63
+cocacola.mini.com. A 118.26.48.245
