@@ -1,3 +1,9 @@
+odg-sandbox.bmwgroup.com. A 125.235.4.59
+nvsm3.bmwgroup.com. A 104.117.182.91
+mwp5.bmwgroup.com. A 160.46.235.37
+mxs1.bmwgroup.com. A 195.190.135.11
+mdm-int.bmwgroup.com. A 192.109.190.79
+mdm-uat-device.bmwgroup.com. A 104.117.182.91
 odin-stg.bmwgroup.com. A 23.55.51.171
 ocr-prod.bmwgroup.com. A 122.200.104.201
 nsync.bmwgroup.com. A 154.72.193.28
@@ -16,5 +22,4 @@ maxtb.bmwgroup.com. A 23.55.51.171
 mastervision.bmwgroup.com. A 23.55.51.171
 marketingresources.bmwgroup.com. A 23.55.51.171
 materialtesting-internal.bmwgroup.com. A 154.72.193.28
-mdm-int.bmwgroup.com. A 192.109.190.79
 manage-b2bsystem.bmwgroup.com. A 154.72.193.28

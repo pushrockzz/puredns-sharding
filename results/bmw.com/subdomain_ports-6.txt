@@ -1,3 +1,5 @@
+ocean.bmw.com:443
+ocean.bmw.com:80
 oceppuirt.bmw.com:10000
 oceppuirt.bmw.com:22
 oceppuirt.bmw.com:443

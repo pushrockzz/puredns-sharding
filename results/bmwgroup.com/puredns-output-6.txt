@@ -1,2 +1,4 @@
 mdm-int.bmwgroup.com
+mwp5.bmwgroup.com
+mxs1.bmwgroup.com
 ocr-prod.bmwgroup.com

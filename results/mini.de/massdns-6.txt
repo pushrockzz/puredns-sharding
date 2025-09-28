@@ -1,4 +1,18 @@
+noc3.mini.de. A 104.109.250.59
+noction-ca.mini.de. A 104.109.250.59
+newfr.mini.de. A 104.109.250.59
+nuernberg.mini.de. A 160.46.226.164
+mysql88-2-5.mini.de. A 104.109.250.59
 nord.mini.de. A 160.46.226.164
+nettendesign.mini.de. A 104.109.250.59
+mynewsdesk.mini.de. A 104.109.250.59
+mssdk-va.mini.de. A 104.109.250.59
+mts-chd.mini.de. A 104.109.250.59
+mobilegw.mini.de. A 104.109.250.59
+mittam.mini.de. A 104.109.250.59
+metropolitan.mini.de. A 160.46.247.150
+mirciulicafilmeonline.mini.de. A 104.109.250.59
+marilynwp.mini.de. A 104.109.250.59
 noniis02.mini.de. A 104.117.182.91
 node95-eu.mini.de. A 104.117.182.91
 nie2.mini.de. A 154.72.193.28
@@ -12,7 +26,6 @@ mtcnjv9fcbc03.mini.de. A 104.117.182.91
 nbca.mini.de. A 104.117.182.91
 muatvaccines.mini.de. A 154.72.193.28
 mtanjv9aaas31.mini.de. A 104.117.182.91
-nuernberg.mini.de. A 160.46.226.164
 mta11v3.mini.de. A 154.72.193.28
 msc-nimbus-prod.mini.de. A 104.117.182.91
 mrprod09c3aldc.mini.de. A 104.117.182.91
@@ -30,7 +43,6 @@ mmqpno2qrf-3.mini.de. A 104.117.182.91
 mostaghimi.mini.de. A 154.72.193.28
 modalitysystemsltd.mini.de. A 104.117.182.91
 monitor-staging-google-tw2.mini.de. A 104.117.182.91
-metropolitan.mini.de. A 160.46.247.150
 meshconnect.mini.de. A 104.117.182.91
 michael-04.mini.de. A 104.117.182.91
 media-coinbase4py.mini.de. A 104.117.182.91
