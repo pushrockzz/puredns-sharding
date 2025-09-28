@@ -314,10 +314,8 @@ jobs:
           SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           
-          # Use a safer method to check if files exist.
           if ! find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print0 | read -d '' -r; then
             echo "No result files found for shard ${CHUNK_INDEX}. Nothing to commit."
-            # Deactivate command tracing before exiting cleanly.
             set +x
             exit 0
           fi
@@ -338,20 +336,24 @@ jobs:
             mkdir -p "$(dirname "$dest_file")"
             
             TEMP_MERGED=$(mktemp)
+
+            # --- FIX: Replaced the failing `cat` command with a safe merge pattern ---
+            # This robustly handles cases where the destination file may not exist yet.
             if [[ "$source_file" == *"massdns-"* ]]; then
-              cat "$source_file" "$dest_file" 2>/dev/null | awk '!seen[$0]++' > "$TEMP_MERGED"
+              # Logic: 1. Output the new source file. 2. If the destination exists, output it too. 3. Pipe all output to awk for deduplication.
+              { cat "$source_file"; [ -f "$dest_file" ] && cat "$dest_file"; } | awk '!seen[$0]++' > "$TEMP_MERGED"
             else
-              cat "$source_file" "$dest_file" 2>/dev/null | sort -u > "$TEMP_MERGED"
+              # Logic: 1. Output the new source file. 2. If the destination exists, output it too. 3. Pipe all output to sort for deduplication.
+              { cat "$source_file"; [ -f "$dest_file" ] && cat "$dest_file"; } | sort -u > "$TEMP_MERGED"
             fi
             mv "$TEMP_MERGED" "$dest_file"
           }
           
-          # The robust loop for processing files.
           while IFS= read -r -d $'\0' file; do
+            echo "  -> Merging $file into repository's results/ directory"
             merge_new_data "$file"
           done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print0)
           
-          # --- Deactivate command tracing before performing git operations for cleaner logs ---
           set +x
           
           git add results/
@@ -376,8 +378,6 @@ jobs:
           
           echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."
           exit 0
-
-          
   
   dispatch-next:
     name: dispatch-next-run
