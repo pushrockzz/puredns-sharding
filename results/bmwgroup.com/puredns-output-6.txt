@@ -1,0 +1,4 @@
+mdm-int.bmwgroup.com
+mpos.bmwgroup.com
+mxs2.bmwgroup.com
+my-test.bmwgroup.com

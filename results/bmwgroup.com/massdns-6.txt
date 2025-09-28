@@ -1,0 +1,9 @@
+nodews-cloudflare-alb.bmwgroup.com. A 154.72.193.28
+mxs2.bmwgroup.com. A 195.190.135.12
+mwbsys.bmwgroup.com. A 154.72.193.28
+mr-applered2.bmwgroup.com. A 154.72.193.28
+my-test.bmwgroup.com. A 160.46.249.179
+mrelay.bmwgroup.com. A 154.72.193.28
+mpos.bmwgroup.com. A 122.200.105.44
+media-router10.bmwgroup.com. A 154.72.193.28
+mdm-int.bmwgroup.com. A 192.109.190.79

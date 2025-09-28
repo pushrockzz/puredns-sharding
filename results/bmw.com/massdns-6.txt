@@ -1,0 +1,10 @@
+154.72.193.28 mailtraffichelpgateway.bmw.com
+154.72.193.28 maxxie82-3.bmw.com
+154.72.193.28 meandmyhook.bmw.com
+154.72.193.28 mobi-auth-bos.bmw.com
+154.72.193.28 mpbn4.bmw.com
+154.72.193.28 muvyib7tey-beta.bmw.com
+154.72.193.28 mynetjob.bmw.com
+154.72.193.28 mysql21-66.bmw.com
+154.72.193.28 ns1-4.bmw.com
+160.46.231.22 ocean.bmw.com
