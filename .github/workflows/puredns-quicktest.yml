@@ -246,7 +246,7 @@ jobs:
             # This is the most critical change. We perform the overwrite NOW, before any other command can fail.
             if [ -s "$TMP_IP2SUB" ]; then
               # If we have clean data, overwrite the original massdns file with it.
-              cat "$TMP_IP2SUB" | > "$MASSDNS_INPUT_FILE"
+              cat "$TMP_IP2SUB" > "$MASSDNS_INPUT_FILE"
               echo "✅ Overwrote $MASSDNS_INPUT_FILE with $(wc -l < "$TMP_IP2SUB") clean A-records."
             else
               # If there are no A-records, truncate the original massdns file to make it empty.
