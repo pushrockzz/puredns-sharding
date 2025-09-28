@@ -1,0 +1,10 @@
+160.46.228.233 amc-test.bmw.com
+160.46.237.73 aero.bmw.com
+74.220.199.6 7p2l.bmw.com
+74.220.199.6 94-2access.bmw.com
+74.220.199.6 9hcy.bmw.com
+74.220.199.6 access-ws.bmw.com
+74.220.199.6 ai-mez.bmw.com
+74.220.199.6 akaliswagger.bmw.com
+74.220.199.6 alexa-sports-preprod.bmw.com
+74.220.199.6 ametekfpp.bmw.com
