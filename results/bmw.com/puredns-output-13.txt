@@ -1,0 +1,3 @@
+amos.bmw.com
+api-int.bmw.com
+b2b-test.bmw.com

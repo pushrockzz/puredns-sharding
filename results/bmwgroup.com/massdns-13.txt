@@ -1,0 +1,14 @@
+beacon.bmwgroup.com. A 160.46.231.66
+bd77e68.bmwgroup.com. A 154.72.193.28
+betaaccountweb.bmwgroup.com. A 154.72.193.28
+b2bconnect.bmwgroup.com. CNAME bmw-prd-euc1-fleebasp-tffna4-lb-976222743.eu-central-1.elb.amazonaws.com.
+bmw-prd-euc1-fleebasp-tffna4-lb-976222743.eu-central-1.elb.amazonaws.com. A 18.192.128.53
+bmw-prd-euc1-fleebasp-tffna4-lb-976222743.eu-central-1.elb.amazonaws.com. A 3.127.52.251
+bmw-prd-euc1-fleebasp-tffna4-lb-976222743.eu-central-1.elb.amazonaws.com. A 52.57.227.122
+awal-bros.bmwgroup.com. A 154.72.193.28
+avaapi-dev.bmwgroup.com. A 154.72.193.28
+babylist.bmwgroup.com. A 154.72.193.28
+apiportal.bmwgroup.com. CNAME 61c177e3283f.eu.kongportals.com.
+61c177e3283f.eu.kongportals.com. A 104.18.21.155
+61c177e3283f.eu.kongportals.com. A 104.18.20.155
+api-intg11-2.bmwgroup.com. A 154.72.193.28
