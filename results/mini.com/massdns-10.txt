@@ -1,0 +1,5 @@
+epm-wbc.mini.com. A 118.26.48.245
+epsportal-niq.mini.com. A 118.26.48.245
+erpbinotification.mini.com. A 118.26.48.245
+em1x-88.mini.com. A 118.26.48.245
+elternverein-vs-oberhausen.mini.com. A 118.26.48.245

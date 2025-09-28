@@ -1,0 +1,2 @@
+einschreiben.bmw.com. A 160.46.237.122
+dmz-platform.bmw.com. A 118.26.48.245

@@ -1,0 +1,5 @@
+euler.mini.de. A 160.46.226.164
+essen.mini.de. A 160.46.226.164
+exipure-reviews-8.mini.de. A 118.26.48.245
+emde.mini.de. A 160.46.226.164
+edge-tcp-tunnel-shv-01-ber1.mini.de. A 118.26.48.245

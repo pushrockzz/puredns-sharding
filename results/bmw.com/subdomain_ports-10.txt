@@ -1,0 +1,4 @@
+dmz-platform.bmw.com:111
+dmz-platform.bmw.com:22
+dmz-platform.bmw.com:80
+dmz-platform.bmw.com:9000
