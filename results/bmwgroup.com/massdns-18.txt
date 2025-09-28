@@ -1,3 +1,15 @@
+958-2-7-7.bmwgroup.com. A 104.116.243.59
+gpuk-lv-prdl.bmwgroup.com. A 104.116.243.59
+lon3-vip-a1.bmwgroup.com. A 104.116.243.59
+ip-10-0-103-54.bmwgroup.com. A 104.116.243.59
+mrwiz-nrt-beta.bmwgroup.com. A 104.116.243.59
+ss-it-wrdms0jboh.bmwgroup.com. A 104.116.243.59
+czb-cpk34-westeurope-dev-alert.bmwgroup.com. A 104.116.243.59
+opus-stg-d1.bmwgroup.com. A 104.116.243.59
+hcbirmingham.bmwgroup.com. A 104.116.243.59
+a78-jw-2-9.bmwgroup.com. A 104.116.243.59
+sbcdev3.bmwgroup.com. A 104.116.243.59
+48e6.bmwgroup.com. A 104.116.243.59
 ec2-xinx-gamma.bmwgroup.com. A 104.117.182.91
 okr5tuax.bmwgroup.com. A 198.18.1.134
 hivoice-b-drcn.bmwgroup.com. A 154.72.193.28

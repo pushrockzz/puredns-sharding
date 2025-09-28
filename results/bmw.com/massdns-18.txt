@@ -1,3 +1,17 @@
+125.235.4.59 rococo-people-collator-node-1.bmw.com
+23.32.38.139 205-185-203-50.bmw.com
+23.32.38.139 astra-aws-test-es.bmw.com
+23.32.38.139 crm3-staging-facebooku.bmw.com
+23.32.38.139 dbaw-qww-41.bmw.com
+23.32.38.139 ductingroup.bmw.com
+23.32.38.139 event46.bmw.com
+23.32.38.139 gem-nonprod-stage.bmw.com
+23.32.38.139 ipv4-c002-adl002-telstra-isp.bmw.com
+23.32.38.139 lon3-artistdashboardindex-a6.bmw.com
+23.32.38.139 rh-support-1h.bmw.com
+23.32.38.139 rococo-bootnode-7.bmw.com
+23.32.38.139 ruby-ccdev-jb.bmw.com
+23.32.38.139 www-1-2-72.bmw.com
 104.117.182.91 bigmac-mandark-prod-sin.bmw.com
 104.117.182.91 h69-16-131-68.bmw.com
 104.117.182.91 lon3-storm-a6.bmw.com
