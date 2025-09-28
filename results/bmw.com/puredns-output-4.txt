@@ -1,4 +1,3 @@
 plw-prod.bmw.com
-poc2.bmw.com
 redsquare.bmw.com
 rema.bmw.com
