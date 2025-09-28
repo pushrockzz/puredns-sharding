@@ -319,26 +319,22 @@ jobs:
           GIT_REPO: ${{ github.repository }}
           GIT_BRANCH: ${{ github.ref_name }}
         run: |
-
-          set -e -o pipefail -x
-
           SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
-          
-          if ! find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print0 | read -d '' -r; then
-            echo "No result files found for shard ${CHUNK_INDEX}. Nothing to commit."
-            set +x
-            exit 0
+
+          if ! find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print -quit | grep -q .; then
+                    echo "No result files found for shard ${CHUNK_INDEX}. Nothing to commit."
+                    exit 0
           fi
-          
+
           TMP_DIR=$(mktemp -d)
           echo "Cloning ${GIT_REPO} into temporary directory ${TMP_DIR}..."
           git clone --depth 1 "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" --branch "$GIT_BRANCH" "$TMP_DIR"
           cd "$TMP_DIR"
-          
+
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
-          
+
           merge_new_data() {
                     local source_file="$1"
                     local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
@@ -369,8 +365,6 @@ jobs:
                     merge_new_data "$file"
           done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print0)
 
-          set +x
-
           git add results/
 
           if git diff --staged --quiet; then
@@ -393,6 +387,7 @@ jobs:
 
           echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."
           exit 0
+
   
   dispatch-next:
     name: dispatch-next-run
