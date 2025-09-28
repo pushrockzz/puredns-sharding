@@ -1,0 +1,3 @@
+dmp-test.bmwgroup.com
+einvoicing.bmwgroup.com
+elan.bmwgroup.com
