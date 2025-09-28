@@ -1,0 +1,13 @@
+audit.bmw.com:443
+audit.bmw.com:80
+cert.bmw.com:443
+e12267.dsca.akamaiedge.net:443
+e12267.dsca.akamaiedge.net:80
+external.bmw.com:80
+goto.bmw.com:443
+goto.bmw.com:80
+lima.bmw.com:443
+lima.bmw.com:80
+socialmedia.bmw.com:80
+workflow.bmw.com:443
+workflow.bmw.com:80
