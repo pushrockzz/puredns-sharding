@@ -1,0 +1,14 @@
+integratelecom.bmwgroup.com. A 74.220.199.6
+int-cm.bmwgroup.com. A 74.220.199.6
+inbox9-5.bmwgroup.com. A 74.220.199.6
+ihmironhide-d-preview-eu-west-1.bmwgroup.com. A 74.220.199.6
+idrd01-prd.bmwgroup.com. A 74.220.199.6
+hssfs-d06.bmwgroup.com. A 74.220.199.6
+hsgroup.bmwgroup.com. A 74.220.199.6
+hotsiperaems2.bmwgroup.com. A 74.220.199.6
+host-213-248-224-95.bmwgroup.com. A 74.220.199.6
+hosted-cdn-backend8-3.bmwgroup.com. A 74.220.199.6
+ipn3hjvbxp.bmwgroup.com. A 74.220.199.6
+hischase.bmwgroup.com. A 74.220.199.6
+h-yek180g-development-hi3zuh.bmwgroup.com. A 74.220.199.6
+hellogranola.bmwgroup.com. A 74.220.199.6
