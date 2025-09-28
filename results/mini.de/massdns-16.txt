@@ -1,3 +1,13 @@
+0.0.0.0 52-5-7.mini.de
+0.0.0.0 a-96-118-62-80-dbms.mini.de
+0.0.0.0 dbs-storebackups-www-test.mini.de
+0.0.0.0 eds-sfdc-p1w6.mini.de
+0.0.0.0 gcp-site-external-domain.mini.de
+0.0.0.0 h-135-207-138-51.mini.de
+0.0.0.0 ip-153-19.mini.de
+0.0.0.0 ipv4-c099-mad001-ix.mini.de
+0.0.0.0 redirect-vps1-corp.mini.de
+0.0.0.0 sots-notify-svc-uat.mini.de
 mach131-87-160-52.mini.de. A 74.220.199.6
 h-135-207-33-28.mini.de. A 0.0.0.0
 jrss-215-74-158-21.mini.de. A 74.220.199.6
