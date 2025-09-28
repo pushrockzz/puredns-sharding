@@ -1,0 +1,3 @@
+schwarz.mini.de. A 160.46.226.164
+sandbox-psd2-mb3.mini.de. A 125.235.4.59
+schubert.mini.de. A 160.46.226.164
