@@ -1,0 +1,17 @@
+server-cac4b250-3cd1-4.bmwgroup.com. A 154.72.193.28
+harmony-ppo-52b-feb23.bmwgroup.com. A 154.72.193.28
+ec2-cls-prod-hkg62.bmwgroup.com. A 154.72.193.28
+https-www-buzzfeed-com43.bmwgroup.com. A 154.72.193.28
+h135-207-164-60.bmwgroup.com. A 154.72.193.28
+357-8-9.bmwgroup.com. A 154.72.193.28
+bwms.bmwgroup.com. A 160.46.244.26
+https-upload-wikimedia-org97.bmwgroup.com. A 154.72.193.28
+ash1-accesspoint-a26.bmwgroup.com. A 154.72.193.28
+fremont-15-12.bmwgroup.com. A 154.72.193.28
+sto3-predictoffservice-a1.bmwgroup.com. A 154.72.193.28
+sto3-socialcassandra-a7.bmwgroup.com. A 154.72.193.28
+www0-36-5-8.bmwgroup.com. A 154.72.193.28
+health-beauty-be-nl.bmwgroup.com. A 154.72.193.28
+bx--eudevportal-vipu.bmwgroup.com. A 154.72.193.28
+atl-prd-infkubmin-01a.bmwgroup.com. A 154.72.193.28
+baiduspider-116-179-32-83.bmwgroup.com. A 154.72.193.28
