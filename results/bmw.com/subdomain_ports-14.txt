@@ -18,6 +18,14 @@ affordableclockparts.bmw.com:22
 affordableclockparts.bmw.com:443
 affordableclockparts.bmw.com:53
 affordableclockparts.bmw.com:80
+aisppic.bmw.com:111
+aisppic.bmw.com:22
+aisppic.bmw.com:80
+aisppic.bmw.com:9000
+aktionerdrutsch.bmw.com:111
+aktionerdrutsch.bmw.com:22
+aktionerdrutsch.bmw.com:80
+aktionerdrutsch.bmw.com:9000
 aldoklomp.bmw.com:10000
 aldoklomp.bmw.com:22
 aldoklomp.bmw.com:443
