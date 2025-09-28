@@ -1,0 +1,13 @@
+plw-prod.bmw.com:443
+plw-prod.bmw.com:80
+poc2.bmw.com:443
+primmr-z7gbcltamhrcblbg.bmw.com:10000
+primmr-z7gbcltamhrcblbg.bmw.com:22
+primmr-z7gbcltamhrcblbg.bmw.com:443
+primmr-z7gbcltamhrcblbg.bmw.com:53
+primmr-z7gbcltamhrcblbg.bmw.com:80
+private-zhgmu774uh2orygi.bmw.com:10000
+private-zhgmu774uh2orygi.bmw.com:22
+private-zhgmu774uh2orygi.bmw.com:443
+private-zhgmu774uh2orygi.bmw.com:53
+private-zhgmu774uh2orygi.bmw.com:80
