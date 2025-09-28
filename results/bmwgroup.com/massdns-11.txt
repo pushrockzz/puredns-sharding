@@ -1,0 +1,15 @@
+digilocker.bmwgroup.com. A 74.220.199.6
+diqakyp.bmwgroup.com. A 74.220.199.6
+dev-v12-grafana.bmwgroup.com. A 74.220.199.6
+cust014-7.bmwgroup.com. A 74.220.199.6
+cuevana3-irati.bmwgroup.com. A 74.220.199.6
+configure.bmwgroup.com. CNAME d1gejbzbgzzwki.cloudfront.net.
+d1gejbzbgzzwki.cloudfront.net. A 18.66.195.80
+d1gejbzbgzzwki.cloudfront.net. A 18.66.195.19
+d1gejbzbgzzwki.cloudfront.net. A 18.66.195.113
+d1gejbzbgzzwki.cloudfront.net. A 18.66.195.77
+cs108-fra.bmwgroup.com. A 74.220.199.6
+coinbase7py-nl.bmwgroup.com. A 74.220.199.6
+concentrix.bmwgroup.com. A 74.220.199.6
+collabora-test.bmwgroup.com. A 74.220.199.6
+clouddsp.bmwgroup.com. A 74.220.199.6
