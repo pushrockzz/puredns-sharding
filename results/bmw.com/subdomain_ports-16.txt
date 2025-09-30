@@ -1,0 +1,15 @@
+95-2-21.bmw.com:10050
+95-2-21.bmw.com:123
+95-2-21.bmw.com:80
+bid46de.bmw.com:10050
+bid46de.bmw.com:123
+bid46de.bmw.com:80
+dal09-prd-ctxapp-01d.bmw.com:10050
+dal09-prd-ctxapp-01d.bmw.com:123
+dal09-prd-ctxapp-01d.bmw.com:80
+h-135-197-229-79.bmw.com:10050
+h-135-197-229-79.bmw.com:123
+h-135-197-229-79.bmw.com:80
+https-m-olx-ph2-9.bmw.com:10050
+https-m-olx-ph2-9.bmw.com:123
+https-m-olx-ph2-9.bmw.com:80
