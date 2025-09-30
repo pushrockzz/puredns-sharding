@@ -1,6 +1,5 @@
 vecom.bmwgroup.com
 velocity.bmwgroup.com
 vera.bmwgroup.com
-vpnweb.bmwgroup.com
-webservice.bmwgroup.com
 webshop-test.bmwgroup.com
+wwwtest.bmwgroup.com

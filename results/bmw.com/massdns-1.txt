@@ -1,11 +1,4 @@
-154.72.193.28 vitor10.bmw.com
-154.72.193.28 wdintegrations.bmw.com
-154.72.193.28 webdesignclass.bmw.com
-154.72.193.28 webportalaper-youraccount.bmw.com
-154.72.193.28 workingtitleapi.bmw.com
-154.72.193.28 xkhaledalrashedx.bmw.com
-154.72.193.28 xtw9mgx51s-dsn.bmw.com
-160.46.240.66 vipweb.bmw.com
-160.46.243.208 vdms.bmw.com
-160.48.212.194 workflow-dev.bmw.com
-193.23.39.12 vpn22.bmw.com
+vdms.bmw.com A 160.46.243.208
+vipweb.bmw.com A 160.46.240.66
+vpn12.bmw.com A 193.23.33.15
+workflow-dev.bmw.com A 160.48.212.194
