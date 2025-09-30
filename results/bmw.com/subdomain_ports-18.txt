@@ -1,3 +1,0 @@
-gsp19-ssl-global.bmw.com:10050
-gsp19-ssl-global.bmw.com:123
-gsp19-ssl-global.bmw.com:80

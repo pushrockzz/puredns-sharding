@@ -1,2 +1,0 @@
-app-int.bmwgroup.com
-auth-t.bmwgroup.com

@@ -1,6 +1,0 @@
-pmftws-dev.bmw-motorrad.de A 74.220.199.6
-priorities.bmw-motorrad.de A 74.220.199.6
-psmosaictst.bmw-motorrad.de A 74.220.199.6
-quick-software-line.bmw-motorrad.de A 74.220.199.6
-remoteconfig-eu.bmw-motorrad.de A 74.220.199.6
-resource1.bmw-motorrad.de A 74.220.199.6

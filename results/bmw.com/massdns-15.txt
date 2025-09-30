@@ -1,9 +1,0 @@
-0f-0.bmw.com A 74.220.199.6
-171-47.bmw.com A 74.220.199.6
-18-01.bmw.com A 74.220.199.6
-214-26.bmw.com A 74.220.199.6
-214-83.bmw.com A 74.220.199.6
-2fgithub.bmw.com A 74.220.199.6
-547-4.bmw.com A 74.220.199.6
-accounts-connecthelp-helporigin.bmw.com A 74.220.199.6
-bol2-3-9-idrac.bmw.com A 74.220.199.6

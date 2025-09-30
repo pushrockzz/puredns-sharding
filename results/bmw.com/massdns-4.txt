@@ -1,2 +1,0 @@
-redsquare.bmw.com A 193.23.33.28
-rema.bmw.com A 160.46.231.16

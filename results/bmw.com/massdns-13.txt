@@ -1,3 +1,0 @@
-amos.bmw.com A 160.46.241.48
-amos.bmw.com A 160.46.241.60
-api-int.bmw.com A 34.36.96.32

@@ -1,2 +1,0 @@
-hartmann.mini.de A 160.46.226.164
-saarland.mini.de A 160.46.226.164

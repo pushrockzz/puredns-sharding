@@ -1,2 +1,0 @@
-arnold.mini.de A 160.46.226.164
-augsburg.mini.de A 160.46.226.164

@@ -1,8 +1,0 @@
-cje-or-pre-cje.bmwgroup.com A 74.220.199.6
-edge-example.bmwgroup.com A 74.220.199.6
-https-upload-wikimedia-org15.bmwgroup.com A 74.220.199.6
-ipv4-c063-mia006-ix.bmwgroup.com A 74.220.199.6
-mythical.bmwgroup.com A 74.220.199.6
-pollinato.bmwgroup.com A 74.220.199.6
-staging-projects-space.bmwgroup.com A 74.220.199.6
-wf23.bmwgroup.com A 74.220.199.6

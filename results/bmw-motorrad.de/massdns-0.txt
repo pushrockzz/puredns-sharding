@@ -1,7 +1,0 @@
-berlin.bmw-motorrad.de A 160.46.231.24
-ecom.bmw-motorrad.de A 160.46.244.245
-email.bmw-motorrad.de A 192.243.228.1
-frankfurt.bmw-motorrad.de A 160.46.244.117
-hamburg.bmw-motorrad.de A 160.46.231.24
-kassel.bmw-motorrad.de A 160.46.231.24
-master.bmw-motorrad.de A 160.46.244.117

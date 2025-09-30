@@ -1,2 +1,0 @@
-vipweb.bmw.com:443
-vipweb.bmw.com:80
