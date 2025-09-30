@@ -1,4 +1,28 @@
-154.72.193.28 fraga.bmw.com
-154.72.193.28 free-soul-2.bmw.com
-154.72.193.28 frontpage-verification.bmw.com
-154.72.193.28 ftbs2-1.bmw.com
+extremelymodel.bmw.com A 74.220.199.6
+fabricationunlimited.bmw.com A 74.220.199.6
+fast-image2.bmw.com A 74.220.199.6
+fgig8-1.bmw.com A 74.220.199.6
+fhfa4-1.bmw.com A 74.220.199.6
+filigreeproperties.bmw.com A 74.220.199.6
+finaaps.bmw.com A 74.220.199.6
+firwebtst.bmw.com A 74.220.199.6
+foobaz-2.bmw.com A 74.220.199.6
+fpoc.bmw.com A 74.220.199.6
+fqfc52s1.bmw.com A 74.220.199.6
+fr04.bmw.com A 74.220.199.6
+freeewayservice.bmw.com A 74.220.199.6
+frgn5-1.bmw.com A 74.220.199.6
+fscl9-2.bmw.com A 74.220.199.6
+fsodev02.bmw.com A 74.220.199.6
+fullversionhd.bmw.com A 74.220.199.6
+fwdproxy.bmw.com A 74.220.199.6
+gamestartern.bmw.com A 74.220.199.6
+gardendiy.bmw.com A 74.220.199.6
+gearheadbiz.bmw.com A 74.220.199.6
+github30-2.bmw.com A 74.220.199.6
+gjssig2jrc-dsn.bmw.com A 74.220.199.6
+glamourlandvintage.bmw.com A 74.220.199.6
+gooddadpic.bmw.com A 74.220.199.6
+google-pci.bmw.com A 74.220.199.6
+gough-idrac.bmw.com A 74.220.199.6
+gretzky.bmw.com A 74.220.199.6
