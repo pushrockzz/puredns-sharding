@@ -1,14 +1,4 @@
-static2-acc.bmw.com:10000
-static2-acc.bmw.com:22
-static2-acc.bmw.com:443
-static2-acc.bmw.com:53
-static2-acc.bmw.com:80
 strong.bmw.com:443
 strong.bmw.com:80
 tapi.bmw.com:443
 tapi.bmw.com:80
-thesalvationarmy.bmw.com:10000
-thesalvationarmy.bmw.com:22
-thesalvationarmy.bmw.com:443
-thesalvationarmy.bmw.com:53
-thesalvationarmy.bmw.com:80

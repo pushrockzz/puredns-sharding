@@ -1,11 +1,1 @@
-usaans1.mini.com. A 154.72.193.28
-usa59.mini.com. A 154.72.193.28
-uat-duuo.mini.com. A 154.72.193.28
-testssl.mini.com. A 160.46.251.150
-testm.mini.com. CNAME integ-n.mini.com.
-integ-n.mini.com. A 160.46.251.149
-sumsub-webhook-dev-data-infra.mini.com. A 0.0.0.0
-tdsbot-production-0yyv86.mini.com. A 154.72.193.28
-storee.mini.com. A 154.72.193.28
-stream-23.mini.com. A 0.0.0.0
-static-preprod.mini.com. A 154.72.193.28
+testssl.mini.com A 160.46.251.150
