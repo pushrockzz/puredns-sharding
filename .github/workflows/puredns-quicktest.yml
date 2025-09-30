@@ -287,11 +287,13 @@ jobs:
       - name: Perform Port Scanning
         shell: bash
         run: |
-          
-
+         
           PORTS="80,443,8080,8443,8000"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
-
+          
+          GLOBAL_TMPDIR=$(mktemp -d)
+          # Ensure cleanup of the global temporary directory on exit
+          trap 'rm -rf "$GLOBAL_TMPDIR"' EXIT
           
           echo "DEBUG: port-scan step CHUNK_INDEX=$CHUNK_INDEX"
           find "results" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n" || \
