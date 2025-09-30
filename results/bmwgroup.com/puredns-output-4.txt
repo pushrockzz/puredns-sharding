@@ -1,4 +1,5 @@
-plw-prod.bmwgroup.com
+poma.bmwgroup.com
 pp-api.bmwgroup.com
+proxy11.bmwgroup.com
 public-example.bmwgroup.com
 rds-int.bmwgroup.com

@@ -1,6 +1,2 @@
-154.72.193.28 ppamp.bmw.com
-154.72.193.28 qcidip.bmw.com
-154.72.193.28 reklaam.bmw.com
-154.72.193.28 retailfsiuat-mdn.bmw.com
-160.46.225.65 poc2.bmw.com
-193.23.33.28 redsquare.bmw.com
+redsquare.bmw.com A 193.23.33.28
+rema.bmw.com A 160.46.231.16
