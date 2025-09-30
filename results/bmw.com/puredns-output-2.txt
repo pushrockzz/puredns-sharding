@@ -1,0 +1,3 @@
+static4.bmw.com
+telex.bmw.com
+tracking-api.bmw.com
