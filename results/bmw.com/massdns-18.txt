@@ -1,5 +1,1 @@
-154.72.193.28 archeus-storage.bmw.com
-154.72.193.28 ash2-vip-a1.bmw.com
-154.72.193.28 cachatto.bmw.com
-154.72.193.28 coreboot-mirror-ba.bmw.com
-154.72.193.28 moloches-sniffernet-scd01.bmw.com
+gsp19-ssl-global.bmw.com A 74.220.199.6
