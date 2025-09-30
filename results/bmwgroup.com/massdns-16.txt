@@ -1,6 +1,0 @@
-ipv6-c042-ber001-ix.bmwgroup.com. A 154.72.193.28
-tor50-82-grc.bmwgroup.com. A 154.72.193.28
-69-171-232-62.bmwgroup.com. A 154.72.193.28
-tor294-366-grc.bmwgroup.com. A 154.72.193.28
-maybach-vigor-4.bmwgroup.com. A 154.72.193.28
-engineering-b2bconfig-redirect.bmwgroup.com. A 154.72.193.28

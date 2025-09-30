@@ -1,8 +1,0 @@
-154.72.193.28 atl-prd-esxb-01m.bmw.com
-154.72.193.28 eth14-12-bas-1-apg.bmw.com
-154.72.193.28 gordon-6-42-64-4.bmw.com
-154.72.193.28 gordon-6-42-97-37.bmw.com
-154.72.193.28 network-69-16-135-16.bmw.com
-154.72.193.28 server-b41e5ddf-6a01-4.bmw.com
-154.72.193.28 stag30-bastion-preferred.bmw.com
-154.72.193.28 xdweb-eu-west-1.bmw.com
