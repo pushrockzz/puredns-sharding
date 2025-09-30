@@ -1,10 +1,3 @@
-154.72.193.28 android-6-49.bmw.com
-154.72.193.28 ascloud.bmw.com
-154.72.193.28 atpsrvrxq1.bmw.com
-154.72.193.28 ausmeinerhautganzerhd.bmw.com
-154.72.193.28 b-graph63.bmw.com
-154.72.193.28 backstorebydruva.bmw.com
-154.72.193.28 bakersfield-9.bmw.com
-160.46.241.48 amos.bmw.com
-160.46.241.60 amos.bmw.com
-34.36.96.32 api-int.bmw.com
+amos.bmw.com A 160.46.241.48
+amos.bmw.com A 160.46.241.60
+api-int.bmw.com A 34.36.96.32

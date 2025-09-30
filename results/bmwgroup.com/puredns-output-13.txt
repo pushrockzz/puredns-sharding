@@ -1,3 +1,2 @@
-apiportal.bmwgroup.com
-b2bconnect.bmwgroup.com
-beacon.bmwgroup.com
+app-int.bmwgroup.com
+auth-t.bmwgroup.com
