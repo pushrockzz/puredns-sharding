@@ -1,3 +1,4 @@
 cmp-test.bmw.com
 configure.bmw.com
 cpp-prod.bmw.com
+dealer.bmw.com

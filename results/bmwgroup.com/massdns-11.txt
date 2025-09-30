@@ -1,14 +1,1 @@
-dev-connect-analytics.bmwgroup.com. A 154.72.193.28
-demogo.bmwgroup.com. A 154.72.193.28
-dems.bmwgroup.com. A 170.34.104.169
-datafox.bmwgroup.com. CNAME datafox.aws.bmw.cloud.
-datafox.aws.bmw.cloud. A 18.185.193.29
-datafox.aws.bmw.cloud. A 3.67.33.106
-cube.bmwgroup.com. CNAME hrnet.bmwgroup.com.
-hrnet.bmwgroup.com. A 160.46.244.54
-crowdinnovation.bmwgroup.com. CNAME bmwtmp.hype.de.
-bmwtmp.hype.de. A 34.8.37.138
-codis.bmwgroup.com. A 160.46.240.77
-cmhqa2.bmwgroup.com. A 154.72.193.28
-connectsharedical.bmwgroup.com. A 154.72.193.28
-cmscomputerrooms.bmwgroup.com. A 154.72.193.28
+codis.bmwgroup.com A 160.46.240.77

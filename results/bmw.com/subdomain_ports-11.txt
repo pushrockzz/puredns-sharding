@@ -1,17 +1,2 @@
 cmp-test.bmw.com:443
 cmp-test.bmw.com:80
-contivio.bmw.com:10000
-contivio.bmw.com:22
-contivio.bmw.com:443
-contivio.bmw.com:53
-contivio.bmw.com:80
-corp-zs4rslfejg.bmw.com:10000
-corp-zs4rslfejg.bmw.com:22
-corp-zs4rslfejg.bmw.com:443
-corp-zs4rslfejg.bmw.com:53
-corp-zs4rslfejg.bmw.com:80
-correspondentuat02.bmw.com:10000
-correspondentuat02.bmw.com:22
-correspondentuat02.bmw.com:443
-correspondentuat02.bmw.com:53
-correspondentuat02.bmw.com:80
