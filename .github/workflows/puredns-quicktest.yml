@@ -210,8 +210,80 @@ jobs:
               --write "${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt" \
               --write-wildcards "${ROOT_DOMAIN_DIR}/wildcards-${CHUNK_INDEX}.txt" \
               --write-massdns "${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt" --quiet
-          done < "domains/domains.txt"
 
+
+            PUREDNS_FILE="${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt"
+            MASSDNS_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
+          
+            # per-domain tmpdir for isolation
+            SAFE_DOMAIN_NAME=$(echo "$domain" | sed 's/[^A-Za-z0-9._-]/_/g')
+            DOMAIN_TMPDIR=$(mktemp -d -p "$(pwd)" "tmp-${SAFE_DOMAIN_NAME}-XXXX")
+            TMP_PURE="$DOMAIN_TMPDIR/puredns-valid.txt"
+            TMP_CLEAN="$DOMAIN_TMPDIR/massdns-clean.txt"
+            TMP_FILTER="$DOMAIN_TMPDIR/massdns-filtered.txt"
+          
+            # Build normalized PureDNS host list (strip trailing dot, lowercase, unique) if present
+            if [ -s "$PUREDNS_FILE" ]; then
+              awk '{ gsub(/\.$/,"",$1); print tolower($1) }' "$PUREDNS_FILE" | sort -u > "$TMP_PURE"
+              PURE_COUNT=$(wc -l < "$TMP_PURE" 2>/dev/null || echo 0)
+            else
+              PURE_COUNT=0
+              : > "$TMP_PURE"
+            fi
+          
+            # If massdns exists, clean it into canonical lines "host A ip"
+            if [ -s "$MASSDNS_FILE" ]; then
+              awk 'NF {
+                # normalize host (first field), find first "A" token (any field) and take next field as IP
+                host=$1; sub(/\.$/,"",host);
+                aidx=0
+                for(i=2;i<=NF;i++){
+                  if($i=="A"){ aidx=i; break }
+                }
+                if(aidx>0 && (aidx+1)<=NF){
+                  ip=$(aidx+1);
+                  gsub(/^[ \t]+|[ \t]+$/,"",host);
+                  gsub(/^[ \t]+|[ \t]+$/,"",ip);
+                  if(host!="" && ip!="") print host " A " ip;
+                }
+              }' "$MASSDNS_FILE" | sort -u > "$TMP_CLEAN" || true
+            else
+              # no massdns produced (create empty clean file)
+              : > "$TMP_CLEAN"
+            fi
+          
+            # Filter cleaned massdns against puredns hostlist if puredns exists; otherwise keep cleaned entries
+            if [ -s "$TMP_PURE" ]; then
+              awk -v validfile="$TMP_PURE" '
+                BEGIN {
+                  while((getline v < validfile) > 0) valid[tolower(v)] = 1
+                  close(validfile)
+                }
+                NF>=3 {
+                  host=$1; host_l=tolower(host);
+                  if(host_l in valid) print $0
+                }
+              ' "$TMP_CLEAN" > "$TMP_FILTER" || true
+            else
+              cp "$TMP_CLEAN" "$TMP_FILTER" || true
+            fi
+          
+            # Atomic replace: move filtered output back to domain massdns file
+            mv "$TMP_FILTER" "$MASSDNS_FILE"
+            rm -f "$TMP_CLEAN"
+          
+            # Count massdns lines for echo (safe even if empty)
+            MASSDNS_COUNT=$(wc -l < "$MASSDNS_FILE" 2>/dev/null || echo 0)
+          
+            # Echo exact messages you requested
+            echo "✅ PureDNS resolution complete. ${PURE_COUNT} subdomains were successfully resolved."
+            echo "✅ PureDNS resolution complete. ${MASSDNS_COUNT} massdns found."
+          
+            # remove per-domain tmpdir
+            rm -rf "$DOMAIN_TMPDIR"
+          
+          done < "domains/domains.txt"
+          
       - name: Perform Port Scanning
         shell: bash
         run: |
@@ -225,111 +297,145 @@ jobs:
           find "results" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n" || \
             find "results" -type f -name "*-${CHUNK_INDEX}.txt" -exec stat -c '%n %s bytes' {} +
           
-          
           while IFS= read -r domain || [ -n "$domain" ]; do
-            case "$domain" in \#*|"") continue ;; esac
-            ROOT_DOMAIN_DIR="results/$domain"
-            MASSDNS_INPUT_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
-            if [ ! -s "$MASSDNS_INPUT_FILE" ]; then continue; fi
-            
-            TMP_IP2SUB=$(mktemp)
-            
-            echo "▶ Reading RAW data from $MASSDNS_INPUT_FILE and cleaning it..."
-            # ---------- DIAGNOSTICS: head/tail and difference between massdns and puredns-output ----------
-            # show first/last 5 lines for any large chunk files (safe, null-delimited)
-            find "$ROOT_DOMAIN_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -size +1k -print0 | while IFS= read -r -d '' f; do
-                      echo "== $f (head) =="
-                      head -n5 "$f" || true
-                      echo "== $f (tail) =="
-                      tail -n5 "$f" || true
-            done
-
-            # compare normalized hostnames: massdns vs puredns-output for this domain & chunk
-            TMP_VALID=$(mktemp)
-            TMP_MASS=$(mktemp)
-            if [ -s "${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt" ]; then
-                      awk '{ gsub(/\.$/,"",$1); print tolower($1) }' "${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt" | sort -u > "$TMP_VALID"
-            else
-                      echo "DEBUG: no puredns-output for ${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt"
-                      rm -f "$TMP_VALID" "$TMP_MASS"
-                      # continue here would skip later code; we keep going because your script already handles empty massdns
-            fi
-
-            if [ -s "$MASSDNS_INPUT_FILE" ]; then
-                      awk '{ gsub(/\.$/,"",$1); print tolower($1) }' "$MASSDNS_INPUT_FILE" | sort -u > "$TMP_MASS"
-            else
-                      echo "DEBUG: no massdns file at $MASSDNS_INPUT_FILE"
-            fi
-
-            if [ -s "$TMP_MASS" ] && [ -s "$TMP_VALID" ]; then
-                      echo "DEBUG: hostnames in massdns but NOT in puredns-output (showing up to 50):"
-                      comm -23 "$TMP_MASS" "$TMP_VALID" | head -n 50 || true
-                      echo "DEBUG: counts - massdns unique hosts: $(wc -l < "$TMP_MASS" 2>/dev/null || echo 0), puredns validated: $(wc -l < "$TMP_VALID" 2>/dev/null || echo 0)"
-            fi
-
-            rm -f "$TMP_VALID" "$TMP_MASS"
-            # ---------- end diagnostics ----------
-            
-            
-            # --- THE FIX, PART 1: CONTEXT-AWARE FILTERING ---
-            # This reads the large, raw massdns file (e.g., massdns-2.txt with 9000 lines).
-            # It then filters it down to ONLY the A-records that belong to the current domain.
-            awk -v domain="$domain" '
-              $1 ~ "\\." domain "\\.?$" && $2 == "A" {
-                sub(/\.$/, "", $1);
-                print $3, $1
-              }
-            ' "$MASSDNS_INPUT_FILE" | sort -u > "$TMP_IP2SUB"
-
-            # --- THE FIX, PART 2: THE OVERWRITE ---
-            # This replaces the raw 9000-line file with the small, clean list of IPs and Subdomains.
-            # After this line runs, massdns-2.txt will contain the clean data you expect.
-            cat "$TMP_IP2SUB" > "$MASSDNS_INPUT_FILE"
-            echo "✅ Overwrote $MASSDNS_INPUT_FILE with $(wc -l < "$TMP_IP2SUB") clean A-records."
-
-            # If the file is now empty after filtering, there's nothing left to do for this domain.
-            if [ ! -s "$MASSDNS_INPUT_FILE" ]; then
-                rm -f "$TMP_IP2SUB"
-                continue
-            fi
-            
-            # --- The rest of the script now operates on the clean data ---
-            
-            TMP_IP_ONLY=$(mktemp)
-            TMP_NONCDN=$(mktemp)
-            TMP_CDN=$(mktemp)
-            TMP_NAABU_RUSTSCAN=$(mktemp)
-
-            cut -d' ' -f1 "$TMP_IP2SUB" | sort -u > "$TMP_IP_ONLY"
-            cat "$TMP_IP_ONLY" | cut-cdn -ua -t 50 -silent -o "$TMP_NONCDN"
-            cat "$TMP_IP_ONLY" | PATH=$HOME/go/bin:$PATH anew -d "$TMP_NONCDN" > "$TMP_CDN"
-            
-            if [ -s "$TMP_NONCDN" ]; then
-              TMP_RUSTSCAN=$(mktemp)
-              naabu -l "$TMP_NONCDN" -passive -o "$TMP_NAABU_RUSTSCAN" -no-color -silent || true
-              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -t 5000 -b 300 --greppable > "$TMP_RUSTSCAN" || true
-              cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | PATH=$HOME/go/bin:$PATH anew -q "$TMP_NAABU_RUSTSCAN" || true
-              rm -f "$TMP_RUSTSCAN"
-            fi
-            
-            FINAL_IP_LIST=$(mktemp)
-            cat "$TMP_NAABU_RUSTSCAN" "$TMP_CDN" | sort -u > "$FINAL_IP_LIST"
-
-            OUTPUT_FILE="${ROOT_DOMAIN_DIR}/subdomain_ports-${CHUNK_INDEX}.txt"
-            awk -F: '
-              NF==2 { print $1, $2 }
-              NF==1 { print $1, ""  }
-            ' "$FINAL_IP_LIST" \
-              | sort -k1,1 \
-              | join -t' ' -1 1 -2 1 - "$TMP_IP2SUB" \
-              | awk '{ if ($2 ~ /^[0-9]+$/) print $3":"$2; else print $3 }' \
-              > "$OUTPUT_FILE"
-            
-            echo "✅ Generated $OUTPUT_FILE"
-            
-            rm -f "$TMP_IP2SUB" "$TMP_IP_ONLY" "$TMP_NONCDN" "$TMP_CDN" "$TMP_NAABU_RUSTSCAN" "$FINAL_IP_LIST"
-
-          done < "domains/domains.txt"
+                    case "$domain" in \#*|"") continue ;; esac
+          
+                    ROOT_DOMAIN_DIR="results/$domain"
+                    MASSDNS_INPUT_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
+                    PUREDNS_INPUT_FILE="${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt"
+          
+                    # nothing to do if massdns file doesn't exist or is empty
+                    if [ ! -s "$MASSDNS_INPUT_FILE" ]; then
+                              continue
+                    fi
+          
+                    # per-domain tmpdir inside global tmpdir (prevents collisions across domains/runners)
+                    SAFE_DOMAIN_NAME=$(echo "$domain" | sed 's/[^A-Za-z0-9._-]/_/g')
+                    DOMAIN_TMPDIR=$(mktemp -d -p "$GLOBAL_TMPDIR" "tmp-${SAFE_DOMAIN_NAME}-XXXX")
+                    TMP_CLEANMASSDNS="$DOMAIN_TMPDIR/massdns-clean.txt"
+                    TMP_FILTERED="$DOMAIN_TMPDIR/massdns-filtered.txt"
+                    TMP_IP2SUB="$DOMAIN_TMPDIR/ip2sub.txt"
+                    TMP_IP_ONLY="$DOMAIN_TMPDIR/ips.txt"
+                    TMP_NONCDN="$DOMAIN_TMPDIR/noncdn.txt"
+                    TMP_CDN="$DOMAIN_TMPDIR/cdn.txt"
+                    TMP_NAABU_RUSTSCAN="$DOMAIN_TMPDIR/naabu_rustscan.txt"
+                    TMP_RUSTSCAN="$DOMAIN_TMPDIR/rustscan_raw.txt"
+                    FINAL_IP_LIST="$DOMAIN_TMPDIR/final_ip_list.txt"
+          
+                    echo "▶ Reading RAW data from $MASSDNS_INPUT_FILE for domain $domain and cleaning it..."
+          
+                    # Build normalized pure list if present (strip trailing dot, lowercase)
+                    if [ -s "$PUREDNS_INPUT_FILE" ]; then
+                              TMP_PURE="$DOMAIN_TMPDIR/puredns-valid.txt"
+                              awk '{ gsub(/\.$/,"",$1); print tolower($1) }' "$PUREDNS_INPUT_FILE" | sort -u > "$TMP_PURE"
+                              PURE_COUNT=$(wc -l < "$TMP_PURE" 2>/dev/null || echo 0)
+                    else
+                              TMP_PURE=""
+                              PURE_COUNT=0
+                    fi
+          
+                    # Clean massdns: produce canonical lines "host A ip"
+                    # - find "A" token anywhere and use next field as IP
+                    # - strip trailing dots from host, remove extra whitespace, remove empty lines
+                    awk 'NF {
+                              # assume hostname is $1; find first "A" token at some field j and ip at j+1
+                              host=$1; sub(/\.$/,"",host);
+                              aidx=0;
+                              for(i=2;i<=NF;i++){
+                                        if($i=="A"){ aidx=i; break }
+                              }
+                              if(aidx>0 && (aidx+1)<=NF){
+                                        ip=$(aidx+1);
+                                        gsub(/^[ \t]+|[ \t]+$/,"",host);
+                                        gsub(/^[ \t]+|[ \t]+$/,"",ip);
+                                        if(host!="" && ip!="") print host " A " ip;
+                              }
+                    }' "$MASSDNS_INPUT_FILE" | sort -u > "$TMP_CLEANMASSDNS" || true
+          
+                    # If puredns output exists, filter the cleaned massdns to only hosts present in puredns-output
+                    if [ -n "$TMP_PURE" ] && [ -s "$TMP_PURE" ]; then
+                              awk -v validfile="$TMP_PURE" '
+                                        BEGIN {
+                                                  while((getline v < validfile) > 0) valid[tolower(v)] = 1
+                                                  close(validfile)
+                                        }
+                                        NF>=3 {
+                                                  host=$1; host_l=tolower(host);
+                                                  if(host_l in valid) print $0
+                                        }
+                              ' "$TMP_CLEANMASSDNS" > "$TMP_FILTERED" || true
+                    else
+                              # no puredns to filter against -> keep cleaned content
+                              cp "$TMP_CLEANMASSDNS" "$TMP_FILTERED" || true
+                    fi
+          
+                    # Atomically overwrite the domain's massdns file with the filtered content
+                    mv "$TMP_FILTERED" "$MASSDNS_INPUT_FILE"
+                    echo "✅ Overwrote ${MASSDNS_INPUT_FILE} with $(wc -l < "$MASSDNS_INPUT_FILE" 2>/dev/null || echo 0) clean A-records."
+          
+                    # Build IP->subdomain mapping (IP host) from cleaned massdns for this domain
+                    awk 'NF>=3 && $2=="A" { print $3 " " $1 }' "$MASSDNS_INPUT_FILE" | sort -u > "$TMP_IP2SUB"
+          
+                    # If there are no A-records after cleaning, skip domain
+                    if [ ! -s "$TMP_IP2SUB" ]; then
+                              echo "DEBUG: no A-records found for $domain after cleaning. Skipping."
+                              rm -rf "$DOMAIN_TMPDIR"
+                              continue
+                    fi
+          
+                    # IP-only list
+                    cut -d' ' -f1 "$TMP_IP2SUB" | sort -u > "$TMP_IP_ONLY"
+          
+                    # Run your existing CDN / scanning pipeline (kept exactly as your tools)
+                    # cut-cdn
+                    if [ -s "$TMP_IP_ONLY" ]; then
+                              cat "$TMP_IP_ONLY" | cut-cdn -ua -t 50 -silent -o "$TMP_NONCDN" || true
+                    else
+                              : > "$TMP_NONCDN"
+                    fi
+          
+                    # compute TMP_CDN (your original pipeline used anew here)
+                    if [ -s "$TMP_IP_ONLY" ]; then
+                              cat "$TMP_IP_ONLY" | PATH=$HOME/go/bin:$PATH anew -d "$TMP_NONCDN" > "$TMP_CDN" || true
+                    else
+                              : > "$TMP_CDN"
+                    fi
+          
+                    # If we have non-CDN IPs, run naabu and rustscan (kept original commands & args)
+                    if [ -s "$TMP_NONCDN" ]; then
+                              naabu -l "$TMP_NONCDN" -passive -o "$TMP_NAABU_RUSTSCAN" -no-color -silent || true
+          
+                              rustscan -a "$TMP_NONCDN" -p "$PORTS" --no-banner -t 5000 -b 300 --greppable > "$TMP_RUSTSCAN" || true
+          
+                              # normalize rustscan output into IP:port lines then merge into NAABU file using anew
+                              cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | PATH=$HOME/go/bin:$PATH anew -q "$TMP_NAABU_RUSTSCAN" || true
+                              rm -f "$TMP_RUSTSCAN"
+                    else
+                              : > "$TMP_NAABU_RUSTSCAN"
+                    fi
+          
+                    # Merge naabu+cdn into a final IP list (naabu/rustscan results may be IP:port; cdn list may be IP-only)
+                    cat "$TMP_NAABU_RUSTSCAN" "$TMP_CDN" | sort -u > "$FINAL_IP_LIST"
+          
+                    # Transform FINAL_IP_LIST (IP:port or IP) into space-separated IP port (port empty if missing),
+                    # then join with TMP_IP2SUB (IP host) and output subdomain_ports file.
+                    OUTPUT_FILE="${ROOT_DOMAIN_DIR}/subdomain_ports-${CHUNK_INDEX}.txt"
+          
+                    awk -F: '
+                              NF==2 { print $1, $2 }
+                              NF==1 { print $1, ""  }
+                    ' "$FINAL_IP_LIST" \
+                              | sort -k1,1 \
+                              | join -t' ' -1 1 -2 1 - "$TMP_IP2SUB" \
+                              | awk '{ if ($2 ~ /^[0-9]+$/) print $3":"$2; else print $3 }' \
+                              > "$OUTPUT_FILE" || true
+          
+                    echo "✅ Generated $OUTPUT_FILE (lines: $(wc -l < "$OUTPUT_FILE" 2>/dev/null || echo 0))"
+          
+                    # cleanup per-domain tmpdir
+                    rm -rf "$DOMAIN_TMPDIR"
+          
+          done < "domains/domains.txt"          
           
       - name: Sanitize and Finalize Results
         shell: bash
