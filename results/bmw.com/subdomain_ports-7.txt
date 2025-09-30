@@ -1,0 +1,12 @@
+jdatms-devdb13.bmw.com:10050
+jdatms-devdb13.bmw.com:123
+jdatms-devdb13.bmw.com:80
+lb-cgi.bmw.com:10050
+lb-cgi.bmw.com:123
+lb-cgi.bmw.com:80
+leftpic.bmw.com:10050
+leftpic.bmw.com:123
+leftpic.bmw.com:80
+mailpl0-f44.bmw.com:10050
+mailpl0-f44.bmw.com:123
+mailpl0-f44.bmw.com:80

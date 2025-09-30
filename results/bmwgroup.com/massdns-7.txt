@@ -1,0 +1,4 @@
+karriere.bmwgroup.com A 62.67.56.131
+label.bmwgroup.com A 160.46.233.188
+lisa.bmwgroup.com A 160.46.244.200
+mail11.bmwgroup.com A 193.23.33.151
