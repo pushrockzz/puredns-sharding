@@ -1,0 +1,3 @@
+vdms.bmw.com A 160.46.243.208
+vip-int.bmw.com A 160.48.213.171
+vpn22.bmw.com A 193.23.39.12

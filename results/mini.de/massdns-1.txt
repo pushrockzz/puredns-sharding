@@ -1,0 +1,2 @@
+webservice.mini.de A 80.146.253.174
+winter.mini.de A 160.46.226.164
