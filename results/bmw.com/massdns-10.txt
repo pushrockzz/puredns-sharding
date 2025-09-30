@@ -1,7 +1,2 @@
-154.72.193.28 dxctadmini252v6tinte-slot.bmw.com
-154.72.193.28 edge-atlas-shv-02-gru1.bmw.com
-154.72.193.28 eliedencapital.bmw.com
-154.72.193.28 elsevier.bmw.com
-154.72.193.28 erikahollen.bmw.com
-160.46.238.123 dsmon.bmw.com
-160.46.243.217 everest.bmw.com
+dsmon.bmw.com A 160.46.238.123
+everest.bmw.com A 160.46.243.217

@@ -1,12 +1,3 @@
-experienceon.bmwgroup.com. A 154.72.193.28
-enterprisegl.bmwgroup.com. A 154.72.193.28
-einvoicing.bmwgroup.com. CNAME www.einvoicing.bmwgroup.com.
-www.einvoicing.bmwgroup.com. CNAME grpw-ion.bmw.com.edgekey.net.
-grpw-ion.bmw.com.edgekey.net. CNAME e26981.dsca.akamaiedge.net.
-e26981.dsca.akamaiedge.net. A 23.211.15.151
-e26981.dsca.akamaiedge.net. A 23.211.15.162
-elasticbeanstalkdb-postgresgit.bmwgroup.com. A 154.72.193.28
-efeitqdcisoprodswstatus-pro.bmwgroup.com. A 154.72.193.28
-edgez-mini-shv-01-syd2.bmwgroup.com. A 154.72.193.28
-elan.bmwgroup.com. A 160.46.231.65
-drift.bmwgroup.com. A 170.34.127.200
+dmp-test.bmwgroup.com A 160.46.236.11
+drift.bmwgroup.com A 170.34.127.200
+elan.bmwgroup.com A 160.46.231.65
