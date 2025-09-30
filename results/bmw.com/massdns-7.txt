@@ -1,7 +1,6 @@
-154.72.193.28 izpack.bmw.com
-154.72.193.28 jaynaumeda.bmw.com
-154.72.193.28 jira-check.bmw.com
-154.72.193.28 joinslack1-9.bmw.com
-154.72.193.28 kjtop41.bmw.com
-154.72.193.28 kompressorydirect.bmw.com
-154.72.193.28 lama-storybook.bmw.com
+itcwsoko.bmw.com A 74.220.199.6
+japer.bmw.com A 74.220.199.6
+kain6-0.bmw.com A 74.220.199.6
+kzlive-assets.bmw.com A 74.220.199.6
+lef23.bmw.com A 74.220.199.6
+lomodev1.bmw.com A 74.220.199.6
