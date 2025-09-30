@@ -1,0 +1,15 @@
+2ww3-staging-5.mini.com A 0.0.0.0
+annawikiblog.mini.com A 74.220.199.6
+dc1d.mini.com A 74.220.199.6
+gamma-unauth-supportcenter.mini.com A 0.0.0.0
+h135-197-254-71.mini.com A 74.220.199.6
+int-osb9-v-qa2.mini.com A 0.0.0.0
+ip-142-87.mini.com A 0.0.0.0
+ipp-api-crm3-testartermost.mini.com A 74.220.199.6
+it-portal-beta.mini.com A 74.220.199.6
+l-1-5.mini.com A 74.220.199.6
+port-stagios-stager.mini.com A 0.0.0.0
+rd13p03sa-sailfish-stg.mini.com A 74.220.199.6
+sto1-servicediscovery-a1.mini.com A 74.220.199.6
+the-golf-company.mini.com A 74.220.199.6
+vtx2-uat-admin.mini.com A 0.0.0.0
