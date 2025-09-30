@@ -1,0 +1,2 @@
+bike.bmw.com A 160.46.244.49
+casa.bmw.com A 160.46.243.81
