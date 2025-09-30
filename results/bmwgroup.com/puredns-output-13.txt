@@ -1,0 +1,2 @@
+apiportal.bmwgroup.com
+beacon.bmwgroup.com
