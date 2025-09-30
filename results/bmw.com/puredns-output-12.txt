@@ -1,2 +1,1 @@
-callisto.bmw.com
-casa.bmw.com
+bike.bmw.com
