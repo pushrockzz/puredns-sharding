@@ -1,20 +1,15 @@
-154.72.193.28 272zbu7ksh.bmw.com
-154.72.193.28 wdgt.bmw.com
-154.72.193.28 zl0n.bmw.com
-160.46.226.83 accessories.bmw.com
-160.46.229.18 lyncdiscover.bmw.com
-160.46.231.184 publishing.bmw.com
-160.46.233.187 loki.bmw.com
-160.46.233.232 lima.bmw.com
-160.46.235.243 cert.bmw.com
-160.46.238.41 wire.bmw.com
-160.46.238.78 workplace.bmw.com
-160.46.240.230 speed.bmw.com
-160.46.240.247 favor.bmw.com
-160.46.244.54 external.bmw.com
-193.23.33.34 network.bmw.com
-195.27.218.61 video.bmw.com
-34.110.164.77 api-sandbox.bmw.com
-34.111.181.40 api-dev.bmw.com
-62.67.62.32 search.bmw.com
-85.10.211.139 podcast.bmw.com
+accessories.bmw.com A 160.46.226.83
+aida.bmw.com A 160.46.243.149
+api-dev.bmw.com A 34.111.181.40
+epos.bmw.com A 160.46.243.178
+federation.bmw.com A 193.23.33.40
+lima.bmw.com A 160.46.233.232
+link.bmw.com A 62.245.246.210
+loki.bmw.com A 160.46.233.187
+network.bmw.com A 193.23.33.34
+podcast.bmw.com A 85.10.211.139
+publishing.bmw.com A 160.46.231.184
+speed.bmw.com A 160.46.240.230
+vpn2.bmw.com A 193.23.33.6
+workplace.bmw.com A 160.46.238.78
+www-origin.bmw.com A 160.46.245.162

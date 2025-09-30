@@ -6,7 +6,7 @@ hamburg.bmw-motorrad.de
 kassel.bmw-motorrad.de
 master.bmw-motorrad.de
 mein.bmw-motorrad.de
-news.bmw-motorrad.de
+mobile.bmw-motorrad.de
 origin.bmw-motorrad.de
 shop.bmw-motorrad.de
 showroom.bmw-motorrad.de
