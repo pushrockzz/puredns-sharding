@@ -1,1 +1,2 @@
+air2.bmwgroup.com A 160.46.238.75
 alphabet.bmwgroup.com A 160.46.245.233
