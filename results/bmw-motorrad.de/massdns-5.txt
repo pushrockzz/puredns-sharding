@@ -1,2 +1,0 @@
-origin-web-bp04.bmw-motorrad.de A 74.220.199.6
-pingworksaus.bmw-motorrad.de A 74.220.199.6
