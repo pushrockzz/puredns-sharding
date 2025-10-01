@@ -1,2 +1,0 @@
-sync-test.bmwgroup.com A 192.109.190.93
-testing-1.bmwgroup.com A 160.46.228.102
