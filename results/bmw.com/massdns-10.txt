@@ -1,1 +1,2 @@
 dsmon.bmw.com A 160.46.238.123
+everest.bmw.com A 160.46.243.217
