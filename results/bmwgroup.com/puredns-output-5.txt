@@ -1,1 +1,2 @@
-opendev.bmwgroup.com
+opus.bmwgroup.com
+pixi.bmwgroup.com
