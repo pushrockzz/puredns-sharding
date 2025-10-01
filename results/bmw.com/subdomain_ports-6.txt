@@ -1,2 +1,0 @@
-ocean.bmw.com:443
-ocean.bmw.com:80

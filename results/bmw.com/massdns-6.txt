@@ -1,2 +1,1 @@
 marketingplatform.bmw.com A 192.109.190.57
-ocean.bmw.com A 160.46.231.22
