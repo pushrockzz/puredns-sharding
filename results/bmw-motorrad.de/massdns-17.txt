@@ -1,2 +1,7 @@
-cpf-portfolio-tracker.bmw-motorrad.de A 212.109.215.174
-cpf-portfolio-tracker.bmw-motorrad.de A 212.109.215.175
+baiduspider-61-135-168-32.bmw-motorrad.de A 74.220.199.6
+dcmgrp-com-mx.bmw-motorrad.de A 86.35.3.192
+dcmgrp-com-mx.bmw-motorrad.de A 86.35.3.193
+id-uat-m05.bmw-motorrad.de A 74.220.199.6
+jptyo5-3pclient-vpn2.bmw-motorrad.de A 74.220.199.6
+renault-nuova-500-3.bmw-motorrad.de A 74.220.199.6
+server-eeca1e84-6f74-4.bmw-motorrad.de A 74.220.199.6

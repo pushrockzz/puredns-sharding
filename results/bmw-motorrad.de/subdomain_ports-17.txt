@@ -1,0 +1,16 @@
+baiduspider-61-135-168-32.bmw-motorrad.de:10050
+baiduspider-61-135-168-32.bmw-motorrad.de:123
+baiduspider-61-135-168-32.bmw-motorrad.de:80
+dcmgrp-com-mx.bmw-motorrad.de:80
+id-uat-m05.bmw-motorrad.de:10050
+id-uat-m05.bmw-motorrad.de:123
+id-uat-m05.bmw-motorrad.de:80
+jptyo5-3pclient-vpn2.bmw-motorrad.de:10050
+jptyo5-3pclient-vpn2.bmw-motorrad.de:123
+jptyo5-3pclient-vpn2.bmw-motorrad.de:80
+renault-nuova-500-3.bmw-motorrad.de:10050
+renault-nuova-500-3.bmw-motorrad.de:123
+renault-nuova-500-3.bmw-motorrad.de:80
+server-eeca1e84-6f74-4.bmw-motorrad.de:10050
+server-eeca1e84-6f74-4.bmw-motorrad.de:123
+server-eeca1e84-6f74-4.bmw-motorrad.de:80
