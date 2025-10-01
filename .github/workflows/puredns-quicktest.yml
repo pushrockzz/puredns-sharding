@@ -283,10 +283,13 @@ jobs:
             rm -rf "$DOMAIN_TMPDIR"
           
           done < "domains/domains.txt"
-          
+
       - name: Perform Port Scanning
         shell: bash
         run: |
+          # Disable exit on error to handle failures gracefully
+          set +e
+          
           PORTS="80,443,8080,8443,8000"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           
@@ -302,6 +305,9 @@ jobs:
           MASTER_IP_TO_SUBDOMAIN_MAP="${GLOBAL_TMPDIR}/master_ip_to_subdomain.txt"
           MASTER_UNIQUE_IPS="${GLOBAL_TMPDIR}/master_unique_ips.txt"
 
+          # Initialize empty files
+          : > "$MASTER_IP_TO_SUBDOMAIN_MAP"
+
           # Loop through domains for the sole purpose of collecting IPs and mapping them.
           while IFS= read -r domain || [ -n "$domain" ]; do
               case "$domain" in \#*|"") continue ;; esac
@@ -315,7 +321,7 @@ jobs:
               # Read the massdns file, clean it, and create a map of "IP SUBDOMAIN".
               # Append this to our master map file. This preserves the crucial link.
               awk 'NF>=3 && $2=="A" { host=$1; sub(/\.$/,"",host); print $3, host }' "$MASSDNS_INPUT_FILE" \
-                | sort -u >> "$MASTER_IP_TO_SUBDOMAIN_MAP"
+                | sort -u >> "$MASTER_IP_TO_SUBDOMAIN_MAP" || true
           done < "domains/domains.txt"
 
           if [ ! -s "$MASTER_IP_TO_SUBDOMAIN_MAP" ]; then
@@ -324,8 +330,8 @@ jobs:
           fi
 
           # Create the master list of unique IPs to be scanned from our map.
-          cut -d' ' -f1 "$MASTER_IP_TO_SUBDOMAIN_MAP" | sort -u > "$MASTER_UNIQUE_IPS"
-          echo "✅ Phase 1 Complete: Collected $(wc -l < "$MASTER_UNIQUE_IPS") unique IPs from $(wc -l < "$MASTER_IP_TO_SUBDOMAIN_MAP") total mappings."
+          cut -d' ' -f1 "$MASTER_IP_TO_SUBDOMAIN_MAP" | sort -u > "$MASTER_UNIQUE_IPS" || true
+          echo "✅ Phase 1 Complete: Collected $(wc -l < "$MASTER_UNIQUE_IPS" 2>/dev/null || echo 0) unique IPs from $(wc -l < "$MASTER_IP_TO_SUBDOMAIN_MAP" 2>/dev/null || echo 0) total mappings."
 
           # --- PHASE 2: PERFORM A SINGLE, CONSOLIDATED SCAN ---
           echo "PHASE 2: Performing one consolidated scan..."
@@ -333,12 +339,15 @@ jobs:
           MASTER_NON_CDN_IPS="${GLOBAL_TMPDIR}/master_non_cdn.txt"
           MASTER_SCAN_RESULTS="${GLOBAL_TMPDIR}/master_scan_results.txt"
           
+          # Initialize empty file
+          : > "$MASTER_NON_CDN_IPS"
+          
           # Run CDN check ONCE on the master IP list
           cat "$MASTER_UNIQUE_IPS" | cut-cdn -ua -t 50 -silent -o "$MASTER_NON_CDN_IPS" || true
 
           # If any non-CDN IPs exist, run the scanners ONCE
           if [ -s "$MASTER_NON_CDN_IPS" ]; then
-              echo "  -> Scanning $(wc -l < "$MASTER_NON_CDN_IPS") non-CDN IPs..."
+              echo "  -> Scanning $(wc -l < "$MASTER_NON_CDN_IPS" 2>/dev/null || echo 0) non-CDN IPs..."
               TMP_NAABU_RUSTSCAN=$(mktemp)
               TMP_RUSTSCAN=$(mktemp)
               
@@ -350,8 +359,8 @@ jobs:
               cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | PATH=$HOME/go/bin:$PATH anew -q "$TMP_NAABU_RUSTSCAN" || true
               
               # Process scan results into consistent format: "IP PORT"
-              awk -F: 'NF==2 { print $1, $2 } NF==1 { print $1, "NOPORT" }' "$TMP_NAABU_RUSTSCAN" | sort -u > "$MASTER_SCAN_RESULTS"
-              rm -f "$TMP_RUSTSCAN" "$TMP_NAABU_RUSTSCAN"
+              awk -F: 'NF==2 { print $1, $2 } NF==1 { print $1, "NOPORT" }' "$TMP_NAABU_RUSTSCAN" | sort -u > "$MASTER_SCAN_RESULTS" || true
+              rm -f "$TMP_RUSTSCAN" "$TMP_NAABU_RUSTSCAN" 2>/dev/null || true
           else
               # Create empty scan results file
               : > "$MASTER_SCAN_RESULTS"
@@ -359,12 +368,12 @@ jobs:
           
           # Add CDN IPs back to the results list with NOPORT marker for consistency
           MASTER_CDN_IPS="${GLOBAL_TMPDIR}/master_cdn_ips.txt"
-          comm -13 <(sort "$MASTER_NON_CDN_IPS") <(sort "$MASTER_UNIQUE_IPS") > "$MASTER_CDN_IPS"
+          comm -13 <(sort "$MASTER_NON_CDN_IPS" 2>/dev/null || true) <(sort "$MASTER_UNIQUE_IPS" 2>/dev/null || true) > "$MASTER_CDN_IPS" 2>/dev/null || true
           if [ -s "$MASTER_CDN_IPS" ]; then
-              awk '{ print $1, "NOPORT" }' "$MASTER_CDN_IPS" >> "$MASTER_SCAN_RESULTS"
+              awk '{ print $1, "NOPORT" }' "$MASTER_CDN_IPS" >> "$MASTER_SCAN_RESULTS" || true
           fi
           
-          echo "✅ Phase 2 Complete: Scan finished ($(wc -l < "$MASTER_SCAN_RESULTS") total IP-port combinations)."
+          echo "✅ Phase 2 Complete: Scan finished ($(wc -l < "$MASTER_SCAN_RESULTS" 2>/dev/null || echo 0) total IP-port combinations)."
 
           # --- PHASE 3: DISTRIBUTE RESULTS ---
           echo "PHASE 3: Distributing results to domain directories..."
@@ -372,8 +381,14 @@ jobs:
           # Sort master files once for efficient processing
           MASTER_SCAN_RESULTS_SORTED="${GLOBAL_TMPDIR}/master_scan_sorted.txt"
           MASTER_MAP_SORTED="${GLOBAL_TMPDIR}/master_map_sorted.txt"
-          sort -k1,1 "$MASTER_SCAN_RESULTS" > "$MASTER_SCAN_RESULTS_SORTED"
-          sort -k1,1 "$MASTER_IP_TO_SUBDOMAIN_MAP" > "$MASTER_MAP_SORTED"
+          sort -k1,1 "$MASTER_SCAN_RESULTS" > "$MASTER_SCAN_RESULTS_SORTED" 2>/dev/null || true
+          sort -k1,1 "$MASTER_IP_TO_SUBDOMAIN_MAP" > "$MASTER_MAP_SORTED" 2>/dev/null || true
+          
+          # Verify sorted files exist
+          if [ ! -f "$MASTER_SCAN_RESULTS_SORTED" ] || [ ! -f "$MASTER_MAP_SORTED" ]; then
+              echo "⚠️  Error: Failed to create sorted master files. Exiting Phase 3."
+              exit 0
+          fi
           
           # Loop through domains a final time to generate their specific report files
           DOMAINS_PROCESSED=0
@@ -385,25 +400,23 @@ jobs:
               OUTPUT_FILE="${ROOT_DOMAIN_DIR}/subdomain_ports-${CHUNK_INDEX}.txt"
               
               # Escape domain for safe regex matching
-              ESCAPED_DOMAIN=$(printf '%s\n' "$domain" | sed 's/[.[\*^$()+?{|]/\\&/g')
+              ESCAPED_DOMAIN=$(printf '%s\n' "$domain" | sed 's/[.[\*^$()+?{|]/\\&/g' 2>/dev/null || echo "$domain")
               
               # Extract only the map entries for this specific domain
-              # CRITICAL FIX: Add || true to prevent grep exit code 1 from killing the script
               DOMAIN_MAP_TMP=$(mktemp)
-              grep -E " ${ESCAPED_DOMAIN}$" "$MASTER_MAP_SORTED" > "$DOMAIN_MAP_TMP" || true
+              grep -E " ${ESCAPED_DOMAIN}\$" "$MASTER_MAP_SORTED" > "$DOMAIN_MAP_TMP" 2>/dev/null || true
 
               if [ ! -s "$DOMAIN_MAP_TMP" ]; then
                   echo "  -> ⚠️  Skipping $domain (no IPs found in master map)"
-                  DOMAINS_SKIPPED=$((DOMAINS_SKIPPED + 1))
-                  rm -f "$DOMAIN_MAP_TMP"
+                  DOMAINS_SKIPPED=$((DOMAINS_SKIPPED + 1)) || true
+                  rm -f "$DOMAIN_MAP_TMP" 2>/dev/null || true
                   continue
               fi
               
               # Join scan results with this domain's IP-subdomain map
               # Output format after join: IP PORT SUBDOMAIN
-              # CRITICAL FIX: Add error suppression to prevent pipeline failures
-              join -t' ' -1 1 -2 1 "$MASTER_SCAN_RESULTS_SORTED" "$DOMAIN_MAP_TMP" 2>/dev/null \
-                | awk '{
+              join -t' ' -1 1 -2 1 "$MASTER_SCAN_RESULTS_SORTED" "$DOMAIN_MAP_TMP" 2>/dev/null | \
+                awk '{
                     ip = $1
                     port = $2
                     subdomain = $3
@@ -415,39 +428,39 @@ jobs:
                         # No port data (CDN IP), just print subdomain
                         print subdomain
                     }
-                  }' \
-                | sort -u > "$OUTPUT_FILE" || true
+                  }' 2>/dev/null | \
+                sort -u > "$OUTPUT_FILE" 2>/dev/null || true
 
               if [ -s "$OUTPUT_FILE" ]; then
-                  LINE_COUNT=$(wc -l < "$OUTPUT_FILE")
+                  LINE_COUNT=$(wc -l < "$OUTPUT_FILE" 2>/dev/null || echo 0)
                   echo "  -> ✅ Generated $OUTPUT_FILE for $domain ($LINE_COUNT entries)"
-                  DOMAINS_PROCESSED=$((DOMAINS_PROCESSED + 1))
+                  DOMAINS_PROCESSED=$((DOMAINS_PROCESSED + 1)) || true
               else
                   echo "  -> ⚠️  Warning: $domain has no port scan results (empty output)"
-                  DOMAINS_SKIPPED=$((DOMAINS_SKIPPED + 1))
+                  DOMAINS_SKIPPED=$((DOMAINS_SKIPPED + 1)) || true
               fi
               
-              rm -f "$DOMAIN_MAP_TMP"
+              rm -f "$DOMAIN_MAP_TMP" 2>/dev/null || true
           done < "domains/domains.txt"
           
           echo "✅ Phase 3 Complete: $DOMAINS_PROCESSED domains processed, $DOMAINS_SKIPPED domains skipped."
-    
+          
+          # Explicitly exit with success
+          exit 0
           
       - name: Sanitize and Finalize Results
         shell: bash
         run: |
-          
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
-
           echo "DEBUG: matrix.shard='${{ matrix.shard }}' chunk_start='${{ github.event.inputs.chunk_start }}' CHUNK_INDEX=$CHUNK_INDEX"
-
+          
           # show any pre-existing result files for this chunk (if any)
-          find "results" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n" || \
-            find "results" -type f -name "*-${CHUNK_INDEX}.txt" -exec stat -c '%n %s bytes' {} +
+          find "results" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n" 2>/dev/null || \
+            find "results" -type f -name "*-${CHUNK_INDEX}.txt" -exec stat -c '%n %s bytes' {} + 2>/dev/null || true
           
           echo "Sanitizing results for shard ${CHUNK_INDEX}..."
           
-          find "results" -type f -name "*-${CHUNK_INDEX}.txt" | while read file; do
+          find "results" -type f -name "*-${CHUNK_INDEX}.txt" 2>/dev/null | while read file; do
             echo "  -> Processing $file"
             TEMP_FILE=$(mktemp)
             
@@ -459,7 +472,8 @@ jobs:
             
             mv "$TEMP_FILE" "$file"
           done
-          echo "Sanitization complete for shard ${CHUNK_INDEX}."
+          
+          echo "✅ Sanitization complete for shard ${CHUNK_INDEX}."          
 
       - name: Commit Shard-Specific Results
         shell: bash
