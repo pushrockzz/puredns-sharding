@@ -1,0 +1,12 @@
+final-aso-test.bmw-motorrad.de:10050
+final-aso-test.bmw-motorrad.de:123
+final-aso-test.bmw-motorrad.de:80
+fpsd.bmw-motorrad.de:10050
+fpsd.bmw-motorrad.de:123
+fpsd.bmw-motorrad.de:80
+getweird.bmw-motorrad.de:10050
+getweird.bmw-motorrad.de:123
+getweird.bmw-motorrad.de:80
+greeneggmedia.bmw-motorrad.de:10050
+greeneggmedia.bmw-motorrad.de:123
+greeneggmedia.bmw-motorrad.de:80

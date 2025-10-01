@@ -1,2 +1,15 @@
-f8ex.bmw.com A 212.109.215.174
-f8ex.bmw.com A 212.109.215.175
+f-forest-planning.bmw.com A 74.220.199.6
+fbkk5-4.bmw.com A 86.35.3.192
+fbkk5-4.bmw.com A 86.35.3.193
+fftalent.bmw.com A 74.220.199.6
+foo-dashboard.bmw.com A 74.220.199.6
+ftpg1.bmw.com A 74.220.199.6
+fx-jidoubaibai-ea.bmw.com A 74.220.199.6
+gaprz.bmw.com A 74.220.199.6
+geckoproducts.bmw.com A 74.220.199.6
+genkdalmail02.bmw.com A 74.220.199.6
+gobblin.bmw.com A 74.220.199.6
+googleproxy-66-249-83-73.bmw.com A 74.220.199.6
+gotech.bmw.com A 74.220.199.6
+graph-0-9-4.bmw.com A 74.220.199.6
+grebnakrune.bmw.com A 74.220.199.6

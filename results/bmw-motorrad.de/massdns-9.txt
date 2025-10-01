@@ -1,0 +1,4 @@
+final-aso-test.bmw-motorrad.de A 74.220.199.6
+fpsd.bmw-motorrad.de A 74.220.199.6
+getweird.bmw-motorrad.de A 74.220.199.6
+greeneggmedia.bmw-motorrad.de A 74.220.199.6
