@@ -1,0 +1,4 @@
+schubert.mini.de:443
+schubert.mini.de:80
+schwarz.mini.de:443
+schwarz.mini.de:80
