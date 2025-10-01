@@ -399,12 +399,16 @@ jobs:
               ROOT_DOMAIN_DIR="results/$domain"
               OUTPUT_FILE="${ROOT_DOMAIN_DIR}/subdomain_ports-${CHUNK_INDEX}.txt"
               
-              # Escape domain for safe regex matching
-              ESCAPED_DOMAIN=$(printf '%s\n' "$domain" | sed 's/[.[\*^$()+?{|]/\\&/g' 2>/dev/null || echo "$domain")
+              # Escape domain for safe regex matching - only escape dots for regex
+              ESCAPED_DOMAIN=$(printf '%s\n' "$domain" | sed 's/\./\\./g' 2>/dev/null || echo "$domain")
               
               # Extract only the map entries for this specific domain
+              # Pattern: matches any line where second field ends with .domain.com OR is exactly domain.com
+              # The map format is: "IP SUBDOMAIN", so we match on the SUBDOMAIN field
               DOMAIN_MAP_TMP=$(mktemp)
-              grep -E " ${ESCAPED_DOMAIN}\$" "$MASTER_MAP_SORTED" > "$DOMAIN_MAP_TMP" 2>/dev/null || true
+              awk -v domain="$domain" '
+                $2 == domain || $2 ~ "\\." domain "$" { print $0 }
+              ' "$MASTER_MAP_SORTED" > "$DOMAIN_MAP_TMP" 2>/dev/null || true
 
               if [ ! -s "$DOMAIN_MAP_TMP" ]; then
                   echo "  -> ⚠️  Skipping $domain (no IPs found in master map)"
@@ -473,7 +477,7 @@ jobs:
             mv "$TEMP_FILE" "$file"
           done
           
-          echo "✅ Sanitization complete for shard ${CHUNK_INDEX}."          
+          echo "✅ Sanitization complete for shard ${CHUNK_INDEX}."     
 
       - name: Commit Shard-Specific Results
         shell: bash
