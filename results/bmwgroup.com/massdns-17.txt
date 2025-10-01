@@ -1,8 +1,1 @@
-dashgraf.bmwgroup.com A 74.220.199.6
-elsuat-cc-a11.bmwgroup.com A 74.220.199.6
-erpofadevws-partner-portal-node.bmwgroup.com A 74.220.199.6
-gcore-dev03-app02.bmwgroup.com A 74.220.199.6
-https-en-m-wikipedia-org3-4.bmwgroup.com A 74.220.199.6
-iefs-atlas-lgw.bmwgroup.com A 74.220.199.6
-m-merdeka-com7-1.bmwgroup.com A 74.220.199.6
-tax-batman-integ.bmwgroup.com A 74.220.199.6
+bwms.bmwgroup.com A 160.46.244.26
