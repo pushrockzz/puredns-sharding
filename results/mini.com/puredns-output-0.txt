@@ -4,12 +4,10 @@ ecom.mini.com
 feedback.mini.com
 labs.mini.com
 lifestyle.mini.com
-link.mini.com
 lyncdiscover.mini.com
 mail.mini.com
 maintenance.mini.com
 mobile.mini.com
-more.mini.com
 search.mini.com
 service.mini.com
 services.mini.com

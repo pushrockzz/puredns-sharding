@@ -1,0 +1,2 @@
+stuttgart.bmw-motorrad.de:443
+stuttgart.bmw-motorrad.de:80

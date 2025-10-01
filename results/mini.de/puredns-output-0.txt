@@ -13,7 +13,6 @@ link.mini.de
 mail.mini.de
 mannheim.mini.de
 message.mini.de
-more.mini.de
 news.mini.de
 online.mini.de
 origin.mini.de
