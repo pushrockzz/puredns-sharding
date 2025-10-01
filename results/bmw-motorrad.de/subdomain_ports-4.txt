@@ -1,0 +1,4 @@
+retaxes.bmw-motorrad.de:10050
+retaxes.bmw-motorrad.de:123
+retaxes.bmw-motorrad.de:80
+rides.bmw-motorrad.de:80

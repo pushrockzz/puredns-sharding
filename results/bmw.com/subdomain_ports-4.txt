@@ -1,3 +1,0 @@
-plw-prod.bmw.com:443
-plw-prod.bmw.com:80
-poc2.bmw.com:443

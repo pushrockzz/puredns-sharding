@@ -1,2 +1,3 @@
-prd-stcservice.bmw-motorrad.de A 212.109.215.174
-prd-stcservice.bmw-motorrad.de A 212.109.215.175
+retaxes.bmw-motorrad.de A 74.220.199.6
+rides.bmw-motorrad.de A 86.35.3.192
+rides.bmw-motorrad.de A 86.35.3.193
