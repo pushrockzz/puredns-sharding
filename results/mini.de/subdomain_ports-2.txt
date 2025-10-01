@@ -1,0 +1,2 @@
+tekken.mini.de:443
+tekken.mini.de:80

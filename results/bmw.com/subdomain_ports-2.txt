@@ -1,0 +1,2 @@
+tapi.bmw.com:443
+tapi.bmw.com:80
