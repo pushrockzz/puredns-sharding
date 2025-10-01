@@ -1,0 +1,2 @@
+webshop-test.bmwgroup.com:443
+webshop-test.bmwgroup.com:80
