@@ -2,6 +2,5 @@ jobs-test.bmwgroup.com
 karriere.bmwgroup.com
 label.bmwgroup.com
 lisa.bmwgroup.com
-livestream.bmwgroup.com
 livestreaming.bmwgroup.com
 mail11.bmwgroup.com

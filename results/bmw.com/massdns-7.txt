@@ -1,4 +1,1 @@
-jdatms-devdb13.bmw.com A 74.220.199.6
-lb-cgi.bmw.com A 74.220.199.6
-leftpic.bmw.com A 74.220.199.6
-mailpl0-f44.bmw.com A 74.220.199.6
+itms.bmw.com A 160.46.240.49
