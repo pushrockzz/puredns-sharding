@@ -1,1 +1,2 @@
+poma.bmwgroup.com A 160.46.243.89
 public-example.bmwgroup.com A 20.212.52.131

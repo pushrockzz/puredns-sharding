@@ -1,6 +1,2 @@
-poktam2cl.bmw-motorrad.de A 74.220.199.6
-prod28.bmw-motorrad.de A 74.220.199.6
-qa-identityapi.bmw-motorrad.de A 74.220.199.6
-resources49.bmw-motorrad.de A 74.220.199.6
-revolution-stage.bmw-motorrad.de A 74.220.199.6
-rn-employee-fitness-prod.bmw-motorrad.de A 74.220.199.6
+prd-stcservice.bmw-motorrad.de A 212.109.215.174
+prd-stcservice.bmw-motorrad.de A 212.109.215.175
