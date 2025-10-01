@@ -1,2 +1,3 @@
 securelogin.bmw.com A 160.46.231.113
 sera.bmw.com A 160.46.233.155
+sftpcontent.bmw.com A 160.46.247.185
