@@ -1,2 +1,0 @@
-aws-sdo-hxd.bmwgroup.com A 212.109.215.174
-aws-sdo-hxd.bmwgroup.com A 212.109.215.175
