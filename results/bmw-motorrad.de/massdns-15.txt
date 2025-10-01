@@ -1,0 +1,12 @@
+54-240-199-49.bmw-motorrad.de A 86.35.3.192
+54-240-199-49.bmw-motorrad.de A 86.35.3.193
+5brsj21uod-dsn.bmw-motorrad.de A 86.35.3.192
+5brsj21uod-dsn.bmw-motorrad.de A 86.35.3.193
+5sbfmbsbgrwabnct9.bmw-motorrad.de A 86.35.3.192
+5sbfmbsbgrwabnct9.bmw-motorrad.de A 86.35.3.193
+7-bridges-lab.bmw-motorrad.de A 74.220.199.6
+h-135-207-38-19.bmw-motorrad.de A 74.220.199.6
+usw1-5-pdc.bmw-motorrad.de A 86.35.3.192
+usw1-5-pdc.bmw-motorrad.de A 86.35.3.193
+vl-125-slb3-1-sba.bmw-motorrad.de A 86.35.3.192
+vl-125-slb3-1-sba.bmw-motorrad.de A 86.35.3.193
