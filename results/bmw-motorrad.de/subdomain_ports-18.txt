@@ -1,0 +1,10 @@
+animals-solutions.bmw-motorrad.de:80
+dc85.bmw-motorrad.de:80
+docs-mongodbcom-integration.bmw-motorrad.de:80
+event0-2-7.bmw-motorrad.de:80
+itivity.bmw-motorrad.de:80
+merentgw-ho-1p.bmw-motorrad.de:10050
+merentgw-ho-1p.bmw-motorrad.de:123
+merentgw-ho-1p.bmw-motorrad.de:80
+metrodealer02.bmw-motorrad.de:80
+safevip-as-1s.bmw-motorrad.de:80

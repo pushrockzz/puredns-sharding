@@ -1,0 +1,15 @@
+animals-solutions.bmw-motorrad.de A 86.35.3.192
+animals-solutions.bmw-motorrad.de A 86.35.3.193
+dc85.bmw-motorrad.de A 86.35.3.192
+dc85.bmw-motorrad.de A 86.35.3.193
+docs-mongodbcom-integration.bmw-motorrad.de A 86.35.3.192
+docs-mongodbcom-integration.bmw-motorrad.de A 86.35.3.193
+event0-2-7.bmw-motorrad.de A 86.35.3.192
+event0-2-7.bmw-motorrad.de A 86.35.3.193
+itivity.bmw-motorrad.de A 86.35.3.192
+itivity.bmw-motorrad.de A 86.35.3.193
+merentgw-ho-1p.bmw-motorrad.de A 74.220.199.6
+metrodealer02.bmw-motorrad.de A 86.35.3.192
+metrodealer02.bmw-motorrad.de A 86.35.3.193
+safevip-as-1s.bmw-motorrad.de A 86.35.3.192
+safevip-as-1s.bmw-motorrad.de A 86.35.3.193
