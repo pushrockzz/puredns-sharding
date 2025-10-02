@@ -1,3 +1,4 @@
 http://my-test.bmwgroup.com
 http://my-test.bmwgroup.com:443
+https://mdm-dev.bmwgroup.com:2001
 https://mdm-int.bmwgroup.com
