@@ -1,0 +1,2 @@
+nuernberg.bmw-motorrad.de:443
+nuernberg.bmw-motorrad.de:80

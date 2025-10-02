@@ -1,0 +1,4 @@
+mpos.bmwgroup.com A 122.200.105.44
+mxs2.bmwgroup.com A 195.190.135.12
+my-test.bmwgroup.com A 160.46.249.179
+ocr-prod.bmwgroup.com A 122.200.104.201

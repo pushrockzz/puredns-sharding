@@ -1,0 +1,3 @@
+mxs2.bmwgroup.com:25
+my-test.bmwgroup.com:443
+my-test.bmwgroup.com:80
