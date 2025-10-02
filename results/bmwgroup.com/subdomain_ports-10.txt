@@ -1,0 +1,4 @@
+drift.bmwgroup.com:443
+drift.bmwgroup.com:80
+elan.bmwgroup.com:443
+elan.bmwgroup.com:80
