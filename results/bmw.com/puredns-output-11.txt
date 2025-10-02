@@ -1,4 +1,2 @@
 cmp-test.bmw.com
 configure.bmw.com
-dealer.bmw.com
-dealers.bmw.com

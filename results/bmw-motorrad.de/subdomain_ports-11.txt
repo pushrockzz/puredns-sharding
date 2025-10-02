@@ -1,6 +1,0 @@
-cubavera.bmw-motorrad.de:10050
-cubavera.bmw-motorrad.de:123
-cubavera.bmw-motorrad.de:80
-digibooks.bmw-motorrad.de:10050
-digibooks.bmw-motorrad.de:123
-digibooks.bmw-motorrad.de:80
