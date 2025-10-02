@@ -770,7 +770,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: httpx-results-${{ matrix.shard }}
-          path: results/**/*.httpx_results-*.txt
+          path: results/**/httpx_results-*.txt
           retention-days: 1      
   
   dispatch-next:
