@@ -1,2 +1,0 @@
-apim-dev.bmwgroup.com
-beacon.bmwgroup.com

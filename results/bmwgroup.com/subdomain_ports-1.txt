@@ -1,2 +1,0 @@
-vpnweb.bmwgroup.com:443
-vpnweb.bmwgroup.com:80

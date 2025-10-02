@@ -1,8 +1,0 @@
-amit-roy.mini.com A 86.35.3.192
-amit-roy.mini.com A 86.35.3.193
-apptreesoftware.mini.com A 86.35.3.192
-apptreesoftware.mini.com A 86.35.3.193
-authorhimalaya.mini.com A 86.35.3.192
-authorhimalaya.mini.com A 86.35.3.193
-axxllog.mini.com A 86.35.3.192
-axxllog.mini.com A 86.35.3.193

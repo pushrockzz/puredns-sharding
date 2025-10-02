@@ -1,2 +1,0 @@
-olsonbiapps.bmw-motorrad.de:80
-p01-fmipmail-china-ic4.bmw-motorrad.de:80

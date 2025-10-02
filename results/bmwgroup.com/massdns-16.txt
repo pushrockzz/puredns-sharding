@@ -1,2 +1,0 @@
-tor142-156-pdd.bmwgroup.com A 86.35.3.192
-tor142-156-pdd.bmwgroup.com A 86.35.3.193

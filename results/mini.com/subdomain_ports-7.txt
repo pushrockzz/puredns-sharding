@@ -1,4 +1,0 @@
-ist-appcenter.mini.com:80
-iworkextstore-china-ic1.mini.com:80
-jarvis-storage.mini.com:80
-lon3-accesspoint-a63.mini.com:80

@@ -1,4 +1,0 @@
-bremen.mini.de:443
-bremen.mini.de:80
-chemnitz.mini.de:443
-chemnitz.mini.de:80

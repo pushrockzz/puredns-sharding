@@ -1,2 +1,0 @@
-bremen.mini.de A 160.46.226.164
-chemnitz.mini.de A 160.46.226.164

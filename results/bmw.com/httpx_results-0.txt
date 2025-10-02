@@ -1,9 +1,0 @@
-http://goto.bmw.com
-http://lima.bmw.com
-http://link.bmw.com
-http://loki.bmw.com
-http://socialmedia.bmw.com
-https://api-sandbox.bmw.com
-https://developer.bmw.com
-https://lima.bmw.com
-https://loki.bmw.com

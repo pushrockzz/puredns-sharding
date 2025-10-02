@@ -1,7 +1,0 @@
-gw-int-bsvc1-mydekstop.bmw-motorrad.de:80
-help00.bmw-motorrad.de:80
-hyperwalletpayouts.bmw-motorrad.de:80
-iad2v1iadsdktest.bmw-motorrad.de:80
-intranetconfig.bmw-motorrad.de:80
-inventorylab.bmw-motorrad.de:80
-irondog.bmw-motorrad.de:80

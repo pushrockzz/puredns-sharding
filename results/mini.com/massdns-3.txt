@@ -1,6 +1,0 @@
-souc-kca-na-pdx-d.mini.com A 86.35.3.192
-souc-kca-na-pdx-d.mini.com A 86.35.3.193
-spring-chicken-ar.mini.com A 86.35.3.192
-spring-chicken-ar.mini.com A 86.35.3.193
-spt-qa.mini.com A 86.35.3.192
-spt-qa.mini.com A 86.35.3.193

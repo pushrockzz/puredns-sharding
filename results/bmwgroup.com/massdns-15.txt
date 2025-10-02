@@ -1,6 +1,0 @@
-505oia.bmwgroup.com A 86.35.3.192
-505oia.bmwgroup.com A 86.35.3.193
-57c72.bmwgroup.com A 86.35.3.192
-57c72.bmwgroup.com A 86.35.3.193
-h-135-207-63-60.bmwgroup.com A 86.35.3.192
-h-135-207-63-60.bmwgroup.com A 86.35.3.193

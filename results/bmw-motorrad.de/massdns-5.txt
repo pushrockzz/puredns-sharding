@@ -1,4 +1,0 @@
-olsonbiapps.bmw-motorrad.de A 86.35.3.192
-olsonbiapps.bmw-motorrad.de A 86.35.3.193
-p01-fmipmail-china-ic4.bmw-motorrad.de A 86.35.3.192
-p01-fmipmail-china-ic4.bmw-motorrad.de A 86.35.3.193

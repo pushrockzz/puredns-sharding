@@ -1,4 +1,0 @@
-http://strong.bmw.com
-http://tapi.bmw.com
-https://strong.bmw.com
-https://tapi.bmw.com

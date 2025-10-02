@@ -1,5 +1,0 @@
-sgate.bmwgroup.com A 143.204.55.21
-sgate.bmwgroup.com A 143.204.55.45
-sgate.bmwgroup.com A 143.204.55.84
-sgate.bmwgroup.com A 143.204.55.86
-star.bmwgroup.com A 160.46.233.40

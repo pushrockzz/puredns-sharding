@@ -1,7 +1,0 @@
-fed-hoist.bmw-motorrad.de:80
-fileblog.bmw-motorrad.de:80
-funddirect-blk.bmw-motorrad.de:80
-g2u1patasd-dsn.bmw-motorrad.de:80
-gbroadtrips-4-4.bmw-motorrad.de:80
-gcp-us-west1-microservices.bmw-motorrad.de:80
-go-0-2.bmw-motorrad.de:80

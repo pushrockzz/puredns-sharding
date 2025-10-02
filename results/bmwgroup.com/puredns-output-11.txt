@@ -1,3 +1,0 @@
-codis.bmwgroup.com
-configure.bmwgroup.com
-datafox.bmwgroup.com

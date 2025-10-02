@@ -1,4 +1,0 @@
-strong.bmw.com:443
-strong.bmw.com:80
-tapi.bmw.com:443
-tapi.bmw.com:80

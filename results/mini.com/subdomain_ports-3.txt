@@ -1,3 +1,0 @@
-souc-kca-na-pdx-d.mini.com:80
-spring-chicken-ar.mini.com:80
-spt-qa.mini.com:80

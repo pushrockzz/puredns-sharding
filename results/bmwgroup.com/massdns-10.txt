@@ -1,2 +1,0 @@
-dmp-test.bmwgroup.com A 160.46.236.11
-elan.bmwgroup.com A 160.46.231.65

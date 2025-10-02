@@ -1,1 +1,0 @@
-pub-ingress-aws-apse1.bmwgroup.com:80

@@ -1,2 +1,0 @@
-aen-portal-beta.bmw.com:80
-api-mez.bmw.com:80

@@ -1,7 +1,0 @@
-15-2-2-99.mini.com:80
-api-ideal.mini.com:80
-fremont-2-s1.mini.com:80
-gts-31.mini.com:80
-onlinetax-prd-qydc.mini.com:80
-register0-8-3.mini.com:80
-tor108-147-gra.mini.com:80

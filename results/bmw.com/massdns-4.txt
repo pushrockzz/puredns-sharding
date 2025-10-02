@@ -1,3 +1,0 @@
-plw-prod.bmw.com A 160.46.237.220
-poc2.bmw.com A 160.46.225.65
-redsquare.bmw.com A 193.23.33.28

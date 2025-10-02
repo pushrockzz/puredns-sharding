@@ -1,2 +1,0 @@
-api-any-ausw2b.bmw.com A 86.35.3.192
-api-any-ausw2b.bmw.com A 86.35.3.193

@@ -1,4 +1,0 @@
-berlin.bmw-motorrad.de:443
-berlin.bmw-motorrad.de:80
-hamburg.bmw-motorrad.de:443
-hamburg.bmw-motorrad.de:80

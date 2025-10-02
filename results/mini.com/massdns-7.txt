@@ -1,8 +1,0 @@
-ist-appcenter.mini.com A 86.35.3.192
-ist-appcenter.mini.com A 86.35.3.193
-iworkextstore-china-ic1.mini.com A 86.35.3.192
-iworkextstore-china-ic1.mini.com A 86.35.3.193
-jarvis-storage.mini.com A 86.35.3.192
-jarvis-storage.mini.com A 86.35.3.193
-lon3-accesspoint-a63.mini.com A 86.35.3.192
-lon3-accesspoint-a63.mini.com A 86.35.3.193

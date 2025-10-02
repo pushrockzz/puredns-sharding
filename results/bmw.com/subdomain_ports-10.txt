@@ -1,2 +1,0 @@
-everest.bmw.com:443
-everest.bmw.com:80

@@ -1,4 +1,0 @@
-arnold.mini.de:443
-arnold.mini.de:80
-augsburg.mini.de:443
-augsburg.mini.de:80

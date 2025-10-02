@@ -1,7 +1,0 @@
-h-135-207-53-52.mini.de:80
-ipv4-c029-las001-ix.mini.de:80
-lon3-apollofesk-a1.mini.de:80
-teamww1link-tunnel-mx.mini.de:80
-tor68-82-pdb.mini.de:80
-user-cache-status-web.mini.de:80
-uspxh010p1.mini.de:80

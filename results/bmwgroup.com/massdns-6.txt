@@ -1,5 +1,0 @@
-mdm-dev.bmwgroup.com A 160.46.232.104
-mwp5.bmwgroup.com A 160.46.235.37
-mxs1.bmwgroup.com A 195.190.135.11
-mxs2.bmwgroup.com A 195.190.135.12
-ocr-prod.bmwgroup.com A 122.200.104.201

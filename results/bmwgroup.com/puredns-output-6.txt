@@ -1,5 +1,0 @@
-mdm-dev.bmwgroup.com
-mdm-int.bmwgroup.com
-mpos.bmwgroup.com
-my-test.bmwgroup.com
-ocr-prod.bmwgroup.com

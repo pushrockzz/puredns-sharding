@@ -1,2 +1,0 @@
-http://plw-prod.bmw.com
-https://plw-prod.bmw.com
