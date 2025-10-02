@@ -1,11 +1,6 @@
-rx-vdevint5.mini.com A 0.0.0.0
-rxjh.mini.com A 0.0.0.0
-sbproxy-at.mini.com A 0.0.0.0
-sct-gamma.mini.com A 0.0.0.0
-sdk-0-3-6.mini.com A 0.0.0.0
-sdk3-18.mini.com A 0.0.0.0
-slack-2-0-7.mini.com A 0.0.0.0
-slack40-6.mini.com A 0.0.0.0
-smtp-out-174-52.mini.com A 0.0.0.0
-srs-jatomics.mini.com A 0.0.0.0
-ssrs-apac-e2e.mini.com A 0.0.0.0
+souc-kca-na-pdx-d.mini.com A 86.35.3.192
+souc-kca-na-pdx-d.mini.com A 86.35.3.193
+spring-chicken-ar.mini.com A 86.35.3.192
+spring-chicken-ar.mini.com A 86.35.3.193
+spt-qa.mini.com A 86.35.3.192
+spt-qa.mini.com A 86.35.3.193
