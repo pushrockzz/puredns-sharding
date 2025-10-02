@@ -1,0 +1,14 @@
+17-121-125-44.mini.com:80
+calendar-integration-service.mini.com:80
+debugpub-examplestunnel-mx.mini.com:80
+dtsw-114-43-30.mini.com:80
+h135-207-56-41.mini.com:80
+imdb-cinelamour-beta.mini.com:80
+lon3-linkwebstaging-a1.mini.com:80
+occ-0-116-27.mini.com:80
+rcx-yd-asa-1.mini.com:80
+tor102-142-grc.mini.com:80
+tor123-163-grc.mini.com:80
+tor134-166-gre.mini.com:80
+tor29-41-pdb.mini.com:80
+tor4-12-vza.mini.com:80
