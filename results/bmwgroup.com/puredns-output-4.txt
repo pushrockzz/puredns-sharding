@@ -1,2 +1,4 @@
+plw-prod.bmwgroup.com
+poc2.bmwgroup.com
 poma.bmwgroup.com
-rds-int.bmwgroup.com
+pp-api.bmwgroup.com
