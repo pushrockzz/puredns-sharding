@@ -1,2 +1,2 @@
-itms.bmw.com:443
-itms.bmw.com:80
+iwres-ic3.bmw.com:80
+jardiland.bmw.com:80
