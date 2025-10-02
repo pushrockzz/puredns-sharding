@@ -1,0 +1,13 @@
+api-sandbox.bmw.com A 34.110.164.77
+audit.bmw.com A 160.46.240.119
+federation.bmw.com A 193.23.33.40
+goto.bmw.com A 62.245.246.210
+lifestyle.bmw.com A 104.16.231.42
+lifestyle.bmw.com A 104.16.232.42
+loki.bmw.com A 160.46.233.187
+lyncdiscover.bmw.com A 160.46.229.18
+service.bmw.com A 192.243.228.1
+socialmedia.bmw.com A 160.46.244.54
+workflow.bmw.com A 160.46.237.78
+workplace.bmw.com A 160.46.238.78
+www-origin.bmw.com A 160.46.245.162

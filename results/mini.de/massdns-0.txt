@@ -1,0 +1,17 @@
+berlin.mini.de A 160.46.244.54
+ecom.mini.de A 160.46.244.241
+email.mini.de A 192.243.228.1
+frankfurt.mini.de A 160.46.244.54
+gewinnspiel.mini.de A 217.160.5.194
+goto.mini.de A 62.245.246.210
+hamburg.mini.de A 160.46.226.164
+kassel.mini.de A 160.46.226.164
+leipzig.mini.de A 160.46.226.164
+link.mini.de A 62.245.246.210
+mannheim.mini.de A 160.46.226.164
+news.mini.de A 161.71.33.242
+online.mini.de A 212.6.143.217
+origin.mini.de A 160.46.244.54
+rent.mini.de A 91.229.168.210
+stuttgart.mini.de A 160.46.226.164
+subscribe.mini.de A 91.229.168.210

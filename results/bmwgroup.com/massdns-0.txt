@@ -1,0 +1,16 @@
+360portal.bmwgroup.com A 160.46.238.80
+apps.bmwgroup.com A 160.46.240.236
+icds.bmwgroup.com A 160.46.245.169
+lyncdiscover.bmwgroup.com A 160.46.229.18
+mailhub.bmwgroup.com A 160.50.97.80
+mein.bmwgroup.com A 160.46.237.143
+mini.bmwgroup.com A 122.200.104.96
+onboarding.bmwgroup.com A 160.46.231.44
+origin.bmwgroup.com A 160.46.244.133
+oscar.bmwgroup.com A 160.46.243.98
+poco.bmwgroup.com A 160.46.240.235
+portal.bmwgroup.com A 160.46.231.152
+press.bmwgroup.com A 160.46.226.185
+redirect.bmwgroup.com A 160.46.244.54
+testdrive.bmwgroup.com A 160.46.240.33
+wire.bmwgroup.com A 160.46.226.196

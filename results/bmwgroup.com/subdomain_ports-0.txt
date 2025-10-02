@@ -1,0 +1,12 @@
+lyncdiscover.bmwgroup.com:443
+lyncdiscover.bmwgroup.com:80
+mein.bmwgroup.com:443
+mein.bmwgroup.com:80
+onboarding.bmwgroup.com:443
+onboarding.bmwgroup.com:80
+origin.bmwgroup.com:80
+poco.bmwgroup.com:443
+poco.bmwgroup.com:80
+press.bmwgroup.com:443
+press.bmwgroup.com:80
+redirect.bmwgroup.com:80
