@@ -1,0 +1,2 @@
+plw-prod.bmwgroup.com A 160.46.235.195
+poc2.bmwgroup.com A 160.46.225.65
