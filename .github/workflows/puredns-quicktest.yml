@@ -634,19 +634,20 @@ jobs:
       - name: Run HTTPx Scan
         shell: bash
         run: |
-          
+
+
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           HTTPX_INPUT="httpx-work/httpx-input-${CHUNK_INDEX}.txt"
           HTTPX_OUTPUT="httpx-work/httpx-output-${CHUNK_INDEX}.txt"
-          
+
           if [ ! -s "$HTTPX_INPUT" ]; then
               echo "⚠️  No targets to scan for shard ${{ matrix.shard }}"
               exit 0
           fi
-          
+
           TARGET_COUNT=$(wc -l < "$HTTPX_INPUT" 2>/dev/null || echo 0)
           echo "Running HTTPx on shard ${{ matrix.shard }} with $TARGET_COUNT targets..."
-          
+
           # Run HTTPx with -o flag
           cat "$HTTPX_INPUT" | httpx \
             -status-code \
@@ -658,7 +659,7 @@ jobs:
             -retries 1 \
             -o "$HTTPX_OUTPUT" \
             -silent
-          
+
           if [ -f "$HTTPX_OUTPUT" ] && [ -s "$HTTPX_OUTPUT" ]; then
               RESULT_COUNT=$(wc -l < "$HTTPX_OUTPUT" 2>/dev/null || echo 0)
               echo "✅ HTTPx scan complete: $RESULT_COUNT live hosts found (shard ${{ matrix.shard }})"
@@ -666,7 +667,6 @@ jobs:
               echo "⚠️  No live hosts found (shard ${{ matrix.shard }})"
               : > "$HTTPX_OUTPUT"
           fi
-
       
       - name: Distribute HTTPx Results to Domain Directories
         shell: bash
@@ -804,10 +804,7 @@ jobs:
           name: httpx-results-${{ matrix.shard }}
           path: results/**/httpx_results-*.txt
           retention-days: 1          
-    
-      
 
-  
   dispatch-next:
     name: dispatch-next-run
     runs-on: ubuntu-latest
