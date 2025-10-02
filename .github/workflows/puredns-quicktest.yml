@@ -282,7 +282,7 @@ jobs:
         run: |
           
           
-          PORTS="ports.txt"
+          PORTS=$(tr -d '\r' < ports.txt | tr -d '[:space:]')
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           
           # Create a single, global temporary directory for this entire step's operations
@@ -337,7 +337,7 @@ jobs:
               
               naabu -l "$MASTER_NON_CDN_IPS" -passive -o "$TMP_NAABU_RUSTSCAN" -no-color -silent || true
               
-              rustscan -a "$MASTER_NON_CDN_IPS" -p "$PORTS" --no-banner -t 7000 --tries 3 -u 50000 --scan-order "Random" -b 300 --greppable --accessible > "$TMP_RUSTSCAN" || true
+              rustscan -a "$MASTER_NON_CDN_IPS" -p "$PORTS" --no-banner -t 7000 --tries 3 -u 50000 --scan-order "Random" -b 500 --greppable --accessible > "$TMP_RUSTSCAN" || true
               
               # Your original processing logic, unchanged
               cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | PATH=$HOME/go/bin:$PATH anew -q "$TMP_NAABU_RUSTSCAN" || true
