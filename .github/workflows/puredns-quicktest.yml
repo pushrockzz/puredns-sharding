@@ -568,58 +568,70 @@ jobs:
           exit 0
 
 
-      - name: Clone Fresh Repository with Latest Results
+      - name: Clone Fresh Repository
         shell: bash
         run: |
-          echo "Cloning fresh repository to get latest committed results..."
+          echo "Cloning repository to get committed subdomain_ports files..."
           
-          # Remove existing repo directory to avoid conflicts
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
+          
+          # Move to parent directory
           cd ..
-          rm -rf ${{ github.event.repository.name }}
+          REPO_NAME="${{ github.event.repository.name }}"
           
-          # Clone the repository with the specific branch
-          git clone --branch ${{ github.ref_name }} --depth 1 https://github.com/${{ github.repository }}.git
-          cd ${{ github.event.repository.name }}
+          # Remove if exists
+          rm -rf "${REPO_NAME}-httpx"
           
-          # Verify results directory exists
-          if [ -d "results" ]; then
-              FILE_COUNT=$(find results -type f -name "subdomain_ports-*.txt" | wc -l)
-              echo "✅ Found $FILE_COUNT subdomain_ports files in results directory"
-          else
-              echo "⚠️  Results directory not found"
+          # Clone fresh copy
+          git clone --branch ${{ github.ref_name }} --depth 1 https://github.com/${{ github.repository }}.git "${REPO_NAME}-httpx"
+          
+          # Verify subdomain_ports files exist
+          if [ -d "${REPO_NAME}-httpx/results" ]; then
+              FILE_COUNT=$(find "${REPO_NAME}-httpx/results" -type f -name "subdomain_ports-${CHUNK_INDEX}.txt" | wc -l)
+              echo "✅ Found $FILE_COUNT subdomain_ports-${CHUNK_INDEX}.txt files"
           fi
+          
+          # Return to workspace
+          cd "$REPO_NAME"
       
-      - name: Combine All Subdomain Ports Files
+      
+      - name: Prepare HTTPx Input and Domain Mapping
         shell: bash
         run: |
-          echo "Combining all subdomain_ports files from results directory..."
+          
+          
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
+          REPO_NAME="${{ github.event.repository.name }}"
+          CLONED_RESULTS="../${REPO_NAME}-httpx/results"
+          
+          echo "Preparing HTTPx input from subdomain_ports-${CHUNK_INDEX}.txt files..."
           
           mkdir -p httpx-work
           
-          COMBINED_INPUT="httpx-work/combined_targets.txt"
-          DOMAIN_MAP="httpx-work/target_to_domain_map.txt"
+          HTTPX_INPUT="httpx-work/httpx-input-${CHUNK_INDEX}.txt"
+          DOMAIN_MAP="httpx-work/domain-map-${CHUNK_INDEX}.txt"
           
           # Initialize files
-          : > "$COMBINED_INPUT"
+          : > "$HTTPX_INPUT"
           : > "$DOMAIN_MAP"
           
-          # Find and process all subdomain_ports files from results directory
-          find results -type f -name "subdomain_ports-*.txt" | while read -r file; do
+          # Find all subdomain_ports files for this chunk across all domains
+          find "$CLONED_RESULTS" -type f -name "subdomain_ports-${CHUNK_INDEX}.txt" | while read -r file; do
               if [ ! -s "$file" ]; then
                   continue
               fi
               
-              # Extract root domain from path: results/bmw.com/subdomain_ports-*.txt
-              ROOT_DOMAIN=$(echo "$file" | sed 's|results/\([^/]*\)/.*|\1|')
+              # Extract root domain from path: ../repo/results/bmw.com/subdomain_ports-*.txt
+              ROOT_DOMAIN=$(echo "$file" | sed "s|.*${CLONED_RESULTS}/\([^/]*\)/.*|\1|")
               
-              echo "  -> Processing $file (domain: $ROOT_DOMAIN)"
+              echo "  -> Processing $ROOT_DOMAIN (chunk ${CHUNK_INDEX})"
               
-              # Process each line
+              # Process each line from subdomain_ports file
               while IFS= read -r line || [ -n "$line" ]; do
                   [ -z "$line" ] && continue
                   
-                  # Add to combined input
-                  echo "$line" >> "$COMBINED_INPUT"
+                  # Add to httpx input
+                  echo "$line" >> "$HTTPX_INPUT"
                   
                   # Create mapping: target root_domain
                   echo "$line $ROOT_DOMAIN" >> "$DOMAIN_MAP"
@@ -627,96 +639,73 @@ jobs:
           done
           
           # Deduplicate
-          sort -u "$COMBINED_INPUT" -o "$COMBINED_INPUT"
-          sort -u "$DOMAIN_MAP" -o "$DOMAIN_MAP"
+          sort -u "$HTTPX_INPUT" -o "$HTTPX_INPUT" || true
+          sort -u "$DOMAIN_MAP" -o "$DOMAIN_MAP" || true
           
-          TOTAL_TARGETS=$(wc -l < "$COMBINED_INPUT" 2>/dev/null || echo 0)
-          echo "✅ Combined $TOTAL_TARGETS unique targets from all domains"
+          TARGET_COUNT=$(wc -l < "$HTTPX_INPUT" 2>/dev/null || echo 0)
           
-          if [ "$TOTAL_TARGETS" -eq 0 ]; then
-              echo "⚠️  No targets found for HTTPx scanning"
-              exit 0
+          if [ "$TARGET_COUNT" -gt 0 ]; then
+              echo "✅ Prepared $TARGET_COUNT targets for HTTPx scanning (shard ${{ matrix.shard }})"
+          else
+              echo "⚠️  No targets found for shard ${{ matrix.shard }}"
           fi
       
-      - name: Create HTTPx Chunks for Matrix Processing
-        shell: bash
-        run: |
-          COMBINED_INPUT="httpx-work/combined_targets.txt"
-          
-          if [ ! -s "$COMBINED_INPUT" ]; then
-              echo "No targets to chunk"
-              exit 0
-          fi
-          
-          # Calculate targets per shard for equal distribution
-          TOTAL_TARGETS=$(wc -l < "$COMBINED_INPUT")
-          TOTAL_SHARDS=${{ strategy.job-total }}
-          TARGETS_PER_SHARD=$(( (TOTAL_TARGETS + TOTAL_SHARDS - 1) / TOTAL_SHARDS ))
-          
-          echo "Total targets: $TOTAL_TARGETS"
-          echo "Total shards: $TOTAL_SHARDS"
-          echo "Targets per shard: ~$TARGETS_PER_SHARD"
-          
-          # Split into equal chunks
-          split -l "$TARGETS_PER_SHARD" -d -a 5 "$COMBINED_INPUT" "httpx-work/chunk-"
-          
-          CHUNK_COUNT=$(ls httpx-work/chunk-* 2>/dev/null | wc -l)
-          echo "✅ Created $CHUNK_COUNT chunks for parallel HTTPx scanning"
-      
-      - name: Run HTTPx on This Shard's Chunk
+      - name: Run HTTPx Scan
         shell: bash
         run: |
           
           
-          CHUNK_INDEX=$(printf "%05d" ${{ matrix.shard }})
-          CHUNK_FILE="httpx-work/chunk-${CHUNK_INDEX}"
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
+          HTTPX_INPUT="httpx-work/httpx-input-${CHUNK_INDEX}.txt"
           HTTPX_OUTPUT="httpx-work/httpx-output-${CHUNK_INDEX}.txt"
           
-          if [ ! -f "$CHUNK_FILE" ]; then
-              echo "⚠️  No chunk assigned to shard ${{ matrix.shard }}"
+          if [ ! -s "$HTTPX_INPUT" ]; then
+              echo "⚠️  No targets to scan for shard ${{ matrix.shard }}"
               exit 0
           fi
           
-          TARGET_COUNT=$(wc -l < "$CHUNK_FILE" 2>/dev/null || echo 0)
-          echo "Shard ${{ matrix.shard }}: Running HTTPx on $TARGET_COUNT targets..."
+          TARGET_COUNT=$(wc -l < "$HTTPX_INPUT" 2>/dev/null || echo 0)
+          echo "Running HTTPx on shard ${{ matrix.shard }} with $TARGET_COUNT targets..."
           
           # Run HTTPx with -o flag
-          cat "$CHUNK_FILE" | httpx \
+          cat "$HTTPX_INPUT" | httpx \
             -status-code \
             -content-length \
             -title \
-            -tech-detect \
-            -follow-redirects \
             -no-color \
-            -threads 50 \
+            -threads 100 \
             -timeout 10 \
             -retries 1 \
             -rate-limit 150 \
-            -o "$HTTPX_OUTPUT"
+            -o "$HTTPX_OUTPUT" \
+            -silent
           
           if [ -f "$HTTPX_OUTPUT" ] && [ -s "$HTTPX_OUTPUT" ]; then
               RESULT_COUNT=$(wc -l < "$HTTPX_OUTPUT" 2>/dev/null || echo 0)
-              echo "✅ Shard ${{ matrix.shard }}: Found $RESULT_COUNT live hosts"
+              echo "✅ HTTPx scan complete: $RESULT_COUNT live hosts found (shard ${{ matrix.shard }})"
           else
-              echo "⚠️  Shard ${{ matrix.shard }}: No live hosts found"
+              echo "⚠️  No live hosts found (shard ${{ matrix.shard }})"
               : > "$HTTPX_OUTPUT"
           fi
       
-      - name: Process and Distribute HTTPx Results to Domain Directories
+      - name: Distribute HTTPx Results to Domain Directories
         shell: bash
         run: |
           
           
-          CHUNK_INDEX=$(printf "%05d" ${{ matrix.shard }})
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           HTTPX_OUTPUT="httpx-work/httpx-output-${CHUNK_INDEX}.txt"
-          DOMAIN_MAP="httpx-work/target_to_domain_map.txt"
+          DOMAIN_MAP="httpx-work/domain-map-${CHUNK_INDEX}.txt"
           
           if [ ! -s "$HTTPX_OUTPUT" ]; then
-              echo "No HTTPx results to process for shard ${{ matrix.shard }}"
+              echo "No HTTPx results to distribute for shard ${{ matrix.shard }}"
               exit 0
           fi
           
-          echo "Processing HTTPx results for shard ${{ matrix.shard }}..."
+          echo "Distributing HTTPx results to domain directories (shard ${{ matrix.shard }})..."
+          
+          # Create results directory structure
+          mkdir -p results
           
           # Process each HTTPx result line
           PROCESSED_COUNT=0
@@ -724,7 +713,7 @@ jobs:
           while IFS= read -r line || [ -n "$line" ]; do
               [ -z "$line" ] && continue
               
-              # Extract URL (first field before any brackets)
+              # Extract URL (first field)
               URL=$(echo "$line" | awk '{print $1}')
               [ -z "$URL" ] && continue
               
@@ -741,7 +730,7 @@ jobs:
                   ROOT_DOMAIN=$(awk -v target="$HOST_ONLY" '$1 == target {print $2; exit}' "$DOMAIN_MAP")
               fi
               
-              # Method 3: Pattern match - check if subdomain belongs to any domain
+              # Method 3: Pattern match on subdomain
               if [ -z "$ROOT_DOMAIN" ]; then
                   HOST_ONLY=$(echo "$HOST_PORT" | cut -d: -f1)
                   ROOT_DOMAIN=$(awk -v host="$HOST_ONLY" '
@@ -756,26 +745,29 @@ jobs:
               fi
               
               if [ -n "$ROOT_DOMAIN" ]; then
-                  # Create domain directory in results
+                  # Create domain directory
                   mkdir -p "results/$ROOT_DOMAIN"
                   
-                  # Append URL to domain's httpx chunk file
-                  echo "$URL" >> "results/$ROOT_DOMAIN/httpx-chunk-${CHUNK_INDEX}.txt"
+                  # Append URL to domain's httpx file for this chunk
+                  echo "$URL" >> "results/$ROOT_DOMAIN/httpx_results-${CHUNK_INDEX}.txt"
                   PROCESSED_COUNT=$((PROCESSED_COUNT + 1))
-              else
-                  echo "⚠️  Could not map URL to domain: $URL"
               fi
           done < "$HTTPX_OUTPUT"
           
-          echo "✅ Shard ${{ matrix.shard }}: Processed $PROCESSED_COUNT URLs"
+          # Deduplicate each domain's httpx results file
+          find results -type f -name "httpx_results-${CHUNK_INDEX}.txt" | while read -r file; do
+              sort -u "$file" -o "$file"
+          done
+          
+          echo "✅ Distributed $PROCESSED_COUNT URLs to domain directories (shard ${{ matrix.shard }})"
       
       - name: Upload HTTPx Results for This Shard
         uses: actions/upload-artifact@v4
         with:
-          name: httpx-shard-${{ matrix.shard }}
+          name: httpx-results-${{ matrix.shard }}
           path: results/
           retention-days: 1
-
+      
 
   
   dispatch-next:
