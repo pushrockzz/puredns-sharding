@@ -1,0 +1,3 @@
+emde.mini.de A 160.46.226.164
+essen.mini.de A 160.46.226.164
+euler.mini.de A 160.46.226.164
