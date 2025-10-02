@@ -1,3 +1,4 @@
 api-dev1.bmw.com
+api-dev2.bmw.com
 api-int.bmw.com
-auth-t.bmw.com
+api-sandbox-dev.bmw.com
