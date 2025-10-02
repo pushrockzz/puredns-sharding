@@ -1,3 +1,0 @@
-bike.bmw.com A 160.46.244.49
-callisto.bmw.com A 20.103.233.217
-casa.bmw.com A 160.46.243.81

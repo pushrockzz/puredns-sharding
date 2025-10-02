@@ -1,4 +1,2 @@
-ca-prod.bmwgroup.com
-cargo-auth.bmwgroup.com
+breeze.bmwgroup.com
 casa.bmwgroup.com
-charging.bmwgroup.com
