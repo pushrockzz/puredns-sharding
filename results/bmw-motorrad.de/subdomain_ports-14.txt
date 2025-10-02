@@ -1,2 +1,1 @@
-92mdezonnebloem.bmw-motorrad.de:80
-94-227-184-74access.bmw-motorrad.de:80
+allcustomersupport.bmw-motorrad.de:80

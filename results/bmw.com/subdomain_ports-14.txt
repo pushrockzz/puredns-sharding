@@ -1,2 +1,0 @@
-amc-test.bmw.com:443
-amc-test.bmw.com:80
