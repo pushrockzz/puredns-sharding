@@ -1,1 +1,5 @@
-sms-int.bmwgroup.com A 160.46.248.40
+sgate.bmwgroup.com A 13.33.88.37
+sgate.bmwgroup.com A 13.33.88.38
+sgate.bmwgroup.com A 13.33.88.82
+sgate.bmwgroup.com A 13.33.88.99
+star.bmwgroup.com A 160.46.233.40
