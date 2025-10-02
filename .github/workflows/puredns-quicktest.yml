@@ -179,6 +179,7 @@ jobs:
           key: ${{ runner.os }}-go-cache-${{ github.ref_name }}
           restore-keys: |
             ${{ runner.os }}-go-cache-
+            
       - name: Install Tools
         run: |
           # Installing inscope
@@ -279,8 +280,7 @@ jobs:
       - name: Perform Port Scanning
         shell: bash
         run: |
-          # Disable exit on error to handle failures gracefully
-         
+          
           
           PORTS="ports.txt"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
@@ -337,7 +337,7 @@ jobs:
               
               naabu -l "$MASTER_NON_CDN_IPS" -passive -o "$TMP_NAABU_RUSTSCAN" -no-color -silent || true
               
-              rustscan -a "$MASTER_NON_CDN_IPS" -p "$PORTS" --no-banner -t 5000 --tries 3 -u 50000 --scan-order "Random" -b 300 --greppable --accessible > "$TMP_RUSTSCAN" || true
+              rustscan -a "$MASTER_NON_CDN_IPS" -p "$PORTS" --no-banner -t 7000 --tries 3 -u 50000 --scan-order "Random" -b 300 --greppable --accessible > "$TMP_RUSTSCAN" || true
               
               # Your original processing logic, unchanged
               cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | PATH=$HOME/go/bin:$PATH anew -q "$TMP_NAABU_RUSTSCAN" || true
@@ -529,6 +529,7 @@ jobs:
           done
           echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."
           exit 0
+          
       - name: Clone Fresh Repository
         shell: bash
         run: |
