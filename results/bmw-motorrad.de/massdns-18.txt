@@ -1,10 +1,5 @@
-enterprissss.bmw-motorrad.de A 86.35.3.192
-enterprissss.bmw-motorrad.de A 86.35.3.193
-jyu-march-box.bmw-motorrad.de A 86.35.3.192
-jyu-march-box.bmw-motorrad.de A 86.35.3.193
-sftp-dataeng-development.bmw-motorrad.de A 86.35.3.192
-sftp-dataeng-development.bmw-motorrad.de A 86.35.3.193
-vault-sauto-test.bmw-motorrad.de A 86.35.3.192
-vault-sauto-test.bmw-motorrad.de A 86.35.3.193
-www-ncbi-nlm-nih-gov.bmw-motorrad.de A 86.35.3.192
-www-ncbi-nlm-nih-gov.bmw-motorrad.de A 86.35.3.193
+91f5.bmw-motorrad.de A 198.18.1.225
+fb-feature21-usw2-farm2-dev-6.bmw-motorrad.de A 86.35.3.192
+fb-feature21-usw2-farm2-dev-6.bmw-motorrad.de A 86.35.3.193
+jaeger-ui-reac.bmw-motorrad.de A 198.18.1.102
+stosat-pomp-01.bmw-motorrad.de A 198.18.1.61

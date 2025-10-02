@@ -1,9 +1,3 @@
-baiduspider-180-76-5-17.bmwgroup.com:80
-dcae-msrt-ftl.bmwgroup.com:80
-ec2-msa-vnc.bmwgroup.com:80
-https-universal-teachme-com4-7.bmwgroup.com:80
-ipv4-c002-bma001-telenor-isp.bmwgroup.com:80
-lon3-adhermesproxy-a2.bmwgroup.com:80
-rhsat-prd-cap-prd10-1.bmwgroup.com:80
-s12-preprod-de.bmwgroup.com:80
-triageprofile-tax-aws.bmwgroup.com:80
+205-185-203-4.bmwgroup.com:80
+56-8-8-8.bmwgroup.com:80
+twserve-feb12-personalities-v2.bmwgroup.com:80

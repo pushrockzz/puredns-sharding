@@ -1,10 +1,6 @@
-atl-dev-big-01f.bmw.com:80
-cinl01mstr24rdw.bmw.com:80
-ctilxweb-as-ap.bmw.com:80
-desktop-e2e-testing-96-1.bmw.com:80
-dms-op-apne1.bmw.com:80
-en-gb-it-it-ro-ro-fbjs.bmw.com:80
-event-5-7.bmw.com:80
-piggly.bmw.com:80
-preprod-fca-famar.bmw.com:80
-vmcgrowth1.bmw.com:80
+6-65-3.bmw.com:80
+github-mon2ext-cp1-prd.bmw.com:80
+hegeninvestasi.bmw.com:80
+imdb-news-admin.bmw.com:80
+ingredion.bmw.com:80
+toursartifactory-test-mobile.bmw.com:80
