@@ -568,12 +568,18 @@ jobs:
           exit 0
 
 
-      - name: Pull Latest Results from Repository
+      - name: Clone Fresh Repository with Latest Results
         shell: bash
         run: |
-          echo "Pulling latest committed results from repository..."
-          git config pull.rebase false
-          git pull origin ${{ github.ref_name }} || true
+          echo "Cloning fresh repository to get latest committed results..."
+          
+          # Remove existing repo directory to avoid conflicts
+          cd ..
+          rm -rf ${{ github.event.repository.name }}
+          
+          # Clone the repository with the specific branch
+          git clone --branch ${{ github.ref_name }} --depth 1 https://github.com/${{ github.repository }}.git
+          cd ${{ github.event.repository.name }}
           
           # Verify results directory exists
           if [ -d "results" ]; then
