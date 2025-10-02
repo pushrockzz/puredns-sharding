@@ -1,0 +1,3 @@
+oms093qiqz-1.bmw-motorrad.de:80
+phab-uncover.bmw-motorrad.de:80
+photologs.bmw-motorrad.de:80

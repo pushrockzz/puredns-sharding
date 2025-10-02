@@ -1,0 +1,6 @@
+oms093qiqz-1.bmw-motorrad.de A 86.35.3.192
+oms093qiqz-1.bmw-motorrad.de A 86.35.3.193
+phab-uncover.bmw-motorrad.de A 86.35.3.192
+phab-uncover.bmw-motorrad.de A 86.35.3.193
+photologs.bmw-motorrad.de A 86.35.3.192
+photologs.bmw-motorrad.de A 86.35.3.193
