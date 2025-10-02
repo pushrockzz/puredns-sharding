@@ -1,2 +1,1 @@
-h-135-207-63-74.bmw-motorrad.de:80
-ready-admin-c3.bmw-motorrad.de:80
+h-135-207-57-25.bmw-motorrad.de:80
