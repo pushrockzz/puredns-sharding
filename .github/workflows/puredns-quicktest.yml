@@ -68,7 +68,6 @@ jobs:
       - name: Build filter_wordlist tool
         run: |
           if [ -f "filter_wordlist.go" ]; then go build -o filter_wordlist filter_wordlist.go; fi
-
       - name: Cache Filtered Wordlist
         id: cache-filtered-wordlist
         uses: actions/cache@v3
@@ -115,8 +114,6 @@ jobs:
             resolvers.txt
             resolvers-trusted.txt
             domains/domains.txt
-
-
   generate_matrix:
     name: Generate Dynamic Matrix
     runs-on: ubuntu-latest
@@ -140,7 +137,6 @@ jobs:
             echo "Generated matrix for ${SHARDS_THIS_RUN} shards: $MATRIX_JSON"
             echo "shard_matrix=$MATRIX_JSON" >> $GITHUB_OUTPUT
           fi
-
   brute:
     name: bruteforce-shard (shard ${{ matrix.shard }})
     runs-on: ubuntu-latest
@@ -183,10 +179,8 @@ jobs:
           key: ${{ runner.os }}-go-cache-${{ github.ref_name }}
           restore-keys: |
             ${{ runner.os }}-go-cache-
-
       - name: Install Tools
         run: |
-
           # Installing inscope
           if ! command -v inscope >/dev/null; then
             echo "Installing inscope…"
@@ -210,8 +204,6 @@ jobs:
               --write "${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt" \
               --write-wildcards "${ROOT_DOMAIN_DIR}/wildcards-${CHUNK_INDEX}.txt" \
               --write-massdns "${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt" --quiet
-
-
             PUREDNS_FILE="${ROOT_DOMAIN_DIR}/puredns-output-${CHUNK_INDEX}.txt"
             MASSDNS_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
           
@@ -283,58 +275,49 @@ jobs:
             rm -rf "$DOMAIN_TMPDIR"
           
           done < "domains/domains.txt"
-
       - name: Perform Port Scanning
         shell: bash
         run: |
           # Disable exit on error to handle failures gracefully
-                   
-          PORTS="1,43,49,70,79,80,81,82,83,84,85,88,102,104,113,135,139,143,175,179,195,264,280,389,443,444,505,515,548,554,591,631,771,783,789,888,898,900,901,993,995,1026,1080,1099,1153,1177,1200,1214,1220,1234,1311,1314,1344,1433,1503,1515,1521,1599,1723,1830,1900,1962,2000,2001,2002,2030,2064,2081,2087,2181,2222,2306,2345,2404,2455,2525,2715,2761,2762,3000,3001,3002,3052,3128,3260,3299,3310,3388,3389,3460,3531,3689,4000,4157,4242,4369,4443,4444,4500,4567,4711,4786,4899,5000,5001,5007,5009,5010,5025,5060,5222,5269,5280,5427,5432,5672,5800,5801,5802,5900,5938,6000,6001,6103,6346,6544,6600,6668,6699,6969,7002,7007,7070,7100,7171,7415,7776,8000,8001,8002,8003,8004,8005,8006,8007,8008,8009,8010,8080,8081,8082,8083,8084,8085,8087,8088,8118,8126,8181,8291,8443,8880,8881,8882,8883,8884,8885,8886,8887,8888,9000,9001,9002,9003,9030,9050,9080,9090,9100,9530,9600,9633,9999,10000,10001,10005,10134,11112,12345,13013,13666,15000,18245,20000,20256,20547,21379,25001,25565,31337,35000,37777,44818,50000,54138,55000,55555,60129"
+         
+          
+          PORTS="80,443,8080,8443,8000"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           
           # Create a single, global temporary directory for this entire step's operations
           GLOBAL_TMPDIR=$(mktemp -d)
           # This 'trap' command ensures the temporary directory is automatically deleted when the step exits
           trap 'rm -rf "$GLOBAL_TMPDIR"' EXIT
-
           # --- PHASE 1: AGGREGATE ALL TARGETS ---
           echo "PHASE 1: Aggregating all targets from all domains..."
           
           # Define paths for our new master files inside the safe temporary directory
           MASTER_IP_TO_SUBDOMAIN_MAP="${GLOBAL_TMPDIR}/master_ip_to_subdomain.txt"
           MASTER_UNIQUE_IPS="${GLOBAL_TMPDIR}/master_unique_ips.txt"
-
           # Initialize empty files
           : > "$MASTER_IP_TO_SUBDOMAIN_MAP"
-
           # Loop through domains for the sole purpose of collecting IPs and mapping them.
           while IFS= read -r domain || [ -n "$domain" ]; do
               case "$domain" in \#*|"") continue ;; esac
               ROOT_DOMAIN_DIR="results/$domain"
               MASSDNS_INPUT_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
-
               if [ ! -s "$MASSDNS_INPUT_FILE" ]; then
                   continue
               fi
-
               # Read the massdns file, clean it, and create a map of "IP SUBDOMAIN".
               # Append this to our master map file. This preserves the crucial link.
               awk 'NF>=3 && $2=="A" { host=$1; sub(/\.$/,"",host); print $3, host }' "$MASSDNS_INPUT_FILE" \
                 | sort -u >> "$MASTER_IP_TO_SUBDOMAIN_MAP" || true
           done < "domains/domains.txt"
-
           if [ ! -s "$MASTER_IP_TO_SUBDOMAIN_MAP" ]; then
               echo "⚠️  No IPs found across any domains. Exiting port scanning step."
               exit 0
           fi
-
           # Create the master list of unique IPs to be scanned from our map.
           cut -d' ' -f1 "$MASTER_IP_TO_SUBDOMAIN_MAP" | sort -u > "$MASTER_UNIQUE_IPS" || true
           echo "✅ Phase 1 Complete: Collected $(wc -l < "$MASTER_UNIQUE_IPS" 2>/dev/null || echo 0) unique IPs from $(wc -l < "$MASTER_IP_TO_SUBDOMAIN_MAP" 2>/dev/null || echo 0) total mappings."
-
           # --- PHASE 2: PERFORM A SINGLE, CONSOLIDATED SCAN ---
           echo "PHASE 2: Performing one consolidated scan..."
-
           MASTER_NON_CDN_IPS="${GLOBAL_TMPDIR}/master_non_cdn.txt"
           MASTER_SCAN_RESULTS="${GLOBAL_TMPDIR}/master_scan_results.txt"
           
@@ -343,7 +326,6 @@ jobs:
           
           # Run CDN check ONCE on the master IP list
           cat "$MASTER_UNIQUE_IPS" | cut-cdn -ua -t 50 -silent -o "$MASTER_NON_CDN_IPS" || true
-
           # If any non-CDN IPs exist, run the scanners ONCE
           if [ -s "$MASTER_NON_CDN_IPS" ]; then
               echo "  -> Scanning $(wc -l < "$MASTER_NON_CDN_IPS" 2>/dev/null || echo 0) non-CDN IPs..."
@@ -352,7 +334,7 @@ jobs:
               
               # Your original tool commands, unchanged
               naabu -l "$MASTER_NON_CDN_IPS" -passive -o "$TMP_NAABU_RUSTSCAN" -no-color -silent || true
-              rustscan -a "$MASTER_NON_CDN_IPS" -p "$PORTS" --no-banner -t 5000 -b 300 --tries 3 --scan-order "Random" --greppable --accessible > "$TMP_RUSTSCAN" || true
+              rustscan -a "$MASTER_NON_CDN_IPS" -p "$PORTS" --no-banner -t 5000 -b 300 --greppable > "$TMP_RUSTSCAN" || true
               
               # Your original processing logic, unchanged
               cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | PATH=$HOME/go/bin:$PATH anew -q "$TMP_NAABU_RUSTSCAN" || true
@@ -373,7 +355,6 @@ jobs:
           fi
           
           echo "✅ Phase 2 Complete: Scan finished ($(wc -l < "$MASTER_SCAN_RESULTS" 2>/dev/null || echo 0) total IP-port combinations)."
-
           # --- PHASE 3: DISTRIBUTE RESULTS ---
           echo "PHASE 3: Distributing results to domain directories..."
           
@@ -408,7 +389,6 @@ jobs:
               awk -v domain="$domain" '
                 $2 == domain || $2 ~ "\\." domain "$" { print $0 }
               ' "$MASTER_MAP_SORTED" > "$DOMAIN_MAP_TMP" 2>/dev/null || true
-
               if [ ! -s "$DOMAIN_MAP_TMP" ]; then
                   echo "  -> ⚠️  Skipping $domain (no IPs found in master map)"
                   DOMAINS_SKIPPED=$((DOMAINS_SKIPPED + 1)) || true
@@ -433,7 +413,6 @@ jobs:
                     }
                   }' 2>/dev/null | \
                 sort -u > "$OUTPUT_FILE" 2>/dev/null || true
-
               if [ -s "$OUTPUT_FILE" ]; then
                   LINE_COUNT=$(wc -l < "$OUTPUT_FILE" 2>/dev/null || echo 0)
                   echo "  -> ✅ Generated $OUTPUT_FILE for $domain ($LINE_COUNT entries)"
@@ -477,7 +456,6 @@ jobs:
           done
           
           echo "✅ Sanitization complete for shard ${CHUNK_INDEX}."     
-
       - name: Commit Shard-Specific Results
         shell: bash
         env:
@@ -547,12 +525,9 @@ jobs:
           done
           echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."
           exit 0
-
-
       - name: Clone Fresh Repository
         shell: bash
         run: |
-        
           echo "Cloning repository to get committed subdomain_ports files..."
           
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
@@ -631,7 +606,7 @@ jobs:
           else
               echo "⚠️  No targets found for shard ${{ matrix.shard }}"
           fi
-
+      
       - name: Run HTTPx Scan
         shell: bash
         run: |
@@ -670,12 +645,11 @@ jobs:
               : > "$HTTPX_OUTPUT"
           fi
       
-      
-      
       - name: Distribute HTTPx Results to Domain Directories
         shell: bash
         run: |
-                    
+          
+          
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           HTTPX_OUTPUT="httpx-work/httpx-output-${CHUNK_INDEX}.txt"
           DOMAIN_MAP="httpx-work/domain-map-${CHUNK_INDEX}.txt"
@@ -743,7 +717,6 @@ jobs:
           done
           
           echo "✅ Distributed $PROCESSED_COUNT URLs to domain directories (shard ${{ matrix.shard }})"
-
       - name: Commit HTTPx Results
         shell: bash
         env:
@@ -759,34 +732,28 @@ jobs:
           cd "$TMP_DIR"
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
-
           # This function is for merging the new data into the repository
           merge_new_data() {
               local source_file="$1"
               local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
               local dest_file="$TMP_DIR/results/$relative_path"
               mkdir -p "$(dirname "$dest_file")"
-
               # Append new results and then sort unique
               cat "$source_file" >> "$dest_file.tmp"
               sort -u "$dest_file.tmp" > "$dest_file"
               rm "$dest_file.tmp"
           }
-
           # Find and process only the httpx_results files
           while IFS= read -r -d $'\0' file; do
               echo "  -> Merging $file into repository's results/ directory"
               merge_new_data "$file"
           done < <(find "$SOURCE_RESULTS_DIR" -type f -name "httpx_results-${CHUNK_INDEX}.txt" -print0)
-
           git add results/
           if git diff --staged --quiet; then
               echo "No new unique httpx data to commit for shard ${CHUNK_INDEX}."
               exit 0
           fi
-
           git commit -m "feat: Add httpx results from shard ${CHUNK_INDEX}"
-
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
               echo "[Attempt $i/$MAX_ATTEMPTS] Pushing httpx results for shard ${CHUNK_INDEX}..."
@@ -797,18 +764,24 @@ jobs:
               echo "Push failed. Retrying in $(( 5 * i )) seconds..."
               sleep $(( 5 * i ))
           done
-
           echo "::error:: All push attempts failed for httpx results from shard ${CHUNK_INDEX}."
           exit 0
-
-
       - name: Upload HTTPx Results for This Shard
         uses: actions/upload-artifact@v4
         with:
           name: httpx-results-${{ matrix.shard }}
-          path: results/**/httpx_results-*.txt
+          path: results/**/*.httpx_results-*.txt
           retention-days: 1          
+      
+      - name: Upload HTTPx Results for This Shard
+        uses: actions/upload-artifact@v4
+        with:
+          name: httpx-results-${{ matrix.shard }}
+          path: results/
+          retention-days: 1
+      
 
+  
   dispatch-next:
     name: dispatch-next-run
     runs-on: ubuntu-latest
