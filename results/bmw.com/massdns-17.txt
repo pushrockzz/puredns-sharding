@@ -1,0 +1,8 @@
+162-9-3-1.bmw.com A 86.35.3.192
+162-9-3-1.bmw.com A 86.35.3.193
+36-7-7.bmw.com A 86.35.3.192
+36-7-7.bmw.com A 86.35.3.193
+ec2-lux-api-cpt62.bmw.com A 86.35.3.192
+ec2-lux-api-cpt62.bmw.com A 86.35.3.193
+sto5-harvestertranscoder-a28.bmw.com A 86.35.3.192
+sto5-harvestertranscoder-a28.bmw.com A 86.35.3.193
