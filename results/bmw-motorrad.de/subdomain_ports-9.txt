@@ -1,1 +1,6 @@
-flashparcs.bmw-motorrad.de:80
+fcpt2-1.bmw-motorrad.de:80
+fhclm.bmw-motorrad.de:80
+gbusinessit.bmw-motorrad.de:80
+github00-0.bmw-motorrad.de:80
+grandwashington.bmw-motorrad.de:80
+graph-00-4.bmw-motorrad.de:80
