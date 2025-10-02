@@ -1,0 +1,2 @@
+karriere.bmwgroup.com:443
+karriere.bmwgroup.com:80
