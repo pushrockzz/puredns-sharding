@@ -488,27 +488,19 @@ jobs:
         run: |
           SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
-
-
-
           TMP_DIR=$(mktemp -d)
           echo "Cloning ${GIT_REPO} into temporary directory ${TMP_DIR}..."
           git clone --depth 1 "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" --branch "$GIT_BRANCH" "$TMP_DIR"
           cd "$TMP_DIR"
-
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
-
-          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n"
-
+          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -not -name 'puredns-output-*.txt' -printf "%p %s bytes\n"
           merge_new_data() {
                     local source_file="$1"
                     local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
                     local dest_file="$TMP_DIR/results/$relative_path"
-
                     mkdir -p "$(dirname "$dest_file")"
                     TEMP_MERGED=$(mktemp)
-
                     if [[ "$source_file" == *"massdns-"* ]]; then
                               # For massdns: we expect the source to be already filtered (see bruteforce step).
                               # Overwrite dest with the cleaned source (dedupe defensively).
@@ -517,19 +509,15 @@ jobs:
                               # For other result types, sort-unique the source and write it as authoritative.
                               sort -u "$source_file" > "$TEMP_MERGED"
                     fi
-
                     mv "$TEMP_MERGED" "$dest_file"
           }
-
           while IFS= read -r -d $'\0' file; do
                     echo "  -> Merging $file into repository's results/ directory"
                     merge_new_data "$file"
-          done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print0)
-
+          done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -not -name 'puredns-output-*.txt' -print0)
           echo "DEBUG: Files found under SOURCE_RESULTS_DIR before merge:"
-          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n" || \
-            find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -exec stat -c '%n %s bytes' {} +
-
+          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -not -name 'puredns-output-*.txt' -printf "%p %s bytes\n" || \
+            find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -not -name 'puredns-output-*.txt' -exec stat -c '%n %s bytes' {} +
           # show first/last 5 lines for large files to inspect unexpected content
           find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -size +1k -print0 | while IFS= read -r -d '' f; do
                     echo "== $f (head) =="
@@ -537,22 +525,17 @@ jobs:
                     echo "== $f (tail) =="
                     tail -n5 "$f" || true
           done
-
           # repository-side view: what results/ files already exist in the cloned repo
           echo "DEBUG: repository results/ tree (in $TMP_DIR) before merge (ls -l):"
           ls -l "$TMP_DIR/results" 2>/dev/null || true
           git -C "$TMP_DIR" status --porcelain --untracked-files=no || true
           git -C "$TMP_DIR" ls-files -s results/** 2>/dev/null || true
-
           git add results/
-
           if git diff --staged --quiet; then
                     echo "No new unique data to commit for shard ${CHUNK_INDEX} after merging."
                     exit 0
           fi
-
           git commit -m "feat: Update results from shard ${CHUNK_INDEX}"
-
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
                     echo "[Attempt $i/$MAX_ATTEMPTS] Pushing results for shard ${CHUNK_INDEX}..."
@@ -563,7 +546,6 @@ jobs:
                     echo "Push failed. Retrying in $(( 5 * i )) seconds..."
                     sleep $(( 5 * i ))
           done
-
           echo "::error:: All push attempts failed for shard ${CHUNK_INDEX}."
           exit 0
 
@@ -760,6 +742,71 @@ jobs:
           done
           
           echo "✅ Distributed $PROCESSED_COUNT URLs to domain directories (shard ${{ matrix.shard }})"
+
+      - name: Commit HTTPx Results
+        shell: bash
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GIT_REPO: ${{ github.repository }}
+          GIT_BRANCH: ${{ github.ref_name }}
+        run: |
+          SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
+          CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
+          TMP_DIR=$(mktemp -d)
+          echo "Cloning ${GIT_REPO} into temporary directory ${TMP_DIR} for HTTPx results..."
+          git clone --depth 1 "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" --branch "$GIT_BRANCH" "$TMP_DIR"
+          cd "$TMP_DIR"
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions-bot@users.noreply.github.com"
+
+          # This function is for merging the new data into the repository
+          merge_new_data() {
+              local source_file="$1"
+              local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
+              local dest_file="$TMP_DIR/results/$relative_path"
+              mkdir -p "$(dirname "$dest_file")"
+
+              # Append new results and then sort unique
+              cat "$source_file" >> "$dest_file.tmp"
+              sort -u "$dest_file.tmp" > "$dest_file"
+              rm "$dest_file.tmp"
+          }
+
+          # Find and process only the httpx_results files
+          while IFS= read -r -d $'\0' file; do
+              echo "  -> Merging $file into repository's results/ directory"
+              merge_new_data "$file"
+          done < <(find "$SOURCE_RESULTS_DIR" -type f -name "httpx_results-${CHUNK_INDEX}.txt" -print0)
+
+          git add results/
+          if git diff --staged --quiet; then
+              echo "No new unique httpx data to commit for shard ${CHUNK_INDEX}."
+              exit 0
+          fi
+
+          git commit -m "feat: Add httpx results from shard ${CHUNK_INDEX}"
+
+          MAX_ATTEMPTS=5
+          for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
+              echo "[Attempt $i/$MAX_ATTEMPTS] Pushing httpx results for shard ${CHUNK_INDEX}..."
+              if git pull --rebase origin "$GIT_BRANCH" && git push origin "$GIT_BRANCH"; then
+                  echo "✅ Successfully pushed httpx results for shard ${CHUNK_INDEX}."
+                  exit 0
+              fi
+              echo "Push failed. Retrying in $(( 5 * i )) seconds..."
+              sleep $(( 5 * i ))
+          done
+
+          echo "::error:: All push attempts failed for httpx results from shard ${CHUNK_INDEX}."
+          exit 0
+
+
+      - name: Upload HTTPx Results for This Shard
+        uses: actions/upload-artifact@v4
+        with:
+          name: httpx-results-${{ matrix.shard }}
+          path: results/**/*.httpx_results-*.txt
+          retention-days: 1          
       
       - name: Upload HTTPx Results for This Shard
         uses: actions/upload-artifact@v4
