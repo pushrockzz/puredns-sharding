@@ -1,4 +1,1 @@
-iwres-ic3.bmw.com A 86.35.3.192
-iwres-ic3.bmw.com A 86.35.3.193
-jardiland.bmw.com A 86.35.3.192
-jardiland.bmw.com A 86.35.3.193
+itms.bmw.com A 160.46.240.49
