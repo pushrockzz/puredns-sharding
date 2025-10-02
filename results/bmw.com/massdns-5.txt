@@ -1,8 +1,1 @@
-opusa22-cookies.bmw.com A 74.220.199.6
-origin-distribution.bmw.com A 74.220.199.6
-out-lon.bmw.com A 74.220.199.6
-p03-drivews-ic1.bmw.com A 74.220.199.6
-p165-ckshare-china.bmw.com A 74.220.199.6
-p202-caldav-ic2.bmw.com A 74.220.199.6
-payway.bmw.com A 74.220.199.6
-peer0.bmw.com A 74.220.199.6
+opal.bmw.com A 160.46.240.206

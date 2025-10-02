@@ -1,5 +1,2 @@
-origin-dev-jira.bmw-motorrad.de A 125.235.4.59
-output-transformer18.bmw-motorrad.de A 125.235.4.59
-p48-mcc.bmw-motorrad.de A 74.220.199.6
-pctesting.bmw-motorrad.de A 74.220.199.6
-pdk1fuel1.bmw-motorrad.de A 74.220.199.6
+p56-fmipmail.bmw-motorrad.de A 125.235.4.59
+personalization-stg.bmw-motorrad.de A 198.18.1.190

@@ -1,9 +1,0 @@
-p48-mcc.bmw-motorrad.de:10050
-p48-mcc.bmw-motorrad.de:123
-p48-mcc.bmw-motorrad.de:80
-pctesting.bmw-motorrad.de:10050
-pctesting.bmw-motorrad.de:123
-pctesting.bmw-motorrad.de:80
-pdk1fuel1.bmw-motorrad.de:10050
-pdk1fuel1.bmw-motorrad.de:123
-pdk1fuel1.bmw-motorrad.de:80

@@ -1,1 +1,3 @@
 opus.bmwgroup.com
+pixi.bmwgroup.com:443
+pixi.bmwgroup.com:80
