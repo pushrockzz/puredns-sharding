@@ -1,1 +1,2 @@
 strong.bmw.com A 160.46.233.226
+telex.bmw.com A 170.34.104.168
