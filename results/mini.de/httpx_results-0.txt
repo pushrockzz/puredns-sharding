@@ -1,4 +1,5 @@
 http://berlin.mini.de
+http://frankfurt.mini.de
 http://goto.mini.de
 http://hamburg.mini.de
 http://kassel.mini.de
@@ -6,11 +7,13 @@ http://leipzig.mini.de
 http://leipzig.mini.de:443
 http://link.mini.de
 http://mannheim.mini.de
+http://origin.mini.de
 http://rent.mini.de
 http://stuttgart.mini.de
 http://subscribe.mini.de
 https://hamburg.mini.de
 https://kassel.mini.de
+https://leipzig.mini.de
 https://mannheim.mini.de
 https://rent.mini.de
 https://stuttgart.mini.de

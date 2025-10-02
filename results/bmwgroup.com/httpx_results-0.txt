@@ -1,9 +1,17 @@
+http://boss.bmwgroup.com
+http://education.bmwgroup.com
+http://education.bmwgroup.com:443
 http://mein.bmwgroup.com
+http://mypage.bmwgroup.com
 http://onboarding.bmwgroup.com
 http://origin.bmwgroup.com
 http://poco.bmwgroup.com
 http://press.bmwgroup.com
+http://redirect.bmwgroup.com
+https://csms.bmwgroup.com
+https://csms.bmwgroup.com:80
 https://mein.bmwgroup.com
 https://onboarding.bmwgroup.com
 https://poco.bmwgroup.com
 https://press.bmwgroup.com
+https://sync.bmwgroup.com
