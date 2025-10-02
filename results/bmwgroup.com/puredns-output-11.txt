@@ -1,4 +1,2 @@
 codis.bmwgroup.com
-configure.bmwgroup.com
-cube.bmwgroup.com
-dems.bmwgroup.com
+crowdinnovation.bmwgroup.com
