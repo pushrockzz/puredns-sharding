@@ -1,5 +1,6 @@
 berlin.bmw-motorrad.de A 160.46.231.24
-frankfurt.bmw-motorrad.de A 160.46.244.117
+ecom.bmw-motorrad.de A 160.46.244.245
 hamburg.bmw-motorrad.de A 160.46.231.24
 kassel.bmw-motorrad.de A 160.46.231.24
-news.bmw-motorrad.de A 161.71.33.242
+master.bmw-motorrad.de A 160.46.244.117
+stuttgart.bmw-motorrad.de A 160.46.231.24
