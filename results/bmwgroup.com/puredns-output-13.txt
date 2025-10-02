@@ -1,2 +1,4 @@
 apim-dev.bmwgroup.com
+apiportal.bmwgroup.com
 auth-t.bmwgroup.com
+b2bconnect.bmwgroup.com
