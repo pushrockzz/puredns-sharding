@@ -1,4 +1,9 @@
-162-9-3-1.bmw.com:80
-36-7-7.bmw.com:80
-ec2-lux-api-cpt62.bmw.com:80
-sto5-harvestertranscoder-a28.bmw.com:80
+85-7-16.bmw.com:80
+ash2-adserverproxy-a11.bmw.com:161
+awzn-zbvpnkroutrf6l4g.bmw.com:80
+baiduspider-180-76-5-83.bmw.com:80
+beachfront-gamma-na-technician.bmw.com:80
+corbin-axiom-5.bmw.com:80
+lef25-1-gra.bmw.com:80
+ready-silver-develop.bmw.com:80
+sdcb-conexus-psl-01.bmw.com:80

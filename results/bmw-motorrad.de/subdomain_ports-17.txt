@@ -1,3 +1,4 @@
-browse-classification-20jan.bmw-motorrad.de:80
-h135-197-239-71.bmw-motorrad.de:80
-ip-139-7.bmw-motorrad.de:80
+65-34-5.bmw-motorrad.de:80
+peugeot-horizon-7.bmw-motorrad.de:80
+pulsar-luna-useast1-staging.bmw-motorrad.de:80
+uat-tfm-platform-preview-api.bmw-motorrad.de:80
