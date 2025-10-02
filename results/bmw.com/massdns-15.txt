@@ -1,2 +1,2 @@
-167-20.bmw.com A 125.235.4.59
-v2error-serviceoceania-mx.bmw.com A 125.235.4.59
+api-any-ausw2b.bmw.com A 86.35.3.192
+api-any-ausw2b.bmw.com A 86.35.3.193
