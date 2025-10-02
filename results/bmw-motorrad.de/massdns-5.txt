@@ -1,10 +1,6 @@
-opusa41-cookies.bmw-motorrad.de A 86.35.3.192
-opusa41-cookies.bmw-motorrad.de A 86.35.3.193
-p125-docws-china.bmw-motorrad.de A 86.35.3.192
-p125-docws-china.bmw-motorrad.de A 86.35.3.193
-p168-iwmb-china.bmw-motorrad.de A 86.35.3.192
-p168-iwmb-china.bmw-motorrad.de A 86.35.3.193
-peekytoe.bmw-motorrad.de A 86.35.3.192
-peekytoe.bmw-motorrad.de A 86.35.3.193
-pgg3u0.bmw-motorrad.de A 86.35.3.192
-pgg3u0.bmw-motorrad.de A 86.35.3.193
+origin-int6-software.bmw-motorrad.de A 86.35.3.192
+origin-int6-software.bmw-motorrad.de A 86.35.3.193
+p05-iwmb6-china.bmw-motorrad.de A 86.35.3.192
+p05-iwmb6-china.bmw-motorrad.de A 86.35.3.193
+p119-fmipweb.bmw-motorrad.de A 86.35.3.192
+p119-fmipweb.bmw-motorrad.de A 86.35.3.193
