@@ -275,13 +275,14 @@ jobs:
             rm -rf "$DOMAIN_TMPDIR"
           
           done < "domains/domains.txt"
+          
       - name: Perform Port Scanning
         shell: bash
         run: |
           # Disable exit on error to handle failures gracefully
          
           
-          PORTS="80,443,8080,8443,8000"
+          PORTS="ports.txt"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           
           # Create a single, global temporary directory for this entire step's operations
@@ -458,6 +459,7 @@ jobs:
           done
           
           echo "✅ Sanitization complete for shard ${CHUNK_INDEX}."     
+          
       - name: Commit Shard-Specific Results
         shell: bash
         env:
