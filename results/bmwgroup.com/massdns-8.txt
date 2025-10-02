@@ -1,14 +1,1 @@
-gs4jcoakgi-2.bmwgroup.com A 198.18.1.239
-gsp3-2-ls-nwk.bmwgroup.com A 198.18.1.226
-gw04.bmwgroup.com A 198.18.1.187
-gwd06nob5mmedia.bmwgroup.com A 198.18.1.39
-haberdasherspic.bmwgroup.com A 198.18.1.26
-hcformulationcf-q.bmwgroup.com A 198.18.1.58
-holy-es17.bmwgroup.com A 198.18.1.144
-host-213-248-201-70.bmwgroup.com A 198.18.1.62
-hricaud.bmwgroup.com A 198.18.1.31
-iad2v5pass.bmwgroup.com A 198.18.1.76
-iframeheaders.bmwgroup.com A 125.235.4.59
-incae.bmwgroup.com A 198.18.1.165
-indidocs.bmwgroup.com A 198.18.1.150
-ipv4-c057-lax009-ix.bmwgroup.com A 198.18.1.96
+heidi.bmwgroup.com A 160.46.233.73
