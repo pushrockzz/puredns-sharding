@@ -1,0 +1,3 @@
+vipweb.bmw.com:443
+vipweb.bmw.com:80
+vpn22.bmw.com:443

@@ -1,0 +1,5 @@
+webservice.mini.de:443
+webservice.mini.de:80
+webservice.mini.de:8443
+winter.mini.de:443
+winter.mini.de:80
