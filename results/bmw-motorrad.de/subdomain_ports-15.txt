@@ -1,0 +1,5 @@
+178-92.bmw-motorrad.de:80
+61c9cfaa.bmw-motorrad.de:80
+api-glb-use1a.bmw-motorrad.de:80
+h-135-207-182-37.bmw-motorrad.de:80
+v1-secure-dev.bmw-motorrad.de:80
