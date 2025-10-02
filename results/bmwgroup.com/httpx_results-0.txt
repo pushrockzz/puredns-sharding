@@ -1,3 +1,5 @@
+http://admin.bmwgroup.com
+http://atlas.bmwgroup.com
 http://boss.bmwgroup.com
 http://education.bmwgroup.com
 http://education.bmwgroup.com:443
@@ -8,10 +10,15 @@ http://origin.bmwgroup.com
 http://poco.bmwgroup.com
 http://press.bmwgroup.com
 http://redirect.bmwgroup.com
+http://timi.bmwgroup.com
+https://admin.bmwgroup.com
+https://atlas.bmwgroup.com
 https://csms.bmwgroup.com
 https://csms.bmwgroup.com:80
+https://education.bmwgroup.com
 https://mein.bmwgroup.com
 https://onboarding.bmwgroup.com
 https://poco.bmwgroup.com
 https://press.bmwgroup.com
 https://sync.bmwgroup.com
+https://timi.bmwgroup.com

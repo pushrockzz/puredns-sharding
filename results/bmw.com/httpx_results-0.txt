@@ -13,4 +13,5 @@ https://cert.bmw.com
 https://lifestyle.bmw.com
 https://lima.bmw.com
 https://loki.bmw.com
+https://vpn2.bmw.com
 https://workflow.bmw.com
