@@ -634,8 +634,6 @@ jobs:
       - name: Run HTTPx Scan
         shell: bash
         run: |
-
-
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           HTTPX_INPUT="httpx-work/httpx-input-${CHUNK_INDEX}.txt"
           HTTPX_OUTPUT="httpx-work/httpx-output-${CHUNK_INDEX}.txt"
@@ -648,8 +646,9 @@ jobs:
           TARGET_COUNT=$(wc -l < "$HTTPX_INPUT" 2>/dev/null || echo 0)
           echo "Running HTTPx on shard ${{ matrix.shard }} with $TARGET_COUNT targets..."
 
-          # Run HTTPx with -o flag
-          cat "$HTTPX_INPUT" | httpx \
+          # Run HTTPx with -l (list) flag for input and -o for output
+          httpx \
+            -l "$HTTPX_INPUT" \
             -status-code \
             -content-length \
             -title \
@@ -657,6 +656,7 @@ jobs:
             -threads 100 \
             -timeout 10 \
             -retries 1 \
+            -rate-limit 150 \
             -o "$HTTPX_OUTPUT" \
             -silent
 
