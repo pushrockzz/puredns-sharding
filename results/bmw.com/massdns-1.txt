@@ -1,5 +1,5 @@
 vdms.bmw.com A 160.46.243.208
+vip-int.bmw.com A 160.48.213.171
 vipweb.bmw.com A 160.46.240.66
-vpn12.bmw.com A 193.23.33.15
 vpn22.bmw.com A 193.23.39.12
 workflow-dev.bmw.com A 160.48.212.194
