@@ -1,8 +1,1 @@
-amirasplatinum.bmwgroup.com A 74.220.199.6
-an-african-friend.bmwgroup.com A 74.220.199.6
-angelajbejave.bmwgroup.com A 74.220.199.6
-antivirus-ukorigin.bmwgroup.com A 74.220.199.6
-anuradhatiwari.bmwgroup.com A 74.220.199.6
-astranslatest.bmwgroup.com A 74.220.199.6
-bambuser.bmwgroup.com A 74.220.199.6
-beta-london.bmwgroup.com A 74.220.199.6
+beacon.bmwgroup.com A 160.46.231.66

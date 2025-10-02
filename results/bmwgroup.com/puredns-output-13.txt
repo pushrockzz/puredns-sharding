@@ -1,0 +1,3 @@
+apiportal.bmwgroup.com
+b2bconnect.bmwgroup.com
+beacon.bmwgroup.com
