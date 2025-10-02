@@ -1,2 +1,4 @@
+vpnweb.bmwgroup.com:443
+vpnweb.bmwgroup.com:80
 webshop-test.bmwgroup.com:443
 webshop-test.bmwgroup.com:80

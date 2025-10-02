@@ -1,2 +1,4 @@
+vpnweb.bmwgroup.com
+web-test.bmwgroup.com
+webservice.bmwgroup.com
 webshop-test.bmwgroup.com
-wwwtest.bmwgroup.com

@@ -1,1 +1,2 @@
+vpnweb.bmwgroup.com A 160.46.231.45
 webshop-test.bmwgroup.com A 160.46.225.155
