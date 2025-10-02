@@ -1,2 +1,4 @@
+bremen.bmw-motorrad.de:443
+bremen.bmw-motorrad.de:80
 chemnitz.bmw-motorrad.de:443
 chemnitz.bmw-motorrad.de:80
