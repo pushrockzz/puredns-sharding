@@ -1,10 +1,1 @@
-planfy.bmw-motorrad.de:80
-private-osmail.bmw-motorrad.de:80
-przygody-reksia-remastered.bmw-motorrad.de:80
-psnext.bmw-motorrad.de:80
-qprd.bmw-motorrad.de:80
-quoteapi.bmw-motorrad.de:80
-qwantbot-93-162-242-91.bmw-motorrad.de:80
-r2scft32et-builds.bmw-motorrad.de:80
-redirectdownload.bmw-motorrad.de:80
-redis48-5.bmw-motorrad.de:80
+ritchierose.bmw-motorrad.de:80

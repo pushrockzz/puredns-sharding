@@ -1,2 +1,4 @@
 plw-prod.bmwgroup.com A 160.46.235.195
 poc2.bmwgroup.com A 160.46.225.65
+poma.bmwgroup.com A 160.46.243.89
+proxy11.bmwgroup.com A 193.23.33.141

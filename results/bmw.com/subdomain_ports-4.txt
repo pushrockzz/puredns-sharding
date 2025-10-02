@@ -1,2 +1,1 @@
-plw-prod.bmw.com:443
-plw-prod.bmw.com:80
+rhino-wwadonis.bmw.com:80
