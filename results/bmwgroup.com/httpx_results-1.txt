@@ -1,0 +1,4 @@
+http://vpnweb.bmwgroup.com
+http://webshop-test.bmwgroup.com
+https://vpnweb.bmwgroup.com
+https://webshop-test.bmwgroup.com
