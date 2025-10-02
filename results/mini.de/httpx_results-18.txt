@@ -1,0 +1,4 @@
+http://hartmann.mini.de
+http://saarland.mini.de
+https://hartmann.mini.de
+https://saarland.mini.de
