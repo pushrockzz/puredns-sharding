@@ -1,2 +1,2 @@
 securelogin.bmw.com
-sera.bmw.com
+sftpcontent.bmw.com
