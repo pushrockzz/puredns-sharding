@@ -1,6 +1,0 @@
-h-135-197-231-33.bmw-motorrad.de:10050
-h-135-197-231-33.bmw-motorrad.de:123
-h-135-197-231-33.bmw-motorrad.de:80
-wc-jobs-demo-lb01s.bmw-motorrad.de:10050
-wc-jobs-demo-lb01s.bmw-motorrad.de:123
-wc-jobs-demo-lb01s.bmw-motorrad.de:80
