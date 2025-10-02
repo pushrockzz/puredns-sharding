@@ -1,2 +1,3 @@
-lisa.bmwgroup.com
+jobs-test.bmwgroup.com
 mail11.bmwgroup.com
+mail12.bmwgroup.com
