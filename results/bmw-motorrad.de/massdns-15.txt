@@ -1,3 +1,11 @@
-6e49c.bmw-motorrad.de A 125.235.4.59
-72dq8qucri-dsn.bmw-motorrad.de A 74.220.199.6
-cachehelpdesk-mx-corporate.bmw-motorrad.de A 74.220.199.6
+127-0-0-1.bmw-motorrad.de A 198.18.1.120
+14qjgk812kgk-1.bmw-motorrad.de A 198.18.1.126
+1config.bmw-motorrad.de A 198.18.1.24
+1dokumkapak1.bmw-motorrad.de A 198.18.1.68
+1doo.bmw-motorrad.de A 198.18.1.67
+30-static.bmw-motorrad.de A 198.18.1.162
+64-6-17-47.bmw-motorrad.de A 198.18.1.31
+corp-apps-secdev-12.bmw-motorrad.de A 198.18.1.38
+gh-160-136-114-68.bmw-motorrad.de A 198.18.1.183
+tor334-408-grc.bmw-motorrad.de A 198.18.1.159
+usw1-1-pci.bmw-motorrad.de A 198.18.1.37
