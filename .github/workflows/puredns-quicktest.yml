@@ -489,10 +489,7 @@ jobs:
           SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
 
-          if ! find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -print -quit | grep -q .; then
-                    echo "No result files found for shard ${CHUNK_INDEX}. Nothing to commit."
-                    exit 0
-          fi
+
 
           TMP_DIR=$(mktemp -d)
           echo "Cloning ${GIT_REPO} into temporary directory ${TMP_DIR}..."
@@ -646,8 +643,8 @@ jobs:
             -status-code \
             -content-length \
             -title \
-            -tech-detect \
-            -follow-redirects \
+            
+            
             -threads 50 \
             -timeout 10 \
             -retries 2 \
