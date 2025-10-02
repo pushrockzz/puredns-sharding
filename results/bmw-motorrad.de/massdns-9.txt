@@ -1,2 +1,6 @@
-greece0.bmw-motorrad.de A 86.35.3.192
-greece0.bmw-motorrad.de A 86.35.3.193
+flashparcs.bmw-motorrad.de A 86.35.3.192
+flashparcs.bmw-motorrad.de A 86.35.3.193
+gcore-sbx02.bmw-motorrad.de A 198.18.1.32
+githubsearch.bmw-motorrad.de A 198.18.1.167
+gourmetsushi.bmw-motorrad.de A 198.18.1.118
+graph18-4.bmw-motorrad.de A 198.18.1.137
