@@ -1,2 +1,6 @@
-207-171-181-85.bmw.com A 86.35.3.192
-207-171-181-85.bmw.com A 86.35.3.193
+13dataagainstcovid-19.bmw.com A 86.35.3.192
+13dataagainstcovid-19.bmw.com A 86.35.3.193
+13s1.bmw.com A 86.35.3.192
+13s1.bmw.com A 86.35.3.193
+594-1.bmw.com A 86.35.3.192
+594-1.bmw.com A 86.35.3.193

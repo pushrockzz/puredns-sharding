@@ -1,5 +1,4 @@
-52sharp.bmwgroup.com:80
-5hg1.bmwgroup.com:80
-errorteamtemp.bmwgroup.com:80
-tor249-281-gre.bmwgroup.com:80
-v3-status-acc.bmwgroup.com:80
+056-v3-client.bmwgroup.com:80
+558-89.bmwgroup.com:80
+70kitchen-s.bmwgroup.com:80
+tor82-158-pda.bmwgroup.com:80
