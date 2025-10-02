@@ -1,5 +1,6 @@
-gsp16-bm23.bmw-motorrad.de A 74.220.199.6
-gsp1ls-st1.bmw-motorrad.de A 74.220.199.6
-http56.bmw-motorrad.de A 74.220.199.6
-ios4-6.bmw-motorrad.de A 74.220.199.6
-irisbot.bmw-motorrad.de A 74.220.199.6
+heinemann.bmw-motorrad.de A 198.18.1.123
+ingstaging.bmw-motorrad.de A 125.235.4.59
+insieme.bmw-motorrad.de A 198.18.1.229
+internaldemo.bmw-motorrad.de A 198.18.1.219
+intl-profiles.bmw-motorrad.de A 198.18.1.218
+inttestsy-c055e19.bmw-motorrad.de A 125.235.4.59
