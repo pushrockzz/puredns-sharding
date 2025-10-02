@@ -1,5 +1,3 @@
-cloudtolearn.bmw-motorrad.de A 74.220.199.6
-connect-login.bmw-motorrad.de A 74.220.199.6
-d245-use-2.bmw-motorrad.de A 74.220.199.6
-dev-w5v32.bmw-motorrad.de A 74.220.199.6
-digingweback.bmw-motorrad.de A 74.220.199.6
+cs-messaging-storage.bmw-motorrad.de A 125.235.4.59
+cubavera.bmw-motorrad.de A 74.220.199.6
+digibooks.bmw-motorrad.de A 74.220.199.6
