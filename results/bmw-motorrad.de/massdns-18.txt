@@ -1,1 +1,9 @@
-decorp-dev-ed.bmw-motorrad.de A 74.220.199.6
+55-1-2-5.bmw-motorrad.de A 198.18.1.124
+a9b58bce.bmw-motorrad.de A 198.18.1.204
+apigw-service-limits-example.bmw-motorrad.de A 198.18.1.198
+fb-dragons-ckirk-dev3.bmw-motorrad.de A 198.18.1.209
+fremont-19-8.bmw-motorrad.de A 198.18.1.229
+fzadhoip-android-2-1-4-4.bmw-motorrad.de A 198.18.1.129
+lemix.bmw-motorrad.de A 198.18.1.23
+lon3-accesspoint-a58.bmw-motorrad.de A 198.18.1.186
+maybach-trooper-4.bmw-motorrad.de A 198.18.1.163

@@ -1,7 +1,0 @@
-650-8-2.bmw.com A 74.220.199.6
-eksh.bmw.com A 74.220.199.6
-news-land.bmw.com A 74.220.199.6
-preview-elements-web-dev.bmw.com A 74.220.199.6
-register-0-32.bmw.com A 74.220.199.6
-register2-2-6-o.bmw.com A 74.220.199.6
-tams-jp-pre-prod-extern.bmw.com A 74.220.199.6
