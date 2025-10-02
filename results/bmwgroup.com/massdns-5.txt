@@ -1,4 +1,3 @@
 opus.bmwgroup.com A 18.196.117.151
 opus.bmwgroup.com A 18.198.30.20
 opus.bmwgroup.com A 3.71.249.172
-pixi.bmwgroup.com A 160.46.224.143
