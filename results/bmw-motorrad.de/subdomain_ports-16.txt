@@ -1,1 +1,3 @@
-h-135-207-57-25.bmw-motorrad.de:80
+moloch-prod-mtc02.bmw-motorrad.de:80
+monocle-us-east-1.bmw-motorrad.de:80
+tor50-82-grc.bmw-motorrad.de:80
