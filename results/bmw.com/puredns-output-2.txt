@@ -1,4 +1,3 @@
+static3.bmw.com
 static4.bmw.com
 tapi.bmw.com
-telex.bmw.com
-tracking-api.bmw.com
