@@ -1,3 +1,2 @@
 securelogin.bmw.com:443
 securelogin.bmw.com:80
-sera.bmw.com:80
