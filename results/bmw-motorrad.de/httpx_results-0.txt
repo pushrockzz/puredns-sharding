@@ -1,0 +1,4 @@
+http://berlin.bmw-motorrad.de
+http://hamburg.bmw-motorrad.de
+https://berlin.bmw-motorrad.de
+https://hamburg.bmw-motorrad.de
