@@ -288,9 +288,8 @@ jobs:
         shell: bash
         run: |
           # Disable exit on error to handle failures gracefully
-         
-          
-          PORTS="80,443,8080,8443,8000"
+                   
+          PORTS="1,43,49,70,79,80,81,82,83,84,85,88,102,104,113,135,139,143,175,179,195,264,280,389,443,444,505,515,548,554,591,631,771,783,789,888,898,900,901,993,995,1026,1080,1099,1153,1177,1200,1214,1220,1234,1311,1314,1344,1433,1503,1515,1521,1599,1723,1830,1900,1962,2000,2001,2002,2030,2064,2081,2087,2181,2222,2306,2345,2404,2455,2525,2715,2761,2762,3000,3001,3002,3052,3128,3260,3299,3310,3388,3389,3460,3531,3689,4000,4157,4242,4369,4443,4444,4500,4567,4711,4786,4899,5000,5001,5007,5009,5010,5025,5060,5222,5269,5280,5427,5432,5672,5800,5801,5802,5900,5938,6000,6001,6103,6346,6544,6600,6668,6699,6969,7002,7007,7070,7100,7171,7415,7776,8000,8001,8002,8003,8004,8005,8006,8007,8008,8009,8010,8080,8081,8082,8083,8084,8085,8087,8088,8118,8126,8181,8291,8443,8880,8881,8882,8883,8884,8885,8886,8887,8888,9000,9001,9002,9003,9030,9050,9080,9090,9100,9530,9600,9633,9999,10000,10001,10005,10134,11112,12345,13013,13666,15000,18245,20000,20256,20547,21379,25001,25565,31337,35000,37777,44818,50000,54138,55000,55555,60129"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           
           # Create a single, global temporary directory for this entire step's operations
@@ -636,7 +635,6 @@ jobs:
         shell: bash
         run: |
           
-          
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           HTTPX_INPUT="httpx-work/httpx-input-${CHUNK_INDEX}.txt"
           HTTPX_OUTPUT="httpx-work/httpx-output-${CHUNK_INDEX}.txt"
@@ -658,7 +656,6 @@ jobs:
             -threads 100 \
             -timeout 10 \
             -retries 1 \
-            -rate-limit 150 \
             -o "$HTTPX_OUTPUT" \
             -silent
           
@@ -673,8 +670,7 @@ jobs:
       - name: Distribute HTTPx Results to Domain Directories
         shell: bash
         run: |
-          
-          
+                    
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           HTTPX_OUTPUT="httpx-work/httpx-output-${CHUNK_INDEX}.txt"
           DOMAIN_MAP="httpx-work/domain-map-${CHUNK_INDEX}.txt"
@@ -805,15 +801,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: httpx-results-${{ matrix.shard }}
-          path: results/**/*.httpx_results-*.txt
+          path: results/**/httpx_results-*.txt
           retention-days: 1          
-      
-      - name: Upload HTTPx Results for This Shard
-        uses: actions/upload-artifact@v4
-        with:
-          name: httpx-results-${{ matrix.shard }}
-          path: results/
-          retention-days: 1
+    
       
 
   
