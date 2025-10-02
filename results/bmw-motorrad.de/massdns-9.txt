@@ -1,6 +1,2 @@
-f477ec7.bmw-motorrad.de A 125.235.4.59
-fastweb-dev.bmw-motorrad.de A 198.18.1.59
-favicon3-00.bmw-motorrad.de A 125.235.4.59
-fb9songbactructuyen.bmw-motorrad.de A 125.235.4.59
-ffsim.bmw-motorrad.de A 125.235.4.59
-free-3-9.bmw-motorrad.de A 125.235.4.59
+fifa-mikeloep-chan.bmw-motorrad.de A 125.235.4.59
+goconnect-us-04.bmw-motorrad.de A 125.235.4.59

@@ -1,4 +1,0 @@
-extink.bmw.com A 198.18.1.207
-gcp-circleting85.bmw.com A 125.235.4.59
-gf869moz70-2.bmw.com A 125.235.4.59
-globalguarantee.bmw.com A 125.235.4.59
