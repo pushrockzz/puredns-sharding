@@ -1,1 +1,11 @@
-input.bmw.com A 160.46.245.170
+guac.bmw.com A 74.220.199.6
+harryl.bmw.com A 74.220.199.6
+harvester-heartbeat.bmw.com A 74.220.199.6
+hebamme-coralie-schidun.bmw.com A 74.220.199.6
+hosted-cdn-backend-63.bmw.com A 74.220.199.6
+hourlyjobs-brightview.bmw.com A 74.220.199.6
+https-pavilion-com-bd-05.bmw.com A 74.220.199.6
+idip.bmw.com A 74.220.199.6
+indianworkingwomen.bmw.com A 74.220.199.6
+innovativecare.bmw.com A 74.220.199.6
+inttest-99fa41b.bmw.com A 74.220.199.6

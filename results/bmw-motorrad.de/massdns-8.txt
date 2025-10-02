@@ -1,8 +1,5 @@
-h-135-207-229-26.bmw-motorrad.de A 74.220.199.6
-https-m-olx-ph7-1.bmw-motorrad.de A 74.220.199.6
-innoactiveportal.bmw-motorrad.de A 74.220.199.6
-integria.bmw-motorrad.de A 74.220.199.6
-ipodkiller53.bmw-motorrad.de A 74.220.199.6
-ipv4-c065-phl001-ix.bmw-motorrad.de A 74.220.199.6
-iq3services.bmw-motorrad.de A 74.220.199.6
-isabimillions.bmw-motorrad.de A 74.220.199.6
+gsp16-bm23.bmw-motorrad.de A 74.220.199.6
+gsp1ls-st1.bmw-motorrad.de A 74.220.199.6
+http56.bmw-motorrad.de A 74.220.199.6
+ios4-6.bmw-motorrad.de A 74.220.199.6
+irisbot.bmw-motorrad.de A 74.220.199.6
