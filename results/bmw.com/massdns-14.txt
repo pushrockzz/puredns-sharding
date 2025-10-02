@@ -1,2 +1,1 @@
 aero.bmw.com A 160.46.237.73
-amc-test.bmw.com A 160.46.228.233
