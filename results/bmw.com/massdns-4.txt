@@ -1,2 +1,3 @@
-rhino-wwadonis.bmw.com A 86.35.3.192
-rhino-wwadonis.bmw.com A 86.35.3.193
+plw-prod.bmw.com A 160.46.237.220
+poc2.bmw.com A 160.46.225.65
+rema.bmw.com A 160.46.231.16
