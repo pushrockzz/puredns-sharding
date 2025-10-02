@@ -1,0 +1,2 @@
+strong.bmw.com:443
+strong.bmw.com:80
