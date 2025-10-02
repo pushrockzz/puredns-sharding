@@ -1,0 +1,11 @@
+458-8-3.mini.com:500
+capi-aa.mini.com:80
+cronos-mainnet.mini.com:80
+els-ext-m10.mini.com:80
+gpcdn.mini.com:80
+mlough.mini.com:80
+owa-iwa-gaalpa1msg.mini.com:80
+presourcemail-sentry-csm.mini.com:80
+qa-cantire.mini.com:80
+tcmn.mini.com:80
+yk-tst2-westeurope-grafana.mini.com:80

@@ -1,0 +1,5 @@
+enterprissss.bmw-motorrad.de:80
+jyu-march-box.bmw-motorrad.de:80
+sftp-dataeng-development.bmw-motorrad.de:80
+vault-sauto-test.bmw-motorrad.de:80
+www-ncbi-nlm-nih-gov.bmw-motorrad.de:80

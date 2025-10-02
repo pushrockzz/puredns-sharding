@@ -1,0 +1,4 @@
+hartmann.mini.de:443
+hartmann.mini.de:80
+saarland.mini.de:443
+saarland.mini.de:80
