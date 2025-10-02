@@ -1,0 +1,17 @@
+amplitude.mini.com:80
+animal-art-gallery.mini.com:80
+apalo.mini.com:80
+arcossoporte.mini.com:80
+arenasasociados.mini.com:80
+argilly.mini.com:80
+assets-origin.mini.com:80
+atl-prd-infra-mdm-01.mini.com:80
+autodiscover-ams-med.mini.com:80
+avapac.mini.com:80
+b2bbpmqa.mini.com:80
+babymier.mini.com:80
+bd77ex3.mini.com:80
+bd77ez8.mini.com:80
+beacons-global.mini.com:80
+bebek-boyu.mini.com:80
+beinformed.mini.com:80
