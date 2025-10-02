@@ -1,5 +1,5 @@
 berlin.mini.de:80
-frankfurt.mini.de:80
+frankfurt.mini.de:500
 goto.mini.de:443
 goto.mini.de:80
 hamburg.mini.de:443

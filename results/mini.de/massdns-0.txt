@@ -1,7 +1,7 @@
 berlin.mini.de A 160.46.244.54
 ecom.mini.de A 160.46.244.241
 email.mini.de A 192.243.228.1
-frankfurt.mini.de A 160.46.244.54
+frankfurt.mini.de A 0.0.0.0
 gewinnspiel.mini.de A 217.160.5.194
 goto.mini.de A 62.245.246.210
 hamburg.mini.de A 160.46.226.164

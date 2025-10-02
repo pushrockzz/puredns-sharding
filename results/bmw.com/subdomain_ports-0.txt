@@ -1,8 +1,6 @@
 api-dev.bmw.com
 audit.bmw.com:443
 audit.bmw.com:80
-cert.bmw.com:443
-lifestyle.bmw.com
-lima.bmw.com:443
-lima.bmw.com:80
 vpn2.bmw.com:443
+workflow.bmw.com:443
+workflow.bmw.com:80
