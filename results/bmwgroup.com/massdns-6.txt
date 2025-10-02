@@ -1,3 +1,5 @@
-mdm-int.bmwgroup.com A 192.109.190.79
+mdm-dev.bmwgroup.com A 160.46.232.104
+mxs1.bmwgroup.com A 195.190.135.11
+mxs2.bmwgroup.com A 195.190.135.12
 my-test.bmwgroup.com A 160.46.249.179
 ocr-prod.bmwgroup.com A 122.200.104.201
