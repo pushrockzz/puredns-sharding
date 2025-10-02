@@ -1,2 +1,0 @@
-sms-int.bmwgroup.com A 160.46.248.40
-star.bmwgroup.com A 160.46.233.40
