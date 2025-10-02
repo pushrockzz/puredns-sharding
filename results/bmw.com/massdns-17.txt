@@ -1,0 +1,2 @@
+57-5-12.bmw.com A 198.18.1.218
+idp-redis-ffprod.bmw.com A 125.235.4.59
