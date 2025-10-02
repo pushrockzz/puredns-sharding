@@ -1,0 +1,4 @@
+colingplattpic.bmw-motorrad.de A 86.35.3.192
+colingplattpic.bmw-motorrad.de A 86.35.3.193
+cset-internalmiddle-layer.bmw-motorrad.de A 86.35.3.192
+cset-internalmiddle-layer.bmw-motorrad.de A 86.35.3.193
