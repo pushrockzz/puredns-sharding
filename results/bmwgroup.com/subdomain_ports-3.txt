@@ -1,0 +1,2 @@
+sms-int.bmwgroup.com:443
+sms-int.bmwgroup.com:80
