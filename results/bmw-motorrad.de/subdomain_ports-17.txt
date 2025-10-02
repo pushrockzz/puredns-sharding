@@ -1,0 +1,13 @@
+15-12-5.bmw-motorrad.de:80
+16-52-8.bmw-motorrad.de:80
+757-9-7-8.bmw-motorrad.de:80
+85-60-7.bmw-motorrad.de:80
+enterprise-stores-v.bmw-motorrad.de:80
+fphs-crm-prod01.bmw-motorrad.de:80
+frpg-operations-na.bmw-motorrad.de:80
+https-en-m-wikipedia-org-54.bmw-motorrad.de:80
+https-pt-m-wikipedia-org57.bmw-motorrad.de:80
+mod-test-cent6-a01.bmw-motorrad.de:80
+scania-privacy.bmw-motorrad.de:80
+searchportal-dev-ciantivirus.bmw-motorrad.de:80
+sjc1-jhbiostest-a30.bmw-motorrad.de:80

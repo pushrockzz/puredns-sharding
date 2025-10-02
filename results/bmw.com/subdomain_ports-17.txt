@@ -1,0 +1,14 @@
+152-2-23.bmw.com:80
+731-9-8.bmw.com:80
+amp-fn-ffas.bmw.com:80
+dacian-atm1-ima2.bmw.com:80
+dev-www-53.bmw.com:80
+efeprgtmperf-tfs-assisted.bmw.com:80
+fremont-7-17.bmw.com:80
+http-m-olx-co-id.bmw.com:80
+https-universal-teachme-com73.bmw.com:80
+ipv4-c271-dfw001-ix.bmw.com:80
+scheduledjobs-b2b-ffdc.bmw.com:80
+search-www-14.bmw.com:80
+stage-hamilton-api.bmw.com:80
+tor49-10-gra.bmw.com:80
