@@ -8,6 +8,8 @@ kassel.mini.de:80
 leipzig.mini.de:443
 leipzig.mini.de:80
 link.mini.de:80
+mannheim.mini.de:443
+mannheim.mini.de:80
 news.mini.de:25
 origin.mini.de:80
 rent.mini.de:443

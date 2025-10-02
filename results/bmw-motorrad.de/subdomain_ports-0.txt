@@ -1,4 +1,7 @@
 berlin.bmw-motorrad.de:443
 berlin.bmw-motorrad.de:80
+kassel.bmw-motorrad.de:443
+kassel.bmw-motorrad.de:80
+news.bmw-motorrad.de:25
 stuttgart.bmw-motorrad.de:443
 stuttgart.bmw-motorrad.de:80
