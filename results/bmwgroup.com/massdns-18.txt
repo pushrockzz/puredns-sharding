@@ -1,0 +1,2 @@
+pub-ingress-aws-apse1.bmwgroup.com A 86.35.3.192
+pub-ingress-aws-apse1.bmwgroup.com A 86.35.3.193

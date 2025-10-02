@@ -1,0 +1,4 @@
+aen-portal-beta.bmw.com A 86.35.3.192
+aen-portal-beta.bmw.com A 86.35.3.193
+api-mez.bmw.com A 86.35.3.192
+api-mez.bmw.com A 86.35.3.193
