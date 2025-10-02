@@ -1,3 +1,1 @@
-93-4-8-4.bmw-motorrad.de A 74.220.199.6
-chatham-old.bmw-motorrad.de A 74.220.199.6
-cs-in-57-5.bmw-motorrad.de A 74.220.199.6
+decorp-dev-ed.bmw-motorrad.de A 74.220.199.6

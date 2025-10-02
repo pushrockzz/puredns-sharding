@@ -1,9 +1,3 @@
-93-4-8-4.bmw-motorrad.de:10050
-93-4-8-4.bmw-motorrad.de:123
-93-4-8-4.bmw-motorrad.de:80
-chatham-old.bmw-motorrad.de:10050
-chatham-old.bmw-motorrad.de:123
-chatham-old.bmw-motorrad.de:80
-cs-in-57-5.bmw-motorrad.de:10050
-cs-in-57-5.bmw-motorrad.de:123
-cs-in-57-5.bmw-motorrad.de:80
+decorp-dev-ed.bmw-motorrad.de:10050
+decorp-dev-ed.bmw-motorrad.de:123
+decorp-dev-ed.bmw-motorrad.de:80
