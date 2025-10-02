@@ -1,6 +1,10 @@
-oms093qiqz-1.bmw-motorrad.de A 86.35.3.192
-oms093qiqz-1.bmw-motorrad.de A 86.35.3.193
-phab-uncover.bmw-motorrad.de A 86.35.3.192
-phab-uncover.bmw-motorrad.de A 86.35.3.193
-photologs.bmw-motorrad.de A 86.35.3.192
-photologs.bmw-motorrad.de A 86.35.3.193
+opusa41-cookies.bmw-motorrad.de A 86.35.3.192
+opusa41-cookies.bmw-motorrad.de A 86.35.3.193
+p125-docws-china.bmw-motorrad.de A 86.35.3.192
+p125-docws-china.bmw-motorrad.de A 86.35.3.193
+p168-iwmb-china.bmw-motorrad.de A 86.35.3.192
+p168-iwmb-china.bmw-motorrad.de A 86.35.3.193
+peekytoe.bmw-motorrad.de A 86.35.3.192
+peekytoe.bmw-motorrad.de A 86.35.3.193
+pgg3u0.bmw-motorrad.de A 86.35.3.192
+pgg3u0.bmw-motorrad.de A 86.35.3.193

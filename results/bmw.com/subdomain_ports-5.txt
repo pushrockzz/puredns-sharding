@@ -1,0 +1,15 @@
+oklahomacityhelpwantev.bmw.com:80
+olympics-olympics.bmw.com:80
+orbitera.bmw.com:80
+p02-ubiquity-china-ic3.bmw.com:80
+p03-calendars-ic1.bmw.com:80
+p09-iwmb8-china.bmw.com:80
+p128-quota-china.bmw.com:80
+p135-remindersws.bmw.com:80
+p33-pairingws.bmw.com:80
+p3bcork34c-3.bmw.com:80
+p47-fmipmobile-china.bmw.com:80
+p57-iwmb6.bmw.com:80
+p69-iwmb4-china.bmw.com:80
+parcerias.bmw.com:80
+pgg4bv.bmw.com:80
