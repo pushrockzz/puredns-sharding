@@ -1,3 +1,2 @@
 breeze.bmwgroup.com
-cargo-auth.bmwgroup.com
-casa.bmwgroup.com
+charging.bmwgroup.com
