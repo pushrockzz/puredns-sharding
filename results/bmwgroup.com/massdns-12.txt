@@ -1,0 +1,2 @@
+cargo-auth.bmwgroup.com A 160.46.244.175
+casa.bmwgroup.com A 160.46.243.83

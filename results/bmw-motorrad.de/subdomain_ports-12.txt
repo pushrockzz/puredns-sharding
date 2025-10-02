@@ -1,0 +1,2 @@
+bremen.bmw-motorrad.de:443
+bremen.bmw-motorrad.de:80
