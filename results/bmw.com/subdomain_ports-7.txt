@@ -1,0 +1,2 @@
+itms.bmw.com:443
+itms.bmw.com:80
