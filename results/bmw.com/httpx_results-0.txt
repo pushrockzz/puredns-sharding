@@ -1,0 +1,9 @@
+http://audit.bmw.com
+http://goto.bmw.com
+http://loki.bmw.com
+http://workflow.bmw.com
+https://api-sandbox.bmw.com
+https://audit.bmw.com
+https://lifestyle.bmw.com
+https://loki.bmw.com
+https://workflow.bmw.com

@@ -1,0 +1,9 @@
+http://mein.bmwgroup.com
+http://onboarding.bmwgroup.com
+http://origin.bmwgroup.com
+http://poco.bmwgroup.com
+http://press.bmwgroup.com
+https://mein.bmwgroup.com
+https://onboarding.bmwgroup.com
+https://poco.bmwgroup.com
+https://press.bmwgroup.com
