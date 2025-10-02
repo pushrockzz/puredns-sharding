@@ -4,5 +4,4 @@ hamburg.bmw-motorrad.de:443
 hamburg.bmw-motorrad.de:80
 kassel.bmw-motorrad.de:443
 kassel.bmw-motorrad.de:80
-stuttgart.bmw-motorrad.de:443
-stuttgart.bmw-motorrad.de:80
+news.bmw-motorrad.de:25
