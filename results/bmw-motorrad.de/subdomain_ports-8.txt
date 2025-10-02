@@ -1,1 +1,3 @@
-intjbsangpms-stg.bmw-motorrad.de:80
+hc-fairlyondassie-eu.bmw-motorrad.de:80
+hlecloanservice-dev.bmw-motorrad.de:80
+iromachi-otome.bmw-motorrad.de:80
