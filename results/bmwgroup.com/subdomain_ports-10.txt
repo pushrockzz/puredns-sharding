@@ -1,0 +1,2 @@
+elan.bmwgroup.com:443
+elan.bmwgroup.com:80
