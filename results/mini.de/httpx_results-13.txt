@@ -1,0 +1,4 @@
+http://arnold.mini.de
+http://augsburg.mini.de
+https://arnold.mini.de
+https://augsburg.mini.de
