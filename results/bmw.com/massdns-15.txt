@@ -1,12 +1,2 @@
-0-extern-gateway-jessie.bmw.com A 125.235.4.59
-0ezxuqchb2-1.bmw.com A 125.235.4.59
-0fgraph9.bmw.com A 125.235.4.59
-17-121-116-71.bmw.com A 125.235.4.59
-195-166-214-5ccess.bmw.com A 125.235.4.59
-h-135-207-129-96.bmw.com A 198.18.1.196
-qf-int-in-g1p.bmw.com A 198.18.1.212
-stagingconfluence-api-centadm.bmw.com A 198.18.1.35
-tempv1-serverdevel-vpn.bmw.com A 125.235.4.59
-tor12-36-pda.bmw.com A 125.235.4.59
-tor312-386-grc.bmw.com A 198.18.1.62
-uploads-networkaccept-domain.bmw.com A 198.18.1.88
+167-20.bmw.com A 125.235.4.59
+v2error-serviceoceania-mx.bmw.com A 125.235.4.59
