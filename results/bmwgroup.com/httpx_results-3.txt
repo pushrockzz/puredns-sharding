@@ -1,2 +1,3 @@
 http://sms-int.bmwgroup.com
+https://sgate.bmwgroup.com
 https://sms-int.bmwgroup.com

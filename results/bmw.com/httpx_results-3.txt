@@ -1,1 +1,3 @@
 http://sera.bmw.com
+https://securelogin.bmw.com
+https://securelogin.bmw.com:80
