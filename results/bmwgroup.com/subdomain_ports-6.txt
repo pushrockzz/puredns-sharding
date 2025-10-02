@@ -1,6 +1,4 @@
 mdm-dev.bmwgroup.com:443
 mdm-int.bmwgroup.com:443
-mxs1.bmwgroup.com:25
-mxs2.bmwgroup.com:25
 my-test.bmwgroup.com:443
 my-test.bmwgroup.com:80
