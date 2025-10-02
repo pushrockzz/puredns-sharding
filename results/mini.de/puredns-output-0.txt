@@ -2,7 +2,6 @@ accessories.mini.de
 berlin.mini.de
 ecom.mini.de
 email.mini.de
-emails.mini.de
 frankfurt.mini.de
 gewinnspiel.mini.de
 goto.mini.de
@@ -13,6 +12,7 @@ link.mini.de
 mail.mini.de
 mannheim.mini.de
 message.mini.de
+more.mini.de
 news.mini.de
 online.mini.de
 origin.mini.de

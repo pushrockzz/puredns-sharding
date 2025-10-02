@@ -1,5 +1,6 @@
 ecom.mini.com A 160.46.247.155
 feedback.mini.com A 62.140.4.159
+labs.mini.com A 10.97.10.200
 lifestyle.mini.com A 160.46.244.134
 lyncdiscover.mini.com A 192.109.190.85
 mail.mini.com A 195.27.218.21

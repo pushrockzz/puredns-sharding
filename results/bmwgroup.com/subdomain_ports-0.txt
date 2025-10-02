@@ -11,12 +11,9 @@ education.bmwgroup.com:443
 education.bmwgroup.com:80
 mein.bmwgroup.com:443
 mein.bmwgroup.com:80
-mycareer.bmwgroup.com:443
-mycareer.bmwgroup.com:80
 mypage.bmwgroup.com:80
-online.bmwgroup.com:443
-online.bmwgroup.com:80
-origin.bmwgroup.com:80
+poco.bmwgroup.com:443
+poco.bmwgroup.com:80
 redirect.bmwgroup.com:80
 timi.bmwgroup.com:443
 timi.bmwgroup.com:80
