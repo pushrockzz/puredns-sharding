@@ -1,1 +1,1 @@
-fb-feature21-usw2-farm2-dev-6.bmw-motorrad.de:80
+psa-provisioning.bmw-motorrad.de:80

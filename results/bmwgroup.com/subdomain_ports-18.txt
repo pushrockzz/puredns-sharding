@@ -1,3 +1,4 @@
-205-185-203-4.bmwgroup.com:80
-56-8-8-8.bmwgroup.com:80
-twserve-feb12-personalities-v2.bmwgroup.com:80
+ipv4-c080-gru005-ix.bmwgroup.com:80
+sams-tts.bmwgroup.com:80
+sarmatian-uhcl-bgp.bmwgroup.com:80
+test-site-2.bmwgroup.com:80

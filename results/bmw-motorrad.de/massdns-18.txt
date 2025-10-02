@@ -1,5 +1,2 @@
-91f5.bmw-motorrad.de A 198.18.1.225
-fb-feature21-usw2-farm2-dev-6.bmw-motorrad.de A 86.35.3.192
-fb-feature21-usw2-farm2-dev-6.bmw-motorrad.de A 86.35.3.193
-jaeger-ui-reac.bmw-motorrad.de A 198.18.1.102
-stosat-pomp-01.bmw-motorrad.de A 198.18.1.61
+psa-provisioning.bmw-motorrad.de A 86.35.3.192
+psa-provisioning.bmw-motorrad.de A 86.35.3.193
