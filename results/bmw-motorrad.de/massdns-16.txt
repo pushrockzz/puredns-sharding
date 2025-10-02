@@ -1,3 +1,1 @@
-h-135-197-230-44.bmw-motorrad.de A 198.18.1.178
-h135-197-255-41.bmw-motorrad.de A 198.18.1.177
-staging-devupdatevideo-my.bmw-motorrad.de A 198.18.1.157
+st41p01st-courier-29.bmw-motorrad.de A 125.235.4.59
