@@ -1,0 +1,12 @@
+gsfca.bmw.com A 86.35.3.192
+gsfca.bmw.com A 86.35.3.193
+gsps11.bmw.com A 86.35.3.192
+gsps11.bmw.com A 86.35.3.193
+h-vff2oyp-development-jyujo1.bmw.com A 86.35.3.192
+h-vff2oyp-development-jyujo1.bmw.com A 86.35.3.193
+int-de.bmw.com A 86.35.3.192
+int-de.bmw.com A 86.35.3.193
+intedcpam.bmw.com A 86.35.3.192
+intedcpam.bmw.com A 86.35.3.193
+intraws.bmw.com A 86.35.3.192
+intraws.bmw.com A 86.35.3.193

@@ -1,0 +1,10 @@
+gsa-devint41.mini.com:80
+hamilton14.mini.com:80
+harvardbizpic.mini.com:500
+hospitalinc5-4.mini.com:80
+intconfig.mini.com:80
+intergate.mini.com:80
+interview-preprod.mini.com:80
+inttradepro91.mini.com:80
+iom01.mini.com:80
+ip-109-235-163-49.mini.com:500

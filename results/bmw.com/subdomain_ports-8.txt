@@ -1,0 +1,6 @@
+gsfca.bmw.com:80
+gsps11.bmw.com:80
+h-vff2oyp-development-jyujo1.bmw.com:80
+int-de.bmw.com:80
+intedcpam.bmw.com:80
+intraws.bmw.com:80
