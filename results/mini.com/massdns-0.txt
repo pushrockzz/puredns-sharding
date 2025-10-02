@@ -3,6 +3,5 @@ feedback.mini.com A 62.140.4.159
 lifestyle.mini.com A 160.46.244.134
 lyncdiscover.mini.com A 192.109.190.85
 mail.mini.com A 195.27.218.21
-maintenance.mini.com A 160.46.244.28
 service.mini.com A 192.243.228.1
 shop.mini.com A 160.46.226.41

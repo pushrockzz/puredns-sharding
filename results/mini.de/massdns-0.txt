@@ -8,7 +8,6 @@ hamburg.mini.de A 160.46.226.164
 kassel.mini.de A 160.46.226.164
 leipzig.mini.de A 160.46.226.164
 link.mini.de A 62.245.246.210
-mannheim.mini.de A 160.46.226.164
 news.mini.de A 161.71.33.242
 online.mini.de A 212.6.143.217
 origin.mini.de A 160.46.244.54
