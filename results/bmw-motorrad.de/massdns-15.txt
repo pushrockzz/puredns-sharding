@@ -1,8 +1,3 @@
-0zyx.bmw-motorrad.de A 74.220.199.6
-207-171-183-38.bmw-motorrad.de A 74.220.199.6
-431-70.bmw-motorrad.de A 74.220.199.6
-45b9.bmw-motorrad.de A 74.220.199.6
-4international.bmw-motorrad.de A 74.220.199.6
-7-85.bmw-motorrad.de A 74.220.199.6
-tor43-71-vza.bmw-motorrad.de A 74.220.199.6
-user-apps-b2bsystem.bmw-motorrad.de A 74.220.199.6
+6e49c.bmw-motorrad.de A 125.235.4.59
+72dq8qucri-dsn.bmw-motorrad.de A 74.220.199.6
+cachehelpdesk-mx-corporate.bmw-motorrad.de A 74.220.199.6
