@@ -1,1 +1,1 @@
-plw-prod.bmw.com A 160.46.237.220
+redsquare.bmw.com A 193.23.33.28
