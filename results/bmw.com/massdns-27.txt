@@ -1,0 +1,2 @@
+klusa-b2b.bmw.com A 160.46.226.46
+klusai-oidc-i.bmw.com A 160.48.165.89
