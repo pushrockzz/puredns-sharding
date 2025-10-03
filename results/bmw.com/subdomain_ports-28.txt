@@ -1,0 +1,2 @@
+lima-prod3.bmw.com:443
+lima-prod3.bmw.com:80

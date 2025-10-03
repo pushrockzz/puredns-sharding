@@ -1,0 +1,2 @@
+lapv.bmwgroup.com:443
+lapv.bmwgroup.com:80

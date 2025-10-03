@@ -1,0 +1,2 @@
+lima-int4.bmw.com A 160.46.229.221
+lima-prod3.bmw.com A 160.46.237.108
