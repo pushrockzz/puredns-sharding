@@ -1,0 +1,7 @@
+future-retail-i.bmwgroup.com A 160.46.225.223
+future-retail-t.bmwgroup.com A 160.46.225.226
+future-retail.bmwgroup.com A 160.46.244.46
+gcdm-cockpit-int.bmwgroup.com A 160.46.228.77
+gdb-t-temp.bmwgroup.com A 160.46.248.13
+gestas-es.bmwgroup.com A 160.46.243.203
+getyourbmw.bmwgroup.com A 122.200.123.222
