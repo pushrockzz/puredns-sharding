@@ -1,0 +1,7 @@
+sms-prod.bmwgroup.com:443
+sms-prod.bmwgroup.com:80
+smtpext.bmwgroup.com:25
+smtpext.bmwgroup.com:587
+sta-iucp.bmwgroup.com
+stabi.bmwgroup.com:443
+stabi.bmwgroup.com:80

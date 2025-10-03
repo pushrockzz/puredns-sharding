@@ -1,0 +1,2 @@
+sta-bps.bmw.com
+sta-ouc.bmw.com
