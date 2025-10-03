@@ -1,0 +1,17 @@
+http://i8l-blue-prod.bmw.com
+http://iff-int.bmw.com
+http://iff-prod.bmw.com
+http://ijix-int.bmw.com
+http://ijix.bmw.com
+http://imm-test3-gf3.bmw.com
+http://imobileauth.bmw.com
+https://ifavor-cockpit.bmw.com
+https://iff-int.bmw.com
+https://iff-prod.bmw.com
+https://ijix-int.bmw.com
+https://ijix.bmw.com
+https://imm-int3-gf3.bmw.com
+https://imm-test3-gf3.bmw.com
+https://imm-test4-gf3.bmw.com
+https://imm-test4-gf3.bmw.com:80
+https://imobileauth.bmw.com
