@@ -1,0 +1,11 @@
+http://slotbooking-next.bmw.com
+http://snc-integration.bmw.com
+http://socialmedia.bmw.com
+http://speed-int.bmw.com
+http://spider-i.bmw.com
+http://spider-i.bmw.com:443
+https://slotbooking-next.bmw.com
+https://sms-inte-b2b.bmw.com
+https://sms-inte-b2b.bmw.com:80
+https://snc-integration.bmw.com
+https://speed-int.bmw.com
