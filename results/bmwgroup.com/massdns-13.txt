@@ -1,2 +1,2 @@
-app-int.bmwgroup.com A 160.48.233.130
-beacon.bmwgroup.com A 160.46.231.66
+hbs2.bmwgroup.com A 160.46.244.173
+ibvp.bmwgroup.com A 160.46.231.163
