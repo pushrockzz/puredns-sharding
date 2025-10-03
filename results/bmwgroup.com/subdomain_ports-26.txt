@@ -1,0 +1,4 @@
+tabus.bmwgroup.com:443
+tabus.bmwgroup.com:80
+test.api.bmwgroup.com:443
+test.api.bmwgroup.com:80
