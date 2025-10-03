@@ -1,0 +1,2 @@
+zadsp.bmwgroup.com A 160.48.234.146
+zeus.bmwgroup.com A 160.46.233.151

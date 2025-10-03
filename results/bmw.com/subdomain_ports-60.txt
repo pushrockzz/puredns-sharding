@@ -1,0 +1,4 @@
+zedis.bmw.com:443
+zedis.bmw.com:80
+zeprid.bmw.com:443
+zeprid.bmw.com:80

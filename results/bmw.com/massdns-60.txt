@@ -1,0 +1,2 @@
+zedis.bmw.com A 160.46.237.62
+zeprid.bmw.com A 160.46.244.165
