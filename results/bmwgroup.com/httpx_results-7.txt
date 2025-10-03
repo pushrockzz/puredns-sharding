@@ -1,2 +1,6 @@
+http://cfs-cs-int3.bmwgroup.com
+http://cfs-test4.bmwgroup.com
+http://cfs-test4.bmwgroup.com:443
 http://label.bmwgroup.com
+https://cfs-cs-int3.bmwgroup.com
 https://label.bmwgroup.com

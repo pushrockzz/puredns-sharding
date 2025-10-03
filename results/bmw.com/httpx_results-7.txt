@@ -1,2 +1,4 @@
+http://cmx-author-prod2.bmw.com
 http://itms.bmw.com
+https://cmx-author-prod2.bmw.com
 https://itms.bmw.com
