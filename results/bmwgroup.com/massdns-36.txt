@@ -1,0 +1,11 @@
+osmaster.bmwgroup.com A 160.46.227.50
+osmc-b2i-qa1.bmwgroup.com A 160.48.212.217
+osmc.bmwgroup.com A 160.46.240.16
+oss-i.bmwgroup.com A 160.46.228.167
+oss-int3.bmwgroup.com A 160.46.224.208
+oss-pp.bmwgroup.com A 122.200.105.96
+otp-int.bmwgroup.com A 160.48.212.167
+pandora-int.bmwgroup.com A 122.200.105.69
+parts24.bmwgroup.com A 82.165.206.25
+pass-i.bmwgroup.com A 160.46.227.215
+pass-n.bmwgroup.com A 160.46.240.154

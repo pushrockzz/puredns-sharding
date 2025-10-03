@@ -1,0 +1,14 @@
+osmaster.bmwgroup.com
+osmc-b2i-qa1.bmwgroup.com
+osmc-b2i-qa2.bmwgroup.com
+osmc.bmwgroup.com
+oss-i.bmwgroup.com
+oss-int3.bmwgroup.com
+oss-pp.bmwgroup.com
+otp-int.bmwgroup.com
+pandora-int.bmwgroup.com
+parts24.bmwgroup.com
+pass-i.bmwgroup.com
+pass-n.bmwgroup.com
+password.bmwgroup.com
+passworddev.bmwgroup.com
