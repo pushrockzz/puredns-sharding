@@ -1,0 +1,2 @@
+deploydirectori.bmw.com:443
+deploydirectori.bmw.com:80

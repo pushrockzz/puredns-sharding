@@ -1,0 +1,6 @@
+dealer.bmw.com
+dealerportalsg-uat.bmw.com
+delivery.bmw.com
+deploydirectori.bmw.com
+dev-nfsc-uk-rcm-services.bmw.com
+dev-rs.bmw.com

@@ -1,0 +1,4 @@
+dealer.bmw.com A 160.46.226.143
+dealerportalsg-uat.bmw.com A 160.48.213.146
+deploydirectori.bmw.com A 160.46.227.133
+dev-nfsc-uk-rcm-services.bmw.com A 160.46.236.235
