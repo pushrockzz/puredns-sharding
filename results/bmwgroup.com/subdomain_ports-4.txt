@@ -1,3 +1,6 @@
-plw-prod.bmwgroup.com:443
-plw-prod.bmwgroup.com:80
-public-example.bmwgroup.com
+alphera-t.bmwgroup.com:443
+alphera-t.bmwgroup.com:80
+api-nl.bmwgroup.com:443
+at-gd-int.bmwgroup.com:443
+at-gd-int.bmwgroup.com:80
+auth-next.bmwgroup.com
