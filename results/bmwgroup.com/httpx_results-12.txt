@@ -1,0 +1,5 @@
+http://csc-zrv-data-prod.bmwgroup.com
+http://csc-zrv-data-prod.bmwgroup.com:443
+https://cs-dna-wen-test.bmwgroup.com
+https://csp-gfi.bmwgroup.com
+https://csp-gfi.bmwgroup.com:80
