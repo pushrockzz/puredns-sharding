@@ -1,0 +1,2 @@
+vpn23.bmw.com:443
+vpn24.bmw.com:443
