@@ -1,2 +1,5 @@
 http://elan.bmwgroup.com
+http://emoboi-intgf4-emea.bmwgroup.com
 https://elan.bmwgroup.com
+https://emoboi-intgf4-emea.bmwgroup.com
+https://employeeapp.bmwgroup.com
