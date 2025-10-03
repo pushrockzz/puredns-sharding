@@ -1,0 +1,2 @@
+http://lima-prod3.bmw.com
+https://lima-prod3.bmw.com
