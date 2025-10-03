@@ -30,6 +30,10 @@ on:
 env:
   WORKFLOW_FILE: puredns-quicktest.yml
   MATRIX_SIZE: '20'
+  COMBINED_WORDLIST: combined-wordlist.txt
+  REMOTE_ZIP_URL: https://localdomain.pw/subdomain-bruteforce-list/all.txt.zip
+  CHUNK_LINES: "450000"
+  SORT_MEM: "3G"  
 
 jobs:
   prepare:
