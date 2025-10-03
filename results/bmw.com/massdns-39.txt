@@ -1,0 +1,6 @@
+publish-integ.bmw.com A 160.48.213.46
+publishing.bmw.com A 160.46.231.184
+pumaigfb2b.bmw.com A 160.46.248.53
+qa-bps.bmw.com A 157.133.233.77
+qsense-condis-dev-b2b.bmw.com A 160.46.243.144
+qsense-condis-int.bmw.com A 160.46.250.221
