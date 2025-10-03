@@ -1,2 +1,8 @@
-securelogin.bmw.com A 160.46.231.113
-sera.bmw.com A 160.46.233.155
+a2mac1.bmw.com A 160.46.243.94
+adfus-services.bmw.com A 160.46.240.247
+aem-author-inta2.bmw.com A 160.46.251.175
+aem-author-inta3.bmw.com A 160.46.250.189
+aem-author-inta4.bmw.com A 160.46.224.37
+aem-author-inta6.bmw.com A 160.46.250.216
+aem-author-ipoci.bmw.com A 160.46.251.144
+aem-author-pre1.bmw.com A 160.46.224.49

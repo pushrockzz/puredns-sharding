@@ -1,1 +1,2 @@
-sgate.bmwgroup.com
+aem-author-inta3.bmwgroup.com:443
+aem-author-inta3.bmwgroup.com:80
