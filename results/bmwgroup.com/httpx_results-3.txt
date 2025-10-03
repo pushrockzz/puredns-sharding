@@ -1,3 +1,5 @@
+http://aem-author-inta3.bmwgroup.com
 http://sms-int.bmwgroup.com
+https://aem-author-inta3.bmwgroup.com
 https://sgate.bmwgroup.com
 https://sms-int.bmwgroup.com
