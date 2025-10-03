@@ -1,0 +1,6 @@
+http://mfscs-b2b-external-wen-int.bmw.com
+http://minimaintenance.bmw.com
+https://mdm-int-webclient.bmw.com
+https://mdm-webclient.bmw.com
+https://mfscs-b2b-external-wen-int.bmw.com
+https://minimaintenance.bmw.com
