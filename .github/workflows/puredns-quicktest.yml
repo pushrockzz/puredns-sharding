@@ -50,41 +50,191 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: '1.23'
+          
       - name: Install Go tools
         run: go install -v github.com/tomnomnom/anew@latest
-      - name: Cache Raw Wordlists
+
+      - name: Cache Raw Wordlists (restore)
         uses: actions/cache@v3
+        id: cache-raw
         with:
           path: |
             best-wordlist-level1.txt
             best-wordlist-level2.txt
-          key: raw-wordlists-cache-v1-${{ runner.os }}
-      - name: Fetch wordlists and Resolvers
+          key: raw-wordlists-cache-v1-${{ runner.os }}-${{ hashFiles('best-wordlist-*.txt') }}
+
+      - name: Fetch default wordlists & resolvers (if missing)
         run: |
+          
           if [ ! -f best-wordlist-level1.txt ]; then wget -qO best-wordlist-level1.txt https://raw.githubusercontent.com/trickest/wordlists/main/inventory/levels/level1.txt; fi
           if [ ! -f best-wordlist-level2.txt ]; then wget -qO best-wordlist-level2.txt https://raw.githubusercontent.com/trickest/wordlists/main/inventory/levels/level2.txt; fi
-          wget -qO resolvers.txt https://raw.githubusercontent.com/rix4uni/resolvers/main/resolvers.txt
-          wget -qO resolvers-trusted.txt https://raw.githubusercontent.com/and0x00/resolvers.txt/main/resolvers.txt
-      - name: Build filter_wordlist tool
+          wget -qO resolvers.txt https://raw.githubusercontent.com/rix4uni/resolvers/main/resolvers.txt || true
+          wget -qO resolvers-trusted.txt https://raw.githubusercontent.com/and0x00/resolvers.txt/main/resolvers.txt || true
+
+      - name: Build filter_wordlist tool (if present)
+        id: build-filter
         run: |
-          if [ -f "filter_wordlist.go" ]; then go build -o filter_wordlist filter_wordlist.go; fi
-      - name: Cache Filtered Wordlist
-        id: cache-filtered-wordlist
+          
+          if [ -f "filter_wordlist.go" ]; then
+            echo "Building filter_wordlist..."
+            go build -o filter_wordlist filter_wordlist.go
+            echo "built=1" >> $GITHUB_OUTPUT
+          else
+            echo "built=0" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Try restore cached filtered wordlist
+        id: restore-filtered
         uses: actions/cache@v3
         with:
-          path: ${{ env.COMBINED_WORDLIST }}
-          key: filtered-wordlist-cache-v1-${{ runner.os }}-${{ hashFiles('best-wordlist-*.txt', 'filter_wordlist.go') }}
-      - name: Filter and Combine Wordlists
-        if: steps.cache-filtered-wordlist.outputs.cache-hit != 'true'
+          key: filtered-wordlist-cache-v1-${{ runner.os }}-${{ hashFiles('best-wordlist-*.txt','filter_wordlist.go') }}
+          path: |
+            best-wordlist-filtered.txt
+            best-wordlist-level2-filtered.txt
+            all-filtered.txt
+            ${{ env.COMBINED_WORDLIST }}
+
+      - name: Download zip and unzip into all.txt (only if cache miss)
+        if: steps.restore-filtered.outputs.cache-hit != 'true'
         run: |
-          if [ -f ./filter_wordlist ]; then
-            ./filter_wordlist best-wordlist-level1.txt > best-wordlist-filtered.txt
-            ./filter_wordlist best-wordlist-level2.txt > best-wordlist-level2-filtered.txt
+          
+          echo "Downloading zip via wget..."
+          wget -qO all.txt.zip "${{ env.REMOTE_ZIP_URL }}"
+          echo "Unzipping to all.txt ..."
+          unzip -p all.txt.zip > all.txt
+          echo "downloaded/unzipped: $(wc -l all.txt || true) lines"
+
+      - name: Filter wordlists and all.txt (only if cache miss)
+        if: steps.restore-filtered.outputs.cache-hit != 'true'
+        run: |
+          
+          if [ -x ./filter_wordlist ]; then
+            echo "Running filter_wordlist on local lists and downloaded all.txt ..."
+            ./filter_wordlist best-wordlist-level1.txt > best-wordlist-filtered.txt || true
+            ./filter_wordlist best-wordlist-level2.txt > best-wordlist-level2-filtered.txt || true
+            ./filter_wordlist all.txt > all-filtered.txt || true
           else
-            cp best-wordlist-level1.txt best-wordlist-filtered.txt
-            cp best-wordlist-level2.txt best-wordlist-level2-filtered.txt
+            echo "filter_wordlist not present: using fallback normalizer (lowercase, strip, dedupe by chunk later)"
+            tr '[:upper:]' '[:lower:]' < best-wordlist-level1.txt | sed 's/[^[:print:]]//g' | awk 'NF' > best-wordlist-filtered.txt || true
+            tr '[:upper:]' '[:lower:]' < best-wordlist-level2.txt | sed 's/[^[:print:]]//g' | awk 'NF' > best-wordlist-level2-filtered.txt || true
+            tr '[:upper:]' '[:lower:]' < all.txt | sed 's/[^[:print:]]//g' | awk 'NF' > all-filtered.txt || true
           fi
-          cat best-wordlist-filtered.txt best-wordlist-level2-filtered.txt | PATH=$HOME/go/bin:$PATH anew -q ${{ env.COMBINED_WORDLIST }}
+          echo "Filtered files sizes:"
+          wc -l best-wordlist-filtered.txt best-wordlist-level2-filtered.txt all-filtered.txt || true
+
+      - name: Efficient chunk+sort+merge of all-filtered.txt (memory-efficient)
+        if: steps.restore-filtered.outputs.cache-hit != 'true'
+        run: |
+          
+          IN_FILE=all-filtered.txt
+          OUT_MERGED=all-merged.tmp.txt
+          CHUNK_LINES=1000000
+          CHUNK_DIR=chunks
+          CHUNK_PREFIX=chunk_
+          TMPDIR=${TMPDIR:-/tmp}
+          SORT_MEM=1G
+
+          if [ ! -f "$IN_FILE" ]; then
+            echo "ERROR: $IN_FILE missing"; exit 1
+          fi
+
+          echo "Input total lines: $(wc -l < "$IN_FILE" || true)"
+          rm -rf "$CHUNK_DIR"
+          mkdir -p "$CHUNK_DIR"
+
+          echo "Splitting into chunks of $CHUNK_LINES lines..."
+          split -l "$CHUNK_LINES" --numeric-suffixes=1 --additional-suffix=.chunk "$IN_FILE" "$CHUNK_DIR/${CHUNK_PREFIX}"
+
+          echo "Sorting each chunk with sort -u (parallel up to nproc)..."
+          nproc=$(nproc || echo 2)
+          jobs=0
+          for f in "$CHUNK_DIR"/${CHUNK_PREFIX}*.chunk; do
+            out="${f}.sorted"
+            ( LC_ALL=C sort -u -T "$TMPDIR" -S "$SORT_MEM" "$f" -o "$out" && echo "sorted -> $out" ) &
+            jobs=$((jobs+1))
+            if [ $jobs -ge $nproc ]; then
+              wait -n || true
+              jobs=$((jobs-1))
+            fi
+          done
+          wait
+
+          echo "Running k-way streaming merge (Python) to produce $OUT_MERGED ..."
+          python3 - "$OUT_MERGED" <<'PY'
+import sys, heapq, os
+out_path = sys.argv[1]
+chunk_dir = "chunks"
+files = sorted([os.path.join(chunk_dir, f) for f in os.listdir(chunk_dir) if f.endswith(".sorted")])
+if not files:
+    print("No sorted chunk files found", file=sys.stderr)
+    sys.exit(1)
+fds = [open(f, 'r', encoding='utf-8', errors='replace') for f in files]
+merged = heapq.merge(*fds)
+with open(out_path, 'w', encoding='utf-8') as out:
+    last = None
+    for line in merged:
+        line = line.rstrip('\n')
+        if not line:
+            continue
+        if line == last:
+            continue
+        out.write(line + '\n')
+        last = line
+for fd in fds:
+    fd.close()
+PY
+          echo "Merged lines (approx): $(wc -l < $OUT_MERGED || true)"
+          ls -lh "$OUT_MERGED" || true
+
+
+      - name: Combine using anew (incremental, memory-friendly)
+        if: steps.restore-filtered.outputs.cache-hit != 'true'
+        run: |
+          
+          PATH="$HOME/go/bin:$PATH"
+          MERGED_ALL=all-merged.tmp.txt
+          rm -f "${{ env.COMBINED_WORDLIST }}" || true
+          touch "${{ env.COMBINED_WORDLIST }}"
+
+          if [ -f best-wordlist-filtered.txt ]; then
+            cat best-wordlist-filtered.txt | anew -q "${{ env.COMBINED_WORDLIST }}" || true
+          fi
+          if [ -f best-wordlist-level2-filtered.txt ]; then
+            cat best-wordlist-level2-filtered.txt | anew -q "${{ env.COMBINED_WORDLIST }}" || true
+          fi
+
+          if [ -f "$MERGED_ALL" ]; then
+            SPLIT_DIR=merged_chunks
+            rm -rf "$SPLIT_DIR"
+            mkdir -p "$SPLIT_DIR"
+            split -l 500000 --numeric-suffixes=1 --additional-suffix=.part "$MERGED_ALL" "$SPLIT_DIR/part_"
+            for p in "$SPLIT_DIR"/part_*; do
+              cat "$p" | anew -q "${{ env.COMBINED_WORDLIST }}" || true
+            done
+          fi
+
+          echo "Final combined lines: $(wc -l < ${COMBINED_WORDLIST} || true)"
+          ls -lh "${COMBINED_WORDLIST}" || true
+
+      - name: Save filtered wordlist to cache (store, only when regenerated)
+        if: steps.restore-filtered.outputs.cache-hit != 'true'
+        uses: actions/cache@v3
+        with:
+          key: filtered-wordlist-cache-v1-${{ runner.os }}-${{ hashFiles('best-wordlist-*.txt','filter_wordlist.go') }}
+          path: |
+            best-wordlist-filtered.txt
+            best-wordlist-level2-filtered.txt
+            all-filtered.txt
+            all-merged.tmp.txt
+            "${{ env.COMBINED_WORDLIST }}"
+
+      - name: Final check (always)
+        run: |
+          echo "Combined wordlist present:"
+          ls -lh "${{ env.COMBINED_WORDLIST }}" || true
+          head -n 10 "${{ env.COMBINED_WORDLIST }}" || true
+        
+      - name: Cache Raw Wordlists
       - name: Finalize Preparation and Split Chunks
         id: finalize_prep
         run: |
@@ -340,7 +490,7 @@ jobs:
               rustscan -a "$MASTER_NON_CDN_IPS" -p "$PORTS" --no-banner -t 7000 --tries 3 -u 50000 --scan-order "Random" -b 500 --greppable --accessible > "$TMP_RUSTSCAN" || true
               
               # Your original processing logic, unchanged
-              cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | PATH=$HOME/go/bin:$PATH anew -q "$TMP_NAABU_RUSTSCAN" || true
+              cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | anew -q "$TMP_NAABU_RUSTSCAN" || true
               
               # Process scan results into consistent format: "IP PORT"
               awk -F: 'NF==2 { print $1, $2 } NF==1 { print $1, "NOPORT" }' "$TMP_NAABU_RUSTSCAN" | sort -u > "$MASTER_SCAN_RESULTS" || true
