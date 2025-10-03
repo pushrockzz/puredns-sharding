@@ -1,0 +1,12 @@
+http://exd-int.bmw.com
+http://famos-pi-test.bmw.com
+http://famos-pi-test.bmw.com:443
+http://famos-ps.bmw.com
+http://famos-test.bmw.com
+http://famos-uk-maint.bmw.com
+http://fbmv-int.bmw.com
+https://exd-int.bmw.com
+https://famos-ps.bmw.com
+https://famos-test.bmw.com
+https://famos-uk-maint.bmw.com
+https://fbmv-int.bmw.com
