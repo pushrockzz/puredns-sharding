@@ -1,0 +1,6 @@
+http://livaas1-web.bmwgroup.com
+http://login-b2d-int.bmwgroup.com
+http://loginwindows.bmwgroup.com
+http://loginwindows.bmwgroup.com:443
+https://livaas1-web.bmwgroup.com
+https://login-b2d-int.bmwgroup.com

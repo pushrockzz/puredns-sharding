@@ -1,0 +1,4 @@
+http://loki-int3.bmw.com
+http://loki.bmw.com
+https://loki-int3.bmw.com
+https://loki.bmw.com
