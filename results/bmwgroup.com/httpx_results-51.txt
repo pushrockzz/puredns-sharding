@@ -1,0 +1,15 @@
+http://warrantywebus-i.bmwgroup.com
+http://warrantywebus.bmwgroup.com
+http://web-technical-brochures-uk.bmwgroup.com
+http://webfmsci.bmwgroup.com
+http://webshop-prod.bmwgroup.com
+http://webshop-test.bmwgroup.com
+https://warranty-management-dev.bmwgroup.com
+https://warranty-management.bmwgroup.com
+https://warrantywebus-i.bmwgroup.com
+https://warrantywebus.bmwgroup.com
+https://wcms2appsmig.bmwgroup.com
+https://web-technical-brochures-uk.bmwgroup.com
+https://webfmsci.bmwgroup.com
+https://webshop-prod.bmwgroup.com
+https://webshop-test.bmwgroup.com
