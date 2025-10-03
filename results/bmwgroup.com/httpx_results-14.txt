@@ -1,0 +1,13 @@
+http://imm-int1-gf3.bmwgroup.com
+http://imm-prod2.bmwgroup.com
+http://infobahn.bmwgroup.com
+http://ivsrbei.bmwgroup.com
+http://ivsrfe.bmwgroup.com
+http://ivsrfei2.bmwgroup.com
+https://ilz-user-prod.bmwgroup.com
+https://imm-int1-gf3.bmwgroup.com
+https://infobahn.bmwgroup.com
+https://infonet3-int.bmwgroup.com
+https://ipass1.bmwgroup.com
+https://ivsrbei.bmwgroup.com
+https://ivsrfe.bmwgroup.com

@@ -1,2 +1,9 @@
 http://amc-test.bmw.com
+http://iipa.bmw.com
+http://imm-dev6-gf3.bmw.com
 https://amc-test.bmw.com
+https://imm-dev6-gf3.bmw.com
+https://imm-int3-gf3.bmw.com
+https://imm-int7-gf3.bmw.com
+https://int-b2v-b2bappus.bmw.com
+https://int-b2v-b2bappus.bmw.com:80
