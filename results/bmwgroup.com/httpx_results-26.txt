@@ -1,0 +1,9 @@
+http://jpsgw1-int.bmwgroup.com
+http://jpsgw1.bmwgroup.com
+https://jpsgw1-int.bmwgroup.com
+https://jpsgw1.bmwgroup.com
+https://kai-b2i-int-eam.bmwgroup.com
+https://kai-b2i-qa-eam.bmwgroup.com
+https://kai-device-qa-wen.bmwgroup.com
+https://kai-qa-b2i-basic.bmwgroup.com
+https://kai-user-qa-eam.bmwgroup.com
