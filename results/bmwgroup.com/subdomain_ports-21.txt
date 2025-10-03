@@ -1,0 +1,8 @@
+perseus-dev.bmwgroup.com:80
+pixt.bmwgroup.com:443
+pixt.bmwgroup.com:80
+plaza-int.bmwgroup.com:80
+popsap.bmwgroup.com:443
+popsap.bmwgroup.com:80
+portalwe.bmwgroup.com:443
+portalwe.bmwgroup.com:80
