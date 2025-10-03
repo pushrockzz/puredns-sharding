@@ -21,11 +21,11 @@ on:
       words_per_chunk:
         description: 'Words per chunk file (lines_per_chunk).'
         required: false
-        default: '450000'
+        default: '1000000'
       domains_count:
         description: 'How many test domains to generate (default = 5)'
         required: false
-        default: '5'
+        default: '2'
 
 env:
   WORKFLOW_FILE: puredns-quicktest.yml
