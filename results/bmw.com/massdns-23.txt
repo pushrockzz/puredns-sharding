@@ -1,0 +1,3 @@
+remaapi.bmw.com A 160.46.240.247
+resuk.bmw.com A 160.46.240.247
+rplan.bmw.com A 160.46.243.78

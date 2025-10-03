@@ -1,0 +1,7 @@
+renibus.bmwgroup.com A 160.46.251.118
+reporting-uat.bmwgroup.com A 122.200.106.178
+rroc.bmwgroup.com A 160.46.240.68
+rsaog.bmwgroup.com A 160.46.226.70
+rwebproxy.bmwgroup.com A 160.46.251.216
+sa3-prod.bmwgroup.com A 160.46.237.84
+salesassistant.bmwgroup.com A 160.46.231.243
