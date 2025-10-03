@@ -1,0 +1,4 @@
+myworkplace-test.bmw.com:443
+myworkplace-test.bmw.com:80
+myworkplace.bmw.com:443
+myworkplace.bmw.com:80

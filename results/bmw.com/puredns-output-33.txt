@@ -1,0 +1,6 @@
+my-app.bmw.com
+mybmw.bmw.com
+myworkplace-prod2.bmw.com
+myworkplace-test.bmw.com
+myworkplace.bmw.com
+neainfra-us.bmw.com

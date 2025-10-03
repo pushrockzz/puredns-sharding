@@ -1,0 +1,4 @@
+myworkplace-prod2.bmw.com A 160.48.164.134
+myworkplace-test.bmw.com A 160.48.212.25
+myworkplace.bmw.com A 160.46.231.87
+neainfra-us.bmw.com A 170.34.59.243
