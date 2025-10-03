@@ -1,0 +1,8 @@
+salesassistant.bmwgroup.com
+sas-int.bmwgroup.com
+scp-int.bmwgroup.com
+secure-infonet3.bmwgroup.com
+secure-int-web-tic-mini-cn.bmwgroup.com
+secure-n.bmwgroup.com
+secure.bmwgroup.com
+securemail.bmwgroup.com

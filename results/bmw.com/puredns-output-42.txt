@@ -1,0 +1,3 @@
+scp-ci.bmw.com
+se.wit.bmw.com
+secure-sportmarketing-int.bmw.com

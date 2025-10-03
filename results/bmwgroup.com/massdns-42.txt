@@ -1,0 +1,8 @@
+salesassistant.bmwgroup.com A 160.46.231.243
+sas-int.bmwgroup.com A 160.46.251.81
+scp-int.bmwgroup.com A 3.112.167.68
+scp-int.bmwgroup.com A 54.65.135.221
+scp-int.bmwgroup.com A 57.182.195.117
+secure-n.bmwgroup.com A 160.46.247.223
+secure.bmwgroup.com A 160.46.244.47
+securemail.bmwgroup.com A 160.46.232.163
