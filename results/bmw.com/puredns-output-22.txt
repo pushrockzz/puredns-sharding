@@ -1,0 +1,2 @@
+hrci.bmw.com
+hsplw-int1.bmw.com
