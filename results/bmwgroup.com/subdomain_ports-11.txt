@@ -1,0 +1,2 @@
+fisp.bmwgroup.com:443
+fisp.bmwgroup.com:80

@@ -1,2 +1,3 @@
-cmp-test.bmw.com A 160.46.228.49
-cpp-prod.bmw.com A 160.46.231.16
+fbmv-int.bmw.com A 160.46.227.24
+fed-pi.bmw.com A 160.46.248.178
+fls2.bmw.com A 160.46.235.208

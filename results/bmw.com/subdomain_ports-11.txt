@@ -1,2 +1,2 @@
-cmp-test.bmw.com:443
-cmp-test.bmw.com:80
+fbmv-int.bmw.com:443
+fbmv-int.bmw.com:80
