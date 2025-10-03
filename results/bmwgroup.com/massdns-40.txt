@@ -1,0 +1,8 @@
+raedersstigf5.bmwgroup.com A 160.46.249.217
+rdrsales-wen.bmwgroup.com A 160.46.235.147
+rdrsales.bmwgroup.com A 170.34.41.42
+redirect.bmwgroup.com A 160.46.244.54
+renibus.bmwgroup.com A 160.46.251.118
+rep-api.bmwgroup.com A 160.48.164.106
+repairmanual-bmwmotorrad.bmwgroup.com A 160.46.231.130
+reporting-uat.bmwgroup.com A 122.200.106.178
