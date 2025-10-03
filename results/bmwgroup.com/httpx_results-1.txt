@@ -1,4 +1,7 @@
+http://casa.bmwgroup.com
 http://vpnweb.bmwgroup.com
 http://webshop-test.bmwgroup.com
+https://cargo-auth.bmwgroup.com
+https://casa.bmwgroup.com
 https://vpnweb.bmwgroup.com
 https://webshop-test.bmwgroup.com
