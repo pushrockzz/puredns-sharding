@@ -1,0 +1,2 @@
+wxe2-test.bmwgroup.com:443
+wxe2-test.bmwgroup.com:80
