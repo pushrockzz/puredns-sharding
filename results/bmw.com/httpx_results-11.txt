@@ -1,0 +1,4 @@
+http://cpp-i.bmw.com
+https://cogdev2.bmw.com
+https://cogdev2.bmw.com:80
+https://cpp-i.bmw.com
