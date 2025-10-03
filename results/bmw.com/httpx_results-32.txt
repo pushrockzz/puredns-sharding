@@ -1,0 +1,2 @@
+http://mnomgr-e2e-us.bmw.com
+https://mnomgr-e2e-us.bmw.com
