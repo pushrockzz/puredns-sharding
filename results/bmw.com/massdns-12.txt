@@ -1,0 +1,4 @@
+csbe-na.bmw.com A 170.34.41.62
+csbe-test-na.bmw.com A 170.34.41.67
+customizer-int.bmw.com A 160.46.250.208
+customizer.bmw.com A 160.46.247.220

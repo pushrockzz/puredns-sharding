@@ -1,0 +1,12 @@
+cs-dna-wen-test.bmwgroup.com
+cs-p.bmwgroup.com
+csbe-int-na-rc.bmwgroup.com
+csbe-na-rc.bmwgroup.com
+csc-zrv-data-prod.bmwgroup.com
+csp-gfi.bmwgroup.com
+csp-gft.bmwgroup.com
+customer-int.bmwgroup.com
+customerboard.bmwgroup.com
+customercare.bmwgroup.com
+cuvedai-crm.bmwgroup.com
+dam-int.bmwgroup.com

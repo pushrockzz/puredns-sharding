@@ -1,0 +1,4 @@
+csbe-na.bmw.com
+csbe-test-na.bmw.com
+customizer-int.bmw.com
+customizer.bmw.com

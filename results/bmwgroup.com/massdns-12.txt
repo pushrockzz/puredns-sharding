@@ -1,0 +1,10 @@
+cs-dna-wen-test.bmwgroup.com A 160.46.251.62
+cs-p.bmwgroup.com A 160.46.244.170
+csbe-int-na-rc.bmwgroup.com A 170.34.41.77
+csbe-na-rc.bmwgroup.com A 170.34.41.78
+csc-zrv-data-prod.bmwgroup.com A 160.46.235.69
+csp-gfi.bmwgroup.com A 160.46.249.223
+csp-gft.bmwgroup.com A 160.46.227.238
+customer-int.bmwgroup.com A 122.200.104.234
+customercare.bmwgroup.com A 122.200.104.113
+cuvedai-crm.bmwgroup.com A 160.46.224.14
