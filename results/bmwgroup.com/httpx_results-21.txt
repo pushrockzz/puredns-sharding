@@ -1,0 +1,7 @@
+http://perseus-dev.bmwgroup.com
+http://pixt.bmwgroup.com
+http://popsap.bmwgroup.com
+http://portalwe.bmwgroup.com
+https://pixt.bmwgroup.com
+https://popsap.bmwgroup.com
+https://portalwe.bmwgroup.com
