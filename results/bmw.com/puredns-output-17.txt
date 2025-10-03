@@ -1,0 +1,12 @@
+exd-int.bmw.com
+faas2.bmw.com
+faas20nsf-int.bmw.com
+factsint.bmw.com
+famos-int-inter.bmw.com
+famos-pi-test.bmw.com
+famos-ps.bmw.com
+famos-test.bmw.com
+famos-uk-maint.bmw.com
+fbmv-int.bmw.com
+fed-i.bmw.com
+fed-pi.bmw.com

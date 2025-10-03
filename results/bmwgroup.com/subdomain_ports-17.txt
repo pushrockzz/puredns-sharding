@@ -1,0 +1,3 @@
+extranet-bwint1-sgate-premium.bmwgroup.com:443
+extranet-sgate-premium.bmwgroup.com:443
+extranet-sgate-premium.bmwgroup.com:80

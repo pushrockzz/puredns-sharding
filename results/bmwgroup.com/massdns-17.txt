@@ -1,0 +1,3 @@
+extranet-bwint1-sgate-premium.bmwgroup.com A 160.48.213.51
+extranet-sgate-premium.bmwgroup.com A 160.46.231.186
+fed-pi.bmwgroup.com A 160.46.251.212

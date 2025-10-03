@@ -1,0 +1,4 @@
+extranet-bwint1-sgate-premium.bmwgroup.com
+extranet-sgate-premium.bmwgroup.com
+factory-viewer-int.bmwgroup.com
+fed-pi.bmwgroup.com
