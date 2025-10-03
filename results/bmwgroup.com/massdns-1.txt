@@ -1,3 +1,5 @@
-vera.bmwgroup.com A 160.46.240.67
-vpnweb.bmwgroup.com A 160.46.231.45
-webshop-test.bmwgroup.com A 160.46.225.155
+air2.bmwgroup.com A 160.46.238.75
+bwms.bmwgroup.com A 160.46.244.26
+cargo-auth.bmwgroup.com A 160.46.244.175
+casa.bmwgroup.com A 160.46.243.83
+codis.bmwgroup.com A 160.46.240.77
