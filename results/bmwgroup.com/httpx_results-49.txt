@@ -1,0 +1,8 @@
+http://uat-bmwinfobahn.bmwgroup.com
+http://uatbmwgroupinfobahn.bmwgroup.com:443
+http://uatdfe.bmwgroup.com
+http://ucp-services-int.bmwgroup.com
+https://uat-bmwinfobahn.bmwgroup.com
+https://uatbmwgroupinfobahn.bmwgroup.com:80
+https://uatdfe.bmwgroup.com
+https://ucp-services-int.bmwgroup.com
