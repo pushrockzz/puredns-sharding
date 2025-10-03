@@ -1,0 +1,12 @@
+sera.bmw.com A 160.46.233.155
+services-kaius.bmw.com A 160.46.240.247
+services-recallsvc-int.bmw.com A 160.46.229.246
+services-verification-int.bmw.com A 160.46.248.123
+services.incentivesus-i.bmw.com A 160.46.240.175
+sf-mcs-preprod.bmw.com A 160.46.227.57
+sf-mcs-test.bmw.com A 160.46.227.50
+sftpcontent.bmw.com A 160.46.247.185
+sgem-es-int-tpv.bmw.com A 160.48.165.190
+shop-new.bmw.com A 160.46.235.24
+sip.partner.bmw.com A 160.46.254.10
+sip.partner.bmw.com A 160.46.254.15

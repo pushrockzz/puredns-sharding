@@ -1,0 +1,6 @@
+sera.bmw.com:80
+services-recallsvc-int.bmw.com:443
+services-verification-int.bmw.com:443
+sgem-es-int-tpv.bmw.com:443
+sgem-es-int-tpv.bmw.com:80
+sip.partner.bmw.com:443
