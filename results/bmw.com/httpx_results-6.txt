@@ -1,2 +1,3 @@
 http://ocean.bmw.com
+https://cam-dev.bmw.com
 https://ocean.bmw.com
