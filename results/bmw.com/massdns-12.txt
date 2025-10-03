@@ -1,1 +1,1 @@
-callisto.bmw.com A 20.103.233.217
+gcdm-business-services-i.bmw.com A 160.46.227.64
