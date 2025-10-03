@@ -1,0 +1,5 @@
+diweb-int2.bmw.com A 160.46.225.51
+dlss-t.bmw.com A 160.46.251.158
+dmsea.bmw.com A 20.52.0.116
+dpmt.bmw.com A 170.34.127.124
+dpv-int.bmw.com A 160.46.250.243

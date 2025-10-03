@@ -1,0 +1,13 @@
+directfinance-bwint2.bmwgroup.com A 160.46.227.81
+dmstoukps.bmwgroup.com A 160.48.164.130
+document-wrapper-service-int.bmwgroup.com A 160.46.224.206
+dombasic-int.bmwgroup.com A 160.46.225.176
+dop-bea12.bmwgroup.com A 160.46.238.27
+dopedu-i-neu.bmwgroup.com A 160.46.251.206
+dopi-neu.bmwgroup.com A 160.46.251.207
+dopi.bmwgroup.com A 160.46.248.23
+dplwi.bmwgroup.com A 160.46.248.42
+drift-i.bmwgroup.com A 170.34.127.199
+drift-t.bmwgroup.com A 170.34.100.69
+dsm-test.bmwgroup.com A 160.46.251.127
+dtos-mc-pv4.bmwgroup.com A 160.46.233.168

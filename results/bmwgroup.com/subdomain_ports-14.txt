@@ -1,0 +1,8 @@
+directfinance-bwint2.bmwgroup.com:443
+directfinance-bwint2.bmwgroup.com:80
+dmstoukps.bmwgroup.com:443
+document-wrapper-service-int.bmwgroup.com:443
+dopedu-i-neu.bmwgroup.com:443
+dopedu-i-neu.bmwgroup.com:80
+dtos-mc-pv4.bmwgroup.com:443
+dtos-mc-pv4.bmwgroup.com:80

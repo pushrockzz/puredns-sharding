@@ -1,0 +1,3 @@
+diweb-int2.bmw.com:443
+diweb-int2.bmw.com:80
+dmsea.bmw.com
