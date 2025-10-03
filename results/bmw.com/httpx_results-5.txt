@@ -1,0 +1,4 @@
+http://audit.bmw.com
+https://asc-prod-ha-wig.bmw.com
+https://audit-mobile.bmw.com
+https://audit.bmw.com
