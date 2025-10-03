@@ -1,5 +1,11 @@
-mdm-dev.bmwgroup.com A 160.46.232.104
-mxs1.bmwgroup.com A 195.190.135.11
-mxs2.bmwgroup.com A 195.190.135.12
-my-test.bmwgroup.com A 160.46.249.179
-ocr-prod.bmwgroup.com A 122.200.104.201
+bmwusedcar-int.bmwgroup.com A 114.66.81.204
+bossint.bmwgroup.com A 160.46.251.69
+brnw.bmwgroup.com A 160.46.248.94
+bwms-prod.bmwgroup.com A 160.46.243.246
+cargo-apisec-int.bmwgroup.com A 160.46.240.175
+cargo-apisec-qa2.bmwgroup.com A 160.46.240.175
+cargo-apisec.bmwgroup.com A 160.46.240.247
+carver.bmwgroup.com A 160.46.235.97
+casai.bmwgroup.com A 160.46.248.82
+casat.bmwgroup.com A 160.46.250.211
+cbe-prod-us.bmwgroup.com A 170.34.104.181

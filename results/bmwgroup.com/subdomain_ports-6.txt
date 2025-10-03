@@ -1,5 +1,6 @@
-mdm-dev.bmwgroup.com:2001
-mxs1.bmwgroup.com:25
-mxs2.bmwgroup.com:25
-my-test.bmwgroup.com:443
-my-test.bmwgroup.com:80
+carver.bmwgroup.com:443
+carver.bmwgroup.com:80
+casai.bmwgroup.com:443
+casai.bmwgroup.com:80
+casat.bmwgroup.com:443
+casat.bmwgroup.com:80
