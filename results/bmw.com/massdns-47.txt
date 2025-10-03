@@ -1,0 +1,4 @@
+teleservicesus-i.bmw.com A 170.34.104.159
+temp-iff-blue.bmw.com A 160.46.237.239
+term-prod.bmw.com A 160.46.233.133
+thebigidea.bmw.com A 212.224.18.15

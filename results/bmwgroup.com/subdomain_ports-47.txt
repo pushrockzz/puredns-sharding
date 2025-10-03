@@ -1,0 +1,15 @@
+teleservicesus-i.bmwgroup.com:443
+teleservicesus-i.bmwgroup.com:80
+test-dmz.bmwgroup.com:443
+test-dmz.bmwgroup.com:80
+test-lcs-mx.bmwgroup.com:443
+test-lcs-mx.bmwgroup.com:80
+test.api.bmwgroup.com:443
+test.api.bmwgroup.com:80
+test.dcs-mx.bmwgroup.com:443
+test.dcs-mx.bmwgroup.com:80
+test.mini-mx.bmwgroup.com:443
+test.mini-mx.bmwgroup.com:80
+test.swg-mx.bmwgroup.com:443
+test.swg-mx.bmwgroup.com:80
+tgjp-ig-i.bmwgroup.com:443

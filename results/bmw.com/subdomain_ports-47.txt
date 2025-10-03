@@ -1,0 +1,2 @@
+term-prod.bmw.com:443
+term-prod.bmw.com:80
