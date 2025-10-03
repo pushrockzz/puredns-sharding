@@ -1,0 +1,9 @@
+http://b2dua-int.bmwgroup.com
+https://awp-qa.bmwgroup.com
+https://awp-us.bmwgroup.com
+https://b2dua-int.bmwgroup.com
+https://b2dua.bmwgroup.com
+https://base-e2e-emea.bmwgroup.com
+https://base-emea.bmwgroup.com
+https://bemiweb-payara-prod.bmwgroup.com
+https://bemiweb-payara-prod.bmwgroup.com:80

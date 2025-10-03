@@ -1,0 +1,15 @@
+http://b2b-old.bmw.com
+http://b2biapp8.bmw.com
+http://b2bpapp6.bmw.com
+http://b2bua-int.bmw.com
+http://b2v-b2bappus.bmw.com
+https://b2b-int-mig.bmw.com
+https://b2b-old.bmw.com
+https://b2btomcp-next.bmw.com
+https://b2btomcp-next.bmw.com:80
+https://b2btomcq-next.bmw.com
+https://b2btomcq-next.bmw.com:80
+https://b2bua-int.bmw.com
+https://b2v-b2bappus.bmw.com
+https://base-cn.bmw.com
+https://base-e2e-us.bmw.com
