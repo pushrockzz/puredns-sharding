@@ -1,0 +1,9 @@
+http://bmw-app.bmwgroup.com
+http://bmwcardata.bmwgroup.com
+http://bmwfs-ho.bmwgroup.com
+http://bmwfs-i-ho.bmwgroup.com
+http://bmwfs-t-ho-wls12.bmwgroup.com
+https://bmw-app.bmwgroup.com
+https://bmwcardata.bmwgroup.com
+https://bmwfs-ho.bmwgroup.com
+https://bmwfs-t-ho-wls12.bmwgroup.com
