@@ -1,8 +1,7 @@
-ipv4-c080-gru005-ix.bmwgroup.com A 86.35.3.192
-ipv4-c080-gru005-ix.bmwgroup.com A 86.35.3.193
-sams-tts.bmwgroup.com A 86.35.3.192
-sams-tts.bmwgroup.com A 86.35.3.193
-sarmatian-uhcl-bgp.bmwgroup.com A 86.35.3.192
-sarmatian-uhcl-bgp.bmwgroup.com A 86.35.3.193
-test-site-2.bmwgroup.com A 86.35.3.192
-test-site-2.bmwgroup.com A 86.35.3.193
+materialdealer-es.bmwgroup.com A 160.46.238.66
+mediapool.bmwgroup.com A 160.46.226.184
+mein-int.bmwgroup.com A 160.46.248.153
+mein-test.bmwgroup.com A 160.46.248.164
+messe.bmwgroup.com A 62.245.187.105
+mike-test.bmwgroup.com A 122.200.105.65
+mobilecustomizerlight-int.bmwgroup.com A 160.46.225.147

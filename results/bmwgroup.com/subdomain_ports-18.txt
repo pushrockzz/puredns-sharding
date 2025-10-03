@@ -1,4 +1,4 @@
-ipv4-c080-gru005-ix.bmwgroup.com:80
-sams-tts.bmwgroup.com:80
-sarmatian-uhcl-bgp.bmwgroup.com:80
-test-site-2.bmwgroup.com:80
+mediapool.bmwgroup.com:443
+mediapool.bmwgroup.com:80
+mein-int.bmwgroup.com:443
+mein-int.bmwgroup.com:80
