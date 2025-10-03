@@ -1,0 +1,4 @@
+http://myworkplace-test.bmw.com
+http://myworkplace.bmw.com
+https://myworkplace-test.bmw.com
+https://myworkplace.bmw.com
