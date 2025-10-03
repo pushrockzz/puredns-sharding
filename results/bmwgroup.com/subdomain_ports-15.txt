@@ -1,4 +1,0 @@
-056-v3-client.bmwgroup.com:80
-558-89.bmwgroup.com:80
-70kitchen-s.bmwgroup.com:80
-tor82-158-pda.bmwgroup.com:80

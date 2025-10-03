@@ -1,8 +1,1 @@
-056-v3-client.bmwgroup.com A 86.35.3.192
-056-v3-client.bmwgroup.com A 86.35.3.193
-558-89.bmwgroup.com A 86.35.3.192
-558-89.bmwgroup.com A 86.35.3.193
-70kitchen-s.bmwgroup.com A 86.35.3.192
-70kitchen-s.bmwgroup.com A 86.35.3.193
-tor82-158-pda.bmwgroup.com A 86.35.3.192
-tor82-158-pda.bmwgroup.com A 86.35.3.193
+jira-int.bmwgroup.com A 160.48.212.15
