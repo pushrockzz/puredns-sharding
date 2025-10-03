@@ -1,0 +1,3 @@
+http://what-p.bmw.com
+http://wire-int.bmw.com
+https://what-p.bmw.com

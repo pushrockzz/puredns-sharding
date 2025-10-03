@@ -1,0 +1,9 @@
+http://wenp-dynatrace.bmwgroup.com
+http://wsdl-prod-mx.bmwgroup.com
+https://wen-april-m2m-qa2.bmwgroup.com
+https://wen-ig-b2iua.bmwgroup.com
+https://wen-ig-bps-int.bmwgroup.com
+https://weni-basicauth-dynatrace.bmwgroup.com
+https://wenp-dynatrace.bmwgroup.com
+https://wsdl-prod-mx.bmwgroup.com
+https://wvius-services.bmwgroup.com
