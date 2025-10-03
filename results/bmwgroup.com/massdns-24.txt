@@ -1,0 +1,9 @@
+scp-int.bmwgroup.com A 3.112.167.68
+scp-int.bmwgroup.com A 54.65.135.221
+scp-int.bmwgroup.com A 57.182.195.117
+sgate-int.bmwgroup.com A 18.161.180.112
+sgate-int.bmwgroup.com A 18.161.180.69
+sgate-int.bmwgroup.com A 18.161.180.87
+sgate-int.bmwgroup.com A 18.161.180.88
+sip.partner.bmwgroup.com A 160.46.254.10
+sip.partner.bmwgroup.com A 160.46.254.15

@@ -1,0 +1,4 @@
+scp-ci.bmw.com A 160.46.231.207
+services.incentivesus-i.bmw.com A 160.46.240.175
+sip.partner.bmw.com A 160.46.254.10
+sip.partner.bmw.com A 160.46.254.15
