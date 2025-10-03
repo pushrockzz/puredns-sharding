@@ -1,0 +1,8 @@
+chbe-test-us.bmw.com A 170.34.41.86
+cloud2cloud.bmw.com A 10.97.10.200
+cmp-author-int.bmw.com A 160.46.228.47
+cmp-pp.bmw.com A 160.46.228.123
+cmp-test.bmw.com A 160.46.228.49
+cmsp-author.bmw.com A 160.46.243.92
+cmx-author-int-b2b.bmw.com A 160.46.250.158
+cmx-author-int4.bmw.com A 160.46.225.33

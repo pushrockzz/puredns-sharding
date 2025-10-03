@@ -1,0 +1,12 @@
+charging-inttest.bmwgroup.com
+check-shop.bmwgroup.com
+christmas-greetings.bmwgroup.com
+ckf-us-qa.bmwgroup.com
+cms-containermovements-int.bmwgroup.com
+cms-containerprices.bmwgroup.com
+cmscn-int.bmwgroup.com
+cmscn.bmwgroup.com
+cmx-author-int7.bmwgroup.com
+cnapi-i.bmwgroup.com
+cobis-int2.bmwgroup.com
+cobis.bmwgroup.com

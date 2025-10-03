@@ -1,0 +1,8 @@
+check-shop.bmwgroup.com:443
+check-shop.bmwgroup.com:80
+ckf-us-qa.bmwgroup.com
+ckf-us-qa.bmwgroup.com:80
+cms-containermovements-int.bmwgroup.com:443
+cms-containermovements-int.bmwgroup.com:80
+cms-containerprices.bmwgroup.com:443
+cms-containerprices.bmwgroup.com:80

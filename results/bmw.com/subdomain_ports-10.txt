@@ -1,0 +1,4 @@
+cmp-author-int.bmw.com:443
+cmp-author-int.bmw.com:80
+cmp-test.bmw.com:443
+cmp-test.bmw.com:80
