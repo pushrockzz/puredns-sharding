@@ -1,0 +1,4 @@
+http://strong.bmw.com
+https://sta-bps.bmw.com
+https://sta-ouc.bmw.com
+https://strong.bmw.com
