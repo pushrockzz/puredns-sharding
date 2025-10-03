@@ -1,0 +1,8 @@
+http://netftnoa-test.bmwgroup.com
+http://nhtsa-i.bmwgroup.com
+http://nhtsa.bmwgroup.com
+http://noaifa-test.bmwgroup.com
+https://netftnoa-test.bmwgroup.com
+https://nhtsa-i.bmwgroup.com
+https://nhtsa.bmwgroup.com
+https://noaifa-test.bmwgroup.com
