@@ -32,8 +32,8 @@ env:
   MATRIX_SIZE: '20'
   COMBINED_WORDLIST: combined-wordlist.txt
   REMOTE_ZIP_URL: https://localdomain.pw/subdomain-bruteforce-list/all.txt.zip
-  CHUNK_LINES: "450000"
-  SORT_MEM: "3G"  
+  CHUNK_LINES: "1000000"
+  SORT_MEM: "4G"  
 
 jobs:
   prepare:
@@ -50,12 +50,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
+          fetch-depth: 0   
+          
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
           go-version: '1.23'
-      - name: Install Go tools
-        run: go install -v github.com/tomnomnom/anew@latest
+ 
 
       - name: Cache Raw Wordlists (restore)
         uses: actions/cache@v3
@@ -66,13 +67,60 @@ jobs:
             best-wordlist-level2.txt
           key: raw-wordlists-cache-v1-${{ runner.os }}-${{ hashFiles('best-wordlist-*.txt') }}
 
-      - name: Fetch default wordlists & resolvers (if missing)
+      - name: Fetch default small wordlists & resolvers (if missing)
         run: |
           
           if [ ! -f best-wordlist-level1.txt ]; then wget -qO best-wordlist-level1.txt https://raw.githubusercontent.com/trickest/wordlists/main/inventory/levels/level1.txt; fi
           if [ ! -f best-wordlist-level2.txt ]; then wget -qO best-wordlist-level2.txt https://raw.githubusercontent.com/trickest/wordlists/main/inventory/levels/level2.txt; fi
           wget -qO resolvers.txt https://raw.githubusercontent.com/rix4uni/resolvers/main/resolvers.txt || true
           wget -qO resolvers-trusted.txt https://raw.githubusercontent.com/and0x00/resolvers.txt/main/resolvers.txt || true
+
+      - name: Download big remote wordlists (the ones you listed)
+        run: |
+          
+          mkdir -p wordlists
+          cd wordlists
+          # list of URLs (one per line)
+          urls=(
+            "https://media.githubusercontent.com/media/Pcoder7/All-In-One-DNS-Wordlist/refs/heads/main/2m-subdomains-2167059.txt"
+            "https://media.githubusercontent.com/media/Pcoder7/All-In-One-DNS-Wordlist/refs/heads/main/best-wordlist-9996122.txt"
+            "https://media.githubusercontent.com/media/Pcoder7/All-In-One-DNS-Wordlist/refs/heads/main/seclistes-dns-7110368.txt"
+            "https://media.githubusercontent.com/media/Pcoder7/All-In-One-DNS-Wordlist/refs/heads/main/http-subdomains-2441323.txt"
+            "https://media.githubusercontent.com/media/Pcoder7/All-In-One-DNS-Wordlist/refs/heads/main/mily-880196.txt"
+            "https://media.githubusercontent.com/media/Pcoder7/All-In-One-DNS-Wordlist/refs/heads/main/ass-420113.txt"
+            "https://media.githubusercontent.com/media/Pcoder7/All-In-One-DNS-Wordlist/refs/heads/main/danr-649649.txt"
+            "https://raw.githubusercontent.com/n0kovo/n0kovo_subdomains/refs/heads/main/n0kovo_subdomains_huge.txt"
+            "https://raw.githubusercontent.com/n0kovo/n0kovo_subdomains/refs/heads/main/n0kovo_subdomains_large.txt"
+            "https://raw.githubusercontent.com/n0kovo/n0kovo_subdomains/refs/heads/main/n0kovo_subdomains_medium.txt"
+            "https://raw.githubusercontent.com/n0kovo/n0kovo_subdomains/refs/heads/main/n0kovo_subdomains_small.txt"
+            "https://raw.githubusercontent.com/n0kovo/n0kovo_subdomains/refs/heads/main/n0kovo_subdomains_tiny.txt"
+          )
+          for u in "${urls[@]}"; do
+            fname=$(basename "$u")
+            # skip if already downloaded
+            if [ -s "$fname" ]; then
+              echo "exists: $fname"
+              continue
+            fi
+            echo "Downloading $u -> $fname"
+            # use -c to resume; use -q for quiet; fail the step if download fails
+            wget -c -q -O "$fname" "$u"
+            if [ ! -s "$fname" ]; then
+              echo "Warning: $fname empty after download"
+            else
+              echo "Downloaded $fname ($(wc -l < $fname || true) lines)"
+            fi
+          done
+          cd ..
+
+      - name: Download remote all.txt.zip and extract all.txt
+        run: |
+          
+          echo "Downloading zip via wget..."
+          wget -qO all.txt.zip "${{ env.REMOTE_ZIP_URL }}"
+          echo "Unzipping to all.txt ..."
+          unzip -p all.txt.zip > all.txt
+          echo "all.txt lines: $(wc -l < all.txt || true)"
 
       - name: Build filter_wordlist tool (if present)
         id: build-filter
@@ -97,52 +145,136 @@ jobs:
             all-filtered.txt
             ${{ env.COMBINED_WORDLIST }}
 
-      - name: Download zip and unzip into all.txt (only if cache miss)
+      - name: Filter large wordlists using filter_wordlist (chunked + parallel)
         if: steps.restore-filtered.outputs.cache-hit != 'true'
         run: |
           
-          echo "Downloading zip via wget..."
-          wget -qO all.txt.zip https://localdomain.pw/subdomain-bruteforce-list/all.txt.zip
-          echo "Unzipping to all.txt ..."
-          unzip -p all.txt.zip > all.txt
-          echo "downloaded/unzipped: $(wc -l all.txt || true) lines"
+          # config and defaults
+          FILTER_CHUNK_LINES=${FILTER_CHUNK_LINES:-500000}
+          DEDUPE_CHUNK_LINES=${DEDUPE_CHUNK_LINES:-1000000}
+          WORKDIR=$(pwd)
+          mkdir -p work_filtered
+          rm -rf work_filtered/* || true
 
-      - name: Filter wordlists and all.txt (only if cache miss)
-        if: steps.restore-filtered.outputs.cache-hit != 'true'
-        run: |
-          
-          if [ -x ./filter_wordlist ]; then
-            echo "Running filter_wordlist on local lists and downloaded all.txt ..."
-            ./filter_wordlist best-wordlist-level1.txt > best-wordlist-filtered.txt || true
-            ./filter_wordlist best-wordlist-level2.txt > best-wordlist-level2-filtered.txt || true
-            ./filter_wordlist all.txt > all-filtered.txt || true
-          else
-            echo "filter_wordlist not present: using fallback normalizer (lowercase, strip - duplicates handled later)"
-            tr '[:upper:]' '[:lower:]' < best-wordlist-level1.txt | sed 's/[^[:print:]]//g' | awk 'NF' > best-wordlist-filtered.txt || true
-            tr '[:upper:]' '[:lower:]' < best-wordlist-level2.txt | sed 's/[^[:print:]]//g' | awk 'NF' > best-wordlist-level2-filtered.txt || true
-            tr '[:upper:]' '[:lower:]' < all.txt | sed 's/[^[:print:]]//g' | awk 'NF' > all-filtered.txt || true
-          fi
-          echo "Filtered files sizes:"
-          wc -l best-wordlist-filtered.txt best-wordlist-level2-filtered.txt all-filtered.txt || true
+          # helper function: filter a single file (chunked if large)
+          filter_file() {
+            local src="$1"
+            local base
+            base=$(basename "$src")
+            local out="$WORKDIR/work_filtered/${base}.filtered"
+            echo "----- processing $src -> $out -----"
+            # ensure file exists and is non-empty
+            if [ ! -s "$src" ]; then
+              echo "Skipping empty/missing $src"
+              return 0
+            fi
+            local lines
+            lines=$(wc -l < "$src" || echo 0)
+            if [ "$lines" -le "$FILTER_CHUNK_LINES" ]; then
+              # small enough: filter in one shot if tool exists else normalize
+              if [ -x ./filter_wordlist ]; then
+                ./filter_wordlist "$src" > "$out" || true
+              else
+                tr '[:upper:]' '[:lower:]' < "$src" | sed 's/[^[:print:]]//g' | awk 'NF' > "$out" || true
+              fi
+              echo "Produced $out ($(wc -l < "$out" || true) lines)"
+              return 0
+            fi
 
-      - name: Chunk, sort and produce merged sorted file (uses repo-root Python script)
+            # large file: split into chunks and filter chunks in parallel
+            local chdir="$WORKDIR/work_chunks_${base%.*}"
+            rm -rf "$chdir"
+            mkdir -p "$chdir"
+            echo "Splitting $src into chunks of $FILTER_CHUNK_LINES lines into $chdir..."
+            split -l "$FILTER_CHUNK_LINES" --numeric-suffixes=1 --additional-suffix=.chunk "$src" "$chdir/chunk_"
+
+            # process chunks in parallel (throttled to nproc)
+            nproc=$(nproc || echo 2)
+            printf '%s\0' "$chdir"/chunk_* | xargs -0 -n1 -P "$nproc" -I{} bash -c '\
+              chunk="{}"; \
+              outchunk="${chunk}.filtered"; \
+              if [ -x ./filter_wordlist ]; then \
+                ./filter_wordlist "$chunk" > "$outchunk" || true; \
+              else \
+                tr "[:upper:]" "[:lower:]" < "$chunk" | sed "s/[^[:print:]]//g" | awk "NF" > "$outchunk" || true; \
+              fi; \
+              echo "filtered $chunk -> $outchunk"'
+
+            # concatenate filtered chunks into final filtered file
+            cat "$chdir"/chunk_*.filtered > "$out"
+            echo "Concatenated filtered chunks -> $out ($(wc -l < "$out" || true) lines)"
+            # optional: remove chunk dir to save disk
+            rm -rf "$chdir"
+          }
+
+          # Build list of source files:
+          # local small pre-filters
+          sources=()
+          # include local level lists if present
+          [ -f best-wordlist-level1.txt ] && sources+=("best-wordlist-level1.txt")
+          [ -f best-wordlist-level2.txt ] && sources+=("best-wordlist-level2.txt")
+          # include all filtered from repo downloads
+          for f in wordlists/*; do
+            [ -f "$f" ] || continue
+            sources+=("$f")
+          done
+          # include the all.txt you unzipped
+          [ -f all.txt ] && sources+=("all.txt")
+
+          echo "Files to filter: ${#sources[@]}"
+          for s in "${sources[@]}"; do
+            echo "-> $s"
+          done
+
+          # loop and filter each file (serial loop, individual filtering uses parallel chunks)
+          for s in "${sources[@]}"; do
+            filter_file "$s"
+          done
+
+          # combine all filtered files into a single all-filtered.txt for dedupe
+          rm -f all-filtered.txt || true
+          for f in work_filtered/*.filtered; do
+            [ -f "$f" ] || continue
+            cat "$f" >> all-filtered.txt
+          done
+          echo "Combined all-filtered.txt lines: $(wc -l < all-filtered.txt || true)"
+          ls -lh all-filtered.txt || true
+
+      - name: Chunk, sort and produce merged sorted file (dedupe across all-filtered.txt)
         if: steps.restore-filtered.outputs.cache-hit != 'true'
         run: |
           
           IN_FILE=all-filtered.txt
-          CHUNK_DIR=chunks
+          CHUNK_DIR=dedupe_chunks
           MERGED_SORTED=all-merged.sorted.txt
           TMPDIR=${TMPDIR:-/tmp}
-          mkdir -p "$CHUNK_DIR"
+          SORT_MEM=${SORT_MEM:-1G}
+          DEDUPE_CHUNK_LINES=${DEDUPE_CHUNK_LINES:-1000000}
+
+          if [ -z "${DEDUPE_CHUNK_LINES:-}" ] || ! printf '%s' "${DEDUPE_CHUNK_LINES}" | grep -Eq '^[0-9]+$'; then
+            echo "DEDUPE_CHUNK_LINES invalid; defaulting to 1000000"; DEDUPE_CHUNK_LINES=1000000
+          fi
+
           if [ ! -f "$IN_FILE" ]; then
             echo "ERROR: $IN_FILE missing"; exit 1
           fi
-          echo "Input lines: $(wc -l < "$IN_FILE" || true)"
-          echo "Splitting into chunks (lines per chunk = $CHUNK_LINES)..."
-          rm -rf "$CHUNK_DIR" || true
+
+          echo "Input total lines: $(wc -l < "$IN_FILE" || true)"
+          rm -rf "$CHUNK_DIR"
           mkdir -p "$CHUNK_DIR"
-          split -l "${CHUNK_LINES}" --numeric-suffixes=1 --additional-suffix=.chunk "$IN_FILE" "$CHUNK_DIR/chunk_"
-          echo "Sorting each chunk in parallel (sort -u -S $SORT_MEM)..."
+
+          echo "Splitting into chunks of $DEDUPE_CHUNK_LINES lines..."
+          split -l "${DEDUPE_CHUNK_LINES}" --numeric-suffixes=1 --additional-suffix=.chunk "$IN_FILE" "$CHUNK_DIR/chunk_"
+
+          chunk_count=$(ls "$CHUNK_DIR"/chunk_*.chunk 2>/dev/null | wc -l || true)
+          if [ -z "$chunk_count" ] || [ "$chunk_count" -eq 0 ]; then
+            echo "No chunk files produced; falling back to single sort -u"
+            LC_ALL=C sort -u -T "$TMPDIR" -S "$SORT_MEM" "$IN_FILE" -o "$MERGED_SORTED"
+            echo "Merged sorted file produced: $MERGED_SORTED ($(wc -l < $MERGED_SORTED || true) lines)"
+            exit 0
+          fi
+
+          echo "Sorting each dedupe chunk (parallel up to nproc)..."
           nproc=$(nproc || echo 2)
           jobs=0
           for f in "$CHUNK_DIR"/chunk_*.chunk; do
@@ -155,11 +287,31 @@ jobs:
             fi
           done
           wait
-          echo "Calling repo-root Python merge script to k-way merge sorted chunks..."
+
+          sorted_count=$(ls "$CHUNK_DIR"/chunk_*.chunk.sorted 2>/dev/null | wc -l || true)
+          if [ -z "$sorted_count" ] || [ "$sorted_count" -eq 0 ]; then
+            echo "ERROR: no sorted chunk files found after sorting"; exit 1
+          fi
+
+          echo "Merging sorted chunks via repo-root Python script..."
           python3 merge_sorted_chunks.py "$CHUNK_DIR" "$MERGED_SORTED"
           echo "Merged sorted file produced: $MERGED_SORTED ($(wc -l < $MERGED_SORTED || true) lines)"
           ls -lh "$MERGED_SORTED" || true
 
+      - name: Ensure anew is available (install if missing)
+        if: steps.restore-filtered.outputs.cache-hit != 'true'
+        run: |
+          
+          if ! command -v anew >/dev/null 2>&1; then
+            echo "anew not found; installing via go install ..."
+            export GOBIN="$HOME/go/bin"
+            mkdir -p "$GOBIN"
+            PATH="$GOBIN:$PATH"
+            go install github.com/tomnomnom/anew@latest
+          else
+            echo "anew already present"
+          fi
+          echo "anew: $(command -v anew || true)"
 
       - name: Combine using anew (incremental, memory-friendly)
         if: steps.restore-filtered.outputs.cache-hit != 'true'
@@ -169,14 +321,17 @@ jobs:
           MERGED_SORTED=all-merged.sorted.txt
           rm -f "${{ env.COMBINED_WORDLIST }}" || true
           touch "${{ env.COMBINED_WORDLIST }}"
+
+          # small lists first
           if [ -f best-wordlist-filtered.txt ]; then
             cat best-wordlist-filtered.txt | anew -q "${{ env.COMBINED_WORDLIST }}" || true
           fi
           if [ -f best-wordlist-level2-filtered.txt ]; then
             cat best-wordlist-level2-filtered.txt | anew -q "${{ env.COMBINED_WORDLIST }}" || true
           fi
+
+          # big merged sorted: feed in parts
           if [ -f "$MERGED_SORTED" ]; then
-            echo "Feeding large merged file to anew in parts..."
             rm -rf merged_parts || true
             mkdir -p merged_parts
             split -l 500000 --numeric-suffixes=1 --additional-suffix=.part "$MERGED_SORTED" merged_parts/part_
@@ -184,10 +339,11 @@ jobs:
               cat "$p" | anew -q "${{ env.COMBINED_WORDLIST }}" || true
             done
           fi
+
           echo "Final COMBINED_WORDLIST lines: $(wc -l < ${COMBINED_WORDLIST} || true)"
           ls -lh "${COMBINED_WORDLIST}" || true
 
-      - name: Save filtered wordlist to cache (store, only when regenerated)
+      - name: Save filtered wordlist to cache (store)
         if: steps.restore-filtered.outputs.cache-hit != 'true'
         uses: actions/cache@v3
         with:
@@ -203,19 +359,7 @@ jobs:
         run: |
           echo "Combined wordlist present:"
           ls -lh "${{ env.COMBINED_WORDLIST }}" || true
-          head -n 10 "${{ env.COMBINED_WORDLIST }}" || true       
-          
-      - name: Filter and Combine Wordlists
-        if: steps.cache-filtered-wordlist.outputs.cache-hit != 'true'
-        run: |
-          if [ -f ./filter_wordlist ]; then
-            ./filter_wordlist best-wordlist-level1.txt > best-wordlist-filtered.txt
-            ./filter_wordlist best-wordlist-level2.txt > best-wordlist-level2-filtered.txt
-          else
-            cp best-wordlist-level1.txt best-wordlist-filtered.txt
-            cp best-wordlist-level2.txt best-wordlist-level2-filtered.txt
-          fi
-          cat best-wordlist-filtered.txt best-wordlist-level2-filtered.txt | anew -q ${{ env.COMBINED_WORDLIST }}
+          head -n 10 "${{ env.COMBINED_WORDLIST }}" || true
           
       - name: Finalize Preparation and Split Chunks
         id: finalize_prep
