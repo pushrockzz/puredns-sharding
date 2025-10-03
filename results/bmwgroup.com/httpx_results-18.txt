@@ -1,0 +1,10 @@
+http://fisp.bmwgroup.com
+http://focus-int.bmwgroup.com
+http://focus-tst.bmwgroup.com
+http://fscalculator-i-web.bmwgroup.com
+http://fscalculator-web.bmwgroup.com
+https://fisp.bmwgroup.com
+https://focus-int.bmwgroup.com
+https://focus-tst.bmwgroup.com
+https://fscalculator-i-web.bmwgroup.com
+https://fscalculator-web.bmwgroup.com
