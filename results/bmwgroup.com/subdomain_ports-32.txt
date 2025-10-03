@@ -1,0 +1,10 @@
+mnomgr-att-us-e2e.bmwgroup.com:443
+mnomgr-att-us-e2e.bmwgroup.com:80
+mnomgr-gd-de-e2e.bmwgroup.com:443
+mnomgr-gd-de-e2e.bmwgroup.com:80
+mobilitytools.bmwgroup.com:80
+msdcrm365-adfs5-prod.bmwgroup.com:443
+msdcrm365-adfs5-prod.bmwgroup.com:80
+mt-alclaims.bmwgroup.com:80
+mtls.ckf-qa.bmwgroup.com
+mtls.ckf.bmwgroup.com

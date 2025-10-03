@@ -1,0 +1,2 @@
+mnomgr-e2e-us.bmw.com:443
+mnomgr-e2e-us.bmw.com:80
