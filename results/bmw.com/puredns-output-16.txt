@@ -1,0 +1,17 @@
+emobility-test2.bmw.com
+emoboi-test-us.bmw.com
+encs-b2b.bmw.com
+engagehk-dev.bmw.com
+engineoil-approval.bmw.com
+epos-t.bmw.com
+epos.bmw.com
+erfx-tg.bmw.com
+erfx-ttg.bmw.com
+erms.bmw.com
+esa1-us-b2b.bmw.com
+esa1-us-e2e-b2b.bmw.com
+esaus.bmw.com
+etik-new.bmw.com
+etikdxi-int.bmw.com
+etk-webservices.bmw.com
+everest.bmw.com
