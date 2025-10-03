@@ -1,0 +1,3 @@
+mail11.bmwgroup.com A 193.23.33.151
+mail12.bmwgroup.com A 193.23.33.152
+materialdealer-es.bmwgroup.com A 160.46.238.66

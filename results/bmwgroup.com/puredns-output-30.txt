@@ -1,0 +1,4 @@
+mail01.bmwgroup.com
+mail11.bmwgroup.com
+mail12.bmwgroup.com
+materialdealer-es.bmwgroup.com
