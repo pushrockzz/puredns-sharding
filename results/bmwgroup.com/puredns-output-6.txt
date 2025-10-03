@@ -1,0 +1,17 @@
+aw-qa.bmwgroup.com
+aw-test.bmwgroup.com
+awp-qa.bmwgroup.com
+awp-us.bmwgroup.com
+b2b-web-rch-uk.bmwgroup.com
+b2d-content.bmwgroup.com
+b2d-mediapool.bmwgroup.com
+b2d-otb2.bmwgroup.com
+b2dcontent-test-b2i.bmwgroup.com
+b2dcontent-test.bmwgroup.com
+b2dua-int.bmwgroup.com
+b2dua.bmwgroup.com
+base-e2e-emea.bmwgroup.com
+base-emea.bmwgroup.com
+bat-oidc-t.bmwgroup.com
+beacon.bmwgroup.com
+bemiweb-payara-prod.bmwgroup.com

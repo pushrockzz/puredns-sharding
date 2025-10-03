@@ -1,0 +1,9 @@
+awp-qa.bmwgroup.com
+awp-us.bmwgroup.com
+b2dua-int.bmwgroup.com:443
+b2dua-int.bmwgroup.com:80
+b2dua.bmwgroup.com:443
+base-e2e-emea.bmwgroup.com:443
+base-emea.bmwgroup.com:443
+bemiweb-payara-prod.bmwgroup.com:443
+bemiweb-payara-prod.bmwgroup.com:80
