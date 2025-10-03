@@ -1,0 +1,4 @@
+http://processworld.bmwgroup.com
+http://qma2.bmwgroup.com
+https://auth-next.bmwgroup.com
+https://processworld.bmwgroup.com
