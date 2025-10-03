@@ -1,0 +1,14 @@
+vms-int.bmw.com
+vodcast.bmw.com
+vpn11.bmw.com
+vpn21.bmw.com
+vpn23.bmw.com
+vpnt1.bmw.com
+vpnt2.bmw.com
+vsr-int.bmw.com
+vsrsales-int.bmw.com
+vsrsales-test.bmw.com
+vts-adfs-int.bmw.com
+warrantywebus-i.bmw.com
+warrantywebus.bmw.com
+webista.bmw.com
