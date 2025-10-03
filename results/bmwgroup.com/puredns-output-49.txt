@@ -1,0 +1,14 @@
+uat-bmwinfobahn.bmwgroup.com
+uat-bps.bmwgroup.com
+uat-dsp-ecp.bmwgroup.com
+uatbmwgroupinfobahn.bmwgroup.com
+uatdfe.bmwgroup.com
+ucp-1-apisec-gw.bmwgroup.com
+ucp-prod-sa2.bmwgroup.com
+ucp-services-int.bmwgroup.com
+ucp-services-preprod.bmwgroup.com
+ums-int.bmwgroup.com
+unterschrift.bmwgroup.com
+uscdservices-i.bmwgroup.com
+usedcar.bmwgroup.com
+usedcarcn.bmwgroup.com

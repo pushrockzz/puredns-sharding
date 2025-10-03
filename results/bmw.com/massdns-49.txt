@@ -1,0 +1,4 @@
+twen-i.bmw.com A 160.46.251.228
+twen-p.bmw.com A 160.46.240.165
+twen2.bmw.com A 160.46.238.18
+uebernahmetais-tst.bmw.com A 160.46.224.83

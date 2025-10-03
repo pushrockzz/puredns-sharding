@@ -1,0 +1,11 @@
+uat-bmwinfobahn.bmwgroup.com A 170.34.104.252
+uat-bps.bmwgroup.com A 122.200.104.91
+uatbmwgroupinfobahn.bmwgroup.com A 170.34.59.41
+uatdfe.bmwgroup.com A 170.34.127.207
+ucp-1-apisec-gw.bmwgroup.com A 160.46.240.247
+ucp-services-int.bmwgroup.com A 160.46.250.230
+ucp-services-preprod.bmwgroup.com A 160.46.225.247
+ums-int.bmwgroup.com A 160.46.248.144
+uscdservices-i.bmwgroup.com A 170.34.127.250
+usedcar.bmwgroup.com A 122.200.123.192
+usedcarcn.bmwgroup.com A 122.200.104.90
