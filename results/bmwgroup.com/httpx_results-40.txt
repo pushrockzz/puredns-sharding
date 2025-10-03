@@ -1,0 +1,11 @@
+http://rdrsales-wen.bmwgroup.com
+http://rdrsales.bmwgroup.com
+http://redirect.bmwgroup.com
+http://renibus.bmwgroup.com
+http://renibus.bmwgroup.com:443
+http://reporting-uat.bmwgroup.com
+https://rdrsales-wen.bmwgroup.com
+https://rdrsales.bmwgroup.com
+https://repairmanual-bmwmotorrad.bmwgroup.com
+https://repairmanual-bmwmotorrad.bmwgroup.com:80
+https://reporting-uat.bmwgroup.com
