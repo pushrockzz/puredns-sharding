@@ -1,0 +1,16 @@
+dwh-webservice-int.bmw.com
+dwhb-i.bmw.com
+dynamiccontent.bmw.com
+dza-int.bmw.com
+dza-prod.bmw.com
+e2e-b2b-swl-sec2.bmw.com
+eaem.bmw.com
+eaina-i.bmw.com
+eaina.ddr.bmw.com
+ebest-gf5-prod.bmw.com
+ebest.bmw.com
+ecom.bmw.com
+eda2.bmw.com
+edab2bi-2.bmw.com
+ee-tmpbm.bmw.com
+efaplus-i.bmw.com

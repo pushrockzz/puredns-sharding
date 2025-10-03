@@ -1,0 +1,7 @@
+dza-int.bmw.com:443
+dza-prod.bmw.com:443
+dza-prod.bmw.com:80
+e2e-b2b-swl-sec2.bmw.com:443
+e2e-b2b-swl-sec2.bmw.com:80
+ebest-gf5-prod.bmw.com:443
+ebest-gf5-prod.bmw.com:80

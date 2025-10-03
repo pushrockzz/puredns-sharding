@@ -1,0 +1,12 @@
+dwp-dev.bmwgroup.com
+dyna-synth-cn-int.bmwgroup.com
+dyna-synth-cn.bmwgroup.com
+e4cuati6.bmwgroup.com:443
+e4cuati6.bmwgroup.com:80
+eba-test.bmwgroup.com:80
+ebsm2.bmwgroup.com:80
+eccza-int.bmwgroup.com:443
+eccza-int.bmwgroup.com:80
+edarest.bmwgroup.com:443
+education.bmwgroup.com:443
+education.bmwgroup.com:80
