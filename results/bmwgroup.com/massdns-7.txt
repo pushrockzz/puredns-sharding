@@ -1,0 +1,11 @@
+bmw-app.bmwgroup.com A 160.46.235.11
+bmw-preprod-a2-b2dwen.bmwgroup.com A 160.46.229.213
+bmwat1-int.bmwgroup.com A 160.46.224.225
+bmwat1.bmwgroup.com A 160.46.243.105
+bmwcardata.bmwgroup.com A 160.46.231.64
+bmwfs-ho.bmwgroup.com A 160.46.235.140
+bmwfs-i-ho.bmwgroup.com A 160.46.248.170
+bmwfs-t-ho-wls12.bmwgroup.com A 160.46.228.192
+bmwi-training-t.bmwgroup.com A 160.46.225.225
+bmwtechinfo-qa21.bmwgroup.com A 160.46.227.217
+boint.bmwgroup.com A 160.46.251.120

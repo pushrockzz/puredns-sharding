@@ -1,0 +1,10 @@
+bmw-app.bmwgroup.com:443
+bmw-app.bmwgroup.com:80
+bmwcardata.bmwgroup.com:443
+bmwcardata.bmwgroup.com:80
+bmwfs-ho.bmwgroup.com:443
+bmwfs-ho.bmwgroup.com:80
+bmwfs-i-ho.bmwgroup.com:80
+bmwfs-t-ho-wls12.bmwgroup.com:443
+bmwfs-t-ho-wls12.bmwgroup.com:80
+bmwtechinfo-qa21.bmwgroup.com:443

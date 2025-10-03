@@ -1,0 +1,5 @@
+bmw-classic-int.bmw.com
+bmw-test-a5.bmw.com
+bmwfs-i.bmw.com
+bmwonline.bmw.com
+bo3prod.bmw.com

@@ -1,0 +1,17 @@
+bericht.bmwgroup.com
+bmw-app.bmwgroup.com
+bmw-preprod-a2-b2dwen.bmwgroup.com
+bmwat1-int.bmwgroup.com
+bmwat1.bmwgroup.com
+bmwcardata.bmwgroup.com
+bmwfs-ho.bmwgroup.com
+bmwfs-i-ho.bmwgroup.com
+bmwfs-t-ho-wls12.bmwgroup.com
+bmwi-i.bmwgroup.com
+bmwi-training-t.bmwgroup.com
+bmwi.bmwgroup.com
+bmwmuseumapp.bmwgroup.com
+bmwtechinfo-qa.bmwgroup.com
+bmwtechinfo-qa21.bmwgroup.com
+bmwtechinfo.bmwgroup.com
+boint.bmwgroup.com

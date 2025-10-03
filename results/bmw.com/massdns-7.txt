@@ -1,0 +1,5 @@
+bmw-classic-int.bmw.com A 160.46.227.89
+bmw-test-a5.bmw.com A 160.48.165.182
+bmwfs-i.bmw.com A 160.46.228.30
+bmwonline.bmw.com A 62.220.6.131
+bo3prod.bmw.com A 160.46.233.146
