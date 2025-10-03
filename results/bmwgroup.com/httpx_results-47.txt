@@ -1,0 +1,15 @@
+http://teleservicesus-i.bmwgroup.com
+http://test-dmz.bmwgroup.com
+http://test-lcs-mx.bmwgroup.com
+http://test.api.bmwgroup.com
+http://test.dcs-mx.bmwgroup.com
+http://test.mini-mx.bmwgroup.com
+http://test.swg-mx.bmwgroup.com
+https://teleservicesus-i.bmwgroup.com
+https://test-dmz.bmwgroup.com
+https://test-lcs-mx.bmwgroup.com
+https://test.api.bmwgroup.com
+https://test.dcs-mx.bmwgroup.com
+https://test.mini-mx.bmwgroup.com
+https://test.swg-mx.bmwgroup.com
+https://tgjp-ig-i.bmwgroup.com

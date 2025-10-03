@@ -1,0 +1,2 @@
+http://term-prod.bmw.com
+https://term-prod.bmw.com
