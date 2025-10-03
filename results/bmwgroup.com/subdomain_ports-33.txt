@@ -1,0 +1,15 @@
+xindria.bmwgroup.com:10000
+xindria.bmwgroup.com:22
+xindria.bmwgroup.com:443
+xindria.bmwgroup.com:53
+xindria.bmwgroup.com:80
+ybl2ef.bmwgroup.com:10000
+ybl2ef.bmwgroup.com:22
+ybl2ef.bmwgroup.com:443
+ybl2ef.bmwgroup.com:53
+ybl2ef.bmwgroup.com:80
+yimingjiulei.bmwgroup.com:10000
+yimingjiulei.bmwgroup.com:22
+yimingjiulei.bmwgroup.com:443
+yimingjiulei.bmwgroup.com:53
+yimingjiulei.bmwgroup.com:80
