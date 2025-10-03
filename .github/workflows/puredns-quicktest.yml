@@ -364,7 +364,7 @@ jobs:
       - name: Finalize Preparation and Split Chunks
         id: finalize_prep
         run: |
-          mkdir -p domains wordlists results
+          mkdir -p domains wordlists result-large
           if [ ! -f "domains/domains.txt" ]; then
             for i in $(seq 1 "${{ github.event.inputs.domains_count }}"); do echo "test${i}.example.com"; done > "domains/domains.txt"
           fi
@@ -429,7 +429,7 @@ jobs:
       matrix:
         shard: ${{ fromJson(needs.generate_matrix.outputs.shard_matrix) }}
     steps:
-      - name: Checkout repo (for committing results)
+      - name: Checkout repo (for committing result-large)
         uses: actions/checkout@v4
         with:
           persist-credentials: false
@@ -475,7 +475,7 @@ jobs:
           if [ ! -f "$CHUNK_FILE" ]; then exit 0; fi
           while IFS= read -r domain || [ -n "$domain" ]; do
             case "$domain" in \#*|"") continue ;; esac
-            ROOT_DOMAIN_DIR="results/$domain"
+            ROOT_DOMAIN_DIR="result-large/$domain"
             mkdir -p "$ROOT_DOMAIN_DIR"
             cat "$CHUNK_FILE" | puredns bruteforce "$domain" -r "resolvers.txt" --rate-limit 5000 --rate-limit-trusted 2000 \
               --resolvers-trusted "resolvers-trusted.txt" --wildcard-tests 300 --wildcard-batch 100000 \
@@ -577,7 +577,7 @@ jobs:
           # Loop through domains for the sole purpose of collecting IPs and mapping them.
           while IFS= read -r domain || [ -n "$domain" ]; do
               case "$domain" in \#*|"") continue ;; esac
-              ROOT_DOMAIN_DIR="results/$domain"
+              ROOT_DOMAIN_DIR="result-large/$domain"
               MASSDNS_INPUT_FILE="${ROOT_DOMAIN_DIR}/massdns-${CHUNK_INDEX}.txt"
               if [ ! -s "$MASSDNS_INPUT_FILE" ]; then
                   continue
@@ -597,7 +597,7 @@ jobs:
           # --- PHASE 2: PERFORM A SINGLE, CONSOLIDATED SCAN ---
           echo "PHASE 2: Performing one consolidated scan..."
           MASTER_NON_CDN_IPS="${GLOBAL_TMPDIR}/master_non_cdn.txt"
-          MASTER_SCAN_RESULTS="${GLOBAL_TMPDIR}/master_scan_results.txt"
+          MASTER_SCAN_result-large="${GLOBAL_TMPDIR}/master_scan_result-large.txt"
           
           # Initialize empty file
           : > "$MASTER_NON_CDN_IPS"
@@ -619,33 +619,33 @@ jobs:
               # Your original processing logic, unchanged
               cat "$TMP_RUSTSCAN" | awk -F ' -> ' '{ gsub(/[\[\]]/, "", $2); n = split($2, p, ","); for(i=1;i<=n;i++) print $1 ":" p[i] }' | anew -q "$TMP_NAABU_RUSTSCAN" || true
               
-              # Process scan results into consistent format: "IP PORT"
-              awk -F: 'NF==2 { print $1, $2 } NF==1 { print $1, "NOPORT" }' "$TMP_NAABU_RUSTSCAN" | sort -u > "$MASTER_SCAN_RESULTS" || true
+              # Process scan result-large into consistent format: "IP PORT"
+              awk -F: 'NF==2 { print $1, $2 } NF==1 { print $1, "NOPORT" }' "$TMP_NAABU_RUSTSCAN" | sort -u > "$MASTER_SCAN_result-large" || true
               rm -f "$TMP_RUSTSCAN" "$TMP_NAABU_RUSTSCAN" 2>/dev/null || true
           else
-              # Create empty scan results file
-              : > "$MASTER_SCAN_RESULTS"
+              # Create empty scan result-large file
+              : > "$MASTER_SCAN_result-large"
           fi
           
-          # Add CDN IPs back to the results list with NOPORT marker for consistency
+          # Add CDN IPs back to the result-large list with NOPORT marker for consistency
           MASTER_CDN_IPS="${GLOBAL_TMPDIR}/master_cdn_ips.txt"
           comm -13 <(sort "$MASTER_NON_CDN_IPS" 2>/dev/null || true) <(sort "$MASTER_UNIQUE_IPS" 2>/dev/null || true) > "$MASTER_CDN_IPS" 2>/dev/null || true
           if [ -s "$MASTER_CDN_IPS" ]; then
-              awk '{ print $1, "NOPORT" }' "$MASTER_CDN_IPS" >> "$MASTER_SCAN_RESULTS" || true
+              awk '{ print $1, "NOPORT" }' "$MASTER_CDN_IPS" >> "$MASTER_SCAN_result-large" || true
           fi
           
-          echo "✅ Phase 2 Complete: Scan finished ($(wc -l < "$MASTER_SCAN_RESULTS" 2>/dev/null || echo 0) total IP-port combinations)."
-          # --- PHASE 3: DISTRIBUTE RESULTS ---
-          echo "PHASE 3: Distributing results to domain directories..."
+          echo "✅ Phase 2 Complete: Scan finished ($(wc -l < "$MASTER_SCAN_result-large" 2>/dev/null || echo 0) total IP-port combinations)."
+          # --- PHASE 3: DISTRIBUTE result-large ---
+          echo "PHASE 3: Distributing result-large to domain directories..."
           
           # Sort master files once for efficient processing
-          MASTER_SCAN_RESULTS_SORTED="${GLOBAL_TMPDIR}/master_scan_sorted.txt"
+          MASTER_SCAN_result-large_SORTED="${GLOBAL_TMPDIR}/master_scan_sorted.txt"
           MASTER_MAP_SORTED="${GLOBAL_TMPDIR}/master_map_sorted.txt"
-          sort -k1,1 "$MASTER_SCAN_RESULTS" > "$MASTER_SCAN_RESULTS_SORTED" 2>/dev/null || true
+          sort -k1,1 "$MASTER_SCAN_result-large" > "$MASTER_SCAN_result-large_SORTED" 2>/dev/null || true
           sort -k1,1 "$MASTER_IP_TO_SUBDOMAIN_MAP" > "$MASTER_MAP_SORTED" 2>/dev/null || true
           
           # Verify sorted files exist
-          if [ ! -f "$MASTER_SCAN_RESULTS_SORTED" ] || [ ! -f "$MASTER_MAP_SORTED" ]; then
+          if [ ! -f "$MASTER_SCAN_result-large_SORTED" ] || [ ! -f "$MASTER_MAP_SORTED" ]; then
               echo "⚠️  Error: Failed to create sorted master files. Exiting Phase 3."
               exit 0
           fi
@@ -656,7 +656,7 @@ jobs:
           
           while IFS= read -r domain || [ -n "$domain" ]; do
               case "$domain" in \#*|"") continue ;; esac
-              ROOT_DOMAIN_DIR="results/$domain"
+              ROOT_DOMAIN_DIR="result-large/$domain"
               OUTPUT_FILE="${ROOT_DOMAIN_DIR}/subdomain_ports-${CHUNK_INDEX}.txt"
               
               # Escape domain for safe regex matching - only escape dots for regex
@@ -676,9 +676,9 @@ jobs:
                   continue
               fi
               
-              # Join scan results with this domain's IP-subdomain map
+              # Join scan result-large with this domain's IP-subdomain map
               # Output format after join: IP PORT SUBDOMAIN
-              join -t' ' -1 1 -2 1 "$MASTER_SCAN_RESULTS_SORTED" "$DOMAIN_MAP_TMP" 2>/dev/null | \
+              join -t' ' -1 1 -2 1 "$MASTER_SCAN_result-large_SORTED" "$DOMAIN_MAP_TMP" 2>/dev/null | \
                 awk '{
                     ip = $1
                     port = $2
@@ -698,7 +698,7 @@ jobs:
                   echo "  -> ✅ Generated $OUTPUT_FILE for $domain ($LINE_COUNT entries)"
                   DOMAINS_PROCESSED=$((DOMAINS_PROCESSED + 1)) || true
               else
-                  echo "  -> ⚠️  Warning: $domain has no port scan results (empty output)"
+                  echo "  -> ⚠️  Warning: $domain has no port scan result-large (empty output)"
                   DOMAINS_SKIPPED=$((DOMAINS_SKIPPED + 1)) || true
               fi
               
@@ -710,19 +710,19 @@ jobs:
           # Explicitly exit with success
           exit 0
           
-      - name: Sanitize and Finalize Results
+      - name: Sanitize and Finalize result-large
         shell: bash
         run: |
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           echo "DEBUG: matrix.shard='${{ matrix.shard }}' chunk_start='${{ github.event.inputs.chunk_start }}' CHUNK_INDEX=$CHUNK_INDEX"
           
           # show any pre-existing result files for this chunk (if any)
-          find "results" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n" 2>/dev/null || \
-            find "results" -type f -name "*-${CHUNK_INDEX}.txt" -exec stat -c '%n %s bytes' {} + 2>/dev/null || true
+          find "result-large" -type f -name "*-${CHUNK_INDEX}.txt" -printf "%p %s bytes\n" 2>/dev/null || \
+            find "result-large" -type f -name "*-${CHUNK_INDEX}.txt" -exec stat -c '%n %s bytes' {} + 2>/dev/null || true
           
-          echo "Sanitizing results for shard ${CHUNK_INDEX}..."
+          echo "Sanitizing result-large for shard ${CHUNK_INDEX}..."
           
-          find "results" -type f -name "*-${CHUNK_INDEX}.txt" 2>/dev/null | while read file; do
+          find "result-large" -type f -name "*-${CHUNK_INDEX}.txt" 2>/dev/null | while read file; do
             echo "  -> Processing $file"
             TEMP_FILE=$(mktemp)
             
@@ -737,14 +737,14 @@ jobs:
           
           echo "✅ Sanitization complete for shard ${CHUNK_INDEX}."     
           
-      - name: Commit Shard-Specific Results
+      - name: Commit Shard-Specific result-large
         shell: bash
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
           GIT_REPO: ${{ github.repository }}
           GIT_BRANCH: ${{ github.ref_name }}
         run: |
-          SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
+          SOURCE_result-large_DIR="${GITHUB_WORKSPACE}/result-large"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           TMP_DIR=$(mktemp -d)
           echo "Cloning ${GIT_REPO} into temporary directory ${TMP_DIR}..."
@@ -752,11 +752,11 @@ jobs:
           cd "$TMP_DIR"
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
-          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -printf "%p %s bytes\n"
+          find "$SOURCE_result-large_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -printf "%p %s bytes\n"
           merge_new_data() {
                     local source_file="$1"
-                    local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
-                    local dest_file="$TMP_DIR/results/$relative_path"
+                    local relative_path="${source_file#$SOURCE_result-large_DIR/}"
+                    local dest_file="$TMP_DIR/result-large/$relative_path"
                     mkdir -p "$(dirname "$dest_file")"
                     TEMP_MERGED=$(mktemp)
                     if [[ "$source_file" == *"massdns-"* ]]; then
@@ -770,35 +770,35 @@ jobs:
                     mv "$TEMP_MERGED" "$dest_file"
           }
           while IFS= read -r -d $'\0' file; do
-                    echo "  -> Merging $file into repository's results/ directory"
+                    echo "  -> Merging $file into repository's result-large/ directory"
                     merge_new_data "$file"
-          done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt'  -print0)
-          echo "DEBUG: Files found under SOURCE_RESULTS_DIR before merge:"
-          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -printf "%p %s bytes\n" || \
-            find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -exec stat -c '%n %s bytes' {} +
+          done < <(find "$SOURCE_result-large_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt'  -print0)
+          echo "DEBUG: Files found under SOURCE_result-large_DIR before merge:"
+          find "$SOURCE_result-large_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -printf "%p %s bytes\n" || \
+            find "$SOURCE_result-large_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -exec stat -c '%n %s bytes' {} +
           # show first/last 5 lines for large files to inspect unexpected content
-          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -size +1k -print0 | while IFS= read -r -d '' f; do
+          find "$SOURCE_result-large_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -size +1k -print0 | while IFS= read -r -d '' f; do
                     echo "== $f (head) =="
                     head -n5 "$f" || true
                     echo "== $f (tail) =="
                     tail -n5 "$f" || true
           done
-          # repository-side view: what results/ files already exist in the cloned repo
-          echo "DEBUG: repository results/ tree (in $TMP_DIR) before merge (ls -l):"
-          ls -l "$TMP_DIR/results" 2>/dev/null || true
+          # repository-side view: what result-large/ files already exist in the cloned repo
+          echo "DEBUG: repository result-large/ tree (in $TMP_DIR) before merge (ls -l):"
+          ls -l "$TMP_DIR/result-large" 2>/dev/null || true
           git -C "$TMP_DIR" status --porcelain --untracked-files=no || true
-          git -C "$TMP_DIR" ls-files -s results/** 2>/dev/null || true
-          git add results/
+          git -C "$TMP_DIR" ls-files -s result-large/** 2>/dev/null || true
+          git add result-large/
           if git diff --staged --quiet; then
                     echo "No new unique data to commit for shard ${CHUNK_INDEX} after merging."
                     exit 0
           fi
-          git commit -m "feat: Update results from shard ${CHUNK_INDEX}"
+          git commit -m "feat: Update result-large from shard ${CHUNK_INDEX}"
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
-                    echo "[Attempt $i/$MAX_ATTEMPTS] Pushing results for shard ${CHUNK_INDEX}..."
+                    echo "[Attempt $i/$MAX_ATTEMPTS] Pushing result-large for shard ${CHUNK_INDEX}..."
                     if git pull --rebase origin "$GIT_BRANCH" && git push origin "$GIT_BRANCH"; then
-                              echo "✅ Successfully pushed results for shard ${CHUNK_INDEX}."
+                              echo "✅ Successfully pushed result-large for shard ${CHUNK_INDEX}."
                               exit 0
                     fi
                     echo "Push failed. Retrying in $(( 5 * i )) seconds..."
@@ -825,8 +825,8 @@ jobs:
           git clone --branch ${{ github.ref_name }} --depth 1 https://github.com/${{ github.repository }}.git "${REPO_NAME}-httpx"
           
           # Verify subdomain_ports files exist
-          if [ -d "${REPO_NAME}-httpx/results" ]; then
-              FILE_COUNT=$(find "${REPO_NAME}-httpx/results" -type f -name "subdomain_ports-${CHUNK_INDEX}.txt" | wc -l)
+          if [ -d "${REPO_NAME}-httpx/result-large" ]; then
+              FILE_COUNT=$(find "${REPO_NAME}-httpx/result-large" -type f -name "subdomain_ports-${CHUNK_INDEX}.txt" | wc -l)
               echo "✅ Found $FILE_COUNT subdomain_ports-${CHUNK_INDEX}.txt files"
           fi
           
@@ -841,7 +841,7 @@ jobs:
           
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           REPO_NAME="${{ github.event.repository.name }}"
-          CLONED_RESULTS="../${REPO_NAME}-httpx/results"
+          CLONED_result-large="../${REPO_NAME}-httpx/result-large"
           
           echo "Preparing HTTPx input from subdomain_ports-${CHUNK_INDEX}.txt files..."
           
@@ -855,13 +855,13 @@ jobs:
           : > "$DOMAIN_MAP"
           
           # Find all subdomain_ports files for this chunk across all domains
-          find "$CLONED_RESULTS" -type f -name "subdomain_ports-${CHUNK_INDEX}.txt" | while read -r file; do
+          find "$CLONED_result-large" -type f -name "subdomain_ports-${CHUNK_INDEX}.txt" | while read -r file; do
               if [ ! -s "$file" ]; then
                   continue
               fi
               
-              # Extract root domain from path: ../repo/results/bmw.com/subdomain_ports-*.txt
-              ROOT_DOMAIN=$(echo "$file" | sed "s|.*${CLONED_RESULTS}/\([^/]*\)/.*|\1|")
+              # Extract root domain from path: ../repo/result-large/bmw.com/subdomain_ports-*.txt
+              ROOT_DOMAIN=$(echo "$file" | sed "s|.*${CLONED_result-large}/\([^/]*\)/.*|\1|")
               
               echo "  -> Processing $ROOT_DOMAIN (chunk ${CHUNK_INDEX})"
               
@@ -928,7 +928,7 @@ jobs:
               : > "$HTTPX_OUTPUT"
           fi
       
-      - name: Distribute HTTPx Results to Domain Directories
+      - name: Distribute HTTPx result-large to Domain Directories
         shell: bash
         run: |
           
@@ -938,14 +938,14 @@ jobs:
           DOMAIN_MAP="httpx-work/domain-map-${CHUNK_INDEX}.txt"
           
           if [ ! -s "$HTTPX_OUTPUT" ]; then
-              echo "No HTTPx results to distribute for shard ${{ matrix.shard }}"
+              echo "No HTTPx result-large to distribute for shard ${{ matrix.shard }}"
               exit 0
           fi
           
-          echo "Distributing HTTPx results to domain directories (shard ${{ matrix.shard }})..."
+          echo "Distributing HTTPx result-large to domain directories (shard ${{ matrix.shard }})..."
           
-          # Create results directory structure
-          mkdir -p results
+          # Create result-large directory structure
+          mkdir -p result-large
           
           # Process each HTTPx result line
           PROCESSED_COUNT=0
@@ -986,32 +986,32 @@ jobs:
               
               if [ -n "$ROOT_DOMAIN" ]; then
                   # Create domain directory
-                  mkdir -p "results/$ROOT_DOMAIN"
+                  mkdir -p "result-large/$ROOT_DOMAIN"
                   
                   # Append URL to domain's httpx file for this chunk
-                  echo "$URL" >> "results/$ROOT_DOMAIN/httpx_results-${CHUNK_INDEX}.txt"
+                  echo "$URL" >> "result-large/$ROOT_DOMAIN/httpx_result-large-${CHUNK_INDEX}.txt"
                   PROCESSED_COUNT=$((PROCESSED_COUNT + 1))
               fi
           done < "$HTTPX_OUTPUT"
           
-          # Deduplicate each domain's httpx results file
-          find results -type f -name "httpx_results-${CHUNK_INDEX}.txt" | while read -r file; do
+          # Deduplicate each domain's httpx result-large file
+          find result-large -type f -name "httpx_result-large-${CHUNK_INDEX}.txt" | while read -r file; do
               sort -u "$file" -o "$file"
           done
           
           echo "✅ Distributed $PROCESSED_COUNT URLs to domain directories (shard ${{ matrix.shard }})"
           
-      - name: Commit HTTPx Results
+      - name: Commit HTTPx result-large
         shell: bash
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
           GIT_REPO: ${{ github.repository }}
           GIT_BRANCH: ${{ github.ref_name }}
         run: |
-          SOURCE_RESULTS_DIR="${GITHUB_WORKSPACE}/results"
+          SOURCE_result-large_DIR="${GITHUB_WORKSPACE}/result-large"
           CHUNK_INDEX=$(( ${{ github.event.inputs.chunk_start }} + ${{ matrix.shard }} ))
           TMP_DIR=$(mktemp -d)
-          echo "Cloning ${GIT_REPO} into temporary directory ${TMP_DIR} for HTTPx results..."
+          echo "Cloning ${GIT_REPO} into temporary directory ${TMP_DIR} for HTTPx result-large..."
           git clone --depth 1 "https://x-access-token:${PAT_TOKEN}@github.com/${GIT_REPO}.git" --branch "$GIT_BRANCH" "$TMP_DIR"
           cd "$TMP_DIR"
           git config user.name "GitHub Actions Bot"
@@ -1019,43 +1019,43 @@ jobs:
           # This function is for merging the new data into the repository
           merge_new_data() {
               local source_file="$1"
-              local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
-              local dest_file="$TMP_DIR/results/$relative_path"
+              local relative_path="${source_file#$SOURCE_result-large_DIR/}"
+              local dest_file="$TMP_DIR/result-large/$relative_path"
               mkdir -p "$(dirname "$dest_file")"
-              # Append new results and then sort unique
+              # Append new result-large and then sort unique
               cat "$source_file" >> "$dest_file.tmp"
               sort -u "$dest_file.tmp" > "$dest_file"
               rm "$dest_file.tmp"
           }
-          # Find and process only the httpx_results files
+          # Find and process only the httpx_result-large files
           while IFS= read -r -d $'\0' file; do
-              echo "  -> Merging $file into repository's results/ directory"
+              echo "  -> Merging $file into repository's result-large/ directory"
               merge_new_data "$file"
-          done < <(find "$SOURCE_RESULTS_DIR" -type f -name "httpx_results-${CHUNK_INDEX}.txt" -print0)
-          git add results/
+          done < <(find "$SOURCE_result-large_DIR" -type f -name "httpx_result-large-${CHUNK_INDEX}.txt" -print0)
+          git add result-large/
           if git diff --staged --quiet; then
               echo "No new unique httpx data to commit for shard ${CHUNK_INDEX}."
               exit 0
           fi
-          git commit -m "feat: Add httpx results from shard ${CHUNK_INDEX}"
+          git commit -m "feat: Add httpx result-large from shard ${CHUNK_INDEX}"
           MAX_ATTEMPTS=5
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
-              echo "[Attempt $i/$MAX_ATTEMPTS] Pushing httpx results for shard ${CHUNK_INDEX}..."
+              echo "[Attempt $i/$MAX_ATTEMPTS] Pushing httpx result-large for shard ${CHUNK_INDEX}..."
               if git pull --rebase origin "$GIT_BRANCH" && git push origin "$GIT_BRANCH"; then
-                  echo "✅ Successfully pushed httpx results for shard ${CHUNK_INDEX}."
+                  echo "✅ Successfully pushed httpx result-large for shard ${CHUNK_INDEX}."
                   exit 0
               fi
               echo "Push failed. Retrying in $(( 5 * i )) seconds..."
               sleep $(( 5 * i ))
           done
-          echo "::error:: All push attempts failed for httpx results from shard ${CHUNK_INDEX}."
+          echo "::error:: All push attempts failed for httpx result-large from shard ${CHUNK_INDEX}."
           exit 0
           
-      - name: Upload HTTPx Results for This Shard
+      - name: Upload HTTPx result-large for This Shard
         uses: actions/upload-artifact@v4
         with:
-          name: httpx-results-${{ matrix.shard }}
-          path: results/**/httpx_results-*.txt
+          name: httpx-result-large-${{ matrix.shard }}
+          path: result-large/**/httpx_result-large-*.txt
           retention-days: 1      
   
   dispatch-next:
