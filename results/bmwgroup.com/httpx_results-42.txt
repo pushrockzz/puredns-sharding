@@ -1,0 +1,6 @@
+http://salesassistant.bmwgroup.com
+http://sas-int.bmwgroup.com
+https://salesassistant.bmwgroup.com
+https://sas-int.bmwgroup.com
+https://scp-int.bmwgroup.com
+https://securemail.bmwgroup.com
