@@ -1,0 +1,9 @@
+jpsgw1-int.bmwgroup.com:443
+jpsgw1-int.bmwgroup.com:80
+jpsgw1.bmwgroup.com:443
+jpsgw1.bmwgroup.com:80
+kai-b2i-int-eam.bmwgroup.com:443
+kai-b2i-qa-eam.bmwgroup.com:443
+kai-device-qa-wen.bmwgroup.com:443
+kai-qa-b2i-basic.bmwgroup.com:443
+kai-user-qa-eam.bmwgroup.com:443

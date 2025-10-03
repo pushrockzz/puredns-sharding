@@ -1,0 +1,12 @@
+jpsgw1-int.bmwgroup.com
+jpsgw1.bmwgroup.com
+jswup-mmc.bmwgroup.com
+kai-b2i-int-eam.bmwgroup.com
+kai-b2i-qa-eam.bmwgroup.com
+kai-device-qa-wen.bmwgroup.com
+kai-m2m-prod.bmwgroup.com
+kai-m2m-qa.bmwgroup.com
+kai-prod.bmwgroup.com
+kai-qa-b2i-basic.bmwgroup.com
+kai-user-qa-eam.bmwgroup.com
+kasio-int-wen.bmwgroup.com
