@@ -1,0 +1,7 @@
+http://dza-prod.bmw.com
+http://e2e-b2b-swl-sec2.bmw.com
+http://ebest-gf5-prod.bmw.com
+https://dza-int.bmw.com
+https://dza-prod.bmw.com
+https://e2e-b2b-swl-sec2.bmw.com
+https://ebest-gf5-prod.bmw.com
