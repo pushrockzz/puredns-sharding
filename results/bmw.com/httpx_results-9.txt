@@ -1,0 +1,5 @@
+http://cctemea1-rp.bmw.com
+http://cctza2-rp.bmw.com
+http://cesim-de-e2e.bmw.com
+http://cesim-de-e2e.bmw.com:443
+https://cctemea1-rp.bmw.com
