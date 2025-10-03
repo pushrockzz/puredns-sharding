@@ -1,0 +1,3 @@
+http://pass-n.bmwgroup.com
+https://auth-next.bmwgroup.com
+https://pass-n.bmwgroup.com
