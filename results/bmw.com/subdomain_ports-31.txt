@@ -1,0 +1,6 @@
+mdm-int-webclient.bmw.com
+mdm-webclient.bmw.com
+mfscs-b2b-external-wen-int.bmw.com:443
+mfscs-b2b-external-wen-int.bmw.com:80
+minimaintenance.bmw.com:443
+minimaintenance.bmw.com:80

@@ -1,0 +1,8 @@
+mdc-int.bmw.com
+mdm-int-webclient.bmw.com
+mdm-webclient.bmw.com
+mfscs-b2b-external-wen-int.bmw.com
+mgusecdevbe-nf.bmw.com
+mini-int-a3.bmw.com
+mini-prod-a1-b2bwen.bmw.com
+minimaintenance.bmw.com
