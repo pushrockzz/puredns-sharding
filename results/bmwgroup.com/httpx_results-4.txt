@@ -1,2 +1,7 @@
+http://alphera-t.bmwgroup.com
+http://at-gd-int.bmwgroup.com
 http://plw-prod.bmwgroup.com
+https://alphera-t.bmwgroup.com
+https://at-gd-int.bmwgroup.com
+https://auth-next.bmwgroup.com
 https://plw-prod.bmwgroup.com
