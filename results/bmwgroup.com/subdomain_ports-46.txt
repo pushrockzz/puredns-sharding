@@ -1,0 +1,4 @@
+swg-mx.bmwgroup.com:443
+sync-test.bmwgroup.com:443
+tabus.bmwgroup.com:443
+tabus.bmwgroup.com:80

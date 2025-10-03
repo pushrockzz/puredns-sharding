@@ -1,0 +1,8 @@
+swg-mx.bmwgroup.com
+sync-test.bmwgroup.com
+tabus.bmwgroup.com
+taee.bmwgroup.com
+tamsi.bmwgroup.com
+tbm-int-t2-b2dwen.bmwgroup.com
+tddv-int.bmwgroup.com
+tddv-tv4.bmwgroup.com

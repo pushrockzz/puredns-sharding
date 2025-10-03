@@ -1,0 +1,12 @@
+swl-gf5.bmw.com A 160.46.233.184
+swli12.bmw.com A 160.48.165.201
+swlint1ie.bmw.com A 160.46.228.225
+swlint3ie.bmw.com A 160.46.227.115
+swlint4ie.bmw.com A 160.46.251.142
+swlpineu.bmw.com A 160.46.251.107
+swlpneu.bmw.com A 160.46.240.109
+sws2-integration.bmw.com A 160.46.251.190
+swsf-integration.bmw.com A 160.46.224.195
+tc4jb.bmw.com A 160.46.238.84
+tc4jbi.bmw.com A 160.46.228.104
+tdferu.bmw.com A 160.46.236.91

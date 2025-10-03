@@ -1,0 +1,7 @@
+swl-gf5.bmw.com:443
+swl-gf5.bmw.com:80
+swli12.bmw.com:443
+swlpineu.bmw.com:443
+swlpineu.bmw.com:80
+swsf-integration.bmw.com:443
+swsf-integration.bmw.com:80

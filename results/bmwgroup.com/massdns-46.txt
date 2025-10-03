@@ -1,0 +1,8 @@
+swg-mx.bmwgroup.com A 170.34.100.36
+sync-test.bmwgroup.com A 192.109.190.93
+tabus.bmwgroup.com A 170.34.59.129
+taee.bmwgroup.com A 160.46.245.207
+tamsi.bmwgroup.com A 160.46.248.125
+tbm-int-t2-b2dwen.bmwgroup.com A 160.48.165.187
+tddv-int.bmwgroup.com A 160.46.229.239
+tddv-tv4.bmwgroup.com A 160.48.212.146
