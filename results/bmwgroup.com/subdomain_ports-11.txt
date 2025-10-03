@@ -1,0 +1,16 @@
+codis-t-hn-int.bmwgroup.com:443
+compass-cmt.bmwgroup.com:443
+compass-cmt.bmwgroup.com:80
+connectedrmiserviceadmin-e2e.bmwgroup.com:443
+connectedrmiserviceadmin.bmwgroup.com:443
+cop-measurement-int.bmwgroup.com:443
+cosy-int.bmwgroup.com
+cover-rfx-pmt-int-gcdm.bmwgroup.com:443
+cq5bmwna-new.bmwgroup.com:443
+cq5bmwna-new.bmwgroup.com:80
+cq5bmwna-t-new.bmwgroup.com:443
+cq5bmwna-t-new.bmwgroup.com:80
+cream2mdbb-i.bmwgroup.com:443
+cream2mdbb-i.bmwgroup.com:80
+crmza-pcr.bmwgroup.com:443
+crmza-pcr.bmwgroup.com:80

@@ -1,0 +1,4 @@
+cogdev2.bmw.com:443
+cogdev2.bmw.com:80
+cpp-i.bmw.com:443
+cpp-i.bmw.com:80

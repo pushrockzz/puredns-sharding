@@ -1,0 +1,9 @@
+cogdev2.bmw.com
+community.bmw.com
+community.stage.bmw.com
+configure.bmw.com
+connecteddrive.bmw.com
+control-panel-int.bmw.com
+control-panel.bmw.com
+cpp-i.bmw.com
+crmuk.bmw.com
