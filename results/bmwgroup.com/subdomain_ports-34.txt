@@ -1,0 +1,8 @@
+netftnoa-test.bmwgroup.com:443
+netftnoa-test.bmwgroup.com:80
+nhtsa-i.bmwgroup.com:443
+nhtsa-i.bmwgroup.com:80
+nhtsa.bmwgroup.com:443
+nhtsa.bmwgroup.com:80
+noaifa-test.bmwgroup.com:443
+noaifa-test.bmwgroup.com:80

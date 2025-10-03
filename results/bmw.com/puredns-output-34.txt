@@ -1,0 +1,3 @@
+nfsc-uk-rcm.bmw.com
+nfsccoreapi-dev.bmw.com
+nfsccoreapi-uat.bmw.com
