@@ -1,0 +1,4 @@
+opalint.bmw.com:443
+opalint.bmw.com:80
+opendxm.bmw.com:443
+opendxm.bmw.com:80
