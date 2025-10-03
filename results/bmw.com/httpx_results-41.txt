@@ -1,0 +1,5 @@
+http://rlbmw-int-ssl.bmw.com
+https://rmt-t.bmw.com
+https://rmtv2-t.bmw.com
+https://rplan3-i.bmw.com
+https://rplan5-i-b2b.bmw.com
