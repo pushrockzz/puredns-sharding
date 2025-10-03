@@ -1,0 +1,5 @@
+http://sms-prod.bmwgroup.com
+http://stabi.bmwgroup.com
+https://sms-prod.bmwgroup.com
+https://sta-iucp.bmwgroup.com
+https://stabi.bmwgroup.com
