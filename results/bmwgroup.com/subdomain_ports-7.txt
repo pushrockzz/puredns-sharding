@@ -1,2 +1,4 @@
-label.bmwgroup.com:443
-label.bmwgroup.com:80
+cfs-cs-int3.bmwgroup.com:443
+cfs-cs-int3.bmwgroup.com:80
+cfs-test4.bmwgroup.com:443
+cfs-test4.bmwgroup.com:80

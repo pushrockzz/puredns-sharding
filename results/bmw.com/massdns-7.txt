@@ -1,1 +1,3 @@
-itms.bmw.com A 160.46.240.49
+cmcp.bmw.com A 160.46.231.148
+cmx-author-int4.bmw.com A 160.46.225.33
+cmx-author-prod2.bmw.com A 160.46.243.107
