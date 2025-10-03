@@ -1,0 +1,5 @@
+cctemea1-rp.bmw.com:443
+cctemea1-rp.bmw.com:80
+cctza2-rp.bmw.com:80
+cesim-de-e2e.bmw.com:443
+cesim-de-e2e.bmw.com:80

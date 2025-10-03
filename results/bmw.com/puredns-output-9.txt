@@ -1,0 +1,14 @@
+casa-cn-i.bmw.com
+casa-de-p.bmw.com
+casa.bmw.com
+casacni.bmw.com
+cbda.bmw.com
+cbe-prod-us.bmw.com
+cctde.bmw.com
+ccte1.bmw.com
+cctemea1-rp.bmw.com
+cctza2-rp.bmw.com
+cdc-int-us.bmw.com
+cesim-de-e2e.bmw.com
+cfeapi-uat.bmw.com
+cfeapi.bmw.com
