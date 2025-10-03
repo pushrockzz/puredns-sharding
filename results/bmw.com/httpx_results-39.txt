@@ -1,0 +1,6 @@
+http://publish-integ.bmw.com
+http://qsense-condis-dev-b2b.bmw.com
+http://qsense-condis-int.bmw.com
+http://qsense-condis-int.bmw.com:443
+https://publish-integ.bmw.com
+https://qsense-condis-dev-b2b.bmw.com

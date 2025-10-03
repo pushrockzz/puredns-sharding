@@ -1,0 +1,5 @@
+http://qma2.bmwgroup.com
+http://qsense-pragati-prod-b2d.bmwgroup.com
+https://qsense-emea-int-b2d.bmwgroup.com
+https://qsense-emea-int-b2d.bmwgroup.com:80
+https://qsense-pragati-prod-b2d.bmwgroup.com
