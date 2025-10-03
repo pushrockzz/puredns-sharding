@@ -1,0 +1,6 @@
+processmonitoring.bmw.com A 114.66.81.194
+prod-cop.bmw.com A 160.46.240.25
+prod-web-teleservicefleet.bmw.com A 160.46.231.36
+produ-int.bmw.com A 160.48.212.138
+proveedores-ar.bmw.com A 170.34.41.10
+psdmweb-prod.bmw.com A 160.46.240.180

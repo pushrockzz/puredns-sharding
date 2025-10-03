@@ -1,0 +1,5 @@
+prod-cop.bmw.com:443
+prod-cop.bmw.com:80
+prod-web-teleservicefleet.bmw.com:80
+psdmweb-prod.bmw.com:443
+psdmweb-prod.bmw.com:80

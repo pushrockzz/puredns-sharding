@@ -1,0 +1,7 @@
+processmonitoring.bmw.com
+prod-cop.bmw.com
+prod-gui-user-swl-sec2.bmw.com
+prod-web-teleservicefleet.bmw.com
+produ-int.bmw.com
+proveedores-ar.bmw.com
+psdmweb-prod.bmw.com

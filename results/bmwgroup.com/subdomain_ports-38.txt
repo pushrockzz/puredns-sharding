@@ -1,0 +1,14 @@
+popsap.bmwgroup.com:443
+popsap.bmwgroup.com:80
+portalwe-test.bmwgroup.com:443
+portalwe-test.bmwgroup.com:80
+prepdfe1.bmwgroup.com:443
+prepdfe1.bmwgroup.com:80
+press-i.bmwgroup.com:443
+press-i.bmwgroup.com:80
+press.bmwgroup.com:443
+press.bmwgroup.com:80
+processworld.bmwgroup.com:443
+processworld.bmwgroup.com:80
+proddfe.bmwgroup.com:443
+proddfe.bmwgroup.com:80
