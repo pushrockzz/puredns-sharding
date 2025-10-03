@@ -1,0 +1,8 @@
+http://ocean.bmw.com
+http://ods-int.bmw.com
+http://optibe-int.bmw.com
+http://optibe.bmw.com
+https://ocean.bmw.com
+https://ods-int.bmw.com
+https://optibe-int.bmw.com
+https://optibe.bmw.com
