@@ -1,0 +1,8 @@
+iipa.bmw.com:80
+imm-dev6-gf3.bmw.com:443
+imm-dev6-gf3.bmw.com:80
+imm-int3-gf3.bmw.com:443
+imm-int7-gf3.bmw.com:443
+imsc.bmw.com:443
+int-b2v-b2bappus.bmw.com:443
+int-b2v-b2bappus.bmw.com:80

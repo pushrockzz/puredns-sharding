@@ -1,0 +1,13 @@
+ilz-user-prod.bmwgroup.com:443
+imm-int1-gf3.bmwgroup.com:443
+imm-int1-gf3.bmwgroup.com:80
+imm-prod2.bmwgroup.com:80
+infobahn.bmwgroup.com:443
+infobahn.bmwgroup.com:80
+infonet3-int.bmwgroup.com:443
+ipass1.bmwgroup.com:443
+ivsrbei.bmwgroup.com:443
+ivsrbei.bmwgroup.com:80
+ivsrfe.bmwgroup.com:443
+ivsrfe.bmwgroup.com:80
+ivsrfei2.bmwgroup.com:80
