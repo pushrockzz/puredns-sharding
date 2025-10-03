@@ -1,0 +1,5 @@
+http://sera.bmw.com
+https://services-recallsvc-int.bmw.com
+https://services-verification-int.bmw.com
+https://sgem-es-int-tpv.bmw.com
+https://sgem-es-int-tpv.bmw.com:80

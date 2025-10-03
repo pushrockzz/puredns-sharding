@@ -1,0 +1,5 @@
+https://services-ddauswen-int.bmwgroup.com
+https://sf5-digital-sit.bmwgroup.com
+https://sfappza-int.bmwgroup.com
+https://sfappza-int.bmwgroup.com:80
+https://sgate.bmwgroup.com
