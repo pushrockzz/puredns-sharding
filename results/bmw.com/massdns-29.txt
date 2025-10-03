@@ -1,0 +1,6 @@
+loki-int3.bmw.com A 160.46.229.152
+loki.bmw.com A 160.46.233.187
+loyalty-int.cn.bmw.com A 122.200.104.36
+lterm-int.bmw.com A 160.46.250.184
+lterm.bmw.com A 160.46.235.29
+lyncdiscover.partner.bmw.com A 160.46.229.18
