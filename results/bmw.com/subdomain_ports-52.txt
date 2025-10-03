@@ -1,0 +1,3 @@
+what-p.bmw.com:443
+what-p.bmw.com:80
+wire-int.bmw.com:80

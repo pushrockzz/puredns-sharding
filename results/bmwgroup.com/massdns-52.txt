@@ -1,0 +1,16 @@
+wen-april-m2m-qa1.bmwgroup.com A 160.48.212.106
+wen-april-m2m-qa2.bmwgroup.com A 160.48.212.31
+wen-ig-aos-qa2.bmwgroup.com A 160.46.249.153
+wen-ig-b2iua.bmwgroup.com A 160.46.231.10
+wen-ig-bps-int.bmwgroup.com A 160.46.251.196
+wen-ig-oss-apps-int.bmwgroup.com A 160.48.212.165
+wen-ig-oss-apps-qa2.bmwgroup.com A 160.48.212.163
+weni-basicauth-dynatrace.bmwgroup.com A 160.48.213.176
+wenp-dynatrace.bmwgroup.com A 160.48.164.44
+wire-t.bmwgroup.com A 160.46.249.171
+wire.bmwgroup.com A 160.46.226.196
+workshop-automation-prod.bmwgroup.com A 160.46.238.91
+wote-int.bmwgroup.com A 160.48.165.107
+wsdl-prod-mx.bmwgroup.com A 170.34.104.237
+wsp-prod.bmwgroup.com A 160.48.164.124
+wvius-services.bmwgroup.com A 160.46.235.246
