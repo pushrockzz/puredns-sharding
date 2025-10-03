@@ -1,0 +1,9 @@
+hats.bmwgroup.com A 160.46.247.213
+hdsl-i.bmwgroup.com A 160.46.250.223
+heidi-next.bmwgroup.com A 160.46.237.189
+heidi-t.bmwgroup.com A 160.46.248.188
+heidi-test.bmwgroup.com A 160.46.228.131
+heidit-v5.bmwgroup.com A 160.48.212.42
+hewint.bmwgroup.com A 160.46.236.150
+hlr-i.bmwgroup.com A 160.46.250.149
+hlr-p4.bmwgroup.com A 160.46.238.91
