@@ -1,0 +1,6 @@
+br.dwp.bmw.com A 160.46.244.115
+c2b-t.bmw.com A 160.46.251.142
+c2bfed-t.bmw.com A 160.46.251.154
+cadpdm.bmw.com A 160.46.237.28
+callisto-sprint.bmw.com A 160.46.225.161
+callisto.bmw.com A 20.103.233.217

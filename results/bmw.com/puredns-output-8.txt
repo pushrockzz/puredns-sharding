@@ -1,0 +1,9 @@
+br.dwp.bmw.com
+c2b-services-t.bmw.com
+c2b-services.bmw.com
+c2b-t.bmw.com
+c2bfed-t.bmw.com
+cadpdm.bmw.com
+callisto-branch.bmw.com
+callisto-sprint.bmw.com
+callisto.bmw.com

@@ -1,0 +1,8 @@
+boveda-mx.bmwgroup.com A 160.46.244.54
+businessnetwork-mig.bmwgroup.com A 160.46.226.94
+ca-int.bmwgroup.com A 122.200.104.205
+ca-prod.bmwgroup.com A 122.200.104.200
+cadlrinv-prod.bmwgroup.com A 170.34.104.238
+caesar-info-int.bmwgroup.com A 160.48.213.174
+cam-test.bmwgroup.com A 18.195.105.133
+cam-test.bmwgroup.com A 52.58.142.225

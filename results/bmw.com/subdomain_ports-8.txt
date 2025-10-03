@@ -1,0 +1,2 @@
+br.dwp.bmw.com:443
+callisto.bmw.com

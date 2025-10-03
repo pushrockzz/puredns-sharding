@@ -1,0 +1,9 @@
+boveda-mx.bmwgroup.com
+bps-qa2.bmwgroup.com
+breeze.bmwgroup.com
+businessnetwork-mig.bmwgroup.com
+ca-int.bmwgroup.com
+ca-prod.bmwgroup.com
+cadlrinv-prod.bmwgroup.com
+caesar-info-int.bmwgroup.com
+cam-test.bmwgroup.com
