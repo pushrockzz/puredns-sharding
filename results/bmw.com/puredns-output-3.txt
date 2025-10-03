@@ -1,0 +1,12 @@
+adf-qa2.bmw.com
+adfus-service-prod.bmw.com
+adfus-services.bmw.com
+aem-author-inta1.bmw.com
+aem-author-inta2.bmw.com
+aem-author-inta3.bmw.com
+aem-author-inta7.bmw.com
+aem-author-pre1.bmw.com
+aem-author-pre2.bmw.com
+aem-author-proda2.bmw.com
+aero.bmw.com
+aida.bmw.com

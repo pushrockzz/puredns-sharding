@@ -1,0 +1,5 @@
+adf-qa2.bmw.com:443
+adfus-service-prod.bmw.com:443
+aem-author-inta1.bmw.com:443
+aem-author-inta3.bmw.com:443
+aem-author-inta3.bmw.com:80
