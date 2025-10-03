@@ -1,0 +1,13 @@
+fisp-i2.bmwgroup.com
+fisp.bmwgroup.com
+fleetdata-e2e-emea.bmwgroup.com
+fleetdata.bmwgroup.com
+flims.bmwgroup.com
+focus-int.bmwgroup.com
+focus-tst.bmwgroup.com
+focuspro-int.bmwgroup.com
+forms.bmwgroup.com
+fps-i-temp.bmwgroup.com
+fscalculator-i-web.bmwgroup.com
+fscalculator-web.bmwgroup.com
+fsconnect.bmwgroup.com

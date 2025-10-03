@@ -1,0 +1,9 @@
+fisp-i2.bmwgroup.com A 160.48.212.133
+fisp.bmwgroup.com A 160.48.164.145
+flims.bmwgroup.com A 160.46.235.114
+focus-int.bmwgroup.com A 160.48.234.181
+focus-tst.bmwgroup.com A 160.48.234.180
+focuspro-int.bmwgroup.com A 160.48.233.149
+fps-i-temp.bmwgroup.com A 160.46.253.57
+fscalculator-i-web.bmwgroup.com A 160.46.249.231
+fscalculator-web.bmwgroup.com A 160.46.235.76

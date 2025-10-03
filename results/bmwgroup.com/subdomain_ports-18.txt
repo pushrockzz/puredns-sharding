@@ -1,0 +1,10 @@
+fisp.bmwgroup.com:443
+fisp.bmwgroup.com:80
+focus-int.bmwgroup.com:443
+focus-int.bmwgroup.com:80
+focus-tst.bmwgroup.com:443
+focus-tst.bmwgroup.com:80
+fscalculator-i-web.bmwgroup.com:443
+fscalculator-i-web.bmwgroup.com:80
+fscalculator-web.bmwgroup.com:443
+fscalculator-web.bmwgroup.com:80

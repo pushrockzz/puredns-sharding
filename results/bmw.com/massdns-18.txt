@@ -1,0 +1,7 @@
+fix-int.bmw.com A 160.48.213.151
+fleetsystem-cn.bmw.com A 122.200.104.100
+flema-int.bmw.com A 160.46.248.16
+four-12.bmw.com A 160.46.243.240
+fscast-b2b-external-vmware-int.bmw.com A 160.48.213.203
+fscast-b2b-external-wen-int.bmw.com A 160.46.229.153
+funkfms-int.bmw.com A 160.46.224.42

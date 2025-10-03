@@ -1,0 +1,8 @@
+fix-int.bmw.com
+fleetsystem-cn.bmw.com
+flema-int.bmw.com
+four-12.bmw.com
+fscast-b2b-external-vmware-int.bmw.com
+fscast-b2b-external-wen-int.bmw.com
+fundus-int.bmw.com
+funkfms-int.bmw.com
