@@ -1,0 +1,5 @@
+tmsi.bmwgroup.com:443
+tmsi.bmwgroup.com:80
+training-feedback.bmwgroup.com:443
+training-feedback.bmwgroup.com:80
+trainingmedia.bmwgroup.com:443

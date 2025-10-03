@@ -1,0 +1,6 @@
+tmsi.bmwgroup.com A 160.46.226.200
+topdrive.bmwgroup.com A 160.46.238.85
+tqc-b2d.bmwgroup.com A 160.46.243.185
+training-feedback.bmwgroup.com A 160.46.231.165
+trainingmedia.bmwgroup.com A 160.46.231.26
+trias.bmwgroup.com A 160.46.244.153

@@ -1,0 +1,5 @@
+tms-int.bmw.com A 160.46.224.222
+tms-prod.bmw.com A 160.46.238.47
+trainingsmedia.bmw.com A 213.145.225.60
+tspartner.bmw.com A 160.46.240.247
+uebernahmetais-tst.bmw.com A 160.46.224.83
