@@ -1,0 +1,6 @@
+grip-to-go-int.bmw.com
+grpwweb-int-a1.bmw.com
+gsa-i-search.bmw.com
+gsa-p-search.bmw.com
+gsa-test-search.bmw.com
+gss-coop-i2.bmw.com

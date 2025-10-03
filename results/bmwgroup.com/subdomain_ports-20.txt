@@ -1,0 +1,5 @@
+grs-cp.bmwgroup.com:443
+grs-cp.bmwgroup.com:80
+gwm4-i.bmwgroup.com:443
+gwm4-i.bmwgroup.com:80
+h5vco-bmw-test.bmwgroup.com:443

@@ -1,0 +1,16 @@
+graph.bmwgroup.com
+grs-cp.bmwgroup.com
+gwm4-i.bmwgroup.com
+h5vco-bmw-int.bmwgroup.com
+h5vco-bmw-test.bmwgroup.com
+h5vco-bmw.bmwgroup.com
+h5vco-cn.bmwgroup.com
+h5vco-mini.bmwgroup.com
+h5vco-preprod-mini.bmwgroup.com
+h5vco-preprod.bmwgroup.com
+h5vco-test.bmwgroup.com
+h5vco-ux-config-int-dev.bmwgroup.com
+h5vco-ux-config-test-dev.bmwgroup.com
+h5vco-ux-int-dev.bmwgroup.com
+h5vco-ux-test-dev.bmwgroup.com
+h5vco-ux-test.bmwgroup.com
