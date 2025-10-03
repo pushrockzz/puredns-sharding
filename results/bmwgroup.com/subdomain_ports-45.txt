@@ -1,0 +1,10 @@
+sps-next.bmwgroup.com:443
+sps-next.bmwgroup.com:80
+sps-rspsa-prod0.bmwgroup.com:80
+srd-test.bmwgroup.com:443
+srd-training.bmwgroup.com:443
+srd-training.bmwgroup.com:80
+stabi-i.bmwgroup.com:443
+stabi-i.bmwgroup.com:80
+stg-grs-cp.bmwgroup.com:443
+stg-grs-cp.bmwgroup.com:80

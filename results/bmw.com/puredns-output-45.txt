@@ -1,0 +1,11 @@
+sspcc.bmw.com
+sspcore-int.bmw.com
+sta-bps.bmw.com
+sta-ouc.bmw.com
+stage2docu.bmw.com
+staging-developer.bmw.com
+static2.bmw.com
+static3.bmw.com
+static4.bmw.com
+stintedg.bmw.com
+strong.bmw.com

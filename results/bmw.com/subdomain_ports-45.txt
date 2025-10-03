@@ -1,0 +1,5 @@
+sta-bps.bmw.com
+sta-ouc.bmw.com
+staging-developer.bmw.com
+strong.bmw.com:443
+strong.bmw.com:80
