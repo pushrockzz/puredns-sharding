@@ -1,0 +1,7 @@
+http://emm-idm.bmwgroup.com
+http://emoboi-intgf4-emea.bmwgroup.com
+https://emm-eas-ode.bmwgroup.com
+https://emm-idm.bmwgroup.com
+https://emm-idm.bmwgroup.com:7443
+https://emoboi-intgf4-emea.bmwgroup.com
+https://employeeapp.bmwgroup.com

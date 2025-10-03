@@ -1,0 +1,4 @@
+http://everest.bmw.com
+https://erfx-ttg.bmw.com
+https://erfx-ttg.bmw.com:80
+https://everest.bmw.com
