@@ -1,0 +1,8 @@
+ocean.bmw.com:443
+ocean.bmw.com:80
+ods-int.bmw.com:443
+ods-int.bmw.com:80
+optibe-int.bmw.com:443
+optibe-int.bmw.com:80
+optibe.bmw.com:443
+optibe.bmw.com:80

@@ -1,0 +1,15 @@
+oan3.bmwgroup.com A 160.46.233.162
+oasis-int.bmwgroup.com A 160.48.233.154
+oasis.bmwgroup.com A 160.48.233.152
+ocr-prod.bmwgroup.com A 122.200.104.201
+one-i.bmwgroup.com A 160.46.248.95
+onl-osmc-i2.bmwgroup.com A 160.46.224.141
+onl-osmc.bmwgroup.com A 160.46.243.75
+ooo-i.bmwgroup.com A 160.46.250.153
+ooo-t.bmwgroup.com A 160.46.248.210
+opus-test.bmwgroup.com A 3.120.95.167
+opus-test.bmwgroup.com A 3.66.59.225
+opus-test.bmwgroup.com A 3.74.184.40
+origin-int-n.bmwgroup.com A 160.46.249.190
+origin.bmwgroup.com A 160.46.244.133
+oscar-alt.bmwgroup.com A 160.46.244.179
