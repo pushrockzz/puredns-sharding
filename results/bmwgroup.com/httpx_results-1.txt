@@ -1,0 +1,3 @@
+http://360portal-inttest.bmwgroup.com
+http://5trias2.bmwgroup.com
+https://5trias2.bmwgroup.com
