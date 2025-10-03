@@ -1,0 +1,5 @@
+http://adf-qa2.bmw.com:443
+https://adfus-service-prod.bmw.com
+https://aem-author-inta1.bmw.com
+https://aem-author-inta3.bmw.com
+https://aem-author-inta3.bmw.com:80
