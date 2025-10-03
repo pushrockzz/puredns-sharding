@@ -1,0 +1,7 @@
+alscore-test.bmwgroup.com:443
+aos-ig-int.bmwgroup.com:443
+api-nl.bmwgroup.com:443
+april-cert-qa2.bmwgroup.com:443
+april-cert-qa2.bmwgroup.com:80
+april-cert.bmwgroup.com:443
+april-cert.bmwgroup.com:80

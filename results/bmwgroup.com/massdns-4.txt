@@ -1,0 +1,15 @@
+alscore-int-gf5.bmwgroup.com A 160.46.253.27
+alscore-test.bmwgroup.com A 160.46.227.163
+aos-ig-int.bmwgroup.com A 160.46.227.164
+aos-ts-qa1.bmwgroup.com A 160.46.228.155
+aosus-i.bmwgroup.com A 170.34.127.21
+apac-pureconnect-rp-int.bmwgroup.com A 111.108.73.140
+api-nl.bmwgroup.com A 160.46.245.132
+app-int.bmwgroup.com A 160.48.233.130
+april-apisec-i.bmwgroup.com A 160.46.240.175
+april-apisec-q1.bmwgroup.com A 160.46.240.175
+april-apisec-q2.bmwgroup.com A 160.46.240.175
+april-cert-qa1.bmwgroup.com A 160.46.248.173
+april-cert-qa2.bmwgroup.com A 160.46.250.198
+april-cert.bmwgroup.com A 160.46.235.221
+april-device-int.bmwgroup.com A 160.46.228.249

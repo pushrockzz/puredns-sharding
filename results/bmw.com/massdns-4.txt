@@ -1,0 +1,6 @@
+am-device-us-e2e.bmw.com A 170.34.59.68
+am-device-usa.bmw.com A 170.34.104.231
+amab-p14.bmw.com A 160.46.243.87
+amc-test.bmw.com A 160.46.228.233
+api-dev.bmw.com A 34.111.181.40
+api-sandbox.bmw.com A 34.110.164.77
