@@ -1,9 +1,0 @@
-smchat.bmwgroup.com A 160.46.236.169
-smp-i.bmwgroup.com A 160.46.227.93
-sms-prod.bmwgroup.com A 160.46.225.17
-smtpext.bmwgroup.com A 160.46.252.80
-smtpext.bmwgroup.com A 160.46.252.81
-sosb-b2i-int1.bmwgroup.com A 160.46.228.251
-sosb-b2i-int2.bmwgroup.com A 160.46.228.250
-sta-iucp.bmwgroup.com A 52.178.88.134
-stabi.bmwgroup.com A 160.46.244.32

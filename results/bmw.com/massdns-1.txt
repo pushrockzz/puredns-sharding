@@ -1,4 +1,0 @@
-aero.bmw.com A 160.46.237.73
-api-int.bmw.com A 34.36.96.32
-bike.bmw.com A 160.46.244.49
-casa.bmw.com A 160.46.243.81

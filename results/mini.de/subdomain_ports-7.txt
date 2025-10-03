@@ -1,4 +1,0 @@
-karl.mini.de:443
-karl.mini.de:80
-knopf.mini.de:443
-knopf.mini.de:80

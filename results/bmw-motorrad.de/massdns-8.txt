@@ -1,6 +1,0 @@
-gsxwsut-eg.bmw-motorrad.de A 86.35.3.192
-gsxwsut-eg.bmw-motorrad.de A 86.35.3.193
-intercar.bmw-motorrad.de A 86.35.3.192
-intercar.bmw-motorrad.de A 86.35.3.193
-inyour24.bmw-motorrad.de A 86.35.3.192
-inyour24.bmw-motorrad.de A 86.35.3.193

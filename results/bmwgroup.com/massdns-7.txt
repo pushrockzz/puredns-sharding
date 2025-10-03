@@ -1,7 +1,0 @@
-cdpaymentus-i.bmwgroup.com A 170.34.127.234
-cfs-cs-int3.bmwgroup.com A 160.46.225.139
-cfs-test4.bmwgroup.com A 160.46.250.221
-cmx-author-int7.bmwgroup.com A 160.46.225.253
-cmx-author-prod2.bmwgroup.com A 160.46.243.108
-cnapi.bmwgroup.com A 122.200.105.139
-contenteditor.bmwgroup.com A 192.109.190.153

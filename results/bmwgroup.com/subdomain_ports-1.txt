@@ -1,3 +1,0 @@
-cargo-auth.bmwgroup.com:443
-casa.bmwgroup.com:443
-casa.bmwgroup.com:80

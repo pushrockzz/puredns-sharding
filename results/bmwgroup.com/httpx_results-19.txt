@@ -1,4 +1,0 @@
-http://mybmw.bmwgroup.com
-http://mybmw.bmwgroup.com:443
-http://nhtsa.bmwgroup.com
-https://nhtsa.bmwgroup.com

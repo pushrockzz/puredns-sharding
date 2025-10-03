@@ -1,6 +1,0 @@
-adfus-services.bmwgroup.com A 170.34.104.179
-adm-pmt4-dev-gcdm.bmwgroup.com A 160.46.227.194
-aem-author-inta1.bmwgroup.com A 160.46.250.215
-aem-author-inta3.bmwgroup.com A 160.46.250.182
-aem-author-pre1.bmwgroup.com A 160.46.224.50
-aem-author-proda1.bmwgroup.com A 160.46.243.242

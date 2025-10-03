@@ -1,5 +1,0 @@
-usp-regression-1.bmwgroup.com A 160.46.227.53
-usp-regression-2.bmwgroup.com A 160.46.227.57
-uvms.bmwgroup.com A 160.46.237.188
-vcs-int.bmwgroup.com A 170.34.59.224
-vehiclesearch.bmwgroup.com A 160.46.233.111

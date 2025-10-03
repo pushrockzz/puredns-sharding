@@ -1,3 +1,0 @@
-www.press-i.bmwgroup.com:443
-www.press-i.bmwgroup.com:80
-www.sia.bmwgroup.com

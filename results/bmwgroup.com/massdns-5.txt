@@ -1,4 +1,0 @@
-awp-test.bmwgroup.com A 18.158.36.154
-awp-test.bmwgroup.com A 3.66.119.224
-awp-test.bmwgroup.com A 63.179.82.86
-b2vapi.bmwgroup.com A 160.46.245.252

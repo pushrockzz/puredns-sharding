@@ -1,6 +1,0 @@
-alphera-t.bmwgroup.com A 160.48.212.60
-aos-oas.bmwgroup.com A 160.46.245.187
-api-nl.bmwgroup.com A 160.46.245.132
-apps-int.bmwgroup.com A 160.46.250.245
-april-apisec-q1.bmwgroup.com A 160.46.240.175
-at-gd-int.bmwgroup.com A 160.46.250.196

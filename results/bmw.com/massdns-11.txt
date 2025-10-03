@@ -1,3 +1,0 @@
-fbmv-int.bmw.com A 160.46.227.24
-fed-pi.bmw.com A 160.46.248.178
-fls2.bmw.com A 160.46.235.208

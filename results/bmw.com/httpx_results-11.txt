@@ -1,4 +1,0 @@
-http://cmp-test.bmw.com
-http://fbmv-int.bmw.com
-https://cmp-test.bmw.com
-https://fbmv-int.bmw.com

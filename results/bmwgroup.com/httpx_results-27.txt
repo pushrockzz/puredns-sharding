@@ -1,5 +1,0 @@
-http://tmsi.bmwgroup.com
-http://training-feedback.bmwgroup.com
-https://tmsi.bmwgroup.com
-https://training-feedback.bmwgroup.com
-https://trainingmedia.bmwgroup.com

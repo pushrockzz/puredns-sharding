@@ -1,6 +1,0 @@
-http://renibus.bmwgroup.com
-http://renibus.bmwgroup.com:443
-http://reporting-uat.bmwgroup.com
-http://salesassistant.bmwgroup.com
-https://reporting-uat.bmwgroup.com
-https://salesassistant.bmwgroup.com

@@ -1,6 +1,0 @@
-moloch-prod-mtc02.bmw-motorrad.de A 86.35.3.192
-moloch-prod-mtc02.bmw-motorrad.de A 86.35.3.193
-monocle-us-east-1.bmw-motorrad.de A 86.35.3.192
-monocle-us-east-1.bmw-motorrad.de A 86.35.3.193
-tor50-82-grc.bmw-motorrad.de A 86.35.3.192
-tor50-82-grc.bmw-motorrad.de A 86.35.3.193

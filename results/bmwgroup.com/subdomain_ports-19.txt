@@ -1,7 +1,0 @@
-mxs4.bmwgroup.com:25
-mxs5.bmwgroup.com:25
-mxs8.bmwgroup.com:25
-mybmw.bmwgroup.com:443
-mybmw.bmwgroup.com:80
-nhtsa.bmwgroup.com:443
-nhtsa.bmwgroup.com:80

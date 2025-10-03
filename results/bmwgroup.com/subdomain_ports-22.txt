@@ -1,4 +1,0 @@
-auth-next.bmwgroup.com
-processworld.bmwgroup.com:443
-processworld.bmwgroup.com:80
-qma2.bmwgroup.com:80

@@ -1,5 +1,0 @@
-vip-studs-apisec-int.bmw.com A 160.46.240.175
-vpn11.bmw.com A 193.23.33.14
-vpn23.bmw.com A 193.23.39.13
-vpn24.bmw.com A 193.23.39.14
-vpnt.bmw.com A 193.23.33.123

@@ -1,6 +1,0 @@
-http://sera.bmw.com
-https://aem-author-inta3.bmw.com
-https://aem-author-inta3.bmw.com:80
-https://aem-author-inta6.bmw.com
-https://securelogin.bmw.com
-https://securelogin.bmw.com:80

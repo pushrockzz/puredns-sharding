@@ -1,6 +1,0 @@
-http://tms-int.bmw.com
-http://tms-prod.bmw.com
-http://trainingsmedia.bmw.com
-https://tms-int.bmw.com
-https://tms-prod.bmw.com
-https://trainingsmedia.bmw.com

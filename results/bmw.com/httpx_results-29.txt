@@ -1,2 +1,0 @@
-http://workplace-test.bmw.com
-http://workplace-test.bmw.com:443

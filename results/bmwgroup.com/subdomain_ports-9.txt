@@ -1,6 +1,0 @@
-digitalshow.bmwgroup.com:443
-digitalshow.bmwgroup.com:80
-directfinance.bmwgroup.com:443
-directfinance.bmwgroup.com:80
-drfp.bmwgroup.com:80
-ebis.bmwgroup.com

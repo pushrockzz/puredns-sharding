@@ -1,5 +1,0 @@
-http://casa.bmwgroup.com
-https://cargo-auth.bmwgroup.com
-https://casa.bmwgroup.com
-https://gwm3.bmwgroup.com
-https://gwm3.bmwgroup.com:80

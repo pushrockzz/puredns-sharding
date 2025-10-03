@@ -1,8 +1,0 @@
-powertrain.bmwgroup.com A 160.46.231.195
-processworld.bmwgroup.com A 160.46.244.140
-prototype02.bmwgroup.com A 160.46.228.113
-proxydom.bmwgroup.com A 160.46.245.243
-psis.bmwgroup.com A 170.34.41.49
-pumaint.bmwgroup.com A 160.46.251.250
-qma2.bmwgroup.com A 160.46.243.176
-rcci.bmwgroup.com A 160.46.240.175

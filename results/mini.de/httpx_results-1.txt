@@ -1,5 +1,0 @@
-http://webservice.mini.de
-http://winter.mini.de
-https://webservice.mini.de
-https://webservice.mini.de:8443
-https://winter.mini.de

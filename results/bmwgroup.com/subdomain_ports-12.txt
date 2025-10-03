@@ -1,2 +1,0 @@
-gwm3.bmwgroup.com:443
-gwm3.bmwgroup.com:80

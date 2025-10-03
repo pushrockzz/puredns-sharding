@@ -1,3 +1,0 @@
-origin-int6-software.bmw-motorrad.de:80
-p05-iwmb6-china.bmw-motorrad.de:80
-p119-fmipweb.bmw-motorrad.de:80

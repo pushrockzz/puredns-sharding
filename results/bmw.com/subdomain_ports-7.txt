@@ -1,2 +1,0 @@
-cmx-author-prod2.bmw.com:443
-cmx-author-prod2.bmw.com:80

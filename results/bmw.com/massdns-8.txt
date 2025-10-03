@@ -1,2 +1,0 @@
-crmuk.bmw.com A 160.46.240.247
-dam2.bmw.com A 160.46.244.138

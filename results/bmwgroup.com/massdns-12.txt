@@ -1,5 +1,0 @@
-getyourbmw.bmwgroup.com A 122.200.123.222
-gwm3.bmwgroup.com A 160.46.240.25
-h5vco-int.bmwgroup.com A 160.46.227.102
-h5vco-mini-test.bmwgroup.com A 160.46.228.193
-h5vco-test.bmwgroup.com A 160.46.227.101

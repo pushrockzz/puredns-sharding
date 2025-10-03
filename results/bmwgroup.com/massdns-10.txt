@@ -1,6 +1,0 @@
-editest.bmwgroup.com A 160.46.244.225
-emobility-int.bmwgroup.com A 160.46.225.191
-emoboi-intgf4-emea.bmwgroup.com A 160.46.236.121
-employeeapp.bmwgroup.com A 160.46.231.213
-esaus.bmwgroup.com A 170.34.127.231
-famos.bmwgroup.com A 160.46.238.96

@@ -1,3 +1,0 @@
-motorcyclebyo-t.bmw.com A 170.34.127.185
-my-t.bmw.com A 160.46.251.141
-myworkplace.bmw.com A 160.46.231.87

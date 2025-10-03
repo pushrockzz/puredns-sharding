@@ -1,6 +1,0 @@
-http://emde.mini.de
-http://essen.mini.de
-http://euler.mini.de
-https://emde.mini.de
-https://essen.mini.de
-https://euler.mini.de

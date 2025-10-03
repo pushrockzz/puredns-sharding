@@ -1,4 +1,0 @@
-http://tabus.bmwgroup.com
-http://test.api.bmwgroup.com
-https://tabus.bmwgroup.com
-https://test.api.bmwgroup.com

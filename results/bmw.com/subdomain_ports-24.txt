@@ -1,1 +1,0 @@
-sip.partner.bmw.com:443

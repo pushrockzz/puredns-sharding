@@ -1,4 +1,0 @@
-mediapool.bmwgroup.com:443
-mediapool.bmwgroup.com:80
-mein-int.bmwgroup.com:443
-mein-int.bmwgroup.com:80

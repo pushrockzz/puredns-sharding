@@ -1,4 +1,0 @@
-pars2.bmw.com A 160.46.240.24
-plaza-int.bmw.com A 160.46.228.240
-pluto-i2.bmw.com A 98.71.183.19
-plwi.bmw.com A 160.46.248.31

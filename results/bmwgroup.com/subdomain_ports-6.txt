@@ -1,6 +1,0 @@
-carver.bmwgroup.com:443
-carver.bmwgroup.com:80
-casai.bmwgroup.com:443
-casai.bmwgroup.com:80
-casat.bmwgroup.com:443
-casat.bmwgroup.com:80

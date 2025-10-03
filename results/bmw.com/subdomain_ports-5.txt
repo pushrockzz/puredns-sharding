@@ -1,2 +1,0 @@
-b2bua.bmw.com:443
-b2bua.bmw.com:80

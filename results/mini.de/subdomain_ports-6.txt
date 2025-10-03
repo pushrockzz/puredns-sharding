@@ -1,4 +1,0 @@
-nord.mini.de:443
-nord.mini.de:80
-nuernberg.mini.de:443
-nuernberg.mini.de:80

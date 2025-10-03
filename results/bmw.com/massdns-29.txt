@@ -1,5 +1,0 @@
-webista.bmw.com A 160.46.247.214
-wire-t.bmw.com A 160.46.225.230
-workplace-test.bmw.com A 160.46.228.218
-wpmd.bmw.com A 160.46.231.151
-www.dcs.bmw.com A 194.64.18.106

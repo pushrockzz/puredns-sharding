@@ -1,4 +1,0 @@
-http://opendxm.bmw.com
-https://opalint.bmw.com
-https://opalint.bmw.com:80
-https://opendxm.bmw.com

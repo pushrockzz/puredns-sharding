@@ -1,2 +1,0 @@
-zedis.bmw.com:443
-zedis.bmw.com:80

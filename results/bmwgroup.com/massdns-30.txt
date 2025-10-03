@@ -1,4 +1,0 @@
-www.planta.bmwgroup.com A 160.46.244.89
-www.press-i.bmwgroup.com A 160.46.225.157
-www.sia.bmwgroup.com A 52.58.231.225
-www.sip.bmwgroup.com A 160.46.244.163

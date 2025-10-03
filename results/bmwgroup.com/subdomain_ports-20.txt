@@ -1,5 +1,0 @@
-noaifa-test.bmwgroup.com:443
-noaifa-test.bmwgroup.com:80
-oan3.bmwgroup.com:443
-oan3.bmwgroup.com:80
-opus-test.bmwgroup.com

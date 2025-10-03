@@ -1,4 +1,0 @@
-tabus.bmwgroup.com A 170.34.59.129
-taee.bmwgroup.com A 160.46.245.207
-test-heidi.bmwgroup.com A 160.46.227.47
-test.api.bmwgroup.com A 170.34.100.31

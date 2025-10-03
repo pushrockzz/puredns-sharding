@@ -1,4 +1,0 @@
-loginwindows.bmwgroup.com:443
-loginwindows.bmwgroup.com:80
-lyncdiscover.partner.bmwgroup.com:443
-lyncdiscover.partner.bmwgroup.com:80

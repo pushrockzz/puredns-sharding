@@ -1,4 +1,0 @@
-http://vipweb.bmw.com
-https://api-int.bmw.com
-https://vipweb.bmw.com
-https://vpn22.bmw.com

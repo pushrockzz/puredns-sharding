@@ -1,3 +1,0 @@
-eqrp.bmw.com:80
-erfx.bmw.com:80
-famos-uk.bmw.com:443

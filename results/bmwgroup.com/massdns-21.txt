@@ -1,8 +1,0 @@
-parts24.bmwgroup.com A 82.165.206.25
-perseus-dev.bmwgroup.com A 160.46.248.159
-pixt.bmwgroup.com A 160.46.236.49
-plaza-int.bmwgroup.com A 160.46.228.68
-poc-test.bmwgroup.com A 160.50.218.24
-policymanagement.bmwgroup.com A 160.46.226.247
-popsap.bmwgroup.com A 160.48.233.182
-portalwe.bmwgroup.com A 170.34.41.208

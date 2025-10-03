@@ -1,3 +1,0 @@
-loyalty-int.cn.bmw.com A 122.200.104.36
-lpkm.bmw.com A 160.46.240.60
-lterm.bmw.com A 160.46.235.29

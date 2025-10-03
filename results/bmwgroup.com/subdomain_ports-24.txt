@@ -1,3 +1,0 @@
-scp-int.bmwgroup.com
-sgate-int.bmwgroup.com
-sip.partner.bmwgroup.com:443

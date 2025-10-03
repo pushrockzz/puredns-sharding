@@ -1,7 +1,0 @@
-clpmsgs-europe.bmw-motorrad.de:80
-cn-tt1.bmw-motorrad.de:80
-coteparticuliers.bmw-motorrad.de:80
-datxanhmienbac.bmw-motorrad.de:80
-defaultcrmorigin.bmw-motorrad.de:80
-deployables.bmw-motorrad.de:80
-dev-connect-dataacquisitionapp.bmw-motorrad.de:80

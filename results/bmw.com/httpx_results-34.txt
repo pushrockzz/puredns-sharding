@@ -1,2 +1,0 @@
-https://zedis.bmw.com
-https://zedis.bmw.com:80

@@ -1,3 +1,0 @@
-felix.mini.de:443
-felix.mini.de:80
-gebrauchtwagen.mini.de

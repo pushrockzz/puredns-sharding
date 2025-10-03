@@ -1,5 +1,0 @@
-http://noaifa-test.bmwgroup.com
-http://oan3.bmwgroup.com
-https://noaifa-test.bmwgroup.com
-https://oan3.bmwgroup.com
-https://opus-test.bmwgroup.com

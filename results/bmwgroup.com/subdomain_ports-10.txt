@@ -1,4 +1,0 @@
-editest.bmwgroup.com:6622
-emoboi-intgf4-emea.bmwgroup.com:443
-emoboi-intgf4-emea.bmwgroup.com:80
-employeeapp.bmwgroup.com:443
