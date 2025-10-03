@@ -752,7 +752,7 @@ jobs:
           cd "$TMP_DIR"
           git config user.name "GitHub Actions Bot"
           git config user.email "actions-bot@users.noreply.github.com"
-          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -not -name 'puredns-output-*.txt' -printf "%p %s bytes\n"
+          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -printf "%p %s bytes\n"
           merge_new_data() {
                     local source_file="$1"
                     local relative_path="${source_file#$SOURCE_RESULTS_DIR/}"
@@ -772,10 +772,10 @@ jobs:
           while IFS= read -r -d $'\0' file; do
                     echo "  -> Merging $file into repository's results/ directory"
                     merge_new_data "$file"
-          done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -not -name 'puredns-output-*.txt' -print0)
+          done < <(find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt'  -print0)
           echo "DEBUG: Files found under SOURCE_RESULTS_DIR before merge:"
-          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -not -name 'puredns-output-*.txt' -printf "%p %s bytes\n" || \
-            find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -not -name 'puredns-output-*.txt' -exec stat -c '%n %s bytes' {} +
+          find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -printf "%p %s bytes\n" || \
+            find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -not -name 'wildcards-*.txt' -exec stat -c '%n %s bytes' {} +
           # show first/last 5 lines for large files to inspect unexpected content
           find "$SOURCE_RESULTS_DIR" -type f -name "*-${CHUNK_INDEX}.txt" -size +1k -print0 | while IFS= read -r -d '' f; do
                     echo "== $f (head) =="
