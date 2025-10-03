@@ -1,0 +1,2 @@
+http://cmp-test.bmw.com
+https://cmp-test.bmw.com
