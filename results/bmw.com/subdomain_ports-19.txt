@@ -1,0 +1,2 @@
+myworkplace.bmw.com:443
+myworkplace.bmw.com:80

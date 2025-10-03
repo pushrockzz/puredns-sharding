@@ -1,0 +1,6 @@
+msds.bmwgroup.com A 170.34.100.149
+mxs4.bmwgroup.com A 195.190.135.14
+mxs5.bmwgroup.com A 195.190.135.21
+mxs8.bmwgroup.com A 195.190.135.24
+mybmw.bmwgroup.com A 160.46.244.141
+nhtsa.bmwgroup.com A 170.34.100.112
