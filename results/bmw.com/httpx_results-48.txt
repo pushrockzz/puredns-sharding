@@ -1,0 +1,17 @@
+http://tllnet.bmw.com
+http://tms-prod.bmw.com
+https://tll-i.bmw.com
+https://tllnet.bmw.com
+https://tms-prod.bmw.com
+https://tqc-int-b2b-aws.bmw.com
+https://tqc-int-b2b.bmw.com
+https://tqc-int-b2b.bmw.com:80
+https://tqc-prod-b2d-aws.bmw.com
+https://truck-timeslot-portal-int.bmw.com
+https://truck-timeslot-portal.bmw.com
+https://tsara-b2b-webeam.bmw.com
+https://tsara-b2b-webeam.bmw.com:80
+https://tsp-int-emea.bmw.com
+https://tsp-prod-emea.bmw.com
+https://tsp-prod-us.bmw.com
+https://tspartner-e2e-cn.bmw.com
