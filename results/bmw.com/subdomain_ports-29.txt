@@ -1,0 +1,2 @@
+workplace-test.bmw.com:443
+workplace-test.bmw.com:80
