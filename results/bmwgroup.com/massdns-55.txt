@@ -1,0 +1,5 @@
+www.parts-n.bmwgroup.com A 160.46.245.141
+www.plant.bmwgroup.com A 192.109.190.247
+www.planta.bmwgroup.com A 160.46.244.89
+www.press-i.bmwgroup.com A 160.46.225.157
+www.srpmm-integration.bmwgroup.com A 160.46.248.148

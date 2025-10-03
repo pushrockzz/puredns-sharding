@@ -1,0 +1,6 @@
+www.parts-n.bmwgroup.com:443
+www.parts-n.bmwgroup.com:80
+www.press-i.bmwgroup.com:443
+www.press-i.bmwgroup.com:80
+www.srpmm-integration.bmwgroup.com:443
+www.srpmm-integration.bmwgroup.com:80
