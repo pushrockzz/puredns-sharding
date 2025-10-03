@@ -1,0 +1,16 @@
+usp-regression-1.bmwgroup.com:80
+usp-regression-5.bmwgroup.com:443
+usp-test0.bmwgroup.com:443
+usp-test0.bmwgroup.com:80
+usp-ucp-test.bmwgroup.com:443
+usp-ucp-test.bmwgroup.com:80
+vbsza.bmwgroup.com:443
+vbsza.bmwgroup.com:80
+vcs-gf4.bmwgroup.com:443
+vcs-gf4.bmwgroup.com:80
+vcswen-prod-api.bmwgroup.com:443
+vds-int.bmwgroup.com:443
+vds-int.bmwgroup.com:80
+vehicledatanext.bmwgroup.com:443
+verdict.bmwgroup.com:80
+vfcsasi.bmwgroup.com:443
