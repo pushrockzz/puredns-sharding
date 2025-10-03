@@ -1,0 +1,5 @@
+asc-prod-ha-wig.bmw.com:443
+asc-prod-wig.bmw.com:443
+audit-mobile.bmw.com:443
+audit.bmw.com:443
+audit.bmw.com:80
