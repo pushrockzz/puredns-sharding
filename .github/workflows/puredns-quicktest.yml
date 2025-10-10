@@ -55,8 +55,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: '1.23'
- 
+          go-version: '1.23' 
 
       - name: Cache Raw Wordlists (restore)
         uses: actions/cache@v3
@@ -390,35 +389,80 @@ jobs:
             resolvers.txt
             resolvers-trusted.txt
             domains/domains.txt
-
-  generate_matrix:
-    name: Generate Dynamic Matrix
+ 
+  coordinate_and_dispatch:
+    name: Coordinate & Dispatch Batches
     runs-on: ubuntu-latest
     needs: prepare
     outputs:
-      shard_matrix: ${{ steps.gen_matrix.outputs.shard_matrix }}
+      primary_shard_matrix: ${{ steps.gen_primary_matrix.outputs.shard_matrix }}
+      next_recursive_start: ${{ steps.calculate_indices.outputs.next_start }}
     steps:
-      - name: Calculate shards for this run
-        id: gen_matrix
+      - name: Calculate Batch Indices
+        id: calculate_indices
+        shell: bash
+        run: |
+          PRIMARY_START=${{ github.event.inputs.chunk_start }}
+          MATRIX_SIZE=${{ env.MATRIX_SIZE }}
+          
+          # The secondary workflow will start where the primary batch ends.
+          SECONDARY_START=$((PRIMARY_START + MATRIX_SIZE))
+          
+          # The next recursive run of THIS workflow will start after both batches are done.
+          NEXT_RECURSIVE_START=$((PRIMARY_START + 2 * MATRIX_SIZE))
+          
+          echo "Primary batch starts at: ${PRIMARY_START}"
+          echo "Secondary batch starts at: ${SECONDARY_START}"
+          echo "Next recursive run will start at: ${NEXT_RECURSIVE_START}"
+          
+          echo "secondary_start=${SECONDARY_START}" >> $GITHUB_OUTPUT
+          echo "next_start=${NEXT_RECURSIVE_START}" >> $GITHUB_OUTPUT
+
+      - name: Generate Matrix for Primary Workflow (This Run)
+        id: gen_primary_matrix
+        shell: bash
         run: |
           TOTAL_CHUNKS=${{ needs.prepare.outputs.total-chunks }}
           CHUNK_START=${{ github.event.inputs.chunk_start }}
           MATRIX_SIZE=${{ env.MATRIX_SIZE }}
+          
           CHUNKS_REMAINING=$(( TOTAL_CHUNKS - CHUNK_START ))
           if (( CHUNKS_REMAINING < 0 )); then CHUNKS_REMAINING=0; fi
+          
           SHARDS_THIS_RUN=$(( CHUNKS_REMAINING < MATRIX_SIZE ? CHUNKS_REMAINING : MATRIX_SIZE ))
+          
           if (( SHARDS_THIS_RUN <= 0 )); then
             echo "shard_matrix=[]" >> $GITHUB_OUTPUT
           else
             MATRIX_JSON=$(jq -cn --argjson n "$SHARDS_THIS_RUN" '[range($n)]')
-            echo "Generated matrix for ${SHARDS_THIS_RUN} shards: $MATRIX_JSON"
+            echo "Generated primary matrix for ${SHARDS_THIS_RUN} shards: $MATRIX_JSON"
             echo "shard_matrix=$MATRIX_JSON" >> $GITHUB_OUTPUT
           fi
+
+      - name: Trigger Secondary Worker Workflow
+        # Only trigger if the secondary batch has chunks to process
+        if: steps.calculate_indices.outputs.secondary_start < needs.prepare.outputs.total-chunks
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          # The filename of the workflow in the *secondary* repository
+          workflow: puredns-quicktest.yml # Assuming the secondary repo has an identical workflow file
+          repo: ${{ secrets.ACCOUNT2_REPO_OWNER }}/${{ secrets.ACCOUNT2_REPO_NAME }}
+          token: ${{ secrets.PAT_FOR_SECONDARY_ACCOUNT_REPO }} # A PAT with repo and workflow scopes is needed
+          ref: main
+          inputs: >
+            {
+              "chunk_start": "${{ steps.calculate_indices.outputs.secondary_start }}",
+              "run_counter": "${{ github.event.inputs.run_counter }}",
+              "max_runs": "1",
+              "words_per_chunk": "${{ github.event.inputs.words_per_chunk }}",
+              "domains_count": "${{ github.event.inputs.domains_count }}"
+            }
+
   brute:
     name: bruteforce-shard (shard ${{ matrix.shard }})
     runs-on: ubuntu-latest
-    needs: [prepare, generate_matrix]
-    if: needs.generate_matrix.outputs.shard_matrix != '[]'
+    needs: [prepare, coordinate_and_dispatch]
+    if: needs.coordinate_and_dispatch.outputs.primary_shard_matrix != '[]'
     container:
       image: ghcr.io/pcoder7/spider-puredns-actions:latest
       credentials:
@@ -427,7 +471,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        shard: ${{ fromJson(needs.generate_matrix.outputs.shard_matrix) }}
+        shard: ${{ fromJson(needs.coordinate_and_dispatch.outputs.primary_shard_matrix) }}
     steps:
       - name: Checkout repo (for committing results)
         uses: actions/checkout@v4
@@ -1062,7 +1106,7 @@ jobs:
     name: dispatch-next-run
     runs-on: ubuntu-latest
     
-    needs: [prepare, brute]
+    needs: [prepare, coordinate_and_dispatch, brute]
     if: always()
     env:
       PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
@@ -1071,20 +1115,25 @@ jobs:
         shell: bash
         run: |
           if [ -z "${PAT_TOKEN}" ]; then echo "Error: secrets.PAT_TOKEN is required." >&2; exit 0; fi
-          CHUNK_START=${{ github.event.inputs.chunk_start }}
+          
+          # THIS IS THE KEY CHANGE: Get the next starting index from our coordinator job
+          NEXT_START=${{ needs.coordinate_and_dispatch.outputs.next_recursive_start }}
+          
           TOTAL_CHUNKS=${{ needs.prepare.outputs.total-chunks }}
           RUN_COUNTER=${{ github.event.inputs.run_counter }}
           MAX_RUNS=${{ needs.prepare.outputs.effective-max-runs }}
-          MATRIX_SIZE=${{ env.MATRIX_SIZE }}
-          NEXT_START=$((CHUNK_START + MATRIX_SIZE))
+          
           NEXT_COUNTER=$((RUN_COUNTER + 1))
-          echo "Current start: ${CHUNK_START}, Next start: ${NEXT_START}, Total chunks: ${TOTAL_CHUNKS}"
+          
+          echo "Current primary start: ${{ github.event.inputs.chunk_start }}, Next recursive start: ${NEXT_START}, Total chunks: ${TOTAL_CHUNKS}"
+          
           if [ "$NEXT_START" -ge "$TOTAL_CHUNKS" ]; then echo "All chunks processed. Terminating."; exit 0; fi
           if [ "${NEXT_COUNTER}" -ge "${MAX_RUNS}" ]; then echo "Next run would exceed max_runs limit. Terminating."; exit 0; fi
+          
           URL="https://api.github.com/repos/${{ github.repository }}/actions/workflows/${{ env.WORKFLOW_FILE }}/dispatches"
-          BODY=$(printf '{"ref":"%s","inputs":{"chunk_start":"%s","total_chunks":"%s","run_counter":"%s","max_runs":"%s","words_per_chunk":"%s","domains_count":"%s"}}' \
-            "${{ github.ref_name }}" "${NEXT_START}" "${TOTAL_CHUNKS}" "${NEXT_COUNTER}" "${MAX_RUNS}" \
-            "${{ github.event.inputs.words_per_chunk }}" "${{ github.event.inputs.domains_count }}")
+          BODY=$(printf '{"ref":"%s","inputs":{"chunk_start":"%s","run_counter":"%s"}}' \
+            "${{ github.ref_name }}" "${NEXT_START}" "${NEXT_COUNTER}")
+            
           echo "Dispatching next run..."
           for i in 1 2 3 4; do
             HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X POST -H "Accept: application/vnd.github+json" \
