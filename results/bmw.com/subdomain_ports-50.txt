@@ -1,2 +1,8 @@
+projektdaten-lieferanten.bmw.com:443
+projektdaten-lieferanten.bmw.com:80
+psdmweb-int.bmw.com:443
+psdmweb-int.bmw.com:80
+publish-integ.bmw.com:443
+publish-integ.bmw.com:80
 publish-prod.bmw.com:443
 publish-prod.bmw.com:80

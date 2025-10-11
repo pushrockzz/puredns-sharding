@@ -1,4 +1,8 @@
+produ-int.bmw.com A 160.48.212.138
+projektdaten-lieferanten.bmw.com A 160.46.233.235
 proveedores-ar-int.bmw.com A 170.34.104.154
 proveedores-ar.bmw.com A 170.34.41.10
+psdmweb-int.bmw.com A 160.46.228.216
+publish-integ.bmw.com A 160.48.213.46
 publish-prod.bmw.com A 160.46.237.160
-pumapgfb2b.bmw.com A 160.46.231.68
+publishing.bmw.com A 160.46.231.184
