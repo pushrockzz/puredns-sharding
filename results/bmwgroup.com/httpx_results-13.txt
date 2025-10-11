@@ -13,6 +13,8 @@ http://dfeit-i.bmwgroup.com:443
 http://dfewebservices-internet-t.bmwgroup.com
 http://dfeza.bmwgroup.com
 http://digitalshowroom-tst.bmwgroup.com
+https://base-e2e-emea.bmwgroup.com
+https://basys.bmwgroup.com
 https://dcs-es-webeam.bmwgroup.com
 https://dcsserviceclaims-i-gf4.bmwgroup.com
 https://dcsus.bmwgroup.com
