@@ -1,0 +1,7 @@
+http://vpnweb.bmwgroup.com
+http://warrantywebus-i.bmwgroup.com
+https://vpnweb.bmwgroup.com
+https://warranty-management-dev.bmwgroup.com
+https://warranty-management-int.bmwgroup.com
+https://warrantywebus-i.bmwgroup.com
+https://wcms2appsmig.bmwgroup.com
