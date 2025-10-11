@@ -1,7 +1,9 @@
+http://oasisza-tst.bmwgroup.com
 http://sps-next.bmwgroup.com
 http://sps-rspsa-prod0.bmwgroup.com
 http://stabi-i.bmwgroup.com
 http://stg-grs-cp.bmwgroup.com
+https://oasisza-tst.bmwgroup.com
 https://sps-next.bmwgroup.com
 https://srd-test.bmwgroup.com
 https://srd-training.bmwgroup.com

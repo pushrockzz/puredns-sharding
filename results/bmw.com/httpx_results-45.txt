@@ -1,4 +1,10 @@
+http://nspeuwebp.bmw.com
+http://ocean.bmw.com
+http://ods-int.bmw.com
 http://strong.bmw.com
+https://nspeuwebp.bmw.com
+https://ocean.bmw.com
+https://ods-int.bmw.com
 https://sta-bps.bmw.com
 https://sta-ouc.bmw.com
 https://strong.bmw.com
