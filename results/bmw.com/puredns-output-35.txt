@@ -1,9 +1,2 @@
-ocean-int.bmw.com
-ocean.bmw.com
-ods-int.bmw.com
-odsprod.bmw.com
-opendxm-i.bmw.com
-opendxmi.bmw.com
-optibe-int.bmw.com
-optibe-integ.bmw.com
-optibe.bmw.com
+klusa-b2b.bmw.com
+klusa.bmw.com

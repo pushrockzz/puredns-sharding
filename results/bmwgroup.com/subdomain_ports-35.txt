@@ -1,9 +1,1 @@
-oan3.bmwgroup.com:443
-oan3.bmwgroup.com:80
-onl-osmc-i2.bmwgroup.com:443
-ooo-i.bmwgroup.com:443
-ooo-i.bmwgroup.com:80
-ooo-t.bmwgroup.com:443
-ooo-t.bmwgroup.com:80
-opus-test.bmwgroup.com
-origin.bmwgroup.com:80
+auth-next.bmwgroup.com

@@ -1,9 +1,2 @@
-ocean-int.bmw.com A 160.51.50.92
-ocean.bmw.com A 160.46.231.22
-ods-int.bmw.com A 160.46.236.237
-odsprod.bmw.com A 160.46.231.250
-opendxm-i.bmw.com A 160.48.212.250
-opendxmi.bmw.com A 160.46.251.221
-optibe-int.bmw.com A 160.46.236.143
-optibe-integ.bmw.com A 160.46.227.159
-optibe.bmw.com A 160.46.233.241
+klusa-b2b.bmw.com A 160.46.226.46
+klusa.bmw.com A 160.46.238.72
