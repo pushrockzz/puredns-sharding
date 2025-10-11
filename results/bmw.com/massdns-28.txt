@@ -1,2 +1,3 @@
-lima-int4.bmw.com A 160.46.229.221
-lima-prod3.bmw.com A 160.46.237.108
+auth-next.bmwgroup.com A 18.198.171.174
+auth-next.bmwgroup.com A 3.74.116.178
+auth-next.bmwgroup.com A 35.156.58.143

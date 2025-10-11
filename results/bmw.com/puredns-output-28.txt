@@ -1,5 +1,0 @@
-learning.bmw.com
-lifestyle.bmw.com
-lima-int4.bmw.com
-lima-prod3.bmw.com
-links.bmw.com

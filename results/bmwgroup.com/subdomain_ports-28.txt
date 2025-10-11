@@ -1,2 +1,1 @@
-lapv.bmwgroup.com:443
-lapv.bmwgroup.com:80
+auth-next.bmwgroup.com

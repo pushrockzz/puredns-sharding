@@ -1,1 +1,3 @@
-lapv.bmwgroup.com A 160.46.237.25
+auth-next.bmwgroup.com A 18.198.171.174
+auth-next.bmwgroup.com A 3.74.116.178
+auth-next.bmwgroup.com A 35.156.58.143
