@@ -1,1 +1,3 @@
 a2mac1.bmw.com
+adfus-service-prod.bmw.com
+admin.labs.bmw.com

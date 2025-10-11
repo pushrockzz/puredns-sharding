@@ -1,0 +1,1 @@
+adfus-service-prod.bmw.com:443

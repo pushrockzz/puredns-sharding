@@ -1,1 +1,2 @@
 a2mac1.bmw.com A 160.46.243.94
+adfus-service-prod.bmw.com A 160.46.235.203
