@@ -1,2 +1,4 @@
-prod-bdqvnext.bmw.com A 160.46.231.233
+podcast.bmw.com A 85.10.211.139
+processmonitoring.bmw.com A 114.66.81.194
 prod-cop.bmw.com A 160.46.240.25
+prod-web-teleservicefleet.bmw.com A 160.46.231.36

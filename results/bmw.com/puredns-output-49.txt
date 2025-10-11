@@ -1,2 +1,5 @@
-prod-bdqvnext.bmw.com
+podcast.bmw.com
+processmonitoring.bmw.com
 prod-cop.bmw.com
+prod-gui-user-swl-sec2.bmw.com
+prod-web-teleservicefleet.bmw.com
