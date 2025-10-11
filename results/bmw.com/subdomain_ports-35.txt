@@ -1,0 +1,2 @@
+klusa-b2b.bmw.com:443
+klusai-oidc-i.bmw.com:443
