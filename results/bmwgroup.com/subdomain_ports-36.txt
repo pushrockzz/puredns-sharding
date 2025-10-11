@@ -1,4 +1,6 @@
-auth-next.bmwgroup.com
-oss-int3.bmwgroup.com:443
-pass-n.bmwgroup.com:443
-pass-n.bmwgroup.com:80
+label.bmwgroup.com:443
+label.bmwgroup.com:80
+label4-i.bmwgroup.com:443
+label4-i.bmwgroup.com:80
+lapv.bmwgroup.com:443
+lapv.bmwgroup.com:80
