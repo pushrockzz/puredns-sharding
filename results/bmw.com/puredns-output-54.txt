@@ -1,2 +1,0 @@
-sams.auth.bmw.com
-sapweb-int.bmw.com
