@@ -1,1 +1,1 @@
-360portal-inttest.bmwgroup.com:80
+auth-next.bmwgroup.com
