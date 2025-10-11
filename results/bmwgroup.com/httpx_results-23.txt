@@ -1,3 +1,5 @@
+http://fisp.bmwgroup.com
+http://focus-tst.bmwgroup.com
 http://ideal-cf-int2.bmwgroup.com
 http://ideal-cf-int2.bmwgroup.com:443
 http://ideal-cf-int3.bmwgroup.com
@@ -8,6 +10,8 @@ http://ilz-device-qa-wen.bmwgroup.com
 http://ilz-user-int3.bmwgroup.com
 http://ilz-user-prod-py5.bmwgroup.com
 http://infonet3.bmwgroup.com
+https://fisp.bmwgroup.com
+https://focus-tst.bmwgroup.com
 https://ilz-device-int-us.bmwgroup.com
 https://ilz-device-prod-us.bmwgroup.com
 https://ilz-device-prod.bmwgroup.com
