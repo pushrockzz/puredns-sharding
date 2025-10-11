@@ -1,5 +1,9 @@
 tll-i.bmw.com
-tllweb.bmw.com
-tms-int-b2d.bmw.com
-tqc-b2b.bmw.com
+tllnet.bmw.com
+tms-int.bmw.com
+toscar.bmw.com
+tpdm.bmw.com
 tqc-int-b2b-aws.bmw.com
+truck-steering.bmw.com
+truck-timeslot-portal-int.bmw.com
+truck-timeslot-portal.bmw.com
