@@ -1,5 +1,9 @@
+eda2.bmw.com
+edab2bi-2.bmw.com
 edawsi.bmw.com
-ee-tmpbm.bmw.com
-efa-int-wen.bmw.com
-einschreiben.bmw.com
-encs-b2b.bmw.com
+efaplus-i.bmw.com
+efaplus.bmw.com
+efinance-tms.bmw.com
+emobility-test2.bmw.com
+engagehk-uat.bmw.com
+engineoil-approval.bmw.com
