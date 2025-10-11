@@ -1,4 +1,0 @@
-prod-cop.bmw.com:443
-prod-cop.bmw.com:80
-prod-web-teleservicefleet.bmw.com:443
-prod-web-teleservicefleet.bmw.com:80
