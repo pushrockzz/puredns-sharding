@@ -1,0 +1,2 @@
+prod-cop.bmw.com:443
+prod-cop.bmw.com:80

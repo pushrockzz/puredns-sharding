@@ -1,4 +1,2 @@
-twen-i.bmw.com
-twen-p.bmw.com
-twen2.bmw.com
-uebernahmetais-tst.bmw.com
+prod-bdqvnext.bmw.com
+prod-cop.bmw.com
