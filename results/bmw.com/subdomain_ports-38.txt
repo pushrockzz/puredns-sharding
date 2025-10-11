@@ -1,3 +1,6 @@
+lpkm-next-int.bmw.com
 lpptest.bmw.com:80
+lyncdiscover.bmw.com:443
+lyncdiscover.bmw.com:80
 lyncdiscover.partner.bmw.com:443
 lyncdiscover.partner.bmw.com:80
