@@ -1,7 +1,11 @@
-exd-int.bmw.com A 160.46.248.254
-exd-prod.bmw.com A 160.46.244.158
 external.bmw.com A 160.46.244.54
+faas2.bmw.com A 160.46.231.17
+faas20nsf-int.bmw.com A 160.48.213.71
+faas20nsf-prod.bmw.com A 160.46.240.212
+factsint.bmw.com A 160.46.248.131
+famos-ecap.bmw.com A 160.46.228.42
+famos-ps.bmw.com A 160.46.248.91
+famos-test.bmw.com A 160.46.228.200
 famos-uk-maint.bmw.com A 160.46.231.27
-famos-uk.bmw.com A 160.46.244.106
-fed-i.bmw.com A 160.46.248.179
-federation.bmw.com A 193.23.33.40
+favor.bmw.com A 160.46.240.247
+fenata.bmw.com A 160.46.240.242

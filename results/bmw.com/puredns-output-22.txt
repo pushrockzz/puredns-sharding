@@ -1,7 +1,12 @@
-exd-int.bmw.com
-exd-prod.bmw.com
 external.bmw.com
+faas2.bmw.com
+faas20nsf-int.bmw.com
+faas20nsf-prod.bmw.com
+factsint.bmw.com
+fallback.bmw.com
+famos-ecap.bmw.com
+famos-ps.bmw.com
+famos-test.bmw.com
 famos-uk-maint.bmw.com
-famos-uk.bmw.com
-fed-i.bmw.com
-federation.bmw.com
+favor.bmw.com
+fenata.bmw.com
