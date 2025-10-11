@@ -1,3 +1,9 @@
-a2mac1.bmw.com
-accessories2.bmw.com
-acscat.bmw.com
+am-device-de.bmw.com
+am-device-us-e2e.bmw.com
+amab-p.bmw.com
+amab-p14.bmw.com
+amareto-p11.bmw.com
+amc-test.bmw.com
+anaba-int.bmw.com
+anaba.bmw.com
+ap1.auth.bmw.com

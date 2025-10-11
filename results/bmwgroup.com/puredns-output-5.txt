@@ -1,1 +1,14 @@
-a4i-es.bmwgroup.com
+alphabet-b2e-test.bmwgroup.com
+alphabet-b2e-test.sme.bmwgroup.com
+alphabet-b2e.sme.bmwgroup.com
+alphera-i.bmwgroup.com
+alphera-t.bmwgroup.com
+alscore.bmwgroup.com
+annualreport.bmwgroup.com
+aos-i.bmwgroup.com
+aos-ig-int.bmwgroup.com
+aos-oas-i.bmwgroup.com
+aos-q1.bmwgroup.com
+aos-ts-qa1.bmwgroup.com
+aos-ts-qa2.bmwgroup.com
+aos-ts.bmwgroup.com

@@ -1,1 +1,7 @@
-a4i-es.bmwgroup.com A 160.46.226.249
+alphera-i.bmwgroup.com A 160.48.212.59
+alphera-t.bmwgroup.com A 160.48.212.60
+alscore.bmwgroup.com A 160.46.231.216
+aos-ig-int.bmwgroup.com A 160.46.227.164
+aos-oas-i.bmwgroup.com A 160.46.224.114
+aos-q1.bmwgroup.com A 160.46.248.169
+aos-ts-qa1.bmwgroup.com A 160.46.228.155

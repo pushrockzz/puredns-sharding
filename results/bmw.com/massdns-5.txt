@@ -1,2 +1,8 @@
-a2mac1.bmw.com A 160.46.243.94
-acscat.bmw.com A 160.46.244.19
+am-device-de.bmw.com A 160.46.231.143
+am-device-us-e2e.bmw.com A 170.34.59.68
+amab-p.bmw.com A 160.46.240.139
+amab-p14.bmw.com A 160.46.243.87
+amareto-p11.bmw.com A 160.46.243.212
+amc-test.bmw.com A 160.46.228.233
+anaba-int.bmw.com A 160.48.213.34
+anaba.bmw.com A 160.46.245.217

@@ -1,2 +1,5 @@
-a4i-es.bmwgroup.com:443
-a4i-es.bmwgroup.com:80
+alphera-t.bmwgroup.com:443
+alphera-t.bmwgroup.com:80
+alscore.bmwgroup.com:443
+alscore.bmwgroup.com:80
+aos-ig-int.bmwgroup.com:443

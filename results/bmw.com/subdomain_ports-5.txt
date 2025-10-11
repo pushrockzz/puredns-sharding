@@ -1,0 +1,10 @@
+am-device-de.bmw.com:443
+am-device-de.bmw.com:80
+am-device-us-e2e.bmw.com:443
+am-device-us-e2e.bmw.com:80
+amc-test.bmw.com:443
+amc-test.bmw.com:80
+anaba-int.bmw.com:443
+anaba-int.bmw.com:80
+anaba.bmw.com:443
+anaba.bmw.com:80
