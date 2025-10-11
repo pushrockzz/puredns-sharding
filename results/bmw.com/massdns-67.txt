@@ -1,7 +1,7 @@
-what-p.bmw.com A 160.46.243.97
-wire.bmw.com A 160.46.238.41
-workflow-dev.bmw.com A 160.48.212.194
-workflow-int.bmw.com A 160.46.225.72
+wenp-basicauth-dmz-debug.bmw.com A 160.46.226.150
+what-i.bmw.com A 160.48.212.179
+wheelfinder.bmw.com A 20.73.197.45
+wire-t.bmw.com A 160.46.225.230
 workplace-int.bmw.com A 160.46.228.215
+workplace-test.bmw.com A 160.46.228.218
 workplace.bmw.com A 160.46.238.78
-wote-prod-gf5.bmw.com A 160.46.245.143
