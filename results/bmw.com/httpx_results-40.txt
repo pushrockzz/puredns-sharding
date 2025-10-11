@@ -1,6 +1,8 @@
+http://mfscs-b2b-external-wen-int.bmw.com
 https://mdm-int-webclient.bmw.com
 https://mdm-webclient.bmw.com
 https://mfscs-b2b-external-wen-e2e.bmw.com
 https://mfscs-b2b-external-wen-e2e.bmw.com:80
+https://mfscs-b2b-external-wen-int.bmw.com
 https://mftiedge01.bmw.com
 https://res.service.bmw.com
