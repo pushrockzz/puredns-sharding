@@ -1,2 +1,6 @@
-alscore-test.bmwgroup.com
-annualreport.bmwgroup.com
+b2vapi.bmwgroup.com
+base-emea.bmwgroup.com
+base-int-emea.bmwgroup.com
+beacon.bmwgroup.com
+beam.bmwgroup.com
+bemiweb-payara-prod.bmwgroup.com

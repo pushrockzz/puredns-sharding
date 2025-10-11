@@ -1,6 +1,8 @@
-am-device-de-e2e.bmw.com
-am-device-usa.bmw.com
-amab-p.bmw.com
-amareto-p11.bmw.com
-amos.bmw.com
-anaba.bmw.com
+b2v-b2bapp.bmw.com
+b2v-b2bappus.bmw.com
+b8fbb-bea10.bmw.com
+bao-admin-int.bmw.com
+base-cn.bmw.com
+base-e2e-us.bmw.com
+base-emea.bmw.com
+bemiweb-i.bmw.com

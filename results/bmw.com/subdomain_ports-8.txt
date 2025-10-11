@@ -1,6 +1,5 @@
-am-device-de-e2e.bmw.com:443
-am-device-de-e2e.bmw.com:80
-am-device-usa.bmw.com:443
-am-device-usa.bmw.com:80
-anaba.bmw.com:443
-anaba.bmw.com:80
+b2v-b2bappus.bmw.com:443
+b2v-b2bappus.bmw.com:80
+base-cn.bmw.com:443
+base-e2e-us.bmw.com:443
+base-emea.bmw.com:443

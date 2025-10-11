@@ -1,1 +1,6 @@
-alscore-test.bmwgroup.com A 160.46.227.163
+b2vapi.bmwgroup.com A 160.46.245.252
+base-emea.bmwgroup.com A 160.46.235.237
+base-int-emea.bmwgroup.com A 160.46.250.171
+beacon.bmwgroup.com A 160.46.231.66
+beam.bmwgroup.com A 160.48.233.172
+bemiweb-payara-prod.bmwgroup.com A 160.48.164.100

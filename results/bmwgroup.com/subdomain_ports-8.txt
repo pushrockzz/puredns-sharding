@@ -1,1 +1,3 @@
-alscore-test.bmwgroup.com:443
+base-emea.bmwgroup.com:443
+bemiweb-payara-prod.bmwgroup.com:443
+bemiweb-payara-prod.bmwgroup.com:80
