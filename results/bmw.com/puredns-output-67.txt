@@ -1,7 +1,8 @@
-wenp-basicauth-dmz-debug.bmw.com
 what-i.bmw.com
-wheelfinder.bmw.com
+what-p.bmw.com
+wheelfinder-dev.bmw.com
+wire-int.bmw.com
 wire-t.bmw.com
-workplace-int.bmw.com
-workplace-test.bmw.com
+workflow-dev.bmw.com
+workflow.bmw.com
 workplace.bmw.com

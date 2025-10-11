@@ -1,6 +1,6 @@
-wenp-basicauth-dmz-debug.bmw.com:443
-wheelfinder.bmw.com
-workplace-int.bmw.com:443
-workplace-int.bmw.com:80
-workplace-test.bmw.com:443
-workplace-test.bmw.com:80
+what-p.bmw.com:443
+what-p.bmw.com:80
+wheelfinder-dev.bmw.com
+wire-int.bmw.com:80
+workflow.bmw.com:443
+workflow.bmw.com:80
