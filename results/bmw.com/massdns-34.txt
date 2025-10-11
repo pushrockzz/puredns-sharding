@@ -1,2 +1,1 @@
 kam5-int.bmw.com A 160.48.213.166
-kamaeleon-int-2.bmw.com A 20.67.89.213
