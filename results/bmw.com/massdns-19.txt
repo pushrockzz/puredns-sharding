@@ -1,4 +1,8 @@
-gcdm-pf-t.bmw.com A 160.46.225.117
-gis.dev.bmw.com A 209.177.212.244
-gko-int-api.bmw.com A 160.46.240.175
-globalx.bmw.com A 160.46.233.51
+cctbank-rp.bmw.com A 160.46.226.65
+cctemea1-rp.bmw.com A 160.46.247.227
+cctemea2-rp.bmw.com A 160.46.247.226
+cctza2-rp.bmw.com A 160.48.233.133
+cert-int.bmw.com A 160.48.213.168
+cert.bmw.com A 160.46.235.243
+cesim-de-prod.bmw.com A 160.46.235.138
+cfte-rwq.bmw.com A 160.46.251.143
