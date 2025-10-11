@@ -1,2 +1,4 @@
 pars2-int.bmw.com
-pbe-sdv-int.bmw.com
+pars2.bmw.com
+pbe-sdv-prod.bmw.com
+pdmweb-prod.bmw.com

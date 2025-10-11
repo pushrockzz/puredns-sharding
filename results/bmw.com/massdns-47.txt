@@ -1,2 +1,4 @@
 pars2-int.bmw.com A 160.46.251.252
-pbe-sdv-int.bmw.com A 160.46.236.52
+pars2.bmw.com A 160.46.240.24
+pbe-sdv-prod.bmw.com A 160.46.237.22
+pdmweb-prod.bmw.com A 160.46.240.161
