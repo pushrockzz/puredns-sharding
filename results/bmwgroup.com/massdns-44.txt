@@ -1,0 +1,6 @@
+netftifa.bmwgroup.com A 160.46.244.178
+netftnoa-int.bmwgroup.com A 160.46.250.167
+netftnoa.bmwgroup.com A 160.46.235.251
+nhtsa-i.bmwgroup.com A 170.34.100.84
+nhtsa.bmwgroup.com A 170.34.100.112
+nkam.bmwgroup.com A 160.46.243.172
