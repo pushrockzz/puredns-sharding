@@ -1,9 +1,2 @@
-casa-cn-i.bmw.com
-casa-de-p.bmw.com
-casa-emea-int-b2bp.bmw.com
-casa-emea-prod-b2b.bmw.com
-casa.bmw.com
-casacni.bmw.com
-cbda.bmw.com
-cbe-prod-emea.bmw.com
-cbe-prod-us.bmw.com
+dige.bmw.com
+dlss-t.bmw.com
