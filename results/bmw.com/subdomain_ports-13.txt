@@ -1,1 +1,2 @@
-cis-lf-9test1.ads.bmw.com:500
+cloud2cloud.bmw.com:443
+cloud2cloud.bmw.com:80
