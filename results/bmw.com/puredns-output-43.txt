@@ -1,5 +1,3 @@
 myworkplace-int.bmw.com
-myworkplace-s.bmw.com
-myworkplace-test.bmw.com
 myworkplace.bmw.com
 neainfra-us-int.bmw.com
