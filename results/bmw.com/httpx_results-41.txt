@@ -1,5 +1,9 @@
+http://minimaintenance.bmw.com
 http://mndm-pre-n2.bmw.com
+http://mnomgr.bmw.com
 http://rlbmw-int-ssl.bmw.com
+https://minimaintenance.bmw.com
+https://mnomgr.bmw.com
 https://rmt-t.bmw.com
 https://rmtv2-t.bmw.com
 https://rplan3-i.bmw.com
