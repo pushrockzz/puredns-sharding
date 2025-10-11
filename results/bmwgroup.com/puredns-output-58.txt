@@ -1,0 +1,17 @@
+spl-test.bmwgroup.com
+spoa-test.bmwgroup.com
+sps-rspsa-int0.bmwgroup.com
+sps-rspsa-prod0.bmwgroup.com
+srd-int-gfv4.bmwgroup.com
+srd-test.bmwgroup.com
+srmj-za-int.bmwgroup.com
+srpmm-api-i.bmwgroup.com
+srpmm-int-ui-agnt.bmwgroup.com
+srpmm.bmwgroup.com
+sta-iucp.bmwgroup.com
+stabi-prod.bmwgroup.com
+stabi.bmwgroup.com
+star-n.bmwgroup.com
+star-prod.bmwgroup.com
+static8-osmaster.bmwgroup.com
+stg-grs-cp.bmwgroup.com
