@@ -1,4 +1,5 @@
+delivery.bmw.com
 deploydirectori.bmw.com
 derendinger.bmw.com
-dev-rs.bmw.com
-developer.bmw.com
+dev-fusecard-backend.bmw.com
+dev-nfsc-uk-rcm-services.bmw.com
