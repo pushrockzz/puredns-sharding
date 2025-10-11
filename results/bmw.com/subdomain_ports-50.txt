@@ -1,6 +1,2 @@
-vds-mobile-int.bmw.com:443
-vds-mobile-int.bmw.com:80
-vip-int-gf5.bmw.com:443
-vip-int-gf5.bmw.com:80
-vip-prod-gf5.bmw.com:443
-vip-prod-gf5.bmw.com:80
+publish-prod.bmw.com:443
+publish-prod.bmw.com:80
