@@ -1,1 +1,5 @@
+http://swl-gf5.bmw.com
+http://swl-sec2.bmw.com
+http://swl-sec2.bmw.com:443
+https://swl-gf5.bmw.com
 https://swli12.bmw.com
