@@ -1,8 +1,9 @@
 vpn13.bmw.com:443
-vpn2.bmw.com:443
-vsrsales-test.bmw.com:443
-vsrsales-test.bmw.com:80
-vts-adfs.bmw.com:443
-vts-adfs.bmw.com:80
+vpn21.bmw.com:443
+vpn24.bmw.com:443
+vts-supplierinterface.bmw.com:10050
+vts-supplierinterface.bmw.com:123
+vts-supplierinterface.bmw.com:80
+warrantywebus-i.bmw.com:443
 warrantywebus.bmw.com:443
 warrantywebus.bmw.com:80

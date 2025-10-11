@@ -1,9 +1,10 @@
-vpn11.bmw.com A 193.23.33.14
+vpn12.bmw.com A 193.23.33.15
 vpn13.bmw.com A 193.23.33.16
-vpn2.bmw.com A 193.23.33.6
+vpn21.bmw.com A 193.23.39.11
+vpn24.bmw.com A 193.23.39.14
+vpnt.bmw.com A 193.23.33.123
+vpnt1.bmw.com A 193.23.33.129
 vpnt2.bmw.com A 193.23.33.130
-vsr-int.bmw.com A 170.34.100.96
-vsrsales-test.bmw.com A 170.34.41.124
-vts-adfs.bmw.com A 160.46.235.19
+vts-supplierinterface.bmw.com A 74.220.199.6
+warrantywebus-i.bmw.com A 170.34.127.248
 warrantywebus.bmw.com A 170.34.100.127
-webappt.bmw.com A 192.109.190.143

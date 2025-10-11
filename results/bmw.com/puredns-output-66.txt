@@ -1,9 +1,10 @@
-vpn11.bmw.com
+vpn12.bmw.com
 vpn13.bmw.com
-vpn2.bmw.com
+vpn21.bmw.com
+vpn24.bmw.com
+vpnt.bmw.com
+vpnt1.bmw.com
 vpnt2.bmw.com
-vsr-int.bmw.com
-vsrsales-test.bmw.com
-vts-adfs.bmw.com
+vts-supplierinterface.bmw.com
+warrantywebus-i.bmw.com
 warrantywebus.bmw.com
-webappt.bmw.com
