@@ -1,4 +1,2 @@
 pbe-sdv-int.bmw.com:443
 pbe-sdv-int.bmw.com:80
-pbe-sdv-prod.bmw.com:443
-pbe-sdv-prod.bmw.com:80
