@@ -1,8 +1,4 @@
-bmw-dev-a11.bmw.com
-bmw-int-10.bmw.com
-bmw-int-5.bmw.com
+beta.auth.bmw.com
+bharti-wal-mart.auth.bmw.com
+bike.bmw.com
 bmw-prod-a2-b2bwen.bmw.com
-bmw-test-a1.bmw.com
-bmw-test-a6.bmw.com
-bmwgrouparchives-int.bmw.com
-bmwonline.bmw.com

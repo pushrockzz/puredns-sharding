@@ -1,8 +1,2 @@
-bmw-dev-a11.bmw.com A 160.48.165.72
-bmw-int-10.bmw.com A 160.48.165.29
-bmw-int-5.bmw.com A 160.48.213.52
+bike.bmw.com A 160.46.244.49
 bmw-prod-a2-b2bwen.bmw.com A 160.46.237.166
-bmw-test-a1.bmw.com A 160.48.165.192
-bmw-test-a6.bmw.com A 160.48.165.148
-bmwgrouparchives-int.bmw.com A 160.46.227.89
-bmwonline.bmw.com A 62.220.6.131
