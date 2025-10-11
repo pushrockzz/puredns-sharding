@@ -1,3 +1,1 @@
-cadpdm-prod-as.bmw.com:443
-cadpdm-prod-as.bmw.com:80
 cam-test.bmw.com

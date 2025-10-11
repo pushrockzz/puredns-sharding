@@ -1,10 +1,11 @@
 c2b-i.bmw.com
 c2b-services-i.bmw.com
 c2b-services.bmw.com
-c2b-t.bmw.com
+c2bfed-t.bmw.com
 c8cs.bmw.com
+cache.bmw.com
+cadpdm-int-as-gf5.bmw.com
+cadpdm-int-prisma-gf5.bmw.com
 cadpdm-int-small-gf5.bmw.com
-cadpdm-prod-as.bmw.com
-caebench2.bmw.com
-callisto-daily.bmw.com
+callisto-branch.bmw.com
 cam-test.bmw.com
