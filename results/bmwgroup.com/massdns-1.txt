@@ -1,2 +1,0 @@
-360portal-inttest.bmwgroup.com A 160.46.228.101
-5trias2.bmwgroup.com A 160.46.251.75
