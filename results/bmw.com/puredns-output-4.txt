@@ -1,0 +1,7 @@
+aem-author-inta2.bmw.com
+aem-author-inta3.bmw.com
+aem-author-ipoci.bmw.com
+aem-author-pre1.bmw.com
+aem-author-pre2.bmw.com
+aem-author-proda2.bmw.com
+aero.bmw.com

@@ -1,8 +1,2 @@
-am-device-us-e2e.bmw.com:443
-am-device-us-e2e.bmw.com:80
-am-device-usa.bmw.com:443
-am-device-usa.bmw.com:80
-amc-test.bmw.com:443
-amc-test.bmw.com:80
-api-dev.bmw.com
-api-sandbox.bmw.com
+aem-author-inta3.bmw.com:443
+aem-author-inta3.bmw.com:80
