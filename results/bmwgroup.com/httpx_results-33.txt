@@ -1,3 +1,4 @@
+http://jpsgw1-int.bmwgroup.com
 http://myair-b2i-qa1.gf4.bmwgroup.com
 http://mybmw.bmwgroup.com
 http://mybmw.bmwgroup.com:443
@@ -9,6 +10,8 @@ http://mypage.bmwgroup.com
 http://n3wen-int.bmwgroup.com
 http://n3wen.bmwgroup.com
 http://ndsus-test.bmwgroup.com
+https://auth-next.bmwgroup.com
+https://jpsgw1-int.bmwgroup.com
 https://myair-b2i-qa1.gf4.bmwgroup.com
 https://mybmwpub-i.bmwgroup.com
 https://mybmwssogf4-t.bmwgroup.com
