@@ -1,2 +1,3 @@
 bike.bmw.com A 160.46.244.49
-bmw-prod-a2-b2bwen.bmw.com A 160.46.237.166
+bipicc.bmw.com A 160.46.227.98
+bmw-test-a6.bmw.com A 160.48.165.148

@@ -1,4 +1,3 @@
-beta.auth.bmw.com
-bharti-wal-mart.auth.bmw.com
 bike.bmw.com
-bmw-prod-a2-b2bwen.bmw.com
+bipicc.bmw.com
+bmw-test-a6.bmw.com
