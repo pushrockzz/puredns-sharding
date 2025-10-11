@@ -1,2 +1,4 @@
+http://cloud2cloud.bmw.com
+http://cloud2cloud.bmw.com:443
 https://base-cn.bmw.com
 https://base-emea.bmw.com
