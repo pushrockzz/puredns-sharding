@@ -1,3 +1,5 @@
+http://check-shop.bmwgroup.com
+http://check-shop.bmwgroup.com:443
 http://dcs-es-webeam.bmwgroup.com
 http://dcsserviceclaims-i-gf4.bmwgroup.com
 http://dcsus.bmwgroup.com
@@ -13,8 +15,11 @@ http://dfeit-i.bmwgroup.com:443
 http://dfewebservices-internet-t.bmwgroup.com
 http://dfeza.bmwgroup.com
 http://digitalshowroom-tst.bmwgroup.com
+https://auth-next.bmwgroup.com
 https://base-e2e-emea.bmwgroup.com
 https://basys.bmwgroup.com
+https://ckf-int.bmwgroup.com
+https://ckf-qa.bmwgroup.com
 https://dcs-es-webeam.bmwgroup.com
 https://dcsserviceclaims-i-gf4.bmwgroup.com
 https://dcsus.bmwgroup.com
