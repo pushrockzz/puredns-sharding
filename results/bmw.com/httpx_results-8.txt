@@ -7,6 +7,7 @@ https://am-device-usa.bmw.com
 https://anaba.bmw.com
 https://b2v-b2bappus.bmw.com
 https://base-cn.bmw.com
+https://base-e2e-emea.bmw.com
 https://base-e2e-us.bmw.com
 https://base-emea.bmw.com
 https://br.dwp.bmw.com
