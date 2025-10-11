@@ -1,6 +1,6 @@
-tapi.bmw.com A 160.46.240.127
-tc4jb.bmw.com A 160.46.238.84
+taplaus.bmw.com A 160.46.225.61
+tbm-int-t3.bmw.com A 160.46.229.144
+tc4jbi.bmw.com A 160.46.228.104
 tdferu.bmw.com A 160.46.236.91
-telex.bmw.com A 170.34.104.168
-term-int.bmw.com A 160.46.225.208
+teleservicesus-t.bmw.com A 170.34.104.160
 term-prod.bmw.com A 160.46.233.133
