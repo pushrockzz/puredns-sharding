@@ -1,2 +1,3 @@
 dige.bmw.com
 dlss.bmw.com:443
+dmsea.bmw.com
