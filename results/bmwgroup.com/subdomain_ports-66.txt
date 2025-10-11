@@ -1,0 +1,8 @@
+vpnweb.bmwgroup.com:443
+vpnweb.bmwgroup.com:80
+warranty-management-dev.bmwgroup.com
+warranty-management-int.bmwgroup.com
+warrantywebus-i.bmwgroup.com:443
+warrantywebus-i.bmwgroup.com:80
+wcms10.bmwgroup.com:443
+wcms2appsmig.bmwgroup.com:443

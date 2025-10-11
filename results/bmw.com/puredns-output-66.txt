@@ -1,0 +1,10 @@
+vpn12.bmw.com
+vpn13.bmw.com
+vpn2.bmw.com
+vpn22.bmw.com
+vpn23.bmw.com
+vpn24.bmw.com
+vpnt1.bmw.com
+vts-adfs-int.bmw.com
+webdesktop-int.bmw.com
+webista.bmw.com
