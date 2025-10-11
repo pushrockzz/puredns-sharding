@@ -1,0 +1,2 @@
+network.bmw.com
+nfsc-uk-rcm.bmw.com
