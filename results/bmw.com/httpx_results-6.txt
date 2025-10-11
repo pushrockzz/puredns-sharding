@@ -7,6 +7,8 @@ http://b2v-b2bappus.bmw.com
 https://adfus-service-int.bmw.com
 https://aero-sc-int.bmw.com
 https://apac.wit.bmw.com
+https://api-dev.bmw.com
+https://api-int.bmw.com
 https://api-sandbox.bmw.com
 https://aplaus.bmw.com
 https://aplaus.bmw.com:80
