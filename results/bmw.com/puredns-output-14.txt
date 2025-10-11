@@ -1,2 +1,12 @@
-bike.bmw.com
-bipicc.bmw.com
+cmp-author-int.bmw.com
+cmp-pp.bmw.com
+cmp-search.bmw.com
+cmsp-author-int.bmw.com
+cmx-author-int4.bmw.com
+cmx-author-prod3.bmw.com
+community.bmw.com
+community.stage.bmw.com
+configure.bmw.com
+connecteddrive.bmw.com
+core.m4.bmw.com
+core.m9.bmw.com

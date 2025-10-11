@@ -1,2 +1,6 @@
-bike.bmw.com A 160.46.244.49
-bipicc.bmw.com A 160.46.227.98
+cmp-author-int.bmw.com A 160.46.228.47
+cmp-pp.bmw.com A 160.46.228.123
+cmp-search.bmw.com A 160.46.226.227
+cmsp-author-int.bmw.com A 160.46.224.150
+cmx-author-int4.bmw.com A 160.46.225.33
+cmx-author-prod3.bmw.com A 160.46.243.157

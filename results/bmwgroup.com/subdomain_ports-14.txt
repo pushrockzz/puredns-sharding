@@ -1,1 +1,13 @@
-auth-next.bmwgroup.com
+cms-containermovements-int.bmwgroup.com:443
+cms-containermovements-int.bmwgroup.com:80
+cms-containerprices.bmwgroup.com:443
+cms-containerprices.bmwgroup.com:80
+cobis-training.bmwgroup.com:443
+cobis-training.bmwgroup.com:80
+codis-t-hn-int.bmwgroup.com:443
+compass-cmt.bmwgroup.com:443
+compass-cmt.bmwgroup.com:80
+concesionarios-es.bmwgroup.com:443
+concesionarios-es.bmwgroup.com:80
+connectedrmiserviceadmin-e2e.bmwgroup.com:443
+cop-measurement-int.bmwgroup.com:443
