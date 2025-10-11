@@ -1,4 +1,2 @@
-erfx-ttg.bmw.com:443
-erfx-ttg.bmw.com:80
-everest.bmw.com:443
-everest.bmw.com:80
+br.dwp-int.bmw.com:443
+br.dwp-int.bmw.com:80

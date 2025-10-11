@@ -1,9 +1,1 @@
-emm-eas-ode.bmwgroup.com:443
-emm-idm.bmwgroup.com:443
-emm-idm.bmwgroup.com:7443
-emm-idm.bmwgroup.com:80
-emm-idm.bmwgroup.com:88
-emoboi-intgf4-emea.bmwgroup.com:443
-emoboi-intgf4-emea.bmwgroup.com:80
-employeeapp.bmwgroup.com:443
-evonext-int.bmwgroup.com
+boveda-mx.bmwgroup.com:80
