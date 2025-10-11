@@ -390,10 +390,15 @@ jobs:
             resolvers-trusted.txt
             domains/domains.txt
  
-  coordinate_and_dispatch:
+coordinate_and_dispatch:
     name: Coordinate & Dispatch Batches
     runs-on: ubuntu-latest
     needs: prepare
+    
+    # <-- FIX 1: Make the total_chunks value a reliable environment variable for this job -->
+    env:
+      TOTAL_CHUNKS: ${{ needs.prepare.outputs.total-chunks }}
+
     outputs:
       primary_shard_matrix: ${{ steps.gen_primary_matrix.outputs.shard_matrix }}
       next_recursive_start: ${{ steps.calculate_indices.outputs.next_start }}
@@ -405,15 +410,13 @@ jobs:
           PRIMARY_START=${{ github.event.inputs.chunk_start }}
           MATRIX_SIZE=${{ env.MATRIX_SIZE }}
           
-          # The secondary workflow will start where the primary batch ends.
           SECONDARY_START=$((PRIMARY_START + MATRIX_SIZE))
-          
-          # The next recursive run of THIS workflow will start after both batches are done.
           NEXT_RECURSIVE_START=$((PRIMARY_START + 2 * MATRIX_SIZE))
           
           echo "Primary batch starts at: ${PRIMARY_START}"
           echo "Secondary batch starts at: ${SECONDARY_START}"
           echo "Next recursive run will start at: ${NEXT_RECURSIVE_START}"
+          echo "Total chunks available: ${{ env.TOTAL_CHUNKS }}" # For debugging
           
           echo "secondary_start=${SECONDARY_START}" >> $GITHUB_OUTPUT
           echo "next_start=${NEXT_RECURSIVE_START}" >> $GITHUB_OUTPUT
@@ -422,7 +425,8 @@ jobs:
         id: gen_primary_matrix
         shell: bash
         run: |
-          TOTAL_CHUNKS=${{ needs.prepare.outputs.total-chunks }}
+          # The env variable is automatically available inside the shell
+          TOTAL_CHUNKS=${{ env.TOTAL_CHUNKS }}
           CHUNK_START=${{ github.event.inputs.chunk_start }}
           MATRIX_SIZE=${{ env.MATRIX_SIZE }}
           
@@ -440,14 +444,13 @@ jobs:
           fi
 
       - name: Trigger Secondary Worker Workflow
-        # Only trigger if the secondary batch has chunks to process
-        if: steps.calculate_indices.outputs.secondary_start < needs.prepare.outputs.total-chunks
+        # <-- FIX 2: Compare against the reliable env variable instead of the needs context -->
+        if: steps.calculate_indices.outputs.secondary_start < env.TOTAL_CHUNKS
         uses: benc-uk/workflow-dispatch@v1
         with:
-          # The filename of the workflow in the *secondary* repository
-          workflow: puredns-quicktest.yml # Assuming the secondary repo has an identical workflow file
+          workflow: puredns-quicktest.yml
           repo: ${{ secrets.ACCOUNT2_REPO_OWNER }}/${{ secrets.ACCOUNT2_REPO_NAME }}
-          token: ${{ secrets.PAT_FOR_SECONDARY_ACCOUNT_REPO }} # A PAT with repo and workflow scopes is needed
+          token: ${{ secrets.PAT_FOR_SECONDARY_ACCOUNT_REPO }}
           ref: main
           inputs: >
             {
