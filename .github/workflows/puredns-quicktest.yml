@@ -395,8 +395,6 @@ jobs:
     name: Coordinate & Dispatch Batches
     runs-on: ubuntu-latest
     needs: prepare
-    
-    # <-- FIX 1: Make the total_chunks value a reliable environment variable for this job -->
     env:
       TOTAL_CHUNKS: ${{ needs.prepare.outputs.total-chunks }}
 
@@ -417,7 +415,6 @@ jobs:
           echo "Primary batch starts at: ${PRIMARY_START}"
           echo "Secondary batch starts at: ${SECONDARY_START}"
           echo "Next recursive run will start at: ${NEXT_RECURSIVE_START}"
-          echo "Total chunks available: ${{ env.TOTAL_CHUNKS }}" # For debugging
           
           echo "secondary_start=${SECONDARY_START}" >> $GITHUB_OUTPUT
           echo "next_start=${NEXT_RECURSIVE_START}" >> $GITHUB_OUTPUT
@@ -426,7 +423,6 @@ jobs:
         id: gen_primary_matrix
         shell: bash
         run: |
-          # The env variable is automatically available inside the shell
           TOTAL_CHUNKS=${{ env.TOTAL_CHUNKS }}
           CHUNK_START=${{ github.event.inputs.chunk_start }}
           MATRIX_SIZE=${{ env.MATRIX_SIZE }}
@@ -441,12 +437,26 @@ jobs:
           else
             MATRIX_JSON=$(jq -cn --argjson n "$SHARDS_THIS_RUN" '[range($n)]')
             echo "Generated primary matrix for ${SHARDS_THIS_RUN} shards: $MATRIX_JSON"
-            echo "shard_matrix=$MATRIX_JSON" >> $GITHUB_OUTPUT
+            echo "shard_matrix=$JSON_JSON" >> $GITHUB_OUTPUT
+          fi
+
+      # <-- NEW STEP: Perform a reliable numeric comparison in Bash -->
+      - name: Check if Secondary Worker Should Run
+        id: should_trigger_secondary
+        shell: bash
+        run: |
+          # Use bash's numeric comparison operator `lt` (less than)
+          if [[ "${{ steps.calculate_indices.outputs.secondary_start }}" -lt "${{ env.TOTAL_CHUNKS }}" ]]; then
+            echo "Decision: Secondary worker HAS work to do. (20 < 122)"
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "Decision: Secondary worker has NO work to do."
+            echo "should_run=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Trigger Secondary Worker Workflow
-        # <-- FIX 2: Compare against the reliable env variable instead of the needs context -->
-        if: steps.calculate_indices.outputs.secondary_start < env.TOTAL_CHUNKS
+        # <-- MODIFIED LINE: Use the reliable boolean output from the previous step -->
+        if: steps.should_trigger_secondary.outputs.should_run == 'true'
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: puredns-quicktest.yml
