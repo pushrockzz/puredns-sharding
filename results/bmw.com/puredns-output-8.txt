@@ -1,7 +1,6 @@
+b2v-b2bappus.bmw.com
 b8fbb-bea10.bmw.com
+bank.api.bmw.com
 bao-admin-int.bmw.com
-bao-admin.bmw.com
-baonline.bmw.com
-base-cn.bmw.com
-base-e2e-emea.bmw.com
-base-e2e-us.bmw.com
+base-emea.bmw.com
+bemiweb-payara-prod.bmw.com
