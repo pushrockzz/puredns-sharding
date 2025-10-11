@@ -1,2 +1,10 @@
+http://imm-test3-gf3.bmw.com
+http://imobileauth.bmw.com
 http://term-prod.bmw.com
+https://imm-int3-gf3.bmw.com
+https://imm-int7-gf3.bmw.com
+https://imm-test3-gf3.bmw.com
+https://imm-test4-gf3.bmw.com
+https://imm-test4-gf3.bmw.com:80
+https://imobileauth.bmw.com
 https://term-prod.bmw.com
