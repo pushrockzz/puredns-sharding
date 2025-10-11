@@ -1,7 +1,10 @@
-aem-author-inta2.bmw.com A 160.46.251.175
-aem-author-inta3.bmw.com A 160.46.250.189
+aem-author-inta4.bmw.com A 160.46.224.37
+aem-author-inta5.bmw.com A 160.46.227.46
+aem-author-inta7.bmw.com A 160.46.228.186
+aem-author-intn1.bmw.com A 160.48.212.213
 aem-author-ipoci.bmw.com A 160.46.251.144
-aem-author-pre1.bmw.com A 160.46.224.49
-aem-author-pre2.bmw.com A 160.46.224.51
-aem-author-proda2.bmw.com A 160.46.243.244
+aem-author-proda1.bmw.com A 160.46.243.243
+aem-author-prodn1.bmw.com A 160.46.240.57
+aero-int.bmw.com A 160.46.236.99
 aero.bmw.com A 160.46.237.73
+aida.bmw.com A 160.46.243.149

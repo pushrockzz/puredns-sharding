@@ -1,7 +1,10 @@
-aem-author-inta2.bmw.com
-aem-author-inta3.bmw.com
+aem-author-inta4.bmw.com
+aem-author-inta5.bmw.com
+aem-author-inta7.bmw.com
+aem-author-intn1.bmw.com
 aem-author-ipoci.bmw.com
-aem-author-pre1.bmw.com
-aem-author-pre2.bmw.com
-aem-author-proda2.bmw.com
+aem-author-proda1.bmw.com
+aem-author-prodn1.bmw.com
+aero-int.bmw.com
 aero.bmw.com
+aida.bmw.com

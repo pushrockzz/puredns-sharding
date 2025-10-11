@@ -1,2 +1,0 @@
-aem-author-inta3.bmw.com:443
-aem-author-inta3.bmw.com:80
