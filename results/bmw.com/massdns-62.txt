@@ -1,9 +1,6 @@
-tll-i.bmw.com A 160.46.251.73
 tllnet.bmw.com A 160.46.231.61
-tms-int.bmw.com A 160.46.224.222
-toscar.bmw.com A 160.46.247.241
+tms-int-b2d.bmw.com A 160.46.227.213
+tpc-test.bmw.com A 160.46.250.145
 tpdm.bmw.com A 160.46.248.199
-tqc-int-b2b-aws.bmw.com A 160.46.251.247
-truck-steering.bmw.com A 51.124.46.200
-truck-timeslot-portal-int.bmw.com A 108.142.188.249
+tqc-int-b2b.bmw.com A 160.46.229.215
 truck-timeslot-portal.bmw.com A 51.124.46.200

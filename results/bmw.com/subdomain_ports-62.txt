@@ -1,12 +1,6 @@
-tll-i.bmw.com:443
 tllnet.bmw.com:443
 tllnet.bmw.com:80
-tms-int.bmw.com:443
-tms-int.bmw.com:80
-toscar.bmw.com:443
-toscar.bmw.com:80
 tpdm.bmw.com:443
-tqc-int-b2b-aws.bmw.com:443
-truck-steering.bmw.com
-truck-timeslot-portal-int.bmw.com
+tqc-int-b2b.bmw.com:443
+tqc-int-b2b.bmw.com:80
 truck-timeslot-portal.bmw.com
