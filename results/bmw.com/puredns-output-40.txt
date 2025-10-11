@@ -1,5 +1,6 @@
-mdl.auth.bmw.com
-mdm-int-webclient.bmw.com
-mdm-webclient.bmw.com
+mediapool.bmw.com
 mfscs-b2b-external-wen-int.bmw.com
+mfscs-b2b-external-wen-prod.bmw.com
 mftiedge01.bmw.com
+mgusecdevbe-nf.bmw.com
+mgusecdevbe.bmw.com

@@ -1,4 +1,4 @@
-mdm-int-webclient.bmw.com A 4.180.196.159
-mdm-webclient.bmw.com A 108.142.242.58
 mfscs-b2b-external-wen-int.bmw.com A 160.46.248.22
+mfscs-b2b-external-wen-prod.bmw.com A 160.46.235.197
 mftiedge01.bmw.com A 160.46.224.60
+mgusecdevbe-nf.bmw.com A 160.46.226.44
