@@ -4,6 +4,7 @@ http://aem-author-inta3.bmwgroup.com
 http://aem-author-prodn1.bmwgroup.com
 http://aida-i.bmwgroup.com
 http://aida.bmwgroup.com
+http://april-cert-qa2.bmwgroup.com
 http://b2dua-int.bmwgroup.com
 https://adf-qa1-b2b-wen12-2.bmwgroup.com
 https://adf-qa1-b2b-wen12-2.bmwgroup.com:80
@@ -22,6 +23,9 @@ https://aem-author-inta3.bmwgroup.com
 https://aem-author-prodn1.bmwgroup.com
 https://aida-i.bmwgroup.com
 https://aida.bmwgroup.com
+https://april-cert-qa2.bmwgroup.com
+https://asm-t-aol-wen.bmwgroup.com
+https://asm-t-aol-wen.bmwgroup.com:80
 https://awp-qa.bmwgroup.com
 https://awp-us.bmwgroup.com
 https://b2dua-int.bmwgroup.com
