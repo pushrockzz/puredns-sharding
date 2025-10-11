@@ -1,4 +1,7 @@
-base-e2e-emea.bmwgroup.com A 160.48.213.181
-basys.bmwgroup.com A 20.170.85.180
-bat-oidc-t.bmwgroup.com A 160.48.165.197
-beam.bmwgroup.com A 160.48.233.172
+check-shop.bmwgroup.com A 160.46.226.254
+ckf-int.bmwgroup.com A 18.199.32.226
+ckf-int.bmwgroup.com A 3.71.240.152
+ckf-int.bmwgroup.com A 35.157.83.22
+ckf-qa.bmwgroup.com A 18.196.67.12
+ckf-qa.bmwgroup.com A 18.197.208.29
+ckf-qa.bmwgroup.com A 3.127.241.167

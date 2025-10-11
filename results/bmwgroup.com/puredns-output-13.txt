@@ -1,4 +1,4 @@
-base-e2e-emea.bmwgroup.com
-basys.bmwgroup.com
-bat-oidc-t.bmwgroup.com
-beam.bmwgroup.com
+check-shop.bmwgroup.com
+christmas-greetings.bmwgroup.com
+ckf-int.bmwgroup.com
+ckf-qa.bmwgroup.com

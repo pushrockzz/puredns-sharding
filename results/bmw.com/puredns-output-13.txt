@@ -1,9 +1,0 @@
-baonline.bmw.com
-base-cn.bmw.com
-base-emea.bmw.com
-base-int-emea.bmw.com
-bdqv.bmw.com
-beast-int.bmw.com
-beast.bmw.com
-bemiweb-i.bmw.com
-bemiweb-payara-prod.bmw.com

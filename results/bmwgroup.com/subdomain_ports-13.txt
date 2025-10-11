@@ -1,2 +1,5 @@
-base-e2e-emea.bmwgroup.com:443
-basys.bmwgroup.com
+auth-next.bmwgroup.com
+check-shop.bmwgroup.com:443
+check-shop.bmwgroup.com:80
+ckf-int.bmwgroup.com
+ckf-qa.bmwgroup.com
