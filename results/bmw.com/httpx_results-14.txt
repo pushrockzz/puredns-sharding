@@ -1,6 +1,10 @@
 http://cmp-search.bmw.com
+http://cmx-author-prod2.bmw.com
+http://cmxint-author1.bmw.com
 http://diweb-int2.bmw.com
 https://cmp-search.bmw.com
 https://cmsp-author-int.bmw.com
+https://cmx-author-prod2.bmw.com
+https://cmxint-author1.bmw.com
 https://diweb-int2.bmw.com
 https://dmsea.bmw.com
