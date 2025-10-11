@@ -1,2 +1,2 @@
-csbe-test-gf3.bmw.com:443
-csbe-test-gf3.bmw.com:80
+cpp-i.bmw.com:443
+cpp-i.bmw.com:80

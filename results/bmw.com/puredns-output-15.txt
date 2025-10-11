@@ -1,6 +1,5 @@
 cpi-int.bmw.com
-cpp-int.bmw.com
+cpp-i.bmw.com
 cpp-prod.bmw.com
-crmuk.bmw.com
-csbe-test-gf3.bmw.com
-csbe-test-na.bmw.com
+csbe-int-na.bmw.com
+customizer.bmw.com
