@@ -1,8 +1,6 @@
-netftnoa-test.bmwgroup.com:443
-netftnoa-test.bmwgroup.com:80
-nhtsa-i.bmwgroup.com:443
-nhtsa-i.bmwgroup.com:80
-nhtsa.bmwgroup.com:443
-nhtsa.bmwgroup.com:80
-noaifa-test.bmwgroup.com:443
-noaifa-test.bmwgroup.com:80
+kai-b2i-eam.bmwgroup.com:443
+kai-b2i-int-eam.bmwgroup.com:443
+kai-b2i-qa-eam.bmwgroup.com:443
+kai-device-qa-wen.bmwgroup.com:443
+kai-qa-b2i-basic.bmwgroup.com:443
+kai-user-int-eam.bmwgroup.com:443

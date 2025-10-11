@@ -1,9 +1,8 @@
-netftifa.bmwgroup.com
-netftnoa-test.bmwgroup.com
-newsroom.bmwgroup.com
-nhtsa-i.bmwgroup.com
-nhtsa-t.bmwgroup.com
-nhtsa.bmwgroup.com
-nkam.bmwgroup.com
-nkam2.bmwgroup.com
-noaifa-test.bmwgroup.com
+kai-b2i-eam.bmwgroup.com
+kai-b2i-int-eam.bmwgroup.com
+kai-b2i-qa-eam.bmwgroup.com
+kai-device-int.bmwgroup.com
+kai-device-qa-wen.bmwgroup.com
+kai-m2m-prod.bmwgroup.com
+kai-qa-b2i-basic.bmwgroup.com
+kai-user-int-eam.bmwgroup.com
