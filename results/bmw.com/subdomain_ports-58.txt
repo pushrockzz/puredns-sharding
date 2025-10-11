@@ -1,2 +1,1 @@
-sspcore-int.bmw.com:80
 sta-ouc.bmw.com

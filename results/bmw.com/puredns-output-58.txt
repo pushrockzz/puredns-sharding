@@ -1,9 +1,7 @@
-spweb2.bmw.com
+spweb1.bmw.com
 sra-apac.bmw.com
 sspcc.bmw.com
-sspcore-int.bmw.com
 sta-ouc.bmw.com
-static.bmw.com
-static3.bmw.com
-stedge01.bmw.com
+stage2docu.bmw.com
+static4.bmw.com
 stintedg.bmw.com
