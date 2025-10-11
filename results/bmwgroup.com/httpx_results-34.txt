@@ -2,6 +2,12 @@ http://netftnoa-test.bmwgroup.com
 http://nhtsa-i.bmwgroup.com
 http://nhtsa.bmwgroup.com
 http://noaifa-test.bmwgroup.com
+https://kai-b2i-eam.bmwgroup.com
+https://kai-b2i-int-eam.bmwgroup.com
+https://kai-b2i-qa-eam.bmwgroup.com
+https://kai-device-qa-wen.bmwgroup.com
+https://kai-qa-b2i-basic.bmwgroup.com
+https://kai-user-int-eam.bmwgroup.com
 https://netftnoa-test.bmwgroup.com
 https://nhtsa-i.bmwgroup.com
 https://nhtsa.bmwgroup.com
