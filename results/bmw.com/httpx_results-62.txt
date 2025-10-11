@@ -1,0 +1,5 @@
+http://tllnet.bmw.com
+https://tllnet.bmw.com
+https://tqc-int-b2b.bmw.com
+https://tqc-int-b2b.bmw.com:80
+https://truck-timeslot-portal.bmw.com
