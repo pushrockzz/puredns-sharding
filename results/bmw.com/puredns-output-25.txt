@@ -1,4 +1,4 @@
 gcdm-business-services-i.bmw.com
-gcdm-pf-t.bmw.com
 gcdmtolerant-i.bmw.com
-gdcm-pf-i.bmw.com
+gko-int-api.bmw.com
+global.bmw.com
