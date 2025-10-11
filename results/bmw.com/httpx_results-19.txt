@@ -1,0 +1,11 @@
+http://cctbank-rp.bmw.com
+http://cctemea1-rp.bmw.com
+http://cctemea2-rp.bmw.com
+http://cctza2-rp.bmw.com
+http://cesim-de-prod.bmw.com
+http://cesim-de-prod.bmw.com:443
+https://cctbank-rp.bmw.com
+https://cctemea1-rp.bmw.com
+https://cctemea2-rp.bmw.com
+https://cert-int.bmw.com
+https://cert.bmw.com
