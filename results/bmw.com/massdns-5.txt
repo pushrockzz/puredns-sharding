@@ -1,15 +1,2 @@
-asapb2b.bmw.com A 160.46.240.197
-asc-int.bmw.com A 160.46.236.23
-asc-int4.bmw.com A 160.48.213.211
-asc-prod-ha-wig.bmw.com A 160.48.164.176
-asc-prod-wig.bmw.com A 160.46.235.127
-aspm-int.bmw.com A 122.200.104.237
-aspm-test.bmw.com A 114.66.81.205
-aspm.bmw.com A 122.200.104.67
-aspr-b2b-dev.bmw.com A 160.46.251.169
-aspr-b2b.bmw.com A 160.46.238.64
-astras-i.bmw.com A 160.46.248.197
-audit-int-mobile.bmw.com A 160.48.212.160
-audit-mobile.bmw.com A 160.46.226.190
-audit.bmw.com A 160.46.240.119
-autreg.bmw.com A 160.46.244.21
+a2mac1.bmw.com A 160.46.243.94
+acscat.bmw.com A 160.46.244.19
