@@ -1,13 +1,9 @@
 slotbooking-next.bmw.com:443
 slotbooking-next.bmw.com:80
-slotbooking-p10-int.bmw.com:443
-slotbooking-p10-int.bmw.com:80
 sms-inte-b2b.bmw.com:443
 sms-inte-b2b.bmw.com:80
 smw-pp-b2b.bmw.com:443
 smw-pp-b2b.bmw.com:80
-snc-integration.bmw.com:443
-snc-integration.bmw.com:80
 socialmedia.bmw.com:80
 spider-i.bmw.com:443
 spider-i.bmw.com:80
