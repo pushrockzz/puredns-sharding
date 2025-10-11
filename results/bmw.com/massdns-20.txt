@@ -1,3 +1,4 @@
-grip-to-go-int.bmw.com A 20.103.210.244
-grpwweb-int-a1.bmw.com A 160.48.165.19
-gss-coop-i2.bmw.com A 160.46.225.252
+edawsi.bmw.com A 160.46.240.175
+ee-tmpbm.bmw.com A 160.46.244.224
+efa-int-wen.bmw.com A 160.46.253.120
+einschreiben.bmw.com A 160.46.237.122

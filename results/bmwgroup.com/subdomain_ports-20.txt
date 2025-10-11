@@ -1,5 +1,11 @@
-grs-cp.bmwgroup.com:443
-grs-cp.bmwgroup.com:80
-gwm4-i.bmwgroup.com:443
-gwm4-i.bmwgroup.com:80
-h5vco-bmw-test.bmwgroup.com:443
+edab2bi-6.bmwgroup.com:443
+edab2bi-6.bmwgroup.com:80
+edarest.bmwgroup.com:443
+education.bmwgroup.com:443
+education.bmwgroup.com:80
+emm-eas-ode.bmwgroup.com:443
+emm-idm.bmwgroup.com:443
+emm-idm.bmwgroup.com:7443
+emm-idm.bmwgroup.com:80
+emm-idm.bmwgroup.com:88
+employeeapp.bmwgroup.com:443
