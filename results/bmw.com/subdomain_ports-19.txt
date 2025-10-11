@@ -1,3 +1,2 @@
-dza-int.bmw.com:443
-dza-prod.bmw.com:443
-dza-prod.bmw.com:80
+e2e-swl-sec2.bmw.com:443
+e2e-swl-sec2.bmw.com:80
