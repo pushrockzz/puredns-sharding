@@ -1,5 +1,10 @@
+http://plw-prod.bmw.com
 http://tllnet.bmw.com
 http://tms-prod.bmw.com
+https://pinningdb-p.bmw.com
+https://pki-p2x-b2b-ui-emea-e2e.bmw.com
+https://pki-p2x-b2b-ui-emea-e2e.bmw.com:80
+https://plw-prod.bmw.com
 https://tll-i.bmw.com
 https://tllnet.bmw.com
 https://tms-prod.bmw.com

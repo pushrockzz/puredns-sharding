@@ -1,3 +1,10 @@
+http://perseus-dev.bmwgroup.com
+http://pisa-runtime-e2e-na.bmwgroup.com
+http://pisa-runtime-prod.bmwgroup.com
+http://pisa-test.bmwgroup.com
+http://pita.bmwgroup.com
+http://pkz-device-int-wen.bmwgroup.com
+http://poco.bmwgroup.com
 http://timi.bmwgroup.com
 http://tms-int-b2d.bmwgroup.com
 http://tms-prod-b2d.bmwgroup.com
@@ -27,6 +34,14 @@ http://tric-sfa-qa.bmwgroup.com
 http://tric-sfa-qa.bmwgroup.com:443
 http://trz-service-int.bmwgroup.com
 http://trz-toyota-int.bmwgroup.com
+https://pgms-arji.bmwgroup.com
+https://pisa-runtime-prod.bmwgroup.com
+https://pisa-test.bmwgroup.com
+https://pita.bmwgroup.com
+https://pkz-device-int-eam.bmwgroup.com
+https://pkz-device-int-wen.bmwgroup.com
+https://poco-int.bmwgroup.com
+https://poco.bmwgroup.com
 https://timi.bmwgroup.com
 https://tms-int-b2d.bmwgroup.com
 https://tms-prod-b2d.bmwgroup.com
