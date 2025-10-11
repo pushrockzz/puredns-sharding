@@ -1,6 +1,11 @@
-astras.bmw.com:443
-astras.bmw.com:80
-auth.developer.bmw.com
-b2b-ha-test.bmw.com:443
-b2b-ha-test.bmw.com:80
+audit-mobile.bmw.com:443
+audit.bmw.com:443
+audit.bmw.com:80
 b2b-webfmsci.bmw.com:80
+b2bpapp6.bmw.com:80
+b2btomcp-next.bmw.com:443
+b2btomcp-next.bmw.com:80
+b2btomcq-next.bmw.com:443
+b2btomcq-next.bmw.com:80
+b2bua-int.bmw.com:443
+b2bua-int.bmw.com:80
