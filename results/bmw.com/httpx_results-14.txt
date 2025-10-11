@@ -1,10 +1,14 @@
 http://cmp-search.bmw.com
+http://cmp-test.bmw.com
 http://cmx-author-prod2.bmw.com
 http://cmxint-author1.bmw.com
 http://diweb-int2.bmw.com
 https://cmp-search.bmw.com
+https://cmp-test.bmw.com
 https://cmsp-author-int.bmw.com
 https://cmx-author-prod2.bmw.com
 https://cmxint-author1.bmw.com
+https://cogdev2.bmw.com
+https://cogdev2.bmw.com:80
 https://diweb-int2.bmw.com
 https://dmsea.bmw.com
