@@ -1,9 +1,11 @@
 se.wit.bmw.com
-search.bmw.com
-service.bmw.com
-servicenotification.bmw.com
-services-kaius.bmw.com
+secure-sportmarketing-int.bmw.com
+sera.bmw.com
+services-recallsvc-int.bmw.com
 services-recallsvc-prod.bmw.com
+services-verification-int.bmw.com
 services-wen-i-dcsservice.bmw.com
 services.incentivesus-i.bmw.com
+sf-confi-preprod.bmw.com
 sf-mcs-test.bmw.com
+sgem-es-int.bmw.com

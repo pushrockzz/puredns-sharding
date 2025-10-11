@@ -1,8 +1,9 @@
-search.bmw.com A 62.67.62.32
-service.bmw.com A 192.243.228.1
-servicenotification.bmw.com A 192.243.228.1
-services-kaius.bmw.com A 160.46.240.247
+secure-sportmarketing-int.bmw.com A 160.46.250.156
+sera.bmw.com A 160.46.233.155
+services-recallsvc-int.bmw.com A 160.46.229.246
 services-recallsvc-prod.bmw.com A 160.46.235.156
+services-verification-int.bmw.com A 160.46.248.123
 services-wen-i-dcsservice.bmw.com A 160.46.228.11
 services.incentivesus-i.bmw.com A 160.46.240.175
 sf-mcs-test.bmw.com A 160.46.227.50
+sgem-es-int.bmw.com A 160.46.227.66

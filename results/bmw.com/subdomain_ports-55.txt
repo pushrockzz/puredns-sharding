@@ -1,2 +1,9 @@
+secure-sportmarketing-int.bmw.com:443
+secure-sportmarketing-int.bmw.com:80
+sera.bmw.com:80
+services-recallsvc-int.bmw.com:443
 services-recallsvc-prod.bmw.com:443
+services-verification-int.bmw.com:443
 services-wen-i-dcsservice.bmw.com:443
+sgem-es-int.bmw.com:443
+sgem-es-int.bmw.com:80
