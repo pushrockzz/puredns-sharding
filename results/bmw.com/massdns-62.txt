@@ -1,0 +1,5 @@
+tll-i.bmw.com A 160.46.251.73
+tllweb.bmw.com A 160.46.243.106
+tms-int-b2d.bmw.com A 160.46.227.213
+tqc-b2b.bmw.com A 160.46.243.181
+tqc-int-b2b-aws.bmw.com A 160.46.251.247

@@ -1,0 +1,5 @@
+tll-i.bmw.com
+tllweb.bmw.com
+tms-int-b2d.bmw.com
+tqc-b2b.bmw.com
+tqc-int-b2b-aws.bmw.com

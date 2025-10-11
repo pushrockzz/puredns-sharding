@@ -1,0 +1,2 @@
+tll-i.bmw.com:443
+tqc-int-b2b-aws.bmw.com:443
