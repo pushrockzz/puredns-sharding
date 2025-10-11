@@ -2,6 +2,9 @@ http://secure-sportmarketing-int.bmw.com
 http://sera.bmw.com
 http://sgem-es-int.bmw.com
 https://secure-sportmarketing-int.bmw.com
+https://secure.sportmarketing.bmw.com
+https://securelogin.bmw.com
+https://securelogin.bmw.com:80
 https://services-recallsvc-int.bmw.com
 https://services-recallsvc-prod.bmw.com
 https://services-verification-int.bmw.com
