@@ -1,0 +1,8 @@
+http://tabus.bmwgroup.com
+http://test-dmz.bmwgroup.com
+http://test.api.bmwgroup.com
+http://test.dcs-mx.bmwgroup.com
+https://tabus.bmwgroup.com
+https://test-dmz.bmwgroup.com
+https://test.api.bmwgroup.com
+https://test.dcs-mx.bmwgroup.com

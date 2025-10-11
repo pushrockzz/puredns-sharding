@@ -1,4 +1,6 @@
 http://zeprid.bmw.com
+https://taplaus.bmw.com
+https://taplaus.bmw.com:80
 https://zedis.bmw.com
 https://zedis.bmw.com:80
 https://zeprid.bmw.com
