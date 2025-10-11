@@ -1131,114 +1131,109 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Generate Result Count Summary
-        id: generate_summary
+      - name: Sync, Generate, and Commit Summary
         shell: bash
         run: |
+          # --- PART 1: SETUP AND SYNC ---
+          echo "Cloning repository and syncing with the latest state..."
+          
+          # Use a PAT with write access for this entire operation
+          git clone --depth 1 "https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git" .
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions-bot@users.noreply.github.com"
+          
+          # Pull with rebase to ensure we are perfectly in sync with the latest remote commit
+          # before we do any work. This is the crucial first step.
+          git pull --rebase origin ${{ github.ref_name }}
+          
+          # --- PART 2: GENERATE THE SUMMARY (using the now up-to-date repo) ---
           RESULTS_DIR="results"
           OUTPUT_FILE="count_result.txt"
-          TEMP_INDIVIDUAL_COUNTS=$(mktemp)
-          TEMP_TOTAL_COUNTS=$(mktemp)
           
           echo "--- Generating result count summary with per-domain totals ---"
           
           if [ ! -d "$RESULTS_DIR" ]; then
             echo "⚠️  Results directory not found. Nothing to summarize."
-            echo "summary_generated=false" >> $GITHUB_OUTPUT
             exit 0
           fi
           
-          # --- PASS 1: Generate the individual file counts ---
-          # This is a simple, robust loop.
-          find "$RESULTS_DIR" -type f -name "*.txt" -not -name 'wildcards-*.txt' | while read -r filepath; do
-            count=$(wc -l < "$filepath")
-            if [ "$count" -gt 0 ]; then
-              domain=$(basename "$(dirname "$filepath")")
-              filename=$(basename "$filepath")
-              echo "$domain:- $filename $count" >> "$TEMP_INDIVIDUAL_COUNTS"
-            fi
-          done
-          
-          # --- PASS 2: Generate the aggregated totals from the individual counts ---
-          # This awk script is now much simpler and more reliable.
+          # This awk script is correct and remains the same, but it now runs on fresh data.
+          find "$RESULTS_DIR" -type f -name "*.txt" -not -name 'wildcards-*.txt' | \
           awk '
             {
-              # Input format is now: domain:- filename count
-              domain = $1
-              sub(/:$/, "", domain) # Remove trailing colon from domain
-              filename = $2
-              count = $3
-              
-              # Extract the file pattern
+              cmd = "wc -l < \"" $0 "\""
+              cmd | getline count
+              close(cmd)
+              n = split($0, path, "/")
+              domain = path[n-1]
+              filename = path[n]
               sub(/-[0-9]+\.txt$/, "", filename)
               pattern = filename
-              
-              # Add to the total for this domain and pattern
-              totals[domain, pattern] += count
+              individual_counts[domain, $0] = count
+              domain_totals[domain, pattern] += count
               if (! (domain in domains)) domains[domain] = 1
+              if (! (pattern in patterns)) patterns[pattern] = 1
             }
             END {
-              # Sort domains alphabetically for clean output
               PROCINFO["sorted_in"] = "@ind_str_asc"
               for (domain in domains) {
                   print "--- Domain: " domain " ---"
-                  # Iterate through a fixed, sorted list of patterns for consistent order
-                  split("httpx_results massdns puredns-output subdomain_ports", patterns, " ")
-                  for (i in patterns) {
-                      pattern = patterns[i]
-                      if (totals[domain, pattern] > 0) {
-                          printf "  TOTAL %-20s: %d\n", pattern, totals[domain, pattern]
+                  for (pattern in patterns) {
+                      if (domain_totals[domain, pattern] > 0) {
+                          printf "  TOTAL %-20s: %d\n", pattern, domain_totals[domain, pattern]
                       }
                   }
                   print ""
               }
+              print "\n--- Individual File Counts ---"
+              PROCINFO["sorted_in"] = "@ind_str_asc" # Re-apply sort for the outer loop
+              for (domain in domains) {
+                  for (key in individual_counts) {
+                      split(key, parts, SUBSEP)
+                      key_domain = parts[1]
+                      if (key_domain == domain) {
+                          filepath = parts[2]
+                          n = split(filepath, path_parts, "/")
+                          filename = path_parts[n]
+                          count = individual_counts[key]
+                          if (count > 0) print domain ":- " filename, count
+                      }
+                  }
+              }
             }
-          ' "$TEMP_INDIVIDUAL_COUNTS" > "$TEMP_TOTAL_COUNTS"
+          ' > "$OUTPUT_FILE"
           
-          # --- FINAL ASSEMBLY: Combine the sorted parts into the final file ---
-          if [ -s "$TEMP_INDIVIDUAL_COUNTS" ]; then
-            # Build the final file: totals first, then a separator, then the sorted individual counts.
-            cat "$TEMP_TOTAL_COUNTS" > "$OUTPUT_FILE"
-            echo -e "\n--- Individual File Counts ---" >> "$OUTPUT_FILE"
-            sort "$TEMP_INDIVIDUAL_COUNTS" >> "$OUTPUT_FILE"
-            
-            echo "✅ Result summary generated successfully."
-            echo "summary_generated=true" >> $GITHUB_OUTPUT
-            
-            echo "--- Summary Preview (count_result.txt) ---"
-            cat "$OUTPUT_FILE"
-            echo "----------------------------------------"
-          else
-            echo "No results found in any files. Summary is empty."
-            echo "summary_generated=false" >> $GITHUB_OUTPUT
+          # --- PART 3: COMMIT AND PUSH ---
+          echo "--- Committing and pushing summary ---"
+          
+          if [ ! -s "$OUTPUT_FILE" ]; then
+            echo "Summary file is empty. No commit needed."
+            exit 0
           fi
           
-          # Clean up temporary files
-          rm -f "$TEMP_INDIVIDUAL_COUNTS" "$TEMP_TOTAL_COUNTS"
-
-      - name: Commit Result Summary
-        # This step remains unchanged as its logic is correct.
-        if: steps.generate_summary.outputs.summary_generated == 'true'
-        shell: bash
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions-bot@users.noreply.github.com"
           git add count_result.txt
           if git diff --staged --quiet; then
             echo "Result summary is unchanged. No commit needed."
             exit 0
           fi
+          
           git commit -m "chore: Update result count summary"
+          
+          # A simple git push is now sufficient because we already synced.
+          # A retry loop is still good practice for network resilience.
           MAX_ATTEMPTS=3
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
             echo "[Attempt $i/$MAX_ATTEMPTS] Pushing result summary..."
-            if git pull --rebase && git push; then
+            if git push origin ${{ github.ref_name }}; then
               echo "✅ Successfully pushed result summary."
               exit 0
             fi
             echo "Push failed. Retrying in 5 seconds..."
+            # In case of a push failure, re-sync before the next attempt
+            git pull --rebase origin ${{ github.ref_name }}
             sleep 5
           done
+          
           echo "::error:: All push attempts for the summary file failed."
           exit 0
   
