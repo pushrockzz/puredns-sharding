@@ -1,1 +1,3 @@
 lpptest.bmw.com:80
+lyncdiscover.partner.bmw.com:443
+lyncdiscover.partner.bmw.com:80
