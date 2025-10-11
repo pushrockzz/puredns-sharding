@@ -1,0 +1,9 @@
+http://sms-int.bmwgroup.com
+http://sms-inte-b2d.bmwgroup.com
+http://sms-prod.bmwgroup.com
+https://sms-hn-inte.bmwgroup.com
+https://sms-hn-inte.bmwgroup.com:80
+https://sms-int.bmwgroup.com
+https://sms-inte-b2d.bmwgroup.com
+https://sms-prod.bmwgroup.com
+https://sparc.bmwgroup.com
