@@ -1,4 +1,3 @@
 minimaintenance.bmw.com:443
 minimaintenance.bmw.com:80
-mnomgr.bmw.com:443
-mnomgr.bmw.com:80
+mndm-pre-n2.bmw.com:80
