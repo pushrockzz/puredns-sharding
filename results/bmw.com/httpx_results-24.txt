@@ -6,6 +6,10 @@ http://ipa-lecomp-i.bmw.com
 http://ipa-lecomp.bmw.com
 http://itms-int.bmw.com
 http://itms.bmw.com
+https://fscast-b2b-external-wen-e2e.bmw.com
+https://fscast-b2b-external-wen-e2e.bmw.com:80
+https://fscast-b2b-external-wen-int.bmw.com
+https://fscast-b2b-external-wen-int.bmw.com:80
 https://int-b2b-swl-sec2.bmw.com
 https://int-cop.bmw.com
 https://int-cop.bmw.com:80

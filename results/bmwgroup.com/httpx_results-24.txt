@@ -1,3 +1,5 @@
+http://fscalculator-i-web.bmwgroup.com
+http://fscalculator-web.bmwgroup.com
 http://int-web-forms-uk.bmwgroup.com
 http://ipaus-prod.bmwgroup.com
 http://irap-prod-us-bdr-wen.bmwgroup.com
@@ -7,6 +9,9 @@ http://itsn-int2-emea.bmwgroup.com
 http://ivsrbei.bmwgroup.com
 http://ivsrfei-blue.bmwgroup.com
 http://ivsrfeotod.bmwgroup.com
+https://fscalculator-i-web.bmwgroup.com
+https://fscalculator-web.bmwgroup.com
+https://gammassti.bmwgroup.com
 https://int-b2b-web-dso-uk.bmwgroup.com
 https://int-dmstoukps.bmwgroup.com
 https://int-static16-osmaster.bmwgroup.com
