@@ -1,0 +1,4 @@
+http://lima-prod3.bmw.com
+http://link.bmw.com
+https://lifestyle.bmw.com
+https://lima-prod3.bmw.com
