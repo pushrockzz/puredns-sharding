@@ -4,3 +4,4 @@ https://alscore-test.bmwgroup.com
 https://aos-ig-int.bmwgroup.com
 https://april-cert-qa2.bmwgroup.com
 https://april-cert.bmwgroup.com
+https://auth-next.bmwgroup.com
