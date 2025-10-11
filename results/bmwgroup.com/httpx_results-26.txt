@@ -1,5 +1,7 @@
 http://jpsgw1-int.bmwgroup.com
 http://jpsgw1.bmwgroup.com
+https://gwm4-i.bmwgroup.com
+https://gwm4-i.bmwgroup.com:80
 https://jpsgw1-int.bmwgroup.com
 https://jpsgw1.bmwgroup.com
 https://kai-b2i-int-eam.bmwgroup.com
