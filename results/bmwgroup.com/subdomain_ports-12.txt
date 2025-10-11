@@ -1,5 +1,2 @@
-cs-dna-wen-test.bmwgroup.com:443
-csc-zrv-data-prod.bmwgroup.com:443
-csc-zrv-data-prod.bmwgroup.com:80
-csp-gfi.bmwgroup.com:443
-csp-gfi.bmwgroup.com:80
+awp-int.bmwgroup.com
+awp-qa.bmwgroup.com
