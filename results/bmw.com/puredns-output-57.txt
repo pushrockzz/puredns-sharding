@@ -1,0 +1,5 @@
+lifestyle.bmw.com
+lima-int4.bmw.com
+lima-prod3.bmw.com
+link.bmw.com
+links.bmw.com
