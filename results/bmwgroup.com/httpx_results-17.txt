@@ -1,7 +1,16 @@
 http://cadlrinv-int.bmwgroup.com
 http://cadlrinv-prod.bmwgroup.com
+http://dfegateway-i2.bmwgroup.com
+http://dfegateway.bmwgroup.com
+http://dfeza.bmwgroup.com
 http://extranet-sgate-premium.bmwgroup.com
 https://cadlrinv-int.bmwgroup.com
 https://cadlrinv-prod.bmwgroup.com
+https://delmanager-test.bmwgroup.com
+https://delmanager-test.bmwgroup.com:80
+https://dfegateway-i2.bmwgroup.com
+https://dfegateway.bmwgroup.com
+https://dfesffr-t.bmwgroup.com
+https://dfeza.bmwgroup.com
 https://extranet-bwint1-sgate-premium.bmwgroup.com
 https://extranet-sgate-premium.bmwgroup.com
