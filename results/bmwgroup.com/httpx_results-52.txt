@@ -1,5 +1,9 @@
+http://renibus.bmwgroup.com
+http://renibus.bmwgroup.com:443
+http://reporting-uat.bmwgroup.com
 http://wenp-dynatrace.bmwgroup.com
 http://wsdl-prod-mx.bmwgroup.com
+https://reporting-uat.bmwgroup.com
 https://wen-april-m2m-qa2.bmwgroup.com
 https://wen-ig-b2iua.bmwgroup.com
 https://wen-ig-bps-int.bmwgroup.com
