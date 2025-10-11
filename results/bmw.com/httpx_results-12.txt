@@ -5,10 +5,15 @@ http://b2biapp8.bmw.com
 http://b2bpapp6.bmw.com
 http://b2bua-int.bmw.com
 http://b2bua.bmw.com
+http://cctapac-rp.bmw.com
 http://cctbank-rp.bmw.com
 http://cctemea1-rp.bmw.com
 http://cctemea2-rp.bmw.com
 http://cctza2-rp.bmw.com
+http://cesim-de-e2e.bmw.com
+http://cesim-de-e2e.bmw.com:443
+http://cesim-de-prod.bmw.com
+http://cesim-de-prod.bmw.com:443
 https://b2b-ha-test.bmw.com
 https://b2b-ha-test.bmw.com:80
 https://b2b-old.bmw.com
@@ -20,9 +25,11 @@ https://b2btomcq-next.bmw.com
 https://b2btomcq-next.bmw.com:80
 https://b2bua-int.bmw.com
 https://b2bua.bmw.com
+https://cctapac-rp.bmw.com
 https://cctbank-rp.bmw.com
 https://cctbankint-rp.bmw.com
 https://cctbankint-rp.bmw.com:80
 https://cctemea1-rp.bmw.com
 https://cctemea2-rp.bmw.com
+https://cert.bmw.com
 https://customizer-int.bmw.com
