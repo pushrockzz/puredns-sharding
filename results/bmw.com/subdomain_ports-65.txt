@@ -1,7 +1,2 @@
-vds-int-inter.bmw.com:443
-vds-mobile-int.bmw.com:443
-vds-mobile-int.bmw.com:80
-vip-int-gf5.bmw.com:443
-vip-int-gf5.bmw.com:80
 vip-testentw-gf5-ig.bmw.com:443
 vip-testentw-gf5.bmw.com:443
