@@ -1,2 +1,1 @@
-fls2.bmw.com
-four-12.bmw.com
+fix-int.bmw.com

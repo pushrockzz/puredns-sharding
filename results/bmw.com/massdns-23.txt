@@ -1,2 +1,1 @@
-fls2.bmw.com A 160.46.235.208
-four-12.bmw.com A 160.46.243.240
+fix-int.bmw.com A 160.48.213.151
