@@ -1,3 +1,1 @@
-hdsl-i.bmwgroup.com:80
-hewint.bmwgroup.com:443
-hewint.bmwgroup.com:80
+evonext-int.bmwgroup.com

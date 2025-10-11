@@ -1,1 +1,10 @@
-home.labs.bmw.com
+epos-t.bmw.com
+eqrp.bmw.com
+erfx-t3.bmw.com
+erfx-tg.bmw.com
+erfx-ttg.bmw.com
+erms.bmw.com
+esa1-us-i-b2b.bmw.com
+etik-new.bmw.com
+etikdxi-int.bmw.com
+everest.bmw.com
