@@ -1,5 +1,6 @@
 http://ivsrbei.bmwgroup.com
 http://ivsrbet.bmwgroup.com
+http://ivsrfe-blue.bmwgroup.com
 http://ivsrfe.bmwgroup.com
 http://ivsrfeotod.bmwgroup.com
 http://mnomgr-att-us-e2e.bmwgroup.com
@@ -17,6 +18,7 @@ https://ivsrbei.bmwgroup.com
 https://ivsrbeinte-blue.bmwgroup.com
 https://ivsrbeinte-blue.bmwgroup.com:80
 https://ivsrbet.bmwgroup.com
+https://ivsrfe-blue.bmwgroup.com
 https://ivsrfe.bmwgroup.com
 https://ivsrfeotod.bmwgroup.com
 https://msdcrm365-adfs5-prod.bmwgroup.com
