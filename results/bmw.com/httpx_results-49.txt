@@ -1,0 +1,2 @@
+https://prod-cop.bmw.com
+https://prod-cop.bmw.com:80
