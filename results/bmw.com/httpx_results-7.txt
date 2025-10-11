@@ -1,0 +1,15 @@
+http://audit.bmw.com
+http://b2bua-int.bmw.com
+https://astras.bmw.com
+https://astras.bmw.com:80
+https://audit-mobile.bmw.com
+https://audit.bmw.com
+https://auth-i-pilot.bmw.com
+https://b2b-ha-test.bmw.com
+https://b2b-ha-test.bmw.com:80
+https://b2b-int-mig.bmw.com
+https://b2btomcp-next.bmw.com
+https://b2btomcp-next.bmw.com:80
+https://b2btomcq-next.bmw.com
+https://b2btomcq-next.bmw.com:80
+https://b2bua-int.bmw.com

@@ -7,6 +7,9 @@ http://alertnowp00.bmwgroup.com
 http://alertnowp01.bmwgroup.com
 http://alertnowp30.bmwgroup.com
 http://alphera-t.bmwgroup.com
+http://astras.bmwgroup.com
+http://at-gkmwen.bmwgroup.com
+http://b2dua-int.bmwgroup.com
 http://bmw-app.bmwgroup.com
 http://bmwcardata.bmwgroup.com
 http://bmwfs-ho.bmwgroup.com
@@ -25,6 +28,13 @@ https://air-us-gf4.bmwgroup.com
 https://air-wen-basic.bmwgroup.com
 https://alclaims.bmwgroup.com
 https://alphera-t.bmwgroup.com
+https://at-gkmwen-int.bmwgroup.com
+https://at-gkmwen-int.bmwgroup.com:80
+https://at-gkmwen.bmwgroup.com
+https://auth-next.bmwgroup.com
+https://awp-int.bmwgroup.com
+https://awp-qa.bmwgroup.com
+https://b2dua-int.bmwgroup.com
 https://bmw-app.bmwgroup.com
 https://bmwcardata.bmwgroup.com
 https://bmwfs-ho.bmwgroup.com
