@@ -1,4 +1,13 @@
+http://online.bmwgroup.com
+http://online.bmwgroup.com:443
+http://origin-int-s.bmwgroup.com
+http://origin.bmwgroup.com
+http://p44-tracking-data-prod.bmwgroup.com
+http://p44-tracking-data-prod.bmwgroup.com:443
 http://tabus.bmwgroup.com
+https://onl-apps-i.bmwgroup.com
+https://opus-test.bmwgroup.com
+https://origin-int-s.bmwgroup.com
 https://swg-mx.bmwgroup.com
 https://sync-test.bmwgroup.com
 https://tabus.bmwgroup.com
