@@ -1,6 +1,16 @@
 http://www.parts-n.bmwgroup.com
 http://www.press-i.bmwgroup.com
 http://www.srpmm-integration.bmwgroup.com
+https://securemail.bmwgroup.com
+https://services-ddauswen-int.bmwgroup.com
+https://services-ddauswen-test.bmwgroup.com
+https://services-kaius-int.bmwgroup.com
+https://services-kaius.bmwgroup.com
+https://sf5-digital-sit.bmwgroup.com
+https://sgate-dev.bmwgroup.com
+https://sgate-int.bmwgroup.com
+https://sgate.bmwgroup.com
+https://sgem-es.bmwgroup.com
 https://www.parts-n.bmwgroup.com
 https://www.press-i.bmwgroup.com
 https://www.srpmm-integration.bmwgroup.com
