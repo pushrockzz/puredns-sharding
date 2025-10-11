@@ -1,11 +1,3 @@
-what-p.bmw.com
-wire-int.bmw.com
-workflow-dev.bmw.com
-workplace.bmw.com
-wote-prod-gf5.bmw.com
-wpmd.bmw.com
-www-at.bmw.com
-www-ch.bmw.com
-www-fr.bmw.com
-www-jp.bmw.com
-www-nl.bmw.com
+rema-t7.bmw.com
+remaapi-p4.bmw.com
+res.service.bmw.com

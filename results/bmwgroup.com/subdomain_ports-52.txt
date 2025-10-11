@@ -1,9 +1,4 @@
-wen-april-m2m-qa2.bmwgroup.com:443
-wen-ig-b2iua.bmwgroup.com:443
-wen-ig-bps-int.bmwgroup.com:443
-weni-basicauth-dynatrace.bmwgroup.com:443
-wenp-dynatrace.bmwgroup.com:443
-wenp-dynatrace.bmwgroup.com:80
-wsdl-prod-mx.bmwgroup.com:443
-wsdl-prod-mx.bmwgroup.com:80
-wvius-services.bmwgroup.com:443
+renibus.bmwgroup.com:443
+renibus.bmwgroup.com:80
+reporting-uat.bmwgroup.com:443
+reporting-uat.bmwgroup.com:80

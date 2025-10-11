@@ -1,6 +1,6 @@
-what-p.bmw.com A 160.46.243.97
-wire-int.bmw.com A 160.46.225.26
-workflow-dev.bmw.com A 160.48.212.194
-workplace.bmw.com A 160.46.238.78
-wote-prod-gf5.bmw.com A 160.46.245.143
-wpmd.bmw.com A 160.46.231.151
+rema-t7.bmw.com A 160.46.225.145
+remaapi-p4.bmw.com A 160.46.240.247
+res.service.bmw.com A 13.35.37.107
+res.service.bmw.com A 13.35.37.127
+res.service.bmw.com A 13.35.37.37
+res.service.bmw.com A 13.35.37.39
