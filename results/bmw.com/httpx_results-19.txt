@@ -12,5 +12,6 @@ https://cctemea1-rp.bmw.com
 https://cctemea2-rp.bmw.com
 https://cert-int.bmw.com
 https://cert.bmw.com
+https://dza-int.bmw.com
 https://dza-prod.bmw.com
 https://e2e-b2b-swl-sec2.bmw.com
