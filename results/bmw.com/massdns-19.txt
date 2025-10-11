@@ -1,9 +1,7 @@
 dsmon.bmw.com A 160.46.238.123
-dwh-webservice-int.bmw.com A 114.66.81.150
-dwhb-poc.bmw.com A 160.46.248.65
+dwhb-i.bmw.com A 160.46.248.223
+dza-int.bmw.com A 160.46.248.126
 dza-prod.bmw.com A 160.46.240.150
-e2e-b2b-swl-sec2.bmw.com A 160.46.238.112
-eagle.bmw.com A 122.200.104.108
+eagle-int.bmw.com A 122.200.104.109
+eaina.bmw.com A 160.46.240.247
 eaina.ddr-i.bmw.com A 160.46.240.175
-ebestellung.bmw.com A 160.46.240.179
-eccoi.bmw.com A 160.46.251.222

@@ -1,11 +1,7 @@
 dsmon.bmw.com
-dwh-webservice-int.bmw.com
-dwhb-poc.bmw.com
-dynamiccontent.bmw.com
+dwhb-i.bmw.com
+dza-int.bmw.com
 dza-prod.bmw.com
-e2e-b2b-swl-sec2.bmw.com
-e2e-mgusecdevbe.bmw.com
-eagle.bmw.com
+eagle-int.bmw.com
+eaina.bmw.com
 eaina.ddr-i.bmw.com
-ebestellung.bmw.com
-eccoi.bmw.com
