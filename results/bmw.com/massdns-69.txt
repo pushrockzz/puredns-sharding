@@ -1,4 +1,2 @@
-www.dcs.bmw.com A 194.64.18.106
-www.dlss71p.bmw.com A 160.46.245.226
 www.dlssvkwp.bmw.com A 160.46.245.149
 www.funkfms.bmw.com A 160.46.240.250
