@@ -1,1 +1,10 @@
-lisa.bmwgroup.com
+smchat.bmwgroup.com
+smp-t.bmwgroup.com
+sms-hn-inte.bmwgroup.com
+sms-int.bmwgroup.com
+sms-inte-b2d.bmwgroup.com
+sms-prod.bmwgroup.com
+smstqc-int.bmwgroup.com
+sosb-b2i-int1.bmwgroup.com
+sosb-b2i-int2.bmwgroup.com
+sparc.bmwgroup.com

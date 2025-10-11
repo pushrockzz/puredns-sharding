@@ -1,5 +1,4 @@
-lifestyle.bmw.com
-lima-prod3.bmw.com:443
-lima-prod3.bmw.com:80
-link.bmw.com:443
-link.bmw.com:80
+smc2-us-e2e.bmw.com:443
+smc2-us-e2e.bmw.com:80
+snc-integration.bmw.com:443
+snc-integration.bmw.com:80

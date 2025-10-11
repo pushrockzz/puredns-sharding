@@ -1,5 +1,7 @@
-lifestyle.bmw.com A 104.16.231.42
-lifestyle.bmw.com A 104.16.232.42
-lima-int4.bmw.com A 160.46.229.221
-lima-prod3.bmw.com A 160.46.237.108
-link.bmw.com A 62.245.246.210
+smc2-us-e2e.bmw.com A 170.34.41.218
+smp-i.bmw.com A 160.46.227.91
+smp-p.bmw.com A 160.46.240.43
+sms-int-b2d.bmw.com A 160.46.224.132
+smstqc.bmw.com A 160.46.240.73
+snc-integration.bmw.com A 160.46.225.34
+speed.bmw.com A 160.46.240.230

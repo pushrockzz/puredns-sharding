@@ -1,5 +1,8 @@
-lifestyle.bmw.com
-lima-int4.bmw.com
-lima-prod3.bmw.com
-link.bmw.com
-links.bmw.com
+smc2-us-e2e.bmw.com
+smp-i.bmw.com
+smp-p.bmw.com
+sms-int-b2d.bmw.com
+smstqc.bmw.com
+snc-integration.bmw.com
+social-media.bmw.com
+speed.bmw.com

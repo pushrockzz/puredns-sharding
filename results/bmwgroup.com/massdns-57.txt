@@ -1,1 +1,10 @@
-lisa.bmwgroup.com A 160.46.244.200
+smchat.bmwgroup.com A 160.46.236.169
+smp-t.bmwgroup.com A 160.46.251.152
+sms-hn-inte.bmwgroup.com A 160.46.229.218
+sms-int.bmwgroup.com A 160.46.248.40
+sms-inte-b2d.bmwgroup.com A 160.46.227.157
+sms-prod.bmwgroup.com A 160.46.225.17
+smstqc-int.bmwgroup.com A 160.46.224.64
+sosb-b2i-int1.bmwgroup.com A 160.46.228.251
+sosb-b2i-int2.bmwgroup.com A 160.46.228.250
+sparc.bmwgroup.com A 160.46.226.162

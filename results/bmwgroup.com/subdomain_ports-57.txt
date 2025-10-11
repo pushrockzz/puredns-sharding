@@ -1,0 +1,9 @@
+sms-hn-inte.bmwgroup.com:443
+sms-hn-inte.bmwgroup.com:80
+sms-int.bmwgroup.com:443
+sms-int.bmwgroup.com:80
+sms-inte-b2d.bmwgroup.com:443
+sms-inte-b2d.bmwgroup.com:80
+sms-prod.bmwgroup.com:443
+sms-prod.bmwgroup.com:80
+sparc.bmwgroup.com:443
