@@ -1,7 +1,6 @@
-swl-gf5.bmw.com:443
-swl-gf5.bmw.com:80
-swli12.bmw.com:443
-swlpineu.bmw.com:443
-swlpineu.bmw.com:80
-swsf-integration.bmw.com:443
-swsf-integration.bmw.com:80
+opendxm-i-noyubikey.bmw.com:443
+opendxm-i-noyubikey.bmw.com:80
+opendxm.bmw.com:443
+opendxm.bmw.com:80
+optibe.bmw.com:443
+optibe.bmw.com:80

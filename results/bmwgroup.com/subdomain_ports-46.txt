@@ -1,4 +1,10 @@
-swg-mx.bmwgroup.com:443
-sync-test.bmwgroup.com:443
-tabus.bmwgroup.com:443
-tabus.bmwgroup.com:80
+onl-apps-i.bmwgroup.com:443
+online.bmwgroup.com:443
+online.bmwgroup.com:80
+opus-test.bmwgroup.com
+origin-int-s.bmwgroup.com:443
+origin-int-s.bmwgroup.com:80
+origin.bmwgroup.com:80
+oss-int3.bmwgroup.com:443
+p44-tracking-data-prod.bmwgroup.com:443
+p44-tracking-data-prod.bmwgroup.com:80
