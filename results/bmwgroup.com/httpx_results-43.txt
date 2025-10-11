@@ -1,3 +1,6 @@
+http://hewint.bmwgroup.com
+https://auth-next.bmwgroup.com
+https://hewint.bmwgroup.com
 https://services-ddauswen-int.bmwgroup.com
 https://sf5-digital-sit.bmwgroup.com
 https://sfappza-int.bmwgroup.com
