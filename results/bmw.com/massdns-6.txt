@@ -1,10 +1,6 @@
-adfus-service-int.bmw.com A 160.48.212.68
-adfus-services.bmw.com A 160.46.240.247
-aem-author-inta2.bmw.com A 160.46.251.175
-aem-author-inta4.bmw.com A 160.46.224.37
-aem-author-ipoci.bmw.com A 160.46.251.144
-aem-author-pre1.bmw.com A 160.46.224.49
-aem-author-pre2.bmw.com A 160.46.224.51
-aem-author-proda1.bmw.com A 160.46.243.243
-aero-sc-int.bmw.com A 160.46.236.236
-aida.bmw.com A 160.46.243.149
+apac.wit.bmw.com A 160.46.247.144
+api-sandbox.bmw.com A 34.110.164.77
+aplaus.bmw.com A 160.46.244.112
+arm-i.bmw.com A 160.46.225.131
+asc-int.bmw.com A 160.46.236.23
+asc-prod-wig.bmw.com A 160.46.235.127
