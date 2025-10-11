@@ -1,5 +1,0 @@
-asc-int4.bmw.com
-asc-prod-ha-wig.bmw.com
-aspr-b2b.bmw.com
-astras-schulung.bmw.com
-astras.bmw.com

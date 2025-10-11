@@ -1,2 +1,3 @@
-asm-i.bmwgroup.com:443
-astras.bmwgroup.com:80
+auth-next.bmwgroup.com
+bo3prod.bmwgroup.com:443
+bo3prod.bmwgroup.com:80

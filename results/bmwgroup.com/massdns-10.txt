@@ -1,6 +1,2 @@
-as-tp-sfa-int.bmwgroup.com A 160.46.251.225
-as-tp-sfa-prod.bmwgroup.com A 160.46.244.47
-asapdealer.bmwgroup.com A 160.46.240.12
-asm-i.bmwgroup.com A 160.48.212.57
-aspr-b2d-aw-int.bmwgroup.com A 160.46.236.39
-astras.bmwgroup.com A 160.46.240.81
+bo3prod.bmwgroup.com A 160.46.233.144
+bossint.bmwgroup.com A 160.46.251.69

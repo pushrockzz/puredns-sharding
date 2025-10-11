@@ -1,6 +1,4 @@
-as-tp-sfa-int.bmwgroup.com
-as-tp-sfa-prod.bmwgroup.com
-asapdealer.bmwgroup.com
-asm-i.bmwgroup.com
-aspr-b2d-aw-int.bmwgroup.com
-astras.bmwgroup.com
+bo3prod.bmwgroup.com
+bossint.bmwgroup.com
+bps-qa2.bmwgroup.com
+btccontentserver.bmwgroup.com

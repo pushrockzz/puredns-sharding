@@ -1,5 +1,3 @@
-asc-int4.bmw.com A 160.48.213.211
-asc-prod-ha-wig.bmw.com A 160.48.164.176
-aspr-b2b.bmw.com A 160.46.238.64
-astras-schulung.bmw.com A 160.48.213.193
-astras.bmw.com A 160.46.240.31
+auth-next.bmwgroup.com A 18.198.171.174
+auth-next.bmwgroup.com A 3.74.116.178
+auth-next.bmwgroup.com A 35.156.58.143
