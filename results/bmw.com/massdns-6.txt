@@ -1,4 +1,3 @@
 api-dev.bmw.com A 34.111.181.40
-api-int.bmw.com A 34.36.96.32
-asapb2b.bmw.com A 160.46.240.197
-asc-int.bmw.com A 160.46.236.23
+api-sandbox.bmw.com A 34.110.164.77
+asc-prod-ha-wig.bmw.com A 160.48.164.176

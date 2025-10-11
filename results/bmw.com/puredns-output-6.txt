@@ -1,8 +1,6 @@
 api-dev.bmw.com
 api-dev1.bmw.com
-api-int.bmw.com
-api-sandbox-dev.bmw.com
+api-sandbox.bmw.com
 api-uat.bmw.com
 api.ris.bmw.com
-asapb2b.bmw.com
-asc-int.bmw.com
+asc-prod-ha-wig.bmw.com
