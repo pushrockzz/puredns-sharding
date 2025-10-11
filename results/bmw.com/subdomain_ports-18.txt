@@ -1,1 +1,2 @@
 dige.bmw.com
+dlss.bmw.com:443

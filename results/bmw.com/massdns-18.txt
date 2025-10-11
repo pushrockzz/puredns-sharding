@@ -1,2 +1,2 @@
 dige.bmw.com A 108.141.219.28
-dlss-t.bmw.com A 160.46.251.158
+dlss.bmw.com A 160.46.244.175
