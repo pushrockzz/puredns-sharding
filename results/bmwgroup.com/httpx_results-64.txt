@@ -1,0 +1,2 @@
+http://usp-regression-1.bmwgroup.com
+https://usp-prod0.bmwgroup.com
