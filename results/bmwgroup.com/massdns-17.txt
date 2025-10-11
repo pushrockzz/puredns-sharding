@@ -1,3 +1,8 @@
-ca-prod.bmwgroup.com A 122.200.104.200
-cadlrinv-int.bmwgroup.com A 170.34.104.232
-cadlrinv-prod.bmwgroup.com A 170.34.104.238
+delmanager-test.bmwgroup.com A 170.34.41.60
+developers-i.bmwgroup.com A 160.46.228.140
+dfegateway-i2.bmwgroup.com A 160.46.224.39
+dfegateway.bmwgroup.com A 160.46.231.21
+dfeservices-vm.bmwgroup.com A 160.46.235.24
+dfeservices.bmwgroup.com A 160.46.235.21
+dfesffr-t.bmwgroup.com A 160.46.253.13
+dfeza.bmwgroup.com A 160.48.233.176

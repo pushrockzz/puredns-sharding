@@ -1,13 +1,4 @@
-c2b-services-i.bmw.com
-c2b-services.bmw.com
-c8cs.bmw.com
-cache.bmw.com
-cadpdm-int-as-gf5.bmw.com
-cadpdm-int-prisma-gf5.bmw.com
-cadpdm-int-small-gf5.bmw.com
-cadpdm-prod-as.bmw.com
-cadpdm-prod-small.bmw.com
-cadpdm.bmw.com
-caebench2.bmw.com
-callisto-sprint.bmw.com
-cam-dev.bmw.com
+deploydirectori.bmw.com
+derendinger.bmw.com
+dev-rs.bmw.com
+developer.bmw.com

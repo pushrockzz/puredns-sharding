@@ -1,4 +1,9 @@
-bwms.bmwgroup.com
-ca-prod.bmwgroup.com
-cadlrinv-int.bmwgroup.com
-cadlrinv-prod.bmwgroup.com
+delmanager-test.bmwgroup.com
+developer-home.bmwgroup.com
+developers-i.bmwgroup.com
+dfegateway-i2.bmwgroup.com
+dfegateway.bmwgroup.com
+dfeservices-vm.bmwgroup.com
+dfeservices.bmwgroup.com
+dfesffr-t.bmwgroup.com
+dfeza.bmwgroup.com

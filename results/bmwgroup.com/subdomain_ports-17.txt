@@ -1,4 +1,9 @@
-cadlrinv-int.bmwgroup.com:443
-cadlrinv-int.bmwgroup.com:80
-cadlrinv-prod.bmwgroup.com:443
-cadlrinv-prod.bmwgroup.com:80
+delmanager-test.bmwgroup.com:443
+delmanager-test.bmwgroup.com:80
+dfegateway-i2.bmwgroup.com:443
+dfegateway-i2.bmwgroup.com:80
+dfegateway.bmwgroup.com:443
+dfegateway.bmwgroup.com:80
+dfesffr-t.bmwgroup.com:443
+dfeza.bmwgroup.com:443
+dfeza.bmwgroup.com:80
