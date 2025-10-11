@@ -1,2 +1,3 @@
-fscast-b2b-external-vmware-int.bmw.com
-ftpcontent.bmw.com
+fscast-b2b-external-wen-e2e.bmw.com
+fscast-b2b-external-wen-int.bmw.com
+fundus.bmw.com

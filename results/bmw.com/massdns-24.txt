@@ -1,2 +1,2 @@
-fscast-b2b-external-vmware-int.bmw.com A 160.48.213.203
-ftpcontent.bmw.com A 160.46.247.147
+fscast-b2b-external-wen-e2e.bmw.com A 160.46.235.199
+fscast-b2b-external-wen-int.bmw.com A 160.46.229.153
