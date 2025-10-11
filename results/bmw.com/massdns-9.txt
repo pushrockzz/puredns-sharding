@@ -1,6 +1,8 @@
-aolint.bmw.com A 160.46.228.118
-aos-osp-i2.bmw.com A 160.46.224.36
-apac.wit.bmw.com A 160.46.247.144
-api-dev.bmw.com A 34.111.181.40
-api-int.bmw.com A 34.36.96.32
-aplaus.bmw.com A 160.46.244.112
+bmw-dev-a11.bmw.com A 160.48.165.72
+bmw-int-10.bmw.com A 160.48.165.29
+bmw-int-5.bmw.com A 160.48.213.52
+bmw-prod-a2-b2bwen.bmw.com A 160.46.237.166
+bmw-test-a1.bmw.com A 160.48.165.192
+bmw-test-a6.bmw.com A 160.48.165.148
+bmwgrouparchives-int.bmw.com A 160.46.227.89
+bmwonline.bmw.com A 62.220.6.131

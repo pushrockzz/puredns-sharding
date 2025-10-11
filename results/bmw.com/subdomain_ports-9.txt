@@ -1,5 +1,0 @@
-apac.wit.bmw.com:443
-api-dev.bmw.com
-api-int.bmw.com
-aplaus.bmw.com:443
-aplaus.bmw.com:80
