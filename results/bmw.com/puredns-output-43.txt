@@ -1,0 +1,3 @@
+myworkplace-int.bmw.com
+myworkplace-s.bmw.com
+myworkplace-test.bmw.com

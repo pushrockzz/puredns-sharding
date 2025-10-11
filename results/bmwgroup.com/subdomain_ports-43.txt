@@ -1,3 +1,4 @@
-auth-next.bmwgroup.com
-hewint.bmwgroup.com:443
-hewint.bmwgroup.com:80
+n3wen.bmwgroup.com:443
+n3wen.bmwgroup.com:80
+ndsus-test.bmwgroup.com:80
+neainfra-us-int.bmwgroup.com:443

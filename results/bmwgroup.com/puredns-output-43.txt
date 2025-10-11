@@ -1,3 +1,9 @@
-hewint.bmwgroup.com
-hlr-p4.bmwgroup.com
-hlr-p5.bmwgroup.com
+n3wen.bmwgroup.com
+na-cocoapi-extended.bmwgroup.com
+nadev-cocoapi-extended.bmwgroup.com
+nadly-cocoapi-extended.bmwgroup.com
+nasf-as-tp-parts-information-i.bmwgroup.com
+nasf-as-tp-technical-campaign.bmwgroup.com
+ndsus-test.bmwgroup.com
+neainfra-us-int.bmwgroup.com
+neainfra-us.bmwgroup.com

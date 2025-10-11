@@ -1,3 +1,7 @@
-hewint.bmwgroup.com A 160.46.236.150
-hlr-p4.bmwgroup.com A 160.46.238.91
-hlr-p5.bmwgroup.com A 160.46.233.114
+n3wen.bmwgroup.com A 160.46.237.126
+nasf-as-tp-parts-information-i.bmwgroup.com A 160.46.224.224
+nasf-as-tp-technical-campaign.bmwgroup.com A 160.46.231.203
+ndsus-test.bmwgroup.com A 160.46.229.163
+neainfra-us-int.bmwgroup.com A 160.46.250.222
+neainfra-us-int.bmwgroup.com A 170.34.59.244
+neainfra-us.bmwgroup.com A 170.34.59.243
