@@ -1,3 +1,7 @@
+http://ivsrbei.bmwgroup.com
+http://ivsrbet.bmwgroup.com
+http://ivsrfe.bmwgroup.com
+http://ivsrfeotod.bmwgroup.com
 http://mnomgr-att-us-e2e.bmwgroup.com
 http://mnomgr-att-us-e2e.bmwgroup.com:443
 http://mnomgr-gd-de-e2e.bmwgroup.com
@@ -5,4 +9,14 @@ http://mnomgr-gd-de-e2e.bmwgroup.com:443
 http://mobilitytools.bmwgroup.com
 http://msdcrm365-adfs5-prod.bmwgroup.com
 http://mt-alclaims.bmwgroup.com
+https://itsn-ext-int2-emea.bmwgroup.com
+https://itsn-ext-qa-cn.bmwgroup.com
+https://iucp.bmwgroup.com
+https://ivsr-sa2-prod.bmwgroup.com
+https://ivsrbei.bmwgroup.com
+https://ivsrbeinte-blue.bmwgroup.com
+https://ivsrbeinte-blue.bmwgroup.com:80
+https://ivsrbet.bmwgroup.com
+https://ivsrfe.bmwgroup.com
+https://ivsrfeotod.bmwgroup.com
 https://msdcrm365-adfs5-prod.bmwgroup.com

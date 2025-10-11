@@ -1,2 +1,4 @@
+http://itms-int.bmw.com
 http://mnomgr-e2e-us.bmw.com
+https://itms-int.bmw.com
 https://mnomgr-e2e-us.bmw.com
