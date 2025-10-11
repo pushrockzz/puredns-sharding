@@ -1,1 +1,6 @@
-jetstream.bmw.com
+gcdm-business-services-i.bmw.com
+gcdm-pf-i.bmw.com
+gcdm-pf-t.bmw.com
+gcdmtolerant-i.bmw.com
+gcdmtolerant.bmw.com
+gdcm-pf-i.bmw.com

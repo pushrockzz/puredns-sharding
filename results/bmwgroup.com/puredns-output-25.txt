@@ -1,0 +1,4 @@
+geschaeftsbericht.bmwgroup.com
+gestas-es-int.bmwgroup.com
+gestas-es.bmwgroup.com
+gko-int-auth.bmwgroup.com
