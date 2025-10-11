@@ -1,7 +1,7 @@
-processmonitoring.bmw.com
-prod-cop.bmw.com
-prod-gui-user-swl-sec2.bmw.com
-prod-web-teleservicefleet.bmw.com
-produ-int.bmw.com
-proveedores-ar.bmw.com
-psdmweb-prod.bmw.com
+loyalty-int.cn.bmw.com
+lpkm.bmw.com
+lpptest.bmw.com
+lterm-int.bmw.com
+lterm.bmw.com
+m.service.bmw.com
+m.servicenotification.bmw.com
