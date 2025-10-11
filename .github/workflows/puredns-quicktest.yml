@@ -460,7 +460,7 @@ jobs:
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: puredns-quicktest.yml
-          repo: ${{ secrets.ACCOUNT2_REPO_OWNER }}/${{ secrets.ACCOUNT2_REPO_NAME }}
+          repo: ${{ secrets.SECONDARY_REPO_OWNER }}/${{ secrets.SECONDARY_REPO_NAME }}
           token: ${{ secrets.PAT_FOR_SECONDARY_ACCOUNT_REPO }}
           ref: main
           inputs: >
