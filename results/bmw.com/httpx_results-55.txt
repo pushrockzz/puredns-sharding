@@ -1,2 +1,9 @@
+http://secure-sportmarketing-int.bmw.com
+http://sera.bmw.com
+http://sgem-es-int.bmw.com
+https://secure-sportmarketing-int.bmw.com
+https://services-recallsvc-int.bmw.com
 https://services-recallsvc-prod.bmw.com
+https://services-verification-int.bmw.com
 https://services-wen-i-dcsservice.bmw.com
+https://sgem-es-int.bmw.com
