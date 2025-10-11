@@ -1,5 +1,4 @@
-b2v-b2bappus.bmw.com:443
-b2v-b2bappus.bmw.com:80
+bao-admin.bmw.com:443
 base-cn.bmw.com:443
+base-e2e-emea.bmw.com:443
 base-e2e-us.bmw.com:443
-base-emea.bmw.com:443
