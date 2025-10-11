@@ -1,8 +1,3 @@
-sspcc.bmw.com A 160.46.226.253
-sspcore-int.bmw.com A 160.46.224.192
-sta-bps.bmw.com A 52.178.88.134
-sta-ouc.bmw.com A 52.178.88.134
-stage2docu.bmw.com A 160.46.226.206
-staging-developer.bmw.com A 20.50.13.197
-stintedg.bmw.com A 160.46.225.109
-strong.bmw.com A 160.46.233.226
+nspeuwebp.bmw.com A 160.46.231.42
+ocean.bmw.com A 160.46.231.22
+ods-int.bmw.com A 160.46.236.237
