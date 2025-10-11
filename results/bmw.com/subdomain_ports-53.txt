@@ -1,3 +1,3 @@
-rmtv2-t.bmw.com:443
-rrmc-prod-r1.bmw.com:443
-rrmc-prod-r1.bmw.com:80
+rmt-t.bmw.com:443
+rplan3-i.bmw.com:443
+rplan5-i-b2b.bmw.com:443

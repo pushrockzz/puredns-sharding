@@ -1,7 +1,8 @@
 rmt-neu.bmw.com
-rmtv2-t.bmw.com
-rmtv2.bmw.com
+rmt-p.bmw.com
+rmt-t.bmw.com
 rpk-i.bmw.com
-rplan-i-b2b.bmw.com
-rplan3.bmw.com
-rrmc-prod-r1.bmw.com
+rplan.bmw.com
+rplan3-i.bmw.com
+rplan5-i-b2b.bmw.com
+rrmc-preprodr1.bmw.com
