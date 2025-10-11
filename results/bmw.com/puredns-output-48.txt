@@ -1,12 +1,8 @@
 piaope-int.bmw.com
-pinningdb-p.bmw.com
-pki-p2x-b2b-ui-emea-e2e.bmw.com
-pki-p2x-b2d-ui-emea-e2e.bmw.com
-pki-p2x-b2d-ui-emea-prod.bmw.com
-pki-p2x-b2i-ui-emea-prod.bmw.com
-pluto-i1.bmw.com
-pluto-i2.bmw.com
-plw-int.bmw.com
-plwi.bmw.com
+piaoportal-int.bmw.com
+pinningdb-i.bmw.com
+pita-b2b.bmw.com
+pki-b2b-prod.bmw.com
+plaza-test.bmw.com
 pmt-i.bmw.com
 poc-vpn.bmw.com
