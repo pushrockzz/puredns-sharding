@@ -1,8 +1,11 @@
+http://aero-sc-int.bmw.com
 http://b2b-old.bmw.com
 http://b2biapp8.bmw.com
 http://b2bpapp6.bmw.com
 http://b2bua-int.bmw.com
 http://b2v-b2bappus.bmw.com
+https://adfus-service-int.bmw.com
+https://aero-sc-int.bmw.com
 https://b2b-int-mig.bmw.com
 https://b2b-old.bmw.com
 https://b2btomcp-next.bmw.com
