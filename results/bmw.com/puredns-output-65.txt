@@ -1,7 +1,12 @@
+vdms.bmw.com
 vds-int-inter.bmw.com
-verdict-int.bmw.com
+vds-mobile-int.bmw.com
 veveto.bmw.com
 vevetoi.bmw.com
-video.bmw.com
+viewjuridico-int.bmw.com
 vintracking-next.bmw.com
+vip-int-gf5.bmw.com
+vip-studs-apisec-int.bmw.com
+vip-testentw-gf5-ig.bmw.com
+vip-testentw-gf5.bmw.com
 vodcast.bmw.com

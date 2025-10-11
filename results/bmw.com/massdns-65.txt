@@ -1,5 +1,10 @@
+vdms.bmw.com A 160.46.243.208
 vds-int-inter.bmw.com A 160.46.250.226
-verdict-int.bmw.com A 160.46.225.96
+vds-mobile-int.bmw.com A 160.46.236.94
 veveto.bmw.com A 160.46.240.131
-video.bmw.com A 195.27.218.61
-vintracking-next.bmw.com A 74.220.199.6
+viewjuridico-int.bmw.com A 170.34.100.68
+vintracking-next.bmw.com A 170.34.59.117
+vip-int-gf5.bmw.com A 160.48.165.199
+vip-studs-apisec-int.bmw.com A 160.46.240.175
+vip-testentw-gf5-ig.bmw.com A 160.46.236.24
+vip-testentw-gf5.bmw.com A 160.46.253.53
