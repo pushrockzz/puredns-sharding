@@ -7,7 +7,10 @@ http://www-origin-proda3.bmw.com:443
 http://www.dlss21p.bmw.com
 http://www.dlssvkwp.bmw.com
 http://www.dlssvkwp.bmw.com:443
+https://rmt-t.bmw.com
 https://rmtv2-t.bmw.com
+https://rplan3-i.bmw.com
+https://rplan5-i-b2b.bmw.com
 https://www-origin-proda1.bmw.com
 https://www-origin-proda2.bmw.com
 https://www.dlss21p.bmw.com
