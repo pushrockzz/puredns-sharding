@@ -3,5 +3,8 @@ http://cadlrinv-prod.bmwgroup.com
 http://caesar-info-int.bmwgroup.com
 http://caesar-info-int.bmwgroup.com:443
 https://alscore-test.bmwgroup.com
+https://base-emea.bmwgroup.com
+https://bemiweb-payara-prod.bmwgroup.com
+https://bemiweb-payara-prod.bmwgroup.com:80
 https://cadlrinv-prod.bmwgroup.com
 https://cam-test.bmwgroup.com
