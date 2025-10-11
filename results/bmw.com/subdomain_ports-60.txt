@@ -1,3 +1,6 @@
 tapi.bmw.com:443
 tapi.bmw.com:80
-tbm-int-t1.bmw.com:80
+term-int.bmw.com:443
+term-int.bmw.com:80
+term-prod.bmw.com:443
+term-prod.bmw.com:80

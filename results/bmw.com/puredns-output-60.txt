@@ -1,5 +1,6 @@
 tapi.bmw.com
-tbm-int-t1-b2b.bmw.com
-tbm-int-t1.bmw.com
-tc4jbi.bmw.com
+tc4jb.bmw.com
 tdferu.bmw.com
+telex.bmw.com
+term-int.bmw.com
+term-prod.bmw.com
