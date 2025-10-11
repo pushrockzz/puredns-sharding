@@ -1,3 +1,0 @@
-360portal-inttest.bmwgroup.com:80
-5trias2.bmwgroup.com:443
-5trias2.bmwgroup.com:80
