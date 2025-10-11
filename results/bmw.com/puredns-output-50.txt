@@ -1,8 +1,7 @@
 produ-int.bmw.com
-projektdaten-lieferanten.bmw.com
-proveedores-ar-int.bmw.com
-proveedores-ar.bmw.com
+proleisw0tsup.bmw.com
 psdmweb-int.bmw.com
+psdmweb-prod.bmw.com
 publish-integ.bmw.com
-publish-prod.bmw.com
 publishing.bmw.com
+q-app.bmw.com
