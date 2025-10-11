@@ -1,1 +1,8 @@
-www.pmt.bmw.com A 160.46.243.168
+search.bmw.com A 62.67.62.32
+service.bmw.com A 192.243.228.1
+servicenotification.bmw.com A 192.243.228.1
+services-kaius.bmw.com A 160.46.240.247
+services-recallsvc-prod.bmw.com A 160.46.235.156
+services-wen-i-dcsservice.bmw.com A 160.46.228.11
+services.incentivesus-i.bmw.com A 160.46.240.175
+sf-mcs-test.bmw.com A 160.46.227.50

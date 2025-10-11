@@ -1,6 +1,9 @@
-www.motorsport.bmw.com
-www.pass.bmw.com
-www.pmt.bmw.com
-www.press.bmw.com
-www.pressclub.bmw.com
-www.shop.bmw.com
+se.wit.bmw.com
+search.bmw.com
+service.bmw.com
+servicenotification.bmw.com
+services-kaius.bmw.com
+services-recallsvc-prod.bmw.com
+services-wen-i-dcsservice.bmw.com
+services.incentivesus-i.bmw.com
+sf-mcs-test.bmw.com

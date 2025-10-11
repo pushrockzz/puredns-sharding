@@ -1,6 +1,11 @@
-www.parts-n.bmwgroup.com:443
-www.parts-n.bmwgroup.com:80
-www.press-i.bmwgroup.com:443
-www.press-i.bmwgroup.com:80
-www.srpmm-integration.bmwgroup.com:443
-www.srpmm-integration.bmwgroup.com:80
+securemail.bmwgroup.com:443
+securemail.bmwgroup.com:636
+services-ddauswen-int.bmwgroup.com:443
+services-ddauswen-test.bmwgroup.com:443
+services-kaius-int.bmwgroup.com:443
+services-kaius.bmwgroup.com:443
+sf5-digital-sit.bmwgroup.com:443
+sgate-dev.bmwgroup.com
+sgate-int.bmwgroup.com
+sgate.bmwgroup.com
+sgem-es.bmwgroup.com:443
