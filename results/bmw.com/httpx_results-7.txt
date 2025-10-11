@@ -1,4 +1,5 @@
 http://audit.bmw.com
+http://b2bpapp6.bmw.com
 http://b2bua-int.bmw.com
 https://astras.bmw.com
 https://astras.bmw.com:80
