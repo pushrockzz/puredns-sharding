@@ -1,1 +1,2 @@
-itsm20-gate-int.bmw.com:443
+itms-int.bmw.com:443
+itms-int.bmw.com:80
