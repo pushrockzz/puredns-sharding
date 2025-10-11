@@ -1123,7 +1123,7 @@ jobs:
     name: Summarize and Commit Result Counts
     runs-on: ubuntu-latest
     needs: [prepare, brute]
-    if: always() 
+    if: always() && needs.prepare.result == 'success'
 
     steps:
       - name: Checkout final repository state
@@ -1137,6 +1137,8 @@ jobs:
         run: |
           RESULTS_DIR="results"
           OUTPUT_FILE="count_result.txt"
+          TEMP_INDIVIDUAL_COUNTS=$(mktemp)
+          TEMP_TOTAL_COUNTS=$(mktemp)
           
           echo "--- Generating result count summary with per-domain totals ---"
           
@@ -1146,92 +1148,76 @@ jobs:
             exit 0
           fi
           
-          # Use a powerful awk script to process all files, count lines,
-          # and aggregate totals in a single pass.
-          find "$RESULTS_DIR" -type f -name "*.txt" -not -name 'wildcards-*.txt' | \
+          # --- PASS 1: Generate the individual file counts ---
+          # This is a simple, robust loop.
+          find "$RESULTS_DIR" -type f -name "*.txt" -not -name 'wildcards-*.txt' | while read -r filepath; do
+            count=$(wc -l < "$filepath")
+            if [ "$count" -gt 0 ]; then
+              domain=$(basename "$(dirname "$filepath")")
+              filename=$(basename "$filepath")
+              echo "$domain:- $filename $count" >> "$TEMP_INDIVIDUAL_COUNTS"
+            fi
+          done
+          
+          # --- PASS 2: Generate the aggregated totals from the individual counts ---
+          # This awk script is now much simpler and more reliable.
           awk '
             {
-              # Get line count for the current file
-              cmd = "wc -l < \"" $0 "\""
-              cmd | getline count
-              close(cmd)
-
-              # Split the path to get parts
-              n = split($0, path, "/")
-              domain = path[n-1]
-              filename = path[n]
+              # Input format is now: domain:- filename count
+              domain = $1
+              sub(/:$/, "", domain) # Remove trailing colon from domain
+              filename = $2
+              count = $3
               
-              # Extract the file pattern (e.g., "httpx_results", "massdns")
+              # Extract the file pattern
               sub(/-[0-9]+\.txt$/, "", filename)
               pattern = filename
               
-              # Store the individual line count for this specific file
-              individual_counts[domain, $0] = count
-              
               # Add to the total for this domain and pattern
-              domain_totals[domain, pattern] += count
-              
-              # Keep track of all unique domains and patterns
-              if (! (domain in domains)) {
-                  domains[domain] = 1
-              }
-              if (! (pattern in patterns)) {
-                  patterns[pattern] = 1
-              }
+              totals[domain, pattern] += count
+              if (! (domain in domains)) domains[domain] = 1
             }
             END {
-              # --- Print the aggregated totals first ---
               # Sort domains alphabetically for clean output
               PROCINFO["sorted_in"] = "@ind_str_asc"
               for (domain in domains) {
                   print "--- Domain: " domain " ---"
-                  # Sort patterns alphabetically
-                  for (pattern in patterns) {
-                      # Only print if there is a total for this pattern in this domain
-                      if (domain_totals[domain, pattern] > 0) {
-                          printf "  TOTAL %-20s: %d\n", pattern, domain_totals[domain, pattern]
+                  # Iterate through a fixed, sorted list of patterns for consistent order
+                  split("httpx_results massdns puredns-output subdomain_ports", patterns, " ")
+                  for (i in patterns) {
+                      pattern = patterns[i]
+                      if (totals[domain, pattern] > 0) {
+                          printf "  TOTAL %-20s: %d\n", pattern, totals[domain, pattern]
                       }
                   }
-                  print "" # Add a blank line for readability
-              }
-              
-              print "\n--- Individual File Counts ---"
-              
-              # --- Then, print the individual file counts ---
-              for (key in individual_counts) {
-                  # Split the composite key back into domain and filepath
-                  split(key, parts, SUBSEP)
-                  domain = parts[1]
-                  filepath = parts[2]
-                  
-                  # Extract just the filename for printing
-                  n = split(filepath, path_parts, "/")
-                  filename = path_parts[n]
-                  
-                  # Get the stored count
-                  count = individual_counts[key]
-                  
-                  # Format the output as requested
-                  if (count > 0) {
-                      print domain ":- " filename, count
-                  }
+                  print ""
               }
             }
-          ' > "$OUTPUT_FILE"
+          ' "$TEMP_INDIVIDUAL_COUNTS" > "$TEMP_TOTAL_COUNTS"
           
-          if [ ! -s "$OUTPUT_FILE" ]; then
-            echo "No results found in any files. Summary file is empty."
-            echo "summary_generated=false" >> $GITHUB_OUTPUT
-          else
+          # --- FINAL ASSEMBLY: Combine the sorted parts into the final file ---
+          if [ -s "$TEMP_INDIVIDUAL_COUNTS" ]; then
+            # Build the final file: totals first, then a separator, then the sorted individual counts.
+            cat "$TEMP_TOTAL_COUNTS" > "$OUTPUT_FILE"
+            echo -e "\n--- Individual File Counts ---" >> "$OUTPUT_FILE"
+            sort "$TEMP_INDIVIDUAL_COUNTS" >> "$OUTPUT_FILE"
+            
             echo "✅ Result summary generated successfully."
             echo "summary_generated=true" >> $GITHUB_OUTPUT
             
             echo "--- Summary Preview (count_result.txt) ---"
             cat "$OUTPUT_FILE"
             echo "----------------------------------------"
+          else
+            echo "No results found in any files. Summary is empty."
+            echo "summary_generated=false" >> $GITHUB_OUTPUT
           fi
+          
+          # Clean up temporary files
+          rm -f "$TEMP_INDIVIDUAL_COUNTS" "$TEMP_TOTAL_COUNTS"
 
       - name: Commit Result Summary
+        # This step remains unchanged as its logic is correct.
         if: steps.generate_summary.outputs.summary_generated == 'true'
         shell: bash
         run: |
@@ -1253,7 +1239,8 @@ jobs:
             echo "Push failed. Retrying in 5 seconds..."
             sleep 5
           done
-          echo "::error:: All push attempts for the summary file failed."         
+          echo "::error:: All push attempts for the summary file failed."
+          exit 0
   
   dispatch-next:
     name: dispatch-next-run
