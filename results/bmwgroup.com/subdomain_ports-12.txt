@@ -1,2 +1,15 @@
-awp-int.bmwgroup.com
-awp-qa.bmwgroup.com
+carver5-i.bmwgroup.com:443
+carver5-i.bmwgroup.com:80
+casa.bmwgroup.com:443
+casa.bmwgroup.com:80
+cfdifst.bmwgroup.com:80
+cfjp-dealerportal.bmwgroup.com:443
+cfs-fr-int1.bmwgroup.com:443
+cfs-fr-int1.bmwgroup.com:80
+cfs-maintenance.bmwgroup.com:443
+cfs-maintenance.bmwgroup.com:80
+cfsza.bmwgroup.com:443
+cfsza.bmwgroup.com:80
+charging-maint.bmwgroup.com:443
+charging-maint.bmwgroup.com:80
+charging-mig.bmwgroup.com:80
