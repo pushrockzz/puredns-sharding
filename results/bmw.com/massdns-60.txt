@@ -1,2 +1,5 @@
-zedis.bmw.com A 160.46.237.62
-zeprid.bmw.com A 160.46.244.165
+tapi.bmw.com A 160.46.240.127
+tbm-int-t1-b2b.bmw.com A 160.48.165.102
+tbm-int-t1.bmw.com A 160.46.227.79
+tc4jbi.bmw.com A 160.46.228.104
+tdferu.bmw.com A 160.46.236.91

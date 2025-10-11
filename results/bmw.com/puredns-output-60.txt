@@ -1,2 +1,5 @@
-zedis.bmw.com
-zeprid.bmw.com
+tapi.bmw.com
+tbm-int-t1-b2b.bmw.com
+tbm-int-t1.bmw.com
+tc4jbi.bmw.com
+tdferu.bmw.com

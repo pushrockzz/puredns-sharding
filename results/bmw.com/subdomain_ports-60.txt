@@ -1,4 +1,3 @@
-zedis.bmw.com:443
-zedis.bmw.com:80
-zeprid.bmw.com:443
-zeprid.bmw.com:80
+tapi.bmw.com:443
+tapi.bmw.com:80
+tbm-int-t1.bmw.com:80
