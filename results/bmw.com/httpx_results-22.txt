@@ -1,1 +1,8 @@
+http://famos-int.bmw.com
+http://famos-test1.bmw.com
+http://famos-uk-maint.bmw.com
 http://hsplw-int1.bmw.com:443
+https://famos-int.bmw.com
+https://famos-test1.bmw.com
+https://famos-uk-maint.bmw.com
+https://famos-uk.bmw.com
