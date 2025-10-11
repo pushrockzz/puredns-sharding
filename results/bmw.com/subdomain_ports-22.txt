@@ -1,11 +1,7 @@
-external.bmw.com:80
-faas20nsf-prod.bmw.com:443
-faas20nsf-prod.bmw.com:80
-famos-ecap.bmw.com:443
-famos-ecap.bmw.com:80
-famos-ps.bmw.com:443
-famos-ps.bmw.com:80
-famos-test.bmw.com:443
-famos-test.bmw.com:80
+famos-int.bmw.com:443
+famos-int.bmw.com:80
+famos-test1.bmw.com:443
+famos-test1.bmw.com:80
 famos-uk-maint.bmw.com:443
 famos-uk-maint.bmw.com:80
+famos-uk.bmw.com:443
