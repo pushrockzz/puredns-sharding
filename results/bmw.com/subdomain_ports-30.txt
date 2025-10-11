@@ -1,9 +1,8 @@
-ifavor-cockpit.bmw.com:443
-iff-int.bmw.com:443
-iff-int.bmw.com:80
-iff-prod.bmw.com:443
-iff-prod.bmw.com:80
-ijix-int.bmw.com:443
-ijix-int.bmw.com:80
+iff-blue.bmw.com:443
+iff-blue.bmw.com:80
+iff-prod-neu.bmw.com:443
+iff-prod-neu.bmw.com:80
 imm-test3-gf3.bmw.com:443
 imm-test3-gf3.bmw.com:80
+imobileauth.bmw.com:443
+imobileauth.bmw.com:80

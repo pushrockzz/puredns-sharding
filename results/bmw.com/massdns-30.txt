@@ -1,10 +1,8 @@
-ifavor-cockpit.bmw.com A 160.48.213.184
+iff-blue.bmw.com A 160.46.240.46
 iff-green.bmw.com A 160.46.237.67
-iff-int.bmw.com A 160.48.213.149
-iff-prod.bmw.com A 160.46.233.149
-ijix-int.bmw.com A 160.46.228.122
-ikomt.bmw.com A 160.46.247.240
-imm-int5.bmw.com A 170.34.127.126
+iff-prod-neu.bmw.com A 160.46.238.26
+imm-dev5-gf3.bmw.com A 160.46.224.34
+imm-int3.bmw.com A 160.46.224.233
 imm-prod2.bmw.com A 160.46.243.106
 imm-test3-gf3.bmw.com A 160.46.227.75
-input.bmw.com A 160.46.245.170
+imobileauth.bmw.com A 160.48.213.48
