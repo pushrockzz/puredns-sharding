@@ -1,12 +1,2 @@
-www-origin-proda1.bmw.com
-www-origin-proda2.bmw.com
-www-origin-proda3.bmw.com
-www-origin-proda6.bmw.com
-www-origin-prodn2.bmw.com
-www-origin.bmw.com
-www.b2b.bmw.com
-www.bike.bmw.com
-www.dcs.bmw.com
-www.developer.bmw.com
-www.dlss21p.bmw.com
-www.dlssvkwp.bmw.com
+kamaeleon-int-2.bmw.com
+kamaeleon.bmw.com

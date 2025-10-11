@@ -1,9 +1,1 @@
-www-origin-proda1.bmw.com A 160.46.226.164
-www-origin-proda2.bmw.com A 160.46.226.165
-www-origin-proda3.bmw.com A 160.46.231.43
-www-origin-proda6.bmw.com A 160.46.231.100
-www-origin-prodn2.bmw.com A 160.46.231.127
-www-origin.bmw.com A 160.46.245.162
-www.dcs.bmw.com A 194.64.18.106
-www.dlss21p.bmw.com A 160.46.245.140
-www.dlssvkwp.bmw.com A 160.46.245.149
+kamaeleon-int-2.bmw.com A 20.67.89.213

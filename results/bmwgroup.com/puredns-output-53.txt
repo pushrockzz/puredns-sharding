@@ -1,4 +1,7 @@
-www.aida-prd.bmwgroup.com
-www.charging.bmwgroup.com
-www.codex.bmwgroup.com
-www.configure.bmwgroup.com
+kai-device-int.bmwgroup.com
+kai-m2m-prod.bmwgroup.com
+kai-m2m-qa.bmwgroup.com
+kai-qa-b2i-basic.bmwgroup.com
+kai-qa.bmwgroup.com
+kai-user-qa-eam.bmwgroup.com
+kasio-int-wen.bmwgroup.com

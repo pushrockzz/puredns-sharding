@@ -1,0 +1,4 @@
+kai-qa-b2i-basic.bmwgroup.com:443
+kai-qa.bmwgroup.com:443
+kai-qa.bmwgroup.com:80
+kai-user-qa-eam.bmwgroup.com:443
