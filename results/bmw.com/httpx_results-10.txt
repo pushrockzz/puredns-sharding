@@ -4,4 +4,5 @@ https://asc-prod-ha-wig.bmw.com
 https://astras-schulung.bmw.com
 https://astras.bmw.com
 https://astras.bmw.com:80
+https://br.dwp.bmw.com
 https://cmp-test.bmw.com
