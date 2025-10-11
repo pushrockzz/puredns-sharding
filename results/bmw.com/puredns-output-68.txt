@@ -1,9 +1,8 @@
 wpmd.bmw.com
-www-fr.bmw.com
+www-ie.bmw.com
 www-it.bmw.com
 www-origin-inti2.bmw.com
-www-origin-preprod2.bmw.com
-www-origin-proda1.bmw.com
-www-origin.bmw.com
+www-origin-proda3.bmw.com
+www-origin-proda6.bmw.com
 www-pt.bmw.com
-www.b2b.bmw.com
+www.au-com.bmw.com

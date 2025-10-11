@@ -1,3 +1,3 @@
 www-origin-inti2.bmw.com:80
-www-origin-proda1.bmw.com:443
-www-origin-proda1.bmw.com:80
+www-origin-proda3.bmw.com:443
+www-origin-proda3.bmw.com:80
