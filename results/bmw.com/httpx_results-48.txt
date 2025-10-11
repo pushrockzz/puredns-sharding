@@ -6,6 +6,7 @@ http://plw-prod.bmw.com
 http://tllnet.bmw.com
 http://tms-prod.bmw.com
 https://piaope-int.bmw.com
+https://pinningdb-i.bmw.com
 https://pinningdb-p.bmw.com
 https://pki-p2x-b2b-ui-emea-e2e.bmw.com
 https://pki-p2x-b2b-ui-emea-e2e.bmw.com:80
