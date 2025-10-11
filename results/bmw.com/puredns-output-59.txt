@@ -1,3 +1,6 @@
-xpita-b2b.bmw.com
-xpita-int-b2b-old.bmw.com
-xpita-int-b2b.bmw.com
+swhrli5.bmw.com
+swhrli7.bmw.com
+swhrlp.bmw.com
+swli12.bmw.com
+swlint3ie.bmw.com
+swlsec2ba-prod-emea.bmw.com

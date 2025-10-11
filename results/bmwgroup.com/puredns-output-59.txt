@@ -1,3 +1,5 @@
-xpita-b2d-blue.bmwgroup.com
-xpita-int-b2d.bmwgroup.com
-xrm-crm365-ml.bmwgroup.com
+sts-cuv-int.bmwgroup.com
+sts-muc-int.bmwgroup.com
+symphonia.bmwgroup.com
+sync-test.bmwgroup.com
+sync.bmwgroup.com

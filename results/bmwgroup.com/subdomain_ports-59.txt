@@ -1,0 +1,2 @@
+sync-test.bmwgroup.com:443
+sync.bmwgroup.com:443

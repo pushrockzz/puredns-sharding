@@ -1,2 +1,4 @@
-xpita-b2d-blue.bmwgroup.com A 160.46.233.190
-xrm-crm365-ml.bmwgroup.com A 160.46.249.227
+sts-cuv-int.bmwgroup.com A 160.46.224.14
+sts-muc-int.bmwgroup.com A 160.46.225.88
+sync-test.bmwgroup.com A 192.109.190.93
+sync.bmwgroup.com A 192.109.190.76
