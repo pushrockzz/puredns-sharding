@@ -1,5 +1,5 @@
-cctemea1-rp.bmw.com:443
-cctemea1-rp.bmw.com:80
-cctza2-rp.bmw.com:80
-cesim-de-e2e.bmw.com:443
-cesim-de-e2e.bmw.com:80
+apac.wit.bmw.com:443
+api-dev.bmw.com
+api-int.bmw.com
+aplaus.bmw.com:443
+aplaus.bmw.com:80

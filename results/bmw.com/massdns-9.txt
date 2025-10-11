@@ -1,10 +1,6 @@
-casa-cn-i.bmw.com A 122.200.104.51
-casa-de-p.bmw.com A 160.46.233.45
-casa.bmw.com A 160.46.243.81
-casacni.bmw.com A 114.66.81.161
-cbda.bmw.com A 160.46.233.26
-cbe-prod-us.bmw.com A 170.34.41.135
-cctemea1-rp.bmw.com A 160.46.247.227
-cctza2-rp.bmw.com A 160.48.233.133
-cdc-int-us.bmw.com A 160.46.251.149
-cesim-de-e2e.bmw.com A 160.46.228.109
+aolint.bmw.com A 160.46.228.118
+aos-osp-i2.bmw.com A 160.46.224.36
+apac.wit.bmw.com A 160.46.247.144
+api-dev.bmw.com A 34.111.181.40
+api-int.bmw.com A 34.36.96.32
+aplaus.bmw.com A 160.46.244.112
