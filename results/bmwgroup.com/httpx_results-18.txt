@@ -5,6 +5,8 @@ http://carver.bmwgroup.com
 http://carver5-i.bmwgroup.com
 http://carver5-t.bmwgroup.com
 http://casa.bmwgroup.com
+http://digitalshow.bmwgroup.com
+http://dopedu-i-neu.bmwgroup.com
 http://fisp.bmwgroup.com
 http://focus-int.bmwgroup.com
 http://focus-tst.bmwgroup.com
@@ -19,6 +21,8 @@ https://carver.bmwgroup.com
 https://carver5-i.bmwgroup.com
 https://carver5-t.bmwgroup.com
 https://casa.bmwgroup.com
+https://digitalshow.bmwgroup.com
+https://dopedu-i-neu.bmwgroup.com
 https://fisp.bmwgroup.com
 https://focus-int.bmwgroup.com
 https://focus-tst.bmwgroup.com
