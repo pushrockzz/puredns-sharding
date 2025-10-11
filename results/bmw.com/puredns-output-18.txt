@@ -1,8 +1,9 @@
-fix-int.bmw.com
-fleetsystem-cn.bmw.com
-flema-int.bmw.com
-four-12.bmw.com
-fscast-b2b-external-vmware-int.bmw.com
-fscast-b2b-external-wen-int.bmw.com
-fundus-int.bmw.com
-funkfms-int.bmw.com
+casa-cn-i.bmw.com
+casa-de-p.bmw.com
+casa-emea-int-b2bp.bmw.com
+casa-emea-prod-b2b.bmw.com
+casa.bmw.com
+casacni.bmw.com
+cbda.bmw.com
+cbe-prod-emea.bmw.com
+cbe-prod-us.bmw.com

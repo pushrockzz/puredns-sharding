@@ -1,2 +1,0 @@
-fscast-b2b-external-wen-int.bmw.com:443
-fscast-b2b-external-wen-int.bmw.com:80
