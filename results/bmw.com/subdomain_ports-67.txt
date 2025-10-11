@@ -1,0 +1,6 @@
+what-p.bmw.com:443
+what-p.bmw.com:80
+workflow-int.bmw.com:443
+workflow-int.bmw.com:80
+workplace-int.bmw.com:443
+workplace-int.bmw.com:80

@@ -1,0 +1,9 @@
+webshop-int.bmwgroup.com:443
+webshop-int.bmwgroup.com:80
+webshop-test.bmwgroup.com:443
+webshop-test.bmwgroup.com:80
+wen-ig-aos.bmwgroup.com:443
+wen-ig-b2iua.bmwgroup.com:443
+wen-ig-bps-int.bmwgroup.com:443
+wenp-dynatrace.bmwgroup.com:443
+wenp-dynatrace.bmwgroup.com:80

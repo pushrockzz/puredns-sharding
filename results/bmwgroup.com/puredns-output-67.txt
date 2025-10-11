@@ -1,0 +1,15 @@
+webshop-int.bmwgroup.com
+webshop-test.bmwgroup.com
+wen-b2i-ua-q1.bmwgroup.com
+wen-b2i-ua-q2.bmwgroup.com
+wen-ig-aos-qa2.bmwgroup.com
+wen-ig-aos.bmwgroup.com
+wen-ig-b2iua-qa1.bmwgroup.com
+wen-ig-b2iua.bmwgroup.com
+wen-ig-bps-int.bmwgroup.com
+wen-ig-bps-qa1.bmwgroup.com
+wen-ig-oss-apps-int.bmwgroup.com
+wen-ig-oss-apps-qa2.bmwgroup.com
+wenp-dynatrace.bmwgroup.com
+what-inspires-us.bmwgroup.com
+wire-t.bmwgroup.com

@@ -1,0 +1,13 @@
+webshop-int.bmwgroup.com A 160.46.225.154
+webshop-test.bmwgroup.com A 160.46.225.155
+wen-b2i-ua-q1.bmwgroup.com A 160.46.236.246
+wen-ig-aos-qa2.bmwgroup.com A 160.46.249.153
+wen-ig-aos.bmwgroup.com A 160.46.226.213
+wen-ig-b2iua-qa1.bmwgroup.com A 160.48.212.30
+wen-ig-b2iua.bmwgroup.com A 160.46.231.10
+wen-ig-bps-int.bmwgroup.com A 160.46.251.196
+wen-ig-bps-qa1.bmwgroup.com A 160.48.212.199
+wen-ig-oss-apps-int.bmwgroup.com A 160.48.212.165
+wen-ig-oss-apps-qa2.bmwgroup.com A 160.48.212.163
+wenp-dynatrace.bmwgroup.com A 160.48.164.44
+wire-t.bmwgroup.com A 160.46.249.171

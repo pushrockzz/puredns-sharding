@@ -1,0 +1,7 @@
+what-p.bmw.com
+wire.bmw.com
+workflow-dev.bmw.com
+workflow-int.bmw.com
+workplace-int.bmw.com
+workplace.bmw.com
+wote-prod-gf5.bmw.com
