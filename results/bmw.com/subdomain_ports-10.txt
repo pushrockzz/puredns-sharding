@@ -1,5 +1,1 @@
-asc-prod-ha-wig.bmw.com:443
-astras-schulung.bmw.com:443
-astras-schulung.bmw.com:80
-astras.bmw.com:443
-astras.bmw.com:80
+br.dwp.bmw.com:443

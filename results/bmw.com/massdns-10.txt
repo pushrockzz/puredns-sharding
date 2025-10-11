@@ -1,3 +1,2 @@
-auth-next.bmwgroup.com A 18.198.171.174
-auth-next.bmwgroup.com A 3.74.116.178
-auth-next.bmwgroup.com A 35.156.58.143
+bne4.bmw.com A 160.46.231.161
+br.dwp.bmw.com A 160.46.244.115
