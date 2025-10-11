@@ -1,1 +1,7 @@
-kamaeleon-int-2.bmw.com A 20.67.89.213
+rmt-neu.bmw.com A 160.46.240.191
+rmtv2-t.bmw.com A 160.48.212.253
+rmtv2.bmw.com A 160.46.233.42
+rpk-i.bmw.com A 160.46.224.116
+rplan-i-b2b.bmw.com A 160.46.248.198
+rplan3.bmw.com A 160.46.243.184
+rrmc-prod-r1.bmw.com A 160.46.235.35

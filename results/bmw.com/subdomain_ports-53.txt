@@ -1,1 +1,3 @@
-kamaeleon-int-2.bmw.com
+rmtv2-t.bmw.com:443
+rrmc-prod-r1.bmw.com:443
+rrmc-prod-r1.bmw.com:80
