@@ -1,6 +1,12 @@
+http://projektdaten-lieferanten.bmw.com
+http://psdmweb-int.bmw.com
+http://publish-integ.bmw.com
 http://publish-prod.bmw.com
 http://vds-mobile-int.bmw.com
 http://vds-mobile-int.bmw.com:443
+https://projektdaten-lieferanten.bmw.com
+https://psdmweb-int.bmw.com
+https://publish-integ.bmw.com
 https://publish-prod.bmw.com
 https://vip-int-gf5.bmw.com
 https://vip-int-gf5.bmw.com:80
