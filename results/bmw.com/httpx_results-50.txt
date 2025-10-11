@@ -1,5 +1,7 @@
+http://publish-prod.bmw.com
 http://vds-mobile-int.bmw.com
 http://vds-mobile-int.bmw.com:443
+https://publish-prod.bmw.com
 https://vip-int-gf5.bmw.com
 https://vip-int-gf5.bmw.com:80
 https://vip-prod-gf5.bmw.com
