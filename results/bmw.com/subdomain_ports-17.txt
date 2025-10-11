@@ -1,3 +1,1 @@
-deploydirectori.bmw.com:443
-deploydirectori.bmw.com:80
 dev-nfsc-uk-rcm-services.bmw.com:80
