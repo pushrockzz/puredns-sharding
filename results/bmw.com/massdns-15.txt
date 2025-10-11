@@ -1,4 +1,6 @@
+cpi-int.bmw.com A 160.46.236.102
+cpp-int.bmw.com A 160.46.228.206
+cpp-prod.bmw.com A 160.46.231.16
 crmuk.bmw.com A 160.46.240.247
-csbe-int-na-temp.bmw.com A 170.34.41.120
-csbe-int-na.bmw.com A 170.34.41.66
 csbe-test-gf3.bmw.com A 160.46.228.210
+csbe-test-na.bmw.com A 170.34.41.67
