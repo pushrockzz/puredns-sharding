@@ -1,3 +1,7 @@
+http://cadlrinv-int.bmwgroup.com
+http://cadlrinv-prod.bmwgroup.com
 http://extranet-sgate-premium.bmwgroup.com
+https://cadlrinv-int.bmwgroup.com
+https://cadlrinv-prod.bmwgroup.com
 https://extranet-bwint1-sgate-premium.bmwgroup.com
 https://extranet-sgate-premium.bmwgroup.com
