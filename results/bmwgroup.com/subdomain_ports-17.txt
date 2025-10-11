@@ -1,3 +1,4 @@
-extranet-bwint1-sgate-premium.bmwgroup.com:443
-extranet-sgate-premium.bmwgroup.com:443
-extranet-sgate-premium.bmwgroup.com:80
+cadlrinv-int.bmwgroup.com:443
+cadlrinv-int.bmwgroup.com:80
+cadlrinv-prod.bmwgroup.com:443
+cadlrinv-prod.bmwgroup.com:80
