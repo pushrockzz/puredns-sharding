@@ -2,4 +2,9 @@ http://cctemea1-rp.bmw.com
 http://cctza2-rp.bmw.com
 http://cesim-de-e2e.bmw.com
 http://cesim-de-e2e.bmw.com:443
+https://apac.wit.bmw.com
+https://api-dev.bmw.com
+https://api-int.bmw.com
+https://aplaus.bmw.com
+https://aplaus.bmw.com:80
 https://cctemea1-rp.bmw.com
