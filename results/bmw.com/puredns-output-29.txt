@@ -1,7 +1,3 @@
-loki-int3.bmw.com
-loki.bmw.com
-loyalty-int.cn.bmw.com
-lterm-int.bmw.com
-lterm.bmw.com
-lyncdiscover.partner.bmw.com
-m.service.bmw.com
+hrci.bmw.com
+hsplw-prod1.bmw.com
+ias-p5-int-wen.bmw.com

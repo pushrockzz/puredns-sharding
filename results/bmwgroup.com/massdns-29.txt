@@ -1,5 +1,2 @@
-livaas1-web.bmwgroup.com A 160.46.228.54
-login-b2d-int.bmwgroup.com A 160.46.228.90
-loginwindows.bmwgroup.com A 160.46.231.142
-lt-api-cn.bmwgroup.com A 160.46.235.192
-ltvaas1-web.bmwgroup.com A 160.46.228.206
+hsplw-int1.bmwgroup.com A 160.46.225.173
+hsplw-prod1.bmwgroup.com A 160.46.235.187

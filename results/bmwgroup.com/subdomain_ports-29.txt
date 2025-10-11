@@ -1,7 +1,3 @@
-livaas1-web.bmwgroup.com:443
-livaas1-web.bmwgroup.com:80
-login-b2d-int.bmwgroup.com:443
-login-b2d-int.bmwgroup.com:80
-loginwindows.bmwgroup.com:443
-loginwindows.bmwgroup.com:80
-lt-api-cn.bmwgroup.com:443
+hsplw-int1.bmwgroup.com:443
+hsplw-prod1.bmwgroup.com:443
+hsplw-prod1.bmwgroup.com:80

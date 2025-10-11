@@ -1,6 +1,2 @@
-loki-int3.bmw.com:443
-loki-int3.bmw.com:80
-loki.bmw.com:443
-loki.bmw.com:80
-lyncdiscover.partner.bmw.com:443
-lyncdiscover.partner.bmw.com:80
+hsplw-prod1.bmw.com:443
+ias-p5-int-wen.bmw.com:443

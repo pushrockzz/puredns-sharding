@@ -1,8 +1,2 @@
-livaas1-web.bmwgroup.com
-live-i.bmwgroup.com
-live.bmwgroup.com
-livestreaming.bmwgroup.com
-login-b2d-int.bmwgroup.com
-loginwindows.bmwgroup.com
-lt-api-cn.bmwgroup.com
-ltvaas1-web.bmwgroup.com
+hsplw-int1.bmwgroup.com
+hsplw-prod1.bmwgroup.com
