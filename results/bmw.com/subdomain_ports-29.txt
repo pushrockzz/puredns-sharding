@@ -1,2 +1,1 @@
 hsplw-int1.bmw.com:443
-hsplw-prod1.bmw.com:443

@@ -1,3 +1,2 @@
-hrci.bmw.com A 160.46.224.68
 hsplw-int1.bmw.com A 160.48.212.211
-hsplw-prod1.bmw.com A 160.46.237.221
+iclx.bmw.com A 160.46.245.177

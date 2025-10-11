@@ -1,3 +1,2 @@
-hrci.bmw.com
 hsplw-int1.bmw.com
-hsplw-prod1.bmw.com
+iclx.bmw.com
