@@ -1,7 +1,7 @@
 liferay-ops-int.bmw.com A 160.46.225.149
-lifestyle.bmw.com A 104.16.231.42
-lifestyle.bmw.com A 104.16.232.42
-lifestyleproductoverview.bmw.com A 202.61.200.226
-lima-int3.bmw.com A 160.46.229.157
-lima-prod3.bmw.com A 160.46.237.108
-loki-int3.bmw.com A 160.46.229.152
+lima-int4.bmw.com A 160.46.229.221
+lima.bmw.com A 160.46.233.232
+link.bmw.com A 62.245.246.210
+login-int.bmw.com A 160.46.228.80
+loki-prod3.bmw.com A 160.46.237.104
+loki.bmw.com A 160.46.233.187

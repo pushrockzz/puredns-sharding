@@ -1,7 +1,8 @@
 liferay-ops-int.bmw.com
 lifestyle.bmw.com
-lifestyleproductoverview.bmw.com
-lima-int3.bmw.com
-lima-prod3.bmw.com
-links.bmw.com
-loki-int3.bmw.com
+lima-int4.bmw.com
+lima.bmw.com
+link.bmw.com
+login-int.bmw.com
+loki-prod3.bmw.com
+loki.bmw.com

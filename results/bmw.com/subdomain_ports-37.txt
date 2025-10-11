@@ -1,9 +1,8 @@
-lifestyle.bmw.com
-lifestyleproductoverview.bmw.com:443
-lifestyleproductoverview.bmw.com:80
-lima-int3.bmw.com:443
-lima-int3.bmw.com:80
-lima-prod3.bmw.com:443
-lima-prod3.bmw.com:80
-loki-int3.bmw.com:443
-loki-int3.bmw.com:80
+lima.bmw.com:443
+lima.bmw.com:80
+link.bmw.com:443
+link.bmw.com:80
+loki-prod3.bmw.com:443
+loki-prod3.bmw.com:80
+loki.bmw.com:443
+loki.bmw.com:80
