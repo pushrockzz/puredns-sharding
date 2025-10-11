@@ -1,12 +1,3 @@
-mitarbeiterfahrzeuge.bmw.com A 193.23.33.7
-mmi-i.bmw.com A 160.46.248.103
-mmp-int-na.bmw.com A 170.34.41.69
-mmp-na.bmw.com A 170.34.41.63
-mmp-test-rep-na.bmw.com A 170.34.41.61
-mndm-pre-n1.bmw.com A 160.46.253.121
-mndm-preprod-n1-b2bwen.bmw.com A 160.46.225.84
-mnomgr-e2e-us.bmw.com A 170.34.59.125
-motorcyclebyo-i.bmw.com A 170.34.127.182
-mscaksblue.bmw.com A 160.46.231.31
-msds-prod.bmw.com A 170.34.59.154
-msds.bmw.com A 170.34.104.174
+itbb-wen.bmw.com A 160.46.245.161
+itsm20-gate-int.bmw.com A 160.48.213.125
+jetstream.bmw.com A 192.109.190.184

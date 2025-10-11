@@ -1,12 +1,3 @@
-mitarbeiterfahrzeuge.bmw.com
-mmi-i.bmw.com
-mmp-int-na.bmw.com
-mmp-na.bmw.com
-mmp-test-rep-na.bmw.com
-mndm-pre-n1.bmw.com
-mndm-preprod-n1-b2bwen.bmw.com
-mnomgr-e2e-us.bmw.com
-motorcyclebyo-i.bmw.com
-mscaksblue.bmw.com
-msds-prod.bmw.com
-msds.bmw.com
+itbb-wen.bmw.com
+itsm20-gate-int.bmw.com
+jetstream.bmw.com

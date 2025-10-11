@@ -1,2 +1,1 @@
-mnomgr-e2e-us.bmw.com:443
-mnomgr-e2e-us.bmw.com:80
+itsm20-gate-int.bmw.com:443
