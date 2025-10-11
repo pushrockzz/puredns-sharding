@@ -1,6 +1,8 @@
-rema-t7.bmw.com A 160.46.225.145
-remaapi-p4.bmw.com A 160.46.240.247
-res.service.bmw.com A 13.35.37.107
-res.service.bmw.com A 13.35.37.127
-res.service.bmw.com A 13.35.37.37
-res.service.bmw.com A 13.35.37.39
+rema.bmw.com A 160.46.231.16
+remaapi-i.bmw.com A 160.46.240.175
+remaapi-t.bmw.com A 160.46.240.175
+res.service.bmw.com A 3.173.219.122
+res.service.bmw.com A 3.173.219.19
+res.service.bmw.com A 3.173.219.83
+res.service.bmw.com A 3.173.219.94
+resuk.bmw.com A 160.46.240.247

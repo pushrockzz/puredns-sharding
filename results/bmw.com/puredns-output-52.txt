@@ -1,3 +1,6 @@
-rema-t7.bmw.com
-remaapi-p4.bmw.com
+redirect.bmw.com
+rema.bmw.com
+remaapi-i.bmw.com
+remaapi-t.bmw.com
 res.service.bmw.com
+resuk.bmw.com
