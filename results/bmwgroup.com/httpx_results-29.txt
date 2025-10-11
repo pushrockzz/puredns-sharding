@@ -1,6 +1,9 @@
+http://hsplw-prod1.bmwgroup.com
 http://livaas1-web.bmwgroup.com
 http://login-b2d-int.bmwgroup.com
 http://loginwindows.bmwgroup.com
 http://loginwindows.bmwgroup.com:443
+https://hsplw-int1.bmwgroup.com
+https://hsplw-prod1.bmwgroup.com
 https://livaas1-web.bmwgroup.com
 https://login-b2d-int.bmwgroup.com
