@@ -1,9 +1,0 @@
-esa1-emea-b2d-t.bmwgroup.com
-esa1-us-e2e.bmwgroup.com
-esa1-us-i-b2d.bmwgroup.com
-esaus-i.bmwgroup.com
-esaus.bmwgroup.com
-eshop-i.bmwgroup.com
-etk-b2d.bmwgroup.com
-etk-b2i-eam-ig.bmwgroup.com
-evonext-int.bmwgroup.com
