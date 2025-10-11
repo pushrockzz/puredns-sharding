@@ -1,6 +1,5 @@
-spweb1.bmw.com A 192.109.190.64
-sra-apac.bmw.com A 193.23.43.252
-sspcc.bmw.com A 160.46.226.253
+spweb2.bmw.com A 192.109.190.235
+sta-bps.bmw.com A 52.178.88.134
 sta-ouc.bmw.com A 52.178.88.134
 stage2docu.bmw.com A 160.46.226.206
-stintedg.bmw.com A 160.46.225.109
+stedge01.bmw.com A 160.46.240.140
