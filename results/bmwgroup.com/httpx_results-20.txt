@@ -1,4 +1,14 @@
+http://edab2bi-6.bmwgroup.com
+http://education.bmwgroup.com
+http://emm-idm.bmwgroup.com
 http://grs-cp.bmwgroup.com
+https://edab2bi-6.bmwgroup.com
+https://edarest.bmwgroup.com
+https://education.bmwgroup.com
+https://emm-eas-ode.bmwgroup.com
+https://emm-idm.bmwgroup.com
+https://emm-idm.bmwgroup.com:7443
+https://employeeapp.bmwgroup.com
 https://grs-cp.bmwgroup.com
 https://gwm4-i.bmwgroup.com
 https://gwm4-i.bmwgroup.com:80
