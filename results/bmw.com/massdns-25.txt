@@ -1,4 +1,3 @@
 gcdm-business-services-i.bmw.com A 160.46.227.64
-gcdm-pf-i.bmw.com A 160.46.225.119
 gcdm-pf-t.bmw.com A 160.46.225.117
 gdcm-pf-i.bmw.com A 160.46.225.119
