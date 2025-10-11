@@ -1,9 +1,0 @@
-figma.bmwgroup.com
-finance-bmwfs.bmwgroup.com
-fisp-i2.bmwgroup.com
-fisp.bmwgroup.com
-fleetdata-e2e-emea.bmwgroup.com
-fleetdata.bmwgroup.com
-focus-tst.bmwgroup.com
-focuspro-int.bmwgroup.com
-focuspro.bmwgroup.com
