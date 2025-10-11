@@ -8,6 +8,10 @@ http://cfs-test4.bmwgroup.com
 http://cfs-test4.bmwgroup.com:443
 http://cfs-uk-int3.bmwgroup.com
 http://cfsza.bmwgroup.com
+http://drfp.bmwgroup.com
+http://dtos-bmw-iv4.bmwgroup.com
+http://dtos-mini-iv4.bmwgroup.com
+http://dtos-mini-pv4.bmwgroup.com
 https://cfjp-dealerportal.bmwgroup.com
 https://cfs-ch-int3.bmwgroup.com
 https://cfs-cs-int1.bmwgroup.com
@@ -18,3 +22,11 @@ https://cfs-fr-int3.bmwgroup.com
 https://cfs-maintenance.bmwgroup.com
 https://cfs-uk-int3.bmwgroup.com
 https://cfsza.bmwgroup.com
+https://dsccorporate-prod.bmwgroup.com
+https://dsccorporate-prod.bmwgroup.com:80
+https://dtos-bmw-iv4.bmwgroup.com
+https://dtos-mini-iv4.bmwgroup.com
+https://dtos-mini-pv4.bmwgroup.com
+https://dwp-dev.bmwgroup.com
+https://dyna-synth-cn-int.bmwgroup.com
+https://eccza.bmwgroup.com

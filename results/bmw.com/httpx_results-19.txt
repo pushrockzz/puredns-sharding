@@ -4,8 +4,13 @@ http://cctemea2-rp.bmw.com
 http://cctza2-rp.bmw.com
 http://cesim-de-prod.bmw.com
 http://cesim-de-prod.bmw.com:443
+http://dwhb-poc.bmw.com
+http://dza-prod.bmw.com
+http://e2e-b2b-swl-sec2.bmw.com
 https://cctbank-rp.bmw.com
 https://cctemea1-rp.bmw.com
 https://cctemea2-rp.bmw.com
 https://cert-int.bmw.com
 https://cert.bmw.com
+https://dza-prod.bmw.com
+https://e2e-b2b-swl-sec2.bmw.com
