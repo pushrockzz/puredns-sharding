@@ -3,12 +3,9 @@ int-b2v-b2bappus.bmw.com:80
 int-b2vcsfleet.bmw.com:443
 int-cop.bmw.com:443
 int-cop.bmw.com:80
+int-crmuknext.bmw.com:443
 int-fenata.bmw.com:443
 int-fenata.bmw.com:80
 int-rest-swlsec2.bmw.com:80
-int-swl-sec2.bmw.com:443
-int-swl-sec2.bmw.com:80
-ipa-lecomp.bmw.com:443
-ipa-lecomp.bmw.com:80
-ipa-prod.bmw.com:443
-ipa-prod.bmw.com:80
+ipa-int1.bmw.com:443
+ipa-int1.bmw.com:80
