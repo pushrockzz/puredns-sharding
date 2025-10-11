@@ -2,5 +2,3 @@ nspeuwebp.bmw.com:443
 nspeuwebp.bmw.com:80
 ocean.bmw.com:443
 ocean.bmw.com:80
-ods-int.bmw.com:443
-ods-int.bmw.com:80

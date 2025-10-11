@@ -1,3 +1,2 @@
 nspeuwebp.bmw.com A 160.46.231.42
 ocean.bmw.com A 160.46.231.22
-ods-int.bmw.com A 160.46.236.237
