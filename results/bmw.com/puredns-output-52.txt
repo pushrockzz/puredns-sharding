@@ -1,6 +1,7 @@
-redirect.bmw.com
+redsquare.bmw.com
+rema-i.bmw.com
+rema-i7.bmw.com
+rema-i8.bmw.com
 rema.bmw.com
 remaapi-i.bmw.com
-remaapi-t.bmw.com
-res.service.bmw.com
-resuk.bmw.com
+remaapi.bmw.com
