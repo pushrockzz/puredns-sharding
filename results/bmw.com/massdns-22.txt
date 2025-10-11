@@ -1,2 +1,7 @@
-hrci.bmw.com A 160.46.224.68
-hsplw-int1.bmw.com A 160.48.212.211
+exd-int.bmw.com A 160.46.248.254
+exd-prod.bmw.com A 160.46.244.158
+external.bmw.com A 160.46.244.54
+famos-uk-maint.bmw.com A 160.46.231.27
+famos-uk.bmw.com A 160.46.244.106
+fed-i.bmw.com A 160.46.248.179
+federation.bmw.com A 193.23.33.40

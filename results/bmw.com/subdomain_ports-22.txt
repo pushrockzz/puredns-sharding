@@ -1,1 +1,8 @@
-hsplw-int1.bmw.com:443
+exd-int.bmw.com:443
+exd-int.bmw.com:80
+exd-prod.bmw.com:443
+exd-prod.bmw.com:80
+external.bmw.com:80
+famos-uk-maint.bmw.com:443
+famos-uk-maint.bmw.com:80
+famos-uk.bmw.com:443

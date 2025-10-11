@@ -1,2 +1,7 @@
-hrci.bmw.com
-hsplw-int1.bmw.com
+exd-int.bmw.com
+exd-prod.bmw.com
+external.bmw.com
+famos-uk-maint.bmw.com
+famos-uk.bmw.com
+fed-i.bmw.com
+federation.bmw.com

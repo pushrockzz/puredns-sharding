@@ -1,0 +1,8 @@
+extranet-maintenance-page-i.bmwgroup.com
+extranet-sgate-premium.bmwgroup.com
+factory-viewer.bmwgroup.com
+famos.bmwgroup.com
+famosi.bmwgroup.com
+famosigf5.bmwgroup.com
+famospgf5.bmwgroup.com
+fed-i.bmwgroup.com
