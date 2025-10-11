@@ -1,5 +1,7 @@
 http://am-device-usa.bmw.com
 http://amc-test.bmw.com
+https://aem-author-inta3.bmw.com
+https://aem-author-inta3.bmw.com:80
 https://am-device-us-e2e.bmw.com
 https://am-device-us-e2e.bmw.com:80
 https://am-device-usa.bmw.com
