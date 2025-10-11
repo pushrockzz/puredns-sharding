@@ -1,9 +1,8 @@
-am-device-de.bmw.com
+am-device-de-e2e.bmw.com
 am-device-us-e2e.bmw.com
+am-device-usa.bmw.com
 amab-p.bmw.com
 amab-p14.bmw.com
 amareto-p11.bmw.com
-amc-test.bmw.com
-anaba-int.bmw.com
 anaba.bmw.com
-ap1.auth.bmw.com
+aos-osp-i2.bmw.com
