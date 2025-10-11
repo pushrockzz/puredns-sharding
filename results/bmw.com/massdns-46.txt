@@ -1,5 +1,6 @@
-opendxm-i-noyubikey.bmw.com A 160.48.165.214
-opendxm.bmw.com A 160.46.240.189
+opal.bmw.com A 160.46.240.206
+opalint.bmw.com A 160.46.250.201
+opendxm-i.bmw.com A 160.48.212.250
 opendxmi.bmw.com A 160.46.251.221
 optibe-integ.bmw.com A 160.46.227.159
-optibe.bmw.com A 160.46.233.241
+optibe-new.bmw.com A 160.46.243.223
