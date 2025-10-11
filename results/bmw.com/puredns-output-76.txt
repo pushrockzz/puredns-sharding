@@ -1,2 +1,5 @@
+xflow.bmw.com
 xpita-b2b-old.bmw.com
+xpita-b2b.bmw.com
 xpita-int-b2b-old.bmw.com
+xpita-int-b2b.bmw.com

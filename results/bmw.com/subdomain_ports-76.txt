@@ -1,0 +1,2 @@
+xflow.bmw.com:443
+xflow.bmw.com:80
