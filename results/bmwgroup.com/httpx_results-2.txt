@@ -1,1 +1,2 @@
+http://360portal-inttest.bmwgroup.com
 https://auth-next.bmwgroup.com
