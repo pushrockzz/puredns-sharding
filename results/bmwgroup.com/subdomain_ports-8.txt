@@ -1,6 +1,1 @@
-boveda-mx.bmwgroup.com:80
-cadlrinv-prod.bmwgroup.com:443
-cadlrinv-prod.bmwgroup.com:80
-caesar-info-int.bmwgroup.com:443
-caesar-info-int.bmwgroup.com:80
-cam-test.bmwgroup.com
+alscore-test.bmwgroup.com:443

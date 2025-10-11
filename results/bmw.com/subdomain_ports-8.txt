@@ -1,2 +1,6 @@
-br.dwp.bmw.com:443
-callisto.bmw.com
+am-device-de-e2e.bmw.com:443
+am-device-de-e2e.bmw.com:80
+am-device-usa.bmw.com:443
+am-device-usa.bmw.com:80
+anaba.bmw.com:443
+anaba.bmw.com:80
