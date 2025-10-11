@@ -1,0 +1,11 @@
+http://test.mini-mx.bmwgroup.com
+http://test.pdi-mx.bmwgroup.com
+http://test.swg-mx.bmwgroup.com
+http://test2-ukdealer.bmwgroup.com
+http://test2-ukdealer.bmwgroup.com:443
+http://timi.bmwgroup.com
+https://test.mini-mx.bmwgroup.com
+https://test.pdi-mx.bmwgroup.com
+https://test.swg-mx.bmwgroup.com
+https://tgjp-ig-i.bmwgroup.com
+https://timi.bmwgroup.com
