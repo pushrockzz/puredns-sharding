@@ -1,6 +1,2 @@
-publish-integ.bmw.com:443
-publish-integ.bmw.com:80
-qsense-condis-dev-b2b.bmw.com:443
-qsense-condis-dev-b2b.bmw.com:80
-qsense-condis-int.bmw.com:443
-qsense-condis-int.bmw.com:80
+matrx-frontend-int.bmw.com:443
+matrx-frontend-test.bmw.com:443

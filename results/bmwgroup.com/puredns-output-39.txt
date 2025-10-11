@@ -1,9 +1,4 @@
-pumadep.bmwgroup.com
-pumaigf.bmwgroup.com
-pumaint.bmwgroup.com
-pumapgf-us.bmwgroup.com
-pvmessage.bmwgroup.com
-pvmessage.cn.bmwgroup.com
-qma2.bmwgroup.com
-qsense-emea-int-b2d.bmwgroup.com
-qsense-pragati-prod-b2d.bmwgroup.com
+mail01.bmwgroup.com
+mail12.bmwgroup.com
+mailhub.bmwgroup.com
+maintenance.bmwgroup.com

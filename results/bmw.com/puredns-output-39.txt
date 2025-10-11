@@ -1,9 +1,2 @@
-publish-integ.bmw.com
-publishing.bmw.com
-pumaigfb2b.bmw.com
-qa-bps.bmw.com
-qsense-condis-dev-b2b.bmw.com
-qsense-condis-int.bmw.com
-quickshots.bmw.com
-qwin-i2.bmw.com
-qwin.bmw.com
+matrx-frontend-int.bmw.com
+matrx-frontend-test.bmw.com
