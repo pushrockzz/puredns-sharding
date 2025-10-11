@@ -1,2 +1,4 @@
-kam5-int.bmw.com
-kamaeleon.bmw.com
+goto.bmw.com
+grpw-int-a1-b2bwen.bmw.com
+grpwweb-int-a1.bmw.com
+gsa-dev-search.bmw.com

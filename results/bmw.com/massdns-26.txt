@@ -1,1 +1,3 @@
-kam5-int.bmw.com A 160.48.213.166
+goto.bmw.com A 62.245.246.210
+grpw-int-a1-b2bwen.bmw.com A 160.46.227.105
+grpwweb-int-a1.bmw.com A 160.48.165.19

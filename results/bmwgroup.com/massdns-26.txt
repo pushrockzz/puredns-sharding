@@ -1,12 +1,2 @@
-jpsgw1-int.bmwgroup.com A 160.48.213.40
-jpsgw1.bmwgroup.com A 160.46.244.67
-jswup-mmc.bmwgroup.com A 160.46.240.97
-kai-b2i-int-eam.bmwgroup.com A 160.48.165.49
-kai-b2i-qa-eam.bmwgroup.com A 160.48.165.48
-kai-device-qa-wen.bmwgroup.com A 160.46.251.192
-kai-m2m-prod.bmwgroup.com A 160.46.240.247
-kai-m2m-qa.bmwgroup.com A 160.46.240.175
-kai-prod.bmwgroup.com A 160.46.226.25
-kai-qa-b2i-basic.bmwgroup.com A 160.48.212.231
-kai-user-qa-eam.bmwgroup.com A 160.46.227.78
-kasio-int-wen.bmwgroup.com A 160.46.249.202
+gwkinfous-t.bmwgroup.com A 170.34.127.183
+gwm4-i.bmwgroup.com A 160.48.212.101
