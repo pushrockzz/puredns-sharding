@@ -1,0 +1,12 @@
+test.mini-mx.bmwgroup.com
+test.pay.bmwgroup.com
+test.pdi-mx.bmwgroup.com
+test.swg-mx.bmwgroup.com
+test2-ukdealer.bmwgroup.com
+testdrive-t.bmwgroup.com
+testdrive.bmwgroup.com
+testorg03.bmwgroup.com
+testparallel.pdi-mx.bmwgroup.com
+testparallel.swg-mx.bmwgroup.com
+tgjp-ig-i.bmwgroup.com
+timi.bmwgroup.com

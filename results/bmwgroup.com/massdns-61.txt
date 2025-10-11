@@ -1,0 +1,11 @@
+test.mini-mx.bmwgroup.com A 170.34.100.64
+test.pdi-mx.bmwgroup.com A 170.34.100.75
+test.swg-mx.bmwgroup.com A 170.34.100.76
+test2-ukdealer.bmwgroup.com A 160.46.227.38
+testdrive-t.bmwgroup.com A 160.48.212.62
+testdrive.bmwgroup.com A 160.46.240.33
+testorg03.bmwgroup.com A 160.46.225.85
+testparallel.pdi-mx.bmwgroup.com A 170.34.41.75
+testparallel.swg-mx.bmwgroup.com A 170.34.41.76
+tgjp-ig-i.bmwgroup.com A 160.48.165.188
+timi.bmwgroup.com A 160.48.213.249
