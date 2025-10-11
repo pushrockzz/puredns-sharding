@@ -1,5 +1,16 @@
+http://int-fenata.bmw.com
+http://int-rest-swlsec2.bmw.com
+http://ipa-int1.bmw.com
 http://mfscs-b2b-external-wen-int.bmw.com
 http://minimaintenance.bmw.com
+https://int-b2v-b2bappus.bmw.com
+https://int-b2v-b2bappus.bmw.com:80
+https://int-b2vcsfleet.bmw.com
+https://int-cop.bmw.com
+https://int-cop.bmw.com:80
+https://int-crmuknext.bmw.com
+https://int-fenata.bmw.com
+https://ipa-int1.bmw.com
 https://mdm-int-webclient.bmw.com
 https://mdm-webclient.bmw.com
 https://mfscs-b2b-external-wen-int.bmw.com
