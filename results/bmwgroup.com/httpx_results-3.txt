@@ -1,4 +1,6 @@
 http://5trias2.bmwgroup.com
+http://adf-qa2-b2b-wen12-2.bmwgroup.com:443
+http://adfus-qa1.bmwgroup.com
 http://admin.bmwgroup.com
 http://aida-i.bmwgroup.com
 http://aida.bmwgroup.com
@@ -12,8 +14,14 @@ http://alertnowp07.bmwgroup.com
 http://alertnowp30.bmwgroup.com
 http://alphera-t.bmwgroup.com
 https://5trias2.bmwgroup.com
+https://adf-qa1-b2b-wen12-2.bmwgroup.com
+https://adf-qa1-b2b-wen12-2.bmwgroup.com:80
+https://adf-qa1-wen12-2.bmwgroup.com
+https://adf-qa1-wen12-2.bmwgroup.com:80
+https://adf-qa2-b2b-wen12-2.bmwgroup.com:80
 https://adfus-qa1-b2b-wen12-2.bmwgroup.com
 https://adfus-qa1-b2b-wen12-2.bmwgroup.com:80
+https://adfus-qa1.bmwgroup.com
 https://adfus-qa2-b2b-wen12-2.bmwgroup.com
 https://adfus-qa2-b2b-wen12-2.bmwgroup.com:80
 https://adfw12-wen-b2b.bmwgroup.com
