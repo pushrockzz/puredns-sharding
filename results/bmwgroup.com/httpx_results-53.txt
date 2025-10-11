@@ -1,0 +1,4 @@
+https://kai-qa-b2i-basic.bmwgroup.com
+https://kai-qa.bmwgroup.com
+https://kai-qa.bmwgroup.com:80
+https://kai-user-qa-eam.bmwgroup.com
