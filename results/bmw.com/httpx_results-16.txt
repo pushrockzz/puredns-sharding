@@ -1,4 +1,6 @@
+http://br.dwp-int.bmw.com
 http://everest.bmw.com
+https://br.dwp-int.bmw.com
 https://erfx-ttg.bmw.com
 https://erfx-ttg.bmw.com:80
 https://everest.bmw.com
