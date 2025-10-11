@@ -1,7 +1,15 @@
+http://netftnoa-int.bmwgroup.com
+http://nhtsa-i.bmwgroup.com
+http://nhtsa.bmwgroup.com
 http://sms-int.bmwgroup.com
 http://sms-inte-b2d.bmwgroup.com
 http://sms-prod.bmwgroup.com
 http://snow-prod1.bmwgroup.com
+https://netftnoa-int.bmwgroup.com
+https://netftnoa.bmwgroup.com
+https://netftnoa.bmwgroup.com:80
+https://nhtsa-i.bmwgroup.com
+https://nhtsa.bmwgroup.com
 https://sms-hn-inte.bmwgroup.com
 https://sms-hn-inte.bmwgroup.com:80
 https://sms-int.bmwgroup.com
