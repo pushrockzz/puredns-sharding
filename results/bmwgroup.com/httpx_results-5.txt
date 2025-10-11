@@ -1,4 +1,6 @@
 http://a4i-es.bmwgroup.com
+http://alphera-t.bmwgroup.com
+http://alscore.bmwgroup.com
 http://asapp-content-b2i.bmwgroup.com
 http://asapp-content.bmwgroup.com
 http://asbonusitaprod-nf.bmwgroup.com
@@ -8,6 +10,9 @@ http://at-gd-int.bmwgroup.com
 http://at-gd.bmwgroup.com
 http://at-gkmwen.bmwgroup.com
 https://a4i-es.bmwgroup.com
+https://alphera-t.bmwgroup.com
+https://alscore.bmwgroup.com
+https://aos-ig-int.bmwgroup.com
 https://asbonusitaprod-nf.bmwgroup.com
 https://asm-i.bmwgroup.com
 https://at-bonus-int.bmwgroup.com
