@@ -1,2 +1,7 @@
-label4-i.bmwgroup.com:443
-label4-i.bmwgroup.com:80
+h5vco-bmw-test.bmwgroup.com:443
+hakat-prod.bmwgroup.com:443
+hakat-prod.bmwgroup.com:80
+hdsl-i.bmwgroup.com:80
+hdsl-t.bmwgroup.com:443
+hewint.bmwgroup.com:443
+hewint.bmwgroup.com:80

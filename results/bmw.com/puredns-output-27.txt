@@ -1,3 +1,1 @@
-klusa-b2b.bmw.com
-klusai-oidc-i.bmw.com
-labs.bmw.com
+hakat-b2b-int.bmw.com
