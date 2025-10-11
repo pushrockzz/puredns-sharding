@@ -1,3 +1,9 @@
+http://label.bmwgroup.com
+http://label4-i.bmwgroup.com
+http://lapv.bmwgroup.com
 http://pass-n.bmwgroup.com
 https://auth-next.bmwgroup.com
+https://label.bmwgroup.com
+https://label4-i.bmwgroup.com
+https://lapv.bmwgroup.com
 https://pass-n.bmwgroup.com
