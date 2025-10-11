@@ -1,2 +1,0 @@
-matrx-frontend-int.bmw.com
-matrx-frontend-test.bmw.com
