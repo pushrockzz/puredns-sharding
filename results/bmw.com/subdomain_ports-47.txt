@@ -1,2 +1,9 @@
-term-prod.bmw.com:443
-term-prod.bmw.com:80
+imm-int3-gf3.bmw.com:443
+imm-int7-gf3.bmw.com:443
+imm-test3-gf3.bmw.com:443
+imm-test3-gf3.bmw.com:80
+imm-test4-gf3.bmw.com:443
+imm-test4-gf3.bmw.com:80
+imobileauth.bmw.com:443
+imobileauth.bmw.com:80
+imsc.bmw.com:443
