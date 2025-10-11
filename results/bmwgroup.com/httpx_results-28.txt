@@ -1,2 +1,3 @@
 http://lapv.bmwgroup.com
+https://auth-next.bmwgroup.com
 https://lapv.bmwgroup.com
