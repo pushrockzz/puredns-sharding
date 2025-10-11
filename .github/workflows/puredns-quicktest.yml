@@ -437,7 +437,7 @@ jobs:
           else
             MATRIX_JSON=$(jq -cn --argjson n "$SHARDS_THIS_RUN" '[range($n)]')
             echo "Generated primary matrix for ${SHARDS_THIS_RUN} shards: $MATRIX_JSON"
-            echo "shard_matrix=$JSON_JSON" >> $GITHUB_OUTPUT
+            echo "shard_matrix=$MATRIX_JSON" >> $GITHUB_OUTPUT
           fi
 
       # <-- NEW STEP: Perform a reliable numeric comparison in Bash -->
