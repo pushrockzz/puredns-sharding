@@ -1,2 +1,2 @@
-goto.bmw.com:443
-goto.bmw.com:80
+grip-to-go-int.bmw.com
+grip-to-go.bmw.com

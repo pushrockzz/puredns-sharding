@@ -1,3 +1,4 @@
-goto.bmw.com A 62.245.246.210
-grpw-int-a1-b2bwen.bmw.com A 160.46.227.105
-grpwweb-int-a1.bmw.com A 160.48.165.19
+grip-to-go-int.bmw.com A 20.103.210.244
+grip-to-go.bmw.com A 20.23.194.190
+grpw-prod-a1.bmw.com A 160.46.231.195
+gss-next-coop.bmw.com A 160.46.244.201
