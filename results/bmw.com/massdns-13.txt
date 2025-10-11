@@ -1,3 +1,4 @@
 auth-next.bmwgroup.com A 18.198.171.174
 auth-next.bmwgroup.com A 3.74.116.178
 auth-next.bmwgroup.com A 35.156.58.143
+cis-lf-9test1.ads.bmw.com A 0.0.0.0

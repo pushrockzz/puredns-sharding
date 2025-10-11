@@ -1,3 +1,1 @@
-base-cn.bmw.com:443
-base-emea.bmw.com:443
-base-int-emea.bmw.com:443
+cis-lf-9test1.ads.bmw.com:500
