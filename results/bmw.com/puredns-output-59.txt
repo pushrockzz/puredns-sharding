@@ -1,6 +1,4 @@
-swhrli5.bmw.com
-swhrli7.bmw.com
-swhrlp.bmw.com
-swli12.bmw.com
-swlint3ie.bmw.com
-swlsec2ba-prod-emea.bmw.com
+swl-gf5.bmw.com
+swl-sec2.bmw.com
+swlp.bmw.com
+swlsec2ba-int-emea.bmw.com

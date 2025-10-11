@@ -1,2 +1,3 @@
-swli12.bmw.com A 160.48.165.201
-swlint3ie.bmw.com A 160.46.227.115
+swl-gf5.bmw.com A 160.46.233.184
+swl-sec2.bmw.com A 160.46.233.28
+swlp.bmw.com A 160.48.164.131

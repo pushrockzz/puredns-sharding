@@ -1,1 +1,4 @@
-swli12.bmw.com:443
+swl-gf5.bmw.com:443
+swl-gf5.bmw.com:80
+swl-sec2.bmw.com:443
+swl-sec2.bmw.com:80
