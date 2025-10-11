@@ -1,2 +1,5 @@
-www.parts.bmw.com
 www.pass.bmw.com
+www.pmt-i.bmw.com
+www.pmt.bmw.com
+www.pressclub.bmw.com
+www.ris.bmw.com
