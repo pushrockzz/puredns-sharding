@@ -1,0 +1,5 @@
+xpita-b2d-old.bmwgroup.com
+xpita-b2d.bmwgroup.com
+xpita-int-b2d-green.bmwgroup.com
+xpita-int-b2d.bmwgroup.com
+xrm-crm365-stage.bmwgroup.com

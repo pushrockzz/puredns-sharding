@@ -1,0 +1,2 @@
+xpita-b2d-old.bmwgroup.com A 160.46.243.253
+xpita-int-b2d-green.bmwgroup.com A 160.46.253.32
