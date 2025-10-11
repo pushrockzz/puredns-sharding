@@ -1,2 +1,7 @@
+http://astras-schulung.bmw.com
 http://cmp-test.bmw.com
+https://asc-prod-ha-wig.bmw.com
+https://astras-schulung.bmw.com
+https://astras.bmw.com
+https://astras.bmw.com:80
 https://cmp-test.bmw.com

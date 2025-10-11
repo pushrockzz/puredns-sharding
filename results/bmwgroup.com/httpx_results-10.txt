@@ -1,3 +1,4 @@
+http://astras.bmwgroup.com
 http://check-shop.bmwgroup.com
 http://check-shop.bmwgroup.com:443
 http://ckf-us-qa.bmwgroup.com
@@ -5,4 +6,5 @@ http://cms-containermovements-int.bmwgroup.com
 http://cms-containermovements-int.bmwgroup.com:443
 http://cms-containerprices.bmwgroup.com
 http://cms-containerprices.bmwgroup.com:443
+https://asm-i.bmwgroup.com
 https://ckf-us-qa.bmwgroup.com
