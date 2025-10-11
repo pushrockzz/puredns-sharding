@@ -1,0 +1,5 @@
+www.sia.bmwgroup.com A 52.58.231.225
+www.sip.bmwgroup.com A 160.46.244.163
+www.srpmm-integration.bmwgroup.com A 160.46.248.148
+www.zeprid-int.bmwgroup.com A 160.46.248.15
+www.zepridi-a.bmwgroup.com A 160.46.250.172

@@ -1,0 +1,4 @@
+www.sia.bmwgroup.com
+www.sip.bmwgroup.com:80
+www.srpmm-integration.bmwgroup.com:443
+www.srpmm-integration.bmwgroup.com:80
