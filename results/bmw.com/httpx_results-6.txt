@@ -13,6 +13,7 @@ https://api-sandbox.bmw.com
 https://aplaus.bmw.com
 https://aplaus.bmw.com:80
 https://arm-i.bmw.com
+https://asc-prod-ha-wig.bmw.com
 https://b2b-int-mig.bmw.com
 https://b2b-old.bmw.com
 https://b2btomcp-next.bmw.com
