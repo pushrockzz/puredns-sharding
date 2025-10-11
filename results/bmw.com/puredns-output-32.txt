@@ -1,3 +1,6 @@
-itms-int.bmw.com
+itbb-wen.bmw.com
+itms-new.bmw.com
+itms.bmw.com
+itsm20-gate-int.bmw.com
 iucp.bmw.com
 jetstream.bmw.com
