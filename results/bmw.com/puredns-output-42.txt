@@ -1,10 +1,5 @@
-motorcyclebyo-t.bmw.com
-motorsport.bmw.com
+mscaksblue.bmw.com
 mscaksgreen.bmw.com
 msds-prod.bmw.com
-msds.bmw.com
-mskprs.auth.bmw.com
-musicdelivery-ssl.auth.bmw.com
 my-app.bmw.com
-my-t.bmw.com
-my.auth.bmw.com
+my-i.bmw.com
