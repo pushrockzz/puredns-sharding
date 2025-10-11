@@ -1,0 +1,4 @@
+sacfs.bmwgroup.com
+salesassistant.bmwgroup.com:443
+salesassistant.bmwgroup.com:80
+scp-int.bmwgroup.com

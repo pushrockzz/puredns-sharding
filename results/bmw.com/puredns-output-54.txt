@@ -1,2 +1,1 @@
-www.funkfms.bmw.com
-www.iaa.bmw.com
+sapweb-int.bmw.com

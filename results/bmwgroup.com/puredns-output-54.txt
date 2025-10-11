@@ -1,2 +1,7 @@
-www.live.bmwgroup.com
-www.livestream.bmwgroup.com
+sa3next-i.bmwgroup.com
+sacfs.bmwgroup.com
+salesassistant.bmwgroup.com
+scap-test.bmwgroup.com
+score-test.bmwgroup.com
+score.bmwgroup.com
+scp-int.bmwgroup.com

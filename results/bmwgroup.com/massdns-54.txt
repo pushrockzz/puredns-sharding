@@ -1,0 +1,8 @@
+sa3next-i.bmwgroup.com A 160.46.236.131
+sacfs.bmwgroup.com A 3.121.240.99
+salesassistant.bmwgroup.com A 160.46.231.243
+score-test.bmwgroup.com A 160.46.250.205
+score.bmwgroup.com A 160.46.245.156
+scp-int.bmwgroup.com A 35.77.126.145
+scp-int.bmwgroup.com A 57.180.164.236
+scp-int.bmwgroup.com A 57.182.195.117
