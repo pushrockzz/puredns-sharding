@@ -1,1 +1,1 @@
-accessories.bmw.com A 160.46.226.83
+3gio-app-us.bmw.com A 170.34.100.20

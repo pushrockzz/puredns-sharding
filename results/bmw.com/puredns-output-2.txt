@@ -1,2 +1,1 @@
-accessories.bmw.com
-accessories2.bmw.com
+3gio-app-us.bmw.com
