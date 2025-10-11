@@ -1,2 +1,3 @@
-deploydirectori.bmw.com:443
-deploydirectori.bmw.com:80
+base-cn.bmw.com:443
+base-emea.bmw.com:443
+base-int-emea.bmw.com:443

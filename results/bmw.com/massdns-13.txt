@@ -1,4 +1,6 @@
-dealer.bmw.com A 160.46.226.143
-dealerportalsg-uat.bmw.com A 160.48.213.146
-deploydirectori.bmw.com A 160.46.227.133
-dev-nfsc-uk-rcm-services.bmw.com A 160.46.236.235
+base-cn.bmw.com A 160.48.164.40
+base-emea.bmw.com A 160.46.235.139
+base-int-emea.bmw.com A 160.48.213.155
+bdqv.bmw.com A 160.46.240.173
+bemiweb-i.bmw.com A 160.46.227.99
+bemiweb-payara-prod.bmw.com A 160.46.233.130
