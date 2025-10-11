@@ -1,0 +1,2 @@
+wvis-i.bmwgroup.com A 160.46.251.183
+wvius-services-int.bmwgroup.com A 160.48.212.49

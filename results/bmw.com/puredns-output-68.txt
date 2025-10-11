@@ -1,0 +1,4 @@
+www-origin-proda1.bmw.com
+www-origin-proda3.bmw.com
+www-origin-proda6.bmw.com
+www-pt.bmw.com

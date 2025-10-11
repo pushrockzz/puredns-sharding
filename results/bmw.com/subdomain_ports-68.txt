@@ -1,0 +1,5 @@
+www-origin-proda1.bmw.com:443
+www-origin-proda1.bmw.com:80
+www-origin-proda3.bmw.com:10050
+www-origin-proda3.bmw.com:123
+www-origin-proda3.bmw.com:80

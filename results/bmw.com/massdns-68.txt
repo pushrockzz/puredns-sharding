@@ -1,0 +1,3 @@
+www-origin-proda1.bmw.com A 160.46.226.164
+www-origin-proda3.bmw.com A 74.220.199.6
+www-origin-proda6.bmw.com A 160.46.231.100
