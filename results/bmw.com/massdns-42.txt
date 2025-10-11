@@ -1,2 +1,1 @@
-scp-ci.bmw.com A 160.46.231.207
-secure-sportmarketing-int.bmw.com A 160.46.250.156
+hakat-b2b-int.bmw.com A 160.46.227.205

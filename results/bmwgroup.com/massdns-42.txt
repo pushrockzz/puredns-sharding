@@ -1,8 +1,7 @@
-salesassistant.bmwgroup.com A 160.46.231.243
-sas-int.bmwgroup.com A 160.46.251.81
-scp-int.bmwgroup.com A 3.112.167.68
-scp-int.bmwgroup.com A 54.65.135.221
-scp-int.bmwgroup.com A 57.182.195.117
-secure-n.bmwgroup.com A 160.46.247.223
-secure.bmwgroup.com A 160.46.244.47
-securemail.bmwgroup.com A 160.46.232.163
+hakat-prod.bmwgroup.com A 160.46.247.241
+hats.bmwgroup.com A 160.46.247.213
+hdds-i.bmwgroup.com A 160.46.224.62
+heidi-next.bmwgroup.com A 160.46.237.189
+heidi-t.bmwgroup.com A 160.46.248.188
+heidi.bmwgroup.com A 160.46.233.73
+heidit-v5.bmwgroup.com A 160.48.212.42

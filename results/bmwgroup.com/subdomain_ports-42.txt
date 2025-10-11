@@ -1,7 +1,2 @@
-salesassistant.bmwgroup.com:443
-salesassistant.bmwgroup.com:80
-sas-int.bmwgroup.com:443
-sas-int.bmwgroup.com:80
-scp-int.bmwgroup.com
-securemail.bmwgroup.com:443
-securemail.bmwgroup.com:636
+hakat-prod.bmwgroup.com:443
+hakat-prod.bmwgroup.com:80

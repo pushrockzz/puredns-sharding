@@ -1,8 +1,7 @@
-salesassistant.bmwgroup.com
-sas-int.bmwgroup.com
-scp-int.bmwgroup.com
-secure-infonet3.bmwgroup.com
-secure-int-web-tic-mini-cn.bmwgroup.com
-secure-n.bmwgroup.com
-secure.bmwgroup.com
-securemail.bmwgroup.com
+hakat-prod.bmwgroup.com
+hats.bmwgroup.com
+hdds-i.bmwgroup.com
+heidi-next.bmwgroup.com
+heidi-t.bmwgroup.com
+heidi.bmwgroup.com
+heidit-v5.bmwgroup.com

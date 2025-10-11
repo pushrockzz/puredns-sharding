@@ -1,2 +1,0 @@
-secure-sportmarketing-int.bmw.com:443
-secure-sportmarketing-int.bmw.com:80
