@@ -1,4 +1,0 @@
-qsense-condis-dev-b2b.bmw.com:443
-qsense-condis-dev-b2b.bmw.com:80
-qsense-condis-int.bmw.com:443
-qsense-condis-int.bmw.com:80

@@ -1,4 +1,1 @@
-qsense-condis-dev-b2b.bmw.com A 160.46.243.144
-qsense-condis-int.bmw.com A 160.46.250.221
-rcss-ints1.bmw.com A 160.48.165.216
-rcss-prod-s2-b2bwen.bmw.com A 160.46.237.89
+qsense-condis-int.bmw.com A 10.97.10.200

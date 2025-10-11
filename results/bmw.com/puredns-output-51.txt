@@ -1,5 +1,3 @@
-qsense-condis-dev-b2b.bmw.com
 qsense-condis-int.bmw.com
+qwin-i2.bmw.com
 qwin.bmw.com
-rcss-ints1.bmw.com
-rcss-prod-s2-b2bwen.bmw.com
