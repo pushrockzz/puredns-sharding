@@ -1,5 +1,3 @@
-services-ddauswen-int.bmwgroup.com:443
-sf5-digital-sit.bmwgroup.com:443
-sfappza-int.bmwgroup.com:443
-sfappza-int.bmwgroup.com:80
-sgate.bmwgroup.com
+auth-next.bmwgroup.com
+hewint.bmwgroup.com:443
+hewint.bmwgroup.com:80
