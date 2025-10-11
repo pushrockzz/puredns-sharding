@@ -1,0 +1,4 @@
+vds-int-inter.bmw.com:443
+vintracking-next.bmw.com:10050
+vintracking-next.bmw.com:123
+vintracking-next.bmw.com:80

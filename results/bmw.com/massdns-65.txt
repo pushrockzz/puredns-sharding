@@ -1,0 +1,5 @@
+vds-int-inter.bmw.com A 160.46.250.226
+verdict-int.bmw.com A 160.46.225.96
+veveto.bmw.com A 160.46.240.131
+video.bmw.com A 195.27.218.61
+vintracking-next.bmw.com A 74.220.199.6

@@ -1,0 +1,12 @@
+vbsza.bmwgroup.com
+vcs-int.bmwgroup.com
+vcswen-int-api.bmwgroup.com
+vechain.bmwgroup.com
+vehicledatanext.bmwgroup.com
+vehicleregistration.bmwgroup.com
+velocity-component.bmwgroup.com
+velocity-uat.bmwgroup.com
+velocity.bmwgroup.com
+verkaufssystem.bmwgroup.com
+vew-i.bmwgroup.com
+vote.bmwgroup.com

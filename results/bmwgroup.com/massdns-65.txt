@@ -1,0 +1,7 @@
+vbsza.bmwgroup.com A 160.48.233.212
+vcs-int.bmwgroup.com A 170.34.59.224
+vcswen-int-api.bmwgroup.com A 160.48.212.169
+vechain.bmwgroup.com A 193.23.43.45
+vehicledatanext.bmwgroup.com A 160.46.226.168
+verkaufssystem.bmwgroup.com A 160.46.243.186
+vew-i.bmwgroup.com A 160.46.250.229

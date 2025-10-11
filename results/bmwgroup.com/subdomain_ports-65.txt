@@ -1,0 +1,3 @@
+vbsza.bmwgroup.com:443
+vbsza.bmwgroup.com:80
+vehicledatanext.bmwgroup.com:443
