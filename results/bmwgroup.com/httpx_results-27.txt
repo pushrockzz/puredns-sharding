@@ -1,2 +1,9 @@
+http://hakat-prod.bmwgroup.com
+http://hdsl-i.bmwgroup.com
+http://hewint.bmwgroup.com
 http://label4-i.bmwgroup.com
+https://h5vco-bmw-test.bmwgroup.com
+https://hakat-prod.bmwgroup.com
+https://hdsl-t.bmwgroup.com
+https://hewint.bmwgroup.com
 https://label4-i.bmwgroup.com
