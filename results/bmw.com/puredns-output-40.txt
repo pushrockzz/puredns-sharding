@@ -1,9 +1,0 @@
-rcss-int-s1-b2bwen.bmw.com
-rema-i8.bmw.com
-rema-t7.bmw.com
-remaapi-i.bmw.com
-remaapi-t.bmw.com
-remaapi-t4.bmw.com
-remaapi.bmw.com
-res.service.bmw.com
-resuk.bmw.com
