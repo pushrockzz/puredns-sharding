@@ -1,2 +1,2 @@
+hsplw-int1.bmw.com:443
 hsplw-prod1.bmw.com:443
-ias-p5-int-wen.bmw.com:443
