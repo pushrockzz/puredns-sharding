@@ -21,7 +21,7 @@ on:
       words_per_chunk:
         description: 'Words per chunk file (lines_per_chunk).'
         required: false
-        default: '200000'
+        default: '310000'
       domains_count:
         description: 'How many test domains to generate (default = 5)'
         required: false
@@ -32,7 +32,7 @@ env:
   MATRIX_SIZE: '20'
   COMBINED_WORDLIST: combined-wordlist.txt
   REMOTE_ZIP_URL: https://localdomain.pw/subdomain-bruteforce-list/all.txt.zip
-  CHUNK_LINES: "200000"
+  CHUNK_LINES: "310000"
   SORT_MEM: "4G"  
 
 jobs:
