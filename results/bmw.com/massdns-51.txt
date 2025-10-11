@@ -1,1 +1,2 @@
-qsense-condis-int.bmw.com A 10.97.10.200
+qwin-d.bmw.com A 40.114.172.248
+rcss-ints1.bmw.com A 160.48.165.216
