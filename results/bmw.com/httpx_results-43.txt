@@ -1,8 +1,11 @@
 http://myworkplace-int.bmw.com
 http://myworkplace-test.bmw.com
+http://myworkplace.bmw.com
 http://sera.bmw.com
 https://myworkplace-int.bmw.com
 https://myworkplace-test.bmw.com
+https://myworkplace.bmw.com
+https://neainfra-us-int.bmw.com
 https://services-recallsvc-int.bmw.com
 https://services-verification-int.bmw.com
 https://sgem-es-int-tpv.bmw.com
