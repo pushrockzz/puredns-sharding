@@ -3,6 +3,8 @@ http://at-bonuswen.bmwgroup.com
 http://at-fpmwenint.bmwgroup.com
 http://at-gd-int.bmwgroup.com
 http://at-gkmwen.bmwgroup.com
+http://cadlrinv-prod.bmwgroup.com
+http://carmenrfeisaml.bmwgroup.com
 http://compass-cmt.bmwgroup.com
 http://cq5bmwna-new.bmwgroup.com
 http://cq5bmwna-t-new.bmwgroup.com
@@ -19,6 +21,11 @@ https://at-gkmwen-int.bmwgroup.com:80
 https://at-gkmwen.bmwgroup.com
 https://auth-i-next.bmwgroup.com
 https://auth-next.bmwgroup.com
+https://cadlrinv-prod.bmwgroup.com
+https://cam-test.bmwgroup.com
+https://cargo-auth.bmwgroup.com
+https://cargo-device-qa1.bmwgroup.com
+https://carmenrfeisaml.bmwgroup.com
 https://compass-cmt.bmwgroup.com
 https://connectedrmiserviceadmin-e2e.bmwgroup.com
 https://connectedrmiserviceadmin.bmwgroup.com
