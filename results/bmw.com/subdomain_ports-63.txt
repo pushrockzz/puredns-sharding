@@ -1,7 +1,13 @@
+ts-cts-ui-prod-emea.bmw.com:443
+ts-cts-ui-prod-emea.bmw.com:80
 tsara-b2b-webeam.bmw.com:443
 tsara-b2b-webeam.bmw.com:80
 tsp-e2e-emea.bmw.com:443
+tsp-int-emea.bmw.com:443
+tsp-prod-cn.bmw.com:443
+tsp-prod-emea.bmw.com:443
+tsp-prod-us.bmw.com:443
+tsp-test-emea.bmw.com:443
 tspartner-prod-cn.bmw.com:443
-tssbemea-int.bmw.com:10050
-tssbemea-int.bmw.com:123
-tssbemea-int.bmw.com:80
+tst-toscar-us.bmw.com:443
+tst-toscar-us.bmw.com:80
