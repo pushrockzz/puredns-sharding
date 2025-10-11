@@ -1,2 +1,0 @@
-br.dwp-int.bmw.com:443
-br.dwp-int.bmw.com:80

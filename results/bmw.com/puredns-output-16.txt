@@ -1,1 +1,2 @@
-br.dwp-int.bmw.com
+dam-int.bmw.com
+dam2.bmw.com
