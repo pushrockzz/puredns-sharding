@@ -1,10 +1,14 @@
+http://opendxm-i.bmw.com
 http://opendxm.bmw.com
 http://optibe.bmw.com
 http://swl-gf5.bmw.com
 http://swlpineu.bmw.com
 http://swsf-integration.bmw.com
+https://opalint.bmw.com
+https://opalint.bmw.com:80
 https://opendxm-i-noyubikey.bmw.com
 https://opendxm-i-noyubikey.bmw.com:80
+https://opendxm-i.bmw.com
 https://opendxm.bmw.com
 https://optibe.bmw.com
 https://swl-gf5.bmw.com
