@@ -1,6 +1,10 @@
 http://hewint.bmwgroup.com
+http://n3wen.bmwgroup.com
+http://ndsus-test.bmwgroup.com
 https://auth-next.bmwgroup.com
 https://hewint.bmwgroup.com
+https://n3wen.bmwgroup.com
+https://neainfra-us-int.bmwgroup.com
 https://services-ddauswen-int.bmwgroup.com
 https://sf5-digital-sit.bmwgroup.com
 https://sfappza-int.bmwgroup.com
