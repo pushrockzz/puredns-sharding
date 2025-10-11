@@ -1,2 +1,2 @@
-audit.bmw.com:443
-audit.bmw.com:80
+cadpdm.bmw.com:443
+cadpdm.bmw.com:80

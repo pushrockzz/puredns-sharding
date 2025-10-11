@@ -1,6 +1,8 @@
-au-com.bmw.com
-audit-int-mobile.bmw.com
-audit.bmw.com
-auth-i-next.bmw.com
-auth.bmw.com
-autreg.bmw.com
+c2b-services-i.bmw.com
+c2b-services-t.bmw.com
+c2bfed-t.bmw.com
+c8cs.bmw.com
+cadpdm-int-prisma-gf5.bmw.com
+cadpdm-int-small-gf5.bmw.com
+cadpdm.bmw.com
+caebench2.bmw.com

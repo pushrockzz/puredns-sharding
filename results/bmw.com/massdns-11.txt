@@ -1,3 +1,6 @@
-audit-int-mobile.bmw.com A 160.48.212.160
-audit.bmw.com A 160.46.240.119
-autreg.bmw.com A 160.46.244.21
+c2bfed-t.bmw.com A 160.46.251.154
+c8cs.bmw.com A 160.46.231.69
+cadpdm-int-prisma-gf5.bmw.com A 160.48.165.103
+cadpdm-int-small-gf5.bmw.com A 160.48.165.232
+cadpdm.bmw.com A 160.46.237.28
+caebench2.bmw.com A 160.46.240.153
