@@ -1,8 +1,9 @@
-cctbank-rp.bmw.com A 160.46.226.65
-cctemea1-rp.bmw.com A 160.46.247.227
-cctemea2-rp.bmw.com A 160.46.247.226
-cctza2-rp.bmw.com A 160.48.233.133
-cert-int.bmw.com A 160.48.213.168
-cert.bmw.com A 160.46.235.243
-cesim-de-prod.bmw.com A 160.46.235.138
-cfte-rwq.bmw.com A 160.46.251.143
+dsmon.bmw.com A 160.46.238.123
+dwh-webservice-int.bmw.com A 114.66.81.150
+dwhb-poc.bmw.com A 160.46.248.65
+dza-prod.bmw.com A 160.46.240.150
+e2e-b2b-swl-sec2.bmw.com A 160.46.238.112
+eagle.bmw.com A 122.200.104.108
+eaina.ddr-i.bmw.com A 160.46.240.175
+ebestellung.bmw.com A 160.46.240.179
+eccoi.bmw.com A 160.46.251.222
