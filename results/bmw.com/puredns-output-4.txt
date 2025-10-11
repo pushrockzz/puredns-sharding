@@ -1,9 +1,0 @@
-am-device-us-e2e.bmw.com
-am-device-usa.bmw.com
-amab-p14.bmw.com
-amc-test.bmw.com
-api-dev.bmw.com
-api-sandbox-dev.bmw.com
-api-sandbox.bmw.com
-api.ris.bmw.com
-app.stage.bmw.com
