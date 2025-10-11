@@ -1,0 +1,6 @@
+http://what-p.bmw.com
+http://wire-int.bmw.com
+http://workflow.bmw.com
+https://what-p.bmw.com
+https://wheelfinder-dev.bmw.com
+https://workflow.bmw.com

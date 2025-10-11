@@ -1,0 +1,9 @@
+http://webshop-int.bmwgroup.com
+http://webshop-test.bmwgroup.com
+http://wenp-dynatrace.bmwgroup.com
+https://webshop-int.bmwgroup.com
+https://webshop-test.bmwgroup.com
+https://wen-ig-aos.bmwgroup.com
+https://wen-ig-b2iua.bmwgroup.com
+https://wen-ig-bps-int.bmwgroup.com
+https://wenp-dynatrace.bmwgroup.com
