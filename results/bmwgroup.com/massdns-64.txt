@@ -1,0 +1,11 @@
+uscdservices-i.bmwgroup.com A 170.34.127.250
+usedcar.bmwgroup.com A 122.200.123.192
+usp-int2.bmwgroup.com A 160.46.227.123
+usp-prod0.bmwgroup.com A 160.46.226.15
+usp-regression-1.bmwgroup.com A 160.46.227.53
+usp-regression-2.bmwgroup.com A 160.46.227.57
+usp-regression-3.bmwgroup.com A 160.46.227.49
+usp-regression-5.bmwgroup.com A 160.46.227.60
+usp-ucp-test.bmwgroup.com A 160.46.225.61
+usp13-dev.bmwgroup.com A 160.46.225.126
+uvms.bmwgroup.com A 160.46.237.188

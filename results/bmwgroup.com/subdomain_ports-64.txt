@@ -1,0 +1,5 @@
+usp-prod0.bmwgroup.com:443
+usp-regression-1.bmwgroup.com:80
+usp-regression-5.bmwgroup.com:443
+usp-ucp-test.bmwgroup.com:443
+usp-ucp-test.bmwgroup.com:80

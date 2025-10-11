@@ -1,0 +1,11 @@
+uscdservices-i.bmwgroup.com
+usedcar.bmwgroup.com
+usp-int2.bmwgroup.com
+usp-prod0.bmwgroup.com
+usp-regression-1.bmwgroup.com
+usp-regression-2.bmwgroup.com
+usp-regression-3.bmwgroup.com
+usp-regression-5.bmwgroup.com
+usp-ucp-test.bmwgroup.com
+usp13-dev.bmwgroup.com
+uvms.bmwgroup.com
