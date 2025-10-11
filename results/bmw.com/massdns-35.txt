@@ -1,2 +1,1 @@
-klusa-b2b.bmw.com A 160.46.226.46
 klusa.bmw.com A 160.46.238.72
