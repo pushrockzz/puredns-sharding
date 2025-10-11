@@ -1,6 +1,7 @@
 http://lpptest.bmw.com
 http://prod-web-teleservicefleet.bmw.com
 http://psdmweb-prod.bmw.com
+https://lpkm-next-int.bmw.com
 https://prod-cop.bmw.com
 https://prod-cop.bmw.com:80
 https://psdmweb-prod.bmw.com
