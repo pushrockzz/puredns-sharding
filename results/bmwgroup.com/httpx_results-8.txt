@@ -2,5 +2,6 @@ http://boveda-mx.bmwgroup.com
 http://cadlrinv-prod.bmwgroup.com
 http://caesar-info-int.bmwgroup.com
 http://caesar-info-int.bmwgroup.com:443
+https://alscore-test.bmwgroup.com
 https://cadlrinv-prod.bmwgroup.com
 https://cam-test.bmwgroup.com
