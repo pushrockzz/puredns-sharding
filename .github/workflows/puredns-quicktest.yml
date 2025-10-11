@@ -1118,6 +1118,142 @@ jobs:
           name: httpx-results-${{ matrix.shard }}
           path: results/**/httpx_results-*.txt
           retention-days: 1      
+
+  summarize_results:
+    name: Summarize and Commit Result Counts
+    runs-on: ubuntu-latest
+    needs: [prepare, brute]
+    if: always() 
+
+    steps:
+      - name: Checkout final repository state
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Generate Result Count Summary
+        id: generate_summary
+        shell: bash
+        run: |
+          RESULTS_DIR="results"
+          OUTPUT_FILE="count_result.txt"
+          
+          echo "--- Generating result count summary with per-domain totals ---"
+          
+          if [ ! -d "$RESULTS_DIR" ]; then
+            echo "⚠️  Results directory not found. Nothing to summarize."
+            echo "summary_generated=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          # Use a powerful awk script to process all files, count lines,
+          # and aggregate totals in a single pass.
+          find "$RESULTS_DIR" -type f -name "*.txt" -not -name 'wildcards-*.txt' | \
+          awk '
+            {
+              # Get line count for the current file
+              cmd = "wc -l < \"" $0 "\""
+              cmd | getline count
+              close(cmd)
+
+              # Split the path to get parts
+              n = split($0, path, "/")
+              domain = path[n-1]
+              filename = path[n]
+              
+              # Extract the file pattern (e.g., "httpx_results", "massdns")
+              sub(/-[0-9]+\.txt$/, "", filename)
+              pattern = filename
+              
+              # Store the individual line count for this specific file
+              individual_counts[domain, $0] = count
+              
+              # Add to the total for this domain and pattern
+              domain_totals[domain, pattern] += count
+              
+              # Keep track of all unique domains and patterns
+              if (! (domain in domains)) {
+                  domains[domain] = 1
+              }
+              if (! (pattern in patterns)) {
+                  patterns[pattern] = 1
+              }
+            }
+            END {
+              # --- Print the aggregated totals first ---
+              # Sort domains alphabetically for clean output
+              PROCINFO["sorted_in"] = "@ind_str_asc"
+              for (domain in domains) {
+                  print "--- Domain: " domain " ---"
+                  # Sort patterns alphabetically
+                  for (pattern in patterns) {
+                      # Only print if there is a total for this pattern in this domain
+                      if (domain_totals[domain, pattern] > 0) {
+                          printf "  TOTAL %-20s: %d\n", pattern, domain_totals[domain, pattern]
+                      }
+                  }
+                  print "" # Add a blank line for readability
+              }
+              
+              print "\n--- Individual File Counts ---"
+              
+              # --- Then, print the individual file counts ---
+              for (key in individual_counts) {
+                  # Split the composite key back into domain and filepath
+                  split(key, parts, SUBSEP)
+                  domain = parts[1]
+                  filepath = parts[2]
+                  
+                  # Extract just the filename for printing
+                  n = split(filepath, path_parts, "/")
+                  filename = path_parts[n]
+                  
+                  # Get the stored count
+                  count = individual_counts[key]
+                  
+                  # Format the output as requested
+                  if (count > 0) {
+                      print domain ":- " filename, count
+                  }
+              }
+            }
+          ' > "$OUTPUT_FILE"
+          
+          if [ ! -s "$OUTPUT_FILE" ]; then
+            echo "No results found in any files. Summary file is empty."
+            echo "summary_generated=false" >> $GITHUB_OUTPUT
+          else
+            echo "✅ Result summary generated successfully."
+            echo "summary_generated=true" >> $GITHUB_OUTPUT
+            
+            echo "--- Summary Preview (count_result.txt) ---"
+            cat "$OUTPUT_FILE"
+            echo "----------------------------------------"
+          fi
+
+      - name: Commit Result Summary
+        if: steps.generate_summary.outputs.summary_generated == 'true'
+        shell: bash
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions-bot@users.noreply.github.com"
+          git add count_result.txt
+          if git diff --staged --quiet; then
+            echo "Result summary is unchanged. No commit needed."
+            exit 0
+          fi
+          git commit -m "chore: Update result count summary"
+          MAX_ATTEMPTS=3
+          for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
+            echo "[Attempt $i/$MAX_ATTEMPTS] Pushing result summary..."
+            if git pull --rebase && git push; then
+              echo "✅ Successfully pushed result summary."
+              exit 0
+            fi
+            echo "Push failed. Retrying in 5 seconds..."
+            sleep 5
+          done
+          echo "::error:: All push attempts for the summary file failed."         
   
   dispatch-next:
     name: dispatch-next-run
