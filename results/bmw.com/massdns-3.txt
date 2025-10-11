@@ -1,12 +1,1 @@
-adf-qa2.bmw.com A 160.46.253.38
-adfus-service-prod.bmw.com A 160.46.235.203
-adfus-services.bmw.com A 160.46.240.247
-aem-author-inta1.bmw.com A 160.46.250.163
-aem-author-inta2.bmw.com A 160.46.251.175
-aem-author-inta3.bmw.com A 160.46.250.189
-aem-author-inta7.bmw.com A 160.46.228.186
-aem-author-pre1.bmw.com A 160.46.224.49
-aem-author-pre2.bmw.com A 160.46.224.51
-aem-author-proda2.bmw.com A 160.46.243.244
-aero.bmw.com A 160.46.237.73
-aida.bmw.com A 160.46.243.149
+72h-radar-int1.bmw.com A 160.46.228.213
