@@ -2,7 +2,10 @@ http://audit.bmw.com
 http://cadpdm.bmw.com
 http://cpp-i.bmw.com
 https://audit.bmw.com
+https://cadpdm-prod-as.bmw.com
+https://cadpdm-prod-as.bmw.com:80
 https://cadpdm.bmw.com
+https://cam-test.bmw.com
 https://cogdev2.bmw.com
 https://cogdev2.bmw.com:80
 https://cpp-i.bmw.com
