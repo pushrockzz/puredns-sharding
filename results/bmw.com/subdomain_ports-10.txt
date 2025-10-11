@@ -1,4 +1,5 @@
-cmp-author-int.bmw.com:443
-cmp-author-int.bmw.com:80
-cmp-test.bmw.com:443
-cmp-test.bmw.com:80
+asc-prod-ha-wig.bmw.com:443
+astras-schulung.bmw.com:443
+astras-schulung.bmw.com:80
+astras.bmw.com:443
+astras.bmw.com:80

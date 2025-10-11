@@ -1,9 +1,6 @@
-charging-inttest.bmwgroup.com A 160.46.228.224
-check-shop.bmwgroup.com A 160.46.226.254
-ckf-us-qa.bmwgroup.com A 3.217.160.168
-ckf-us-qa.bmwgroup.com A 52.206.205.74
-ckf-us-qa.bmwgroup.com A 52.7.68.17
-cms-containermovements-int.bmwgroup.com A 160.48.165.154
-cms-containerprices.bmwgroup.com A 160.48.164.87
-cmx-author-int7.bmwgroup.com A 160.46.225.253
-cnapi-i.bmwgroup.com A 122.200.105.115
+as-tp-sfa-int.bmwgroup.com A 160.46.251.225
+as-tp-sfa-prod.bmwgroup.com A 160.46.244.47
+asapdealer.bmwgroup.com A 160.46.240.12
+asm-i.bmwgroup.com A 160.48.212.57
+aspr-b2d-aw-int.bmwgroup.com A 160.46.236.39
+astras.bmwgroup.com A 160.46.240.81

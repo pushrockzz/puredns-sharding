@@ -1,8 +1,5 @@
-chbe-test-us.bmw.com
-cloud2cloud.bmw.com
-cmp-author-int.bmw.com
-cmp-pp.bmw.com
-cmp-test.bmw.com
-cmsp-author.bmw.com
-cmx-author-int-b2b.bmw.com
-cmx-author-int4.bmw.com
+asc-int4.bmw.com
+asc-prod-ha-wig.bmw.com
+aspr-b2b.bmw.com
+astras-schulung.bmw.com
+astras.bmw.com
