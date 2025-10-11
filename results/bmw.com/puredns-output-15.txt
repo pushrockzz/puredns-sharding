@@ -1,6 +1,4 @@
-bmw-prod-a2-b2bwen.bmw.com
-bmw-test-a1.bmw.com
-bmw1solutionhk-uat.bmw.com
-bmwfs-i.bmw.com
-bne4.bmw.com
-bo3prod.bmw.com
+crmuk.bmw.com
+csbe-int-na-temp.bmw.com
+csbe-int-na.bmw.com
+csbe-test-gf3.bmw.com

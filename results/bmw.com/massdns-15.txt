@@ -1,5 +1,4 @@
-bmw-prod-a2-b2bwen.bmw.com A 160.46.237.166
-bmw-test-a1.bmw.com A 160.48.165.192
-bmwfs-i.bmw.com A 160.46.228.30
-bne4.bmw.com A 160.46.231.161
-bo3prod.bmw.com A 160.46.233.146
+crmuk.bmw.com A 160.46.240.247
+csbe-int-na-temp.bmw.com A 170.34.41.120
+csbe-int-na.bmw.com A 170.34.41.66
+csbe-test-gf3.bmw.com A 160.46.228.210

@@ -1,0 +1,2 @@
+csbe-test-gf3.bmw.com:443
+csbe-test-gf3.bmw.com:80
