@@ -1,0 +1,7 @@
+mdm-int.bmwgroup.com
+mediapool.bmwgroup.com
+meethr-int.bmwgroup.com
+meethr.bmwgroup.com
+messe.bmwgroup.com
+micu-int.bmwgroup.com
+micu-test.bmwgroup.com

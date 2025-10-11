@@ -1,0 +1,7 @@
+mdm-int.bmwgroup.com A 192.109.190.79
+mediapool.bmwgroup.com A 160.46.226.184
+meethr-int.bmwgroup.com A 160.46.227.155
+meethr.bmwgroup.com A 160.46.245.223
+messe.bmwgroup.com A 62.245.187.105
+micu-int.bmwgroup.com A 160.46.227.45
+micu-test.bmwgroup.com A 160.46.227.46

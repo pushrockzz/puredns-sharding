@@ -1,0 +1,5 @@
+mdc-int.bmw.com
+mdm-int-webclient.bmw.com
+mdm-webclient.bmw.com
+mfscs-b2b-external-wen-e2e.bmw.com
+mftiedge01.bmw.com

@@ -1,11 +1,5 @@
-rdrsales-wen.bmwgroup.com:443
-rdrsales-wen.bmwgroup.com:80
-rdrsales.bmwgroup.com:443
-rdrsales.bmwgroup.com:80
-redirect.bmwgroup.com:80
-renibus.bmwgroup.com:443
-renibus.bmwgroup.com:80
-repairmanual-bmwmotorrad.bmwgroup.com:443
-repairmanual-bmwmotorrad.bmwgroup.com:80
-reporting-uat.bmwgroup.com:443
-reporting-uat.bmwgroup.com:80
+mdm-int.bmwgroup.com:443
+mediapool.bmwgroup.com:443
+mediapool.bmwgroup.com:80
+meethr.bmwgroup.com:443
+meethr.bmwgroup.com:80
