@@ -2,6 +2,7 @@ http://oan3.bmwgroup.com
 http://ooo-i.bmwgroup.com
 http://ooo-t.bmwgroup.com
 http://origin.bmwgroup.com
+https://auth-next.bmwgroup.com
 https://oan3.bmwgroup.com
 https://onl-osmc-i2.bmwgroup.com
 https://ooo-i.bmwgroup.com
