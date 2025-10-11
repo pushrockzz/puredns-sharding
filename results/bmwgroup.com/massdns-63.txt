@@ -1,0 +1,11 @@
+trz-device-prod-us.bmwgroup.com A 170.34.127.149
+trz-toyota-int.bmwgroup.com A 160.46.251.68
+tsara-int-b2d-webeam.bmwgroup.com A 160.46.225.250
+uat-bmwinfobahn.bmwgroup.com A 170.34.104.252
+uat-bps.bmwgroup.com A 122.200.104.91
+uatbmwgroupinfobahn.bmwgroup.com A 170.34.59.41
+ucp-int-uat-1-apisec-gw.bmwgroup.com A 160.46.240.175
+ucp-int-uat-2-apisec-gw.bmwgroup.com A 160.46.240.175
+ucp-services-preprod.bmwgroup.com A 160.46.225.247
+ucsl-int.bmwgroup.com A 160.46.224.250
+ums-int.bmwgroup.com A 160.46.248.144

@@ -1,0 +1,6 @@
+trz-toyota-int.bmwgroup.com:443
+trz-toyota-int.bmwgroup.com:80
+uat-bmwinfobahn.bmwgroup.com:443
+uat-bmwinfobahn.bmwgroup.com:80
+uatbmwgroupinfobahn.bmwgroup.com:443
+uatbmwgroupinfobahn.bmwgroup.com:80

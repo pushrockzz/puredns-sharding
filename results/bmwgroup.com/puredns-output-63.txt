@@ -1,0 +1,13 @@
+trz-device-prod-us.bmwgroup.com
+trz-toyota-int.bmwgroup.com
+tsara-int-b2d-webeam.bmwgroup.com
+tsara-ref-b2d-oidc.bmwgroup.com
+uat-bmwinfobahn.bmwgroup.com
+uat-bps.bmwgroup.com
+uatbmwgroupinfobahn.bmwgroup.com
+ucp-int-uat-1-apisec-gw.bmwgroup.com
+ucp-int-uat-2-apisec-gw.bmwgroup.com
+ucp-prod-sa2.bmwgroup.com
+ucp-services-preprod.bmwgroup.com
+ucsl-int.bmwgroup.com
+ums-int.bmwgroup.com

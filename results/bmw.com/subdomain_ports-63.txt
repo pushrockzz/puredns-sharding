@@ -1,0 +1,7 @@
+tsara-b2b-webeam.bmw.com:443
+tsara-b2b-webeam.bmw.com:80
+tsp-e2e-emea.bmw.com:443
+tspartner-prod-cn.bmw.com:443
+tssbemea-int.bmw.com:10050
+tssbemea-int.bmw.com:123
+tssbemea-int.bmw.com:80

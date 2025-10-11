@@ -1,0 +1,10 @@
+tsara-b2b-oidc.bmw.com
+tsara-b2b-webeam.bmw.com
+tsara-int-b2b-oidc.bmw.com
+tsp-e2e-emea.bmw.com
+tspartner-int.bmw.com
+tspartner-prod-cn.bmw.com
+tssbemea-int.bmw.com
+tssbus-prod.bmw.com
+tst-toscar.bmw.com
+twen-p.bmw.com

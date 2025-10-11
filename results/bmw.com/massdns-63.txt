@@ -1,0 +1,8 @@
+tsara-b2b-webeam.bmw.com A 160.46.233.15
+tsp-e2e-emea.bmw.com A 160.46.227.163
+tspartner-int.bmw.com A 160.46.240.175
+tspartner-prod-cn.bmw.com A 160.46.226.177
+tssbemea-int.bmw.com A 74.220.199.6
+tssbus-prod.bmw.com A 160.46.243.164
+tst-toscar.bmw.com A 160.46.225.89
+twen-p.bmw.com A 160.46.240.165
