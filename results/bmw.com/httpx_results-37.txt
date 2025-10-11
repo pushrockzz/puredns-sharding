@@ -1,7 +1,14 @@
+http://lima.bmw.com
+http://link.bmw.com
+http://loki-prod3.bmw.com
+http://loki.bmw.com
 http://pdmweb-int-neu.bmw.com
 http://pki-p2x-b2d-ui-emea-prod.bmw.com
 http://pki-p2x-b2i-ui-emea-e2e.bmw.com
 http://plw-int.bmw.com
+https://lima.bmw.com
+https://loki-prod3.bmw.com
+https://loki.bmw.com
 https://pinningdb-i.bmw.com
 https://pinningdb-p.bmw.com
 https://pki-p2x-b2d-ui-emea-prod.bmw.com

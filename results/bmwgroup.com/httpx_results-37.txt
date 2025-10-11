@@ -1,3 +1,5 @@
+http://livaas1-web.bmwgroup.com
+http://login-b2d-int.bmwgroup.com
 http://pdi-mx.bmwgroup.com
 http://perseus-dev.bmwgroup.com
 http://perseus-int.bmwgroup.com
@@ -12,6 +14,8 @@ http://pkz-device-int-wen.bmwgroup.com
 http://plw-prod.bmwgroup.com
 http://plwd1.bmwgroup.com
 http://poco.bmwgroup.com
+https://livaas1-web.bmwgroup.com
+https://login-b2d-int.bmwgroup.com
 https://pdi-mx.bmwgroup.com
 https://pgms-arji.bmwgroup.com
 https://pgms-ashi.bmwgroup.com
