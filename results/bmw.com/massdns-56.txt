@@ -1,2 +1,1 @@
-www.thebigidea.bmw.com A 212.224.18.15
-wwwedi.bmw.com A 192.109.190.104
+shop-new.bmw.com A 160.46.235.24

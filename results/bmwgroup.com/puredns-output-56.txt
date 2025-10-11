@@ -1,5 +1,2 @@
-www.webservice.bmwgroup.com
-wwwt1.bmwgroup.com
-wwwt3.bmwgroup.com
-wxe2-test.bmwgroup.com
-wxe2.bmwgroup.com
+shop-int-bmw-dedit.bmwgroup.com
+sip.partner.bmwgroup.com
