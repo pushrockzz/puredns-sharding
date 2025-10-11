@@ -1,1 +1,7 @@
-5trias2.bmwgroup.com A 160.46.251.75
+adf-qa1-b2b-wen12-2.bmwgroup.com A 160.48.213.241
+adf-qa1-wen12-2.bmwgroup.com A 160.48.213.245
+adf-qa2-b2b-wen12-2.bmwgroup.com A 160.48.213.243
+adfus-qa1-b2b-wen12-2.bmwgroup.com A 170.34.127.37
+adfus-qa1.bmwgroup.com A 170.34.127.14
+adm-pmt3-test-gcdm.bmwgroup.com A 160.46.227.87
+admin.bmwgroup.com A 160.46.240.11

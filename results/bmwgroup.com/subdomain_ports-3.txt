@@ -1,2 +1,12 @@
-5trias2.bmwgroup.com:443
-5trias2.bmwgroup.com:80
+adf-qa1-b2b-wen12-2.bmwgroup.com:443
+adf-qa1-b2b-wen12-2.bmwgroup.com:80
+adf-qa1-wen12-2.bmwgroup.com:443
+adf-qa1-wen12-2.bmwgroup.com:80
+adf-qa2-b2b-wen12-2.bmwgroup.com:443
+adf-qa2-b2b-wen12-2.bmwgroup.com:80
+adfus-qa1-b2b-wen12-2.bmwgroup.com:443
+adfus-qa1-b2b-wen12-2.bmwgroup.com:80
+adfus-qa1.bmwgroup.com:443
+adfus-qa1.bmwgroup.com:80
+admin.bmwgroup.com:443
+admin.bmwgroup.com:80

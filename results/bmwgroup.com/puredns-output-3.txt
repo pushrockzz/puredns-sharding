@@ -1,1 +1,7 @@
-5trias2.bmwgroup.com
+adf-qa1-b2b-wen12-2.bmwgroup.com
+adf-qa1-wen12-2.bmwgroup.com
+adf-qa2-b2b-wen12-2.bmwgroup.com
+adfus-qa1-b2b-wen12-2.bmwgroup.com
+adfus-qa1.bmwgroup.com
+adm-pmt3-test-gcdm.bmwgroup.com
+admin.bmwgroup.com
