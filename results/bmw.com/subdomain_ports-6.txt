@@ -1,6 +1,2 @@
-apac.wit.bmw.com:443
-api-sandbox.bmw.com
-aplaus.bmw.com:443
-aplaus.bmw.com:80
-arm-i.bmw.com:443
-asc-prod-wig.bmw.com:443
+api-dev.bmw.com
+api-int.bmw.com

@@ -1,10 +1,8 @@
-apac.wit.bmw.com
+api-dev.bmw.com
 api-dev1.bmw.com
-api-dev2.bmw.com
+api-int.bmw.com
 api-sandbox-dev.bmw.com
-api-sandbox.bmw.com
-aplaus.bmw.com
-app.stage.bmw.com
-arm-i.bmw.com
+api-uat.bmw.com
+api.ris.bmw.com
+asapb2b.bmw.com
 asc-int.bmw.com
-asc-prod-wig.bmw.com
