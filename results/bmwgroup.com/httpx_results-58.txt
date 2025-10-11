@@ -1,0 +1,10 @@
+http://sps-rspsa-prod0.bmwgroup.com
+http://srpmm-int-ui-agnt.bmwgroup.com
+http://stabi.bmwgroup.com
+http://stg-grs-cp.bmwgroup.com
+https://spl-test.bmwgroup.com
+https://srd-test.bmwgroup.com
+https://srpmm-int-ui-agnt.bmwgroup.com
+https://sta-iucp.bmwgroup.com
+https://stabi.bmwgroup.com
+https://stg-grs-cp.bmwgroup.com
