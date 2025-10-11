@@ -389,6 +389,7 @@ jobs:
             resolvers.txt
             resolvers-trusted.txt
             domains/domains.txt
+          retention-days: 1     
  
 coordinate_and_dispatch:
     name: Coordinate & Dispatch Batches
