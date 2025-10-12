@@ -1,7 +1,6 @@
+aem-author-inta1.bmw.com:443
 aem-author-inta3.bmw.com:443
 aem-author-inta3.bmw.com:80
 aem-author-inta6.bmw.com:443
 aero-sc-int.bmw.com:443
 aero-sc-int.bmw.com:80
-aero-sc.bmw.com:443
-aero-sc.bmw.com:80
