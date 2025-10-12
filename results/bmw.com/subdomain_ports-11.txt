@@ -1,1 +1,3 @@
-cam-test.bmw.com
+cadpdm-prod-small.bmw.com:443
+cadpdm-prod-small.bmw.com:80
+callisto.bmw.com

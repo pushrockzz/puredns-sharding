@@ -1,8 +1,6 @@
-c2b-i.bmw.com A 160.46.251.146
+c2b-t.bmw.com A 160.46.251.142
 c2bfed-t.bmw.com A 160.46.251.154
-c8cs.bmw.com A 160.46.231.69
-cadpdm-int-as-gf5.bmw.com A 160.48.165.104
-cadpdm-int-prisma-gf5.bmw.com A 160.48.165.103
 cadpdm-int-small-gf5.bmw.com A 160.48.165.232
-cam-test.bmw.com A 18.158.103.141
-cam-test.bmw.com A 3.77.91.4
+cadpdm-prod-small.bmw.com A 160.46.226.20
+caebench2.bmw.com A 160.46.240.153
+callisto.bmw.com A 20.103.233.217
