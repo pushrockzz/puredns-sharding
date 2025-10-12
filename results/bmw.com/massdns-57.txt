@@ -1,12 +1,9 @@
 slotbooking-next.bmw.com A 170.34.127.99
-slotbooking.bmw.com A 170.34.41.167
+slotbooking-p10-int.bmw.com A 170.34.59.61
 slwa-e2e.bmw.com A 160.46.236.205
-smp-p.bmw.com A 160.46.240.43
 smp-t.bmw.com A 160.46.227.138
+sms-int-b2d.bmw.com A 160.46.224.132
 sms-inte-b2b.bmw.com A 160.46.229.216
-sms-prod-b2b.bmw.com A 160.46.237.115
+smstqc-int-b2b.bmw.com A 160.46.224.92
 smstqc-prod-b2b.bmw.com A 160.46.243.77
-smw-pp-b2b.bmw.com A 160.46.233.170
 socialmedia.bmw.com A 160.46.244.54
-spetros.bmw.com A 160.46.240.37
-spider-i.bmw.com A 160.48.213.170
