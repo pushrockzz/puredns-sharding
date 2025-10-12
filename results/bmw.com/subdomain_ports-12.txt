@@ -1,16 +1,4 @@
-cctapac-rp.bmw.com:443
-cctapac-rp.bmw.com:80
 cctbank-rp.bmw.com:443
 cctbank-rp.bmw.com:80
-cctbankint-rp.bmw.com:443
-cctbankint-rp.bmw.com:80
-cctemea1-rp.bmw.com:443
-cctemea1-rp.bmw.com:80
 cctemea2-rp.bmw.com:443
 cctemea2-rp.bmw.com:80
-cctza2-rp.bmw.com:80
-cert.bmw.com:443
-cesim-de-e2e.bmw.com:443
-cesim-de-e2e.bmw.com:80
-cesim-de-prod.bmw.com:443
-cesim-de-prod.bmw.com:80
