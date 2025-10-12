@@ -1,3 +1,4 @@
-api-dev.bmw.com
+api-int.bmw.com
 api-sandbox.bmw.com
-asc-prod-ha-wig.bmw.com:443
+aplaus.bmw.com:443
+aplaus.bmw.com:80
