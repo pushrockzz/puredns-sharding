@@ -3,4 +3,3 @@ itms-new.bmw.com A 160.46.243.217
 itms.bmw.com A 160.46.240.49
 itsm20-gate-int.bmw.com A 160.48.213.125
 iucp.bmw.com A 194.55.91.208
-jetstream.bmw.com A 192.109.190.184
