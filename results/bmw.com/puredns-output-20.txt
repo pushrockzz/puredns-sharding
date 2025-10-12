@@ -1,4 +1,7 @@
-edab2bi-2.bmw.com
-edawsi.bmw.com
-efa-int-wen.bmw.com
+eda2.bmw.com
+efaplus.bmw.com
+emcq.bmw.com
+encs-b2b.bmw.com
 engagehk-dev.bmw.com
+engagehk.bmw.com
+engineoil-approval.bmw.com
