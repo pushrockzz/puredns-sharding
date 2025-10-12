@@ -1,8 +1,14 @@
 http://iff-blue.bmw.com
+http://iff-int.bmw.com
 http://iff-prod-neu.bmw.com
+http://iff-prod.bmw.com
+http://imm-dev7.bmw.com
 http://imm-test3-gf3.bmw.com
 http://imobileauth.bmw.com
+https://iff-int.bmw.com
 https://iff-prod-neu.bmw.com
+https://iff-prod.bmw.com
+https://imm-int3-gf3.bmw.com
 https://imm-test3-gf3.bmw.com
 https://imobileauth.bmw.com
 https://matrx-frontend-vsys.bmw.com
