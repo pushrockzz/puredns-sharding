@@ -1,4 +1,7 @@
 wpmd.bmw.com A 160.46.231.151
-www-origin-inti2.bmw.com A 160.46.251.101
-www-origin-proda3.bmw.com A 160.46.231.43
+www-origin-preprod2.bmw.com A 160.46.224.123
+www-origin-proda1.bmw.com A 160.46.226.164
+www-origin-proda2.bmw.com A 160.46.226.165
 www-origin-proda6.bmw.com A 160.46.231.100
+www-origin-prodn2.bmw.com A 160.46.231.127
+www-origin.bmw.com A 160.46.245.162
