@@ -1,6 +1,6 @@
-b2v-b2bappus.bmw.com A 170.34.127.122
 b8fbb-bea10.bmw.com A 160.46.240.185
 bank.api.bmw.com A 34.8.99.176
-bao-admin-int.bmw.com A 160.46.225.95
+base-e2e-us.bmw.com A 160.48.164.51
 base-emea.bmw.com A 160.46.235.139
+bdqv.bmw.com A 160.46.240.173
 bemiweb-payara-prod.bmw.com A 160.46.233.130
