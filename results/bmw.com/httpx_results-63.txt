@@ -1,7 +1,12 @@
+http://ts-cts-ui-prod-emea.bmw.com
 http://tst-toscar-us.bmw.com
 http://tst-toscar-us.bmw.com:443
+https://ts-cts-ui-prod-emea.bmw.com
 https://tsp-e2e-emea.bmw.com
 https://tsp-int-emea.bmw.com
+https://tsp-prod-cn.bmw.com
+https://tsp-prod-emea.bmw.com
+https://tsp-prod-us.bmw.com
 https://tsp-test-emea.bmw.com
 https://tspartner-e2e-cn.bmw.com
 https://tspartner-e2e-us.bmw.com
