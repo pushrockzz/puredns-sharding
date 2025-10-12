@@ -1,7 +1,11 @@
 redsquare.bmw.com A 193.23.33.28
-rema-i.bmw.com A 160.48.212.114
 rema-i7.bmw.com A 160.46.251.207
 rema-i8.bmw.com A 160.48.213.214
 rema.bmw.com A 160.46.231.16
 remaapi-i.bmw.com A 160.46.240.175
-remaapi.bmw.com A 160.46.240.247
+remaapi-p4.bmw.com A 160.46.240.247
+res.service.bmw.com A 3.171.61.50
+res.service.bmw.com A 3.171.61.80
+res.service.bmw.com A 3.171.61.83
+res.service.bmw.com A 3.171.61.96
+resuk.bmw.com A 160.46.240.247

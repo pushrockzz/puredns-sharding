@@ -1,7 +1,11 @@
+rebrush.bmw.com
+redirect.bmw.com
 redsquare.bmw.com
-rema-i.bmw.com
+register.labs.bmw.com
 rema-i7.bmw.com
 rema-i8.bmw.com
 rema.bmw.com
 remaapi-i.bmw.com
-remaapi.bmw.com
+remaapi-p4.bmw.com
+res.service.bmw.com
+resuk.bmw.com
