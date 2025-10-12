@@ -1,9 +1,10 @@
-mini-int-a3.bmw.com A 160.46.225.90
 mini-prod-a1-b2bwen.bmw.com A 160.46.237.177
-minimaintenance.bmw.com A 170.34.41.103
-mmp-gf3.bmw.com A 160.46.238.65
+mmi-i.bmw.com A 160.46.248.103
+mmi-new.bmw.com A 160.46.243.215
+mmp-na.bmw.com A 170.34.41.63
 mndm-int-n1-b2bwen.bmw.com A 160.46.225.185
 mndm-int-n2-b2bwen.bmw.com A 160.46.225.133
-mndm-pre-n2.bmw.com A 160.48.165.128
-mndm-preprod-n2-b2bwen.bmw.com A 160.46.225.86
-mndm-prod-n2-b2bwen.bmw.com A 160.46.237.212
+mndm-pre-n1.bmw.com A 160.46.253.121
+mndm-preprod-n1-b2bwen.bmw.com A 160.46.225.84
+mndm-prod-n1-b2bwen.bmw.com A 160.46.237.184
+mnomgr.bmw.com A 160.46.226.203

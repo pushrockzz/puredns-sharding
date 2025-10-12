@@ -1,9 +1,10 @@
-mini-int-a3.bmw.com
 mini-prod-a1-b2bwen.bmw.com
-minimaintenance.bmw.com
-mmp-gf3.bmw.com
+mmi-i.bmw.com
+mmi-new.bmw.com
+mmp-na.bmw.com
 mndm-int-n1-b2bwen.bmw.com
 mndm-int-n2-b2bwen.bmw.com
-mndm-pre-n2.bmw.com
-mndm-preprod-n2-b2bwen.bmw.com
-mndm-prod-n2-b2bwen.bmw.com
+mndm-pre-n1.bmw.com
+mndm-preprod-n1-b2bwen.bmw.com
+mndm-prod-n1-b2bwen.bmw.com
+mnomgr.bmw.com
