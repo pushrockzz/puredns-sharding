@@ -1,3 +1,6 @@
 bike.bmw.com
-bipicc.bmw.com
-bmw-test-a6.bmw.com
+bmw-int-5.bmw.com
+bmw-test-a5.bmw.com
+bmwfs-i.bmw.com
+bmwfs-t.bmw.com
+bmwmuseumapp-cmp-int.bmw.com
