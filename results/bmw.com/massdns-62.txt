@@ -1,6 +1,6 @@
-tllnet.bmw.com A 160.46.231.61
+tll-i.bmw.com A 160.46.251.73
+tllweb.bmw.com A 160.46.243.106
 tms-int-b2d.bmw.com A 160.46.227.213
-tpc-test.bmw.com A 160.46.250.145
-tpdm.bmw.com A 160.46.248.199
-tqc-int-b2b.bmw.com A 160.46.229.215
-truck-timeslot-portal.bmw.com A 51.124.46.200
+tms-prod.bmw.com A 160.46.238.47
+tqc-int-b2b-aws.bmw.com A 160.46.251.247
+trainingsmedia.bmw.com A 213.145.225.60
