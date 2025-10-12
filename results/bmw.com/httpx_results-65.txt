@@ -1,1 +1,7 @@
+http://vds-inter.bmw.com
+http://vds-mobile-int.bmw.com
+http://vds-mobile-int.bmw.com:443
+https://vds-int-inter.bmw.com
+https://vds-inter.bmw.com
+https://vip-next-int-gf5.bmw.com
 https://vip-testentw-gf5.bmw.com
