@@ -1,6 +1,8 @@
 http://int-b2b-swl-sec2.bmw.com
 http://int-fenata.bmw.com
 http://int-rest-swlsec2.bmw.com
+http://int-swl-sec2.bmw.com
+http://int-swl-sec2.bmw.com:443
 http://ipa-int1.bmw.com
 http://mfscs-b2b-external-wen-int.bmw.com
 http://minimaintenance.bmw.com
