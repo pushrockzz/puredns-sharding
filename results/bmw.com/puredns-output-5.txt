@@ -1,4 +1,5 @@
+am-device-de.bmw.com
+am-device-us-e2e.bmw.com
 am-device-usa.bmw.com
-anaba-int.bmw.com
-anaba.bmw.com
+amos.bmw.com
 aos-osp-i2.bmw.com

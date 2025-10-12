@@ -1,4 +1,6 @@
+am-device-de.bmw.com A 160.46.231.143
+am-device-us-e2e.bmw.com A 170.34.59.68
 am-device-usa.bmw.com A 170.34.104.231
-anaba-int.bmw.com A 160.48.213.34
-anaba.bmw.com A 160.46.245.217
+amos.bmw.com A 160.46.241.48
+amos.bmw.com A 160.46.241.60
 aos-osp-i2.bmw.com A 160.46.224.36
