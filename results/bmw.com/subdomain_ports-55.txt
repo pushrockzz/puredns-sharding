@@ -1,4 +1,8 @@
+secure-sportmarketing-int.bmw.com:443
+secure-sportmarketing-int.bmw.com:80
 secure.sportmarketing.bmw.com:443
 securelogin.bmw.com:443
 securelogin.bmw.com:80
-services-recallsvc-prod.bmw.com:443
+sera.bmw.com:80
+services-recallsvc-int.bmw.com:443
+sgem.bmw.com:80
