@@ -1,1 +1,3 @@
+qsense-condis-int.bmw.com:443
+qsense-condis-int.bmw.com:80
 qwin-d.bmw.com

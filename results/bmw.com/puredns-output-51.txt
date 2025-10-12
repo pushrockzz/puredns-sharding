@@ -1,4 +1,6 @@
+qsense-condis-int.bmw.com
+quickshots.bmw.com
 qwin-d.bmw.com
-qwin-i2.bmw.com
-qwin.bmw.com
-rcss-ints1.bmw.com
+qwin-t.bmw.com
+rcss-int-s1-b2bwen.bmw.com
+rcss-prod-s2-b2bwen.bmw.com
