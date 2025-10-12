@@ -1,6 +1,5 @@
-strong.bmw.com:443
-strong.bmw.com:80
-swlpineu.bmw.com:443
-swlpineu.bmw.com:80
-swsf-integration.bmw.com:443
-swsf-integration.bmw.com:80
+swl-gf5.bmw.com:443
+swl-gf5.bmw.com:80
+swl-sec2.bmw.com:443
+swl-sec2.bmw.com:80
+swli9.bmw.com:443

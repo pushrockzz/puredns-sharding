@@ -1,4 +1,6 @@
-strong.bmw.com A 160.46.233.226
-swlpineu.bmw.com A 160.46.251.107
-sws2-integration.bmw.com A 160.46.251.190
-swsf-integration.bmw.com A 160.46.224.195
+swl-gf5.bmw.com A 160.46.233.184
+swl-sec2.bmw.com A 160.46.233.28
+swli9.bmw.com A 160.46.229.66
+swlint1ie.bmw.com A 160.46.228.225
+swlint3ie.bmw.com A 160.46.227.115
+swsf-3.bmw.com A 160.46.243.88
