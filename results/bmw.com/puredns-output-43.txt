@@ -1,3 +1,4 @@
 myworkplace-int.bmw.com
 myworkplace.bmw.com
 neainfra-us-int.bmw.com
+neainfra-us.bmw.com

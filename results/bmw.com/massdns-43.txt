@@ -2,3 +2,4 @@ myworkplace-int.bmw.com A 160.46.224.17
 myworkplace.bmw.com A 160.46.231.87
 neainfra-us-int.bmw.com A 160.46.250.222
 neainfra-us-int.bmw.com A 170.34.59.244
+neainfra-us.bmw.com A 170.34.59.243
