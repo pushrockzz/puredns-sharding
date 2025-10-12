@@ -1,3 +1,1 @@
-ocean-int.bmw.com
-ocean.bmw.com
-odsprod.bmw.com
+nspeuwebp.bmw.com

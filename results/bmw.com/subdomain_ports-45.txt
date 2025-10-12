@@ -1,2 +1,2 @@
-ocean.bmw.com:443
-ocean.bmw.com:80
+nspeuwebp.bmw.com:443
+nspeuwebp.bmw.com:80
