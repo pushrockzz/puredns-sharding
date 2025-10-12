@@ -1,5 +1,5 @@
-opal.bmw.com
-opendxm-i-noyubikey.bmw.com
-optibe-integ.bmw.com
+opalint.bmw.com
+opendxm.bmw.com
 optibe.bmw.com
 orcan.bmw.com
+otdint.bmw.com

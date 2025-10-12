@@ -1,4 +1,7 @@
-opendxm-i-noyubikey.bmw.com:443
-opendxm-i-noyubikey.bmw.com:80
+opalint.bmw.com:443
+opalint.bmw.com:80
+opendxm.bmw.com:443
+opendxm.bmw.com:80
 optibe.bmw.com:443
 optibe.bmw.com:80
+otdint.bmw.com:80
