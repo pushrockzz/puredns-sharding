@@ -1,0 +1,4 @@
+xflow.bmw.com
+xpita-int-b2b-blue.bmw.com
+xpita-int-b2b-old.bmw.com
+xpita-int-b2b.bmw.com
