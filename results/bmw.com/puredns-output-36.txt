@@ -1,0 +1,3 @@
+labs.bmw.com
+learning.bmw.com
+legacy.bmw.com
