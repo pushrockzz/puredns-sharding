@@ -1,6 +1,13 @@
+t.servicenotification.bmw.com
+tapi.bmw.com
 taplaus.bmw.com
+tbm-int-t1-b2b.bmw.com
+tbm-int-t1.bmw.com
 tbm-int-t3.bmw.com
 tc4jbi.bmw.com
+tc4jbt-tmp.bmw.com
 tdferu.bmw.com
+teleservicesus-i.bmw.com
 teleservicesus-t.bmw.com
+tereg2-iwen.bmw.com
 term-prod.bmw.com

@@ -1,4 +1,9 @@
+tapi.bmw.com:443
+tapi.bmw.com:80
 taplaus.bmw.com:443
 taplaus.bmw.com:80
+tbm-int-t1.bmw.com:80
+tc4jbt-tmp.bmw.com:443
+tereg2-iwen.bmw.com
 term-prod.bmw.com:443
 term-prod.bmw.com:80
