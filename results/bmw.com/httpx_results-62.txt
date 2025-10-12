@@ -1,5 +1,11 @@
 http://tllnet.bmw.com
+http://tms-prod.bmw.com
+http://trainingsmedia.bmw.com
+https://tll-i.bmw.com
 https://tllnet.bmw.com
+https://tms-prod.bmw.com
+https://tqc-int-b2b-aws.bmw.com
 https://tqc-int-b2b.bmw.com
 https://tqc-int-b2b.bmw.com:80
+https://trainingsmedia.bmw.com
 https://truck-timeslot-portal.bmw.com

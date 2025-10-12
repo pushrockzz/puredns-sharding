@@ -2,6 +2,7 @@ http://tms-int-b2d.bmwgroup.com
 http://tnetftneu.bmwgroup.com
 http://tqc-int-b2d.bmwgroup.com
 http://tqc-int.bmwgroup.com
+http://tqc-prod-b2d.bmwgroup.com
 http://training-feedback.bmwgroup.com
 http://tric-device-prod-us.bmwgroup.com
 http://tric-device-prod.bmwgroup.com
@@ -27,6 +28,7 @@ http://tric-sfa-qa.bmwgroup.com:443
 https://tms-int-b2d.bmwgroup.com
 https://tqc-int-b2d.bmwgroup.com
 https://tqc-int.bmwgroup.com
+https://tqc-prod-b2d.bmwgroup.com
 https://training-feedback.bmwgroup.com
 https://trainingmedia.bmwgroup.com
 https://tric-device-prod-us.bmwgroup.com
