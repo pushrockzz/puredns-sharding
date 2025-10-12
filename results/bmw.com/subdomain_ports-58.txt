@@ -1,2 +1,2 @@
+sspcore-int.bmw.com:80
 sta-bps.bmw.com
-sta-ouc.bmw.com
