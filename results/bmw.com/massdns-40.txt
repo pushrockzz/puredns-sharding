@@ -1,4 +1,3 @@
-mfscs-b2b-external-wen-int.bmw.com A 160.46.248.22
-mfscs-b2b-external-wen-prod.bmw.com A 160.46.235.197
-mftiedge01.bmw.com A 160.46.224.60
+mfscs-b2b-external-vmware-prod.bmw.com A 160.46.231.3
+mftiedge10.bmw.com A 170.34.127.12
 mgusecdevbe-nf.bmw.com A 160.46.226.44

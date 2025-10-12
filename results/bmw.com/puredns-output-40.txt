@@ -1,6 +1,5 @@
 mediapool.bmw.com
-mfscs-b2b-external-wen-int.bmw.com
-mfscs-b2b-external-wen-prod.bmw.com
-mftiedge01.bmw.com
+mfscs-b2b-external-vmware-prod.bmw.com
+mftiedge10.bmw.com
 mgusecdevbe-nf.bmw.com
 mgusecdevbe.bmw.com

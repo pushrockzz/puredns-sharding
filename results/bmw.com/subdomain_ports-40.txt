@@ -1,6 +1,2 @@
-mfscs-b2b-external-wen-int.bmw.com:443
-mfscs-b2b-external-wen-int.bmw.com:80
-mfscs-b2b-external-wen-prod.bmw.com:443
-mfscs-b2b-external-wen-prod.bmw.com:80
-mftiedge01.bmw.com:1234
-mftiedge01.bmw.com:443
+mftiedge10.bmw.com:1234
+mftiedge10.bmw.com:443
