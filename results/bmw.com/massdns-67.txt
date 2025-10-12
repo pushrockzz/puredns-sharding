@@ -1,8 +1,6 @@
 what-i.bmw.com A 160.48.212.179
 what-p.bmw.com A 160.46.243.97
 wheelfinder-dev.bmw.com A 74.178.217.43
-wire-int.bmw.com A 160.46.225.26
-wire-t.bmw.com A 160.46.225.230
+wheelfinder.bmw.com A 20.73.197.45
 workflow-dev.bmw.com A 160.48.212.194
-workflow.bmw.com A 160.46.237.78
-workplace.bmw.com A 160.46.238.78
+wote-prod-gf5.bmw.com A 160.46.245.143

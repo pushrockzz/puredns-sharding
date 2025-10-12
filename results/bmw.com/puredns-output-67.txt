@@ -1,8 +1,6 @@
 what-i.bmw.com
 what-p.bmw.com
 wheelfinder-dev.bmw.com
-wire-int.bmw.com
-wire-t.bmw.com
+wheelfinder.bmw.com
 workflow-dev.bmw.com
-workflow.bmw.com
-workplace.bmw.com
+wote-prod-gf5.bmw.com

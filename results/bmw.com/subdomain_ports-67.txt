@@ -1,6 +1,4 @@
 what-p.bmw.com:443
 what-p.bmw.com:80
 wheelfinder-dev.bmw.com
-wire-int.bmw.com:80
-workflow.bmw.com:443
-workflow.bmw.com:80
+wheelfinder.bmw.com
