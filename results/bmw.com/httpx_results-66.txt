@@ -1,6 +1,10 @@
+http://vsrsales-int.bmw.com
 http://warrantywebus.bmw.com
 https://vpn13.bmw.com
+https://vpn2.bmw.com
 https://vpn21.bmw.com
+https://vpn23.bmw.com
 https://vpn24.bmw.com
+https://vsrsales-int.bmw.com
 https://warrantywebus-i.bmw.com
 https://warrantywebus.bmw.com
