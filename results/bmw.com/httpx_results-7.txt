@@ -1,4 +1,5 @@
 http://audit.bmw.com
+http://b2b-webfmscp.bmw.com
 http://b2bpapp6.bmw.com
 http://b2bua-int.bmw.com
 https://astras.bmw.com
@@ -9,6 +10,7 @@ https://auth-i-pilot.bmw.com
 https://b2b-ha-test.bmw.com
 https://b2b-ha-test.bmw.com:80
 https://b2b-int-mig.bmw.com
+https://b2b-webfmscp.bmw.com
 https://b2btomcp-next.bmw.com
 https://b2btomcp-next.bmw.com:80
 https://b2btomcq-next.bmw.com
