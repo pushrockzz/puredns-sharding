@@ -1,9 +1,10 @@
 rlbmw-int-ssl.bmw.com A 160.46.248.74
 rmt-neu.bmw.com A 160.46.240.191
-rmt-p.bmw.com A 160.46.240.61
 rmt-t.bmw.com A 160.46.248.123
+rmtv2-t.bmw.com A 160.48.212.253
 rmtv2.bmw.com A 160.46.233.42
-rpk-i.bmw.com A 160.46.224.116
 rpkp.bmw.com A 160.46.240.63
-rplan3.bmw.com A 160.46.243.184
-rrmc-preprodr1.bmw.com A 160.48.165.121
+rplan-i-b2b.bmw.com A 160.46.248.198
+rplan.bmw.com A 160.46.243.78
+rplan3-i.bmw.com A 160.46.227.34
+rplan5-i-b2b.bmw.com A 160.46.224.117

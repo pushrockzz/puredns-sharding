@@ -1,2 +1,5 @@
 rlbmw-int-ssl.bmw.com:80
 rmt-t.bmw.com:443
+rmtv2-t.bmw.com:443
+rplan3-i.bmw.com:443
+rplan5-i-b2b.bmw.com:443
