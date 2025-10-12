@@ -1,1 +1,2 @@
-fix-int.bmw.com
+fix-test.bmw.com
+fls2.bmw.com
