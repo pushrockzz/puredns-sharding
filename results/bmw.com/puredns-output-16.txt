@@ -1,0 +1,3 @@
+dam-int.bmw.com
+dam2.bmw.com
+dealer-ssl.bmw.com
