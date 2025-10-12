@@ -1,5 +1,6 @@
+motorcyclebyo-i.bmw.com
+motorcyclebyo-t.bmw.com
 mscaksblue.bmw.com
 mscaksgreen.bmw.com
-msds-prod.bmw.com
-my-app.bmw.com
-my-i.bmw.com
+mwp-s.bmw.com
+my-t.bmw.com

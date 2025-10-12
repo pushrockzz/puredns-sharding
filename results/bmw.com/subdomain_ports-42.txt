@@ -1,1 +1,2 @@
 mscaksgreen.bmw.com:443
+mwp-s.bmw.com:80

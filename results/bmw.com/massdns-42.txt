@@ -1,4 +1,6 @@
+motorcyclebyo-i.bmw.com A 170.34.127.182
+motorcyclebyo-t.bmw.com A 170.34.127.185
 mscaksblue.bmw.com A 160.46.231.31
 mscaksgreen.bmw.com A 160.46.235.31
-msds-prod.bmw.com A 170.34.59.154
-my-i.bmw.com A 160.46.251.147
+mwp-s.bmw.com A 160.46.235.181
+my-t.bmw.com A 160.46.251.141
