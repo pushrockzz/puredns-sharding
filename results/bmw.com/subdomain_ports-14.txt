@@ -1,13 +1,7 @@
-cmp-author-int.bmw.com:443
-cmp-author-int.bmw.com:80
 cmp-search.bmw.com:443
 cmp-search.bmw.com:80
-cmp-test.bmw.com:443
-cmp-test.bmw.com:80
 cmsp-author-int.bmw.com:443
 cmx-author-prod2.bmw.com:443
 cmx-author-prod2.bmw.com:80
 cmxint-author1.bmw.com:443
 cmxint-author1.bmw.com:80
-cogdev2.bmw.com:443
-cogdev2.bmw.com:80

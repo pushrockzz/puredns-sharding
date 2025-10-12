@@ -1,13 +1,7 @@
-cmcp.bmw.com A 160.46.231.148
-cmp-author-int.bmw.com A 160.46.228.47
-cmp-pp.bmw.com A 160.46.228.123
 cmp-search.bmw.com A 160.46.226.227
-cmp-test.bmw.com A 160.46.228.49
 cmsp-author-int.bmw.com A 160.46.224.150
-cmsp-author.bmw.com A 160.46.243.92
-cmx-author-int-b2b.bmw.com A 160.46.250.158
+cmx-author-int4.bmw.com A 160.46.225.33
 cmx-author-prod2.bmw.com A 160.46.243.107
-cmx-author-prod3.bmw.com A 160.46.243.157
 cmxint-author1.bmw.com A 160.46.249.150
-cogdev2.bmw.com A 160.46.225.112
-control-panel-int.bmw.com A 160.48.212.126
+cognosus-partner.bmw.com A 170.34.41.61
+control-panel.bmw.com A 160.46.240.84
