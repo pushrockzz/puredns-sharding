@@ -1,8 +1,8 @@
-iff-blue.bmw.com A 160.46.240.46
-iff-green.bmw.com A 160.46.237.67
+icsc.bmw.com A 160.46.240.175
+iff-int.bmw.com A 160.48.213.149
 iff-prod-neu.bmw.com A 160.46.238.26
-imm-dev5-gf3.bmw.com A 160.46.224.34
-imm-int3.bmw.com A 160.46.224.233
+iff-prod.bmw.com A 160.46.233.149
+imm-dev7.bmw.com A 160.46.225.100
+imm-int3-gf3.bmw.com A 160.46.227.76
 imm-prod2.bmw.com A 160.46.243.106
-imm-test3-gf3.bmw.com A 160.46.227.75
-imobileauth.bmw.com A 160.48.213.48
+impn-p.bmw.com A 160.46.243.76

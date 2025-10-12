@@ -1,10 +1,9 @@
-ide-i.bmw.com
+icsc.bmw.com
 ide-t.bmw.com
-iff-blue.bmw.com
-iff-green.bmw.com
+iff-int.bmw.com
 iff-prod-neu.bmw.com
-imm-dev5-gf3.bmw.com
-imm-int3.bmw.com
+iff-prod.bmw.com
+imm-dev7.bmw.com
+imm-int3-gf3.bmw.com
 imm-prod2.bmw.com
-imm-test3-gf3.bmw.com
-imobileauth.bmw.com
+impn-p.bmw.com
