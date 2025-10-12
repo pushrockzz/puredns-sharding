@@ -1,3 +1,4 @@
 http://salesassistant.bmwgroup.com
+http://scp-int.bmwgroup.com
 https://salesassistant.bmwgroup.com
 https://scp-int.bmwgroup.com
