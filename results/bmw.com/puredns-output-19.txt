@@ -1,8 +1,5 @@
 dsmon.bmw.com
-dwh-webservice-int.bmw.com
-dynamiccontent.bmw.com
-e2e-swl-sec2.bmw.com
-eaem.bmw.com
-eagle-int.bmw.com
-eagle.bmw.com
+dwhb-i.bmw.com
+eagle-test.bmw.com
 ebestellung-int.bmw.com
+ecom.bmw.com
