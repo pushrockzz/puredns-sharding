@@ -1,6 +1,7 @@
 http://secure-sportmarketing-int.bmw.com
 http://sera.bmw.com
 http://sgem-es-int.bmw.com
+http://sgem.bmw.com
 https://secure-sportmarketing-int.bmw.com
 https://secure.sportmarketing.bmw.com
 https://securelogin.bmw.com
