@@ -10,6 +10,8 @@ https://pinningdb-i.bmw.com
 https://pinningdb-p.bmw.com
 https://pki-p2x-b2b-ui-emea-e2e.bmw.com
 https://pki-p2x-b2b-ui-emea-e2e.bmw.com:80
+https://pki-p2x-b2b-ui-emea-prod.bmw.com
+https://pki-p2x-b2b-ui-emea-prod.bmw.com:80
 https://pki-p2x-b2d-ui-emea-e2e.bmw.com
 https://pki-p2x-b2d-ui-emea-prod.bmw.com
 https://pki-p2x-b2i-ui-emea-prod.bmw.com
