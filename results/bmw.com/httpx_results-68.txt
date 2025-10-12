@@ -1,3 +1,7 @@
 http://www-origin-inti2.bmw.com
+http://www-origin-proda1.bmw.com
+http://www-origin-proda2.bmw.com
 http://www-origin-proda3.bmw.com
 http://www-origin-proda3.bmw.com:443
+https://www-origin-proda1.bmw.com
+https://www-origin-proda2.bmw.com
