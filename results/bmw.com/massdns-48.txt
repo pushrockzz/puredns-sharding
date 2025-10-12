@@ -1,7 +1,6 @@
-piaope-int.bmw.com A 160.46.248.214
 piaoportal-int.bmw.com A 160.46.227.90
-pinningdb-i.bmw.com A 160.48.212.144
-pki-b2b-prod.bmw.com A 160.46.238.23
-plaza-test.bmw.com A 160.46.228.239
+pki-p2x-b2b-ui-emea-prod.bmw.com A 160.46.238.23
+pluto-i1.bmw.com A 98.71.183.19
+pluto-i2.bmw.com A 98.71.183.19
+plw-int.bmw.com A 160.46.229.207
 pmt-i.bmw.com A 160.46.227.29
-poc-vpn.bmw.com A 193.23.33.8
