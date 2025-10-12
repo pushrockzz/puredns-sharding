@@ -1,2 +1,0 @@
-zedis.bmw.com
-zeprid.bmw.com
