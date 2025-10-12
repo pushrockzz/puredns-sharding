@@ -1,2 +1,1 @@
-www.pmt-i.bmw.com A 160.46.227.29
 www.pmt.bmw.com A 160.46.243.168
