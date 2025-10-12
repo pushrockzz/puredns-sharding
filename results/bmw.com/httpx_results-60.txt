@@ -1,6 +1,12 @@
+http://tapi.bmw.com
+http://term-prod.bmw.com
 http://zeprid.bmw.com
+https://tapi.bmw.com
 https://taplaus.bmw.com
 https://taplaus.bmw.com:80
+https://tc4jbt-tmp.bmw.com
+https://tereg2-iwen.bmw.com
+https://term-prod.bmw.com
 https://zedis.bmw.com
 https://zedis.bmw.com:80
 https://zeprid.bmw.com
