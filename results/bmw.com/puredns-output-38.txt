@@ -1,9 +1,8 @@
-loyalty-int.cn.bmw.com
 lpkm-next-int.bmw.com
 lpkm.bmw.com
 lpptest.bmw.com
+lpvaas1-web.bmw.com
 lt-int.bmw.com
-lterm-int.bmw.com
+lterm.bmw.com
 lyncdiscover.bmw.com
-lyncdiscover.partner.bmw.com
-m.service.bmw.com
+m.servicenotification.bmw.com

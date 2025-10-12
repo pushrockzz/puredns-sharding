@@ -1,8 +1,7 @@
-loyalty-int.cn.bmw.com A 122.200.104.36
 lpkm-next-int.bmw.com A 72.144.0.57
 lpkm.bmw.com A 160.46.240.60
 lpptest.bmw.com A 160.46.229.169
+lpvaas1-web.bmw.com A 160.46.238.88
 lt-int.bmw.com A 160.46.227.112
-lterm-int.bmw.com A 160.46.250.184
+lterm.bmw.com A 160.46.235.29
 lyncdiscover.bmw.com A 160.46.229.18
-lyncdiscover.partner.bmw.com A 160.46.229.18
