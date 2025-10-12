@@ -1,2 +1,5 @@
-grpw-int-a1-b2bwen.bmw.com
+goto.bmw.com
+grip-to-go-int.bmw.com
+grip-to-go.bmw.com
 gsa-i-search.bmw.com
+gsa-p-search.bmw.com
