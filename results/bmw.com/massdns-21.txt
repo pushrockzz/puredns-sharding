@@ -1,5 +1,3 @@
-epos.bmw.com A 160.46.243.178
-eqrp.bmw.com A 160.46.233.58
-erfx.bmw.com A 160.46.244.54
-esaus.bmw.com A 170.34.100.128
+erfx-tg.bmw.com A 160.46.225.55
+erms.bmw.com A 122.200.104.214
 everest.bmw.com A 160.46.243.217

@@ -1,9 +1,5 @@
-epaas-int.bmw.com
 epaas.bmw.com
-epos.bmw.com
-eqrp.bmw.com
-erfx.bmw.com
-esa1-us-b2b.bmw.com
-esa1-us-i-b2b.bmw.com
-esaus.bmw.com
+erfx-tg.bmw.com
+erms.bmw.com
+esa1-us-e2e-b2b.bmw.com
 everest.bmw.com

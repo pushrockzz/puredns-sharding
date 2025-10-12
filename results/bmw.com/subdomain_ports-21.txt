@@ -1,4 +1,2 @@
-eqrp.bmw.com:80
-erfx.bmw.com:80
 everest.bmw.com:443
 everest.bmw.com:80
