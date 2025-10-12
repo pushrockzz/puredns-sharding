@@ -1,2 +1,1 @@
-lima-prod3.bmw.com:443
-lima-prod3.bmw.com:80
+hk-dashboard.ad.bmw.com:500
