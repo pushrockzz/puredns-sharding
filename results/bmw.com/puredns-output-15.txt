@@ -1,5 +1,5 @@
+cpanel.auth.bmw.com
 cpi-int.bmw.com
-cpp-i.bmw.com
-cpp-prod.bmw.com
-csbe-int-na.bmw.com
-customizer.bmw.com
+cpp-int.bmw.com
+crmuk.bmw.com
+csbe-test-na.bmw.com

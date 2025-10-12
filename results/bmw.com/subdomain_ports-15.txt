@@ -1,2 +1,0 @@
-cpp-i.bmw.com:443
-cpp-i.bmw.com:80
