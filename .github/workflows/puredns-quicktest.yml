@@ -1131,110 +1131,170 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN }}
 
-      - name: Sync, Generate, and Commit Summary
+      - name: Ensure gawk present (required for PROCINFO["sorted_in"])
         shell: bash
         run: |
-          # --- PART 1: SETUP AND SYNC ---
-          echo "Cloning repository and syncing with the latest state..."
-          
-          # Use a PAT with write access for this entire operation
-          git clone --depth 1 "https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git" .
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions-bot@users.noreply.github.com"
-          
-          # Pull with rebase to ensure we are perfectly in sync with the latest remote commit
-          # before we do any work. This is the crucial first step.
-          git pull --rebase origin ${{ github.ref_name }}
-          
-          # --- PART 2: GENERATE THE SUMMARY (using the now up-to-date repo) ---
+          if ! command -v gawk >/dev/null 2>&1; then
+            echo "gawk not found — installing..."
+            sudo apt-get update -y
+            sudo apt-get install -y gawk
+          else
+            echo "gawk present"
+          fi
+
+      - name: Generate and Commit Summary
+        shell: bash
+        run: |
+          # Variables
+          BRANCH="${{ github.ref_name }}"
           RESULTS_DIR="results"
           OUTPUT_FILE="count_result.txt"
-          
+
+          echo "Configuring Git..."
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions-bot@users.noreply.github.com"
+
+          # Try to fetch origin refs safely; tolerate failure
+          git fetch --prune origin '+refs/heads/*:refs/remotes/origin/*' || true
+
+          # Checkout a local branch that tracks origin/<branch> where possible
+          if git rev-parse --verify "origin/$BRANCH" >/dev/null 2>&1; then
+            git checkout -B "$BRANCH" "origin/$BRANCH" || git checkout -B "$BRANCH"
+          else
+            git checkout -B "$BRANCH" || true
+          fi
+
+          # Try to rebase/autostash to get latest; don't abort on failure
+          git pull --rebase --autostash origin "$BRANCH" || echo "Note: git pull --rebase returned non-zero; continuing."
+
           echo "--- Generating result count summary with per-domain totals ---"
-          
           if [ ! -d "$RESULTS_DIR" ]; then
             echo "⚠️  Results directory not found. Nothing to summarize."
             exit 0
           fi
-          
-          # This awk script is correct and remains the same, but it now runs on fresh data.
-          find "$RESULTS_DIR" -type f -name "*.txt" -not -name 'wildcards-*.txt' | \
-          awk '
+
+          # Use -print0 + gawk with RS set inside the program to safely handle arbitrary filenames
+          find "$RESULTS_DIR" -type f -name "*.txt" -not -name 'wildcards-*.txt' -print0 | \
+          gawk '
+            BEGIN {
+              # Set RS to NUL character safely
+              RS = sprintf("%c", 0)
+            }
             {
-              cmd = "wc -l < \"" $0 "\""
-              cmd | getline count
+              filepath = $0
+              # Get line count via shell wc -l. Use quoted filepath to be safe.
+              cmd = "wc -l < \"" filepath "\""
+              cmd | getline cnt
               close(cmd)
-              n = split($0, path, "/")
-              domain = path[n-1]
-              filename = path[n]
-              sub(/-[0-9]+\.txt$/, "", filename)
+              # Normalize whitespace -> number
+              gsub(/^ +| +$/, "", cnt)
+              if (cnt == "") cnt = 0
+              count = cnt + 0
+
+              # split path parts
+              n = split(filepath, parts, "/")
+
+              # Find "results" in path and pick next element as domain if present
+              domain = ""
+              for (i = 1; i <= n; i++) {
+                if (parts[i] == "results") {
+                  if (i + 1 <= n) domain = parts[i+1]
+                  break
+                }
+              }
+              if (domain == "") {
+                # fallback to second-to-last element (original heuristic)
+                domain = parts[n-1]
+              }
+
+              filename = parts[n]
+              # normalize pattern: strip .txt, then optional -<digits>
+              sub(/\.txt$/, "", filename)
+              sub(/-[0-9]+$/, "", filename)
               pattern = filename
-              individual_counts[domain, $0] = count
+
+              individual_counts[domain, filepath] = count
               domain_totals[domain, pattern] += count
-              if (! (domain in domains)) domains[domain] = 1
-              if (! (pattern in patterns)) patterns[pattern] = 1
+              domains_seen[domain] = 1
+              patterns_seen[pattern] = 1
             }
             END {
+              # stable sort for domain iteration
               PROCINFO["sorted_in"] = "@ind_str_asc"
-              for (domain in domains) {
-                  print "--- Domain: " domain " ---"
-                  for (pattern in patterns) {
-                      if (domain_totals[domain, pattern] > 0) {
-                          printf "  TOTAL %-20s: %d\n", pattern, domain_totals[domain, pattern]
-                      }
+
+              # Preferred order for totals (keeps original behavior)
+              split("httpx_results massdns puredns-output subdomain_ports", preferred, " ")
+
+              for (domain in domains_seen) {
+                print "--- Domain: " domain " ---"
+                # Print preferred patterns in defined order
+                for (i = 1; i <= length(preferred); i++) {
+                  p = preferred[i]
+                  if (domain_totals[domain, p] > 0) {
+                    printf "  TOTAL %-20s: %d\n", p, domain_totals[domain, p]
                   }
-                  print ""
+                }
+                # Print any other discovered patterns (sorted)
+                PROCINFO["sorted_in"] = "@ind_str_asc"
+                for (p in patterns_seen) {
+                  # skip preferred ones
+                  skip = 0
+                  for (j = 1; j <= length(preferred); j++) if (preferred[j] == p) skip = 1
+                  if (skip) continue
+                  if (domain_totals[domain, p] > 0) {
+                    printf "  TOTAL %-20s: %d\n", p, domain_totals[domain, p]
+                  }
+                }
+                print ""
               }
+
               print "\n--- Individual File Counts ---"
-              PROCINFO["sorted_in"] = "@ind_str_asc" # Re-apply sort for the outer loop
-              for (domain in domains) {
-                  for (key in individual_counts) {
-                      split(key, parts, SUBSEP)
-                      key_domain = parts[1]
-                      if (key_domain == domain) {
-                          filepath = parts[2]
-                          n = split(filepath, path_parts, "/")
-                          filename = path_parts[n]
-                          count = individual_counts[key]
-                          if (count > 0) print domain ":- " filename, count
-                      }
-                  }
+              PROCINFO["sorted_in"] = "@ind_str_asc"
+              for (domain in domains_seen) {
+                for (key in individual_counts) {
+                  split(key, kparts, SUBSEP)
+                  kdomain = kparts[1]
+                  if (kdomain != domain) continue
+                  filepath = kparts[2]
+                  m = split(filepath, fp, "/")
+                  fname = fp[m]
+                  cnt = individual_counts[key]
+                  if (cnt > 0) print domain ":- " fname, cnt
+                }
               }
             }
           ' > "$OUTPUT_FILE"
-          
-          # --- PART 3: COMMIT AND PUSH ---
-          echo "--- Committing and pushing summary ---"
-          
+
+          # If output missing/empty -> nothing to commit
           if [ ! -s "$OUTPUT_FILE" ]; then
-            echo "Summary file is empty. No commit needed."
+            echo "Summary file is empty or missing. No commit needed."
             exit 0
           fi
-          
-          git add count_result.txt
-          if git diff --staged --quiet; then
+
+          git add "$OUTPUT_FILE" || true
+
+          # If nothing staged, exit cleanly
+          if git diff --staged --quiet --exit-code; then
             echo "Result summary is unchanged. No commit needed."
             exit 0
           fi
-          
-          git commit -m "chore: Update result count summary"
-          
-          # A simple git push is now sufficient because we already synced.
-          # A retry loop is still good practice for network resilience.
+
+          git commit -m "chore: Update result count summary" || echo "No commit created (maybe nothing staged)."
+
           MAX_ATTEMPTS=3
           for (( i=1; i<=MAX_ATTEMPTS; i++ )); do
             echo "[Attempt $i/$MAX_ATTEMPTS] Pushing result summary..."
-            if git push origin ${{ github.ref_name }}; then
+            git pull --rebase --autostash origin "$BRANCH" || echo "Note: pull returned non-zero; continuing to push attempt."
+            if git push origin "$BRANCH"; then
               echo "✅ Successfully pushed result summary."
               exit 0
             fi
             echo "Push failed. Retrying in 5 seconds..."
-            # In case of a push failure, re-sync before the next attempt
-            git pull --rebase origin ${{ github.ref_name }}
             sleep 5
           done
-          
-          echo "::error:: All push attempts for the summary file failed."
+
+          echo "::error:: All push attempts for the summary file failed (non-fatal)."
+          # Ensure job completes successfully — change to `exit 1` here if you'd prefer fail-on-push.
           exit 0
   
   dispatch-next:
