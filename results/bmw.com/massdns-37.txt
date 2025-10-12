@@ -1,5 +1,1 @@
-lifestyle.bmw.com A 104.16.231.42
-lifestyle.bmw.com A 104.16.232.42
-lima.bmw.com A 160.46.233.232
-loki-int3.bmw.com A 160.46.229.152
-loki-prod3.bmw.com A 160.46.237.104
+lifestyleproductoverview.bmw.com A 202.61.200.226
