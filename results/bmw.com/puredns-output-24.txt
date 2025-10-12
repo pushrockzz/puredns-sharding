@@ -1,6 +1,3 @@
 fscast-b2b-external-wen-e2e.bmw.com
 fscast-b2b-external-wen-int.bmw.com
-ftpcontent.bmw.com
-fundus-int.bmw.com
 fundus.bmw.com
-fusecard-backend.bmw.com
