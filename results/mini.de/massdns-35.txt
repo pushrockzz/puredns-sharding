@@ -1,0 +1,4 @@
+kirsch.mini.de A 160.46.244.54
+knopf.mini.de A 160.46.226.164
+koehler.mini.de A 160.46.226.164
+krauth.mini.de A 160.46.226.164

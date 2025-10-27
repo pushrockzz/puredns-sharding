@@ -1,0 +1,7 @@
+kirsch.mini.de:80
+knopf.mini.de:443
+knopf.mini.de:80
+koehler.mini.de:443
+koehler.mini.de:80
+krauth.mini.de:443
+krauth.mini.de:80
