@@ -1,0 +1,8 @@
+boesser.mini.de A 160.46.226.164
+bonn.mini.de A 160.46.226.164
+boomers.mini.de A 160.46.226.164
+brammer.mini.de A 160.46.226.164
+brandenburg.mini.de A 160.46.226.164
+bremen.mini.de A 160.46.226.164
+briem.mini.de A 160.46.226.164
+brinkmann.mini.de A 160.46.226.164

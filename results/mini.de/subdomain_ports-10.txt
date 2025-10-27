@@ -1,0 +1,16 @@
+boesser.mini.de:443
+boesser.mini.de:80
+bonn.mini.de:443
+bonn.mini.de:80
+boomers.mini.de:443
+boomers.mini.de:80
+brammer.mini.de:443
+brammer.mini.de:80
+brandenburg.mini.de:443
+brandenburg.mini.de:80
+bremen.mini.de:443
+bremen.mini.de:80
+briem.mini.de:443
+briem.mini.de:80
+brinkmann.mini.de:443
+brinkmann.mini.de:80
