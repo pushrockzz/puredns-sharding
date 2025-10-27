@@ -1,0 +1,2 @@
+nuernberg.mini.de:443
+nuernberg.mini.de:80
