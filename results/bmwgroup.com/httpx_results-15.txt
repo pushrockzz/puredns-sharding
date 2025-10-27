@@ -6,9 +6,14 @@ http://boss.bmwgroup.com
 http://cream2mdbb-i.bmwgroup.com
 http://cream2mdbb-i.bmwgroup.com:443
 http://crmza-icr.bmwgroup.com
+http://crmza-icr.bmwgroup.com:443
 http://crmza-pcr.bmwgroup.com
 http://csc-zrv-data-prod.bmwgroup.com
 http://csc-zrv-data-prod.bmwgroup.com:443
+http://csms.bmwgroup.com
+http://csms.bmwgroup.com:443
+http://csp-gfi.bmwgroup.com
+http://csp-gfi.bmwgroup.com:443
 http://csp-t.bmwgroup.com
 http://e4cuati6.bmwgroup.com
 http://eba-test.bmwgroup.com
