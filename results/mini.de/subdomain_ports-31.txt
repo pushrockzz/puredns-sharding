@@ -1,0 +1,2 @@
+isert.mini.de:443
+isert.mini.de:80
