@@ -1,0 +1,2 @@
+darmstadt.mini.de:443
+darmstadt.mini.de:80
