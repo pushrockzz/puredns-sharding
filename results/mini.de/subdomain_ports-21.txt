@@ -1,0 +1,6 @@
+entenmann.mini.de:443
+entenmann.mini.de:80
+essen.mini.de:443
+essen.mini.de:80
+euler.mini.de:443
+euler.mini.de:80

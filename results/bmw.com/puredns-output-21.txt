@@ -1,5 +1,0 @@
-epaas.bmw.com
-erfx-tg.bmw.com
-erms.bmw.com
-esa1-us-e2e-b2b.bmw.com
-everest.bmw.com

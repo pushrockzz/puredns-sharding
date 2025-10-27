@@ -1,3 +1,31 @@
-erfx-tg.bmw.com A 160.46.225.55
-erms.bmw.com A 122.200.104.214
-everest.bmw.com A 160.46.243.217
+104.109.250.59 0-7-8-6.bmw.com
+104.109.250.59 05251awebmail0.bmw.com
+104.109.250.59 0d751772ba913bfee63ef34df37e090a4d6bd287.bmw.com
+104.109.250.59 0fgraph-8.bmw.com
+104.109.250.59 0rsfield.bmw.com
+104.109.250.59 alphainternalminerva-clients-stats-corp.bmw.com
+104.109.250.59 assets-postgresql-domain.bmw.com
+104.109.250.59 assets-tracking-postgresmx.bmw.com
+104.109.250.59 betacustomersdev-customers-config-meta.bmw.com
+104.109.250.59 gurafu-hist-mitmsim.bmw.com
+104.109.250.59 h-135-197-192-52.bmw.com
+104.109.250.59 h-135-207-52-27.bmw.com
+104.109.250.59 ipv6-c127-fra002-ix.bmw.com
+104.109.250.59 lef25-2-pda.bmw.com
+104.109.250.59 minjer.bmw.com
+104.109.250.59 newteam-db2corporatemysqlbackups-www-test.bmw.com
+104.109.250.59 tor112-170-pdb.bmw.com
+104.109.250.59 tor140-175-pda.bmw.com
+104.109.250.59 upload-b2b-oceania-exchangedns.bmw.com
+74.220.199.6 0606084419adonwebsite.bmw.com
+74.220.199.6 0t8yj47r93-grafana.bmw.com
+74.220.199.6 0x3wlxn3nu-dsn.bmw.com
+74.220.199.6 account-updatenew-helporigin.bmw.com
+74.220.199.6 alpha-acceptstart-storage.bmw.com
+74.220.199.6 backuppreferences-artifactory-edge0.bmw.com
+74.220.199.6 eur-p-gen-6-126-103-17.bmw.com
+74.220.199.6 fab6-1-fst.bmw.com
+74.220.199.6 minami-nami-nami.bmw.com
+74.220.199.6 systembucket-webuserselasticbeanstalkstaging-vpnoceaniaapps.bmw.com
+74.220.199.6 tor333-335-pda.bmw.com
+74.220.199.6 upgradewebtemp-int-database-officebackups-domain.bmw.com
