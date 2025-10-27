@@ -1,0 +1,2 @@
+bauergruppe.mini.de:443
+bauergruppe.mini.de:80
