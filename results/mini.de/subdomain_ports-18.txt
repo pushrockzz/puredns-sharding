@@ -1,0 +1,4 @@
+dortmund.mini.de:443
+dortmund.mini.de:80
+dresden.mini.de:443
+dresden.mini.de:80
