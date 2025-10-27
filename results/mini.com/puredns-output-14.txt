@@ -1,0 +1,3 @@
+community.mini.com
+community.stage.mini.com
+configure.mini.com
