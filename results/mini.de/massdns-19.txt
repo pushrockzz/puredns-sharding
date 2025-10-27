@@ -1,0 +1,5 @@
+driving-experience.mini.de A 160.46.245.200
+duesseldorf.mini.de A 160.46.226.164
+ecom.mini.de A 160.46.244.241
+ecom2.mini.de A 160.46.226.115
+ecomi.mini.de A 160.46.248.245
