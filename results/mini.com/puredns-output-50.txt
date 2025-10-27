@@ -1,0 +1,3 @@
+qa-n.mini.com
+qa-nv.mini.com
+qa-s.mini.com

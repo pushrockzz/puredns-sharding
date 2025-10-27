@@ -1,0 +1,3 @@
+qa-n.mini.com A 160.46.251.215
+qa-nv.mini.com A 157.133.233.77
+qa-s.mini.com A 160.46.251.214

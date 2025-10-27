@@ -1,0 +1,2 @@
+pulz.mini.de:443
+pulz.mini.de:80
