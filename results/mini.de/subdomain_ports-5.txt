@@ -1,0 +1,2 @@
+amelung.mini.de:443
+amelung.mini.de:80
