@@ -1,1 +1,2 @@
-bmw.com
+mini.com
+mini.de
