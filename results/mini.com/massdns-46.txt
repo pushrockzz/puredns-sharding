@@ -1,0 +1,2 @@
+origin-int-n.mini.com A 160.46.249.168
+originwww.mini.com A 160.46.244.134
