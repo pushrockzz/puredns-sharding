@@ -1,0 +1,6 @@
+langer.mini.de:443
+langer.mini.de:80
+leebmann.mini.de:443
+leebmann.mini.de:80
+leipzig.mini.de:443
+leipzig.mini.de:80

@@ -1,0 +1,3 @@
+langer.mini.de A 160.46.226.164
+leebmann.mini.de A 160.46.226.164
+leipzig.mini.de A 160.46.226.164
