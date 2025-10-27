@@ -1,0 +1,6 @@
+wernecke.mini.de A 160.46.226.164
+widmann-winterholler.mini.de A 160.46.226.164
+wigger.mini.de A 160.46.226.164
+winter.mini.de A 160.46.226.164
+wismar.mini.de A 160.46.226.164
+wormser.mini.de A 160.46.226.164

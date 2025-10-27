@@ -1,0 +1,12 @@
+wernecke.mini.de:443
+wernecke.mini.de:80
+widmann-winterholler.mini.de:443
+widmann-winterholler.mini.de:80
+wigger.mini.de:443
+wigger.mini.de:80
+winter.mini.de:443
+winter.mini.de:80
+wismar.mini.de:443
+wismar.mini.de:80
+wormser.mini.de:443
+wormser.mini.de:80
