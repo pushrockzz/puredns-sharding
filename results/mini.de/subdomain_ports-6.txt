@@ -1,0 +1,2 @@
+arnold.mini.de:443
+arnold.mini.de:80
