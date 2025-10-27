@@ -1,0 +1,14 @@
+http://boesser.mini.de
+http://bonn.mini.de
+http://boomers.mini.de
+http://brammer.mini.de
+http://bremen.mini.de
+http://briem.mini.de
+http://briem.mini.de:443
+http://brinkmann.mini.de
+http://brinkmann.mini.de:443
+https://boesser.mini.de
+https://bonn.mini.de
+https://boomers.mini.de
+https://brammer.mini.de
+https://bremen.mini.de
