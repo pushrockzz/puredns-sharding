@@ -1,0 +1,9 @@
+frankfurt.mini.de:80
+freese.mini.de:443
+freese.mini.de:80
+friedrich.mini.de:443
+friedrich.mini.de:80
+fuchs.mini.de:443
+fuchs.mini.de:80
+fuerth.mini.de:443
+fuerth.mini.de:80

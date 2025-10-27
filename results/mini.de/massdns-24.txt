@@ -1,0 +1,5 @@
+frankfurt.mini.de A 160.46.244.54
+freese.mini.de A 160.46.226.164
+friedrich.mini.de A 160.46.226.164
+fuchs.mini.de A 160.46.226.164
+fuerth.mini.de A 160.46.226.164

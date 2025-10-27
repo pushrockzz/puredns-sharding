@@ -1,2 +1,31 @@
-fscast-b2b-external-wen-e2e.bmw.com A 160.46.235.199
-fscast-b2b-external-wen-int.bmw.com A 160.46.229.153
+10.10.10.10 server-eb188379-75b1-4.bmw.com
+160.46.240.92 tll.bmw.com
+23.56.109.26 17-121-127-147.bmw.com
+23.56.109.26 4456656-review-fix-dropdo-pxfde4.bmw.com
+23.56.109.26 69-171-232-150.bmw.com
+23.56.109.26 af-satgoneapi.bmw.com
+23.56.109.26 b228dbb7.bmw.com
+23.56.109.26 baiduspider-180-76-15-244.bmw.com
+23.56.109.26 bigbeautycorp.bmw.com
+23.56.109.26 client-support-datasparq--c2ea9a86-38b6-4a14-9f86-c51aaa92b51c.bmw.com
+23.56.109.26 dce-adm-ppp.bmw.com
+23.56.109.26 h-135-207-20-241.bmw.com
+23.56.109.26 h-135-207-230-251.bmw.com
+23.56.109.26 h-135-207-54-170.bmw.com
+23.56.109.26 h-135-207-63-250.bmw.com
+23.56.109.26 h135-207-61-220.bmw.com
+23.56.109.26 lab-sandbox-jira-6413.bmw.com
+23.56.109.26 lon3-tumblr-b6750.bmw.com
+23.56.109.26 mattestaging.bmw.com
+23.56.109.26 occ-0-179-300.bmw.com
+23.56.109.26 occ-0-901-1001.bmw.com
+23.56.109.26 oxy-oxygen-628ae474.bmw.com
+23.56.109.26 s3p-shield-kube-rollouts-webhook-0f8eca1.bmw.com
+23.56.109.26 vps338.bmw.com
+23.56.109.26 web-frontend-pr-9080.bmw.com
+74.220.199.6 david-202211-7.bmw.com
+74.220.199.6 frontend-status-getshogun-60829ec8-fd7a-4602-bfa5-6d7e23588af9.bmw.com
+74.220.199.6 h-135-197-228-130.bmw.com
+74.220.199.6 h-135-207-48-150.bmw.com
+74.220.199.6 h-135-207-51-170.bmw.com
+74.220.199.6 myapps1-qa.bmw.com
