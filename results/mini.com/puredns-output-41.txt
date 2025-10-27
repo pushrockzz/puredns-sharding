@@ -1,0 +1,9 @@
+mini-archives-int.mini.com
+mini-classic-int.mini.com
+mini-connected-gfi.mini.com
+mini-connected-i.mini.com
+mini-connected.mini.com
+minio.mini.com
+mobile-old.mini.com
+mobile.mini.com
+more.mini.com

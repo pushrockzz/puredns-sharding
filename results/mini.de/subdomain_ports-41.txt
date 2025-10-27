@@ -1,0 +1,2 @@
+minke.mini.de:443
+minke.mini.de:80
