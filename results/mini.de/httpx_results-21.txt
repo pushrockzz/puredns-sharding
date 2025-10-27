@@ -1,0 +1,6 @@
+http://entenmann.mini.de
+http://essen.mini.de
+http://essen.mini.de:443
+http://euler.mini.de
+https://entenmann.mini.de
+https://euler.mini.de
