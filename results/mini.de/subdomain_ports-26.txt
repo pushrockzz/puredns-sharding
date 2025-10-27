@@ -1,0 +1,10 @@
+goto.mini.de:443
+goto.mini.de:80
+gottstein.mini.de:443
+gottstein.mini.de:80
+graser.mini.de:443
+graser.mini.de:80
+grieb.mini.de:443
+grieb.mini.de:80
+gruber.mini.de:443
+gruber.mini.de:80

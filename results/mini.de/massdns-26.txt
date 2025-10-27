@@ -1,0 +1,6 @@
+goto.mini.de A 62.245.246.210
+gottstein.mini.de A 160.46.226.164
+graser.mini.de A 160.46.226.164
+grieb.mini.de A 160.46.226.164
+gruber.mini.de A 160.46.226.164
+guenther.mini.de A 160.46.247.150
