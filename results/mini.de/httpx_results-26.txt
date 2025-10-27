@@ -1,0 +1,7 @@
+http://goto.mini.de
+http://gottstein.mini.de
+http://grieb.mini.de
+http://grieb.mini.de:443
+http://gruber.mini.de
+https://gottstein.mini.de
+https://gruber.mini.de
