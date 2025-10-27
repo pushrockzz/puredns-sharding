@@ -1,0 +1,2 @@
+link.mini.de:443
+link.mini.de:80
