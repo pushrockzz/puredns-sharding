@@ -1,0 +1,4 @@
+stadac.mini.de:443
+stadac.mini.de:80
+stadel.mini.de:443
+stadel.mini.de:80

@@ -1,0 +1,3 @@
+sta-mn.mini.de A 194.55.91.207
+stadac.mini.de A 160.46.226.164
+stadel.mini.de A 160.46.226.164
