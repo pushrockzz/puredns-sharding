@@ -1,0 +1,11 @@
+saarbruecken.mini.de A 160.46.226.164
+saarland.mini.de A 160.46.226.164
+saarlouis.mini.de A 160.46.226.164
+schaal.mini.de A 160.46.226.164
+schaefer.mini.de A 160.46.226.164
+scheller.mini.de A 160.46.226.164
+schmid.mini.de A 160.46.247.150
+schneider.mini.de A 160.46.226.164
+schnitzler.mini.de A 160.46.244.54
+schubert.mini.de A 160.46.226.164
+schwarz.mini.de A 160.46.226.164
