@@ -1,0 +1,4 @@
+berlin-marzahn.mini.de A 160.46.244.54
+berlin-weissensee.mini.de A 160.46.244.54
+berlin.mini.de A 160.46.244.54
+bilia.mini.de A 160.46.226.164

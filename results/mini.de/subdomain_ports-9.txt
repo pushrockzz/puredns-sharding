@@ -1,0 +1,5 @@
+berlin-marzahn.mini.de:80
+berlin-weissensee.mini.de:80
+berlin.mini.de:80
+bilia.mini.de:443
+bilia.mini.de:80
