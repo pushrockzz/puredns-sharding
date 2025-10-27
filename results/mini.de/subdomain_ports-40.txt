@@ -1,0 +1,6 @@
+melter.mini.de:443
+melter.mini.de:80
+mendler.mini.de:443
+mendler.mini.de:80
+menton.mini.de:443
+menton.mini.de:80

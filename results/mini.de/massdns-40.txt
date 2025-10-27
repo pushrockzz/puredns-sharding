@@ -1,0 +1,5 @@
+melter.mini.de A 160.46.226.164
+mendler.mini.de A 160.46.226.164
+menke.mini.de A 160.46.247.150
+menton.mini.de A 160.46.226.164
+metropolitan.mini.de A 160.46.247.150
