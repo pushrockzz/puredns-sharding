@@ -1,5 +1,7 @@
 http://check-shop.bmwgroup.com
 http://check-shop.bmwgroup.com:443
+http://ckf-int.bmwgroup.com
+http://ckf-qa.bmwgroup.com
 http://dcs-es-webeam.bmwgroup.com
 http://dcsserviceclaims-i-gf4.bmwgroup.com
 http://dcsus.bmwgroup.com
