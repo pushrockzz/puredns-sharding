@@ -1,0 +1,2 @@
+lyncdiscover.mini.com A 192.109.190.85
+mail.mini.com A 195.27.218.21

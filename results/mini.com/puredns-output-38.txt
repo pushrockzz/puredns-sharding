@@ -1,0 +1,4 @@
+lyncdiscover.mini.com
+m.service.mini.com
+m.servicenotification.mini.com
+mail.mini.com
