@@ -1,3 +1,4 @@
+http://kai-device-qa-wen.bmwgroup.com:443
 http://netftnoa-test.bmwgroup.com
 http://nhtsa-i.bmwgroup.com
 http://nhtsa.bmwgroup.com
