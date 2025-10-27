@@ -3,8 +3,10 @@ http://dcom-bmwindia.bmwgroup.com
 http://dcs-es.bmwgroup.com
 http://dcsus.bmwgroup.com
 http://ddp-dev.bmwgroup.com
+http://ddp-dev.bmwgroup.com:443
 http://dealercockpit2-us-e2e.bmwgroup.com
 http://dealercockpit2.bmwgroup.com
+http://dealercockpit2.bmwgroup.com:443
 http://dealernet-za.bmwgroup.com
 http://dealernet-za.bmwgroup.com:443
 http://dealerserviceclaimsus-gf4.bmwgroup.com
