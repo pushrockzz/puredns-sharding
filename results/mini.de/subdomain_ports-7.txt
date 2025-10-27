@@ -1,0 +1,4 @@
+augsburg.mini.de:443
+augsburg.mini.de:80
+automag.mini.de:443
+automag.mini.de:80
