@@ -1,0 +1,5 @@
+search.mini.com
+secure-n.mini.com
+service.mini.com
+servicenotification.mini.com
+services.mini.com
