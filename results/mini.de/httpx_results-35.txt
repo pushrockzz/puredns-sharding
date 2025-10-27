@@ -1,0 +1,6 @@
+http://knopf.mini.de
+http://koehler.mini.de
+http://krauth.mini.de
+http://krauth.mini.de:443
+https://knopf.mini.de
+https://koehler.mini.de
