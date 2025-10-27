@@ -1,0 +1,2 @@
+hoyer.mini.de:443
+hoyer.mini.de:80
