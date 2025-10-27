@@ -1,0 +1,2 @@
+perso-i.mini.com A 160.46.251.253
+perso.mini.com A 160.46.247.211

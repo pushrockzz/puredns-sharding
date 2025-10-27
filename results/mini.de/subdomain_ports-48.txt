@@ -1,0 +1,3 @@
+perso-i.mini.de:80
+philipp.mini.de:443
+philipp.mini.de:80
