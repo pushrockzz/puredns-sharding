@@ -1,0 +1,16 @@
+hakvoort.mini.de:443
+hakvoort.mini.de:80
+hamburg-sued.mini.de:443
+hamburg-sued.mini.de:80
+hamburg.mini.de:443
+hamburg.mini.de:80
+hannover-sued.mini.de:443
+hannover-sued.mini.de:80
+hannover.mini.de:443
+hannover.mini.de:80
+hartmann.mini.de:443
+hartmann.mini.de:80
+heermann.mini.de:443
+heermann.mini.de:80
+heuchert.mini.de:443
+heuchert.mini.de:80

@@ -1,0 +1,8 @@
+hakvoort.mini.de A 160.46.226.164
+hamburg-sued.mini.de A 160.46.226.164
+hamburg.mini.de A 160.46.226.164
+hannover-sued.mini.de A 160.46.226.164
+hannover.mini.de A 160.46.226.164
+hartmann.mini.de A 160.46.226.164
+heermann.mini.de A 160.46.226.164
+heuchert.mini.de A 160.46.226.164
