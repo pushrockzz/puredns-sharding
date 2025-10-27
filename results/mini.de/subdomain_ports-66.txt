@@ -1,0 +1,7 @@
+wahl.mini.de:443
+wahl.mini.de:80
+walkenhorst.mini.de:443
+walkenhorst.mini.de:80
+webservice.mini.de:443
+webservice.mini.de:80
+webservice.mini.de:8443
