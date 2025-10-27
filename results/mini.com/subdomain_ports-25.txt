@@ -1,0 +1,2 @@
+gcdm-business-services-i.mini.com:443
+gcdm-business-services-i.mini.com:80

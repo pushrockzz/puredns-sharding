@@ -1,0 +1,3 @@
+gebrauchtwagen.mini.de A 52.232.43.80
+gewinnspiel.mini.de A 217.160.5.194
+goettingen.mini.de A 160.46.226.164

@@ -1,0 +1,3 @@
+gebrauchtwagen.mini.de
+goettingen.mini.de:443
+goettingen.mini.de:80
