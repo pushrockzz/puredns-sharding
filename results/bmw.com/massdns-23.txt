@@ -1,2 +1,30 @@
-fix-test.bmw.com A 160.46.227.125
-fls2.bmw.com A 160.46.235.208
+125.235.4.59 fremont-7-29.bmw.com
+23.56.109.26 057-5-2.bmw.com
+23.56.109.26 41a3.bmw.com
+23.56.109.26 65-8-1.bmw.com
+23.56.109.26 acc-sto3-z8r404-1.bmw.com
+23.56.109.26 ash2-enjenkins-a3.bmw.com
+23.56.109.26 ash2-searchrealtime-a1.bmw.com
+23.56.109.26 forums-ws-qa.bmw.com
+23.56.109.26 gr-api-video-h-aapne1c.bmw.com
+23.56.109.26 harvuni-expc01-bv1.bmw.com
+23.56.109.26 https-es-m-wikipedia-org78.bmw.com
+23.56.109.26 intcat-api-soe.bmw.com
+23.56.109.26 ip-143-84.bmw.com
+23.56.109.26 ipv4-c001-amd002-jio-isp.bmw.com
+23.56.109.26 ipv4-c004-bue001-nflxoc-isp.bmw.com
+23.56.109.26 ipv4-c006-mex003-telmex-isp.bmw.com
+23.56.109.26 ipv4-c007-dub001-ix.bmw.com
+23.56.109.26 ipv4-c018-ham001-ix.bmw.com
+23.56.109.26 ipv6-c079-tyo001-ix.bmw.com
+23.56.109.26 pn-145-45.bmw.com
+23.56.109.26 server-d581db05-02e5-4.bmw.com
+23.56.109.26 tor191-217-gra.bmw.com
+23.56.109.26 z55i2kerisercse.bmw.com
+74.220.199.6 acc-ash2-dc10-807-1.bmw.com
+74.220.199.6 http-m-olx-co-id-1.bmw.com
+74.220.199.6 http-www-rappler-com-6.bmw.com
+74.220.199.6 ipv4-c022-buh001-ix.bmw.com
+74.220.199.6 rambler-rs-4-3.bmw.com
+74.220.199.6 sto1-artist-a1.bmw.com
+74.220.199.6 tor103-141-gra.bmw.com

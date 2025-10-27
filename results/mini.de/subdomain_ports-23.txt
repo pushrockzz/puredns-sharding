@@ -1,0 +1,4 @@
+fiebig.mini.de:443
+fiebig.mini.de:80
+fischer.mini.de:443
+fischer.mini.de:80

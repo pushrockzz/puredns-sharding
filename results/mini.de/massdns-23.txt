@@ -1,0 +1,2 @@
+fiebig.mini.de A 160.46.226.164
+fischer.mini.de A 160.46.226.164
