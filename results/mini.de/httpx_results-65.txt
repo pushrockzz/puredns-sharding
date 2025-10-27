@@ -1,0 +1,2 @@
+http://vogelsang.mini.de
+http://vogelsang.mini.de:443
