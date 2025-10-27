@@ -1,0 +1,5 @@
+c2b-services-i.mini.com
+c2b-services-t.mini.com
+c2b-services.mini.com
+c2bfed-t.mini.com
+c2bpmt-d.mini.com

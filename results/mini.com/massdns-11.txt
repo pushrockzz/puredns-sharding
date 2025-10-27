@@ -1,0 +1,3 @@
+c2b-services-t.mini.com A 160.46.251.200
+c2bfed-t.mini.com A 160.46.251.152
+c2bpmt-d.mini.com A 160.46.244.54
