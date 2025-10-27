@@ -1,0 +1,12 @@
+reisacher-ulm.mini.de A 160.46.226.164
+reisacher.mini.de A 160.46.226.164
+reith.mini.de A 160.46.226.164
+rene-partl.mini.de A 160.46.226.164
+rent.mini.de A 91.229.168.210
+res.email.mini.de A 18.160.249.124
+res.email.mini.de A 18.160.249.6
+res.email.mini.de A 18.160.249.63
+res.email.mini.de A 18.160.249.96
+reuter.mini.de A 160.46.226.164
+revo.mini.de A 160.46.226.164
+riegel.mini.de A 160.46.226.164

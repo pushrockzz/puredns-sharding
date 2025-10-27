@@ -1,0 +1,17 @@
+reisacher-ulm.mini.de:443
+reisacher-ulm.mini.de:80
+reisacher.mini.de:443
+reisacher.mini.de:80
+reith.mini.de:443
+reith.mini.de:80
+rene-partl.mini.de:443
+rene-partl.mini.de:80
+rent.mini.de:443
+rent.mini.de:80
+res.email.mini.de
+reuter.mini.de:443
+reuter.mini.de:80
+revo.mini.de:443
+revo.mini.de:80
+riegel.mini.de:443
+riegel.mini.de:80
