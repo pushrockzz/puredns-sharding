@@ -1,0 +1,5 @@
+strauss.mini.de A 160.46.226.164
+stuttgart-vaihingen.mini.de A 160.46.226.164
+stuttgart.mini.de A 160.46.226.164
+subscribe.mini.de A 91.229.168.210
+suhl.mini.de A 160.46.226.164

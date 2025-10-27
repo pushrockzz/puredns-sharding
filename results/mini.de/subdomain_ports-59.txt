@@ -1,0 +1,10 @@
+strauss.mini.de:443
+strauss.mini.de:80
+stuttgart-vaihingen.mini.de:443
+stuttgart-vaihingen.mini.de:80
+stuttgart.mini.de:443
+stuttgart.mini.de:80
+subscribe.mini.de:443
+subscribe.mini.de:80
+suhl.mini.de:443
+suhl.mini.de:80
