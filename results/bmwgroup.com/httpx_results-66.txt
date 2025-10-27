@@ -1,5 +1,6 @@
 http://vpnweb.bmwgroup.com
 http://warrantywebus-i.bmwgroup.com
+http://warrantywebus-i.bmwgroup.com:443
 https://vpnweb.bmwgroup.com
 https://warranty-management-dev.bmwgroup.com
 https://warranty-management-int.bmwgroup.com

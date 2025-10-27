@@ -1,0 +1,4 @@
+http://wahl.mini.de
+http://wahl.mini.de:443
+http://walkenhorst.mini.de
+https://walkenhorst.mini.de
