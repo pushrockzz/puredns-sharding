@@ -1,0 +1,8 @@
+ehrl.mini.de:443
+ehrl.mini.de:80
+eichhorn.mini.de:443
+eichhorn.mini.de:80
+emde.mini.de:443
+emde.mini.de:80
+engelmeier.mini.de:443
+engelmeier.mini.de:80

@@ -1,0 +1,5 @@
+ehrl.mini.de A 160.46.226.164
+eichhorn.mini.de A 160.46.226.164
+email.mini.de A 192.243.228.1
+emde.mini.de A 160.46.226.164
+engelmeier.mini.de A 160.46.226.164

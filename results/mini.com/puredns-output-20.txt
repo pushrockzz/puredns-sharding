@@ -1,0 +1,3 @@
+engagehk-dev.mini.com
+engagehk-uat.mini.com
+engagehk.mini.com
