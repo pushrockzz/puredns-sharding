@@ -1,6 +1,8 @@
 http://ross-apps-int.bmwgroup.com
 http://rossus-int-aws.bmwgroup.com
 http://rsp-crm-test1.bmwgroup.com
+http://rsp-crm-test1.bmwgroup.com:443
+http://rsp-dcomc-int1nf.bmwgroup.com:443
 http://rsp-dcomc.bmwgroup.com
 http://rvtt-int.bmwgroup.com
 http://s-osb-cert-int.bmwgroup.com
