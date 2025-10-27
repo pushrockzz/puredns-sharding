@@ -1,0 +1,4 @@
+http://dortmund.mini.de
+http://dresden.mini.de
+https://dortmund.mini.de
+https://dresden.mini.de
