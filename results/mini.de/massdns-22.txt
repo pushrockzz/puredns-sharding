@@ -1,0 +1,3 @@
+feil.mini.de A 160.46.226.164
+felix.mini.de A 160.46.226.164
+felske.mini.de A 160.46.226.164

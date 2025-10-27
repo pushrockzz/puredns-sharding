@@ -1,6 +1,1 @@
-exd-prod.bmw.com
-faas2.bmw.com
-faas20nsf-prod.bmw.com
-fallback.bmw.com
-federation.bmw.com
-fenata.bmw.com
+my-app.bmw.com

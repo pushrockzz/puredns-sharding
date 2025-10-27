@@ -1,0 +1,6 @@
+feil.mini.de:443
+feil.mini.de:80
+felix.mini.de:443
+felix.mini.de:80
+felske.mini.de:443
+felske.mini.de:80

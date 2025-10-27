@@ -1,5 +1,35 @@
-exd-prod.bmw.com A 160.46.244.158
-faas2.bmw.com A 160.46.231.17
-faas20nsf-prod.bmw.com A 160.46.240.212
-federation.bmw.com A 193.23.33.40
-fenata.bmw.com A 160.46.240.242
+125.235.4.59 35-72-5.bmw.com
+125.235.4.59 mpf-csvtester-dub.bmw.com
+125.235.4.59 www-e-tesda-gov-ph.bmw.com
+2.18.188.209 01-7-4-69.bmw.com
+2.18.188.209 57-64-8.bmw.com
+2.18.188.209 atl-stg-mrap-01a.bmw.com
+2.18.188.209 elasticbeanstalkassetsaccess-acceptatie-pr.bmw.com
+2.18.188.209 ipv4-c020-muc001-ix.bmw.com
+2.18.188.209 moloches-daha-mtc06.bmw.com
+2.18.188.209 parkside-ds2-prod-yul52.bmw.com
+2.18.188.209 sto3-foxyepgwrite-a1.bmw.com
+74.220.199.6 155-9-184-67.bmw.com
+74.220.199.6 158-7-251-79.bmw.com
+74.220.199.6 benning-150-226-118-35.bmw.com
+74.220.199.6 beta-alphajenkinshost-csimgshare.bmw.com
+74.220.199.6 betacustomers-data-repository-postgresmx.bmw.com
+74.220.199.6 cppm-dc-fra-1.bmw.com
+74.220.199.6 elsuat-cc-m18.bmw.com
+74.220.199.6 fb-branch8-dev.bmw.com
+74.220.199.6 fba-uno-console-na.bmw.com
+74.220.199.6 fiumeiutisirkert.bmw.com
+74.220.199.6 ma2-0-2-4.bmw.com
+74.220.199.6 oldconfigstorebackups-www-test.bmw.com
+74.220.199.6 p67-ckdatabasews-ds.bmw.com
+74.220.199.6 pp-cacheeuw-meet-git.bmw.com
+74.220.199.6 privatestats-ns-nanotechnet2.bmw.com
+74.220.199.6 redirect-betavideov2oceania-mx.bmw.com
+74.220.199.6 redirect-team-defaultproduction.bmw.com
+74.220.199.6 s3p-shield-kube-rollouts-webhook-b432c3f.bmw.com
+74.220.199.6 sjc1-accesspoint-a23.bmw.com
+74.220.199.6 smtp02-phx-sp4.bmw.com
+74.220.199.6 tor127-162-pda.bmw.com
+74.220.199.6 tor70-100-pdb.bmw.com
+74.220.199.6 upload-customers-dns.bmw.com
+74.220.199.6 vl125-flt1-slb12-1-sba.bmw.com
