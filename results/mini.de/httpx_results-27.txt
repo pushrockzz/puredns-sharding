@@ -1,0 +1,14 @@
+http://hakvoort.mini.de
+http://hamburg-sued.mini.de
+http://hamburg.mini.de
+http://hannover-sued.mini.de
+http://hannover-sued.mini.de:443
+http://hannover.mini.de
+http://hartmann.mini.de
+http://heermann.mini.de
+https://hakvoort.mini.de
+https://hamburg-sued.mini.de
+https://hamburg.mini.de
+https://hannover.mini.de
+https://hartmann.mini.de
+https://heermann.mini.de
