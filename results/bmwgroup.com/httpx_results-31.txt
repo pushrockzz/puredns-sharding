@@ -39,6 +39,8 @@ https://ispanext-user-prod-weam.bmwgroup.com
 https://ispanext-user-prod-weam.bmwgroup.com:80
 https://ispanext-user-qa-cn-ig-weam.bmwgroup.com
 https://ispanext-user-qa-us-ig-weam.bmwgroup.com
+https://ispanext-user-qa-weam.bmwgroup.com
+https://ispanext-user-qa-weam.bmwgroup.com:80
 https://ista-edge-e2e-cn.bmwgroup.com
 https://ista-edge-e2e-emea.bmwgroup.com
 https://mdm-dev.bmwgroup.com:2001
