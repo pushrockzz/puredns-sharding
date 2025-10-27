@@ -2,6 +2,7 @@ http://cadlrinv-int.bmwgroup.com
 http://cadlrinv-prod.bmwgroup.com
 http://dfegateway-i2.bmwgroup.com
 http://dfegateway.bmwgroup.com
+http://dfesffr-t.bmwgroup.com:443
 http://dfeza.bmwgroup.com
 http://extranet-sgate-premium.bmwgroup.com
 https://cadlrinv-int.bmwgroup.com
