@@ -1,0 +1,3 @@
+view.news.mini.de
+voegl.mini.de
+vogelsang.mini.de

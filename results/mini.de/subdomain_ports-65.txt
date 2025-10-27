@@ -1,0 +1,4 @@
+voegl.mini.de:443
+voegl.mini.de:80
+vogelsang.mini.de:443
+vogelsang.mini.de:80
