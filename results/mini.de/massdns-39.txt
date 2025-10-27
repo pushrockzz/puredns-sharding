@@ -1,0 +1,2 @@
+mannheim.mini.de A 160.46.226.164
+matthes.mini.de A 160.46.247.150
