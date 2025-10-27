@@ -1,0 +1,4 @@
+hoffmann.mini.de A 160.46.247.150
+hofmann-regensburg.mini.de A 160.46.226.164
+holme.mini.de A 160.46.226.164
+horn.mini.de A 160.46.226.164

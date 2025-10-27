@@ -1,0 +1,6 @@
+hofmann-regensburg.mini.de:443
+hofmann-regensburg.mini.de:80
+holme.mini.de:443
+holme.mini.de:80
+horn.mini.de:443
+horn.mini.de:80
