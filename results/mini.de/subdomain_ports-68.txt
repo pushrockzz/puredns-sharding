@@ -1,0 +1,2 @@
+wuest.mini.de:443
+wuest.mini.de:80
