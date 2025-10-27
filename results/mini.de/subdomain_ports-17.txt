@@ -1,0 +1,2 @@
+degner.mini.de:443
+degner.mini.de:80
