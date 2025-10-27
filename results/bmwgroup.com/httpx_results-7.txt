@@ -9,6 +9,7 @@ http://alertnowp30.bmwgroup.com
 http://alphera-t.bmwgroup.com
 http://astras.bmwgroup.com
 http://at-gkmwen.bmwgroup.com
+http://auth-next.bmwgroup.com
 http://awp-qa.bmwgroup.com
 http://b2dua-int.bmwgroup.com
 http://bmw-app.bmwgroup.com

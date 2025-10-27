@@ -2,6 +2,7 @@ http://audit.bmw.com
 http://b2b-webfmscp.bmw.com
 http://b2bpapp6.bmw.com
 http://b2bua-int.bmw.com
+http://b2bua-int.bmw.com:443
 https://astras.bmw.com
 https://astras.bmw.com:80
 https://audit-mobile.bmw.com
