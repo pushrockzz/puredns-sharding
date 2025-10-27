@@ -1,0 +1,2 @@
+news.mini.de A 161.71.33.242
+nord.mini.de A 160.46.226.164

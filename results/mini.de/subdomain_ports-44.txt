@@ -1,0 +1,3 @@
+news.mini.de:25
+nord.mini.de:443
+nord.mini.de:80
