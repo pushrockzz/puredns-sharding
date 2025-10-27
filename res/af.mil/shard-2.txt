@@ -1,7 +1,0 @@
-surveys.af.mil
-ipv6.af.mil
-tiger.af.mil
-odin.af.mil
-thor.af.mil
-fp.af.mil
-weather.af.mil

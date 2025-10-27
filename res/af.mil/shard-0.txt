@@ -1,8 +1,0 @@
-portal.af.mil
-search.af.mil
-my.af.mil
-mobile.af.mil
-www.my.af.mil
-www.af.mil
-origin.af.mil
-maps.af.mil

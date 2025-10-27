@@ -1,7 +1,0 @@
-edge2.redbull.com
-splunk.redbull.com
-panorama.redbull.com
-srs.redbull.com
-csp.redbull.com
-create.redbull.com
-bike.redbull.com

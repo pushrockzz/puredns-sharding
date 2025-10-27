@@ -1,4 +1,0 @@
-ssp.navy.mil
-fusion.navy.mil
-p2p.navy.mil
-gc.navy.mil

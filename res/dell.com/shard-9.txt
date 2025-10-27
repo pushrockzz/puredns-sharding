@@ -1,8 +1,0 @@
-manuals.dell.com
-dds.dell.com
-splunk.dell.com
-sic.dell.com
-pmo.dell.com
-fdc.dell.com
-outlet.dell.com
-watchdog.dell.com
