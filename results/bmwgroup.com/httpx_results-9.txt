@@ -3,8 +3,10 @@ http://april-cert.bmwgroup.com
 http://bmw-app.bmwgroup.com
 http://bmw-mygarage.bmwgroup.com
 http://bmwcardata.bmwgroup.com
+http://bmwcardata.bmwgroup.com:443
 http://bmwfs-i-ho.bmwgroup.com
 http://bmwfs-t-ho-wls12.bmwgroup.com
+http://bmwfs-t-ho-wls12.bmwgroup.com:443
 http://carver.bmwgroup.com
 http://carver5-i.bmwgroup.com
 http://casai.bmwgroup.com
@@ -28,6 +30,8 @@ https://bmw-mygarage.bmwgroup.com
 https://bmwcardata-e2e.bmwgroup.com
 https://bmwcardata.bmwgroup.com
 https://bmwfs-t-ho-wls12.bmwgroup.com
+https://bmwtechinfo-qa21.bmwgroup.com
+https://bmwtechinfo-qa21.bmwgroup.com:80
 https://cargo-auth-device-int.bmwgroup.com
 https://cargo-auth-everis-latam-int.bmwgroup.com
 https://cargo-auth-qa1.bmwgroup.com
