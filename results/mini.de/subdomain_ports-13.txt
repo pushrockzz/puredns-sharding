@@ -1,0 +1,4 @@
+chemnitz.mini.de:443
+chemnitz.mini.de:80
+cloppenburg.mini.de:443
+cloppenburg.mini.de:80
