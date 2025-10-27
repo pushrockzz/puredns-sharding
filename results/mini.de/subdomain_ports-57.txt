@@ -1,0 +1,2 @@
+sperber.mini.de:443
+sperber.mini.de:80
