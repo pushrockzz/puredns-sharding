@@ -1,0 +1,12 @@
+kainz.mini.de:443
+kainz.mini.de:80
+kaltenbach.mini.de:443
+kaltenbach.mini.de:80
+kammann.mini.de:443
+kammann.mini.de:80
+karl.mini.de:443
+karl.mini.de:80
+kassel.mini.de:443
+kassel.mini.de:80
+kathan.mini.de:443
+kathan.mini.de:80
