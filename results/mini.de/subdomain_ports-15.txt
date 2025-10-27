@@ -1,0 +1,4 @@
+cuntz-speyer.mini.de:443
+cuntz-speyer.mini.de:80
+cuntz.mini.de:443
+cuntz.mini.de:80

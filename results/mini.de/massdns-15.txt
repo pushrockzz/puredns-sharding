@@ -1,0 +1,2 @@
+cuntz-speyer.mini.de A 160.46.226.164
+cuntz.mini.de A 160.46.226.164
