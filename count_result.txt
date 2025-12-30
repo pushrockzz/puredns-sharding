@@ -8,7 +8,7 @@
   TOTAL subdomain_ports     : 8146
 
 --- Domain: bmwgroup.com ---
-  TOTAL httpx_results       : 1352
+  TOTAL httpx_results       : 1357
   TOTAL massdns             : 1746
   TOTAL puredns-output      : 862
   TOTAL subdomain_ports     : 3081
@@ -22,7 +22,7 @@
 --- Domain: mini.com   ---
 
 --- Domain: mini.de ---
-  TOTAL httpx_results       : 231
+  TOTAL httpx_results       : 241
   TOTAL massdns             : 7445
   TOTAL puredns-output      : 307
   TOTAL subdomain_ports     : 10712
@@ -353,14 +353,14 @@ bmwgroup.com:- httpx_results-6.txt 36
 bmwgroup.com:- httpx_results-60.txt 8
 bmwgroup.com:- httpx_results-61.txt 11
 bmwgroup.com:- httpx_results-62.txt 42
-bmwgroup.com:- httpx_results-63.txt 6
-bmwgroup.com:- httpx_results-64.txt 5
+bmwgroup.com:- httpx_results-63.txt 8
+bmwgroup.com:- httpx_results-64.txt 6
 bmwgroup.com:- httpx_results-65.txt 3
-bmwgroup.com:- httpx_results-66.txt 7
+bmwgroup.com:- httpx_results-66.txt 8
 bmwgroup.com:- httpx_results-67.txt 9
 bmwgroup.com:- httpx_results-68.txt 1
 bmwgroup.com:- httpx_results-7.txt 43
-bmwgroup.com:- httpx_results-71.txt 6
+bmwgroup.com:- httpx_results-71.txt 7
 bmwgroup.com:- httpx_results-72.txt 4
 bmwgroup.com:- httpx_results-77.txt 1
 bmwgroup.com:- httpx_results-78.txt 1
@@ -776,10 +776,13 @@ mini.de:- httpx_results-58.txt 4
 mini.de:- httpx_results-59.txt 8
 mini.de:- httpx_results-6.txt 2
 mini.de:- httpx_results-60.txt 2
+mini.de:- httpx_results-64.txt 4
 mini.de:- httpx_results-65.txt 2
+mini.de:- httpx_results-66.txt 4
 mini.de:- httpx_results-67.txt 12
 mini.de:- httpx_results-68.txt 2
 mini.de:- httpx_results-7.txt 2
+mini.de:- httpx_results-71.txt 2
 mini.de:- httpx_results-78.txt 2
 mini.de:- httpx_results-8.txt 2
 mini.de:- httpx_results-9.txt 3
