@@ -1,4 +1,6 @@
 http://qsense-pragati-dev-int-b2d.bmwgroup.com
+http://rcc-int.bmwgroup.com
+http://rcc-int.bmwgroup.com:443
 http://rdrsales-wen.bmwgroup.com
 http://warrantywebus-i.bmwgroup.com
 http://warrantywebus.bmwgroup.com
