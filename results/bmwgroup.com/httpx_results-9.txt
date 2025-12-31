@@ -1,6 +1,7 @@
 http://api-mx.bmwgroup.com
 http://april-cert.bmwgroup.com
 http://bmw-app.bmwgroup.com
+http://bmw-cardata.bmwgroup.com:443
 http://bmw-mygarage.bmwgroup.com
 http://bmwcardata.bmwgroup.com
 http://bmwcardata.bmwgroup.com:443

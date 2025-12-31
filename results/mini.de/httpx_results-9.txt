@@ -1,3 +1,5 @@
 http://berlin-marzahn.mini.de
 http://berlin-weissensee.mini.de
 http://berlin.mini.de
+http://bilia.mini.de
+https://bilia.mini.de
