@@ -2,30 +2,30 @@
   TOTAL massdns             : 51602
 
 --- Domain: bmw.com ---
-  TOTAL httpx_results       : 714
+  TOTAL httpx_results       : 716
   TOTAL massdns             : 502
   TOTAL puredns-output      : 400
   TOTAL subdomain_ports     : 8146
 
 --- Domain: bmwgroup.com ---
-  TOTAL httpx_results       : 1357
+  TOTAL httpx_results       : 1360
   TOTAL massdns             : 1746
   TOTAL puredns-output      : 862
   TOTAL subdomain_ports     : 3081
 
 --- Domain: mini.com ---
   TOTAL httpx_results       : 5
-  TOTAL massdns             : 44210
-  TOTAL puredns-output      : 173
-  TOTAL subdomain_ports     : 70499
+  TOTAL massdns             : 38379
+  TOTAL puredns-output      : 172
+  TOTAL subdomain_ports     : 43430
 
 --- Domain: mini.com   ---
 
 --- Domain: mini.de ---
-  TOTAL httpx_results       : 241
-  TOTAL massdns             : 7445
-  TOTAL puredns-output      : 307
-  TOTAL subdomain_ports     : 10712
+  TOTAL httpx_results       : 249
+  TOTAL massdns             : 6372
+  TOTAL puredns-output      : 306
+  TOTAL subdomain_ports     : 5172
 
 
 --- Individual File Counts ---
@@ -92,7 +92,7 @@ bmw.com:- httpx_results-66.txt 10
 bmw.com:- httpx_results-67.txt 7
 bmw.com:- httpx_results-68.txt 7
 bmw.com:- httpx_results-69.txt 4
-bmw.com:- httpx_results-7.txt 19
+bmw.com:- httpx_results-7.txt 21
 bmw.com:- httpx_results-76.txt 2
 bmw.com:- httpx_results-78.txt 4
 bmw.com:- httpx_results-8.txt 15
@@ -304,7 +304,7 @@ bmwgroup.com:- httpx_results-15.txt 44
 bmwgroup.com:- httpx_results-16.txt 33
 bmwgroup.com:- httpx_results-17.txt 17
 bmwgroup.com:- httpx_results-18.txt 30
-bmwgroup.com:- httpx_results-19.txt 32
+bmwgroup.com:- httpx_results-19.txt 34
 bmwgroup.com:- httpx_results-2.txt 2
 bmwgroup.com:- httpx_results-20.txt 15
 bmwgroup.com:- httpx_results-21.txt 3
@@ -365,7 +365,7 @@ bmwgroup.com:- httpx_results-72.txt 4
 bmwgroup.com:- httpx_results-77.txt 1
 bmwgroup.com:- httpx_results-78.txt 1
 bmwgroup.com:- httpx_results-8.txt 10
-bmwgroup.com:- httpx_results-9.txt 52
+bmwgroup.com:- httpx_results-9.txt 53
 bmwgroup.com:- massdns-1.txt 1
 bmwgroup.com:- massdns-10.txt 2
 bmwgroup.com:- massdns-11.txt 11
@@ -585,18 +585,18 @@ mini.com:- httpx_results-11.txt 1
 mini.com:- httpx_results-25.txt 2
 mini.com:- httpx_results-48.txt 1
 mini.com:- httpx_results-58.txt 1
-mini.com:- massdns-0.txt 747
-mini.com:- massdns-1.txt 536
-mini.com:- massdns-10.txt 738
+mini.com:- massdns-0.txt 311
+mini.com:- massdns-1.txt 355
+mini.com:- massdns-10.txt 265
 mini.com:- massdns-11.txt 3
-mini.com:- massdns-12.txt 690
-mini.com:- massdns-13.txt 685
-mini.com:- massdns-15.txt 766
-mini.com:- massdns-16.txt 695
-mini.com:- massdns-17.txt 535
-mini.com:- massdns-18.txt 715
+mini.com:- massdns-12.txt 156
+mini.com:- massdns-13.txt 372
+mini.com:- massdns-15.txt 191
+mini.com:- massdns-16.txt 352
+mini.com:- massdns-17.txt 21
+mini.com:- massdns-18.txt 371
 mini.com:- massdns-19.txt 1
-mini.com:- massdns-2.txt 689
+mini.com:- massdns-2.txt 380
 mini.com:- massdns-21.txt 669
 mini.com:- massdns-22.txt 1
 mini.com:- massdns-23.txt 722
@@ -614,7 +614,7 @@ mini.com:- massdns-35.txt 753
 mini.com:- massdns-37.txt 1
 mini.com:- massdns-38.txt 2
 mini.com:- massdns-39.txt 1
-mini.com:- massdns-4.txt 752
+mini.com:- massdns-4.txt 217
 mini.com:- massdns-40.txt 1128
 mini.com:- massdns-41.txt 6
 mini.com:- massdns-42.txt 1
@@ -625,7 +625,7 @@ mini.com:- massdns-46.txt 2
 mini.com:- massdns-47.txt 1223
 mini.com:- massdns-48.txt 2
 mini.com:- massdns-49.txt 1
-mini.com:- massdns-5.txt 703
+mini.com:- massdns-5.txt 322
 mini.com:- massdns-50.txt 3
 mini.com:- massdns-51.txt 970
 mini.com:- massdns-53.txt 1144
@@ -635,6 +635,7 @@ mini.com:- massdns-56.txt 1
 mini.com:- massdns-57.txt 1101
 mini.com:- massdns-58.txt 1
 mini.com:- massdns-59.txt 1231
+mini.com:- massdns-6.txt 378
 mini.com:- massdns-61.txt 1
 mini.com:- massdns-62.txt 1199
 mini.com:- massdns-63.txt 1141
@@ -642,7 +643,7 @@ mini.com:- massdns-64.txt 1127
 mini.com:- massdns-65.txt 1184
 mini.com:- massdns-66.txt 1131
 mini.com:- massdns-68.txt 1234
-mini.com:- massdns-7.txt 774
+mini.com:- massdns-7.txt 417
 mini.com:- massdns-71.txt 1133
 mini.com:- massdns-72.txt 1
 mini.com:- massdns-73.txt 1166
@@ -651,8 +652,8 @@ mini.com:- massdns-75.txt 1091
 mini.com:- massdns-76.txt 1158
 mini.com:- massdns-77.txt 1111
 mini.com:- massdns-78.txt 737
-mini.com:- massdns-8.txt 685
-mini.com:- massdns-9.txt 685
+mini.com:- massdns-8.txt 163
+mini.com:- massdns-9.txt 293
 mini.com:- puredns-output-11.txt 5
 mini.com:- puredns-output-14.txt 3
 mini.com:- puredns-output-19.txt 1
@@ -676,24 +677,22 @@ mini.com:- puredns-output-52.txt 1
 mini.com:- puredns-output-55.txt 5
 mini.com:- puredns-output-56.txt 1
 mini.com:- puredns-output-58.txt 1
-mini.com:- puredns-output-6.txt 1
 mini.com:- puredns-output-60.txt 3
 mini.com:- puredns-output-61.txt 2
 mini.com:- puredns-output-67.txt 1
 mini.com:- puredns-output-69.txt 83
 mini.com:- puredns-output-70.txt 25
 mini.com:- puredns-output-72.txt 3
-mini.com:- subdomain_ports-0.txt 2235
-mini.com:- subdomain_ports-1.txt 1608
-mini.com:- subdomain_ports-10.txt 2203
+mini.com:- subdomain_ports-0.txt 274
+mini.com:- subdomain_ports-1.txt 321
+mini.com:- subdomain_ports-10.txt 235
 mini.com:- subdomain_ports-11.txt 1
-mini.com:- subdomain_ports-12.txt 2064
-mini.com:- subdomain_ports-13.txt 2049
-mini.com:- subdomain_ports-15.txt 2290
-mini.com:- subdomain_ports-16.txt 2074
-mini.com:- subdomain_ports-17.txt 1605
-mini.com:- subdomain_ports-18.txt 2139
-mini.com:- subdomain_ports-2.txt 2061
+mini.com:- subdomain_ports-12.txt 127
+mini.com:- subdomain_ports-13.txt 334
+mini.com:- subdomain_ports-15.txt 160
+mini.com:- subdomain_ports-16.txt 317
+mini.com:- subdomain_ports-18.txt 344
+mini.com:- subdomain_ports-2.txt 343
 mini.com:- subdomain_ports-21.txt 2001
 mini.com:- subdomain_ports-23.txt 2159
 mini.com:- subdomain_ports-24.txt 2124
@@ -706,27 +705,28 @@ mini.com:- subdomain_ports-32.txt 2338
 mini.com:- subdomain_ports-33.txt 2111
 mini.com:- subdomain_ports-34.txt 2088
 mini.com:- subdomain_ports-35.txt 2253
-mini.com:- subdomain_ports-4.txt 2250
+mini.com:- subdomain_ports-4.txt 190
 mini.com:- subdomain_ports-40.txt 579
 mini.com:- subdomain_ports-43.txt 594
 mini.com:- subdomain_ports-44.txt 630
 mini.com:- subdomain_ports-45.txt 505
 mini.com:- subdomain_ports-47.txt 616
 mini.com:- subdomain_ports-48.txt 1
-mini.com:- subdomain_ports-5.txt 2102
+mini.com:- subdomain_ports-5.txt 287
 mini.com:- subdomain_ports-51.txt 492
 mini.com:- subdomain_ports-53.txt 605
 mini.com:- subdomain_ports-54.txt 560
 mini.com:- subdomain_ports-57.txt 580
 mini.com:- subdomain_ports-58.txt 1
 mini.com:- subdomain_ports-59.txt 647
+mini.com:- subdomain_ports-6.txt 327
 mini.com:- subdomain_ports-62.txt 628
 mini.com:- subdomain_ports-63.txt 1400
 mini.com:- subdomain_ports-64.txt 1406
 mini.com:- subdomain_ports-65.txt 597
 mini.com:- subdomain_ports-66.txt 1517
 mini.com:- subdomain_ports-68.txt 635
-mini.com:- subdomain_ports-7.txt 2306
+mini.com:- subdomain_ports-7.txt 361
 mini.com:- subdomain_ports-71.txt 543
 mini.com:- subdomain_ports-73.txt 575
 mini.com:- subdomain_ports-74.txt 415
@@ -734,9 +734,9 @@ mini.com:- subdomain_ports-75.txt 533
 mini.com:- subdomain_ports-76.txt 611
 mini.com:- subdomain_ports-77.txt 543
 mini.com:- subdomain_ports-78.txt 374
-mini.com:- subdomain_ports-8.txt 2049
-mini.com:- subdomain_ports-9.txt 2049
-mini.de:- httpx_results-10.txt 14
+mini.com:- subdomain_ports-8.txt 135
+mini.com:- subdomain_ports-9.txt 260
+mini.de:- httpx_results-10.txt 18
 mini.de:- httpx_results-13.txt 4
 mini.de:- httpx_results-15.txt 4
 mini.de:- httpx_results-17.txt 2
@@ -781,23 +781,22 @@ mini.de:- httpx_results-65.txt 2
 mini.de:- httpx_results-66.txt 4
 mini.de:- httpx_results-67.txt 12
 mini.de:- httpx_results-68.txt 2
-mini.de:- httpx_results-7.txt 2
+mini.de:- httpx_results-7.txt 4
 mini.de:- httpx_results-71.txt 2
 mini.de:- httpx_results-78.txt 2
 mini.de:- httpx_results-8.txt 2
-mini.de:- httpx_results-9.txt 3
-mini.de:- massdns-0.txt 637
-mini.de:- massdns-1.txt 335
+mini.de:- httpx_results-9.txt 5
+mini.de:- massdns-0.txt 415
+mini.de:- massdns-1.txt 406
 mini.de:- massdns-10.txt 8
-mini.de:- massdns-11.txt 572
-mini.de:- massdns-12.txt 571
+mini.de:- massdns-12.txt 23
 mini.de:- massdns-13.txt 2
 mini.de:- massdns-15.txt 2
-mini.de:- massdns-16.txt 1
+mini.de:- massdns-16.txt 386
 mini.de:- massdns-17.txt 1
 mini.de:- massdns-18.txt 2
 mini.de:- massdns-19.txt 5
-mini.de:- massdns-2.txt 643
+mini.de:- massdns-2.txt 456
 mini.de:- massdns-20.txt 5
 mini.de:- massdns-21.txt 3
 mini.de:- massdns-22.txt 3
@@ -856,11 +855,11 @@ mini.de:- massdns-77.txt 426
 mini.de:- massdns-78.txt 2
 mini.de:- massdns-8.txt 1
 mini.de:- massdns-9.txt 4
-mini.de:- puredns-output-10.txt 9
+mini.de:- puredns-output-10.txt 8
+mini.de:- puredns-output-11.txt 1
 mini.de:- puredns-output-13.txt 4
 mini.de:- puredns-output-14.txt 1
 mini.de:- puredns-output-15.txt 2
-mini.de:- puredns-output-16.txt 1
 mini.de:- puredns-output-17.txt 1
 mini.de:- puredns-output-18.txt 4
 mini.de:- puredns-output-19.txt 5
@@ -920,18 +919,17 @@ mini.de:- puredns-output-73.txt 1
 mini.de:- puredns-output-78.txt 2
 mini.de:- puredns-output-8.txt 1
 mini.de:- puredns-output-9.txt 5
-mini.de:- subdomain_ports-0.txt 1899
-mini.de:- subdomain_ports-1.txt 999
+mini.de:- subdomain_ports-0.txt 234
+mini.de:- subdomain_ports-1.txt 245
 mini.de:- subdomain_ports-10.txt 16
 mini.de:- subdomain_ports-11.txt 1710
-mini.de:- subdomain_ports-12.txt 1702
 mini.de:- subdomain_ports-13.txt 4
 mini.de:- subdomain_ports-15.txt 4
-mini.de:- subdomain_ports-16.txt 2
+mini.de:- subdomain_ports-16.txt 216
 mini.de:- subdomain_ports-17.txt 2
 mini.de:- subdomain_ports-18.txt 4
 mini.de:- subdomain_ports-19.txt 2
-mini.de:- subdomain_ports-2.txt 1918
+mini.de:- subdomain_ports-2.txt 285
 mini.de:- subdomain_ports-20.txt 8
 mini.de:- subdomain_ports-21.txt 6
 mini.de:- subdomain_ports-22.txt 6
