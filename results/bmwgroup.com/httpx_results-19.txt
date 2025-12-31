@@ -9,6 +9,8 @@ http://cfs-test4.bmwgroup.com:443
 http://cfs-uk-int3.bmwgroup.com
 http://cfsza.bmwgroup.com
 http://drfp.bmwgroup.com
+http://dsccorporate-prod.bmwgroup.com
+http://dsccorporate-prod.bmwgroup.com:443
 http://dtos-bmw-iv4.bmwgroup.com
 http://dtos-mini-iv4.bmwgroup.com
 http://dtos-mini-pv4.bmwgroup.com
