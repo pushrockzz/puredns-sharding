@@ -1,6 +1,8 @@
 http://5trias2.bmwgroup.com
+http://adf-qa2-b2b-wen12-2.bmwgroup.com
 http://adf-qa2-b2b-wen12-2.bmwgroup.com:443
 http://adfus-qa1.bmwgroup.com
+http://adfus-qa1.bmwgroup.com:443
 http://admin.bmwgroup.com
 http://aida-i.bmwgroup.com
 http://aida.bmwgroup.com
