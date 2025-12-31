@@ -1,5 +1,6 @@
 http://netftnoa-int.bmwgroup.com
 http://nhtsa-i.bmwgroup.com
+http://nhtsa-i.bmwgroup.com:443
 http://nhtsa.bmwgroup.com
 http://nhtsa.bmwgroup.com:443
 http://sms-int.bmwgroup.com
