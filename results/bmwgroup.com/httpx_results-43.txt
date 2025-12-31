@@ -1,6 +1,7 @@
 http://hewint.bmwgroup.com
 http://n3wen.bmwgroup.com
 http://ndsus-test.bmwgroup.com
+http://neainfra-us-int.bmwgroup.com:443
 https://auth-next.bmwgroup.com
 https://hewint.bmwgroup.com
 https://n3wen.bmwgroup.com
