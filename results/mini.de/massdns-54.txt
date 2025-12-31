@@ -1,5 +1,3 @@
-saarbruecken.mini.de A 160.46.226.164
-saarland.mini.de A 160.46.226.164
 saarlouis.mini.de A 160.46.226.164
 schaal.mini.de A 160.46.226.164
 schaefer.mini.de A 160.46.226.164

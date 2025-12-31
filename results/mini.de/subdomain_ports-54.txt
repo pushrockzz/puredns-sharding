@@ -1,7 +1,3 @@
-saarbruecken.mini.de:443
-saarbruecken.mini.de:80
-saarland.mini.de:443
-saarland.mini.de:80
 saarlouis.mini.de:443
 saarlouis.mini.de:80
 schaal.mini.de:443
