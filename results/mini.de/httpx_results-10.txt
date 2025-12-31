@@ -2,6 +2,7 @@ http://boesser.mini.de
 http://bonn.mini.de
 http://boomers.mini.de
 http://brammer.mini.de
+http://brandenburg.mini.de
 http://bremen.mini.de
 http://briem.mini.de
 http://briem.mini.de:443
@@ -11,4 +12,7 @@ https://boesser.mini.de
 https://bonn.mini.de
 https://boomers.mini.de
 https://brammer.mini.de
+https://brandenburg.mini.de
 https://bremen.mini.de
+https://briem.mini.de
+https://brinkmann.mini.de
