@@ -5,6 +5,7 @@ http://cms-containerprices.bmwgroup.com:443
 http://cobis-training.bmwgroup.com
 http://compass-cmt.bmwgroup.com
 http://concesionarios-es.bmwgroup.com
+http://concesionarios-es.bmwgroup.com:443
 http://directfinance-bwint2.bmwgroup.com
 http://dopedu-i-neu.bmwgroup.com
 http://dtos-mc-pv4.bmwgroup.com
