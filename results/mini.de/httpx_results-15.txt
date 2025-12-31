@@ -1,4 +1,5 @@
 http://cuntz-speyer.mini.de
 http://cuntz.mini.de
+http://cuntz.mini.de:443
 https://cuntz-speyer.mini.de
 https://cuntz.mini.de
