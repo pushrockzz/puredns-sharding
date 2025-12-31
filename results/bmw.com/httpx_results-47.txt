@@ -1,6 +1,8 @@
 http://imm-test3-gf3.bmw.com
 http://imobileauth.bmw.com
 http://pbe-sdv-int.bmw.com
+http://pbe-sdv-prod.bmw.com
+http://pbe-sdv-prod.bmw.com:443
 http://term-prod.bmw.com
 https://imm-int3-gf3.bmw.com
 https://imm-int7-gf3.bmw.com
