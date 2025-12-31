@@ -1,0 +1,3 @@
+clubs.ucsa.org.nz:22
+clubs.ucsa.org.nz:443
+clubs.ucsa.org.nz:80
