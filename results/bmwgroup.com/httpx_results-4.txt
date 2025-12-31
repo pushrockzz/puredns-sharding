@@ -3,6 +3,7 @@ http://air-services-int.bmwgroup.com
 http://air-services-qa1.bmwgroup.com
 http://air-us-gf4.bmwgroup.com
 http://alclaims.bmwgroup.com
+http://alclaims.bmwgroup.com:443
 http://alertnowp00.bmwgroup.com
 http://alertnowp03.bmwgroup.com
 http://alertnowp07.bmwgroup.com
