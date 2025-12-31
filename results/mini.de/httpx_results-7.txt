@@ -1,2 +1,4 @@
 http://augsburg.mini.de
+http://automag.mini.de
 https://augsburg.mini.de
+https://automag.mini.de
