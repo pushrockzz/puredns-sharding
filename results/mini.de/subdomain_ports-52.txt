@@ -4,10 +4,6 @@ reisacher.mini.de:443
 reisacher.mini.de:80
 reith.mini.de:443
 reith.mini.de:80
-rene-partl.mini.de:443
-rene-partl.mini.de:80
-rent.mini.de:443
-rent.mini.de:80
 res.email.mini.de
 reuter.mini.de:443
 reuter.mini.de:80
