@@ -1,4 +1,6 @@
 http://sf5-digital-sit.bmwgroup.com:443
+http://sgate-dev.bmwgroup.com
+http://sgate-int.bmwgroup.com
 http://www.parts-n.bmwgroup.com
 http://www.press-i.bmwgroup.com
 http://www.srpmm-integration.bmwgroup.com
