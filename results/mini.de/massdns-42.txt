@@ -1,3 +1,2 @@
-mta.news.mini.de A 161.71.35.80
 muenchen.mini.de A 160.46.244.54
 munding.mini.de A 160.46.226.164

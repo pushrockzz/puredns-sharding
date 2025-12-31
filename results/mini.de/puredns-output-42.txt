@@ -1,4 +1,3 @@
-mta.news.mini.de
 muenchen.mini.de
 munding.mini.de
 mustermann.mini.de
