@@ -1,6 +1,7 @@
 http://boveda-mx.bmwgroup.com
 http://dcom-bmwindia.bmwgroup.com
 http://dcs-es.bmwgroup.com
+http://dcs-es.bmwgroup.com:443
 http://dcsus.bmwgroup.com
 http://ddp-dev.bmwgroup.com
 http://ddp-dev.bmwgroup.com:443
