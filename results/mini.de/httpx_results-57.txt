@@ -1,2 +1,3 @@
 http://sperber.mini.de
+http://sperber.mini.de:443
 https://sperber.mini.de
