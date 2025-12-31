@@ -1,4 +1,5 @@
 http://chemnitz.mini.de
 http://cloppenburg.mini.de
+http://cloppenburg.mini.de:443
 https://chemnitz.mini.de
 https://cloppenburg.mini.de
