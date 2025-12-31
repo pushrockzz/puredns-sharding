@@ -3,7 +3,9 @@ http://saarland.mini.de
 http://saarland.mini.de:443
 http://saarlouis.mini.de
 http://schaal.mini.de
+http://schaal.mini.de:443
 http://schaefer.mini.de
+http://schaefer.mini.de:443
 http://scheller.mini.de
 http://schneider.mini.de
 http://schneider.mini.de:443
