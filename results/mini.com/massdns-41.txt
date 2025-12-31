@@ -1,6 +1,5 @@
 mini-archives-int.mini.com A 160.46.227.89
 mini-classic-int.mini.com A 160.46.227.89
-mini-connected-gfi.mini.com A 160.46.249.213
 mini-connected-i.mini.com A 160.46.251.193
 mini-connected.mini.com A 160.46.247.177
 mobile-old.mini.com A 62.50.45.166

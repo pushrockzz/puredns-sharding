@@ -1,3 +1,2 @@
-mini-archiv-int.mini.de A 160.46.227.89
 mini-classic-int.mini.de A 160.46.227.89
 minke.mini.de A 160.46.226.164
