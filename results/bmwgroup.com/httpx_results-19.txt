@@ -14,6 +14,7 @@ http://dsccorporate-prod.bmwgroup.com:443
 http://dtos-bmw-iv4.bmwgroup.com
 http://dtos-mini-iv4.bmwgroup.com
 http://dtos-mini-pv4.bmwgroup.com
+http://dwp-dev.bmwgroup.com
 https://cfjp-dealerportal.bmwgroup.com
 https://cfs-ch-int3.bmwgroup.com
 https://cfs-cs-int1.bmwgroup.com
