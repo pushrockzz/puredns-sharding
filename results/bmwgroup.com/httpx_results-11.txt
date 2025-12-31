@@ -4,6 +4,7 @@ http://at-fpmwenint.bmwgroup.com
 http://at-gd-int.bmwgroup.com
 http://at-gkmwen.bmwgroup.com
 http://cadlrinv-prod.bmwgroup.com
+http://cadlrinv-prod.bmwgroup.com:443
 http://carmenrfeisaml.bmwgroup.com
 http://compass-cmt.bmwgroup.com
 http://cq5bmwna-new.bmwgroup.com
