@@ -1,4 +1,5 @@
 http://rlbmw-int-ssl.bmw.com
+http://rplan5-i-b2b.bmw.com:443
 http://rrmc-prod-r1.bmw.com
 http://rrmc-prod-r1.bmw.com:443
 http://www-origin-proda1.bmw.com
