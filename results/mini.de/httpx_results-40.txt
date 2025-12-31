@@ -4,3 +4,6 @@ http://mendler.mini.de
 http://mendler.mini.de:443
 http://menton.mini.de
 http://menton.mini.de:443
+https://melter.mini.de
+https://mendler.mini.de
+https://menton.mini.de
