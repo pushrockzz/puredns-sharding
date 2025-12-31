@@ -3,6 +3,8 @@ http://stuttgart-vaihingen.mini.de
 http://stuttgart-vaihingen.mini.de:443
 http://stuttgart.mini.de
 http://subscribe.mini.de
+http://suhl.mini.de
+http://suhl.mini.de:443
 https://strauss.mini.de
 https://stuttgart-vaihingen.mini.de
 https://stuttgart.mini.de
