@@ -11,9 +11,12 @@ http://schnitzler.mini.de
 http://schubert.mini.de
 http://schubert.mini.de:443
 http://schwarz.mini.de
+http://schwarz.mini.de:443
 https://saarbruecken.mini.de
 https://saarlouis.mini.de
 https://schaal.mini.de
 https://schaefer.mini.de
 https://scheller.mini.de
+https://schneider.mini.de
+https://schubert.mini.de
 https://schwarz.mini.de
