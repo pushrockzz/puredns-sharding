@@ -8,10 +8,16 @@
   TOTAL subdomain_ports     : 8146
 
 --- Domain: bmwgroup.com ---
-  TOTAL httpx_results       : 1362
+  TOTAL httpx_results       : 1369
   TOTAL massdns             : 1746
   TOTAL puredns-output      : 862
   TOTAL subdomain_ports     : 3081
+
+--- Domain: canterbury.ac.nz	 ---
+
+--- Domain: hitlabnz.org	 ---
+
+--- Domain: koawa.co.nz	 ---
 
 --- Domain: mini.com ---
   TOTAL httpx_results       : 5
@@ -22,10 +28,17 @@
 --- Domain: mini.com   ---
 
 --- Domain: mini.de ---
-  TOTAL httpx_results       : 258
+  TOTAL httpx_results       : 261
   TOTAL massdns             : 7064
   TOTAL puredns-output      : 299
   TOTAL subdomain_ports     : 6925
+
+--- Domain: uconline.ac.nz	 ---
+
+--- Domain: ucsa.org.nz ---
+  TOTAL massdns             : 19986
+  TOTAL puredns-output      : 1
+  TOTAL subdomain_ports     : 20154
 
 
 --- Individual File Counts ---
@@ -296,15 +309,15 @@ bmw.com:- subdomain_ports-78.txt 4
 bmw.com:- subdomain_ports-8.txt 3
 bmwgroup.com:- httpx_results-1.txt 3
 bmwgroup.com:- httpx_results-10.txt 13
-bmwgroup.com:- httpx_results-11.txt 35
+bmwgroup.com:- httpx_results-11.txt 36
 bmwgroup.com:- httpx_results-12.txt 22
 bmwgroup.com:- httpx_results-13.txt 41
-bmwgroup.com:- httpx_results-14.txt 21
+bmwgroup.com:- httpx_results-14.txt 22
 bmwgroup.com:- httpx_results-15.txt 44
-bmwgroup.com:- httpx_results-16.txt 33
+bmwgroup.com:- httpx_results-16.txt 34
 bmwgroup.com:- httpx_results-17.txt 17
 bmwgroup.com:- httpx_results-18.txt 30
-bmwgroup.com:- httpx_results-19.txt 34
+bmwgroup.com:- httpx_results-19.txt 35
 bmwgroup.com:- httpx_results-2.txt 2
 bmwgroup.com:- httpx_results-20.txt 15
 bmwgroup.com:- httpx_results-21.txt 3
@@ -316,7 +329,7 @@ bmwgroup.com:- httpx_results-26.txt 11
 bmwgroup.com:- httpx_results-27.txt 10
 bmwgroup.com:- httpx_results-28.txt 3
 bmwgroup.com:- httpx_results-29.txt 9
-bmwgroup.com:- httpx_results-3.txt 48
+bmwgroup.com:- httpx_results-3.txt 50
 bmwgroup.com:- httpx_results-30.txt 19
 bmwgroup.com:- httpx_results-31.txt 57
 bmwgroup.com:- httpx_results-32.txt 24
@@ -327,7 +340,7 @@ bmwgroup.com:- httpx_results-36.txt 9
 bmwgroup.com:- httpx_results-37.txt 35
 bmwgroup.com:- httpx_results-38.txt 14
 bmwgroup.com:- httpx_results-39.txt 5
-bmwgroup.com:- httpx_results-4.txt 26
+bmwgroup.com:- httpx_results-4.txt 27
 bmwgroup.com:- httpx_results-40.txt 16
 bmwgroup.com:- httpx_results-41.txt 37
 bmwgroup.com:- httpx_results-42.txt 26
@@ -737,8 +750,8 @@ mini.com:- subdomain_ports-78.txt 374
 mini.com:- subdomain_ports-8.txt 135
 mini.com:- subdomain_ports-9.txt 260
 mini.de:- httpx_results-10.txt 18
-mini.de:- httpx_results-13.txt 4
-mini.de:- httpx_results-15.txt 4
+mini.de:- httpx_results-13.txt 5
+mini.de:- httpx_results-15.txt 5
 mini.de:- httpx_results-17.txt 2
 mini.de:- httpx_results-18.txt 4
 mini.de:- httpx_results-19.txt 2
@@ -774,7 +787,7 @@ mini.de:- httpx_results-54.txt 22
 mini.de:- httpx_results-57.txt 3
 mini.de:- httpx_results-58.txt 4
 mini.de:- httpx_results-59.txt 9
-mini.de:- httpx_results-6.txt 2
+mini.de:- httpx_results-6.txt 3
 mini.de:- httpx_results-60.txt 2
 mini.de:- httpx_results-64.txt 4
 mini.de:- httpx_results-65.txt 2
@@ -984,3 +997,44 @@ mini.de:- subdomain_ports-77.txt 53
 mini.de:- subdomain_ports-78.txt 2
 mini.de:- subdomain_ports-8.txt 2
 mini.de:- subdomain_ports-9.txt 5
+ucsa.org.nz:- massdns-0.txt 1020
+ucsa.org.nz:- massdns-1.txt 1259
+ucsa.org.nz:- massdns-10.txt 1004
+ucsa.org.nz:- massdns-11.txt 1159
+ucsa.org.nz:- massdns-12.txt 1021
+ucsa.org.nz:- massdns-13.txt 1
+ucsa.org.nz:- massdns-14.txt 1179
+ucsa.org.nz:- massdns-15.txt 976
+ucsa.org.nz:- massdns-16.txt 996
+ucsa.org.nz:- massdns-17.txt 1035
+ucsa.org.nz:- massdns-18.txt 1154
+ucsa.org.nz:- massdns-19.txt 1077
+ucsa.org.nz:- massdns-2.txt 963
+ucsa.org.nz:- massdns-3.txt 1040
+ucsa.org.nz:- massdns-4.txt 952
+ucsa.org.nz:- massdns-5.txt 1007
+ucsa.org.nz:- massdns-6.txt 1030
+ucsa.org.nz:- massdns-7.txt 1022
+ucsa.org.nz:- massdns-8.txt 1038
+ucsa.org.nz:- massdns-9.txt 1053
+ucsa.org.nz:- puredns-output-13.txt 1
+ucsa.org.nz:- subdomain_ports-0.txt 1024
+ucsa.org.nz:- subdomain_ports-1.txt 1273
+ucsa.org.nz:- subdomain_ports-10.txt 1014
+ucsa.org.nz:- subdomain_ports-11.txt 1167
+ucsa.org.nz:- subdomain_ports-12.txt 1031
+ucsa.org.nz:- subdomain_ports-13.txt 3
+ucsa.org.nz:- subdomain_ports-14.txt 1181
+ucsa.org.nz:- subdomain_ports-15.txt 980
+ucsa.org.nz:- subdomain_ports-16.txt 1002
+ucsa.org.nz:- subdomain_ports-17.txt 1049
+ucsa.org.nz:- subdomain_ports-18.txt 1158
+ucsa.org.nz:- subdomain_ports-19.txt 1089
+ucsa.org.nz:- subdomain_ports-2.txt 971
+ucsa.org.nz:- subdomain_ports-3.txt 1056
+ucsa.org.nz:- subdomain_ports-4.txt 954
+ucsa.org.nz:- subdomain_ports-5.txt 1019
+ucsa.org.nz:- subdomain_ports-6.txt 1040
+ucsa.org.nz:- subdomain_ports-7.txt 1032
+ucsa.org.nz:- subdomain_ports-8.txt 1046
+ucsa.org.nz:- subdomain_ports-9.txt 1065
