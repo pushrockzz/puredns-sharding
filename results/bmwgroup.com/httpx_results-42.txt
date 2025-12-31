@@ -15,6 +15,7 @@ http://salesassistant.bmwgroup.com
 http://sas-int.bmwgroup.com
 https://hakat-prod.bmwgroup.com
 https://motorplanza-tst.bmwgroup.com
+https://mvsg53maav.bmwgroup.com
 https://myair-b2i-qa1.gf4.bmwgroup.com
 https://myair-i3-qa2.bmwgroup.com
 https://mybmwpub-i.bmwgroup.com
